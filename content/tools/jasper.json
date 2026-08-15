@@ -1,0 +1,67 @@
+{
+  "slug": "jasper",
+  "name": "Jasper",
+  "logo": "",
+  "website": "https://www.jasper.ai",
+  "category": "ai-writing-content",
+  "subcategories": ["AI Copywriting", "Brand Voice", "Marketing Content"],
+  "tagline": "One of the original AI copywriting platforms, now built for brand-consistent marketing content at scale.",
+  "tldr": [
+    "Jasper (formerly Jarvis / Conversion.ai) is an AI writing platform built for marketing teams, offering brand voice, knowledge assets, and templates for blog, ad, and social copy.",
+    "Best for marketing teams and businesses that need repeatable, on-brand content across many formats rather than solo one-off writing.",
+    "Was one of the fastest-growing SaaS companies ever pre-ChatGPT, reportedly reaching $45M ARR in about 12 months before general-purpose chatbots reshaped the AI-writing market.",
+    "Simplified its pricing in 2026 down to two core plans (Pro and Business), discontinuing the older Creator tier and migrating existing Creator users to Pro at a higher price.",
+    "Positioned as a professional-grade tool for teams needing brand consistency, but reviewers note it still requires human editing and supervision."
+  ],
+  "pricing": {
+    "model": "Subscription, no free tier (7-day free trial)",
+    "startingPrice": "$59/mo",
+    "plans": [
+      { "name": "Pro", "price": "$59/mo (annual) / $69/mo (monthly)", "billing": "Per seat, monthly or annual", "notes": "1 user seat (expandable), Canvas, 2 Brand Voices, 5 Knowledge assets, 3 Audiences, Jasper Chat, AI Image Suite; replaced the older Creator tier in 2026" },
+      { "name": "Business", "price": "Custom", "billing": "Custom/invoice", "notes": "Unlimited Brand Voices/Knowledge/Audiences, Jasper Agents, AI App Builder (Studio), API access, SSO, dedicated account manager" }
+    ]
+  },
+  "pros": [
+    "Brand Voice and Knowledge Base features help keep output consistent across a marketing team",
+    "Wide library of templates covering blog, ad, and social copy speeds up routine content production",
+    "Long track record and enterprise customer base gives it credibility for larger marketing orgs",
+    "Jasper Chat and AI Image Suite bundle text and basic image generation in one subscription"
+  ],
+  "cons": [
+    "No free tier: users must commit to a paid plan (after a 7-day trial) to use the product at all",
+    "2026 pricing restructure discontinued the cheaper Creator tier, raising costs for existing lower-tier subscribers",
+    "Output still requires meaningful human editing; some reviewers describe it as a 'sophisticated' starting draft rather than finished copy",
+    "Business-tier pricing is opaque (custom quote only), making cost comparison harder for larger teams"
+  ],
+  "sentiment": [
+    {
+      "quote": "Gives many outputs with little information given. The outputs sound like a human wrote them, even though it's through a AI system.",
+      "source": "TrustRadius",
+      "url": "https://www.trustradius.com/reviews/jasper-ai-2022-06-27-10-57-07",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "I like to use it because I can produce blog posts, articles, social media posts very safely and efficiently.",
+      "source": "TrustRadius",
+      "url": "https://www.trustradius.com/reviews/jasper-ai-2022-06-27-10-57-07",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "An expensive interface for products and services you can get considerably cheaper (even free) elsewhere.",
+      "source": "Trustpilot",
+      "url": "https://www.trustpilot.com/review/www.jasper.ai",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Marketing teams needing consistent brand voice across many writers",
+    "Agencies producing high-volume, repeatable content formats (blogs, ads, social)",
+    "Businesses that want AI writing bundled with basic image generation",
+    "Teams that can commit to a paid seat-based plan rather than needing a free tier"
+  ],
+  "hotTake": "Jasper once scaled from zero to $45M ARR in about a year, but its 2026 pricing overhaul killed the budget Creator tier and pushed everyone onto a $59+/mo Pro plan.",
+  "trending": false,
+  "rating": 3.7,
+  "dateAdded": "2026-08-15",
+  "lastUpdated": "2026-08-15"
+}

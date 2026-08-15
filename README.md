@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Signal — AI Tool Reviews
 
-## Getting Started
+Structured, AI-citable reviews of AI tools: pricing, pros/cons, and real sentiment sourced from Reddit, X, and Hacker News.
 
-First, run the development server:
+## Getting started
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Adding a new tool (the whole point of this architecture)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Every tool is one JSON file at `content/tools/<slug>.json`, matching the `Tool` type in [`lib/schema.ts`](lib/schema.ts). Drop in a new file and the tool automatically appears on the homepage, its category page, the sitemap, and `/llms.txt` — no other code changes needed.
 
-## Learn More
+Minimum you need per tool:
+- `slug`, `name`, `website`, `category` (must match a slug in `content/categories.json`)
+- `tagline`, `tldr` (3-6 bullets — this is what gets surfaced to AI agents/crawlers)
+- `pricing.startingPrice` + `pricing.plans[]`
+- `pros` / `cons`
+- `sentiment[]` — **only include quotes you can verify are real**, each with its actual source URL. Don't fabricate quotes; better to have fewer, real ones.
+- `bestFor`, `hotTake`, `trending`, `rating`, `dateAdded`, `lastUpdated`
 
-To learn more about Next.js, take a look at the following resources:
+Adding a new category: append an entry to `content/categories.json`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Where things live
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `content/tools/*.json` — the single source of truth for every tool
+- `content/categories.json` — category definitions
+- `lib/tools.ts` — data loaders (`getAllTools`, `getToolBySlug`, `getTrendingTools`, etc.)
+- `lib/jsonld.ts` — generates `Product`/`Offer` schema.org JSON-LD per tool page
+- `app/llms.txt/route.ts` — auto-generated AI-citability index at `/llms.txt`
+- `app/sitemap.ts` / `app/robots.ts` — auto-generated from content, no manual updates needed
 
-## Deploy on Vercel
+## Deploying
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Recommended: [Vercel](https://vercel.com/new) — zero-config for Next.js. Before going live, update `SITE_URL` in `lib/jsonld.ts`, `app/sitemap.ts`, and `app/llms.txt/route.ts` from the `example.com` placeholder to the real domain.

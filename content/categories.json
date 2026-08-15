@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "ai-coding-assistants",
+    "name": "AI Coding Assistants",
+    "description": "Tools that write, complete, refactor, or review code inside your editor or terminal.",
+    "icon": "code"
+  },
+  {
+    "slug": "ai-video-generation",
+    "name": "AI Video Generation",
+    "description": "Text-to-video, avatar, and editing tools that generate or transform video with AI.",
+    "icon": "video"
+  },
+  {
+    "slug": "ai-writing-content",
+    "name": "AI Writing & Content",
+    "description": "AI copywriting and content-generation tools for marketing, blogs, and long-form writing.",
+    "icon": "pen"
+  },
+  {
+    "slug": "ai-image-generation",
+    "name": "AI Image Generation",
+    "description": "Text-to-image and design tools that generate original artwork, product shots, and graphics.",
+    "icon": "image"
+  }
+]

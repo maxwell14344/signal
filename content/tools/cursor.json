@@ -1,0 +1,71 @@
+{
+  "slug": "cursor",
+  "name": "Cursor",
+  "logo": "",
+  "website": "https://cursor.com",
+  "category": "ai-coding-assistants",
+  "subcategories": ["AI Code Editor", "Agent Mode", "VS Code Fork"],
+  "tagline": "A VS Code fork rebuilt from the ground up around AI-driven coding.",
+  "tldr": [
+    "Cursor is a standalone code editor (forked from VS Code) with AI autocomplete, chat, and multi-file agent features built directly into the core editor rather than bolted on as an extension.",
+    "Best for developers who want deep, editor-native AI assistance including large refactors, multi-file edits, and autonomous 'agent' coding sessions.",
+    "Uses a credit-based billing system (since mid-2025) where each paid plan includes a spendable credit pool; an 'Auto' mode is unlimited on paid plans while manually picking frontier models like Claude or GPT burns credits faster.",
+    "Backed by major funding rounds and reportedly surpassed $2B in annualized revenue in 2026, making it one of the fastest-growing developer tools ever.",
+    "Competes directly with GitHub Copilot and Anthropic's Claude Code, with community debate centered on whether its pricing is worth it versus alternatives."
+  ],
+  "pricing": {
+    "model": "Freemium, credit-based usage billing",
+    "startingPrice": "$20/mo",
+    "plans": [
+      { "name": "Hobby", "price": "$0", "billing": "Free", "notes": "Limited agent requests and Tab completions; no credit card required" },
+      { "name": "Pro", "price": "$20/mo", "billing": "Monthly (20% off annual)", "notes": "Extended agent limits, frontier model access, MCPs, cloud agents, Bugbot usage-based add-on" },
+      { "name": "Pro+", "price": "$60/mo", "billing": "Monthly", "notes": "~3x the usage credits of Pro" },
+      { "name": "Ultra", "price": "$200/mo", "billing": "Monthly", "notes": "~20x the usage credits of Pro; priority access to new features" },
+      { "name": "Teams", "price": "$40/user/mo", "billing": "Monthly per seat", "notes": "Centralized billing/admin, team marketplace, Bugbot, shared cloud agents, SAML/OIDC SSO" },
+      { "name": "Enterprise", "price": "Custom", "billing": "Custom/invoice", "notes": "Pooled usage, SCIM, access controls, audit logs, priority support" }
+    ]
+  },
+  "pros": [
+    "Deep, editor-native integration makes multi-file agentic edits feel faster than extension-based tools",
+    "Fast-moving product with frequent, well-received feature releases (e.g. Composer, Cursor 2.0/3.0 agent interface)",
+    "Strong diff/review UI makes it easy to see and accept AI-proposed changes at a glance",
+    "Access to multiple frontier models (Claude, GPT, Grok) from one interface"
+  ],
+  "cons": [
+    "Credit-based pricing can get expensive fast for heavy users who frequently invoke premium/frontier models",
+    "Some users report the editor is noticeably heavier on CPU/RAM than plain VS Code despite being a fork of it",
+    "Pricing model changed significantly in 2025, and some users were surprised by usage-based overage costs",
+    "Power users doing constant large refactors say the monthly request/credit pool runs out before the billing cycle ends"
+  ],
+  "sentiment": [
+    {
+      "quote": "Just setup my team with Cursor. They actually got back to me on an enterprise plan (Claude keeps ignoring me).",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48554513",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "I stopped using Cursor because of how terribly optimised it is (worse than VSCode despite being a fork).",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48554513",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "It's my primary. Claude Code for personal stuff on the weekends. I really just prefer the GUI of having the changes easily highlighted.",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=48554513",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "Developers who want AI woven directly into the editor rather than as a plugin",
+    "Teams doing large, multi-file refactors or agentic coding sessions",
+    "Users who want a choice of frontier models (Claude, GPT, Grok) in one place",
+    "Startups needing responsive enterprise support for AI coding tooling"
+  ],
+  "hotTake": "Cursor reportedly crossed $2B in annualized revenue in 2026, but its credit-based pricing means the $20/mo sticker price is really just the floor, not the ceiling.",
+  "trending": true,
+  "rating": 4.4,
+  "dateAdded": "2026-08-15",
+  "lastUpdated": "2026-08-15"
+}

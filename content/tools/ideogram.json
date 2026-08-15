@@ -1,0 +1,64 @@
+{
+  "slug": "ideogram",
+  "name": "Ideogram",
+  "logo": "",
+  "website": "https://ideogram.ai",
+  "category": "ai-image-generation",
+  "subcategories": ["Text-to-Image", "Typography/Text Rendering", "Design Graphics"],
+  "tagline": "The AI image generator built specifically to get in-image text and typography right.",
+  "tldr": [
+    "Ideogram is a text-to-image AI model that specializes in accurately rendering legible text inside generated images, an area where most competitors historically struggled.",
+    "Best for designers and marketers making posters, logos, packaging mockups, and marketing graphics where readable in-image text matters.",
+    "Reviewers cite roughly 90% text-rendering accuracy for Ideogram versus much lower success rates for general models like Midjourney on the same kind of prompts.",
+    "Offers a genuine free tier (10 slow credits/week, public images) plus paid Plus, Pro, and Team plans with priority credits that scale with price.",
+    "With the 2026 release of Ideogram 4.0, the platform has expanded beyond pure typography into broader design and creative image generation."
+  ],
+  "pricing": {
+    "model": "Freemium, credit-based subscription",
+    "startingPrice": "$15/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "10 slow credits/week, 1 concurrent generation, images public by default, includes commercial rights" },
+      { "name": "Plus", "price": "$15/mo (annual) / ~$20/mo (monthly)", "billing": "Monthly or annual", "notes": "1,000 priority credits/month, 8 concurrent generations, private images" },
+      { "name": "Pro", "price": "$42/mo (annual) / ~$60/mo (monthly)", "billing": "Monthly or annual", "notes": "3,500 priority credits/month, 32 concurrent generations" },
+      { "name": "Team", "price": "$20/user/mo (annual) / ~$30/user/mo (monthly)", "billing": "Per seat, monthly or annual", "notes": "1,500 priority credits/user/month, 8 concurrent generations" },
+      { "name": "Enterprise", "price": "Custom", "billing": "Custom/invoice", "notes": "Custom credit allocation and support" }
+    ]
+  },
+  "pros": [
+    "Best-in-class accuracy for rendering legible text/typography inside generated images",
+    "Genuine free tier with no credit card required and commercial usage rights included",
+    "Strong prompt adherence for design-specific use cases like posters and branding",
+    "Ideogram 4.0 expanded quality and style range beyond its original text-focused niche"
+  ],
+  "cons": [
+    "Free tier images are public by default, which isn't suitable for confidential client work",
+    "Text rendering is far more reliable in English/Latin scripts than in CJK and other non-Latin languages",
+    "Some Trustpilot reviewers report a hidden or hard-to-find cancellation flow",
+    "Priority credits expire monthly with no rollover, similar to other credit-based competitors"
+  ],
+  "sentiment": [
+    {
+      "quote": "A great program for making images for book covers, interior illustrations, and just about anything you can imagine - the sky's the limit on what you can produce.",
+      "source": "Trustpilot",
+      "url": "https://www.trustpilot.com/review/ideogram.ai",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Difficulties canceling membership, with the cancellation button being hidden.",
+      "source": "Trustpilot",
+      "url": "https://www.trustpilot.com/review/ideogram.ai",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Designers creating posters, packaging, or branding that need readable in-image text",
+    "Marketers producing ad creative or social graphics with embedded copy",
+    "Users who want to try a capable model for free before subscribing",
+    "Teams needing private image generation with commercial rights"
+  ],
+  "hotTake": "Ideogram solved the one thing almost every other AI image generator still fumbles — legible text in the image itself — reportedly hitting around 90% accuracy versus Midjourney's roughly 30%.",
+  "trending": false,
+  "rating": 4.1,
+  "dateAdded": "2026-08-15",
+  "lastUpdated": "2026-08-15"
+}

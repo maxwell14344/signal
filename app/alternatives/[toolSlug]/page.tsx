@@ -7,6 +7,7 @@ import { ToolLogo } from "@/components/ToolLogo";
 import { RatingStars } from "@/components/RatingStars";
 import { PriceBadge } from "@/components/PriceBadge";
 import { AuthorByline } from "@/components/AuthorByline";
+import { EntryBody } from "@/components/EntryBody";
 
 export async function generateStaticParams() {
   const pages = await getAllAlternativePages();
@@ -58,14 +59,14 @@ export default async function AlternativesPage({
           <AuthorByline author={page.author} lastVerifiedAt={page.lastVerifiedAt} />
         </div>
 
-        <div className="mt-10 space-y-4">
+        <div className="mt-10 space-y-6">
           {page.entries.map((entry, i) =>
             entry.tool ? (
               <div
                 key={entry.id}
-                className="rounded-lg border border-border bg-surface p-6 card-shadow"
+                className="rounded-xl border border-border bg-surface p-7 card-shadow"
               >
-                <div className="flex items-start justify-between gap-4">
+                <div className="flex items-start justify-between gap-4 border-b border-border pb-5">
                   <div className="flex items-center gap-3">
                     <span className="eyebrow w-5 shrink-0 text-accent">{i + 1}</span>
                     <ToolLogo name={entry.tool.name} logo={entry.tool.logoUrl} website={entry.tool.website} size={40} />
@@ -92,7 +93,9 @@ export default async function AlternativesPage({
                     <ExternalLink className="h-3 w-3" />
                   </Link>
                 </div>
-                <p className="mt-4 text-[15px] leading-relaxed text-body">{entry.blurb}</p>
+                <div className="pt-5">
+                  <EntryBody text={entry.blurb} />
+                </div>
               </div>
             ) : null
           )}

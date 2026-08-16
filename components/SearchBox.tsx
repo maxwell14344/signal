@@ -56,7 +56,10 @@ export function SearchBox({ items }: { items: SearchItem[] }) {
       </div>
 
       {open && results.length > 0 && (
-        <div className="absolute left-0 right-0 top-full z-50 mt-2 overflow-hidden rounded-xl border border-border bg-surface shadow-xl">
+        <div
+          onMouseDown={(e) => e.preventDefault()}
+          className="absolute left-0 right-0 top-full z-50 mt-2 overflow-hidden rounded-xl border border-border bg-surface shadow-xl"
+        >
           {results.map((item) => (
             <Link
               key={item.slug}

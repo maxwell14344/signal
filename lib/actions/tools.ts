@@ -1,9 +1,54 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { redirect } from "next/navigation";
 import { eq } from "drizzle-orm";
 import { db } from "@/lib/db/client";
-import { tools } from "@/lib/db/schema";
+import { tools, toolCategories } from "@/lib/db/schema";
+
+export async function createToolAction(
+  _prevState: { error?: string } | undefined,
+  formData: FormData
+): Promise<{ error?: string }> {
+  const slug = String(formData.get("slug") ?? "").trim();
+  const name = String(formData.get("name") ?? "").trim();
+  const website = String(formData.get("website") ?? "").trim();
+  const tagline = String(formData.get("tagline") ?? "").trim();
+
+  if (!slug || !name || !website || !tagline) {
+    return { error: "Slug, name, website, and tagline are required." };
+  }
+
+  const existing = await db.select().from(tools).where(eq(tools.slug, slug)).limit(1);
+  if (existing[0]) {
+    return { error: `A tool with slug "${slug}" already exists.` };
+  }
+
+  const [row] = await db
+    .insert(tools)
+    .values({
+      slug,
+      name,
+      website,
+      tagline,
+      tldr: [],
+      dateAdded: new Date(),
+    })
+    .returning({ id: tools.id });
+
+  const primaryCategoryId = formData.get("primaryCategoryId");
+  if (primaryCategoryId) {
+    await db.insert(toolCategories).values({
+      toolId: row.id,
+      categoryId: Number(primaryCategoryId),
+      isPrimary: true,
+    });
+  }
+
+  revalidatePath("/");
+  revalidatePath("/categories");
+  redirect(`/admin/tools/${row.id}/edit`);
+}
 
 function parseJsonField(formData: FormData, key: string, fallback: unknown) {
   const raw = String(formData.get(key) ?? "");
@@ -22,6 +67,15 @@ export async function updateToolAction(
 ): Promise<{ error?: string; success?: boolean }> {
   try {
     const slug = String(formData.get("slug") ?? "");
+
+    const ratingRaw = String(formData.get("rating") ?? "");
+    let rating: string | null = null;
+    if (ratingRaw.trim()) {
+      const num = Number(ratingRaw);
+      if (Number.isNaN(num)) throw new Error("Rating must be a number.");
+      if (num < 1 || num > 5) throw new Error("Rating must be between 1.0 and 5.0.");
+      rating = num.toFixed(1);
+    }
 
     const values = {
       slug,
@@ -43,7 +97,7 @@ export async function updateToolAction(
       sentimentQuotes: parseJsonField(formData, "sentimentQuotes", []),
       bestFor: parseJsonField(formData, "bestFor", []),
       verdict: String(formData.get("verdict") ?? "") || null,
-      rating: String(formData.get("rating") ?? "") || null,
+      rating,
       trending: formData.get("trending") === "on",
       updatedAt: new Date(),
     };
@@ -56,7 +110,25 @@ export async function updateToolAction(
       .set({ ...values, version: nextVersion })
       .where(eq(tools.id, toolId));
 
+    const primaryCategoryId = formData.get("primaryCategoryId");
+    const secondaryCategoryIds = formData.getAll("secondaryCategoryIds").map(Number);
+
+    await db.delete(toolCategories).where(eq(toolCategories.toolId, toolId));
+    if (primaryCategoryId) {
+      await db.insert(toolCategories).values({
+        toolId,
+        categoryId: Number(primaryCategoryId),
+        isPrimary: true,
+      });
+    }
+    for (const catId of secondaryCategoryIds) {
+      if (catId && catId !== Number(primaryCategoryId)) {
+        await db.insert(toolCategories).values({ toolId, categoryId: catId, isPrimary: false });
+      }
+    }
+
     revalidatePath(`/tools/${slug}`);
+    revalidatePath("/categories");
     revalidatePath("/");
     revalidatePath("/categories");
     revalidatePath("/sitemap.xml");

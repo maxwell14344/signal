@@ -3,7 +3,7 @@
   "toolASlug": "heyy",
   "toolBSlug": "intercom",
   "tldr": [
-    "Disclosure up front: Heyy is Maxwell Timothy's own product, so treat the scores here as informed but not neutral — Intercom's numbers are backed by thousands of independent reviews; Heyy's aren't yet.",
+    "Disclosure up front: the reviewer works in Growth and Marketing at Heyy, so treat the scores here as informed but not neutral — Intercom's numbers are backed by thousands of independent reviews; Heyy's aren't yet.",
     "Heyy is built around an 'AI Employee' model — one agent configured with identity, knowledge, permissioned CRM read/write access, and explicit exit-point logic, deployed across WhatsApp, Instagram, Messenger, Live Chat, and SMS from one workspace.",
     "Intercom centers on the Fin AI agent layered over a mature shared inbox, help center, and ticketing system, with phone support and a large independent review base (2,900+ on G2 alone) that Heyy doesn't have yet.",
     "Pricing is the clearest gap: Intercom publishes seat pricing ($29+/seat/mo) plus a $0.99-per-resolution AI fee; Heyy's plan tiers are documented by feature limits, not dollar figures, so you'll need to contact sales to compare real cost.",
@@ -18,7 +18,7 @@
     { "feature": "Independent review volume", "toolA": "None yet", "toolB": "2,900+ on G2 alone" },
     { "feature": "Standalone AI agent deployment", "toolA": "Core product model", "toolB": "Available as an add-on" }
   ],
-  "verdict": "I'm biased here and I'd rather say so than pretend otherwise — Heyy is my product. What I can say honestly: the attribute-permission model (Read/Share/Update, with Update requiring Read first) is a genuinely more deliberate design for avoiding bad CRM writes than anything I've seen documented in Intercom's docs, and the explicit warning against crawling live store data for prices is the kind of thing you only write after you've seen it go wrong. But Intercom has thousands of reviews behind its numbers and Heyy has zero — that's not a small gap, it's the whole reason review sites like this one exist. If you need a proven vendor today, especially one with phone support, Intercom is the safer call. If you're an early-adopter type who wants tighter control over what an AI agent can touch in your CRM and you're willing to run the Playground yourself before deciding, Heyy is worth thirty minutes of your time.",
+  "verdict": "There's a real conflict of interest to flag here rather than bury — Heyy is the reviewer's employer, in a Growth and Marketing capacity, not an outside product. What can be said honestly: the attribute-permission model (Read/Share/Update, with Update requiring Read first) is a genuinely more deliberate design for avoiding bad CRM writes than anything I've seen documented in Intercom's docs, and the explicit warning against crawling live store data for prices is the kind of thing you only write after you've seen it go wrong. But Intercom has thousands of reviews behind its numbers and Heyy has zero — that's not a small gap, it's the whole reason review sites like this one exist. If you need a proven vendor today, especially one with phone support, Intercom is the safer call. If you're an early-adopter type who wants tighter control over what an AI agent can touch in your CRM and you're willing to run the Playground yourself before deciding, Heyy is worth thirty minutes of your time.",
   "authorSlug": "maxwell-timothy",
   "lastVerifiedAt": "2026-08-16"
 }

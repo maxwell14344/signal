@@ -44,6 +44,10 @@
     {
       "question": "Why is Crisp's Trustpilot score so much lower than its G2/Capterra scores?",
       "answer": "Trustpilot reviews for Crisp skew heavily toward billing and cancellation complaints — customers reporting continued charges after attempting to cancel and friction getting refunds — while G2 and Capterra reviews focus more on day-to-day product usability, where Crisp scores well."
+    },
+    {
+      "question": "Does the reviewer have a relationship with Crisp?",
+      "answer": "Yes — disclosed here per this site's methodology: Maxwell Timothy has previously written contributed content for Crisp. The scoring above uses the same public rubric applied to every other tool on this site."
     }
   ],
   "scorecard": [

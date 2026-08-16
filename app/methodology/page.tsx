@@ -70,11 +70,13 @@ export default function MethodologyPage() {
           <Link href="/authors/maxwell-timothy" className="text-accent hover:underline">
             Maxwell Timothy
           </Link>
-          , who is also the founder of Heyy, an AI customer support platform
-          reviewed on this site. Heyy is scored against the exact same rubric
-          as every other tool, and any page that compares Heyy to a
-          competitor says so explicitly at the top. No tool on this site pays
-          for placement, a better score, or inclusion — there is currently no
+          , who works in Growth and Marketing at Heyy and has previously
+          written contributed content for Chatbase and Crisp — all three are
+          reviewed on this site. Each is scored against the exact same
+          rubric as every other tool on the same page, and any comparison
+          involving one of them discloses the relationship explicitly at the
+          top rather than burying it here. No tool on this site pays for
+          placement, a better score, or inclusion — there is currently no
           affiliate or sponsorship program running on Signal. If that ever
           changes, this page will say so first.
         </p>

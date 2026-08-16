@@ -44,6 +44,14 @@ export async function getToolById(id: number) {
   return rows[0];
 }
 
+export async function getToolCategoryAssignments(toolId: number) {
+  const links = await db.select().from(toolCategories).where(eq(toolCategories.toolId, toolId));
+  return {
+    primaryId: links.find((l) => l.isPrimary)?.categoryId ?? null,
+    secondaryIds: links.filter((l) => !l.isPrimary).map((l) => l.categoryId),
+  };
+}
+
 export async function getToolBySlug(slug: string) {
   const rows = await db.select().from(tools).where(eq(tools.slug, slug)).limit(1);
   if (!rows[0]) return undefined;
@@ -100,6 +108,15 @@ export async function getAuthorBySlug(slug: string) {
   return rows[0];
 }
 
+export async function getAuthorById(id: number) {
+  const rows = await db.select().from(authors).where(eq(authors.id, id)).limit(1);
+  return rows[0];
+}
+
+export async function getAllAuthors() {
+  return db.select().from(authors);
+}
+
 // Comparisons
 export async function getAllComparisons() {
   return db.select().from(comparisons).where(eq(comparisons.status, "published"));
@@ -145,6 +162,25 @@ export async function findComparisonByToolPair(toolASlug: string, toolBSlug: str
 }
 
 // Alternatives
+export async function getAlternativePageById(id: number) {
+  const rows = await db.select().from(alternativePages).where(eq(alternativePages.id, id)).limit(1);
+  if (!rows[0]) return undefined;
+  const page = rows[0];
+  const entries = await db
+    .select()
+    .from(alternativeEntries)
+    .where(eq(alternativeEntries.pageId, page.id))
+    .orderBy(alternativeEntries.sortOrder);
+  const entryTools = await Promise.all(
+    entries.map(async (e) => {
+      const [t] = await db.select().from(tools).where(eq(tools.id, e.toolId)).limit(1);
+      return { ...e, tool: t };
+    })
+  );
+  const [anchorTool] = await db.select().from(tools).where(eq(tools.id, page.anchorToolId)).limit(1);
+  return { ...page, anchorTool, entries: entryTools };
+}
+
 export async function getAllAlternativePages() {
   return db.select().from(alternativePages).where(eq(alternativePages.status, "published"));
 }
@@ -172,6 +208,24 @@ export async function getAlternativePageBySlug(slug: string) {
 }
 
 // Use-case pages
+export async function getUseCasePageById(id: number) {
+  const rows = await db.select().from(useCasePages).where(eq(useCasePages.id, id)).limit(1);
+  if (!rows[0]) return undefined;
+  const page = rows[0];
+  const entries = await db
+    .select()
+    .from(useCaseToolEntries)
+    .where(eq(useCaseToolEntries.pageId, page.id))
+    .orderBy(useCaseToolEntries.sortOrder);
+  const entryTools = await Promise.all(
+    entries.map(async (e) => {
+      const [t] = await db.select().from(tools).where(eq(tools.id, e.toolId)).limit(1);
+      return { ...e, tool: t };
+    })
+  );
+  return { ...page, entries: entryTools };
+}
+
 export async function getAllUseCasePages() {
   return db.select().from(useCasePages).where(eq(useCasePages.status, "published"));
 }

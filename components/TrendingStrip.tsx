@@ -31,7 +31,7 @@ export async function TrendingStrip() {
             >
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <ToolLogo name={tool.name} logo={tool.logoUrl ?? undefined} size={36} />
+                  <ToolLogo name={tool.name} logo={tool.logoUrl} website={tool.website} size={36} />
                   <div>
                     <p className="font-medium text-foreground">{tool.name}</p>
                     {tool.primaryCategory && (

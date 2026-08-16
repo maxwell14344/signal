@@ -6,7 +6,15 @@ export default async function AdminCategoriesPage() {
 
   return (
     <div>
-      <h1 className="text-xl">Categories</h1>
+      <div className="flex items-center justify-between">
+        <h1 className="text-xl">Categories</h1>
+        <Link
+          href="/admin/categories/new"
+          className="rounded-full bg-accent px-4 py-2 text-xs font-medium text-accent-foreground transition hover:opacity-90"
+        >
+          New category
+        </Link>
+      </div>
       <div className="mt-6 divide-y divide-border rounded-lg border border-border bg-surface card-shadow">
         {categories.map((cat) => (
           <Link

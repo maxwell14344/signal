@@ -44,6 +44,10 @@
     {
       "question": "What do users complain about most?",
       "answer": "The most consistent criticisms are around cost scaling with credit consumption, occasional hallucinated answers outside the trained knowledge base, and reports of slower customer support response times on certain plans."
+    },
+    {
+      "question": "Does the reviewer have a relationship with Chatbase?",
+      "answer": "Yes — disclosed here per this site's methodology: Maxwell Timothy has previously written contributed content for Chatbase. The scoring above uses the same public rubric applied to every other tool on this site."
     }
   ],
   "scorecard": [

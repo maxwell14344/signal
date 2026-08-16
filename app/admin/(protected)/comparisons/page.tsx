@@ -16,7 +16,15 @@ export default async function AdminComparisonsPage() {
 
   return (
     <div>
-      <h1 className="text-xl">Comparisons</h1>
+      <div className="flex items-center justify-between">
+        <h1 className="text-xl">Comparisons</h1>
+        <Link
+          href="/admin/comparisons/new"
+          className="rounded-full bg-accent px-4 py-2 text-xs font-medium text-accent-foreground transition hover:opacity-90"
+        >
+          New comparison
+        </Link>
+      </div>
       <div className="mt-6 divide-y divide-border rounded-lg border border-border bg-surface card-shadow">
         {withTools.map((c) => (
           <Link

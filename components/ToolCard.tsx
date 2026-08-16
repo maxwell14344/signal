@@ -7,6 +7,7 @@ interface ToolCardTool {
   slug: string;
   name: string;
   logoUrl?: string | null;
+  website?: string | null;
   tagline: string;
   rating: number | string | null;
   trending?: boolean | null;
@@ -27,7 +28,7 @@ export function ToolCard({
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-center gap-3">
-          <ToolLogo name={tool.name} logo={tool.logoUrl ?? undefined} />
+          <ToolLogo name={tool.name} logo={tool.logoUrl} website={tool.website} />
           <div>
             <h3 className="font-medium text-foreground transition-colors group-hover:text-accent">
               {tool.name}

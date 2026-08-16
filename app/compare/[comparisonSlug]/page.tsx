@@ -70,12 +70,12 @@ export default async function ComparisonPage({
 
         <div className="mt-4 flex items-center gap-6">
           <Link href={`/tools/${toolA.slug}`} className="flex items-center gap-2 hover:text-accent">
-            <ToolLogo name={toolA.name} logo={toolA.logoUrl ?? undefined} size={32} />
+            <ToolLogo name={toolA.name} logo={toolA.logoUrl} website={toolA.website} size={32} />
             <span className="font-medium">{toolA.name}</span>
           </Link>
           <span className="text-muted">vs</span>
           <Link href={`/tools/${toolB.slug}`} className="flex items-center gap-2 hover:text-accent">
-            <ToolLogo name={toolB.name} logo={toolB.logoUrl ?? undefined} size={32} />
+            <ToolLogo name={toolB.name} logo={toolB.logoUrl} website={toolB.website} size={32} />
             <span className="font-medium">{toolB.name}</span>
           </Link>
         </div>

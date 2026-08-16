@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getToolById } from "@/lib/db/queries";
+import { getToolById, getAllCategories, getToolCategoryAssignments } from "@/lib/db/queries";
 import { ToolEditForm } from "@/components/admin/ToolEditForm";
 import { markToolVerifiedAction } from "@/lib/actions/tools";
 
@@ -12,6 +12,11 @@ export default async function EditToolPage({
   const { id } = await params;
   const tool = await getToolById(Number(id));
   if (!tool) notFound();
+
+  const [categories, assignments] = await Promise.all([
+    getAllCategories(),
+    getToolCategoryAssignments(tool.id),
+  ]);
 
   const markVerified = markToolVerifiedAction.bind(null, tool.id, tool.slug);
 
@@ -33,7 +38,12 @@ export default async function EditToolPage({
           </button>
         </form>
       </div>
-      <ToolEditForm tool={tool} />
+      <ToolEditForm
+        tool={tool}
+        categories={categories}
+        primaryCategoryId={assignments.primaryId}
+        secondaryCategoryIds={assignments.secondaryIds}
+      />
     </div>
   );
 }

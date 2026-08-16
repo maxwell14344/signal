@@ -2,18 +2,25 @@
 
 import { useActionState } from "react";
 import { updateToolAction } from "@/lib/actions/tools";
-import type { ToolRow } from "@/lib/db/queries";
+import type { ToolRow, CategoryRow } from "@/lib/db/queries";
+import { CategoryPicker } from "./CategoryPicker";
 
 function Field({
   label,
   name,
   defaultValue,
   type = "text",
+  min,
+  max,
+  step,
 }: {
   label: string;
   name: string;
   defaultValue?: string | number | null;
   type?: string;
+  min?: number;
+  max?: number;
+  step?: number;
 }) {
   return (
     <div>
@@ -24,6 +31,9 @@ function Field({
         id={name}
         name={name}
         type={type}
+        min={min}
+        max={max}
+        step={step}
         defaultValue={defaultValue ?? ""}
         className="w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:border-accent/50 focus:outline-none"
       />
@@ -58,18 +68,55 @@ function JsonField({
   );
 }
 
-export function ToolEditForm({ tool }: { tool: ToolRow }) {
+export function ToolEditForm({
+  tool,
+  categories,
+  primaryCategoryId,
+  secondaryCategoryIds,
+}: {
+  tool: ToolRow;
+  categories: CategoryRow[];
+  primaryCategoryId: number | null;
+  secondaryCategoryIds: number[];
+}) {
   const boundAction = updateToolAction.bind(null, tool.id);
   const [state, formAction, pending] = useActionState(boundAction, undefined);
 
+  const categoryOptions = categories.map((c) => ({ id: c.id, name: c.name }));
+
   return (
     <form action={formAction} className="space-y-8">
+      <div className="grid gap-4 sm:grid-cols-2">
+        <CategoryPicker
+          label="Primary category"
+          fieldName="primaryCategoryId"
+          categories={categoryOptions}
+          initialSelectedIds={primaryCategoryId ? [primaryCategoryId] : []}
+          multiple={false}
+        />
+        <CategoryPicker
+          label="Secondary categories"
+          fieldName="secondaryCategoryIds"
+          categories={categoryOptions}
+          initialSelectedIds={secondaryCategoryIds}
+          multiple={true}
+        />
+      </div>
+
       <div className="grid gap-4 sm:grid-cols-2">
         <Field label="Slug" name="slug" defaultValue={tool.slug} />
         <Field label="Name" name="name" defaultValue={tool.name} />
         <Field label="Website" name="website" defaultValue={tool.website} />
         <Field label="Logo URL" name="logoUrl" defaultValue={tool.logoUrl} />
-        <Field label="Rating (1-5)" name="rating" defaultValue={tool.rating} type="number" />
+        <Field
+          label="Rating (1.0-5.0)"
+          name="rating"
+          defaultValue={tool.rating}
+          type="number"
+          min={1}
+          max={5}
+          step={0.1}
+        />
         <div className="flex items-center gap-2 pt-6">
           <input
             id="trending"

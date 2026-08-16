@@ -64,7 +64,7 @@ export default async function UseCasePage({
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex items-center gap-3">
                     <span className="eyebrow w-5 shrink-0 text-accent">{i + 1}</span>
-                    <ToolLogo name={entry.tool.name} logo={entry.tool.logoUrl ?? undefined} size={40} />
+                    <ToolLogo name={entry.tool.name} logo={entry.tool.logoUrl} website={entry.tool.website} size={40} />
                     <div>
                       <Link
                         href={`/tools/${entry.tool.slug}`}

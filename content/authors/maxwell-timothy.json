@@ -1,8 +1,12 @@
 {
   "slug": "maxwell-timothy",
   "name": "Maxwell Timothy",
-  "bio": "Maxwell Timothy builds and reviews AI customer support tooling. He's the founder behind Heyy, an AI Employees platform for customer support teams, and writes hands-on reviews of chatbots, AI agents, and CX platforms based on direct usage, vendor documentation, and independent reviews on G2, Trustpilot, Reddit, and Hacker News. Every tool on this site is scored against the same rubric, documented on the methodology page, regardless of whether Maxwell has a product in that category.",
-  "credentials": "Founder, Heyy (AI Employees for customer support)",
+  "bio": "Maxwell Timothy is a content marketing expert and AI technology writer with 6+ years of experience covering artificial intelligence, focusing on AI customer support, CX, and conversational messaging tools. His writing has appeared on MakeUseOf, MSN, Flipboard, Make Tech Easier, and NewsBreak, and he's authored an eBook on ChatGPT that has been used in university coursework. He works in Growth and Marketing at Heyy, and has previously written content for Chatbase and Crisp — both reviewed on this site. Every tool here, including those three, is scored against the same public rubric documented on the methodology page.",
+  "credentials": "Content Marketing Expert — AI Customer Support & CX",
   "avatarUrl": "",
-  "sameAs": []
+  "sameAs": [
+    "https://www.linkedin.com/in/maxwell-timothy-techcontentwriter/",
+    "https://muckrack.com/maxwell-timothy",
+    "https://www.makeuseof.com/author/maxwell-timothy/"
+  ]
 }

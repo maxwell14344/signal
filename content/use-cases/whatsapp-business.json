@@ -1,0 +1,21 @@
+{
+  "slug": "whatsapp-business",
+  "title": "Best AI Support Tools for WhatsApp Business",
+  "intro": "WhatsApp is where a lot of support conversations already happen, especially outside the US — the question is whether your tool treats it as a first-class channel or a bolted-on integration. These three build around it directly.",
+  "entries": [
+    {
+      "toolSlug": "manychat",
+      "blurb": "WhatsApp is one of ManyChat's three core channels alongside Instagram and Messenger, with the same visual flow builder driving all three — though Meta's own WhatsApp messaging fees apply on top of ManyChat's plan pricing."
+    },
+    {
+      "toolSlug": "crisp",
+      "blurb": "Unifies WhatsApp with web chat, Instagram, Messenger, SMS, and email in one shared inbox, which matters if your team is fielding WhatsApp alongside other channels rather than exclusively."
+    },
+    {
+      "toolSlug": "heyy",
+      "blurb": "An AI Employee deployed specifically into WhatsApp automations can read and update contact fields mid-conversation, not just reply to messages — useful if WhatsApp is your primary channel rather than a secondary one."
+    }
+  ],
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

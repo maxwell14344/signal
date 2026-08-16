@@ -1,0 +1,98 @@
+{
+  "slug": "wonderchat",
+  "name": "Wonderchat",
+  "logoUrl": "",
+  "website": "https://wonderchat.io",
+  "tagline": "A tiny, bootstrapped Singapore team's no-code AI chatbot builder — thin on independent reviews, but priced with a real resolution-based free tier.",
+  "tldr": [
+    "Wonderchat is a no-code AI chatbot builder that trains a support agent on your website, documents, and uploaded files, with a resolution-based (not just message-based) usage model.",
+    "Pricing runs Free (10 resolutions/mo, 1 agent) through Basic ($124/mo, 1,000 resolutions), Turbo ($417/mo, 5,000 resolutions, voice agent, helpdesk integrations), and Enterprise (from $1,499/mo, SOC 2 & HIPAA, SSO, SMS/phone agents).",
+    "Founded in 2023 and headquartered in Singapore, led by CEO Vera Sun; the company is bootstrapped with no outside funding and reportedly runs with an extremely small team (around 2 people).",
+    "Independent review presence is thin — G2 shows only a handful of reviews (around 5.0/5 from roughly 3 reviews) and Capterra currently shows no reviews at all, which is itself worth flagging to any buyer expecting the review depth of a Chatbase or Tidio.",
+    "The Turbo tier's inclusion of a voice agent and helpdesk integrations is notable at a comparatively low $417/mo relative to competitors gating similar features behind enterprise-only custom pricing."
+  ],
+  "categories": { "primary": "ai-chatbots", "secondary": ["knowledge-base-ai-self-service"] },
+  "channels": ["Web Chat", "Voice", "SMS"],
+  "keyFeatures": [
+    "Resolution-based usage metering (distinct from raw message counts) across all paid tiers, plus a separate monthly credit pool",
+    "Self-improving AI agents on the Basic tier and above, refining answers based on real conversation history",
+    "Voice agent capability included at the Turbo tier ($417/mo), notably lower-priced than many competitors' voice add-ons",
+    "Helpdesk integrations and advanced analytics from Turbo tier upward",
+    "Human handover built into every tier, including Free, for escalating conversations the AI can't resolve",
+    "Multiple AI Agents per workspace (2 on Basic, 4 on Turbo) for running separate bots per use case or brand",
+    "SOC 2 and HIPAA compliance, SSO, and SMS/phone agents reserved for the Enterprise tier",
+    "Chat workflows for structuring multi-step conversation logic beyond simple Q&A retrieval"
+  ],
+  "companyInfo": { "founded": "2023", "hq": "Singapore", "funding": "Bootstrapped, no outside funding", "employees": "~2" },
+  "faq": [
+    {
+      "question": "How is Wonderchat priced?",
+      "answer": "By monthly resolutions (successfully handled conversations) plus a credit pool: Free (10 resolutions), Basic $124/mo (1,000 resolutions, 2 AI Agents), Turbo $417/mo (5,000 resolutions, voice agent, helpdesk integrations), and Enterprise from $1,499/mo (custom capacity, SOC 2/HIPAA, SSO)."
+    },
+    {
+      "question": "Does Wonderchat support voice, not just text chat?",
+      "answer": "Yes — a voice agent is included starting at the Turbo tier ($417/mo), and SMS/phone agents are available at the Enterprise tier, which is broader channel coverage than several similarly-priced AI chatbot competitors."
+    },
+    {
+      "question": "How established is Wonderchat as a company?",
+      "answer": "It's a small, bootstrapped team (reportedly around 2 people) founded in 2023 in Singapore with no outside funding — buyers should weigh that against the vendor stability of larger, better-funded competitors."
+    },
+    {
+      "question": "How many independent reviews does Wonderchat have?",
+      "answer": "Very few as of this writing — G2 shows only a handful of reviews and does not have enough volume to generate its standard buying-insight summary, and Capterra currently lists no reviews at all. Treat any rating derived from this small a sample with appropriate caution."
+    },
+    {
+      "question": "What's the free plan good for?",
+      "answer": "The Free tier includes 10 resolutions/month, 1 AI Agent, human handover, and an embeddable widget — enough to trial the product on a low-traffic site, but not a viable long-term free option for an active support inbox."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Reviewers describe training and deploying an assistant from business documents as quick and technically uncomplicated." },
+    { "dimension": "AI Quality", "score": 3, "note": "Self-improving agents and resolution-based metering suggest a thoughtful design, but the very small independent review base makes real-world AI quality hard to verify confidently." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "Voice agent at a comparatively accessible $417/mo tier and SMS/phone at Enterprise is a genuine strength versus similarly-priced text-only competitors." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Resolution-based (not raw message) metering is a fairer usage model in principle, but the jump from Basic ($124) to Turbo ($417) to Enterprise ($1,499) is steep." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "The few available reviews praise responsive support, but the sample size (a handful of G2 reviews, zero on Capterra) is too small to draw a confident conclusion either way." }
+  ],
+  "pricing": {
+    "model": "Tiered SaaS by monthly resolutions and message credits",
+    "startingPrice": "$124/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "~10 resolutions/mo, 20 credits, 50 webpages stored, 1 AI Agent, human handover, basic integrations, embeddable widget" },
+      { "name": "Basic", "price": "$124/mo", "billing": "Billed yearly", "notes": "~1,000 resolutions/mo, 5,000 credits/mo, 1,000 webpages/agent, 2 AI Agents, 3 team seats, 2 chat workflows, self-improving agents, basic analytics" },
+      { "name": "Turbo", "price": "$417/mo", "billing": "Billed yearly", "notes": "~5,000 resolutions/mo, 25,000 credits/mo, 2,500 webpages/agent, 4 AI Agents, advanced analytics, voice agent, helpdesk integrations, priority support" },
+      { "name": "Enterprise", "price": "From $1,499/mo", "billing": "Custom, contact sales", "notes": "Custom resolution capacity and storage, bulk message discounts, SOC 2 & HIPAA compliance, custom integrations, SSO, SMS and phone agents" }
+    ]
+  },
+  "pros": [
+    "Resolution-based pricing is arguably a fairer usage metric than raw message-count billing used by some competitors",
+    "Voice agent capability included at a mid-tier price point ($417/mo) rather than gated behind custom enterprise pricing",
+    "Fast, low-friction setup for training an agent on existing business documentation",
+    "Human handover available even on the free tier, avoiding a hard wall between AI and human support at every price point"
+  ],
+  "cons": [
+    "Very small independent review base (a handful of reviews on G2, none on Capterra) makes it hard to verify quality claims at scale",
+    "Bootstrapped, reportedly tiny team (~2 people) raises real questions about long-term support capacity and platform continuity",
+    "Steep jump in price between tiers ($124 to $417 to $1,499/mo) with less granularity than larger competitors offer",
+    "Free tier's 10 resolutions/month is only useful for the lowest-traffic trial scenarios"
+  ],
+  "sentiment": [
+    {
+      "quote": "It allows me to train assistants with specific business information and deploy them quickly without a complex technical setup.",
+      "source": "G2 review",
+      "url": "https://www.g2.com/products/wonderchat/reviews",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "Small businesses wanting resolution-based (rather than per-message) AI chatbot pricing",
+    "Teams wanting voice-agent capability without paying full enterprise pricing for it",
+    "Early-stage buyers comfortable evaluating a young, thinly-reviewed vendor directly rather than relying on review-site consensus",
+    "Businesses needing quick document-to-chatbot deployment without complex technical setup"
+  ],
+  "verdict": "Wonderchat's resolution-based pricing and mid-tier voice agent are genuinely appealing on paper, and the setup experience gets consistent praise from the handful of reviewers who've weighed in. The honest caveat is that 'the handful of reviewers who've weighed in' is doing a lot of work in that sentence — G2 shows only a few reviews and Capterra shows none, which is a meaningfully thinner track record than Chatbase or Tidio carry into this comparison. This is a reasonable pick if you're willing to be an early adopter with a small, bootstrapped vendor; it's not yet a proven-at-scale choice the way its better-reviewed competitors are.",
+  "rating": 3.5,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-16",
+  "lastVerifiedAt": "2026-08-16"
+}

@@ -1,32 +1,28 @@
 import Link from "next/link";
-import { getAllCategories } from "@/lib/tools";
+import { getAllCategories } from "@/lib/db/queries";
 
-export function Footer() {
-  const categories = getAllCategories();
+export async function Footer() {
+  const categories = await getAllCategories();
 
   return (
-    <footer className="mt-24 border-t border-border">
+    <footer className="mt-24 border-t border-border bg-surface-2/40">
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-12 md:flex-row md:justify-between">
         <div className="max-w-sm">
           <div className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-accent" />
-            <span className="text-lg font-semibold tracking-tight">
-              Signal
-            </span>
+            <span className="font-heading text-lg text-foreground">Signal</span>
           </div>
           <p className="mt-3 text-sm text-muted">
-            Structured, AI-citable reviews of AI tools — pricing, pros/cons,
-            and real sentiment from Reddit, X, and Hacker News. New tools
-            added regularly.
+            Structured, human-verified reviews of AI customer support tools —
+            chatbots, AI agents, WhatsApp AI, helpdesk automation, and CX
+            platforms. Written and scored by Maxwell Timothy.
           </p>
         </div>
 
         <div className="flex gap-16">
           <div>
-            <h4 className="text-sm font-medium text-foreground">
-              Categories
-            </h4>
-            <ul className="mt-3 space-y-2 text-sm text-muted">
+            <h4 className="eyebrow mb-3">Categories</h4>
+            <ul className="space-y-2 text-sm text-muted">
               {categories.map((cat) => (
                 <li key={cat.slug}>
                   <Link
@@ -41,10 +37,19 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-medium text-foreground">Coming soon</h4>
-            <ul className="mt-3 space-y-2 text-sm text-muted">
-              <li>Ask Signal — AI tool chatbot</li>
-              <li>Submit a tool</li>
+            <h4 className="eyebrow mb-3">Trust</h4>
+            <ul className="space-y-2 text-sm text-muted">
+              <li>
+                <Link href="/methodology" className="transition hover:text-foreground">
+                  Methodology & scoring
+                </Link>
+              </li>
+              <li>
+                <Link href="/authors/maxwell-timothy" className="transition hover:text-foreground">
+                  About the author
+                </Link>
+              </li>
+              <li>Ask Signal — coming soon</li>
             </ul>
           </div>
         </div>

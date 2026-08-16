@@ -1,0 +1,25 @@
+{
+  "slug": "shopify",
+  "title": "Best AI Support Tools for Shopify Stores",
+  "intro": "Shopify stores have a specific problem: customers ask about order status, stock, and shipping constantly, and that data changes by the minute — so a support tool that trains on a static crawl of your site will confidently give wrong answers about live inventory. These four handle that differently.",
+  "entries": [
+    {
+      "toolSlug": "tidio",
+      "blurb": "Built with e-commerce integrations and sales-assist use cases specifically in mind — its Lyro AI agent reportedly resolves ~90% of conversations, and the free tier includes real ticketing, not a stripped demo."
+    },
+    {
+      "toolSlug": "crisp",
+      "blurb": "Native e-commerce integrations surface order and customer context directly inside conversations, bundled with WhatsApp and Instagram for stores selling through social."
+    },
+    {
+      "toolSlug": "manychat",
+      "blurb": "The pick if your Shopify traffic comes through Instagram — comment-to-DM automation turns post engagement directly into a sales conversation, though per-contact pricing needs watching as your list grows."
+    },
+    {
+      "toolSlug": "chatbase",
+      "blurb": "Fast to launch from a website crawl for FAQ-style questions, but remember: it trains on static content, so wire up live stock/pricing via API rather than trusting a crawled page."
+    }
+  ],
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

@@ -1,26 +1,86 @@
 [
   {
-    "slug": "ai-coding-assistants",
-    "name": "AI Coding Assistants",
-    "description": "Tools that write, complete, refactor, or review code inside your editor or terminal.",
-    "icon": "code"
+    "slug": "ai-chatbots",
+    "name": "AI Chatbots (Website)",
+    "description": "AI chatbots you train on your own content and embed on your website to answer visitor questions automatically.",
+    "icon": "message-circle",
+    "sortOrder": 1
   },
   {
-    "slug": "ai-video-generation",
-    "name": "AI Video Generation",
-    "description": "Text-to-video, avatar, and editing tools that generate or transform video with AI.",
-    "icon": "video"
+    "slug": "ai-support-agents",
+    "name": "AI Support Agents (\"AI Employees\")",
+    "description": "Autonomous AI agents that handle full support conversations end-to-end across channels, not just a single chat widget.",
+    "icon": "bot",
+    "sortOrder": 2
   },
   {
-    "slug": "ai-writing-content",
-    "name": "AI Writing & Content",
-    "description": "AI copywriting and content-generation tools for marketing, blogs, and long-form writing.",
-    "icon": "pen"
+    "slug": "live-chat-shared-inbox",
+    "name": "Live Chat & Shared Inbox",
+    "description": "Real-time chat and shared team inbox platforms where human agents and AI work side by side.",
+    "icon": "inbox",
+    "sortOrder": 3
   },
   {
-    "slug": "ai-image-generation",
-    "name": "AI Image Generation",
-    "description": "Text-to-image and design tools that generate original artwork, product shots, and graphics.",
-    "icon": "image"
+    "slug": "helpdesk-ticketing-automation",
+    "name": "Helpdesk & Ticketing Automation",
+    "description": "Ticketing systems with AI layered on top for triage, routing, drafting replies, and resolving repetitive tickets.",
+    "icon": "ticket",
+    "sortOrder": 4
+  },
+  {
+    "slug": "whatsapp-social-messaging-ai",
+    "name": "WhatsApp & Social Messaging AI",
+    "description": "AI automation for WhatsApp, Instagram DMs, Messenger, and other social/messaging-first support channels.",
+    "icon": "message-square",
+    "sortOrder": 5
+  },
+  {
+    "slug": "knowledge-base-ai-self-service",
+    "name": "Knowledge Base & AI Self-Service",
+    "description": "Tools that turn your docs, help center, or website into an AI-searchable self-service answer engine.",
+    "icon": "book-open",
+    "sortOrder": 6
+  },
+  {
+    "slug": "conversational-commerce",
+    "name": "Conversational Commerce",
+    "description": "AI-driven chat and messaging tools built for pre-sales, product discovery, and checkout inside a conversation.",
+    "icon": "shopping-bag",
+    "sortOrder": 7
+  },
+  {
+    "slug": "ai-voice-agents",
+    "name": "AI Voice Agents",
+    "description": "AI agents that handle phone support calls — answering, routing, and resolving voice conversations.",
+    "icon": "phone",
+    "sortOrder": 8
+  },
+  {
+    "slug": "ai-email-support",
+    "name": "AI Email Support",
+    "description": "AI tools that draft, triage, or fully automate email-based customer support.",
+    "icon": "mail",
+    "sortOrder": 9
+  },
+  {
+    "slug": "cx-analytics-qa",
+    "name": "CX Analytics & QA",
+    "description": "Analytics and quality-assurance platforms that score conversations, surface sentiment, and measure support performance.",
+    "icon": "bar-chart",
+    "sortOrder": 10
+  },
+  {
+    "slug": "agent-assist-copilot",
+    "name": "Agent Assist / Copilot for Human Agents",
+    "description": "AI copilots that sit beside human support agents, suggesting replies and surfacing context in real time.",
+    "icon": "sparkles",
+    "sortOrder": 11
+  },
+  {
+    "slug": "contact-center-ai",
+    "name": "Contact Center AI / CCaaS",
+    "description": "Enterprise contact-center platforms with AI built into omnichannel routing, IVR, and workforce management.",
+    "icon": "headset",
+    "sortOrder": 12
   }
 ]

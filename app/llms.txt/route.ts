@@ -1,17 +1,15 @@
-import { getAllCategories, getAllTools } from "@/lib/tools";
+import { getAllCategories, getAllTools } from "@/lib/db/queries";
+import { SITE_URL } from "@/lib/jsonld";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
-const SITE_URL = "https://example.com";
-
-export function GET() {
-  const tools = getAllTools();
-  const categories = getAllCategories();
+export async function GET() {
+  const [tools, categories] = await Promise.all([getAllTools(), getAllCategories()]);
 
   const lines: string[] = [
     "# Signal",
     "",
-    "> Structured, sourced reviews of AI tools — pricing, pros/cons, and real sentiment from Reddit, X, and Hacker News. Updated daily.",
+    "> Human-verified reviews of AI customer support tools — chatbots, AI support agents, WhatsApp AI, helpdesk automation, and CX platforms. Written and scored by Maxwell Timothy.",
     "",
     "## Categories",
     "",
@@ -26,9 +24,9 @@ export function GET() {
   for (const tool of tools) {
     lines.push(`### ${tool.name}`);
     lines.push(`URL: ${SITE_URL}/tools/${tool.slug}`);
-    lines.push(`Category: ${tool.category}`);
-    lines.push(`Starting price: ${tool.pricing.startingPrice}`);
-    lines.push(`Rating: ${tool.rating}/5`);
+    lines.push(`Category: ${tool.primaryCategory?.slug ?? "uncategorized"}`);
+    if (tool.pricingStartingPrice) lines.push(`Starting price: ${tool.pricingStartingPrice}`);
+    if (tool.rating) lines.push(`Rating: ${tool.rating}/5`);
     lines.push("TLDR:");
     for (const point of tool.tldr) {
       lines.push(`- ${point}`);

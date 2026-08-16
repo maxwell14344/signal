@@ -1,0 +1,112 @@
+{
+  "slug": "tidio",
+  "name": "Tidio",
+  "logoUrl": "",
+  "website": "https://www.tidio.com",
+  "tagline": "A live chat and helpdesk suite where the Lyro AI agent reportedly handles about 90% of conversations on its own.",
+  "tldr": [
+    "Tidio is a live chat, helpdesk, and AI chatbot platform built primarily for e-commerce and small-to-mid-sized business websites, centered on its Lyro AI Agent.",
+    "Pricing separates the core helpdesk (Free through Plus/Premium, based on billable conversations and seats) from Lyro AI Agent conversations and Flows (rule-based automation), which are billed as add-ons starting around $32.50/mo for 50+ Lyro conversations.",
+    "Founded in 2013 and headquartered in Szczecin, Poland, Tidio has raised roughly $26.8M through a 2022 Series B round and runs a lean team of around 178 employees.",
+    "Independent reviews are strong — 4.6-4.7/5 across G2 (1,900+ reviews) and Capterra (590+ reviews) — with reviewers citing minimal AI hallucination and around 90% of conversations resolved by Lyro, but pricing transparency (unexpected plan upgrades, refund friction) is the single most-cited complaint.",
+    "A notable product limitation: you can't blend a simple rule-based bot with intelligent Lyro AI handoff in one flow — it's a binary choice between a scripted bot and the full AI agent."
+  ],
+  "categories": { "primary": "live-chat-shared-inbox", "secondary": ["ai-chatbots"] },
+  "channels": ["Web Chat", "Email", "Instagram DM", "Facebook Messenger"],
+  "keyFeatures": [
+    "Lyro AI Agent that autonomously resolves customer conversations, trained on a store/site's own content and continuously refined for accuracy",
+    "Live chat widget with ticketing and email management bundled into the base plan, even at the Free tier",
+    "Flows — a separate rule-based automation product for triggered messages and simple scripted bots, billed independently from Lyro",
+    "Automatic chat assignment, macros, and granular permissions from the Growth tier upward",
+    "Guaranteed 50% Lyro AI resolution rate on the Premium tier, with pay-per-resolution billing as an alternative to flat conversation packs",
+    "Dedicated Success Manager, custom branding, multiproject support, and OpenAPI access on the Plus tier",
+    "SSO, managed service, and compliance features (Slack support, security controls) reserved for Premium/Enterprise",
+    "E-commerce platform integrations designed for online store support and sales-assist use cases"
+  ],
+  "companyInfo": { "founded": "2013", "hq": "Szczecin, Poland", "funding": "~$26.8M raised (Series B, May 2022)", "employees": "~178" },
+  "faq": [
+    {
+      "question": "How is Tidio's pricing structured?",
+      "answer": "The core helpdesk (live chat, ticketing, email) is priced by billable conversations and seats — Free (50 conversations, 10 seats), Starter (~$24/mo, 100 conversations), Growth (~$49/mo, up to 2,000 conversations). Lyro AI Agent conversations and Flows are billed as separate add-ons on top, starting around $32.50/mo for 50+ Lyro conversations."
+    },
+    {
+      "question": "How good is the Lyro AI agent in practice?",
+      "answer": "Independent reviews report roughly 90% of conversations resolved by Lyro with minimal hallucination, and G2 reviewers note the AI's responses have become more accurate and natural over time as Tidio has refined the model."
+    },
+    {
+      "question": "Can I mix a simple scripted bot with Lyro AI handoff?",
+      "answer": "Not smoothly — reviewers flag this as a real limitation. The platform currently forces a fairly rigid choice between a simple rule-based bot (Flows) and the full Lyro AI agent, rather than letting a scripted bot intelligently escalate to AI mid-conversation."
+    },
+    {
+      "question": "What's the most common complaint about Tidio?",
+      "answer": "Pricing transparency, appearing in roughly 85 of 1,800+ G2 reviews — specifically automatic plan upgrades happening without clear permission and difficulty securing refunds afterward."
+    },
+    {
+      "question": "Is Tidio a good fit for e-commerce specifically?",
+      "answer": "Yes — it's built with e-commerce integrations and sales-assist use cases in mind, and is frequently compared against Chatbase and Crisp as a budget-to-mid-tier option for online stores wanting AI-assisted support."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 5, "note": "Consistently the top-praised attribute across 1,800+ G2 reviews — live chat and AI chat are reported ready with minimal setup effort." },
+    { "dimension": "AI Quality", "score": 4, "note": "Reviewers report roughly 90% resolution rates with minimal hallucination, a strong independent signal, though the Lyro-vs-scripted-bot rigidity is a real design limitation." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "Solid on web chat, email, and core social DMs, but narrower channel coverage than platforms like Crisp or ManyChat." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Reasonable entry pricing, but pricing transparency — unexpected upgrades and refund friction — is the most repeated complaint in independent reviews." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "Support is described as responsive, friendly, and quick to resolve setup issues in the large majority of reviews." }
+  ],
+  "pricing": {
+    "model": "Tiered helpdesk plans by billable conversations, plus separate add-on billing for Lyro AI and Flows",
+    "startingPrice": "$24.17/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "50 billable conversations, 10 seats, live chat, ticketing, email management" },
+      { "name": "Starter", "price": "$24.17/mo ($290/yr annual)", "billing": "Monthly or annual", "notes": "100 billable conversations, 10 seats, 50 Lyro AI conversations (one-off), 100 Flows visitors" },
+      { "name": "Growth", "price": "From $49.17/mo ($590/yr annual)", "billing": "Monthly or annual", "notes": "Up to 2,000 billable conversations, 10 seats, advanced analytics, automatic chat assignment, macros, permissions" },
+      { "name": "Plus", "price": "From $300/mo + usage", "billing": "Monthly plus usage", "notes": "Custom billable conversations, dedicated success manager, discounted usage rates, departments, multiproject, custom branding, OpenAPI" },
+      { "name": "Premium", "price": "Custom", "billing": "Contact sales", "notes": "From 3,000 Lyro AI conversations, guaranteed 50% Lyro resolution rate, pay-per-resolution option, managed service, SSO, compliance" },
+      { "name": "Lyro AI Agent (add-on)", "price": "From $32.50/mo", "billing": "Monthly, usage-based", "notes": "50+ Lyro conversations, sold separately from the core helpdesk plan" }
+    ]
+  },
+  "pros": [
+    "Genuinely fast setup — live chat and AI agent both reported ready with minimal configuration effort",
+    "Strong independent AI-quality signal: ~90% resolution rate with minimal hallucination reported by reviewers",
+    "Free tier includes real helpdesk functionality (ticketing, email management), not just a stripped demo",
+    "Responsive, well-regarded customer support across the large majority of reviews"
+  ],
+  "cons": [
+    "Pricing transparency is the most-repeated complaint — automatic plan upgrades and refund friction appear across dozens of G2 reviews",
+    "Rigid separation between scripted bots (Flows) and the full Lyro AI agent, with no smooth intelligent handoff between the two",
+    "Lyro AI Agent is billed as a separate add-on from the core helpdesk plan, complicating total-cost estimation",
+    "Narrower channel coverage (no native WhatsApp, SMS, or voice) compared to Crisp or ManyChat"
+  ],
+  "sentiment": [
+    {
+      "quote": "Tidio was incredibly easy to set up and customise...the chatbot builder is intuitive and flexible.",
+      "source": "Capterra (Carl R., Managing Director, Financial Services)",
+      "url": "https://www.capterra.com/p/144040/Tidio-Chat/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "The interface is smooth and user-friendly, and the free version already covers the essentials.",
+      "source": "Capterra (Grimault C., PDG, Internet)",
+      "url": "https://www.capterra.com/p/144040/Tidio-Chat/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "After joining the Tidio Partner Program, I was promised a free upgrade but never received a reply.",
+      "source": "Capterra (Calvin J., Marketer, Marketing and Advertising)",
+      "url": "https://www.capterra.com/p/144040/Tidio-Chat/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "E-commerce and small-to-mid-sized business websites wanting fast live chat plus AI resolution",
+    "Teams that want a real free tier with ticketing and email, not just a chat-widget trial",
+    "Businesses comfortable budgeting Lyro AI conversations separately from the core helpdesk plan",
+    "Support teams prioritizing setup speed and AI accuracy over deep omnichannel breadth"
+  ],
+  "verdict": "Tidio earns its 4.6-4.7 review average honestly — the ~90% Lyro resolution rate with minimal hallucination that reviewers report is a genuinely strong signal, and the setup speed rivals Chatbase's. The rub is the pricing structure: splitting the core helpdesk plan from Lyro AI billing makes total cost harder to pin down than it should be, and the recurring complaints about surprise plan upgrades and refund friction are specific enough across dozens of reviews to take seriously before entering card details. A strong pick for an e-commerce store that wants AI doing the heavy lifting fast; less compelling if you need WhatsApp or voice alongside it, since that's simply not in Tidio's channel lineup.",
+  "rating": 4.2,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-16",
+  "lastVerifiedAt": "2026-08-16"
+}

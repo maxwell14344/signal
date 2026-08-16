@@ -1,0 +1,25 @@
+{
+  "slug": "saas",
+  "title": "Best AI Support Tools for SaaS Companies",
+  "intro": "SaaS support is a different problem than e-commerce: fewer, higher-context conversations, deep product knowledge bases, and a customer base that expects fast, technically-accurate answers. These are built for that shape of workload.",
+  "entries": [
+    {
+      "toolSlug": "intercom",
+      "blurb": "The default choice for a reason — Fin's independent review base (2,900+ on G2) is the deepest in this category, and the standalone deployment option lets you test AI resolution quality before migrating your whole helpdesk."
+    },
+    {
+      "toolSlug": "zendesk",
+      "blurb": "The pick once you've outgrown Intercom's scale — deeper ticket routing and Admin Copilot for larger support teams, at the cost of a steeper setup curve and AI Agents starting at $55/agent/mo."
+    },
+    {
+      "toolSlug": "heyy",
+      "blurb": "Worth testing if you want an AI agent with explicit, granular permissions over what it can read or write in your CRM — a genuinely different design philosophy, though without Intercom or Zendesk's independent track record yet."
+    },
+    {
+      "toolSlug": "chatbase",
+      "blurb": "A lighter, faster option for turning product docs into a self-service answer bot before you're ready to commit to a full helpdesk platform."
+    }
+  ],
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

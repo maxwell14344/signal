@@ -1,0 +1,25 @@
+{
+  "slug": "intercom-vs-zendesk",
+  "toolASlug": "intercom",
+  "toolBSlug": "zendesk",
+  "tldr": [
+    "Both charge a base seat fee plus separate per-resolution AI billing, and both draw the exact same top complaint in independent reviews: unpredictable AI costs once resolution volume scales past what you budgeted.",
+    "Intercom is cheaper to start ($29/seat/mo) and its standalone Fin AI Agent can be deployed onto an existing helpdesk without migrating seats — the faster path to testing AI resolution quality.",
+    "Zendesk doesn't unlock AI Agents until the $55/agent/mo Suite Team tier, but once there it offers deeper ticket routing, skills-based assignment, and Admin Copilot for human agents that Intercom doesn't match.",
+    "Zendesk's Ease of Setup is its lowest-scoring metric in independent review data; Intercom's standalone Fin deployment is specifically designed to be a faster bolt-on.",
+    "Pick Intercom for a faster AI-first deployment with strong conversational quality; pick Zendesk if you need mature omnichannel ticketing and routing at scale and can absorb a steeper learning curve."
+  ],
+  "featureMatrix": [
+    { "feature": "Starting price", "toolA": "$29/seat/mo", "toolB": "$19/agent/mo (no AI Agents at this tier)" },
+    { "feature": "Cheapest tier with AI included", "toolA": "$29/seat/mo (Essential)", "toolB": "$55/agent/mo (Suite Team)" },
+    { "feature": "AI billing model", "toolA": "$0.99 per Fin resolution", "toolB": "Per-resolution beyond plan allowance" },
+    { "feature": "Standalone AI deployment (no full migration)", "toolA": true, "toolB": false },
+    { "feature": "Phone / voice support", "toolA": true, "toolB": true },
+    { "feature": "Skills-based routing", "toolA": false, "toolB": "Suite Professional+ ($115/agent/mo)" },
+    { "feature": "Agent-facing AI copilot", "toolA": "Copilot add-on ($29/agent/mo)", "toolB": "Admin Copilot (Suite Professional+)" },
+    { "feature": "G2/Capterra rating", "toolA": "4.5/5", "toolB": "4.3-4.4/5" }
+  ],
+  "verdict": "This comes down to how fast you need to move and how much ticketing depth you actually need. Intercom's standalone Fin deployment lets you test AI resolution quality against your existing helpdesk before committing to anything, and its conversational AI has a stronger independent reputation for holding context through multi-step conversations. Zendesk asks for more up front — you're not touching AI Agents until $55/agent/mo — but once you're there, the routing, skills-based assignment, and Admin Copilot are built for support orgs juggling five channels and dozens of agents, not just a chat widget. Both platforms share the same real weakness: per-resolution AI billing that's genuinely hard to forecast, so get a resolution-cost estimate in writing from either vendor before you sign, not after.",
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "tidio-alternatives",
+  "anchorToolSlug": "tidio",
+  "title": "Best Tidio Alternatives",
+  "intro": "Tidio's Lyro AI agent reportedly resolves around 90% of conversations with minimal hallucination — a genuinely strong signal — but pricing transparency (unexpected plan upgrades, refund friction) is the most-repeated complaint across its reviews, and its channel coverage stops short of WhatsApp or voice. Here's what to consider instead.",
+  "entries": [
+    {
+      "toolSlug": "chatbase",
+      "blurb": "A comparably fast-to-launch AI chatbot builder with broader channel reach (adds voice/telephony from the Standard tier) once you're past the credit-metered pricing quirks of both platforms."
+    },
+    {
+      "toolSlug": "crisp",
+      "blurb": "If Tidio's missing WhatsApp coverage is the dealbreaker, Crisp bundles web chat, WhatsApp, Instagram, and Messenger into one inbox from $45/mo."
+    }
+  ],
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

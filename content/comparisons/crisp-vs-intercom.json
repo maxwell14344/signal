@@ -1,0 +1,25 @@
+{
+  "slug": "crisp-vs-intercom",
+  "toolASlug": "crisp",
+  "toolBSlug": "intercom",
+  "tldr": [
+    "Crisp prices per workspace ($45-$295/mo bundling seats and AI credits); Intercom prices per seat ($29+/seat/mo) plus a separate $0.99-per-resolution AI fee — very different billing shapes for very different budgets.",
+    "Crisp is self-funded and profitable with no VC pressure behind it; Intercom is a much larger, venture-backed platform that recently renamed its parent company to Fin after its AI agent.",
+    "Both are genuinely omnichannel, but Crisp's channel list leans social/messaging (WhatsApp, Instagram, Messenger, SMS) while Intercom adds phone support that Crisp doesn't have.",
+    "Crisp's G2/Capterra scores are strong (4.5-4.6/5) but its Trustpilot score is a rough 1.9/5 driven by billing and cancellation complaints — read the fine print before committing either budget or a long-term contract.",
+    "Pick Crisp if you want one affordable inbox for chat, WhatsApp, and social without enterprise pricing; pick Intercom if you need a more independently-proven AI agent and phone support, and can absorb per-resolution costs."
+  ],
+  "featureMatrix": [
+    { "feature": "Pricing model", "toolA": "Per workspace, bundled AI credits", "toolB": "Per seat + $0.99/resolution" },
+    { "feature": "Starting price", "toolA": "$45/mo (Free tier also available)", "toolB": "$29/seat/mo" },
+    { "feature": "Phone / voice support", "toolA": false, "toolB": true },
+    { "feature": "WhatsApp", "toolA": true, "toolB": true },
+    { "feature": "Free tier", "toolA": true, "toolB": false },
+    { "feature": "Funding", "toolA": "Self-funded, no VC", "toolB": "~$242M raised" },
+    { "feature": "G2 rating", "toolA": "4.5/5", "toolB": "4.5/5" },
+    { "feature": "Trustpilot rating", "toolA": "1.9/5", "toolB": "Not independently tracked at comparable volume" }
+  ],
+  "verdict": "This is really a budget-versus-scale decision more than a feature fight. Crisp genuinely unifies web, WhatsApp, and social into one inbox for a fraction of Intercom's cost, and its usable free tier means a small team can run real support before paying anything — but that 1.9/5 Trustpilot score reflects a real pattern of billing and cancellation friction worth taking seriously if you're the type to need to cancel cleanly. Intercom costs more from the first seat and adds a separate per-resolution AI fee on top, but Fin's conversational AI has a stronger independent review trail (2,900+ G2 reviews at 4.5/5) and phone support that Crisp simply doesn't offer. If your support volume is mostly chat and messaging and budget is tight, start with Crisp. If you need voice support or want the more independently-validated AI agent and can tolerate variable resolution costs, Intercom is the safer bet.",
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

@@ -1,13 +1,11 @@
 import type { MetadataRoute } from "next";
-
-const SITE_URL = "https://example.com";
+import { SITE_URL } from "@/lib/jsonld";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: {
-      userAgent: "*",
-      allow: "/",
-    },
+    rules: [
+      { userAgent: "*", allow: "/", disallow: "/admin" },
+    ],
     sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

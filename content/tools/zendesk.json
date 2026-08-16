@@ -1,0 +1,110 @@
+{
+  "slug": "zendesk",
+  "name": "Zendesk",
+  "logoUrl": "",
+  "website": "https://www.zendesk.com",
+  "tagline": "The enterprise helpdesk incumbent betting its next decade on per-resolution AI agents layered over a mature ticketing core.",
+  "tldr": [
+    "Zendesk is a long-established omnichannel helpdesk and ticketing platform (email, chat, social, phone, messaging) now built around AI Agents, Intelligent Triage, and Copilot for human agents.",
+    "Pricing is seat-based per agent per month: Support Team ($19/agent/mo, ticketing-only), Suite Team ($55/agent/mo, adds AI Agents and omnichannel), Suite Professional ($115/agent/mo, adds Admin Copilot and skills-based routing), and custom Suite Enterprise+Copilot, with AI resolutions billed separately beyond plan allowances.",
+    "Founded in 2007 in San Francisco, went public in 2014, and was taken private in a ~$10.2B buyout led by Hellman & Friedman and Permira in November 2022; the company now employs over 7,300 people.",
+    "Review scores are consistently strong (4.3-4.4/5 across G2, Capterra, and TrustRadius from thousands of reviews), with praise for omnichannel consolidation and ticket organization, but per-resolution AI billing and a steep learning curve are the most repeated complaints.",
+    "Positioned as the enterprise-grade choice against more startup-oriented competitors like Intercom, Crisp, or Tidio — deeper compliance and routing controls, at a correspondingly higher and more complex price."
+  ],
+  "categories": { "primary": "helpdesk-ticketing-automation", "secondary": ["agent-assist-copilot"] },
+  "channels": ["Email", "Web Chat", "Phone", "Social Media", "SMS", "WhatsApp"],
+  "keyFeatures": [
+    "AI Agents that resolve tickets autonomously using help center content, available from Suite Team tier upward",
+    "Intelligent Triage and Auto Assist for automatically classifying and routing incoming tickets by intent and urgency (Enterprise+Copilot tier)",
+    "Admin Copilot and Writing Tools that assist human agents composing replies, available on Suite Professional and above",
+    "Skills-based routing and IVR phone tree for directing conversations to the right agent or team",
+    "Action Builder and App Builder for creating custom automations and internal tools without a full dev cycle",
+    "Generative AI for Voice on the top Enterprise+Copilot tier, extending AI resolution to phone support",
+    "Sandbox environment and custom agent roles for enterprises needing safe testing and granular permissions",
+    "Workforce Engagement and Contact Center add-ons for scheduling, QA, and full call-center functionality"
+  ],
+  "companyInfo": { "founded": "2007", "hq": "San Francisco, California, US", "funding": "Public 2014, then taken private in a ~$10.2B buyout (Hellman & Friedman, Permira, Nov 2022)", "employees": "7,300+" },
+  "faq": [
+    {
+      "question": "How does Zendesk's AI resolution billing work?",
+      "answer": "AI Agents are included starting at the Suite Team plan, but resolutions beyond the plan's included allowance are billed separately on a per-resolution basis. Reddit and G2 reviewers frequently flag this as the hardest part of the platform to budget for, since costs scale with both agent seats and AI usage."
+    },
+    {
+      "question": "What's the difference between Support Team and Suite Team?",
+      "answer": "Support Team ($19/agent/mo) is ticketing and email only — no AI Agents, no omnichannel routing. Suite Team ($55/agent/mo) is the first tier that includes AI Agents, a knowledge base, messaging/live chat, and telephony, and is the realistic starting point for most support teams evaluating Zendesk's AI capabilities."
+    },
+    {
+      "question": "Is Zendesk hard to set up?",
+      "answer": "Independent G2 data shows Ease of Setup as the platform's lowest-scoring core metric, and 'learning curve' appears as a documented con in a large number of reviews — this is a platform built for depth and configurability, not a five-minute widget install."
+    },
+    {
+      "question": "How does Zendesk compare to Intercom?",
+      "answer": "Both charge a base seat fee plus per-resolution AI costs, and both draw the same core complaint (unpredictable AI billing at scale). Zendesk generally offers deeper ticketing, routing, and compliance controls suited to larger, more complex support orgs; Intercom is often seen as faster to deploy Fin's conversational AI specifically."
+    },
+    {
+      "question": "Who owns Zendesk now?",
+      "answer": "Zendesk went public in 2014 but was taken private in November 2022 in an approximately $10.2 billion acquisition led by private equity firms Hellman & Friedman and Permira."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "G2 data specifically flags Ease of Setup as the platform's weakest core metric, with a documented learning curve in a large share of reviews." },
+    { "dimension": "AI Quality", "score": 4, "note": "G2's AI performance score sits around 81/100 with 85% response accuracy in independently tracked data, though some reviewers call the base AI tier underpowered relative to price." },
+    { "dimension": "Omnichannel Support", "score": 5, "note": "Consistently the most-praised aspect across reviews — email, chat, social, phone, and messaging genuinely consolidate into one interface." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Per-agent seat cost stacks with per-resolution AI billing and paid add-ons (Copilot, Workforce Engagement, Contact Center), making total cost of ownership high and hard to predict at scale." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "Strong aggregate scores (4.3-4.4/5 across thousands of reviews on G2, Capterra, and TrustRadius) reflect a mature, well-supported enterprise product." }
+  ],
+  "pricing": {
+    "model": "Per-seat tiered SaaS plus per-resolution AI billing beyond plan allowances",
+    "startingPrice": "$19/agent/mo",
+    "plans": [
+      { "name": "Support Team", "price": "$19/agent/mo", "billing": "Annual billing", "notes": "Email and ticketing, ticket routing, analytics dashboards, pre-written responses, automations and triggers — no AI Agents" },
+      { "name": "Suite Team", "price": "$55/agent/mo", "billing": "Annual billing", "notes": "Adds AI Agents, Knowledge Base, Action Builder, omnichannel routing, messaging/live chat, telephony" },
+      { "name": "Suite Professional", "price": "$115/agent/mo", "billing": "Annual billing", "notes": "Adds Admin Copilot, App Builder, Writing Tools, Quick Reports, skills-based routing, IVR phone tree" },
+      { "name": "Suite Enterprise + Copilot", "price": "Custom", "billing": "Contact sales", "notes": "Adds Intelligent Triage, Auto Assist, Generative AI for Voice, approval workflows, sandbox environment, custom agent roles" }
+    ]
+  },
+  "pros": [
+    "Genuinely best-in-class omnichannel consolidation — email, chat, social, phone, and messaging in one place, consistently the top-praised feature in reviews",
+    "Deep enterprise controls (skills-based routing, sandbox, custom roles, SLAs) suited to complex, high-volume support orgs",
+    "Long operating history and large review base (thousands of reviews across platforms) provide unusually strong evidence of real-world reliability",
+    "Admin Copilot and Writing Tools give human agents meaningful AI assistance, not just customer-facing automation"
+  ],
+  "cons": [
+    "Per-resolution AI billing on top of per-seat pricing is the most consistent complaint, with costs described as hard to predict and dispute-prone",
+    "Ease of Setup and learning curve are documented weak points relative to lighter competitors like Tidio or Chatbase",
+    "Base AI tier criticized by some reviewers as underpowered for the price versus dedicated AI-first competitors",
+    "Meaningful features (Admin Copilot, skills-based routing) are locked behind the $115/agent/mo Suite Professional tier or higher"
+  ],
+  "sentiment": [
+    {
+      "quote": "It streamlines customer support, keeps tickets and communications organized, and helps provide fast, consistent, and professional service.",
+      "source": "Capterra (Jane F., Personal Lines Executive, Insurance)",
+      "url": "https://www.capterra.com/p/164283/Zendesk/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Zendesk Suite is very user-friendly and easy to set up. I liked how it centralises all customer interactions (email, chat, and tickets) in one place.",
+      "source": "Capterra (Sonu P., Systems Analyst, Consumer Goods)",
+      "url": "https://www.capterra.com/p/164283/Zendesk/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Major issues with spam and junk email not being filtered out, while real customer emails get lost in the mix.",
+      "source": "Capterra (Christine B., Pilates Transformation Expert, Health & Wellness)",
+      "url": "https://www.capterra.com/p/164283/Zendesk/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Mid-market and enterprise support orgs needing deep routing, compliance, and reporting controls",
+    "Teams already running complex, high-ticket-volume operations across many channels",
+    "Organizations that can forecast AI resolution volume closely enough to budget per-resolution costs confidently",
+    "Companies wanting mature agent-assist tooling (Copilot, Writing Tools) alongside customer-facing AI"
+  ],
+  "verdict": "Zendesk is the platform enterprises pick when they've outgrown the lighter competitors — the omnichannel consolidation is genuinely the best-reviewed part of the product, and 4,000-plus Capterra reviews at 4.4/5 is not a small sample to be wrong. But this is not a five-minute setup like Chatbase or Tidio: G2 specifically calls out Ease of Setup as the weakest metric, and the same per-resolution AI billing complaint that dogs Intercom shows up here too, compounded by per-seat pricing that already starts at $55/agent/mo just to unlock AI Agents. Worth the complexity for a 50-agent support team drowning in tickets across five channels; overkill for a 3-person startup that just needs a chat widget.",
+  "rating": 4.2,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-16",
+  "lastVerifiedAt": "2026-08-16"
+}

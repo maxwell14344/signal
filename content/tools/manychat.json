@@ -1,0 +1,110 @@
+{
+  "slug": "manychat",
+  "name": "ManyChat",
+  "logoUrl": "",
+  "website": "https://manychat.com",
+  "tagline": "The comment-to-DM automation king for Instagram and WhatsApp, now charging by the active contact.",
+  "tldr": [
+    "ManyChat is a chat marketing and automation platform built around Instagram, Facebook Messenger, and WhatsApp — best known for comment-to-DM automation that turns social engagement directly into conversations.",
+    "Pricing was overhauled in March 2026 to scale by active monthly contacts across four tiers: Free (25 contacts, 2 channels), Essential ($17/mo, 250 contacts), Pro ($39/mo, 2,500 contacts, AI included), and Business ($69/mo, 7,500 contacts), plus per-contact overage fees once you exceed plan limits.",
+    "Founded in 2015, headquartered in the US (San Francisco/West Hollywood), and backed by roughly $158M in venture funding across three rounds, led by CEO and co-founder Mikael Yang.",
+    "Reviews are strong on core automation and flow-building (G2 and Capterra both trend well above 4/5), but Reddit and Trustpilot threads consistently cite cost escalation as contact lists grow, slow support, and occasional flow/automation reliability glitches.",
+    "The March 2026 pricing overhaul cut the free tier from 1,000 contacts down to just 25, a change that drew significant user pushback and is worth flagging to anyone comparing ManyChat's free tier against competitors."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["conversational-commerce"] },
+  "channels": ["Instagram DM", "Facebook Messenger", "WhatsApp", "SMS", "Email"],
+  "keyFeatures": [
+    "Comment-to-DM automation that triggers a direct message flow whenever someone comments on an Instagram post, reel, or ad",
+    "Visual flow builder for multi-step automated conversations across Instagram, Messenger, and WhatsApp without code",
+    "AI-included automation on the Pro tier and above for smarter reply handling within built flows",
+    "Contact tagging and segmentation for targeted broadcast campaigns and re-engagement of past leads",
+    "Template library for duplicating proven automation flows in minutes rather than building from scratch",
+    "Native integrations plus Zapier connectivity for linking flows to external CRMs and tools",
+    "Growth tools (Instagram Story mentions, keyword triggers, QR codes) designed specifically for social-commerce lead capture",
+    "Per-contact overage billing that scales cost directly with active monthly contact volume rather than a flat seat fee"
+  ],
+  "companyInfo": { "founded": "2015", "hq": "San Francisco / West Hollywood, California, US", "funding": "~$158M raised across 3 rounds (Series B, Apr 2025)", "employees": "~550" },
+  "faq": [
+    {
+      "question": "How does ManyChat's pricing work in 2026?",
+      "answer": "As of the March 2026 pricing overhaul, plans scale by active monthly contacts: Free (25 contacts, 2 channels), Essential ($17/mo for 250 contacts), Pro ($39/mo for 2,500 contacts, includes AI), and Business ($69/mo for 7,500 contacts). Exceeding your contact limit triggers per-contact overage fees that decrease in rate at higher tiers."
+    },
+    {
+      "question": "What happened to ManyChat's free plan?",
+      "answer": "The free tier was cut from 1,000 contacts down to 25 contacts as part of the March 2026 pricing restructure — a roughly 97.5% reduction that drew significant user criticism, since it makes the free plan effectively a trial rather than a usable small-business tier."
+    },
+    {
+      "question": "What is ManyChat best known for?",
+      "answer": "Comment-to-DM automation on Instagram — automatically messaging anyone who comments on a post, reel, or ad — is consistently the most-praised, standout feature in independent reviews, used heavily for lead capture and engagement growth."
+    },
+    {
+      "question": "Does ManyChat support WhatsApp?",
+      "answer": "Yes, WhatsApp is one of the core supported channels alongside Instagram and Facebook Messenger, though WhatsApp-specific messaging fees from Meta apply on top of ManyChat's own plan pricing."
+    },
+    {
+      "question": "What do users complain about most?",
+      "answer": "Cost escalation as contact lists grow is the most repeated Reddit complaint, with some users reporting bills growing 2-3x as their lists expanded. Slow, email-only support and occasional automation reliability glitches (flows failing to fire, profiles disconnecting mid-campaign) are the other recurring themes."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Reviewers consistently describe building Instagram/Messenger/WhatsApp flows without technical skill, often duplicating templates in under five minutes." },
+    { "dimension": "AI Quality", "score": 3, "note": "AI is included from the Pro tier up, but is generally seen as a add-on to flow automation rather than a standout conversational AI compared to dedicated AI-support platforms." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "Strong on Instagram, Messenger, and WhatsApp specifically, but lacks the broader email/voice/ticketing coverage of helpdesk-style competitors." },
+    { "dimension": "Pricing Value", "score": 2, "note": "The March 2026 shift to per-contact pricing with a 25-contact free tier and steep overage fees is the most consistently criticized aspect of the product in recent reviews." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "G2 reviewers score functionality well but flag customer service as a comparative weak point, with Reddit threads describing slow, email-only support especially on billing issues." }
+  ],
+  "pricing": {
+    "model": "Tiered SaaS scaling by active monthly contacts, with per-contact overage fees",
+    "startingPrice": "$17/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "25 active contacts, 2 channels (Instagram and Facebook Messenger)" },
+      { "name": "Essential", "price": "$17/mo ($14/mo billed annually)", "billing": "Monthly or annual", "notes": "250 contacts; overage $0.10 per contact/month beyond limit" },
+      { "name": "Pro", "price": "$39/mo ($29/mo billed annually)", "billing": "Monthly or annual", "notes": "2,500 contacts, AI included; overage $0.05 per contact/month beyond limit" },
+      { "name": "Business", "price": "$69/mo", "billing": "Monthly", "notes": "7,500 contacts; overage $0.025 per contact/month beyond limit" }
+    ]
+  },
+  "pros": [
+    "Comment-to-DM automation on Instagram is a genuinely differentiated, well-reviewed feature for social-led lead generation",
+    "Visual flow builder is approachable enough for non-technical marketers to build and duplicate working automations quickly",
+    "Well-funded, established player (founded 2015, ~$158M raised) with a large existing template and integration ecosystem",
+    "AI included starting at a relatively affordable Pro tier ($39/mo) compared to some AI-first competitors' enterprise-gated AI"
+  ],
+  "cons": [
+    "March 2026 pricing overhaul slashed the free tier from 1,000 to just 25 contacts, drawing significant user backlash",
+    "Per-contact overage billing makes costs escalate quickly and unpredictably as a business's audience grows",
+    "Support is frequently described as slow and email-only, particularly frustrating during billing disputes",
+    "Coverage is concentrated on Instagram/Messenger/WhatsApp — no native email helpdesk, ticketing, or voice channel"
+  ],
+  "sentiment": [
+    {
+      "quote": "The automation allowed me to connect with customers without having to be tied to my phone responding to messages.",
+      "source": "Capterra (Joy H., Independent Sales Consultant)",
+      "url": "https://www.capterra.com/p/206636/ManyChat/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "I must admit that it is the market leader for the chatbot sector, I find it a very useful tool for creating interesting workflows.",
+      "source": "Capterra (Ettore L., Manager)",
+      "url": "https://www.capterra.com/p/206636/ManyChat/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "The pricing is too high, and integrating with other tools required lots of patchwork zapier solutions.",
+      "source": "Capterra (Dave N., Owner)",
+      "url": "https://www.capterra.com/p/206636/ManyChat/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Social-first brands driving leads and sales through Instagram comments, DMs, and Stories",
+    "E-commerce and D2C businesses wanting WhatsApp and Messenger automation for conversational commerce",
+    "Marketers who want a visual, no-code flow builder over a more traditional support-ticket interface",
+    "Small teams whose contact list will stay within a predictable range, avoiding overage-fee surprises"
+  ],
+  "verdict": "ManyChat still owns comment-to-DM automation on Instagram better than anyone else in this list, and the flow builder genuinely lets a non-technical marketer ship a working funnel in an afternoon. But the March 2026 move to per-contact pricing — gutting the free tier from 1,000 contacts to 25 — is a real shift in who this product is for, and the Reddit threads about bills growing 2-3x as a list scales aren't exaggerating the mechanics of the new model. Great fit for a brand that lives on Instagram and WhatsApp and keeps its contact list lean; a riskier bet for anyone expecting the free-tier generosity ManyChat used to be known for.",
+  "rating": 3.9,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-16",
+  "lastVerifiedAt": "2026-08-16"
+}

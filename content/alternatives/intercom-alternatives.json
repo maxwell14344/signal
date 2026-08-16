@@ -1,0 +1,22 @@
+{
+  "slug": "intercom-alternatives",
+  "anchorToolSlug": "intercom",
+  "title": "Best Intercom Alternatives",
+  "intro": "Intercom's Fin AI agent has a strong independent reputation, but the $29+/seat/mo base plus $0.99-per-resolution AI billing pushes real monthly costs well past the sticker price for a lot of teams. Here's where to look if that math doesn't work for you.",
+  "entries": [
+    {
+      "toolSlug": "zendesk",
+      "blurb": "The closer enterprise-grade match — deeper ticket routing, skills-based assignment, and Admin Copilot for human agents, at the cost of a steeper learning curve and AI Agents locked behind the $55/agent/mo Suite Team tier."
+    },
+    {
+      "toolSlug": "crisp",
+      "blurb": "The budget move — per-workspace pricing starting at $45/mo (with a usable free tier) instead of per-seat, if you're a smaller team that doesn't need Intercom's scale."
+    },
+    {
+      "toolSlug": "heyy",
+      "blurb": "Worth a look if you want more explicit control over what an AI agent can read or write in your CRM — its attribute-permission model is more granular than what Intercom documents, though it lacks Intercom's independent review track record."
+    }
+  ],
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

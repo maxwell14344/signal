@@ -1,8 +1,15 @@
-import type { Tool } from "./schema";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
 
-const SITE_URL = "https://example.com";
+interface ToolForJsonLd {
+  slug: string;
+  name: string;
+  tldr: string[];
+  rating: number | string | null;
+  sentimentQuotes: { quote: string }[];
+  pricingPlans: { name: string; price: string; notes?: string }[];
+}
 
-export function toolJsonLd(tool: Tool) {
+export function toolJsonLd(tool: ToolForJsonLd) {
   return {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -17,14 +24,14 @@ export function toolJsonLd(tool: Tool) {
       ? {
           aggregateRating: {
             "@type": "AggregateRating",
-            ratingValue: tool.rating,
+            ratingValue: Number(tool.rating),
             bestRating: 5,
             worstRating: 1,
-            ratingCount: Math.max(tool.sentiment.length, 1),
+            ratingCount: Math.max(tool.sentimentQuotes?.length ?? 0, 1),
           },
         }
       : {}),
-    offers: tool.pricing.plans.map((plan) => ({
+    offers: (tool.pricingPlans ?? []).map((plan) => ({
       "@type": "Offer",
       name: plan.name,
       price: plan.price,
@@ -32,3 +39,5 @@ export function toolJsonLd(tool: Tool) {
     })),
   };
 }
+
+export { SITE_URL };

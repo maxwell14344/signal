@@ -1,24 +1,24 @@
 import { ExternalLink } from "lucide-react";
-import type { SentimentQuote, SentimentTone } from "@/lib/schema";
+import type { SentimentQuote } from "@/lib/db/schema";
 
-const TONE_STYLES: Record<SentimentTone, string> = {
+const TONE_STYLES: Record<string, string> = {
   positive: "border-l-positive",
   negative: "border-l-negative",
   mixed: "border-l-accent-2",
 };
 
-const TONE_LABEL: Record<SentimentTone, string> = {
+const TONE_LABEL: Record<string, string> = {
   positive: "Positive",
   negative: "Negative",
   mixed: "Mixed",
 };
 
 export function SentimentQuotes({ quotes }: { quotes: SentimentQuote[] }) {
-  if (quotes.length === 0) return null;
+  if (!quotes || quotes.length === 0) return null;
 
   return (
     <div>
-      <h2 className="mb-4 text-lg font-semibold">What people are saying</h2>
+      <h2 className="mb-4 text-lg">What people are saying</h2>
       <div className="grid gap-4 sm:grid-cols-2">
         {quotes.map((q, i) => (
           <a
@@ -26,9 +26,9 @@ export function SentimentQuotes({ quotes }: { quotes: SentimentQuote[] }) {
             href={q.url}
             target="_blank"
             rel="noopener noreferrer"
-            className={`block rounded-xl border border-border ${TONE_STYLES[q.sentiment]} border-l-4 bg-surface p-5 transition hover:bg-surface-2`}
+            className={`block rounded-lg border border-border ${TONE_STYLES[q.sentiment]} border-l-4 bg-surface p-5 card-shadow transition hover:bg-surface-2`}
           >
-            <p className="text-sm italic leading-relaxed text-foreground">
+            <p className="text-sm italic leading-relaxed text-body">
               &ldquo;{q.quote}&rdquo;
             </p>
             <div className="mt-3 flex items-center justify-between text-xs text-muted">

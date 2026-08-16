@@ -1,0 +1,111 @@
+{
+  "slug": "crisp",
+  "name": "Crisp",
+  "logoUrl": "",
+  "website": "https://crisp.chat",
+  "tagline": "A self-funded, all-in-one shared inbox that bundles live chat, WhatsApp, and an AI chatbot into one workspace price.",
+  "tldr": [
+    "Crisp is an omnichannel customer messaging platform combining a website chat widget, shared team inbox, email, and social/WhatsApp channels with an AI chatbot layer (credit-metered) on top.",
+    "Pricing is per-workspace rather than strictly per-seat, running Free ($0, 2 seats) through Mini ($45/mo), Essentials ($95/mo), and Plus ($295/mo, marked 'Best Value'), each bundling a set number of seats plus a pool of AI credits for automated conversations.",
+    "Self-funded and profitable since founding — Crisp has taken no venture capital, founded in Nantes/Paris, France by Baptiste Jamin and Valerian Saliou, and runs lean at roughly 20 employees.",
+    "Independent review scores vary sharply by platform: strong on G2 (4.5/5) and Capterra (4.6/5) for ease of use and support responsiveness, but a notably rougher 1.9/5 on Trustpilot driven by billing and cancellation complaints.",
+    "Positioned as a budget-friendly alternative to Intercom/Zendesk for small-to-mid businesses that want live chat, shared inbox, and basic AI automation without enterprise-tier pricing."
+  ],
+  "categories": { "primary": "live-chat-shared-inbox", "secondary": ["whatsapp-social-messaging-ai"] },
+  "channels": ["Web Chat", "WhatsApp", "Email", "Instagram DM", "Facebook Messenger", "SMS"],
+  "keyFeatures": [
+    "Shared team inbox unifying website chat, email, and connected social/messaging channels in one thread view",
+    "AI chatbot with a credit-based automation budget scaling by plan (from ~90 automated conversations on Mini to ~1,350 on Plus)",
+    "Knowledge base and workflow automation tools available from the Essentials tier upward",
+    "Ticketing system and unlimited task automations on the Plus plan, alongside white-labeling and 100+ integrations",
+    "Chat triggers, canned responses/shortcuts, and private internal notes for team collaboration",
+    "Native e-commerce integrations for order/customer context inside conversations",
+    "Custom email domain and unlimited conversation history retention from the Mini tier up",
+    "Enterprise tier with dedicated onboarding, custom SLAs, and team training"
+  ],
+  "companyInfo": { "founded": "2015", "hq": "Nantes/Paris, France", "funding": "Self-funded, no VC investment", "employees": "~20" },
+  "faq": [
+    {
+      "question": "Is Crisp priced per seat or per workspace?",
+      "answer": "Per workspace, with a set number of seats bundled into each tier (2 on Free, 4 on Mini, 10 on Essentials, 20+ on Plus) — adding more seats than the bundle typically costs extra rather than being a flat per-user fee."
+    },
+    {
+      "question": "How does Crisp's AI chatbot billing work?",
+      "answer": "Each paid plan includes a dollar-denominated AI credit pool (e.g. $25 of credits on Essentials, roughly 450 automated conversations) that automated chatbot replies draw down; heavier automation usage requires a higher tier or add-on credits."
+    },
+    {
+      "question": "What channels does Crisp support beyond the website widget?",
+      "answer": "Crisp connects WhatsApp, Instagram, Facebook Messenger, SMS, and email into the same shared inbox alongside the core website chat widget, so agents work every channel from one thread view."
+    },
+    {
+      "question": "Is Crisp a good fit for larger support teams?",
+      "answer": "It scales up to an Enterprise tier with custom SLAs and dedicated onboarding, but its strongest reputation and pricing sweet spot is small-to-mid-sized teams; larger orgs weighing Zendesk or Intercom should compare ticketing depth and reporting before committing."
+    },
+    {
+      "question": "Why is Crisp's Trustpilot score so much lower than its G2/Capterra scores?",
+      "answer": "Trustpilot reviews for Crisp skew heavily toward billing and cancellation complaints — customers reporting continued charges after attempting to cancel and friction getting refunds — while G2 and Capterra reviews focus more on day-to-day product usability, where Crisp scores well."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Widget and shared inbox are quick to stand up; Capterra reviewers repeatedly call the interface intuitive." },
+    { "dimension": "AI Quality", "score": 3, "note": "One reviewer reported a 40% query reduction from AI handling mundane questions, but the credit-metered automation budget caps how much AI work smaller plans can actually do." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "Genuinely unifies web chat, WhatsApp, Messenger, Instagram, SMS, and email in one inbox — a real strength versus single-channel widgets." },
+    { "dimension": "Pricing Value", "score": 4, "note": "Per-workspace pricing with a generous free tier and mid-tier plans well under Intercom/Zendesk equivalents, though multi-workspace credit structure confuses some buyers." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Praised as responsive in most G2/Capterra reviews, but Trustpilot's 1.9/5 reflects a real subset of billing and cancellation-support complaints worth taking seriously." }
+  ],
+  "pricing": {
+    "model": "Per-workspace tiered SaaS with bundled AI credits",
+    "startingPrice": "$45/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "2 seats, website widget, shared inbox, mobile apps, contact forms, e-commerce integrations, no AI credits" },
+      { "name": "Mini", "price": "$45/mo", "billing": "Per workspace/month", "notes": "4 seats, $5 AI credits (~90 automated conversations), shared email inbox, shortcuts, triggers, private notes, custom email domain" },
+      { "name": "Essentials", "price": "$95/mo", "billing": "Per workspace/month", "notes": "10 seats, $25 AI credits (~450 automated conversations), omnichannel inbox, workflow automation, AI chatbot, knowledge base, routing rules" },
+      { "name": "Plus", "price": "$295/mo", "billing": "Per workspace/month", "notes": "20+ seats, $75 AI credits (~1,350 automated conversations), unlimited task automations, ticketing, 100+ integrations, white labeling, advanced analytics" },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "Dedicated onboarding, personalized SLAs, custom features, team training" }
+    ]
+  },
+  "pros": [
+    "Genuinely unified omnichannel inbox (web, WhatsApp, social, SMS, email) rather than a chat widget with bolt-on channels",
+    "Free tier is usable enough that small teams can run real support before ever paying",
+    "Self-funded and profitable company history suggests low risk of a sudden pivot or shutdown driven by investor pressure",
+    "Strong day-to-day usability scores on G2 (4.5/5) and Capterra (4.6/5)"
+  ],
+  "cons": [
+    "Trustpilot rating (1.9/5) reveals a real pattern of billing and cancellation complaints that the higher-profile review sites don't fully surface",
+    "AI automation is credit-metered per workspace, so heavier automation needs mean upgrading tiers or buying add-on credits",
+    "Message-delivery reliability issues appear in a non-trivial number of independent reviews",
+    "Advanced features (ticketing, white-labeling, 100+ integrations) are locked behind the $295/mo Plus tier"
+  ],
+  "sentiment": [
+    {
+      "quote": "The tool is awesome, the support team very reactive if you need anything. What more can we ask for?",
+      "source": "Capterra (Simon C., CTO)",
+      "url": "https://www.capterra.com/p/151292/Crisp/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Crisp often doesn't send our support team's responses to our users, and when we bring this up with them it takes a lot of arguing and persistence to finally fix it.",
+      "source": "Capterra (Alex B., Founder)",
+      "url": "https://www.capterra.com/p/151292/Crisp/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "It's value for money already bringing us a 40% reduction in queries due to their AI handling mundane queries on behalf of our agents.",
+      "source": "Capterra (Leandi M., Product Manager)",
+      "url": "https://www.capterra.com/p/151292/Crisp/reviews/",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "Small-to-mid-sized teams wanting one inbox for web chat, WhatsApp, and social messaging without enterprise pricing",
+    "Budget-conscious startups that need a usable free tier before committing to a paid plan",
+    "Teams prioritizing omnichannel breadth over deep AI automation sophistication",
+    "Companies wary of vendor instability who value a self-funded, profitable operator"
+  ],
+  "verdict": "Crisp is the honest budget pick in this category — a genuinely unified inbox across web, WhatsApp, and social for a fraction of what Intercom charges, from a company that's stayed self-funded for a decade instead of chasing a Series B. The catch is the split personality in its reviews: G2 and Capterra reviewers who use it day-to-day rate it highly, while Trustpilot's 1.9/5 is dragged down by a real thread of billing and cancellation complaints that's hard to wave away. Treat it as a strong pick for teams that will actually cancel cleanly and read the fine print on AI credit consumption, not a set-and-forget enterprise system.",
+  "rating": 4.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-16",
+  "lastVerifiedAt": "2026-08-16"
+}

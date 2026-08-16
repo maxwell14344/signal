@@ -1,0 +1,22 @@
+{
+  "slug": "zendesk-alternatives",
+  "anchorToolSlug": "zendesk",
+  "title": "Best Zendesk Alternatives",
+  "intro": "Zendesk's omnichannel consolidation is genuinely the best-reviewed part of the product, but G2 specifically flags Ease of Setup as its weakest metric, and AI Agents don't even unlock until the $55/agent/mo Suite Team tier. These are the alternatives worth checking if you want less complexity.",
+  "entries": [
+    {
+      "toolSlug": "intercom",
+      "blurb": "Cheaper to start ($29/seat/mo vs. $55/agent/mo for AI-enabled tiers) and faster to deploy via a standalone Fin AI Agent that bolts onto your existing helpdesk without a full migration."
+    },
+    {
+      "toolSlug": "crisp",
+      "blurb": "A genuinely lighter option for small-to-mid teams — per-workspace pricing from $45/mo, live chat and shared inbox without Zendesk's ticketing depth or learning curve."
+    },
+    {
+      "toolSlug": "tidio",
+      "blurb": "If Zendesk's setup complexity is the dealbreaker, Tidio's Lyro AI agent is consistently the top-praised attribute in its own reviews for exactly that reason — fast, low-friction setup."
+    }
+  ],
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

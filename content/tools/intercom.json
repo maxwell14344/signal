@@ -1,0 +1,110 @@
+{
+  "slug": "intercom",
+  "name": "Intercom",
+  "logoUrl": "",
+  "website": "https://www.intercom.com",
+  "tagline": "The customer service platform so committed to its AI agent that the company legally renamed itself after it.",
+  "tldr": [
+    "Intercom is a full customer service platform combining a shared inbox, help center, ticketing, and the Fin AI agent, sold on a per-seat price plus a pay-per-resolution fee for AI-handled conversations.",
+    "In May 2026 the parent company officially renamed its corporate entity from Intercom to Fin, reflecting that the Fin AI agent has become its primary product and revenue driver — 'Intercom' remains the name of the underlying software platform.",
+    "Seat pricing runs Essential ($29/mo), Advanced ($85/mo, includes 20 free Lite seats), and Expert ($132/mo, includes 50 free Lite seats), with Fin billed separately at $0.99 per resolution regardless of tier.",
+    "Founded in 2011 in San Francisco by four Irish co-founders (Eoghan McCabe, Des Traynor, Ciaran Lee, David Barrett), Intercom has raised roughly $242M in venture funding and employs over 1,100 people.",
+    "Reviews are strong on G2 (4.5/5, 2,900+ reviews for Fin) and Capterra (4.5/5, 1,100+ reviews), with consistent praise for resolution quality and real-time context, but the most common complaint by far is unpredictable, fast-scaling AI resolution costs."
+  ],
+  "categories": { "primary": "helpdesk-ticketing-automation", "secondary": ["live-chat-shared-inbox"] },
+  "channels": ["Web Chat", "Email", "WhatsApp", "SMS", "Phone", "API"],
+  "keyFeatures": [
+    "Fin AI agent that resolves customer conversations autonomously, billed per resolution ($0.99) independent of seat tier",
+    "Shared inbox with multiple team inboxes, round-robin assignment, and workflow automation on Advanced tier and above",
+    "Public and multilingual help center with pre-built reporting on ticket and conversation performance",
+    "Standalone Fin AI Agent deployment option that layers onto an existing helpdesk (including Salesforce) without requiring a full Intercom seat migration",
+    "Optional Fin add-ons: Copilot ($29/agent/mo) for in-inbox AI assistance, and a Pro add-on ($99/mo) for advanced AI analysis and an 'Operator' agent",
+    "SSO, identity management, HIPAA support, and SLAs on the Expert tier for compliance-heavy teams",
+    "Proactive Support Plus add-on ($99/mo) for outbound engagement campaigns",
+    "Multibrand messenger and help center support for companies running several brands from one workspace"
+  ],
+  "companyInfo": { "founded": "2011", "hq": "San Francisco, California, US", "funding": "~$242M raised across 9 rounds", "employees": "1,100+" },
+  "faq": [
+    {
+      "question": "Did Intercom change its name?",
+      "answer": "Yes — in May 2026 the corporate entity officially renamed itself from Intercom to Fin, reflecting that the Fin AI agent has become the company's primary product and revenue driver. The customer service software is still marketed and sold under the Intercom name."
+    },
+    {
+      "question": "How much does Fin actually cost in practice?",
+      "answer": "Fin is billed at $0.99 per resolution on top of whatever seat plan you're on. Multiple independent reviews note this makes monthly AI costs hard to predict — teams budgeting for seats alone have reported bills landing well above expectations once resolution volume scales."
+    },
+    {
+      "question": "Can I use Fin without switching my whole helpdesk to Intercom?",
+      "answer": "Yes — Intercom offers a standalone Fin AI Agent deployment that layers onto an existing helpdesk, including Salesforce, without requiring seats on the full Intercom platform, priced at the same $0.99-per-resolution rate."
+    },
+    {
+      "question": "What's included at the entry-level Essential plan?",
+      "answer": "Essential ($29/seat/mo) includes the Messenger widget, shared inbox, ticketing, pre-built reports, and a public help center — multiple team inboxes, workflow automation, and SSO are reserved for Advanced and Expert."
+    },
+    {
+      "question": "Is Intercom worth it for a small startup?",
+      "answer": "It's capable but not cheap once Fin resolution fees are added to seat costs; multiple Capterra reviewers explicitly flag it as expensive for startups and small businesses relative to competitors like Crisp or Tidio."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Standard messenger/inbox setup is straightforward; the standalone Fin deployment option is specifically designed for fast bolt-on setup onto an existing helpdesk." },
+    { "dimension": "AI Quality", "score": 4, "note": "Reviewers consistently praise Fin's ability to follow multi-step dialogs and resolve routine queries without losing context, though it can still misfire on nuanced requests." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "Covers chat, email, WhatsApp, SMS, and phone; strong breadth for a platform built around a single AI agent core." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Per-resolution AI billing is the single most-cited complaint across reviews — the two-part seat-plus-resolution model makes total cost genuinely hard to forecast." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "High overall review volume (2,900+ on G2 for Fin alone) with a 4.5/5 average signals broad satisfaction, though integration breadth is a recurring minor gripe." }
+  ],
+  "pricing": {
+    "model": "Per-seat tiered SaaS plus pay-per-resolution AI billing",
+    "startingPrice": "$29/seat/mo",
+    "plans": [
+      { "name": "Essential", "price": "$29/seat/mo", "billing": "Monthly per seat, plus $0.99 per Fin resolution", "notes": "Messenger, shared inbox, ticketing, pre-built reports, public help center" },
+      { "name": "Advanced", "price": "$85/seat/mo", "billing": "Monthly per seat, plus $0.99 per Fin resolution", "notes": "Includes 20 free Lite seats; adds multiple team inboxes, workflow automation, round robin assignment, multilingual help center" },
+      { "name": "Expert", "price": "$132/seat/mo", "billing": "Monthly per seat, plus $0.99 per Fin resolution", "notes": "Includes 50 free Lite seats; adds SSO, identity management, HIPAA support, SLAs, multibrand messenger/help center" },
+      { "name": "Standalone Fin AI Agent", "price": "$0.99/resolution", "billing": "Usage-based, no seats required", "notes": "Layers onto an existing helpdesk, including Salesforce, without a full platform migration" }
+    ]
+  },
+  "pros": [
+    "Fin AI agent has a strong independent reputation for handling multi-step conversations and maintaining context, not just simple FAQ lookups",
+    "Genuinely omnichannel (chat, email, WhatsApp, SMS, phone) from one shared inbox with mature workflow automation",
+    "Standalone Fin deployment option is a low-commitment way to test AI resolution quality before migrating an entire helpdesk",
+    "Deep compliance and enterprise features (SSO, HIPAA, SLAs, multibrand) on the Expert tier for regulated or multi-brand businesses"
+  ],
+  "cons": [
+    "Per-resolution Fin pricing ($0.99 each) is the most consistent complaint in independent reviews — costs scale unpredictably with support volume",
+    "Expensive relative to budget competitors like Crisp or Tidio, especially once seat and resolution costs are combined",
+    "Fewer native integrations than some competitors, requiring more tab-hopping according to reviewers",
+    "The May 2026 corporate rebrand to Fin adds some naming confusion between the company, the AI agent product, and the underlying Intercom software brand"
+  ],
+  "sentiment": [
+    {
+      "quote": "The live chat is fast and responsive, and the ability to see user activity in real time adds a layer of context that makes support feel proactive rather than reactive.",
+      "source": "Capterra (Davis O, Customer Support Team Lead)",
+      "url": "https://www.capterra.com/p/134347/Intercom/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Intercom is expensive, especially for startups and small businesses. Their AI agent, Fin, charges about $0.99 per resolution, which adds up quickly at scale.",
+      "source": "Capterra (Marc G, Director)",
+      "url": "https://www.capterra.com/p/134347/Intercom/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Intercom doesn't offer as many integration options as some of their competitors. Because of that, one has to navigate through several tabs or pages.",
+      "source": "Capterra (Rafael G, Analyst)",
+      "url": "https://www.capterra.com/p/134347/Intercom/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Mid-market to enterprise support teams that want a mature, AI-first helpdesk with strong compliance options",
+    "Teams that want to trial an AI agent standalone before committing to a full platform migration",
+    "Companies running multiple brands that need multibrand messenger and help center support",
+    "Businesses with predictable, budgeted support volume who can forecast Fin resolution costs accurately"
+  ],
+  "verdict": "Intercom's decision to rename the entire company after its AI agent is the most honest signal in this whole category — Fin is genuinely good at holding a multi-step conversation without losing the thread, and reviewers back that up consistently on G2 and Capterra. The problem is the same one every per-resolution AI pricing model has: a $29 Essential seat looks cheap right up until Fin's $0.99-per-resolution fee turns a few thousand monthly conversations into a bill nobody budgeted for, which is the single most repeated complaint across hundreds of reviews. If your support volume is predictable, this is one of the strongest AI-first platforms available; if it isn't, get a resolution-cost estimate in writing before you sign.",
+  "rating": 4.3,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-16",
+  "lastVerifiedAt": "2026-08-16"
+}

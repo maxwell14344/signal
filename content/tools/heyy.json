@@ -1,0 +1,101 @@
+{
+  "slug": "heyy",
+  "name": "Heyy",
+  "logoUrl": "",
+  "website": "https://heyy.io",
+  "tagline": "Hire an AI Employee that actually works your inbox, not just a chatbot widget bolted onto your site.",
+  "tldr": [
+    "Heyy is an 'AI Employees' platform: you hire an AI agent, give it an identity (name, brand, tone, role), feed it knowledge (website crawls, documents, plain text, Q&A pairs), and deploy it into automations across WhatsApp, Instagram, Facebook Messenger, Live Chat, and SMS.",
+    "AI Employees can go beyond answering questions — they can read and update contact/CRM fields mid-conversation, call external APIs (order status, live stock, CRM writes), trigger other automations, and share files.",
+    "Exit points let each employee define its own escalation and resolution logic in plain language (e.g. 'Escalate to Human', 'Refund Request', 'Resolved'), which are then explicitly wired into automation flows and routed to a human inbox with full conversation history preserved.",
+    "Configuration is organized into seven tabs per employee — Identity & guidelines, Content, Attributes, Assets, Exit points, Actions, Settings — plus a Playground for testing before an employee goes live.",
+    "Plan tiers (Hobby, Pro, Ultra, Enterprise) gate the number of AI Employees per workspace, knowledge storage per employee, actions per employee, and AI assets per employee; dollar pricing is not published in the docs.",
+    "Built for multi-channel, multi-brand support and sales teams — you can run separate employees per brand or per function (e.g. a Support employee and a Sales employee) inside one workspace."
+  ],
+  "categories": { "primary": "ai-support-agents", "secondary": ["helpdesk-ticketing-automation"] },
+  "channels": ["Web Chat", "WhatsApp", "Instagram DM", "Facebook Messenger", "SMS"],
+  "keyFeatures": [
+    "AI Employee identity system — name, brand name, gender/avatar, role (Support/Sales/General), tone of voice, and default answer length applied to every reply",
+    "Four content source types (Links/website crawl, Documents, plain Text, Q&A pairs) that train the employee's knowledge base, with a warning against crawling live store data like Shopify/WooCommerce for prices or stock",
+    "Attribute permissions (Read, Share, Update) that let an employee see, mention, or write contact/CRM fields — e.g. capturing name, email, and phone from an anonymous Live Chat visitor",
+    "Custom API actions with input parameters, GET/POST/PUT/PATCH/DELETE support, mock and live testing, and response mapping to trim raw API responses down to only what the employee needs",
+    "Trigger-automation actions so an employee can kick off another Heyy workflow (internal notification, chat assignment, follow-up) mid-conversation",
+    "Configurable exit points (escalation, resolution, or any custom qualified outcome) that must be explicitly selected inside each automation step to take effect",
+    "Response delay and reply-timeout settings per automation step for more natural pacing and automatic handling of unresponsive contacts",
+    "Playground for testing full conversation scenarios — content answers, asset attachment, attribute reads/writes, and exit-point triggering — before an employee is set live"
+  ],
+  "companyInfo": { "founded": "", "hq": "", "funding": "", "employees": "" },
+  "faq": [
+    {
+      "question": "What is an 'AI Employee' in Heyy, exactly?",
+      "answer": "It's a configurable AI agent tied to a workspace, built from seven parts: identity/tone, a knowledge base (Content), permissioned contact-field access (Attributes), shareable files (Assets), escalation/resolution logic (Exit points), callable tools like API calls and automation triggers (Actions), and behavioral Settings. All seven combine at reply time to produce each response."
+    },
+    {
+      "question": "Which channels can a Heyy AI Employee handle?",
+      "answer": "Employees are deployed into automations on Live Chat, WhatsApp, Instagram, and Facebook Messenger; Heyy also supports SMS as a messaging channel on the platform more broadly."
+    },
+    {
+      "question": "Can the AI Employee update customer data, not just answer questions?",
+      "answer": "Yes. With Update permission enabled on an attribute (which requires Read first), the employee can write new values to a contact record based on what the customer says — commonly used to turn an anonymous Live Chat visitor into an identified contact by capturing name, email, and phone."
+    },
+    {
+      "question": "How does Heyy keep the AI from quoting stale prices or stock levels?",
+      "answer": "The docs explicitly warn against crawling store platforms like Shopify or WooCommerce as static content, since a crawled page is frozen at index time. Instead, live data (prices, stock, order status) is meant to be wired up as a Custom API action that looks the value up at the moment a customer asks."
+    },
+    {
+      "question": "How does handoff to a human work?",
+      "answer": "Handoff is three pieces working together: an exit point that detects handoff intent (e.g. 'Escalate to Human'), a Boundaries guideline restraining the employee from escalating too early, and routing inside the automation that maps the exit point to a team inbox. The human then continues in the inbox with full conversation history intact."
+    },
+    {
+      "question": "How many AI Employees can I run, and what are the limits?",
+      "answer": "Per the documented plan-limits table: Hobby allows 1 employee (3 MB knowledge, 3 actions), Pro allows 2 employees (20 MB, 8 actions, 50 AI assets), Ultra allows 3 employees (50 MB, 12 actions, 500 AI assets), and Enterprise has higher, custom limits."
+    },
+    {
+      "question": "How much does Heyy cost?",
+      "answer": "Pricing not publicly documented — contact for pricing."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Hire form is pre-filled with sensible defaults and takes under a minute; the seven-tab structure has a clear recommended configuration order, though a fully-tuned employee (guidelines, content, actions, exit points) still takes real setup time." },
+    { "dimension": "AI Quality", "score": 4, "note": "Q&A pairs, document/text/link sources, and explicit guardrails against stale crawled data (pushing live lookups to API actions instead) suggest a deliberate design against hallucinated prices/stock — hard to score against rivals without independent benchmarks." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "Covers Live Chat, WhatsApp, Instagram, Facebook Messenger, and SMS from one workspace with per-channel automation steps, though notably no native voice or email channel in the docs reviewed." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Tiered plan-limit table (Hobby/Pro/Ultra/Enterprise) is documented in detail, but without public dollar figures it's impossible to judge value against named competitors." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Docs mention contacting sales for Enterprise limits, but no independent, publicly-sourced signal exists yet on support responsiveness or quality." }
+  ],
+  "pricing": {
+    "model": "Tiered SaaS plans gated by AI Employee count, knowledge storage, actions, and AI assets",
+    "startingPrice": "Not publicly documented",
+    "plans": [
+      { "name": "Hobby", "price": "Not publicly documented", "billing": "", "notes": "1 AI Employee, 3 MB knowledge per employee, 3 actions per employee" },
+      { "name": "Pro", "price": "Not publicly documented", "billing": "", "notes": "2 AI Employees, 20 MB knowledge per employee, 8 actions per employee, 50 AI assets per employee" },
+      { "name": "Ultra", "price": "Not publicly documented", "billing": "", "notes": "3 AI Employees, 50 MB knowledge per employee, 12 actions per employee, 500 AI assets per employee" },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "Higher limits across AI Employees, knowledge, actions, and AI assets, set per account" }
+    ]
+  },
+  "pros": [
+    "Attribute permission model (Read/Share/Update, with Update requiring Read) is a genuinely careful design for avoiding accidental data leaks or bad writes to a CRM record",
+    "Explicit, documented guidance against crawling live store data for prices/stock and pushing that to API actions instead shows real product thinking about hallucination risk",
+    "Exit points are flexible beyond generic escalation — teams can define qualified-lead handoffs, refund-request routing, or resolution states, each independently wired per automation",
+    "Multi-employee, multi-brand workspace support (separate identity, tone, and knowledge per employee) fits agencies or companies running several brands from one account",
+    "Playground testing is built into the recommended workflow at every configuration step, not just as a final pre-launch check"
+  ],
+  "cons": [
+    "No publicly documented dollar pricing anywhere in the docs, making it hard to comparison-shop against named competitors like Intercom or Zendesk without contacting sales",
+    "No independent third-party reviews (G2, Trustpilot, Reddit) exist yet to validate real-world AI quality or support responsiveness claims",
+    "No native voice or email channel documented — coverage is Live Chat, WhatsApp, Instagram, Facebook Messenger, and SMS only",
+    "Knowledge limits are quite small on lower tiers (3 MB on Hobby, 20 MB on Pro), which could be tight for businesses with large documentation sets"
+  ],
+  "sentiment": [],
+  "bestFor": [
+    "Support and sales teams that want one platform to run branded AI agents across WhatsApp, Instagram, Messenger, Live Chat, and SMS",
+    "Agencies or multi-brand companies that need separately-configured AI Employees per brand or per function in one workspace",
+    "Teams that want AI to both answer questions and actively capture/update contact data (lead qualification, CRM enrichment) mid-conversation",
+    "Businesses that need live data (stock, order status) surfaced via API calls rather than risking stale answers from crawled content"
+  ],
+  "verdict": "Heyy's AI Employee model is a genuinely different framing from a typical chatbot widget — the attribute-permission system and the explicit 'don't crawl your Shopify store, wire up a live API instead' guidance both read like a team that has actually hit hallucinated-price problems before and built around them. The seven-tab configuration surface (identity, content, attributes, assets, exit points, actions, settings) is more setup than a plug-and-play widget like Tidio, closer to configuring a junior employee than flipping a switch. The catch is that pricing is entirely undocumented and there's no independent review trail yet to check the vendor's own claims against, so this is a bet on the product's design rather than a track record.",
+  "rating": 3.8,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-16",
+  "lastVerifiedAt": "2026-08-16"
+}

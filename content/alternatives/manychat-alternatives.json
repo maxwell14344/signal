@@ -1,0 +1,18 @@
+{
+  "slug": "manychat-alternatives",
+  "anchorToolSlug": "manychat",
+  "title": "Best ManyChat Alternatives",
+  "intro": "ManyChat still owns comment-to-DM automation on Instagram, but the March 2026 pricing overhaul cut the free tier from 1,000 contacts down to just 25, and per-contact overage fees have Reddit threads describing bills growing 2-3x as lists scale. Here's where to look if that pricing shift changed the math for you.",
+  "entries": [
+    {
+      "toolSlug": "crisp",
+      "blurb": "Per-workspace pricing instead of per-contact, with a genuinely usable free tier (2 seats) and the same WhatsApp/Instagram/Messenger coverage bundled with a real shared inbox and email."
+    },
+    {
+      "toolSlug": "heyy",
+      "blurb": "Covers the same WhatsApp, Instagram, and Messenger channels but is built around a full AI agent with CRM read/write permissions rather than ManyChat's flow-builder automation model — a different tool for a more support-heavy (vs. marketing-heavy) use case."
+    }
+  ],
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

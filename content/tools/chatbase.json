@@ -1,0 +1,105 @@
+{
+  "slug": "chatbase",
+  "name": "Chatbase",
+  "logoUrl": "",
+  "website": "https://www.chatbase.co",
+  "tagline": "The credit-metered AI chatbot builder that turns a website crawl into a customer-facing support agent in minutes.",
+  "tldr": [
+    "Chatbase is a no-code platform for building custom AI chatbots trained on your own content (website crawls, documents, Q&A) and embedding them on your site, WhatsApp, or other channels.",
+    "Pricing is metered in monthly message credits rather than seats or conversations — 50 credits free, 700 on Hobby ($32/mo), 4,000 on Standard ($120/mo), 15,000 on Pro ($400/mo), with heavier models consuming more credits per reply.",
+    "Higher tiers unlock voice, telephony, helpdesk features, outbound campaigns, API access, and CRM/helpdesk integrations like Stripe and Zendesk — the Free and Hobby tiers are website-widget-only.",
+    "Bootstrapped and founder-led by solo founder Yasser Elsaid (no outside investors), reportedly crossing roughly $9M ARR with a lean ~30-person Toronto-based team as of 2026.",
+    "Independent reviews are split: strong marks for ease of setup and fast time-to-launch, but recurring complaints about billing/credit costs, occasional hallucinated answers, and slower support responses."
+  ],
+  "categories": { "primary": "ai-chatbots", "secondary": ["knowledge-base-ai-self-service"] },
+  "channels": ["Web Chat", "WhatsApp", "Voice", "API"],
+  "keyFeatures": [
+    "Train an agent on crawled website pages, uploaded documents, plain text, or Q&A pairs, with auto-retraining on Standard tier and above",
+    "Message-credit billing model where model choice affects cost (e.g. premium models consume more credits per response than standard models)",
+    "Voice and telephony support plus a helpdesk/ticketing layer on the Standard plan and up",
+    "Native integrations with tools like Stripe, Zendesk, and other business systems on higher tiers",
+    "Outbound campaign tooling for proactive messaging, in addition to reactive support replies",
+    "API access for embedding chatbot logic into custom applications",
+    "Enterprise tier with SSO, white-labeling, audit logs, HIPAA-eligible configuration, and zero data retention options",
+    "Analytics dashboards that get more advanced (ticket sourcing, deeper reporting) at the Pro tier"
+  ],
+  "companyInfo": { "founded": "2023", "hq": "Toronto, Canada", "funding": "Bootstrapped, no outside investors", "employees": "~30" },
+  "faq": [
+    {
+      "question": "How does Chatbase pricing actually work?",
+      "answer": "Plans are priced monthly and include a pool of message credits rather than a flat conversation cap: Free (50 credits), Hobby $32/mo (700 credits), Standard $120/mo (4,000 credits), Pro $400/mo (15,000 credits). Using a premium model like a top-tier Claude or GPT model can burn multiple credits per single reply, so real usage costs vary with model choice."
+    },
+    {
+      "question": "Can Chatbase read live product prices or stock from my store?",
+      "answer": "Chatbase trains primarily on crawled/uploaded static content, so live data like stock levels needs to be kept current through re-crawls or connected via integrations/API rather than assumed to update automatically."
+    },
+    {
+      "question": "Does Chatbase support channels beyond the website widget?",
+      "answer": "Yes — voice and telephony are available starting on the Standard plan, and the platform supports WhatsApp and API-based custom integrations, though the free and Hobby tiers are effectively website-widget-only."
+    },
+    {
+      "question": "Is Chatbase good for enterprise/compliance-heavy teams?",
+      "answer": "The Enterprise tier adds SSO, audit logs, white-labeling, and a HIPAA-eligible, zero-data-retention configuration, but pricing is custom and requires contacting sales."
+    },
+    {
+      "question": "What do users complain about most?",
+      "answer": "The most consistent criticisms are around cost scaling with credit consumption, occasional hallucinated answers outside the trained knowledge base, and reports of slower customer support response times on certain plans."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 5, "note": "Reviewers consistently cite fast time-to-launch — crawl a site, tune the prompt, embed a widget, no code required." },
+    { "dimension": "AI Quality", "score": 3, "note": "Capable for FAQ-style answers but multiple reviews report hallucinations outside the trained knowledge base, and quality depends heavily on which model tier you're paying for." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "Solid on web widget and API; voice/telephony and WhatsApp exist but are gated behind Standard tier and above." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Credit-based billing makes costs unpredictable at scale, and add-ons (extra agents, branding removal, auto-recharge) stack up quickly on top of the sticker price." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Capterra's customer-service score (3.8) trails its ease-of-use score (4.6), and multiple reviewers report slow or unhelpful support interactions." }
+  ],
+  "pricing": {
+    "model": "Freemium, message-credit metered billing",
+    "startingPrice": "$32/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "50 message credits/mo, 1 agent, 1 team member; agent deletes after 14 days of inactivity" },
+      { "name": "Hobby", "price": "$32/mo", "billing": "Monthly ($384/yr with 20% annual discount)", "notes": "700 credits/mo, unlimited agents, 2 team members, advanced models, basic analytics" },
+      { "name": "Standard", "price": "$120/mo", "billing": "Monthly ($1,440/yr with 20% annual discount)", "notes": "4,000 credits/mo, 3 team members, voice/telephony, helpdesk, outbound campaigns, API access, integrations" },
+      { "name": "Pro", "price": "$400/mo", "billing": "Monthly ($4,800/yr with 20% annual discount)", "notes": "15,000 credits/mo, 5 team members, advanced analytics, ticket sourcing" },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "Unlimited usage, SSO, white-labeling, audit logs, HIPAA-eligible, zero data retention, dedicated success manager" }
+    ]
+  },
+  "pros": [
+    "Very fast to get a working bot live from an existing website with no coding required",
+    "Flexible knowledge sources (crawl, documents, text, Q&A) cover most small-to-mid business content needs",
+    "Bootstrapped, founder-led company with reportedly strong revenue growth, suggesting product-market fit and staying power",
+    "Higher tiers add real depth — voice, telephony, ticketing, and business-system integrations, not just a wider widget"
+  ],
+  "cons": [
+    "Credit-based pricing makes monthly costs hard to predict, especially once premium models are involved",
+    "Multiple independent reviews report hallucinated or made-up answers outside the trained content",
+    "Add-ons (extra agents, custom domain, branding removal) meaningfully raise the effective price beyond the sticker plan cost",
+    "Customer support quality lags behind product ease-of-use according to third-party review aggregates"
+  ],
+  "sentiment": [
+    {
+      "quote": "Easy to use & get set up without building from scratch",
+      "source": "Capterra review title",
+      "url": "https://capterra.com/p/10012414/Chatbase/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Terrible. I was lied to about if this product was supported",
+      "source": "Capterra review title (Jon A., Customer Success Manager, Financial Services)",
+      "url": "https://capterra.com/p/10012414/Chatbase/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Solo founders and small teams who want a fast, no-code website support bot",
+    "Businesses with well-documented static content (FAQs, policies, guides) suited to crawl-based training",
+    "Teams wanting to bolt on voice/telephony or ticketing later without switching platforms",
+    "Budget-conscious buyers who can keep message volume within a predictable credit range"
+  ],
+  "verdict": "Chatbase earns its popularity on pure setup speed — pointing it at a website and having a working bot in minutes is genuinely as easy as it sounds, and a solo founder bootstrapping to a reported $9M ARR says something about retention. But the credit-metering model is the thing to watch closely: burning 5 credits per reply on a premium model versus 1 on a standard model means two businesses on the same $120/mo Standard plan can have wildly different effective costs, and Capterra's 3.8-versus-4.6 gap between support and ease-of-use tracks with what reviewers describe. Fine as a fast-to-launch FAQ bot; less convincing yet as a full customer-support system of record next to Intercom or Zendesk.",
+  "rating": 4.0,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-16",
+  "lastVerifiedAt": "2026-08-16"
+}

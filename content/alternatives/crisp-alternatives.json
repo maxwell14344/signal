@@ -1,0 +1,22 @@
+{
+  "slug": "crisp-alternatives",
+  "anchorToolSlug": "crisp",
+  "title": "Best Crisp Alternatives",
+  "intro": "Crisp's day-to-day usability scores well on G2 and Capterra, but its 1.9/5 Trustpilot rating reflects a real pattern of billing and cancellation complaints. If that gives you pause, or you've simply outgrown Crisp's workspace-based pricing, here's where to look next.",
+  "entries": [
+    {
+      "toolSlug": "intercom",
+      "blurb": "The step up in scale and independent review depth (2,900+ G2 reviews vs. Crisp's smaller base), if you're willing to pay per-seat plus per-resolution AI fees for a more proven platform."
+    },
+    {
+      "toolSlug": "tidio",
+      "blurb": "A comparably-priced live chat and AI agent alternative with a stronger, more consistent independent review record (4.6-4.7/5 across sites) than Crisp's split reputation."
+    },
+    {
+      "toolSlug": "manychat",
+      "blurb": "If what you actually valued in Crisp was the Instagram/WhatsApp/Messenger side rather than the shared inbox, ManyChat specializes specifically in comment-to-DM and social messaging automation."
+    }
+  ],
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-16"
+}

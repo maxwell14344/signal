@@ -17,7 +17,7 @@ export async function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-4">
         <Link href="/" className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-accent" />
-          <span className="font-heading text-lg text-foreground">Signal</span>
+          <span className="font-heading text-lg text-foreground">NorthStack</span>
         </Link>
 
         <nav className="hidden items-center gap-6 text-sm text-muted md:flex">

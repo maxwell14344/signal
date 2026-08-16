@@ -5,6 +5,8 @@ import { db } from "@/lib/db/client";
 import { tools } from "@/lib/db/schema";
 import { eq } from "drizzle-orm";
 
+const PER_COLUMN = 2;
+
 export async function JointPagesSection() {
   const [comparisons, alternatives, useCases] = await Promise.all([
     getAllComparisons(),
@@ -13,7 +15,7 @@ export async function JointPagesSection() {
   ]);
 
   const comparisonsWithNames = await Promise.all(
-    comparisons.map(async (c) => {
+    comparisons.slice(0, PER_COLUMN).map(async (c) => {
       const [[a], [b]] = await Promise.all([
         db.select().from(tools).where(eq(tools.id, c.toolAId)).limit(1),
         db.select().from(tools).where(eq(tools.id, c.toolBId)).limit(1),
@@ -50,6 +52,11 @@ export async function JointPagesSection() {
               </li>
             ))}
           </ul>
+          {comparisons.length > PER_COLUMN && (
+            <Link href="/compare" className="mt-3 inline-block text-xs text-muted hover:text-accent">
+              View all comparisons →
+            </Link>
+          )}
         </div>
 
         <div>
@@ -58,7 +65,7 @@ export async function JointPagesSection() {
             Alternatives
           </div>
           <ul className="space-y-2">
-            {alternatives.map((a) => (
+            {alternatives.slice(0, PER_COLUMN).map((a) => (
               <li key={a.id}>
                 <Link
                   href={`/alternatives/${a.slug}`}
@@ -70,6 +77,11 @@ export async function JointPagesSection() {
               </li>
             ))}
           </ul>
+          {alternatives.length > PER_COLUMN && (
+            <Link href="/alternatives" className="mt-3 inline-block text-xs text-muted hover:text-accent">
+              View all alternatives →
+            </Link>
+          )}
         </div>
 
         <div>
@@ -78,7 +90,7 @@ export async function JointPagesSection() {
             Best for your use case
           </div>
           <ul className="space-y-2">
-            {useCases.map((u) => (
+            {useCases.slice(0, PER_COLUMN).map((u) => (
               <li key={u.id}>
                 <Link
                   href={`/best/${u.slug}`}
@@ -90,6 +102,11 @@ export async function JointPagesSection() {
               </li>
             ))}
           </ul>
+          {useCases.length > PER_COLUMN && (
+            <Link href="/best" className="mt-3 inline-block text-xs text-muted hover:text-accent">
+              View all use cases →
+            </Link>
+          )}
         </div>
       </div>
     </section>

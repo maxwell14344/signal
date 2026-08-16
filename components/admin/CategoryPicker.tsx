@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { X } from "lucide-react";
 
 interface CategoryOption {
-  id: number;
+  id: number | string;
   name: string;
 }
 
@@ -18,10 +18,10 @@ export function CategoryPicker({
   label: string;
   fieldName: string;
   categories: CategoryOption[];
-  initialSelectedIds: number[];
+  initialSelectedIds: (number | string)[];
   multiple: boolean;
 }) {
-  const [selectedIds, setSelectedIds] = useState<number[]>(initialSelectedIds);
+  const [selectedIds, setSelectedIds] = useState<(number | string)[]>(initialSelectedIds);
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
 
@@ -35,13 +35,13 @@ export function CategoryPicker({
       .slice(0, 8);
   }, [query, categories, selectedIds]);
 
-  function select(id: number) {
+  function select(id: number | string) {
     setSelectedIds(multiple ? [...selectedIds, id] : [id]);
     setQuery("");
     setOpen(false);
   }
 
-  function remove(id: number) {
+  function remove(id: number | string) {
     setSelectedIds(selectedIds.filter((x) => x !== id));
   }
 

@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Methodology",
-  description: "How Signal scores AI customer support tools, sources sentiment, and discloses conflicts of interest.",
+  description: "How NorthStack scores AI customer support tools, sources sentiment, and discloses conflicts of interest.",
 };
 
 const DIMENSIONS = [
   {
     name: "Ease of Setup",
-    desc: "How fast a team can go from signup to a working, customer-facing deployment — based on documented onboarding flows and what independent reviewers report about time-to-launch.",
+    desc: "How fast a team can go from signup to a working, customer-facing deployment â€” based on documented onboarding flows and what independent reviewers report about time-to-launch.",
   },
   {
     name: "AI Quality",
@@ -21,7 +21,7 @@ const DIMENSIONS = [
   },
   {
     name: "Pricing Value",
-    desc: "Whether the published (or documented) pricing is predictable and fair for what you get — usage-based AI billing that can spike unexpectedly scores lower here, even if the base price looks cheap.",
+    desc: "Whether the published (or documented) pricing is predictable and fair for what you get â€” usage-based AI billing that can spike unexpectedly scores lower here, even if the base price looks cheap.",
   },
   {
     name: "Vendor Support Quality",
@@ -36,9 +36,9 @@ export default function MethodologyPage() {
         <p className="eyebrow text-accent">Trust</p>
         <h1 className="mt-2 text-3xl tracking-tight">Methodology</h1>
         <p className="mt-4 text-[15px] leading-relaxed text-body">
-          Every tool on Signal is scored against the same five-dimension
-          rubric below, and every fact — pricing, features, sentiment quotes
-          — comes from a real source: official pricing pages, vendor
+          Every tool on NorthStack is scored against the same five-dimension
+          rubric below, and every fact â€” pricing, features, sentiment quotes
+          â€” comes from a real source: official pricing pages, vendor
           documentation, or independent reviews on G2, Capterra, Trustpilot,
           Reddit, and Hacker News. We don&apos;t fabricate quotes or invent
           numbers. Where something isn&apos;t publicly documented, the page
@@ -58,7 +58,7 @@ export default function MethodologyPage() {
         <h2 className="mt-10 mb-4 text-lg">Freshness &amp; &quot;last verified&quot;</h2>
         <p className="text-[15px] leading-relaxed text-body">
           Every tool, comparison, and alternatives page carries a &quot;last
-          verified&quot; date — the last time someone actually re-checked
+          verified&quot; date â€” the last time someone actually re-checked
           pricing and facts against the live source, not just when the page
           was first published. Pricing and product details change often in
           this category; a stale review is worse than no review.
@@ -66,18 +66,18 @@ export default function MethodologyPage() {
 
         <h2 className="mt-10 mb-4 text-lg">Conflicts of interest</h2>
         <p className="text-[15px] leading-relaxed text-body">
-          Signal is written by{" "}
+          NorthStack is written by{" "}
           <Link href="/authors/maxwell-timothy" className="text-accent hover:underline">
             Maxwell Timothy
           </Link>
           , who works in Growth and Marketing at Heyy and has previously
-          written contributed content for Chatbase and Crisp — all three are
+          written contributed content for Chatbase and Crisp â€” all three are
           reviewed on this site. Each is scored against the exact same
           rubric as every other tool on the same page, and any comparison
           involving one of them discloses the relationship explicitly at the
           top rather than burying it here. No tool on this site pays for
-          placement, a better score, or inclusion — there is currently no
-          affiliate or sponsorship program running on Signal. If that ever
+          placement, a better score, or inclusion â€” there is currently no
+          affiliate or sponsorship program running on NorthStack. If that ever
           changes, this page will say so first.
         </p>
       </div>

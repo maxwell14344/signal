@@ -12,13 +12,15 @@ export function CompanyInfoBlock({ info }: { info: CompanyInfo | null | undefine
   if (rows.length === 0) return null;
 
   return (
-    <div>
-      <h2 className="mb-4 text-lg">Company</h2>
-      <dl className="grid grid-cols-2 gap-4 rounded-lg border border-border bg-surface p-5 card-shadow sm:grid-cols-4">
+    <div className="border-t border-border pt-6">
+      <p className="mb-3 text-xs text-muted">
+        Company details — for context, not a scoring factor.
+      </p>
+      <dl className="flex flex-wrap gap-x-8 gap-y-2 text-xs text-muted">
         {rows.map((r) => (
-          <div key={r.label}>
-            <dt className="eyebrow">{r.label}</dt>
-            <dd className="mt-1 text-sm text-body">{r.value}</dd>
+          <div key={r.label} className="flex gap-1.5">
+            <dt className="font-medium">{r.label}:</dt>
+            <dd>{r.value}</dd>
           </div>
         ))}
       </dl>

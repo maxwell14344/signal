@@ -1,4 +1,6 @@
-# Signal — Architecture Reference
+# NorthStack — Architecture Reference
+
+> Site name history: built and launched as "Signal," renamed to **NorthStack** in a later round (the tagline "guides you toward the right customer support stack" is the reasoning behind the name). If you see "Signal" anywhere in old commit messages or stray content, that's just history — the live brand is NorthStack.
 
 **Purpose of this file**: a single document a fresh Claude session (or anyone) can read to fully understand this project without exploring the repo first. If you're picking this project back up with no prior context, read this file top to bottom before touching anything — it tells you what exists, where it lives, and what's already been decided so you don't redo work or re-litigate settled decisions.
 
@@ -8,7 +10,7 @@ For a human editor's "how do I do X" guide, see [DOCS.md](DOCS.md) instead — t
 
 ## 1. What this is
 
-**Signal** is a niche content site reviewing **AI customer support tools** — chatbots, AI support agents, WhatsApp/messaging AI, helpdesk automation, CX analytics, etc. It is not a generic AI-tool directory; it's deliberately narrow.
+**NorthStack** is a niche content site reviewing **AI customer support tools** — chatbots, AI support agents, WhatsApp/messaging AI, helpdesk automation, CX analytics, etc. It is not a generic AI-tool directory; it's deliberately narrow.
 
 Owner/author: **Maxwell Timothy** — a real content marketing expert (6+ years covering AI, published on MakeUseOf/MSN/Flipboard/Make Tech Easier/NewsBreak, authored a ChatGPT eBook used in university coursework). He works in **Growth and Marketing at Heyy** (not founder) and has **previously written contributed content for Chatbase and Crisp**. All three of those tools are reviewed on this site — this is a disclosed, real conflict of interest, not hypothetical. See `/methodology` and the author bio for the exact disclosure language. **Never re-introduce a "founder of Heyy" claim** — that was a mistaken assumption made early in this project and explicitly corrected by the user. If Heyy, Chatbase, or Crisp content is ever regenerated, the disclosure must be preserved.
 
@@ -83,9 +85,11 @@ Every content table carries: `status` (draft/published — public queries filter
 
 `tools.rating` is `numeric(2,1)` — supports 1.0–9.9 in 0.1 increments. The admin form clamps it to 1.0–5.0 with `step={0.1}` and server-side validation in `lib/actions/tools.ts`.
 
-Complex fields (`tldr`, `channels`, `keyFeatures`, `companyInfo`, `faq`, `scorecard`, `pricingPlans`, `pros`, `cons`, `sentimentQuotes`, `bestFor`, and `entries` on alternatives/use-case pages) are stored as `jsonb` and edited in the admin as **raw JSON in a textarea**, not custom field-by-field forms. This was a deliberate scope/time trade-off, not an oversight — if it becomes painful, building proper structured editors for these is the natural next step (nothing architecturally blocks it).
+Complex fields (`tldr`, `channels`, `keyFeatures`, `companyInfo`, `faq`, `scorecard`, `pricingPlans`, `pros`, `cons`, `sentimentQuotes`, `bestFor`, `capabilities`, and `entries` on alternatives/use-case pages) are stored as `jsonb` and edited in the admin as **raw JSON in a textarea**, not custom field-by-field forms. This was a deliberate scope/time trade-off, not an oversight — if it becomes painful, building proper structured editors for these is the natural next step (nothing architecturally blocks it).
 
-**Scorecard rubric** (used identically across all tools, documented on `/methodology`): Ease of Setup, AI Quality, Omnichannel Support, Pricing Value, Vendor Support Quality — each scored 1–5 with a justifying note.
+**Scorecard rubric** (used identically across all tools, documented on `/methodology`): Ease of Setup, AI Quality, Omnichannel Support, Pricing Value, Vendor Support Quality — each scored 1–5 with a justifying note. **Company funding/employee-count info (`companyInfo`) is deliberately NOT part of scoring or narrative emphasis** — it renders as a small muted footnote at the very bottom of the tool page (`CompanyInfoBlock`), below Related Tools. Prioritized instead, per explicit user direction: pricing (with a `pricingBreakdown` text field — a direct, judgment-forming paragraph unpacking the pricing table, e.g. "$132/seat only makes sense if...") and `capabilities` (a `{area, note}[]` array covering Shared Inbox / Live Chat / Chatbot & AI / Campaigns / Knowledge Base / Contact Management — only areas that genuinely apply to that tool, each explained in direct reader-facing voice, not a feature-list restatement). Rendered by `components/PricingBreakdown.tsx` and `components/CapabilitiesList.tsx`, positioned right after the pricing table, ahead of channels/features/scorecard.
+
+**Site settings** live in the same `settings` key/value table under key `"site_settings"` (JSON-encoded `{toolsPerPage, homepageCategorySlugs}`) — read via `getSiteSettings()` in `lib/db/queries.ts`, written via `lib/actions/settings.ts`, editable from `/admin/settings`. Controls the `/tools` pagination page size and which categories the homepage features (falls back to the first 6 by `sortOrder` if none are explicitly chosen).
 
 ---
 
@@ -105,18 +109,21 @@ Complex fields (`tldr`, `channels`, `keyFeatures`, `companyInfo`, `faq`, `scorec
 
 ```
 app/
-  page.tsx                                    # home: Hero, Trending, Categories, Buying-guides section, All Tools
-  categories/{page.tsx, [slug]/page.tsx}       # spine
-  tools/[slug]/page.tsx                        # skin
-  compare/[comparisonSlug]/page.tsx            # joint: canonical slug is "<toolA>-vs-<toolB>";
-                                                #   requesting the reversed order redirects to canonical
-  alternatives/[toolSlug]/page.tsx             # joint: slug pattern "<tool>-alternatives"
-  best/[useCaseSlug]/page.tsx                  # joint: e.g. "shopify", "saas", "whatsapp-business"
+  page.tsx                                    # home: Hero, Trending, featured Categories (+view all),
+                                                #   trimmed Buying-guides (2/column +view all), Latest Reviews (6)
+  categories/{page.tsx, [slug]/page.tsx}       # spine — page.tsx is the FULL category index ("view all" target)
+  tools/{page.tsx, [slug]/page.tsx}            # page.tsx = paginated all-tools index (site-settings page size)
+  compare/{page.tsx, [comparisonSlug]/page.tsx} # page.tsx = full comparisons index; canonical slug is
+                                                #   "<toolA>-vs-<toolB>", reversed order redirects to canonical
+  alternatives/{page.tsx, [toolSlug]/page.tsx} # page.tsx = full alternatives index; slug "<tool>-alternatives"
+  best/{page.tsx, [useCaseSlug]/page.tsx}      # page.tsx = full use-case index; e.g. "shopify", "saas"
   methodology/page.tsx                         # EEAT: scoring rubric + conflict-of-interest disclosure
   authors/[slug]/page.tsx                      # author bio + everything they've reviewed
   admin/...                                    # see §6
   sitemap.ts / robots.ts / llms.txt/route.ts   # all generated live from the DB, not static files
 ```
+
+The four `page.tsx` index pages (`/tools`, `/compare`, `/alternatives`, `/best`) exist specifically as "view all" targets for the trimmed homepage/footer link lists — full lists live there, not on the homepage.
 
 All dynamic routes use `generateStaticParams` (build-time pre-render of published content) + `dynamicParams = true` (so admin-created content renders on first request without a redeploy).
 
@@ -130,6 +137,8 @@ Warm, editorial aesthetic modeled on **seline.com** (specifically its blog post 
 - Tokens live in `app/globals.css` as CSS custom properties (`--background`, `--surface`, `--accent`, etc.) mapped through Tailwind v4's `@theme inline` — most retheming is a token-value change, not a component rewrite.
 - Cards: `rounded-lg`/`rounded-xl`, 1px border, subtle shadow (`.card-shadow` utility class).
 - Long-form entry text (alternatives/use-case blurbs) is auto-split into paragraphs with the final "recommendation" sentence pulled into a visually distinct accent-tinted callout — see `components/EntryBody.tsx` + `lib/text.ts`. Apply this same component anywhere else dense practitioner-voiced text needs breaking up.
+- `html, body { overflow-x: hidden }` in `globals.css` guards against page-level horizontal scroll/shake on mobile (was a real bug — some inner element bleeding past 100vw). Don't remove this without checking mobile width first.
+- Horizontally-scrollable containers (the trending carousel, comparison feature-matrix tables) use `components/ScrollHint.tsx` — a client wrapper that shows small translucent left/right chevron buttons only when there's actually more content to scroll to in that direction (tracks real scroll position, not just "is this container scrollable"). Wrap any new horizontal-scroll container in this rather than leaving a bare `overflow-x-auto` with no visual affordance.
 
 ---
 

@@ -65,6 +65,10 @@ export interface SentimentQuote {
   url: string;
   sentiment: "positive" | "negative" | "mixed";
 }
+export interface CapabilityNote {
+  area: string;
+  note: string;
+}
 
 export const tools = pgTable("tools", {
   id: serial("id").primaryKey(),
@@ -84,6 +88,9 @@ export const tools = pgTable("tools", {
   pricingModel: text("pricing_model"),
   pricingStartingPrice: text("pricing_starting_price"),
   pricingPlans: jsonb("pricing_plans").$type<PricingPlan[]>().default([]),
+  pricingBreakdown: text("pricing_breakdown"),
+
+  capabilities: jsonb("capabilities").$type<CapabilityNote[]>().default([]),
 
   pros: jsonb("pros").$type<string[]>().default([]),
   cons: jsonb("cons").$type<string[]>().default([]),

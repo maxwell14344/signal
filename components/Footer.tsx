@@ -1,93 +1,107 @@
 import Link from "next/link";
-import { getAllCategories, getAllComparisons, getAllAlternativePages, getAllUseCasePages } from "@/lib/db/queries";
+import {
+  getAllCategories,
+  getAllComparisons,
+  getAllAlternativePages,
+  getAllUseCasePages,
+} from "@/lib/db/queries";
 import { db } from "@/lib/db/client";
 import { tools } from "@/lib/db/schema";
 import { eq } from "drizzle-orm";
 
-export async function Footer() {
-  const categories = await getAllCategories();
+const FOOTER_CATEGORY_COUNT = 5;
+const FOOTER_LINK_COUNT = 2;
 
-  const [comparisons, alternatives, useCases] = await Promise.all([
+export async function Footer() {
+  const [allCategories, comparisons, alternatives, useCases] = await Promise.all([
+    getAllCategories(),
     getAllComparisons(),
     getAllAlternativePages(),
     getAllUseCasePages(),
   ]);
-  const exampleComparison = comparisons[0];
-  const exampleAlternative = alternatives[0];
-  const exampleUseCase = useCases[0];
-  const exampleComparisonTools = exampleComparison
-    ? await Promise.all([
-        db.select().from(tools).where(eq(tools.id, exampleComparison.toolAId)).limit(1),
-        db.select().from(tools).where(eq(tools.id, exampleComparison.toolBId)).limit(1),
-      ])
-    : null;
+
+  const categories = allCategories.slice(0, FOOTER_CATEGORY_COUNT);
+
+  const comparisonLinks = await Promise.all(
+    comparisons.slice(0, FOOTER_LINK_COUNT).map(async (c) => {
+      const [[a], [b]] = await Promise.all([
+        db.select().from(tools).where(eq(tools.id, c.toolAId)).limit(1),
+        db.select().from(tools).where(eq(tools.id, c.toolBId)).limit(1),
+      ]);
+      return { slug: c.slug, label: `${a?.name} vs ${b?.name}` };
+    })
+  );
 
   return (
     <footer className="mt-24 border-t border-border bg-surface-2/40">
-      <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-12 md:flex-row md:justify-between">
+      <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="max-w-sm">
           <div className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-accent" />
-            <span className="font-heading text-lg text-foreground">Signal</span>
+            <span className="font-heading text-lg text-foreground">NorthStack</span>
           </div>
           <p className="mt-3 text-sm text-muted">
-            Structured, human-verified reviews of AI customer support tools —
-            chatbots, AI agents, WhatsApp AI, helpdesk automation, and CX
-            platforms. Written and scored by Maxwell Timothy.
+            NorthStack guides you toward the right customer support stack for
+            your business — structured, human-verified reviews of AI
+            chatbots, AI agents, live chat, and helpdesk platforms. Written
+            and scored by Maxwell Timothy.
           </p>
         </div>
 
-        <div className="flex gap-16">
+        <div className="mt-10 grid grid-cols-2 gap-8 sm:grid-cols-4">
           <div>
             <h4 className="eyebrow mb-3">Categories</h4>
             <ul className="space-y-2 text-sm text-muted">
               {categories.map((cat) => (
                 <li key={cat.slug}>
-                  <Link
-                    href={`/categories/${cat.slug}`}
-                    className="transition hover:text-foreground"
-                  >
+                  <Link href={`/categories/${cat.slug}`} className="transition hover:text-foreground">
                     {cat.name}
                   </Link>
                 </li>
               ))}
             </ul>
+            <Link href="/categories" className="mt-2 inline-block text-xs text-muted hover:text-accent">
+              View all →
+            </Link>
           </div>
 
           <div>
             <h4 className="eyebrow mb-3">Compare</h4>
             <ul className="space-y-2 text-sm text-muted">
-              {exampleComparison && exampleComparisonTools && (
-                <li>
-                  <Link
-                    href={`/compare/${exampleComparison.slug}`}
-                    className="transition hover:text-foreground"
-                  >
-                    {exampleComparisonTools[0][0]?.name} vs {exampleComparisonTools[1][0]?.name}
+              {comparisonLinks.map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/compare/${c.slug}`} className="transition hover:text-foreground">
+                    {c.label}
                   </Link>
                 </li>
-              )}
-              {exampleAlternative && (
-                <li>
-                  <Link
-                    href={`/alternatives/${exampleAlternative.slug}`}
-                    className="transition hover:text-foreground"
-                  >
-                    {exampleAlternative.title}
+              ))}
+              {alternatives.slice(0, 1).map((a) => (
+                <li key={a.slug}>
+                  <Link href={`/alternatives/${a.slug}`} className="transition hover:text-foreground">
+                    {a.title}
                   </Link>
                 </li>
-              )}
-              {exampleUseCase && (
-                <li>
-                  <Link
-                    href={`/best/${exampleUseCase.slug}`}
-                    className="transition hover:text-foreground"
-                  >
-                    {exampleUseCase.title}
-                  </Link>
-                </li>
-              )}
+              ))}
             </ul>
+            <Link href="/compare" className="mt-2 inline-block text-xs text-muted hover:text-accent">
+              View all →
+            </Link>
+          </div>
+
+          <div>
+            <h4 className="eyebrow mb-3">Use Cases</h4>
+            <ul className="space-y-2 text-sm text-muted">
+              {useCases.slice(0, FOOTER_LINK_COUNT + 1).map((u) => (
+                <li key={u.slug}>
+                  <Link href={`/best/${u.slug}`} className="transition hover:text-foreground">
+                    {u.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <Link href="/best" className="mt-2 inline-block text-xs text-muted hover:text-accent">
+              View all →
+            </Link>
           </div>
 
           <div>
@@ -103,15 +117,15 @@ export async function Footer() {
                   About the author
                 </Link>
               </li>
-              <li>Ask Signal — coming soon</li>
+              <li>Ask NorthStack — coming soon</li>
             </ul>
           </div>
         </div>
       </div>
 
       <div className="border-t border-border px-6 py-6 text-center text-xs text-muted">
-        © {new Date().getFullYear()} Signal. All product names and trademarks
-        belong to their respective owners.
+        © {new Date().getFullYear()} NorthStack. All product names and
+        trademarks belong to their respective owners.
       </div>
     </footer>
   );

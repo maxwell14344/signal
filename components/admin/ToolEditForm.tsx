@@ -137,6 +137,19 @@ export function ToolEditForm({
       </div>
 
       <div>
+        <label htmlFor="pricingBreakdown" className="mb-1.5 block text-sm text-muted">
+          Pricing breakdown <span className="text-xs">(reader-voiced judgment on the pricing table)</span>
+        </label>
+        <textarea
+          id="pricingBreakdown"
+          name="pricingBreakdown"
+          rows={4}
+          defaultValue={tool.pricingBreakdown ?? ""}
+          className="w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:border-accent/50 focus:outline-none"
+        />
+      </div>
+
+      <div>
         <label htmlFor="verdict" className="mb-1.5 block text-sm text-muted">Verdict</label>
         <textarea
           id="verdict"
@@ -151,6 +164,7 @@ export function ToolEditForm({
         <JsonField label="TLDR" name="tldr" defaultValue={tool.tldr} />
         <JsonField label="Channels" name="channels" defaultValue={tool.channels} />
         <JsonField label="Key features" name="keyFeatures" defaultValue={tool.keyFeatures} />
+        <JsonField label="Capabilities" name="capabilities" defaultValue={tool.capabilities} rows={10} />
         <JsonField label="Company info" name="companyInfo" defaultValue={tool.companyInfo} />
         <JsonField label="FAQ" name="faq" defaultValue={tool.faq} rows={8} />
         <JsonField label="Scorecard" name="scorecard" defaultValue={tool.scorecard} rows={8} />

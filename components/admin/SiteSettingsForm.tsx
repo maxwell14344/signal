@@ -1,0 +1,59 @@
+"use client";
+
+import { useActionState } from "react";
+import { updateSiteSettingsAction } from "@/lib/actions/settings";
+import { CategoryPicker } from "./CategoryPicker";
+import type { SiteSettings } from "@/lib/db/queries";
+
+export function SiteSettingsForm({
+  settings,
+  categories,
+}: {
+  settings: SiteSettings;
+  categories: { slug: string; name: string }[];
+}) {
+  const [state, formAction, pending] = useActionState(updateSiteSettingsAction, undefined);
+  const categoryOptions = categories.map((c) => ({ id: c.slug, name: c.name }));
+
+  return (
+    <form action={formAction} className="max-w-lg space-y-4">
+      <div>
+        <label htmlFor="toolsPerPage" className="mb-1.5 block text-sm text-muted">
+          Tools per page <span className="text-xs">(on /tools)</span>
+        </label>
+        <input
+          id="toolsPerPage"
+          name="toolsPerPage"
+          type="number"
+          min={1}
+          max={100}
+          defaultValue={settings.toolsPerPage}
+          className="w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:border-accent/50 focus:outline-none"
+        />
+      </div>
+
+      <CategoryPicker
+        label="Featured categories on homepage"
+        fieldName="homepageCategorySlugs"
+        categories={categoryOptions}
+        initialSelectedIds={settings.homepageCategorySlugs}
+        multiple
+      />
+      <p className="text-xs text-muted">
+        Pick 4-6. If none are selected, the homepage falls back to the first
+        6 categories by sort order.
+      </p>
+
+      {state?.error && <p className="text-sm text-negative">{state.error}</p>}
+      {state?.success && <p className="text-sm text-positive">Saved.</p>}
+
+      <button
+        type="submit"
+        disabled={pending}
+        className="rounded-full bg-accent px-6 py-2.5 text-sm font-medium text-accent-foreground transition hover:opacity-90 disabled:opacity-60"
+      >
+        {pending ? "Saving…" : "Save site settings"}
+      </button>
+    </form>
+  );
+}

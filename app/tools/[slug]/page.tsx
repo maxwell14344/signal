@@ -10,6 +10,8 @@ import { PriceBadge } from "@/components/PriceBadge";
 import { CategoryTag } from "@/components/CategoryTag";
 import { TldrBlock } from "@/components/TldrBlock";
 import { PricingTable } from "@/components/PricingTable";
+import { PricingBreakdown } from "@/components/PricingBreakdown";
+import { CapabilitiesList } from "@/components/CapabilitiesList";
 import { ProsConsList } from "@/components/ProsConsList";
 import { SentimentQuotes } from "@/components/SentimentQuotes";
 import { ChannelsList } from "@/components/ChannelsList";
@@ -55,6 +57,7 @@ export default async function ToolPage({
     tldr: toolRaw.tldr ?? [],
     channels: toolRaw.channels ?? [],
     keyFeatures: toolRaw.keyFeatures ?? [],
+    capabilities: toolRaw.capabilities ?? [],
     faq: toolRaw.faq ?? [],
     scorecard: toolRaw.scorecard ?? [],
     pricingPlans: toolRaw.pricingPlans ?? [],
@@ -70,9 +73,9 @@ export default async function ToolPage({
   const toc = [
     { id: "tldr", label: "TL;DR" },
     { id: "pricing", label: "Pricing" },
+    tool.capabilities?.length ? { id: "capabilities", label: "How it works" } : null,
     { id: "channels", label: "Channels" },
     { id: "features", label: "Key features" },
-    tool.companyInfo ? { id: "company", label: "Company" } : null,
     { id: "scorecard", label: "Our scorecard" },
     { id: "pros-cons", label: "Pros & cons" },
     tool.sentimentQuotes?.length ? { id: "sentiment", label: "What people say" } : null,
@@ -143,9 +146,16 @@ export default async function ToolPage({
               <TldrBlock tldr={tool.tldr} />
             </div>
 
-            <div id="pricing">
+            <div id="pricing" className="space-y-4">
               <PricingTable model={tool.pricingModel} plans={tool.pricingPlans} />
+              <PricingBreakdown text={tool.pricingBreakdown} />
             </div>
+
+            {tool.capabilities?.length > 0 && (
+              <div id="capabilities">
+                <CapabilitiesList capabilities={tool.capabilities} />
+              </div>
+            )}
 
             <div id="channels">
               <ChannelsList channels={tool.channels} />
@@ -154,12 +164,6 @@ export default async function ToolPage({
             <div id="features">
               <KeyFeaturesList features={tool.keyFeatures} />
             </div>
-
-            {tool.companyInfo && (
-              <div id="company">
-                <CompanyInfoBlock info={tool.companyInfo} />
-              </div>
-            )}
 
             <div id="scorecard">
               <ScorecardBlock scorecard={tool.scorecard} />
@@ -211,6 +215,8 @@ export default async function ToolPage({
                 </div>
               </div>
             )}
+
+            <CompanyInfoBlock info={tool.companyInfo} />
           </div>
         </div>
       </div>

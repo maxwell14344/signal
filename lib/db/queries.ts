@@ -10,7 +10,32 @@ import {
   alternativeEntries,
   useCasePages,
   useCaseToolEntries,
+  settings,
 } from "./schema";
+
+export interface SiteSettings {
+  toolsPerPage: number;
+  homepageCategorySlugs: string[];
+}
+
+const DEFAULT_SETTINGS: SiteSettings = {
+  toolsPerPage: 12,
+  homepageCategorySlugs: [],
+};
+
+export async function getSiteSettings(): Promise<SiteSettings> {
+  const rows = await db
+    .select()
+    .from(settings)
+    .where(eq(settings.key, "site_settings"));
+  const row = rows[0];
+  if (!row) return DEFAULT_SETTINGS;
+  try {
+    return { ...DEFAULT_SETTINGS, ...JSON.parse(row.value) };
+  } catch {
+    return DEFAULT_SETTINGS;
+  }
+}
 
 export type ToolRow = typeof tools.$inferSelect;
 export type CategoryRow = typeof categories.$inferSelect;

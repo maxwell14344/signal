@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { getTrendingTools } from "@/lib/db/queries";
 import { ToolLogo } from "./ToolLogo";
 import { PriceBadge } from "./PriceBadge";
+import { ScrollHint } from "./ScrollHint";
 
 export async function TrendingStrip() {
   const trending = await getTrendingTools();
@@ -19,7 +20,7 @@ export async function TrendingStrip() {
         </div>
       </div>
 
-      <div className="no-scrollbar -mx-6 flex gap-4 overflow-x-auto px-6 pb-2">
+      <ScrollHint className="no-scrollbar -mx-6 flex gap-4 overflow-x-auto px-6 pb-2">
         {trending.map((tool) => {
           const quote = tool.sentimentQuotes?.[0];
 
@@ -58,7 +59,7 @@ export async function TrendingStrip() {
             </Link>
           );
         })}
-      </div>
+      </ScrollHint>
     </section>
   );
 }

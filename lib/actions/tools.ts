@@ -92,6 +92,8 @@ export async function updateToolAction(
       pricingModel: String(formData.get("pricingModel") ?? "") || null,
       pricingStartingPrice: String(formData.get("pricingStartingPrice") ?? "") || null,
       pricingPlans: parseJsonField(formData, "pricingPlans", []),
+      pricingBreakdown: String(formData.get("pricingBreakdown") ?? "") || null,
+      capabilities: parseJsonField(formData, "capabilities", []),
       pros: parseJsonField(formData, "pros", []),
       cons: parseJsonField(formData, "cons", []),
       sentimentQuotes: parseJsonField(formData, "sentimentQuotes", []),

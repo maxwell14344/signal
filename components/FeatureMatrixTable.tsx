@@ -1,5 +1,6 @@
 import { Check, X } from "lucide-react";
 import type { FeatureMatrixRow } from "@/lib/db/schema";
+import { ScrollHint } from "./ScrollHint";
 
 function Cell({ value }: { value: string | boolean }) {
   if (typeof value === "boolean") {
@@ -24,29 +25,31 @@ export function FeatureMatrixTable({
   if (!rows || rows.length === 0) return null;
 
   return (
-    <div className="overflow-x-auto rounded-lg border border-border bg-surface card-shadow">
-      <table className="w-full text-left text-sm">
-        <thead>
-          <tr className="border-b border-border">
-            <th className="p-4 font-medium text-muted">Feature</th>
-            <th className="p-4 text-center font-medium text-foreground">{toolAName}</th>
-            <th className="p-4 text-center font-medium text-foreground">{toolBName}</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((row, i) => (
-            <tr key={i} className="border-b border-border last:border-none">
-              <td className="p-4 text-body">{row.feature}</td>
-              <td className="p-4 text-center">
-                <Cell value={row.toolA} />
-              </td>
-              <td className="p-4 text-center">
-                <Cell value={row.toolB} />
-              </td>
+    <div className="rounded-lg border border-border bg-surface card-shadow">
+      <ScrollHint className="overflow-x-auto">
+        <table className="w-full text-left text-sm">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="p-4 font-medium text-muted">Feature</th>
+              <th className="p-4 text-center font-medium text-foreground">{toolAName}</th>
+              <th className="p-4 text-center font-medium text-foreground">{toolBName}</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {rows.map((row, i) => (
+              <tr key={i} className="border-b border-border last:border-none">
+                <td className="p-4 text-body">{row.feature}</td>
+                <td className="p-4 text-center">
+                  <Cell value={row.toolA} />
+                </td>
+                <td className="p-4 text-center">
+                  <Cell value={row.toolB} />
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </ScrollHint>
     </div>
   );
 }

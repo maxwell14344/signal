@@ -106,6 +106,8 @@ async function importTools() {
       companyInfo: raw.companyInfo ?? {},
       faq: raw.faq ?? [],
       scorecard: raw.scorecard ?? [],
+      pricingBreakdown: raw.pricingBreakdown ?? null,
+      capabilities: raw.capabilities ?? [],
       pricingModel: raw.pricing?.model ?? null,
       pricingStartingPrice: raw.pricing?.startingPrice ?? null,
       pricingPlans: raw.pricing?.plans ?? [],

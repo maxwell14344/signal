@@ -1,18 +1,43 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { getAllCategories, getCategoryToolCount } from "@/lib/db/queries";
+import { getAllCategories, getCategoryToolCount, getSiteSettings } from "@/lib/db/queries";
 import { CategoryIcon } from "./CategoryIcon";
 
-export async function CategoryGrid({ showHeading = true }: { showHeading?: boolean }) {
-  const categories = await getAllCategories();
+export async function CategoryGrid({
+  showHeading = true,
+  featured = false,
+}: {
+  showHeading?: boolean;
+  featured?: boolean;
+}) {
+  const allCategories = await getAllCategories();
+
+  let categories = allCategories;
+  if (featured) {
+    const settings = await getSiteSettings();
+    if (settings.homepageCategorySlugs.length > 0) {
+      const slugSet = new Set(settings.homepageCategorySlugs);
+      categories = allCategories.filter((c) => slugSet.has(c.slug));
+    } else {
+      categories = allCategories.slice(0, 6);
+    }
+  }
+
   const counts = await Promise.all(categories.map((c) => getCategoryToolCount(c.slug)));
 
   return (
     <section id="categories" className="mx-auto max-w-6xl px-6 py-20">
       {showHeading && (
-        <div className="mb-8">
-          <p className="eyebrow text-accent">Browse</p>
-          <h2 className="mt-1 text-2xl sm:text-3xl">Find tools by category</h2>
+        <div className="mb-8 flex items-end justify-between">
+          <div>
+            <p className="eyebrow text-accent">Browse</p>
+            <h2 className="mt-1 text-2xl sm:text-3xl">Find tools by category</h2>
+          </div>
+          {featured && (
+            <Link href="/categories" className="text-sm text-muted hover:text-accent">
+              View all categories →
+            </Link>
+          )}
         </div>
       )}
 

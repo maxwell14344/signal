@@ -1,4 +1,4 @@
-# NorthStack — Editor's Guide
+# NorthStark — Editor's Guide
 
 A quick, practical guide to making changes to the site day-to-day. This is the "how do I do X" doc — a fuller reference doc comes later once the project settles.
 

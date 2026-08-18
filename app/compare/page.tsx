@@ -8,7 +8,7 @@ import { eq } from "drizzle-orm";
 
 export const metadata: Metadata = {
   title: "All Comparisons",
-  description: "Every tool-vs-tool comparison on NorthStack.",
+  description: "Every tool-vs-tool comparison on NorthStark.",
 };
 
 export default async function CompareIndexPage() {

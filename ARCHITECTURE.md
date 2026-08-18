@@ -1,6 +1,6 @@
-# NorthStack — Architecture Reference
+# NorthStark — Architecture Reference
 
-> Site name history: built and launched as "Signal," renamed to **NorthStack** in a later round (the tagline "guides you toward the right customer support stack" is the reasoning behind the name). If you see "Signal" anywhere in old commit messages or stray content, that's just history — the live brand is NorthStack.
+> Site name history: built and launched as "Signal," renamed to "NorthStack" in a later round, then renamed again to **NorthStark** (tagline "guides you toward the right customer support stack" still applies — the name uses "Stark" instead of "Stack"). If you see "Signal" or "NorthStack" anywhere in old commit messages or stray content, that's just history — the live brand is NorthStark.
 
 **Purpose of this file**: a single document a fresh Claude session (or anyone) can read to fully understand this project without exploring the repo first. If you're picking this project back up with no prior context, read this file top to bottom before touching anything — it tells you what exists, where it lives, and what's already been decided so you don't redo work or re-litigate settled decisions.
 
@@ -10,9 +10,9 @@ For a human editor's "how do I do X" guide, see [DOCS.md](DOCS.md) instead — t
 
 ## 1. What this is
 
-**NorthStack** is a niche content site reviewing **AI customer support tools** — chatbots, AI support agents, WhatsApp/messaging AI, helpdesk automation, CX analytics, etc. It is not a generic AI-tool directory; it's deliberately narrow.
+**NorthStark** is a niche content site reviewing **AI customer support tools** — chatbots, AI support agents, WhatsApp/messaging AI, helpdesk automation, CX analytics, etc. It is not a generic AI-tool directory; it's deliberately narrow.
 
-Owner/author: **Maxwell Timothy** — a real content marketing expert (6+ years covering AI, published on MakeUseOf/MSN/Flipboard/Make Tech Easier/NewsBreak, authored a ChatGPT eBook used in university coursework). He works in **Growth and Marketing at Heyy** (not founder) and has **previously written contributed content for Chatbase and Crisp**. All three of those tools are reviewed on this site — this is a disclosed, real conflict of interest, not hypothetical. See `/methodology` and the author bio for the exact disclosure language. **Never re-introduce a "founder of Heyy" claim** — that was a mistaken assumption made early in this project and explicitly corrected by the user. If Heyy, Chatbase, or Crisp content is ever regenerated, the disclosure must be preserved.
+Owner/author: **Maxwell Timothy** — a real content marketing expert (6+ years covering AI, published on MakeUseOf/MSN/Flipboard/Make Tech Easier/NewsBreak, authored a ChatGPT eBook used in university coursework). He works in **Growth and Marketing at Heyy** (not founder) and has **previously written contributed content for Chatbase and Crisp**. All three of those tools are reviewed on this site. **Never re-introduce a "founder of Heyy" claim** — that was a mistaken assumption made early in this project and explicitly corrected by the user. Per explicit user instruction, this relationship is intentionally kept low-key on the site: it is not woven into individual tool/comparison/alternatives/use-case content, and only appears as a single low-key line in `/methodology` and the author bio. Do not re-add scattered "in the interest of full disclosure..." sentences to content files — that pattern was deliberately removed.
 
 Content model — **spine / joint / skin**:
 - **Spine**: `/categories` — a fixed taxonomy every tool hangs off of. Each category is a pillar page.

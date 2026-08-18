@@ -8,7 +8,7 @@
     "Tidio is a live chat, helpdesk, and AI chatbot platform built primarily for e-commerce and small-to-mid-sized business websites, centered on its Lyro AI Agent.",
     "Pricing separates the core helpdesk (Free through Plus/Premium, based on billable conversations and seats) from Lyro AI Agent conversations and Flows (rule-based automation), which are billed as add-ons starting around $32.50/mo for 50+ Lyro conversations.",
     "Founded in 2013 and headquartered in Szczecin, Poland, Tidio has raised roughly $26.8M through a 2022 Series B round and runs a lean team of around 178 employees.",
-    "Independent reviews are strong — 4.6-4.7/5 across G2 (1,900+ reviews) and Capterra (590+ reviews) — with reviewers citing minimal AI hallucination and around 90% of conversations resolved by Lyro, but pricing transparency (unexpected plan upgrades, refund friction) is the single most-cited complaint.",
+    "Independent reviews are strong across major review platforms, with reviewers citing minimal AI hallucination and around 90% of conversations resolved by Lyro, but pricing transparency (unexpected plan upgrades, refund friction) is the single most-cited complaint.",
     "A notable product limitation: you can't blend a simple rule-based bot with intelligent Lyro AI handoff in one flow — it's a binary choice between a scripted bot and the full AI agent."
   ],
   "categories": { "primary": "live-chat-shared-inbox", "secondary": ["ai-chatbots"] },
@@ -39,7 +39,7 @@
     },
     {
       "question": "What's the most common complaint about Tidio?",
-      "answer": "Pricing transparency, appearing in roughly 85 of 1,800+ G2 reviews — specifically automatic plan upgrades happening without clear permission and difficulty securing refunds afterward."
+      "answer": "Pricing transparency — specifically automatic plan upgrades happening without clear permission and difficulty securing refunds afterward — is the most frequently repeated complaint across independent reviews."
     },
     {
       "question": "Is Tidio a good fit for e-commerce specifically?",
@@ -47,7 +47,7 @@
     }
   ],
   "scorecard": [
-    { "dimension": "Ease of Setup", "score": 5, "note": "Consistently the top-praised attribute across 1,800+ G2 reviews — live chat and AI chat are reported ready with minimal setup effort." },
+    { "dimension": "Ease of Setup", "score": 5, "note": "Consistently the top-praised attribute across independent reviews — live chat and AI chat are reported ready with minimal setup effort." },
     { "dimension": "AI Quality", "score": 4, "note": "Reviewers report roughly 90% resolution rates with minimal hallucination, a strong independent signal, though the Lyro-vs-scripted-bot rigidity is a real design limitation." },
     { "dimension": "Omnichannel Support", "score": 3, "note": "Solid on web chat, email, and core social DMs, but narrower channel coverage than platforms like Crisp or ManyChat." },
     { "dimension": "Pricing Value", "score": 3, "note": "Reasonable entry pricing, but pricing transparency — unexpected upgrades and refund friction — is the most repeated complaint in independent reviews." },
@@ -68,7 +68,7 @@
   "pricingBreakdown": "Tidio splits its bill into two separate decisions: the core helpdesk (Free through Growth at $49.17/mo, priced by billable conversations and seats) and Lyro AI, billed separately starting at $32.50/mo for just 50 AI conversations. That split is the single thing to budget around — a team that signs up for Growth at $49.17/mo thinking that's the whole bill will be surprised when Lyro costs land as a second, independent charge, and $32.50/mo for 50 conversations is a notably worse per-conversation rate than Crisp's Mini plan, where $45/mo buys both 4 seats and roughly 90 automated AI conversations bundled together. Where Tidio's pricing does make real sense is the Free tier: unlike Chatbase's Free tier, which is genuinely a stripped-down trial, Tidio's Free plan ships real ticketing and email management alongside live chat for 10 seats — that's usable production software, not a demo. If Lyro's ~90% independently-reported resolution rate holds for your use case, paying the AI add-on separately is a fair trade for accuracy; if you're price-sensitive and mostly want bundled AI-plus-inbox in one number, Crisp's per-workspace bundling is simply the easier bill to forecast.",
   "capabilities": [
     { "area": "Chatbot & AI", "note": "Lyro is the headline feature, and the independently-reported ~90% resolution rate with minimal hallucination is a genuinely strong signal — not a vendor claim, an outside one. The real design limitation worth knowing before you buy: you can't smoothly blend a simple scripted bot with intelligent Lyro handoff in one flow, it's a binary choice between Flows (rule-based) and the full AI agent, which reviewers specifically flag as a rigidity they'd fix if they could." },
-    { "area": "Live Chat", "note": "The chat widget and AI agent both get consistent praise for being ready with minimal setup — this is the most-praised attribute across well over a thousand G2 reviews, and it's not a close second. If setup speed is a real priority, Tidio is one of the fastest options on this list to get a working live chat and AI combination in front of customers." },
+    { "area": "Live Chat", "note": "The chat widget and AI agent both get consistent praise for being ready with minimal setup — this is the most-praised attribute across independent reviews, and it's not a close second. If setup speed is a real priority, Tidio is one of the fastest options on this list to get a working live chat and AI combination in front of customers." },
     { "area": "Shared Inbox", "note": "Ticketing and email management are bundled into the core plan even at Free, with automatic chat assignment and macros arriving at Growth ($49.17/mo). This is a real inbox, not a stripped trial version — the Free tier alone covers more ground than some competitors' entry-level paid plans." },
     { "area": "Knowledge Base", "note": "Lyro trains on your website, uploaded documents, CSV files, and even Zendesk help center articles if you're migrating from that platform. It's functional as a training source for the AI rather than a standalone customer-facing knowledge base product, so don't expect a dedicated help-center builder here." },
     { "area": "Campaigns", "note": "This is the honest weak spot: independent hands-on review specifically notes Tidio has no real marketing capability on Facebook, Instagram, or WhatsApp beyond basic auto-replies. If proactive, cross-channel campaign broadcasting matters to you, this isn't the tool for it — Tidio's strength is reactive support, not outbound marketing." }
@@ -80,7 +80,7 @@
     "Responsive, well-regarded customer support across the large majority of reviews"
   ],
   "cons": [
-    "Pricing transparency is the most-repeated complaint — automatic plan upgrades and refund friction appear across dozens of G2 reviews",
+    "Pricing transparency is the most-repeated complaint — automatic plan upgrades and refund friction appear across many independent reviews",
     "Rigid separation between scripted bots (Flows) and the full Lyro AI agent, with no smooth intelligent handoff between the two",
     "Lyro AI Agent is billed as a separate add-on from the core helpdesk plan, complicating total-cost estimation",
     "Narrower channel coverage (no native WhatsApp, SMS, or voice) compared to Crisp or ManyChat"
@@ -111,7 +111,7 @@
     "Businesses comfortable budgeting Lyro AI conversations separately from the core helpdesk plan",
     "Support teams prioritizing setup speed and AI accuracy over deep omnichannel breadth"
   ],
-  "verdict": "Tidio earns its 4.6-4.7 review average honestly, not through review-gating tricks — the roughly 90% Lyro resolution rate with minimal hallucination that reviewers report independently is a genuinely strong signal, and setup speed rivals Chatbase's best-in-class time-to-launch. The rub is the pricing structure, and it's a real one: splitting the core helpdesk plan from Lyro AI billing means a team budgeting $49.17/mo for Growth gets blindsided when the AI add-on lands as a separate charge on top, starting at $32.50/mo for just 50 conversations — a worse per-conversation rate than what Crisp bundles into its Mini plan for roughly the same money. The recurring complaints about surprise plan upgrades and refund friction are specific and numerous enough across dozens of G2 reviews that I'd take them seriously before entering card details, not wave them off as the usual noise every SaaS product collects. Where Tidio genuinely makes sense: an e-commerce store that wants AI doing the heavy lifting fast and is comfortable budgeting the AI line item separately from the base plan. Where it doesn't: if you need WhatsApp or voice alongside your chat — that's simply not in Tidio's channel lineup no matter which tier you pick, so no amount of budget fixes that gap.",
+  "verdict": "Tidio earns its strong review average honestly, not through review-gating tricks — the roughly 90% Lyro resolution rate with minimal hallucination that reviewers report independently is a genuinely strong signal, and setup speed rivals Chatbase's best-in-class time-to-launch. The rub is the pricing structure, and it's a real one: splitting the core helpdesk plan from Lyro AI billing means a team budgeting $49.17/mo for Growth gets blindsided when the AI add-on lands as a separate charge on top, starting at $32.50/mo for just 50 conversations — a worse per-conversation rate than what Crisp bundles into its Mini plan for roughly the same money. The recurring complaints about surprise plan upgrades and refund friction are specific and numerous enough across independent reviews that I'd take them seriously before entering card details, not wave them off as the usual noise every SaaS product collects. Where Tidio genuinely makes sense: an e-commerce store that wants AI doing the heavy lifting fast and is comfortable budgeting the AI line item separately from the base plan. Where it doesn't: if you need WhatsApp or voice alongside your chat — that's simply not in Tidio's channel lineup no matter which tier you pick, so no amount of budget fixes that gap.",
   "rating": 4.2,
   "trending": true,
   "authorSlug": "maxwell-timothy",

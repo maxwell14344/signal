@@ -38,10 +38,10 @@ export async function Footer() {
         <div className="max-w-sm">
           <div className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-accent" />
-            <span className="font-heading text-lg text-foreground">NorthStack</span>
+            <span className="font-heading text-lg text-foreground">NorthStark</span>
           </div>
           <p className="mt-3 text-sm text-muted">
-            NorthStack guides you toward the right customer support stack for
+            NorthStark guides you toward the right customer support stack for
             your business — structured, human-verified reviews of AI
             chatbots, AI agents, live chat, and helpdesk platforms. Written
             and scored by Maxwell Timothy.
@@ -117,14 +117,14 @@ export async function Footer() {
                   About the author
                 </Link>
               </li>
-              <li>Ask NorthStack — coming soon</li>
+              <li>Ask NorthStark — coming soon</li>
             </ul>
           </div>
         </div>
       </div>
 
       <div className="border-t border-border px-6 py-6 text-center text-xs text-muted">
-        © {new Date().getFullYear()} NorthStack. All product names and
+        © {new Date().getFullYear()} NorthStark. All product names and
         trademarks belong to their respective owners.
       </div>
     </footer>

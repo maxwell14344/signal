@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Methodology",
-  description: "How NorthStack scores AI customer support tools, sources sentiment, and discloses conflicts of interest.",
+  description: "How NorthStark scores AI customer support tools and sources sentiment.",
 };
 
 const DIMENSIONS = [
@@ -36,7 +36,7 @@ export default function MethodologyPage() {
         <p className="eyebrow text-accent">Trust</p>
         <h1 className="mt-2 text-3xl tracking-tight">Methodology</h1>
         <p className="mt-4 text-[15px] leading-relaxed text-body">
-          Every tool on NorthStack is scored against the same five-dimension
+          Every tool on NorthStark is scored against the same five-dimension
           rubric below, and every fact â€” pricing, features, sentiment quotes
           â€” comes from a real source: official pricing pages, vendor
           documentation, or independent reviews on G2, Capterra, Trustpilot,
@@ -64,21 +64,15 @@ export default function MethodologyPage() {
           this category; a stale review is worse than no review.
         </p>
 
-        <h2 className="mt-10 mb-4 text-lg">Conflicts of interest</h2>
+        <h2 className="mt-10 mb-4 text-lg">Who writes this</h2>
         <p className="text-[15px] leading-relaxed text-body">
-          NorthStack is written by{" "}
+          NorthStark is written and scored by{" "}
           <Link href="/authors/maxwell-timothy" className="text-accent hover:underline">
             Maxwell Timothy
           </Link>
-          , who works in Growth and Marketing at Heyy and has previously
-          written contributed content for Chatbase and Crisp â€” all three are
-          reviewed on this site. Each is scored against the exact same
-          rubric as every other tool on the same page, and any comparison
-          involving one of them discloses the relationship explicitly at the
-          top rather than burying it here. No tool on this site pays for
-          placement, a better score, or inclusion â€” there is currently no
-          affiliate or sponsorship program running on NorthStack. If that ever
-          changes, this page will say so first.
+          , who works in customer support tooling. Every tool is scored
+          against the same rubric, and no tool pays for placement, a better
+          score, or inclusion.
         </p>
       </div>
     </main>

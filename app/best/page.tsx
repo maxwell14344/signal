@@ -5,7 +5,7 @@ import { getAllUseCasePages } from "@/lib/db/queries";
 
 export const metadata: Metadata = {
   title: "All Use Cases",
-  description: "Every use-case guide on NorthStack.",
+  description: "Every use-case guide on NorthStark.",
 };
 
 export default async function UseCasesIndexPage() {

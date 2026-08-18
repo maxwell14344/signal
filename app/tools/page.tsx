@@ -5,7 +5,7 @@ import { ToolCard } from "@/components/ToolCard";
 
 export const metadata: Metadata = {
   title: "All Tools",
-  description: "Every AI customer support tool reviewed on NorthStack.",
+  description: "Every AI customer support tool reviewed on NorthStark.",
 };
 
 export default async function ToolsIndexPage({

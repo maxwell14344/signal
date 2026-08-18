@@ -5,7 +5,7 @@ import { getAllAlternativePages } from "@/lib/db/queries";
 
 export const metadata: Metadata = {
   title: "All Alternatives",
-  description: "Every alternatives guide on NorthStack.",
+  description: "Every alternatives guide on NorthStark.",
 };
 
 export default async function AlternativesIndexPage() {

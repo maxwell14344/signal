@@ -8,7 +8,7 @@
     "Crisp is an omnichannel customer messaging platform combining a website chat widget, shared team inbox, email, and social/WhatsApp channels with an AI chatbot layer (credit-metered) on top.",
     "Pricing is per-workspace rather than strictly per-seat, running Free ($0, 2 seats) through Mini ($45/mo), Essentials ($95/mo), and Plus ($295/mo, marked 'Best Value'), each bundling a set number of seats plus a pool of AI credits for automated conversations.",
     "Self-funded and profitable since founding — Crisp has taken no venture capital, founded in Nantes/Paris, France by Baptiste Jamin and Valerian Saliou, and runs lean at roughly 20 employees.",
-    "Independent review scores vary sharply by platform: strong on G2 (4.5/5) and Capterra (4.6/5) for ease of use and support responsiveness, but a notably rougher 1.9/5 on Trustpilot driven by billing and cancellation complaints.",
+    "Independent review scores vary sharply by platform: strong on G2 and Capterra for ease of use and support responsiveness, but a notably rougher 1.9/5 on Trustpilot driven by billing and cancellation complaints.",
     "Positioned as a budget-friendly alternative to Intercom/Zendesk for small-to-mid businesses that want live chat, shared inbox, and basic AI automation without enterprise-tier pricing."
   ],
   "categories": { "primary": "live-chat-shared-inbox", "secondary": ["whatsapp-social-messaging-ai"] },
@@ -44,10 +44,6 @@
     {
       "question": "Why is Crisp's Trustpilot score so much lower than its G2/Capterra scores?",
       "answer": "Trustpilot reviews for Crisp skew heavily toward billing and cancellation complaints — customers reporting continued charges after attempting to cancel and friction getting refunds — while G2 and Capterra reviews focus more on day-to-day product usability, where Crisp scores well."
-    },
-    {
-      "question": "Does the reviewer have a relationship with Crisp?",
-      "answer": "Yes — disclosed here per this site's methodology: Maxwell Timothy has previously written contributed content for Crisp. The scoring above uses the same public rubric applied to every other tool on this site."
     }
   ],
   "scorecard": [
@@ -81,7 +77,7 @@
     "Genuinely unified omnichannel inbox (web, WhatsApp, social, SMS, email) rather than a chat widget with bolt-on channels",
     "Free tier is usable enough that small teams can run real support before ever paying",
     "Self-funded and profitable company history suggests low risk of a sudden pivot or shutdown driven by investor pressure",
-    "Strong day-to-day usability scores on G2 (4.5/5) and Capterra (4.6/5)"
+    "Strong day-to-day usability scores across major review platforms"
   ],
   "cons": [
     "Trustpilot rating (1.9/5) reveals a real pattern of billing and cancellation complaints that the higher-profile review sites don't fully surface",
@@ -115,7 +111,7 @@
     "Teams prioritizing omnichannel breadth over deep AI automation sophistication",
     "Companies wary of vendor instability who value a self-funded, profitable operator"
   ],
-  "verdict": "Disclosure up front, same as the FAQ below: I've written contributed content for Crisp in the past, so weigh this verdict knowing I'm not a fully neutral outsider here. That said — Crisp is the honest budget pick in this category, and the math backs it up, not just the marketing: a genuinely unified inbox across web, WhatsApp, and social for $45-95/mo is a fraction of what Intercom charges per seat, from a company that's stayed self-funded for a decade instead of chasing a Series B that would eventually need to be repaid through your invoice. The catch is the split personality in its own reviews — G2 and Capterra reviewers who actually use it day-to-day rate it highly (4.5-4.6/5), while Trustpilot's 1.9/5 is dragged down by a real, specific thread of billing and cancellation complaints that's hard to wave away as noise. My honest read: if you're the kind of team that reads the fine print on auto-renewal and AI-credit consumption before signing, Crisp is a strong pick that punches well above its price. If you tend to sign up and forget to check back in, that Trustpilot score is describing exactly the kind of billing surprise that catches people like that off guard.",
+  "verdict": "Crisp is the honest budget pick in this category, and the math backs it up, not just the marketing: a genuinely unified inbox across web, WhatsApp, and social for $45-95/mo is a fraction of what Intercom charges per seat, from a company that's stayed self-funded for a decade instead of chasing a Series B that would eventually need to be repaid through your invoice. The catch is the split personality in its own reviews — G2 and Capterra reviewers who actually use it day-to-day rate it highly, while Trustpilot's 1.9/5 is dragged down by a real, specific thread of billing and cancellation complaints that's hard to wave away as noise. My honest read: if you're the kind of team that reads the fine print on auto-renewal and AI-credit consumption before signing, Crisp is a strong pick that punches well above its price. If you tend to sign up and forget to check back in, that Trustpilot score is describing exactly the kind of billing surprise that catches people like that off guard.",
   "rating": 4.0,
   "trending": false,
   "authorSlug": "maxwell-timothy",

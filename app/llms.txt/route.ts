@@ -7,9 +7,9 @@ export async function GET() {
   const [tools, categories] = await Promise.all([getAllTools(), getAllCategories()]);
 
   const lines: string[] = [
-    "# NorthStack",
+    "# NorthStark",
     "",
-    "> NorthStack guides you toward the right customer support stack for your business. Human-verified reviews of AI customer support tools — chatbots, AI support agents, WhatsApp AI, helpdesk automation, and CX platforms. Written and scored by Maxwell Timothy.",
+    "> NorthStark guides you toward the right customer support stack for your business. Human-verified reviews of AI customer support tools — chatbots, AI support agents, WhatsApp AI, helpdesk automation, and CX platforms. Written and scored by Maxwell Timothy.",
     "",
     "## Categories",
     "",

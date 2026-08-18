@@ -16,11 +16,11 @@ const onest = Onest({
 
 export const metadata: Metadata = {
   title: {
-    default: "NorthStack — Find the Right Customer Support Stack",
-    template: "%s — NorthStack",
+    default: "NorthStark — Find the Right Customer Support Stack",
+    template: "%s — NorthStark",
   },
   description:
-    "NorthStack guides you toward the right customer support stack for your business — structured, human-verified reviews of AI chatbots, AI agents, live chat, helpdesk, and CX platforms. Real pricing, real sentiment, honest scorecards.",
+    "NorthStark guides you toward the right customer support stack for your business — structured, human-verified reviews of AI chatbots, AI agents, live chat, helpdesk, and CX platforms. Real pricing, real sentiment, honest scorecards.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

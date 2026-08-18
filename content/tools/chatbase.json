@@ -44,10 +44,6 @@
     {
       "question": "What do users complain about most?",
       "answer": "The most consistent criticisms are around cost scaling with credit consumption, occasional hallucinated answers outside the trained knowledge base, and reports of slower customer support response times on certain plans."
-    },
-    {
-      "question": "Does the reviewer have a relationship with Chatbase?",
-      "answer": "Yes — disclosed here per this site's methodology: Maxwell Timothy has previously written contributed content for Chatbase. The scoring above uses the same public rubric applied to every other tool on this site."
     }
   ],
   "scorecard": [
@@ -55,7 +51,7 @@
     { "dimension": "AI Quality", "score": 3, "note": "Capable for FAQ-style answers but multiple reviews report hallucinations outside the trained knowledge base, and quality depends heavily on which model tier you're paying for." },
     { "dimension": "Omnichannel Support", "score": 3, "note": "Solid on web widget and API; voice/telephony and WhatsApp exist but are gated behind Standard tier and above." },
     { "dimension": "Pricing Value", "score": 3, "note": "Credit-based billing makes costs unpredictable at scale, and add-ons (extra agents, branding removal, auto-recharge) stack up quickly on top of the sticker price." },
-    { "dimension": "Vendor Support Quality", "score": 3, "note": "Capterra's customer-service score (3.8) trails its ease-of-use score (4.6), and multiple reviewers report slow or unhelpful support interactions." }
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Support quality trails ease-of-use on third-party review aggregates, and multiple reviewers report slow or unhelpful support interactions." }
   ],
   "pricing": {
     "model": "Freemium, message-credit metered billing",
@@ -108,7 +104,7 @@
     "Teams wanting to bolt on voice/telephony or ticketing later without switching platforms",
     "Budget-conscious buyers who can keep message volume within a predictable credit range"
   ],
-  "verdict": "Disclosure up front, same as it says in the FAQ below: I've written contributed content for Chatbase before, so read this knowing I'm not a fully arm's-length reviewer. Here's my honest read anyway — Chatbase earns its popularity on pure setup speed, and pointing it at a website and having a working bot live in minutes is genuinely as easy as it sounds. A solo founder bootstrapping to a reported $9M ARR without outside money says something real about retention, because nobody keeps paying month after month for a bot that quietly embarrasses their brand. What you actually need to watch is the credit-metering model: burning 5 credits per reply on a premium model versus 1 on a lighter model means two businesses sitting on the identical $120/mo Standard plan can end up with wildly different real costs per conversation, and that's not a hypothetical edge case — it's just how the pricing page works. Capterra's 3.8-versus-4.6 gap between support quality and ease-of-use tracks with what reviewers actually describe, so budget for the support experience matching the lower number, not the flashier one. Use it as a fast-to-launch FAQ bot and it'll do exactly what you're paying for; try to make it your full customer-support system of record and you'll start missing what Intercom or Zendesk do with a real shared inbox underneath the AI.",
+  "verdict": "Chatbase earns its popularity on pure setup speed, and pointing it at a website and having a working bot live in minutes is genuinely as easy as it sounds. A solo founder bootstrapping to a reported $9M ARR without outside money says something real about retention, because nobody keeps paying month after month for a bot that quietly embarrasses their brand. What you actually need to watch is the credit-metering model: burning 5 credits per reply on a premium model versus 1 on a lighter model means two businesses sitting on the identical $120/mo Standard plan can end up with wildly different real costs per conversation, and that's not a hypothetical edge case — it's just how the pricing page works. Support quality consistently trails ease-of-use in third-party reviews, so budget for the support experience matching the weaker signal, not the flashier one. Use it as a fast-to-launch FAQ bot and it'll do exactly what you're paying for; try to make it your full customer-support system of record and you'll start missing what Intercom or Zendesk do with a real shared inbox underneath the AI.",
   "rating": 4.0,
   "trending": true,
   "authorSlug": "maxwell-timothy",

@@ -117,6 +117,11 @@ export async function Footer() {
                   About the author
                 </Link>
               </li>
+              <li>
+                <Link href="/contact" className="transition hover:text-foreground">
+                  Contact us
+                </Link>
+              </li>
               <li>Ask NorthStark — coming soon</li>
             </ul>
           </div>

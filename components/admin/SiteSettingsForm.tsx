@@ -44,6 +44,23 @@ export function SiteSettingsForm({
         6 categories by sort order.
       </p>
 
+      <div>
+        <label htmlFor="contactEmail" className="mb-1.5 block text-sm text-muted">
+          Contact form recipient email
+        </label>
+        <input
+          id="contactEmail"
+          name="contactEmail"
+          type="email"
+          defaultValue={settings.contactEmail}
+          placeholder="you@example.com"
+          className="w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:border-accent/50 focus:outline-none"
+        />
+        <p className="mt-1.5 text-xs text-muted">
+          Messages submitted on /contact are emailed here.
+        </p>
+      </div>
+
       {state?.error && <p className="text-sm text-negative">{state.error}</p>}
       {state?.success && <p className="text-sm text-positive">Saved.</p>}
 

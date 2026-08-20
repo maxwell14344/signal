@@ -16,11 +16,13 @@ import {
 export interface SiteSettings {
   toolsPerPage: number;
   homepageCategorySlugs: string[];
+  contactEmail: string;
 }
 
 const DEFAULT_SETTINGS: SiteSettings = {
   toolsPerPage: 12,
   homepageCategorySlugs: [],
+  contactEmail: "",
 };
 
 export async function getSiteSettings(): Promise<SiteSettings> {

@@ -11,12 +11,16 @@ export async function updateSiteSettingsAction(
   try {
     const toolsPerPage = Number(formData.get("toolsPerPage") ?? 12);
     const homepageCategorySlugs = formData.getAll("homepageCategorySlugs").map(String);
+    const contactEmail = String(formData.get("contactEmail") ?? "").trim();
 
     if (!Number.isFinite(toolsPerPage) || toolsPerPage < 1 || toolsPerPage > 100) {
       return { error: "Tools per page must be a number between 1 and 100." };
     }
+    if (contactEmail && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactEmail)) {
+      return { error: "Please enter a valid contact email address." };
+    }
 
-    const value = JSON.stringify({ toolsPerPage, homepageCategorySlugs });
+    const value = JSON.stringify({ toolsPerPage, homepageCategorySlugs, contactEmail });
 
     await db
       .insert(settings)

@@ -1,12 +1,20 @@
 # Tool Backlog — 25-Criteria Rubric Rollout
 
 Tracks progress adding new tools and re-scoring existing ones against the
-25-criteria rubric (`lib/scoringCriteria.ts`). Update this file as each
-batch ships (commit + push to master). Each tool = full profile (TLDR,
-pricing, channels, features, capabilities, FAQ, pros/cons, sentiment
-quotes, verdict) + `criteriaScores` scored against the 25-criteria rubric.
-New tools do NOT get a legacy 5-dimension `scorecard` entry — that system
-is being phased out, so new tools launch straight into the new rubric.
+25-criteria rubric (`lib/scoringCriteria.ts`). Each tool = full profile
+(TLDR, pricing, channels, features, capabilities, FAQ, pros/cons,
+sentiment quotes, verdict) + `criteriaScores` scored against the
+25-criteria rubric. New tools do NOT get a legacy 5-dimension `scorecard`
+entry — that system is being phased out, so new tools launch straight
+into the new rubric.
+
+**Status: paused after a partial first batch.** Batch-mode (10 tools
+dispatched in parallel via background research agents) hit reliability
+problems — several agents crashed or stalled mid-research, and the
+throughput/quality tradeoff wasn't worth it. Going forward, tools are
+added **one at a time** rather than in parallel batches. The full
+candidate list below is preserved for reference; batch/priority grouping
+no longer applies going forward.
 
 ## Re-score existing tools (not yet on the 25-criteria rubric)
 
@@ -15,94 +23,43 @@ is being phased out, so new tools launch straight into the new rubric.
 - [x] SiteGPT
 - [x] Wonderchat
 
-## Batch 1 — Live Chat & Helpdesk (I)
+## Added so far (one-off + partial batch 1)
 
-- [x] Freshdesk
 - [x] Freshchat
 - [x] Help Scout
-- [x] Gorgias
-- [x] LiveChat
-- [x] Olark
-- [x] Tawk.to
 - [x] HubSpot Service Hub
 - [x] Kayako
-- [x] Groove
+- [x] LiveChat
+- [x] Olark
 
-## Batch 2 — Live Chat & Helpdesk (II) + WhatsApp (I)
+## Attempted, failed, not yet retried
 
-- [ ] Gladly
-- [ ] Front
-- [ ] Re:amaze
-- [ ] Chaport
-- [ ] Userlike
-- [ ] LiveAgent
-- [ ] Respond.io
-- [ ] SleekFlow
-- [ ] Trengo
-- [ ] Interakt
+- [ ] Freshdesk — two agent attempts crashed mid-research; no usable file produced
+- [ ] Tawk.to — two agent attempts crashed; second left an unusable stub (0 criteria scored), discarded
+- [ ] Gorgias — agent attempt stalled (600s no progress)
+- [ ] Groove — two agent attempts stalled
 
-## Batch 3 — WhatsApp / Omnichannel Messaging (II)
+## Remaining candidates (not yet started)
 
-- [ ] Wati
-- [ ] AiSensy
-- [ ] Yellow.ai
-- [ ] Twilio Flex
-- [ ] MessageBird (Bird)
-- [ ] Zoko
-- [ ] DelightChat
-- [ ] Charles
-- [ ] Gallabox
-- [ ] Verloop
+Live Chat & Helpdesk: Gladly, Front, Re:amaze, Chaport, Userlike, LiveAgent
 
-## Batch 4 — WhatsApp (III) + Chatbot/Automation Builders (I)
+WhatsApp / Omnichannel Messaging: Respond.io, SleekFlow, Trengo, Interakt,
+Wati, AiSensy, Yellow.ai, Twilio Flex, MessageBird (Bird), Zoko,
+DelightChat, Charles, Gallabox, Verloop, Haptik, Kommo, 360dialog,
+Rasayel
 
-- [ ] Haptik
-- [ ] Kommo
-- [ ] 360dialog
-- [ ] Rasayel
-- [ ] Chatfuel
-- [ ] Landbot
-- [ ] Botpress
-- [ ] YourGPT
-- [ ] Voiceflow
-- [ ] MobileMonkey
+Chatbot / Automation Builders: Chatfuel, Landbot, Botpress, YourGPT,
+Voiceflow, MobileMonkey, Drift, Ada, Ultimate.ai, Cognigy, Kore.ai,
+Zowie, Forethought, Decagon, Sierra
 
-## Batch 5 — Chatbot/Automation Builders (II) + AI Agentic (I)
+AI Agentic Platforms: Crescendo, Aidbase, eesel AI, Siena AI
 
-- [ ] Drift
-- [ ] Ada
-- [ ] Ultimate.ai
-- [ ] Cognigy
-- [ ] Kore.ai
-- [ ] Zowie
-- [ ] Forethought
-- [ ] Decagon
-- [ ] Sierra
-- [ ] Crescendo
+Enterprise / CRM-adjacent: Salesforce Service Cloud, Microsoft Dynamics
+365 Customer Service, SAP Service Cloud, Genesys, NICE CXone, Five9,
+Talkdesk, Verint
 
-## Batch 6 — AI Agentic (II) + Enterprise/CRM-adjacent (I)
-
-- [ ] Aidbase
-- [ ] eesel AI
-- [ ] Siena AI
-- [ ] Salesforce Service Cloud
-- [ ] Microsoft Dynamics 365 Customer Service
-- [ ] SAP Service Cloud
-- [ ] Genesys
-- [ ] NICE CXone
-- [ ] Five9
-- [ ] Talkdesk
-
-## Batch 7 — Enterprise (II) + Community/Ticketing-adjacent
-
-- [ ] Verint
-- [ ] Zoho Desk
-- [ ] Jira Service Management
-- [ ] osTicket
-- [ ] Spiceworks
-- [ ] SupportBee
-- [ ] HelpCrunch
-- [ ] Comm100
+Community / Ticketing-adjacent: Zoho Desk, Jira Service Management,
+osTicket, Spiceworks, SupportBee, HelpCrunch, Comm100
 
 ## Notes
 
@@ -111,3 +68,6 @@ is being phased out, so new tools launch straight into the new rubric.
   profile).
 - Already in the system before this backlog: Chatbase, Crisp, Heyy,
   Intercom, ManyChat, SiteGPT, Tidio, Wonderchat, Zendesk.
+- Along the way, real pricing corrections were found and fixed on
+  Chatbase and SiteGPT (both had the annual-discounted rate mislabeled as
+  the flat monthly price) and Heyy (pricing was undocumented, now public).

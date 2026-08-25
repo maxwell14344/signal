@@ -1,0 +1,148 @@
+{
+  "slug": "olark",
+  "name": "Olark",
+  "logoUrl": "",
+  "website": "https://www.olark.com",
+  "tagline": "The 2009 live-chat original — still simple, still narrow, now fronted by an AI website agent that costs roughly thirteen times the classic seat price.",
+  "tldr": [
+    "Olark is a website live chat tool from Y Combinator's Summer 2009 batch that has spent most of its life as a human-staffed chat box, and has recently repositioned around an AI website agent (branded Aiden) that trains on your site content in about a minute.",
+    "Pricing is genuinely confusing right now: olark.com/faq still quotes $29/agent/month with no contract (down to $19 on a two-year commit) and a free tier capped at 20 chats/month, while olark.com/pricing leads with a $400/month AI Website Agent billed annually at $4,800/yr with one seat included and +$29/agent after that.",
+    "The differentiator is simplicity and longevity — 12,000+ businesses since 2009, a B Corp certification, a fully remote team, and Capterra reviewers who describe five-plus years of use without outages.",
+    "Real strength: the chat console itself. Capterra's 471 reviews average 4.5/5 with a 4.7/5 ease-of-use sub-score, and the $29/mo Live Chat Translation PowerUp auto-detects visitor language across 100+ languages in both directions.",
+    "Real weakness: it is effectively single-channel and single-purpose. There is no native mobile app (Olark deprecated its mobile beta and points agents at third-party XMPP clients), no documented order lookup for the AI, and the official WordPress plugin sits at ~1,000 installs with WordPress.org's 'may no longer be maintained' warning attached.",
+    "Best for small teams and marketing sites that want a dependable chat box and a site-trained FAQ bot — not for support orgs that need a real omnichannel inbox or an AI agent that can act on order and account data."
+  ],
+  "categories": { "primary": "live-chat-shared-inbox", "secondary": ["ai-chatbots"] },
+  "channels": ["Web Chat", "Email follow-up", "WhatsApp (Olark Classic only)", "SMS (Olark Classic only)"],
+  "keyFeatures": [
+    "Website chat widget with a real-time agent console, chat transfer, file uploads, agent groups, and agent-to-agent chat",
+    "AI website agent that answers from live website search scoped to your domains plus uploaded PDFs, manuals, and knowledge bases, with automatic FAQ and knowledge updates",
+    "Same-thread AI-to-human handoff, so escalation happens inside the conversation the visitor is already in",
+    "Automation Rules — documented as WHEN/IF/THEN conditional statements for proactive greetings, chatbox hiding, campaign-targeted messages, and time-delay triggers",
+    "Shortcuts / saved responses, chat tags, chat routing options, and custom pre-chat and offline forms",
+    "Live Chat Translation PowerUp: auto-detects the visitor's language and translates both agent and visitor messages across 100+ languages ($29/mo add-on)",
+    "Visitor Cobrowsing PowerUp with highlighter, pointer, scroll, and full screen control ($99/mo on self-service, included on Pro)",
+    "Extensive JavaScript API for chatbox behavior and visitor data, plus webhooks and an Olark MCP server for querying chat data and programmatically inspecting, editing, testing, and publishing the AI agent"
+  ],
+  "companyInfo": {
+    "founded": "2009",
+    "hq": "Fully remote and distributed; US-based, with leadership listed in Palo Alto / East Palo Alto, CA on Olark's own about page (no single HQ stated)",
+    "funding": "Y Combinator, Summer 2009 batch (confirmed on Olark's site footer). No significant venture round is publicly reported since; secondary aggregators put lifetime funding near $100K, which we could not confirm against a primary source.",
+    "employees": "Not publicly disclosed — Olark's about page pictures roughly a dozen team members and states the company is fully remote and B Corp certified"
+  },
+  "faq": [
+    {
+      "question": "What does Olark actually cost?",
+      "answer": "That depends which page of Olark's own site you read, and the gap is large. The FAQ page states \"$29 per agent/per month with no required contract,\" discounted to $23/agent/mo annually and $19/agent/mo on a two-year commitment, with PowerUps adding $29–$99/month. The pricing-tiers page shows the same $29 self-service tier plus a quote-based Pro Olark. But the main pricing page now leads with a \"Standard AI Website Agent\" at \"$400/month · billed annually ($4,800/yr)\" including one human agent seat, with extra seats at +$29/agent/month, and mentions a human-only live chat option at $29/agent/month underneath it. Olark has not published anything reconciling these, so get the number you're being sold in writing before you commit."
+    },
+    {
+      "question": "Is there still a free Olark plan?",
+      "answer": "Yes, per Olark's FAQ page: after the 14-day trial you can downgrade to a free plan with one agent login, a maximum of 20 chats per month, and limited features. Olark's Automation Rules documentation independently corroborates this by noting free-plan users are limited to a single rule and cannot hide the chatbox. It is a brochure-site tier, not a support-team tier."
+    },
+    {
+      "question": "Does Olark have a mobile app for agents?",
+      "answer": "No. Olark's own help page states \"We have deprecated the Olark Mobile beta\" and instead recommends third-party XMPP clients — Trillian for iOS and Android, Xabber for Android, Monal for iOS — to answer chats from a phone. If your team expects a first-party mobile app, this is a hard no rather than a roadmap item."
+    },
+    {
+      "question": "Can Olark's AI agent look up a customer's order?",
+      "answer": "Nothing in Olark's documentation says it can. Olark lists Shopify, WooCommerce, BigCommerce, and Magento on its integrations page, but the Shopify help article describes installation as pasting the embed code into your theme file, and the only order-adjacent capability it mentions is using the Update Visitor Status API to surface something like the number of items in a visitor's cart. The AI agent is documented as answering from your website content and uploaded documents — not as querying live order or account systems."
+    },
+    {
+      "question": "What is the difference between \"Olark Classic\" and \"New Olark\"?",
+      "answer": "Olark's help center splits documentation into a \"New Olark\" category (\"The latest version — new features and workflows\") and an \"Olark Classic\" category (\"Documentation for the legacy version of Olark\"). This matters for channels: Olark's features page lists WhatsApp and SMS with an explicit \"Olark Classic\" label, so those channels are tied to the legacy product rather than the current AI-forward one. Chat ratings are in the same position — Olark's customer service page says \"Olark Classic already offers chat ratings today, and we're actively bringing them to our AI product.\""
+    },
+    {
+      "question": "Does Olark handle non-English conversations?",
+      "answer": "Reasonably well, but it is a paid add-on. The Live Chat Translation PowerUp costs $29/month and \"automatically detects your visitor's language, and translates both agent and visitor chats in real time in the chatbox and agent console,\" supporting more than 100 languages in both directions with per-chat control. Separately, the chatbox interface itself can be localized, including right-to-left languages, though supporting multiple interface languages simultaneously requires server-side code."
+    }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 2, "note": "Web chat is the product; email exists only as \"Email follow-up\" to continue a conversation after a visitor leaves the site, and Olark's own features page tags WhatsApp and SMS as \"Olark Classic\" — the legacy product, not the current one. No voice, no Instagram DM, no Messenger (olark.com/features, olark.com/categories/olark-classic)." },
+    { "key": "omnichannel-unification", "score": 2, "note": "There is nothing meaningful to unify. Olark's integrations page lists Zendesk, Front, Help Scout, and Groove as helpdesk connections, which is the tell: the expected architecture is Olark for chat plus someone else's inbox for everything else, not one thread per customer across channels (olark.com/integrations)." },
+    { "key": "ai-availability", "score": 3, "note": "There is a real AI agent, not just smart replies — Olark's features page documents live website search scoped to your domains, document uploads, real-time streaming responses, configurable brand voice, and lead qualification in natural conversation. It is a genuine answering agent, but scoped to answering and qualifying rather than resolving (olark.com/features, olark.com/aiden-ai-agent)." },
+    { "key": "ai-training-method", "score": 4, "note": "Automatic and low-effort, which is the strongest part of Olark's AI story: the homepage claims training on your website in under one minute with no code and \"plain-English configuration instead of complex logic trees,\" and the features page adds PDF/manual/knowledge-base uploads plus \"Automatic FAQ & knowledge updates\" that refresh from live site content rather than a stale snapshot (olark.com, olark.com/features)." },
+    { "key": "hallucination-controls", "score": 3, "note": "Olark documents \"On-topic guardrails\" where the agent \"Stays focused on your business, resists prompt injection, declines unrelated questions,\" and answering from live scoped website search rather than a frozen training set is itself a meaningful constraint. What is not documented anywhere we could find is per-answer source citation back to the visitor (olark.com/features)." },
+    { "key": "automation-depth", "score": 2, "note": "Olark's own documentation describes Automation Rules as \"If-then statements\" readable as a sentence (\"WHEN any agent is available to chat, IF ... THEN send 'Welcome back!'\") and positions them as \"simpler alternatives to chatbots.\" The AI agent adds button-based routing decision trees, but there is no multi-step agentic workflow builder chaining routing, tagging, resolution, and follow-up (olark.com/help/automation-rules, olark.com/agent)." },
+    { "key": "unified-inbox", "score": 2, "note": "The chat console is a good single-channel console — searchable, filterable transcripts by agent, tag, or user group — but it is a chat console, not a shared inbox spanning email and social with one customer view. Software Advice reviewers specifically flag that \"chat management for multiple users needs improvement\" (olark.com/features, softwareadvice.com/live-chat/olark-profile/reviews)." },
+    { "key": "ai-human-handoff", "score": 4, "note": "Explicitly documented as \"Same-thread human handoff\" — the agent hands off \"without context loss\" inside the conversation the visitor is already in, and Olark's customer service page describes the system transferring \"to team members within the same conversation.\" This is the part where 16 years of live-chat plumbing underneath actually pays off (olark.com/features, olark.com/customer-service)." },
+    { "key": "internal-collaboration", "score": 3, "note": "Agent-to-agent chats, chat transfer, agent groups, per-agent chat limits, activity monitoring, and tags are all documented native features. What is missing versus modern shared inboxes is private per-conversation notes and @mentions as first-class primitives (olark.com/help/op2op, olark.com/pricing-tiers, olark.com/help/tags)." },
+    { "key": "canned-responses", "score": 3, "note": "Shortcuts / saved responses are documented (\"Send messages Faster with Shortcuts\") and reviewers use them, but a Capterra reviewer's stated con is precisely that \"You can't customize your auto-responses very well\" — functional, not flexible (olark.com/categories/new-olark, capterra.com/p/125957/Olark/reviews)." },
+    { "key": "integration-shopify", "score": 2, "note": "Shopify appears on Olark's integrations list, but the help article's actual install is Online Store > Themes > Edit Code > paste the embed snippet before the closing tag. No app-store app, no order history in the console, no refunds from chat — the only commerce-aware suggestion is using the Update Visitor Status API to show cart item count (olark.com/help/shopify)." },
+    { "key": "integration-woocommerce", "score": 2, "note": "Listed under eCommerce on Olark's integrations page alongside Shopify, BigCommerce, and Magento, but no documentation we found describes order data, order lookup, or refund handling inside the chat console — it reads as widget placement, not data integration (olark.com/integrations)." },
+    { "key": "integration-wordpress", "score": 2, "note": "An official \"Olark Live Chat\" plugin exists on WordPress.org, which is more than most rivals offer, but it shows roughly 1,000+ active installs, a 2.5/5 rating from 2 ratings, a last update ~11 months ago, and WordPress.org's warning that it \"hasn't been tested with the latest 3 major releases of WordPress. It may no longer be maintained or supported.\" Olark also publishes a manual install guide as a fallback (wordpress.org/plugins/olark-live-chat, olark.com/help/wordpress)." },
+    { "key": "integration-wix", "score": 1, "note": "Wix does not appear anywhere on Olark's integrations page, which lists WordPress, Drupal, Squarespace, and Webflow under CMS. There is no Olark app in evidence for Wix and no dedicated Olark help article for it — installation would fall back to generic custom-code injection (olark.com/integrations)." },
+    { "key": "integration-squarespace", "score": 2, "note": "Olark publishes a dedicated Squarespace integration page, but the mechanism is installing the Olark code into your Squarespace site and saving settings — code injection with a landing page around it, not a native app with any Squarespace-specific behavior (olark.com/integrations/squarespace)." },
+    { "key": "integration-webflow", "score": 2, "note": "Also a dedicated guide, also code paste: copy the install snippet from Settings > Chat Widget, then paste it into Webflow's Project Settings > Custom Code > Footer Code and publish. Olark's guide additionally notes you must have a paid Webflow account for this to work (olark.com/help/webflow)." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "Zapier is listed on Olark's integrations page and webhooks are supported for custom integration, which covers the no-code base case. Make.com and n8n do not appear on Olark's integrations page at all, and we could not verify the depth of the Zapier trigger/action set from a primary source (olark.com/integrations)." },
+    { "key": "integration-crm", "score": 3, "note": "A wider CRM list than most tools this size — Salesforce, HubSpot, SugarCRM, Nutshell, and GreenRope — plus a documented in-chat \"!trigger\" command set for pushing a transcript to a specific connected CRM mid-conversation, and HubSpot tracking-cookie data usable as an AI engagement trigger. It is transcript and contact push, though, not bidirectional pipeline sync (olark.com/integrations, olark.com/help/trigger, olark.com/features)." },
+    { "key": "order-payment-data-access", "score": 1, "note": "Nothing in Olark's documentation indicates the AI agent or the console can read live order status, tracking, or payment records. The Shopify help doc's only data suggestion is surfacing cart item count via the Update Visitor Status API. Olark's AI is documented as answering from site content and uploaded documents, not as querying business systems (olark.com/help/shopify, olark.com/features)." },
+    { "key": "multi-language-support", "score": 4, "note": "The Live Chat Translation PowerUp \"automatically detects your visitor's language, and translates both agent and visitor chats in real time in the chatbox and agent console\" across 100+ languages with per-chat control, and New Olark documents an \"Enable Automatic Translation\" article. Docked because it is a $29/mo add-on rather than included, and simultaneous multi-language chatbox localization requires server-side code (olark.com/all-powerups/live-chat-translation, olark.com/help/languages)." },
+    { "key": "analytics-depth", "score": 3, "note": "Chat volume by date range, average response time, per-agent chat counts and availability, post-chat rating surveys, scheduled daily/weekly/monthly CSV email reports, searchable transcripts, and Google Analytics tracking are all documented — plus an AI Analyst (beta) for plain-English questions of your chat data and an MCP server for external querying. Missing: AI deflection-rate reporting and modern CSAT dashboards, and chat ratings are still Classic-only per Olark's own note (olark.com/help/reports, olark.com/features, olark.com/customer-service)." },
+    { "key": "pricing-transparency", "score": 2, "note": "The per-seat model itself is clear, but Olark currently publishes three non-reconciled pricing stories simultaneously: $29/agent/mo no-contract with $23/$19 term discounts on /faq, a $29 self-service tier plus quote-based Pro on /pricing-tiers, and a $400/mo annual-only ($4,800/yr) AI Website Agent on /pricing. A Trustpilot reviewer separately reports being told there is no refund on a prepaid two-year plan (olark.com/faq, olark.com/pricing-tiers, olark.com/pricing, trustpilot.com/review/olark.com)." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "Genuinely strong for a tool this size and this old: a large documented JavaScript API covering attention grabber, chatbox appearance and behavior, conversation management, and visitor data; webhooks that carry custom fields by default; a referenced REST API; and an Olark MCP server that lets you \"query your chat data, build reports, and inspect, edit, test, and publish your agent programmatically\" (olark.com/api, olark.com/features, olark.com help center article \"Connect Olark to your AI assistant with the Olark MCP server\")." }
+  ],
+  "pricing": {
+    "model": "Per-agent seat subscription (classic live chat) alongside a flat annual AI Website Agent plan, plus paid PowerUp add-ons",
+    "startingPrice": "$0 (free tier) / $29 per agent per month",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "Per Olark's FAQ page: 1 agent login, maximum 20 chats per month, limited features. Automation Rules docs confirm free users get one rule and cannot hide the chatbox." },
+      { "name": "Live Chat (self-service)", "price": "$29/agent/mo", "billing": "Per agent/month, no required contract", "notes": "Human live chat, chat tools, analytics, team management, automation rules, customization, security, and 20+ integrations. Discounted to $23/agent/mo on annual and $19/agent/mo on a two-year commitment; 14-day free trial, credit card only." },
+      { "name": "Standard AI Website Agent", "price": "$400/mo", "billing": "Billed annually ($4,800/yr)", "notes": "Olark's current headline plan: unlimited visitor questions, automatic FAQ and knowledge updates, lead capture and qualification, proactive engagement, white-glove support and account management, \"No token limits, no overages,\" and one human agent seat included. Additional human agents +$29/agent/month." },
+      { "name": "Pro Olark / Custom", "price": "Quote", "billing": "Credit card, invoice, or PO", "notes": "For enterprise and power users: regional routing, multiple teams, advanced integrations, custom workflows, custom SLAs, legal reviews, and SSO. Visitor Cobrowsing and Chatbot CoPilot are included rather than paid add-ons." },
+      { "name": "PowerUps (add-ons)", "price": "$29–$99/mo", "billing": "Per month, on top of plan", "notes": "Olark's FAQ states PowerUps run $29–$99/month. Verified individually: Live Chat Translation $29/mo (100+ languages, both directions); Visitor Cobrowsing $99/mo on self-service, included on Pro." }
+    ]
+  },
+  "pricingBreakdown": "The interesting thing about Olark's pricing is not the number, it's that there are three of them. If you land on the FAQ page you'll believe Olark costs $29 per agent per month with no contract, falling to $19 on a two-year commit — genuinely one of the cheapest real live-chat seats on the market, and cheaper per seat than Intercom's Essential tier at $29/seat before you count Intercom's resolution-based AI charges. If you land on the pricing page you'll believe Olark costs $400 a month, billed annually at $4,800 a year, with exactly one human seat included. That is not a small gap; it is a 13x gap on the same brand. Line the AI plan up against Crisp and it gets harder to defend: Crisp's $295/mo Plus plan bundles 20+ seats, a genuinely omnichannel inbox spanning WhatsApp, Instagram, Messenger and SMS, ticketing, and an AI credit pool — for $105 less per month than Olark's one-seat AI agent. The honest read is that Olark's classic $29 seat is excellent value and its $400 AI plan is priced like an enterprise pilot with white-glove onboarding attached, which is roughly what the plan description says it is. Two more things to budget for: the PowerUps you probably want (translation at $29/mo, cobrowsing at $99/mo) are not in the base price, and a Trustpilot reviewer reports Olark declining a refund on a prepaid two-year plan, so treat the discounted long-term commits as genuinely committed.",
+  "capabilities": [
+    { "area": "Live Chat Console", "note": "This is the real product and it is the part reviewers consistently defend. Chat transfer, file uploads, visitor details and page tracking, agent groups, per-agent chat limits, tags, agent-to-agent chats, and searchable transcripts you can filter by agent, tag, or user group. Capterra's ease-of-use sub-score is 4.7/5 across 471 reviews and one reviewer describes \"well over 5 years without many complaints or outages.\" If you want a chat box that just works and stays out of the way, this holds up." },
+    { "area": "AI Website Agent (Aiden)", "note": "Trains on your live site in claimed under a minute, answers from domain-scoped website search plus uploaded PDFs and knowledge bases rather than a frozen snapshot, streams responses, qualifies leads conversationally, and hands off to a human in the same thread. The guardrails are documented as on-topic-only with prompt-injection resistance. What it does not do, on the evidence available, is act: no documented order lookup, no account changes, no multi-step workflow chaining. Treat it as a very good FAQ-and-lead-capture agent, not a resolution agent." },
+    { "area": "Automation & Routing", "note": "Deliberately shallow, and Olark says so — the docs describe Automation Rules as WHEN/IF/THEN sentences and call them \"simpler alternatives to chatbots.\" You get proactive greetings by pages viewed, time on site, scroll depth, return-visitor status, UTM/ad source, and HubSpot cookie data; you get chat routing options and button-based routing trees on the AI side. You do not get a workflow builder. For a marketing site this is often correct; for a support org with routing logic worth diagramming, it isn't enough." },
+    { "area": "Integrations & Extensibility", "note": "A split personality. The integration catalog is broad but shallow — Shopify, WooCommerce, Squarespace, and Webflow all resolve to pasting a snippet into a theme or footer, and the WordPress plugin carries WordPress.org's not-maintained warning. The developer surface, though, is legitimately good: a deep JavaScript API, webhooks that carry custom fields by default, and an MCP server that lets you inspect, edit, test, and publish the AI agent programmatically. If you have an engineer, Olark is more extensible than it looks; if you don't, it's more manual than it looks." },
+    { "area": "Reporting", "note": "Adequate for a chat tool, dated for a support platform. Chat volume, average response time, per-agent counts, post-chat rating surveys, scheduled CSV email reports, and Google Analytics tracking of chat interactions. The newer AI Analyst (beta) lets you ask plain-English questions of your own chat data, which is a nice touch. But chat ratings are still Classic-only by Olark's own admission, and there's no deflection-rate or AI-performance reporting documented — which is a notable hole for a product now sold primarily as an AI agent." }
+  ],
+  "pros": [
+    "Genuinely easy to live with — Capterra's 471 reviewers give ease of use 4.7/5, the highest sub-score on its profile, and reviewers describe multi-year runs without outages",
+    "$29/agent/month with no required contract (down to $19 on a two-year commit) is among the cheapest real live-chat seats available, and a free tier still exists for one agent and 20 chats a month",
+    "AI setup is refreshingly low-friction: site-trained in a claimed one minute, answering from live domain-scoped search plus uploaded docs, with plain-English configuration instead of logic trees",
+    "Same-thread AI-to-human handoff is documented as context-preserving — the one place where sixteen years of live-chat plumbing underneath clearly shows",
+    "Strong developer surface for a tool this small: deep JavaScript API, webhooks with custom fields, and an MCP server for querying chat data and publishing agent changes programmatically"
+  ],
+  "cons": [
+    "Effectively single-channel — web chat plus email follow-up, with WhatsApp and SMS tagged \"Olark Classic\" on Olark's own features page and no voice, Instagram, or Messenger at all",
+    "No native mobile app: Olark's help center states \"We have deprecated the Olark Mobile beta\" and directs agents to third-party XMPP clients like Trillian, Xabber, and Monal instead",
+    "Three unreconciled pricing stories live on Olark's own site simultaneously ($29/agent on /faq, $29 plus quote-based Pro on /pricing-tiers, $400/mo annual-only on /pricing), and a Trustpilot reviewer reports being refused a refund on a prepaid two-year plan",
+    "No published AI resolution or deflection rate, no independent benchmark we could find, and no documented ability for the AI to read order or account data — plus a WordPress plugin carrying WordPress.org's \"may no longer be maintained\" warning"
+  ],
+  "sentiment": [
+    {
+      "quote": "The UI is clean, easy to use, and is honestly just pleasant to log into every day.",
+      "source": "Capterra (Nathan P., Director of Client Training and Onboarding)",
+      "url": "https://www.capterra.com/p/125957/Olark/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "You can't customize your auto-responses very well.",
+      "source": "Capterra (Leana Y., Marketing Director)",
+      "url": "https://www.capterra.com/p/125957/Olark/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "We moved to Tidio and are saving over half the cost per month.",
+      "source": "Trustpilot (Paula Gromm Darnell, 2 stars, Jan 28 2026 — review titled \"Take it from a long time customer, there are better chat apps out there\")",
+      "url": "https://www.trustpilot.com/review/olark.com",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Small marketing and sales teams who want a dependable chat box on a website and a site-trained FAQ bot, without buying a support platform around it",
+    "Budget-constrained teams of one to five agents where $19–$29 per seat with no contract genuinely decides the purchase",
+    "Companies serving multilingual visitors on a single channel, where the $29/mo translation PowerUp covers 100+ languages in both directions",
+    "Teams with an engineer who will actually use the JavaScript API, webhooks, and MCP server to wire chat into systems Olark doesn't integrate with natively"
+  ],
+  "verdict": "Olark is the rare tool I'd describe as honestly narrow rather than disappointing. It has done one job since 2009 — put a chat box on a website and make it pleasant to staff — and the review record backs that up in a way marketing copy can't fake: 4.5/5 across 471 Capterra reviews, a 4.7/5 ease-of-use sub-score, and people casually mentioning five-year runs without outages. At $29 a seat with no contract, that's a good deal, and the free tier means you can prove it before paying. What I can't get comfortable with is the AI repositioning. The agent itself is sensibly built — it reads your live site instead of a stale snapshot, resists prompt injection, hands off in-thread — but Olark publishes no resolution rate, no deflection reporting, and no evidence the agent can read an order or touch a system. It answers questions. That's it. And it's priced at $400/month, annual-only, one seat included, against a site that still tells you elsewhere Olark costs $29. Three pricing pages, three different numbers, no reconciliation. My read: buy the classic seat with confidence and treat the AI plan as a sales conversation you should enter skeptically, asking specifically what \"unlimited\" and \"no overages\" mean in writing. Also verify before signing: there's no mobile app, and the two-year discount appears to be genuinely non-refundable.",
+  "rating": 3.3,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-25",
+  "lastVerifiedAt": "2026-08-25"
+}

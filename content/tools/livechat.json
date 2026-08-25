@@ -1,0 +1,151 @@
+{
+  "slug": "livechat",
+  "name": "LiveChat",
+  "logoUrl": "",
+  "website": "https://www.livechat.com",
+  "tagline": "The polished, publicly-traded veteran of live chat — priced strictly per seat, with its most useful AI sitting beside human agents rather than replacing them.",
+  "tldr": [
+    "LiveChat is a website chat and messaging platform from Text S.A. (formerly LiveChat Software), a Warsaw-listed Polish company that has been shipping this product since the early 2000s — it is a mature live-chat agent app first, and a helpdesk suite only if you buy the other Text products alongside it.",
+    "Pricing is strictly per seat: Starter $19, Team $49, Business $79 per person per month on annual billing ($25/$59/$89 monthly), plus custom Enterprise — with a 14-day free trial and no free tier at all.",
+    "The differentiator is polish and platform depth rather than price: 200+ marketplace integrations, first-party apps for WordPress, Wix, Squarespace and Webflow, and a genuine public developer platform (Agent Chat API, Configuration API, RTM WebSocket, webhooks, OAuth 2.1, publishable apps).",
+    "Real strength: independent reviewers and review-site aggregates consistently rate the day-to-day agent experience highly — Capterra sits at 4.6/5 across 1,727 reviews, with canned responses, chat supervision and 24/7 support named repeatedly as reasons.",
+    "Real weakness: the AI story is fragmented. LiveChat's own AI page states the autonomous AI Agent is available on Text plans rather than legacy LiveChat subscriptions, sentiment analysis is Enterprise-only per LiveChat's help center, and hallucination controls are not documented anywhere I could find.",
+    "Best for established SMB and mid-market support teams with a fixed headcount who want a fast, reliable, well-integrated chat product and are willing to pay per agent for it — not for teams whose main goal is cheap AI deflection."
+  ],
+  "categories": { "primary": "live-chat-shared-inbox", "secondary": ["agent-assist-copilot", "conversational-commerce"] },
+  "channels": ["Web Chat", "Facebook Messenger", "Instagram for Business", "WhatsApp Business", "SMS", "Email", "Apple Messages for Business", "In-chat voice/video with screen sharing"],
+  "keyFeatures": [
+    "Agent app built around canned responses, message sneak-peek (seeing what a visitor types before they send), chat tags, file sharing, chat transfer and searchable archives",
+    "Autonomous AI Agent with no-code \"Skills\" — plain-language instructions telling the agent how to behave in specific situations — plus lead capture and product recommendation when humans are offline",
+    "Agent-assist AI included in plans: Reply Suggestions trained on your own data, Text Enhancement, Tag Suggestions and Chat Summaries",
+    "Proactive engagement toolkit: targeted messages, eye-catchers, chat buttons, chat greetings triggered by visitor behavior, and recurring campaigns",
+    "Team management with agent accounts, groups, agent roles, chat supervision, chat limits and a work scheduler with staffing prediction (Business tier)",
+    "Reporting suite covering chat reports, agent performance, customer reports, ecommerce reports, data summaries, filters, dashboards and data export",
+    "200+ marketplace integrations including first-party apps for Shopify, WooCommerce, WordPress, Wix, Squarespace, Webflow, Salesforce and HubSpot",
+    "Public developer platform: Agent Chat API (HTTP and RTM WebSocket), Customer Chat API, Configuration API, webhooks, OAuth 2.1 and a Developer Console for publishing apps to the marketplace"
+  ],
+  "companyInfo": {
+    "founded": "2002 (incorporated as LiveChat Software S.A.; renamed Text S.A. in September 2023)",
+    "hq": "Wrocław, Poland, with a US office in Boston, Massachusetts",
+    "funding": "Publicly traded on the Warsaw Stock Exchange (ticker TXT, formerly LVC) — not currently VC-backed",
+    "employees": "~280"
+  },
+  "faq": [
+    {
+      "question": "How much does LiveChat actually cost?",
+      "answer": "LiveChat is priced per person per month: Starter $19, Team $49, Business $79 on annual billing, or $25/$59/$89 billed monthly, with custom Enterprise pricing. There is a 14-day free trial with no credit card required, but no permanently free plan. Starter is capped at 1 user and 60 days of chat history, so most real teams start at Team."
+    },
+    {
+      "question": "Is LiveChat's AI included in the price, or is it extra?",
+      "answer": "Both, depending on which AI you mean. Agent-assist features — Reply Suggestions, Text Enhancement, Tag Suggestions, Chat Summaries — are included in LiveChat and Text plans. The autonomous AI Agent is billed by resolution and, per LiveChat's own AI page, is available on Text plans rather than legacy LiveChat subscriptions: Essential includes 10 resolutions a month, Growth includes 200, and extra resolutions come in 50-packs at $49.50 (about $0.99 each)."
+    },
+    {
+      "question": "What is the relationship between LiveChat, Text, ChatBot, HelpDesk and KnowledgeBase?",
+      "answer": "They are separate products from the same company. Text S.A. is the parent brand (renamed from LiveChat Software in 2023) and sells LiveChat (chat widget and agent app), ChatBot (chatbot builder), HelpDesk (email/ticketing), KnowledgeBase (self-service) and OpenWidget. They integrate with each other, but historically each carried its own subscription — which is why buyers comparing LiveChat to an all-in-one suite often end up comparing incomplete price tags."
+    },
+    {
+      "question": "Does LiveChat handle WhatsApp, SMS and Instagram, or is it web-chat only?",
+      "answer": "It handles all of them. LiveChat's features page lists the chat widget, Facebook Messenger, Instagram for Business, WhatsApp Business, SMS, email, Apple Messages for Business, a standalone chat page, and in-chat voice/video with screen sharing. Note that SMS and Apple Messages for Business are listed as Business-tier ($79/agent/mo) features, not entry-level ones."
+    },
+    {
+      "question": "Can LiveChat translate conversations in real time?",
+      "answer": "Not natively. The chat widget interface is translated into 48 languages and you can assign a dedicated language group per page, but live message translation comes from third-party marketplace apps — Google Translate for LiveChat (priced around $5 per 100k characters), DeepL Translate for LiveChat, and Message Translator — each installed and billed separately. This is a genuine gap versus tools that ship translation in the core product."
+    },
+    {
+      "question": "Why do LiveChat's review scores differ so much between sites?",
+      "answer": "Capterra shows 4.6/5 across 1,727 reviews and G2 review summaries put it around 4.5, both driven by usability and support quality. Trustpilot shows a 2.1 TrustScore — but across only about 10 reviews, which is far too small a sample to weigh equally. What is worth noting is the theme in those few negative reviews and in Capterra's critical ones alike: unexpected renewal charges after cancellation, and price increases over time."
+    }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "LiveChat's features page lists the chat widget, Facebook Messenger, Instagram for Business, WhatsApp Business, SMS, email, Apple Messages for Business, a hosted chat page, and in-chat voice/video with screen sharing — broad coverage, but SMS and Apple Messages for Business are Business-tier ($79/agent/mo) features per the pricing page, and there is no native PSTN telephony (livechat.com/features, livechat.com/pricing)." },
+    { "key": "omnichannel-unification", "score": 3, "note": "Connected messaging channels land in the same agent chat list with shared customer details, but LiveChat's email/ticketing story lives largely in the separate HelpDesk product from the same company — so a genuinely unified view across chat and async email means buying and stitching two Text products, not one inbox (livechat.com/features, livechat.com/marketplace)." },
+    { "key": "ai-availability", "score": 4, "note": "There is a real autonomous AI Agent — it answers independently, captures leads when humans are offline, recommends products, and takes no-code \"Skills\" written as plain-language instructions — alongside agent-assist Reply Suggestions, Text Enhancement, Tag Suggestions and Chat Summaries. The caveat is access: LiveChat's own AI page states the AI Agent is available on Text plans, not legacy LiveChat subscriptions (livechat.com/ai, livechat.com/features/ai)." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "LiveChat markets \"Resolve 74% of customer cases\" for the AI Agent, while its own pricing page promotes ChatBot.com as solving \"up to 80% of cases\" — two different unaudited vendor figures for overlapping products. I found no independent benchmark corroborating either, and neither G2 nor Capterra review themes surface AI deflection as a standout; independent reviews (Tooltester) focus on human-agent polish instead (livechat.com/features/ai, livechat.com/pricing, tooltester.com/en/live-chat/livechat-review)." },
+    { "key": "ai-training-method", "score": 4, "note": "The AI Agent ingests \"website URLs, PDF files, help articles, whatever you have\" and, notably, \"learns from your past chats and tags\" — automatic knowledge ingestion plus historical-conversation learning, with no manual intent trees required. Learning from resolved history is something several competitors in this category still do not do (livechat.com/ai)." },
+    { "key": "hallucination-controls", "score": 2, "note": "This is the clearest documentation gap I hit. Neither livechat.com/ai nor livechat.com/features/ai addresses source citation to the customer, confidence thresholds, or restricting answers strictly to approved knowledge. The only steering mechanism documented is \"Skills\" — plain-language behavioral instructions — which is prompt guidance, not a retrieval guardrail. Scored low for absence of evidence, not for a proven failure." },
+    { "key": "automation-depth", "score": 3, "note": "Beyond the AI Agent's Skills, LiveChat ships routing rules, chat assignment, chat limits, targeted messages, eye-catchers and behavior-triggered greetings, and Text plans are documented as gating workflow counts (3 on Essential, more on Growth). That is meaningfully more than simple if/then triggers, but it is not the multi-step agentic resolution-plus-follow-up tooling Intercom and Zendesk document (livechat.com/features, livechat.com/features/ai)." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "LiveChat does real-time customer sentiment analysis across five levels (very positive through very negative) in 16 languages, shown in the chat header and next to customer names in the chat list — but its own help center states plainly that \"Customer sentiment analysis is available in the Enterprise pricing plan.\" A good feature locked behind call-sales pricing is worth little to the SMB buyer this product otherwise targets (livechat.com/help/customer-sentiment-analysis)." },
+    { "key": "unified-inbox", "score": 3, "note": "The agent app is a strong single pane for live conversations — chat list, customer details, archives, transfer, supervision — and the Shopify/WooCommerce apps pull commerce context into the same view. It falls short of a true all-channel inbox because email ticketing and knowledge base are separate Text products rather than tabs in one workspace (livechat.com/features, livechat.com/marketplace)." },
+    { "key": "ai-human-handoff", "score": 4, "note": "LiveChat's AI page states the AI Agent \"transfers complex chats to human agents with full context preserved,\" and the human side of that handoff is this product's core competence — chat transfer between agents, groups, chat supervision and agent roles are all long-standing documented features. If AI-to-human escalation is your worry, this is a platform where the human half is unusually well built (livechat.com/ai, livechat.com/features)." },
+    { "key": "internal-collaboration", "score": 3, "note": "Documented team tooling covers agent accounts, groups, agent roles, chat supervision (supervisors monitoring live chats), chat transfer, chat limits and work scheduling. What I could not verify on LiveChat's own feature pages is private internal notes or @mentions inside a conversation — commonly expected in a shared inbox and explicitly documented by rivals like Crisp — so I am scoring only what is confirmed (livechat.com/features)." },
+    { "key": "canned-responses", "score": 5, "note": "Canned responses are a first-class, long-standing feature listed at the top of LiveChat's chat tools, alongside chat tags, rich messages and message sneak-peek (agents can see what a visitor is typing before they send it). G2 review summaries specifically name canned responses among the features driving reviewer satisfaction — this is a case where the vendor pitch and the review evidence agree (livechat.com/features, g2.com/products/livechat/reviews)." },
+    { "key": "integration-shopify", "score": 4, "note": "The Shopify app is developed by Text itself: agents get order status, tracking numbers and delivery details inside LiveChat, can send product cards with images and links into the chat, and the widget can run on checkout pages to catch cart abandonment. What it does not document — unlike Crisp — is processing refunds from inside the conversation (livechat.com/marketplace/apps/shopify)." },
+    { "key": "integration-woocommerce", "score": 3, "note": "Official Text-published app, but noticeably shallower than the Shopify one: it surfaces which products the customer is viewing and what is currently in their cart, with toggleable product detail and cart value. The listing does not document order history or past-order lookup, so it is a live-session sales aid more than a support-context integration (livechat.com/marketplace/apps/woocommerce)." },
+    { "key": "integration-wordpress", "score": 4, "note": "A dedicated WordPress plugin installs the full chat widget in a few clicks — proactive greetings and feedback collection included — rather than a stripped-down WordPress-only subset. It is the same widget you would deploy anywhere else (livechat.com/marketplace, livechat.com/best-integrations/integrate-websites)." },
+    { "key": "integration-wix", "score": 4, "note": "There is a first-party Wix app in the LiveChat marketplace plus a dedicated help-center tutorial, and configuration happens inside Wix itself: \"there's no need to switch between different apps – all of the configuration necessary for LiveChat to work can be done straight in the Wix app\" (livechat.com/marketplace/apps/wix, livechat.com/help/wix-integration-tutorial)." },
+    { "key": "integration-squarespace", "score": 4, "note": "A dedicated Squarespace app exists in the LiveChat marketplace with a no-code install — a real advantage over competitors in this category, several of which (Crisp among them) still require manual code injection into Squarespace's footer (livechat.com/marketplace/apps/squarespace)." },
+    { "key": "integration-webflow", "score": 4, "note": "LiveChat is listed both in its own marketplace and in Webflow's official app directory, with a connect-in-minutes install and customer data available inside the chat interface — a two-sided listing is stronger evidence of a maintained integration than a vendor-side claim alone (livechat.com/marketplace/apps/webflow, webflow.com/apps/detail/livechat)." },
+    { "key": "integration-automation-platforms", "score": 3, "note": "Zapier is the well-documented path and it is a broad one — LiveChat's Zapier listing connects it to thousands of other apps. I could not confirm first-party LiveChat marketplace apps for Make or n8n; connections to those exist from the automation platforms' own catalogs rather than as vendor-published integrations, which is a meaningful difference in who maintains them (zapier.com/apps/livechat/integrations)." },
+    { "key": "integration-crm", "score": 3, "note": "The Salesforce app is built by Text and does real work — create leads and contacts from chats, archives and the Visitor section, save transcripts as Cases or Objects, search Salesforce contacts from inside LiveChat — but the listing documents a largely one-directional LiveChat-to-Salesforce push with no sync back. HubSpot has a marketplace app; Pipedrive I could only verify via Zapier (livechat.com/marketplace/apps/salesforce, livechat.com/marketplace)." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Human agents genuinely see live order status, tracking numbers and delivery details through the Shopify app, and cart contents through WooCommerce — that is real data access, not talking points. What is not documented is whether the autonomous AI Agent can query that same order data to answer a WISMO question unaided, which is the harder and more valuable version of this capability (livechat.com/marketplace/apps/shopify, livechat.com/marketplace/apps/woocommerce)." },
+    { "key": "multi-language-support", "score": 3, "note": "The widget itself is translated into 48 languages and you can assign a dedicated language group per page, but real-time message translation is not in the core product — it comes from separately installed, separately billed marketplace apps (Google Translate for LiveChat at roughly $5 per 100k characters, DeepL Translate for LiveChat, Message Translator). Auto-detect-and-reply in the customer's language is therefore an add-on purchase here, not a built-in (livechat.com/help/how-to-modify-chat-window-language, livechat.com/marketplace/apps/google-translate-for-livechat)." },
+    { "key": "analytics-depth", "score": 4, "note": "Reporting covers data summaries, chat reports, agent performance, customer reports, ecommerce reports, filters, dashboards and data export, with Business adding on-demand and advanced reporting plus staffing prediction and a work scheduler. It is a well-built reporting layer — but it is also tiered, with basic reporting starting at Team and the good parts at $79/agent/mo, and an independent review notes some analytics carry separate charges (livechat.com/features, livechat.com/pricing, tooltester.com/en/live-chat/livechat-review)." },
+    { "key": "pricing-transparency", "score": 3, "note": "The core product is admirably transparent: exact per-seat figures for both annual and monthly billing sit on the public pricing page ($19/$25 Starter, $49/$59 Team, $79/$89 Business). The AI is not. LiveChat's pricing page does not list AI Agent resolution allowances at all, those live on Text plans (10 resolutions on Essential, 200 on Growth, 50-packs at $49.50), and the chatbot has separately been promoted at $52/mo — so you cannot compute your real total from one page (livechat.com/pricing, livechat.com/features/ai)." },
+    { "key": "api-webhook-extensibility", "score": 5, "note": "This is LiveChat's quietest strength. The Text Platform exposes an Agent Chat API over both HTTP and an RTM WebSocket, a Customer Chat API, a Configuration API covering agents, groups, bots, tags, webhooks and properties, reporting endpoints, OAuth 2.1 with personal access tokens, a Developer Console, and the ability to publish your own app to a public marketplace. That is a real platform, not a closed workflow builder (platform.text.com/docs, developers.livechat.com/docs)." }
+  ],
+  "pricing": {
+    "model": "Per-seat tiered SaaS, with autonomous AI billed separately per resolution on Text plans",
+    "startingPrice": "$19/agent/mo (annual)",
+    "plans": [
+      { "name": "Starter", "price": "$19/agent/mo annual ($25 monthly)", "billing": "Per person, per month", "notes": "1 user, Text Intelligence, tracks up to 100 visitors, 1 recurring campaign, 60-day chat history, basic widget customization, 24/7/365 support" },
+      { "name": "Team", "price": "$49/agent/mo annual ($59 monthly)", "billing": "Per person, per month", "notes": "Unlimited users, tracks up to 400 visitors, unlimited campaigns, unlimited chat history, full widget customization, basic reporting" },
+      { "name": "Business", "price": "$79/agent/mo annual ($89 monthly)", "billing": "Per person, per month", "notes": "Tracks up to 1,000 visitors, work scheduler, staffing prediction, on-demand and advanced reporting, agent performance, SMS, Apple Messages for Business" },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "Customizable tracking limit, white-label widget, dedicated onboarding, product expert and software engineer support, SSO, HIPAA compliance, customer sentiment analysis, SLAs, professional services" },
+      { "name": "AI Agent (Text plans)", "price": "$0.99/resolution beyond plan allowance", "billing": "Resolution-based; 50-resolution packages at $49.50", "notes": "Charged only when the AI Agent fully answers without human help — one charge per conversation. Essential includes 10 resolutions/mo, Growth includes 200. Per LiveChat's AI page, available on Text plans rather than legacy LiveChat subscriptions" },
+      { "name": "ChatBot (add-on product)", "price": "From $52/mo billed annually", "billing": "Separate subscription", "notes": "Promoted on LiveChat's pricing page as the chatbot layer — a distinct Text product with its own bill, not bundled into LiveChat tiers" }
+    ]
+  },
+  "pricingBreakdown": "LiveChat's headline $19 looks like it matches Zendesk's $19/agent Support Team plan, and for exactly one buyer it does — the solo operator, because Starter is capped at a single user with 60 days of chat history. Everyone else is really shopping the $49/agent Team plan, and that is where per-seat pricing starts to bite. Four agents on Team is $196/month; four agents on Crisp is $45/month total, because Crisp bundles seats into a workspace price. That is not a rounding difference, it is roughly 4x for a product doing broadly the same core job, and it is the single most important number in this review. What you get for the premium is polish, a deeper reporting layer, and an integration and developer ecosystem Crisp does not match. What you do not get is AI included: the autonomous AI Agent is billed per resolution at $0.99 beyond a small allowance (10/month on Essential, 200 on Growth) — the identical rate Intercom charges for Fin — except Intercom's Essential seat is $29 to LiveChat Team's $49, so LiveChat is the more expensive way to buy the same AI economics. Add ChatBot at $52/month or HelpDesk for email ticketing and the real all-in figure drifts well past the pricing page. My advice: price LiveChat on the assumption you will pay for seats and AI and at least one sibling product, then compare that total — not the $19 — against Zendesk Suite Team at $55/agent.",
+  "capabilities": [
+    { "area": "Live Chat Agent Experience", "note": "This is the reason to buy LiveChat and it is genuinely excellent. Message sneak-peek, canned responses, chat tags, transfer, supervision and archives are all mature and fast, and Capterra's 4.6/5 across 1,727 reviews is a large enough sample to trust. An independent hands-on reviewer went as far as saying that if Apple ever bought a live chat tool, this would be it. Twenty-plus years of iteration shows." },
+    { "area": "AI Layer", "note": "Split in two, and you need to know which half you are getting. The agent-assist half — Reply Suggestions trained on your data, Text Enhancement, Tag Suggestions, Chat Summaries — is included and genuinely useful. The autonomous half, the AI Agent that resolves cases unaided, is resolution-billed and, per LiveChat's own AI page, gated to Text plans rather than legacy LiveChat subscriptions. Vendor claims of 74% resolution are unaudited and I found nothing independent to support them." },
+    { "area": "Proactive Engagement & Commerce", "note": "Targeted messages, eye-catchers, behavior-triggered greetings and recurring campaigns are a real sales toolkit, and the Shopify app lets agents drop product cards with images and links straight into a conversation while seeing order and tracking status. If you are running chat as a revenue channel rather than a cost centre, this is the part of the product that earns the per-seat price." },
+    { "area": "Website & Platform Integrations", "note": "The quiet standout. First-party apps for WordPress, Wix, Squarespace and Webflow — with the Webflow one listed in Webflow's own directory too — mean no code-injection workarounds regardless of what your marketing site runs on. Several better-known competitors still make you paste a script into Squarespace's footer." },
+    { "area": "Developer Extensibility", "note": "The Text Platform gives you an Agent Chat API over HTTP and WebSocket, a Customer Chat API, a Configuration API covering agents, groups, bots, tags and webhooks, OAuth 2.1, a Developer Console, and a public marketplace you can publish into. If your requirement is 'we will need to build something custom on top of this eventually,' LiveChat is one of the strongest options in this category — and almost nobody markets it that way." }
+  ],
+  "pros": [
+    "Exceptionally polished, fast agent app with a large and consistent review base behind it (Capterra 4.6/5 from 1,727 reviews; G2 summaries around 4.5)",
+    "First-party, no-code apps for WordPress, Wix, Squarespace and Webflow — the best website-builder coverage of any tool reviewed here",
+    "Genuine public developer platform (Agent Chat API, Configuration API, RTM WebSocket, webhooks, OAuth 2.1, publishable marketplace apps) rather than a locked workflow builder",
+    "AI Agent trains on URLs, PDFs, help articles and — unusually — your past chats and tags, so it improves from resolved history rather than needing manual intent trees",
+    "Publicly traded, ~280-person company that has shipped this product for two decades, with 24/7 support included on every plan"
+  ],
+  "cons": [
+    "Strict per-seat pricing with no free tier — four agents on Team is $196/month against $45/month for the same headcount on Crisp, and reviewers explicitly complain that prices have risen over time",
+    "The product is deliberately unbundled: chatbot (ChatBot from ~$52/mo), email ticketing (HelpDesk) and self-service (KnowledgeBase) are separate Text subscriptions, so the pricing page understates your real bill",
+    "Hallucination controls are undocumented — I found no evidence of source citation, confidence thresholds, or hard restriction to approved knowledge on any official page",
+    "Key capabilities are gated to the top of the range: sentiment analysis is Enterprise-only per LiveChat's help center, SMS and Apple Messages for Business need the $79/agent Business plan, and real-time translation is a paid third-party marketplace app"
+  ],
+  "sentiment": [
+    {
+      "quote": "LiveChat has become a permanent part of our customer service experience. It is invaluable in supporting current customers and winning new ones!",
+      "source": "Capterra (Larry N., Customer Service Coordinator)",
+      "url": "https://www.capterra.com/p/62194/LiveChat/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "The price has increased dramatically over the last few years and this means it is becoming less viable as a customer support tool.",
+      "source": "Capterra (Lamia W., Founder)",
+      "url": "https://www.capterra.com/p/62194/LiveChat/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Despite this, LiveChat automatically renewed and charged us again in 2025 — not just once, but twice.",
+      "source": "Trustpilot (Brad Huber, 3 February 2026)",
+      "url": "https://www.trustpilot.com/review/livechat.com",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Established SMB and mid-market support teams with stable headcount who want the best-in-class human chat experience and can absorb per-seat pricing",
+    "Ecommerce and DTC brands running chat as a revenue channel — product cards, order and tracking visibility, eye-catchers and targeted campaigns are built for selling, not just deflecting",
+    "Companies on Wix, Squarespace, Webflow or WordPress who want a first-party, no-code widget install rather than pasting scripts into footer code injection",
+    "Technical teams who expect to build custom apps, bots or integrations on top of their chat platform via a documented public API and marketplace"
+  ],
+  "verdict": "LiveChat is the most professionally-built product in this category and one of the worst-value ones, and both of those are true at the same time. Twenty-plus years of iteration have produced an agent app that is genuinely a pleasure to work in — message sneak-peek, canned responses, supervision, transfer, all fast and all where you expect them — backed by 1,727 Capterra reviews at 4.6/5, which is a big enough sample that I take it seriously. The developer platform and the first-party Wix/Squarespace/Webflow apps are quietly better than anything its cheaper rivals ship. Then you price it. Four agents on Team is $196/month against Crisp's $45 for the same headcount, the AI Agent costs $0.99 a resolution on top — the same rate Intercom charges off a $29 seat rather than a $49 one — and the chatbot, the ticketing and the knowledge base are three more Text subscriptions. That unbundling is a deliberate business model, not an oversight, and it means the pricing page is not the price. Two things I could not verify and will not pretend otherwise: there is no documented hallucination control, source citation, or knowledge-restriction mechanism anywhere on LiveChat's official AI pages, and the 74% resolution claim has no independent corroboration I could find. Buy this if human chat quality is the product decision and AI is a bonus. If AI deflection is the reason you are shopping, you are paying premium seat prices for someone else's strength.",
+  "rating": 4.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-25",
+  "lastVerifiedAt": "2026-08-25"
+}

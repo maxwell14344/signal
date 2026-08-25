@@ -69,6 +69,11 @@ export interface CapabilityNote {
   area: string;
   note: string;
 }
+export interface CriterionScore {
+  key: string;
+  score: number;
+  note?: string;
+}
 
 export const tools = pgTable("tools", {
   id: serial("id").primaryKey(),
@@ -84,6 +89,7 @@ export const tools = pgTable("tools", {
   companyInfo: jsonb("company_info").$type<CompanyInfo>(),
   faq: jsonb("faq").$type<FaqEntry[]>().default([]),
   scorecard: jsonb("scorecard").$type<ScorecardEntry[]>().default([]),
+  criteriaScores: jsonb("criteria_scores").$type<CriterionScore[]>().default([]),
 
   pricingModel: text("pricing_model"),
   pricingStartingPrice: text("pricing_starting_price"),

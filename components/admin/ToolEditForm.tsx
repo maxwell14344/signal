@@ -46,11 +46,13 @@ function JsonField({
   name,
   defaultValue,
   rows = 5,
+  hint,
 }: {
   label: string;
   name: string;
   defaultValue: unknown;
   rows?: number;
+  hint?: string;
 }) {
   return (
     <div>
@@ -64,6 +66,7 @@ function JsonField({
         defaultValue={JSON.stringify(defaultValue ?? [], null, 2)}
         className="w-full rounded-lg border border-border bg-background px-3 py-2 font-mono text-xs text-foreground focus:border-accent/50 focus:outline-none"
       />
+      {hint && <p className="mt-1.5 text-xs text-muted">{hint}</p>}
     </div>
   );
 }
@@ -168,6 +171,13 @@ export function ToolEditForm({
         <JsonField label="Company info" name="companyInfo" defaultValue={tool.companyInfo} />
         <JsonField label="FAQ" name="faq" defaultValue={tool.faq} rows={8} />
         <JsonField label="Scorecard" name="scorecard" defaultValue={tool.scorecard} rows={8} />
+        <JsonField
+          label="25-point criteria scores"
+          name="criteriaScores"
+          defaultValue={tool.criteriaScores}
+          rows={8}
+          hint='Each entry: {"key": "...", "score": 0-5, "note": "..."}. Valid keys are listed in lib/scoringCriteria.ts and on the methodology page.'
+        />
         <JsonField label="Pricing plans" name="pricingPlans" defaultValue={tool.pricingPlans} rows={8} />
         <JsonField label="Pros" name="pros" defaultValue={tool.pros} />
         <JsonField label="Cons" name="cons" defaultValue={tool.cons} />

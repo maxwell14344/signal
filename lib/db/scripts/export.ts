@@ -47,6 +47,7 @@ async function exportTools() {
       companyInfo: tool.companyInfo,
       faq: tool.faq,
       scorecard: tool.scorecard,
+      criteriaScores: tool.criteriaScores,
       pricing: {
         model: tool.pricingModel,
         startingPrice: tool.pricingStartingPrice,

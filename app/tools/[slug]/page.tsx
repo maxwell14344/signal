@@ -18,6 +18,7 @@ import { ChannelsList } from "@/components/ChannelsList";
 import { KeyFeaturesList } from "@/components/KeyFeaturesList";
 import { CompanyInfoBlock } from "@/components/CompanyInfoBlock";
 import { ScorecardBlock } from "@/components/ScorecardBlock";
+import { CriteriaScoreboard } from "@/components/CriteriaScoreboard";
 import { VerdictBlock } from "@/components/VerdictBlock";
 import { FaqSection } from "@/components/FaqSection";
 import { AuthorByline } from "@/components/AuthorByline";
@@ -60,6 +61,7 @@ export default async function ToolPage({
     capabilities: toolRaw.capabilities ?? [],
     faq: toolRaw.faq ?? [],
     scorecard: toolRaw.scorecard ?? [],
+    criteriaScores: toolRaw.criteriaScores ?? [],
     pricingPlans: toolRaw.pricingPlans ?? [],
     pros: toolRaw.pros ?? [],
     cons: toolRaw.cons ?? [],
@@ -77,6 +79,7 @@ export default async function ToolPage({
     { id: "channels", label: "Channels" },
     { id: "features", label: "Key features" },
     { id: "scorecard", label: "Our scorecard" },
+    tool.criteriaScores?.length ? { id: "criteria-scores", label: "Full scoring breakdown" } : null,
     { id: "pros-cons", label: "Pros & cons" },
     tool.sentimentQuotes?.length ? { id: "sentiment", label: "What people say" } : null,
     { id: "verdict", label: "Our verdict" },
@@ -168,6 +171,12 @@ export default async function ToolPage({
             <div id="scorecard">
               <ScorecardBlock scorecard={tool.scorecard} />
             </div>
+
+            {tool.criteriaScores?.length > 0 && (
+              <div id="criteria-scores">
+                <CriteriaScoreboard scores={tool.criteriaScores} />
+              </div>
+            )}
 
             <div id="pros-cons">
               <ProsConsList pros={tool.pros} cons={tool.cons} />

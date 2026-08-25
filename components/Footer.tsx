@@ -5,6 +5,7 @@ import {
   getAllAlternativePages,
   getAllUseCasePages,
 } from "@/lib/db/queries";
+import { LogoMark } from "./LogoMark";
 
 const FOOTER_CATEGORY_COUNT = 5;
 const FOOTER_LINK_COUNT = 2;
@@ -24,8 +25,8 @@ export async function Footer() {
     <footer className="mt-24 border-t border-border bg-surface-2/40">
       <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="max-w-sm">
-          <div className="flex items-center gap-2">
-            <span className="h-2 w-2 rounded-full bg-accent" />
+          <div className="flex items-center gap-2.5">
+            <LogoMark size={26} />
             <span className="font-heading text-lg text-foreground">NorthStark</span>
           </div>
           <p className="mt-3 text-sm text-muted">

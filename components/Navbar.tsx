@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getAllTools } from "@/lib/db/queries";
 import { SearchBox } from "./SearchBox";
+import { LogoMark } from "./LogoMark";
 
 export async function Navbar() {
   const tools = await getAllTools();
@@ -15,8 +16,8 @@ export async function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-4">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="h-2 w-2 rounded-full bg-accent" />
+        <Link href="/" className="flex items-center gap-2.5">
+          <LogoMark size={28} />
           <span className="font-heading text-lg text-foreground">NorthStark</span>
         </Link>
 

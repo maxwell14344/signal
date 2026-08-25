@@ -11,16 +11,32 @@ export const metadata: Metadata = {
 export default async function ToolsIndexPage({
   searchParams,
 }: {
-  searchParams: Promise<{ page?: string }>;
+  searchParams: Promise<{ page?: string; q?: string }>;
 }) {
-  const { page: pageParam } = await searchParams;
+  const { page: pageParam, q } = await searchParams;
   const [allTools, settings] = await Promise.all([getAllTools(), getSiteSettings()]);
 
+  const query = (q ?? "").trim();
+  const filteredTools = query
+    ? allTools.filter((t) => {
+        const haystack = [t.name, t.tagline, t.primaryCategory?.name].filter(Boolean).join(" ").toLowerCase();
+        return haystack.includes(query.toLowerCase());
+      })
+    : allTools;
+
   const perPage = settings.toolsPerPage || 12;
-  const totalPages = Math.max(1, Math.ceil(allTools.length / perPage));
+  const totalPages = Math.max(1, Math.ceil(filteredTools.length / perPage));
   const currentPage = Math.min(Math.max(1, Number(pageParam) || 1), totalPages);
   const start = (currentPage - 1) * perPage;
-  const pageTools = allTools.slice(start, start + perPage);
+  const pageTools = filteredTools.slice(start, start + perPage);
+
+  const pageHref = (p: number) => {
+    const params = new URLSearchParams();
+    if (query) params.set("q", query);
+    if (p > 1) params.set("page", String(p));
+    const qs = params.toString();
+    return qs ? `/tools?${qs}` : "/tools";
+  };
 
   return (
     <main className="flex-1">
@@ -33,20 +49,34 @@ export default async function ToolsIndexPage({
 
         <p className="eyebrow text-accent">All reviews</p>
         <h1 className="mt-1 text-2xl tracking-tight sm:text-3xl">Every tool, reviewed</h1>
-        <p className="mt-2 text-sm text-muted">{allTools.length} tools</p>
+        {query ? (
+          <p className="mt-2 text-sm text-muted">
+            {filteredTools.length} results for &ldquo;{query}&rdquo; ·{" "}
+            <Link href="/tools" className="text-accent hover:underline">Clear search</Link>
+          </p>
+        ) : (
+          <p className="mt-2 text-sm text-muted">{allTools.length} tools</p>
+        )}
 
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {pageTools.map((tool) => (
-            <ToolCard key={tool.slug} tool={tool} categoryName={tool.primaryCategory?.name} />
-          ))}
-        </div>
+        {filteredTools.length === 0 ? (
+          <p className="mt-10 text-sm text-muted">
+            No tools matched that search. Try a broader term, or{" "}
+            <Link href="/tools" className="text-accent hover:underline">browse everything</Link>.
+          </p>
+        ) : (
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {pageTools.map((tool) => (
+              <ToolCard key={tool.slug} tool={tool} categoryName={tool.primaryCategory?.name} />
+            ))}
+          </div>
+        )}
 
         {totalPages > 1 && (
           <div className="mt-10 flex items-center justify-center gap-2">
             {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
               <Link
                 key={p}
-                href={p === 1 ? "/tools" : `/tools?page=${p}`}
+                href={pageHref(p)}
                 className={`flex h-9 w-9 items-center justify-center rounded-full border text-sm transition ${
                   p === currentPage
                     ? "border-accent bg-accent text-accent-foreground"

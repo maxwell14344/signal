@@ -9,7 +9,7 @@ export async function LatestReviewsGrid() {
   if (tools.length === 0) return null;
 
   return (
-    <section className="mx-auto max-w-6xl px-6 py-20">
+    <section className="mx-auto max-w-6xl px-6 py-14">
       <div className="mb-8 flex items-end justify-between">
         <div>
           <p className="eyebrow text-accent">Fresh</p>

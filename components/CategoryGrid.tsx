@@ -40,9 +40,9 @@ export async function CategoryGrid({
 
   if (featured) {
     return (
-      <section id="categories" className="mx-auto max-w-6xl px-6 py-20">
+      <section id="categories" className="mx-auto max-w-6xl px-6 py-14">
         {showHeading && (
-          <div className="mb-10">
+          <div className="mb-8">
             <h2 className="text-2xl sm:text-3xl">What kind of support stack are you building?</h2>
             <p className="mt-2 text-body">Start with the job to be done, not a giant wall of software logos.</p>
           </div>
@@ -53,7 +53,7 @@ export async function CategoryGrid({
             <Link
               key={cat.slug}
               href={`/categories/${cat.slug}`}
-              className="group flex flex-col gap-3 rounded-lg border border-border bg-surface p-6 card-shadow transition hover:border-accent/40"
+              className="card-hover group flex flex-col gap-3 rounded-lg border border-border bg-surface p-6 card-shadow"
             >
               <p className="eyebrow text-muted">
                 {String(i + 1).padStart(2, "0")} · {SHORT_LABEL[cat.slug] ?? cat.name.split(" ")[0].toUpperCase()}
@@ -74,7 +74,7 @@ export async function CategoryGrid({
   const counts = await Promise.all(categories.map((c) => getCategoryToolCount(c.slug)));
 
   return (
-    <section id="categories" className="mx-auto max-w-6xl px-6 py-20">
+    <section id="categories" className="mx-auto max-w-6xl px-6 py-14">
       {showHeading && (
         <div className="mb-8 flex items-end justify-between">
           <div>
@@ -89,7 +89,7 @@ export async function CategoryGrid({
           <Link
             key={cat.slug}
             href={`/categories/${cat.slug}`}
-            className="group flex flex-col gap-4 rounded-lg border border-border bg-surface p-6 card-shadow transition hover:border-accent/40"
+            className="card-hover group flex flex-col gap-4 rounded-lg border border-border bg-surface p-6 card-shadow"
           >
             <div className="flex items-center justify-between">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/12 text-accent">

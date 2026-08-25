@@ -17,12 +17,14 @@ export interface SiteSettings {
   toolsPerPage: number;
   homepageCategorySlugs: string[];
   contactEmail: string;
+  heroShortlistToolSlugs: string[];
 }
 
 const DEFAULT_SETTINGS: SiteSettings = {
   toolsPerPage: 12,
   homepageCategorySlugs: [],
   contactEmail: "",
+  heroShortlistToolSlugs: [],
 };
 
 export async function getSiteSettings(): Promise<SiteSettings> {
@@ -92,6 +94,35 @@ export async function getToolBySlug(slug: string) {
 export async function getTrendingTools() {
   const all = await getAllTools();
   return all.filter((t) => t.trending);
+}
+
+const HERO_SHORTLIST_COUNT = 4;
+
+export async function getHeroShortlistTools() {
+  const [settings, all] = await Promise.all([getSiteSettings(), getAllTools()]);
+
+  if (settings.heroShortlistToolSlugs.length > 0) {
+    const bySlug = new Map(all.map((t) => [t.slug, t]));
+    const picked = settings.heroShortlistToolSlugs
+      .map((slug) => bySlug.get(slug))
+      .filter((t): t is (typeof all)[number] => !!t);
+    if (picked.length > 0) return picked.slice(0, HERO_SHORTLIST_COUNT);
+  }
+
+  // Fallback: the best-rated tool in each category, ranked by rating.
+  const bestByCategory = new Map<string, (typeof all)[number]>();
+  for (const tool of all) {
+    const catSlug = tool.primaryCategory?.slug;
+    if (!catSlug || tool.rating == null) continue;
+    const current = bestByCategory.get(catSlug);
+    if (!current || Number(tool.rating) > Number(current.rating)) {
+      bestByCategory.set(catSlug, tool);
+    }
+  }
+
+  return Array.from(bestByCategory.values())
+    .sort((a, b) => Number(b.rating) - Number(a.rating))
+    .slice(0, HERO_SHORTLIST_COUNT);
 }
 
 export async function getToolsByCategory(categorySlug: string) {

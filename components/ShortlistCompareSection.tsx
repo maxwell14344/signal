@@ -26,8 +26,8 @@ export async function ShortlistCompareSection() {
   if (list.length === 0) return null;
 
   return (
-    <section id="trending" className="mx-auto max-w-6xl px-6 py-20">
-      <div className="mb-10">
+    <section id="trending" className="mx-auto max-w-6xl px-6 py-14">
+      <div className="mb-8">
         <h2 className="text-2xl sm:text-3xl">Shortlist, compare, decide.</h2>
         <p className="mt-2 text-body">
           A decision layer between &ldquo;I need support software&rdquo; and &ldquo;we just signed a 12-month contract.&rdquo;
@@ -40,7 +40,7 @@ export async function ShortlistCompareSection() {
             <Link
               key={tool.slug}
               href={`/tools/${tool.slug}`}
-              className={`group flex items-center gap-4 px-5 py-4 transition hover:bg-surface-2 ${i > 0 ? "border-t border-border" : ""}`}
+              className={`group flex items-center gap-4 px-5 py-4 transition-colors hover:bg-surface-2 ${i > 0 ? "border-t border-border" : ""}`}
             >
               <ToolLogo name={tool.name} logo={tool.logoUrl} website={tool.website} size={40} />
               <div className="flex flex-1 items-center gap-2.5">

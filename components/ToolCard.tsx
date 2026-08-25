@@ -24,7 +24,7 @@ export function ToolCard({
   return (
     <Link
       href={`/tools/${tool.slug}`}
-      className="group flex flex-col gap-4 rounded-lg border border-border bg-surface p-5 card-shadow transition hover:border-accent/40"
+      className="card-hover group flex flex-col gap-4 rounded-lg border border-border bg-surface p-5 card-shadow"
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-center gap-3">

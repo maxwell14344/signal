@@ -8,12 +8,15 @@ import type { SiteSettings } from "@/lib/db/queries";
 export function SiteSettingsForm({
   settings,
   categories,
+  tools,
 }: {
   settings: SiteSettings;
   categories: { slug: string; name: string }[];
+  tools: { slug: string; name: string }[];
 }) {
   const [state, formAction, pending] = useActionState(updateSiteSettingsAction, undefined);
   const categoryOptions = categories.map((c) => ({ id: c.slug, name: c.name }));
+  const toolOptions = tools.map((t) => ({ id: t.slug, name: t.name }));
 
   return (
     <form action={formAction} className="max-w-lg space-y-4">
@@ -42,6 +45,18 @@ export function SiteSettingsForm({
       <p className="text-xs text-muted">
         Pick 4-6. If none are selected, the homepage falls back to the first
         6 categories by sort order.
+      </p>
+
+      <CategoryPicker
+        label="Hero shortlist tools"
+        fieldName="heroShortlistToolSlugs"
+        categories={toolOptions}
+        initialSelectedIds={settings.heroShortlistToolSlugs}
+        multiple
+      />
+      <p className="text-xs text-muted">
+        Pick 3-5 to feature in the homepage hero. If none are selected, it
+        falls back to the highest-rated tool in each category.
       </p>
 
       <div>

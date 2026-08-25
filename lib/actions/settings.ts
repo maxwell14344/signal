@@ -12,6 +12,7 @@ export async function updateSiteSettingsAction(
     const toolsPerPage = Number(formData.get("toolsPerPage") ?? 12);
     const homepageCategorySlugs = formData.getAll("homepageCategorySlugs").map(String);
     const contactEmail = String(formData.get("contactEmail") ?? "").trim();
+    const heroShortlistToolSlugs = formData.getAll("heroShortlistToolSlugs").map(String);
 
     if (!Number.isFinite(toolsPerPage) || toolsPerPage < 1 || toolsPerPage > 100) {
       return { error: "Tools per page must be a number between 1 and 100." };
@@ -20,7 +21,12 @@ export async function updateSiteSettingsAction(
       return { error: "Please enter a valid contact email address." };
     }
 
-    const value = JSON.stringify({ toolsPerPage, homepageCategorySlugs, contactEmail });
+    const value = JSON.stringify({
+      toolsPerPage,
+      homepageCategorySlugs,
+      contactEmail,
+      heroShortlistToolSlugs,
+    });
 
     await db
       .insert(settings)

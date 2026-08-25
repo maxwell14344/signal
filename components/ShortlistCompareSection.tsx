@@ -1,29 +1,10 @@
 import Link from "next/link";
-import { getTrendingTools, getAllTools } from "@/lib/db/queries";
+import { getFeaturedComparisons } from "@/lib/db/queries";
 import { ToolLogo } from "./ToolLogo";
 
-const TAG_LABEL: Record<string, string> = {
-  "ai-chatbots": "AI chatbot",
-  "ai-support-agents": "AI agent",
-  "live-chat-shared-inbox": "Inbox + AI",
-  "helpdesk-ticketing-automation": "Helpdesk",
-  "whatsapp-social-messaging-ai": "Messaging AI",
-  "knowledge-base-ai-self-service": "Self-service AI",
-  "conversational-commerce": "Commerce AI",
-  "ai-voice-agents": "Voice AI",
-  "ai-email-support": "Email AI",
-  "cx-analytics-qa": "Analytics",
-  "agent-assist-copilot": "Copilot",
-  "contact-center-ai": "CCaaS",
-};
-
-const LIST_COUNT = 4;
-
 export async function ShortlistCompareSection() {
-  const trending = await getTrendingTools();
-  const list = trending.length >= LIST_COUNT ? trending.slice(0, LIST_COUNT) : (await getAllTools()).slice(0, LIST_COUNT);
-
-  if (list.length === 0) return null;
+  const comparisons = await getFeaturedComparisons();
+  if (comparisons.length === 0) return null;
 
   return (
     <section id="trending" className="mx-auto max-w-6xl px-6 py-14">
@@ -35,25 +16,21 @@ export async function ShortlistCompareSection() {
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[1fr_360px]">
-        <div className="rounded-lg border border-border bg-surface card-shadow">
-          {list.map((tool, i) => (
+        <div className="grid gap-4 sm:grid-cols-2">
+          {comparisons.map((c) => (
             <Link
-              key={tool.slug}
-              href={`/tools/${tool.slug}`}
-              className={`group flex items-center gap-4 px-5 py-4 transition-colors hover:bg-surface-2 ${i > 0 ? "border-t border-border" : ""}`}
+              key={c.slug}
+              href={`/compare/${c.slug}`}
+              className="card-hover flex flex-col items-center gap-3 rounded-lg border border-border bg-surface p-6 text-center card-shadow"
             >
-              <ToolLogo name={tool.name} logo={tool.logoUrl} website={tool.website} size={40} />
-              <div className="flex flex-1 items-center gap-2.5">
-                <p className="font-medium text-foreground">{tool.name}</p>
-                {tool.primaryCategory && (
-                  <span className="rounded-full bg-surface-2 px-2.5 py-0.5 text-xs text-muted">
-                    {TAG_LABEL[tool.primaryCategory.slug] ?? tool.primaryCategory.name}
-                  </span>
-                )}
+              <div className="flex items-center gap-3">
+                <ToolLogo name={c.toolA?.name ?? "?"} logo={c.toolA?.logoUrl} website={c.toolA?.website} size={44} />
+                <span className="text-xs font-medium text-muted">vs</span>
+                <ToolLogo name={c.toolB?.name ?? "?"} logo={c.toolB?.logoUrl} website={c.toolB?.website} size={44} />
               </div>
-              {tool.rating != null && (
-                <span className="font-heading text-lg text-foreground">{Number(tool.rating).toFixed(1)}</span>
-              )}
+              <p className="text-sm font-medium text-foreground">
+                {c.toolA?.name} vs {c.toolB?.name}
+              </p>
             </Link>
           ))}
         </div>

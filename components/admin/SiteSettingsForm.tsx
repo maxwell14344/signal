@@ -9,14 +9,17 @@ export function SiteSettingsForm({
   settings,
   categories,
   tools,
+  comparisons,
 }: {
   settings: SiteSettings;
   categories: { slug: string; name: string }[];
   tools: { slug: string; name: string }[];
+  comparisons: { slug: string; label: string }[];
 }) {
   const [state, formAction, pending] = useActionState(updateSiteSettingsAction, undefined);
   const categoryOptions = categories.map((c) => ({ id: c.slug, name: c.name }));
   const toolOptions = tools.map((t) => ({ id: t.slug, name: t.name }));
+  const comparisonOptions = comparisons.map((c) => ({ id: c.slug, name: c.label }));
 
   return (
     <form action={formAction} className="max-w-lg space-y-4">
@@ -57,6 +60,18 @@ export function SiteSettingsForm({
       <p className="text-xs text-muted">
         Pick 3-5 to feature in the homepage hero. If none are selected, it
         falls back to the highest-rated tool in each category.
+      </p>
+
+      <CategoryPicker
+        label="Featured comparisons on homepage"
+        fieldName="featuredComparisonSlugs"
+        categories={comparisonOptions}
+        initialSelectedIds={settings.featuredComparisonSlugs}
+        multiple
+      />
+      <p className="text-xs text-muted">
+        Pick 2-3. If none are selected, the homepage falls back to the first
+        3 comparisons.
       </p>
 
       <div>

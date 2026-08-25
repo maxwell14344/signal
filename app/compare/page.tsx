@@ -1,10 +1,8 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { Metadata } from "next";
-import { getAllComparisons } from "@/lib/db/queries";
-import { db } from "@/lib/db/client";
-import { tools } from "@/lib/db/schema";
-import { eq } from "drizzle-orm";
+import { getAllComparisonsWithNames, getAllTools } from "@/lib/db/queries";
+import { ToolPickerForm } from "@/components/ToolPickerForm";
 
 export const metadata: Metadata = {
   title: "All Comparisons",
@@ -12,16 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default async function CompareIndexPage() {
-  const comparisons = await getAllComparisons();
-  const withNames = await Promise.all(
-    comparisons.map(async (c) => {
-      const [[a], [b]] = await Promise.all([
-        db.select().from(tools).where(eq(tools.id, c.toolAId)).limit(1),
-        db.select().from(tools).where(eq(tools.id, c.toolBId)).limit(1),
-      ]);
-      return { ...c, label: `${a?.name} vs ${b?.name}` };
-    })
-  );
+  const [withNames, allTools] = await Promise.all([getAllComparisonsWithNames(), getAllTools()]);
 
   return (
     <main className="flex-1">
@@ -33,14 +22,23 @@ export default async function CompareIndexPage() {
         </div>
 
         <p className="eyebrow text-accent">Buying guides</p>
-        <h1 className="mt-1 text-2xl tracking-tight sm:text-3xl">All comparisons</h1>
+        <h1 className="mt-1 text-2xl tracking-tight sm:text-3xl">Compare tools</h1>
+        <p className="mt-2 text-sm text-muted">
+          Pick any two or three tools for a straight, criteria-by-criteria
+          comparison — or read one of our in-depth, written comparisons below.
+        </p>
 
-        <div className="mt-8 space-y-3">
+        <div className="mt-6">
+          <ToolPickerForm tools={allTools.map((t) => ({ slug: t.slug, name: t.name }))} initial={{}} />
+        </div>
+
+        <h2 className="mt-12 mb-4 text-sm font-medium text-foreground">In-depth comparisons</h2>
+        <div className="space-y-3">
           {withNames.map((c) => (
             <Link
-              key={c.id}
+              key={c.slug}
               href={`/compare/${c.slug}`}
-              className="group flex items-center justify-between rounded-lg border border-border bg-surface px-5 py-4 text-sm text-body card-shadow transition hover:border-accent/40"
+              className="card-hover group flex items-center justify-between rounded-lg border border-border bg-surface px-5 py-4 text-sm text-body card-shadow"
             >
               {c.label}
               <ArrowRight className="h-4 w-4 text-muted transition group-hover:translate-x-0.5 group-hover:text-accent" />

@@ -1,13 +1,10 @@
 import Link from "next/link";
 import {
   getAllCategories,
-  getAllComparisons,
+  getAllComparisonsWithNames,
   getAllAlternativePages,
   getAllUseCasePages,
 } from "@/lib/db/queries";
-import { db } from "@/lib/db/client";
-import { tools } from "@/lib/db/schema";
-import { eq } from "drizzle-orm";
 
 const FOOTER_CATEGORY_COUNT = 5;
 const FOOTER_LINK_COUNT = 2;
@@ -15,22 +12,13 @@ const FOOTER_LINK_COUNT = 2;
 export async function Footer() {
   const [allCategories, comparisons, alternatives, useCases] = await Promise.all([
     getAllCategories(),
-    getAllComparisons(),
+    getAllComparisonsWithNames(),
     getAllAlternativePages(),
     getAllUseCasePages(),
   ]);
 
   const categories = allCategories.slice(0, FOOTER_CATEGORY_COUNT);
-
-  const comparisonLinks = await Promise.all(
-    comparisons.slice(0, FOOTER_LINK_COUNT).map(async (c) => {
-      const [[a], [b]] = await Promise.all([
-        db.select().from(tools).where(eq(tools.id, c.toolAId)).limit(1),
-        db.select().from(tools).where(eq(tools.id, c.toolBId)).limit(1),
-      ]);
-      return { slug: c.slug, label: `${a?.name} vs ${b?.name}` };
-    })
-  );
+  const comparisonLinks = comparisons.slice(0, FOOTER_LINK_COUNT);
 
   return (
     <footer className="mt-24 border-t border-border bg-surface-2/40">

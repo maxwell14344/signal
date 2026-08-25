@@ -18,6 +18,7 @@ export interface SiteSettings {
   homepageCategorySlugs: string[];
   contactEmail: string;
   heroShortlistToolSlugs: string[];
+  featuredComparisonSlugs: string[];
 }
 
 const DEFAULT_SETTINGS: SiteSettings = {
@@ -25,6 +26,7 @@ const DEFAULT_SETTINGS: SiteSettings = {
   homepageCategorySlugs: [],
   contactEmail: "",
   heroShortlistToolSlugs: [],
+  featuredComparisonSlugs: [],
 };
 
 export async function getSiteSettings(): Promise<SiteSettings> {
@@ -178,6 +180,33 @@ export async function getAllAuthors() {
 // Comparisons
 export async function getAllComparisons() {
   return db.select().from(comparisons).where(eq(comparisons.status, "published"));
+}
+
+export async function getAllComparisonsWithNames() {
+  const all = await getAllComparisons();
+  return Promise.all(
+    all.map(async (c) => {
+      const [[a], [b]] = await Promise.all([
+        db.select().from(tools).where(eq(tools.id, c.toolAId)).limit(1),
+        db.select().from(tools).where(eq(tools.id, c.toolBId)).limit(1),
+      ]);
+      return { slug: c.slug, label: `${a?.name} vs ${b?.name}`, toolA: a, toolB: b };
+    })
+  );
+}
+
+const FEATURED_COMPARISON_COUNT = 3;
+
+export async function getFeaturedComparisons() {
+  const [settings, withNames] = await Promise.all([getSiteSettings(), getAllComparisonsWithNames()]);
+
+  if (settings.featuredComparisonSlugs.length > 0) {
+    const slugSet = new Set(settings.featuredComparisonSlugs);
+    const selected = withNames.filter((c) => slugSet.has(c.slug));
+    if (selected.length > 0) return selected;
+  }
+
+  return withNames.slice(0, FEATURED_COMPARISON_COUNT);
 }
 
 export async function getComparisonById(id: number) {

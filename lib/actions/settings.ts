@@ -13,6 +13,7 @@ export async function updateSiteSettingsAction(
     const homepageCategorySlugs = formData.getAll("homepageCategorySlugs").map(String);
     const contactEmail = String(formData.get("contactEmail") ?? "").trim();
     const heroShortlistToolSlugs = formData.getAll("heroShortlistToolSlugs").map(String);
+    const featuredComparisonSlugs = formData.getAll("featuredComparisonSlugs").map(String);
 
     if (!Number.isFinite(toolsPerPage) || toolsPerPage < 1 || toolsPerPage > 100) {
       return { error: "Tools per page must be a number between 1 and 100." };
@@ -26,6 +27,7 @@ export async function updateSiteSettingsAction(
       homepageCategorySlugs,
       contactEmail,
       heroShortlistToolSlugs,
+      featuredComparisonSlugs,
     });
 
     await db

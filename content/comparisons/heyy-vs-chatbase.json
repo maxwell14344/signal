@@ -1,0 +1,29 @@
+{
+  "slug": "heyy-vs-chatbase",
+  "toolASlug": "heyy",
+  "toolBSlug": "chatbase",
+  "tldr": [
+    "Both are single-agent AI tools at a similar starting price ($49/mo for Heyy's Hobby plan vs $40/mo for Chatbase's Hobby plan, or $32/mo billed annually), but they're built for different jobs: Heyy is messaging-channel-first (WhatsApp, Instagram, Messenger, SMS), Chatbase is website-widget-first with a broader integrations and analytics surface.",
+    "Neither vendor's AI-resolution accuracy holds up well under independent scrutiny — Heyy has no independent data to check at all yet, and Chatbase's own reviewers report confidently wrong answers often enough that we scored both conservatively (1/5 and 2/5).",
+    "Chatbase scores ahead on native channel count, documented Shopify/Stripe order-and-billing actions, HubSpot/Salesforce ticketing integrations, and analytics depth (sentiment and topic detection built into the dashboard).",
+    "Heyy scores ahead on unified inbox polish and AI-to-human handoff (a deliberate exit-point system with full conversation history preserved), plus its attribute-permission model (Read/Share/Update) is a more careful design for CRM writes than anything Chatbase documents.",
+    "Both require you to build your own integration for anything beyond their headline platforms: Heyy explicitly pushes Shopify/WooCommerce data lookups to a hand-built Custom API action, and Chatbase's WooCommerce support is marketing copy without a dedicated integration doc to back it up.",
+    "Pick Chatbase if your support volume is mostly a website widget and you want broader out-of-the-box integrations and analytics; pick Heyy if WhatsApp/Instagram/Messenger are your primary channels and you want tighter, more deliberate control over what the AI can read or write in a contact record."
+  ],
+  "featureMatrix": [
+    { "feature": "Starting price", "toolA": "$49/month (1 user, 1 AI Employee)", "toolB": "$40/month, or $32/month billed annually (700 credits)" },
+    { "feature": "AI availability", "toolA": "4/5", "toolB": "5/5" },
+    { "feature": "AI resolution accuracy (independently checked)", "toolA": "1/5 (no independent data exists yet)", "toolB": "2/5 (reviewers report confidently wrong answers)" },
+    { "feature": "Number of native channels", "toolA": "3/5", "toolB": "4/5" },
+    { "feature": "Unified inbox", "toolA": "5/5", "toolB": "4/5" },
+    { "feature": "AI-to-human handoff", "toolA": "5/5", "toolB": "4/5" },
+    { "feature": "Shopify integration", "toolA": "1/5 (DIY via Custom API action)", "toolB": "3/5 (dedicated Shopify Action)" },
+    { "feature": "CRM integrations", "toolA": "1/5 (DIY via Custom API action)", "toolB": "3/5 (HubSpot/Salesforce, ticketing-focused)" },
+    { "feature": "Analytics depth", "toolA": "Not yet scored — no analytics dashboard documented", "toolB": "3/5" },
+    { "feature": "API/webhook extensibility", "toolA": "4/5", "toolB": "4/5" },
+    { "feature": "Independent review volume", "toolA": "One hands-on review (Chatimize); no G2/Capterra/Trustpilot history yet", "toolB": "Established G2/Capterra review base, mixed sentiment" }
+  ],
+  "verdict": "These two sit close on price but solve different problems, and the channel list tells you most of what you need to know: Heyy is built around WhatsApp, Instagram, and Messenger with Live Chat as one option among several, while Chatbase is a website-widget-first bot that's grown outward into email, WhatsApp, and voice. If your support volume actually starts on your website, Chatbase's broader integration surface wins the comparison outright — a dedicated Shopify Action for order and delivery questions, a Stripe Action for billing, and HubSpot/Salesforce docs for ticket escalation are all real, documented features Heyy simply doesn't have without you building a Custom API action yourself. What Chatbase doesn't have is a clean track record on accuracy: independent Capterra reviewers describe the bot generating 'totally wrong answers with the greatest of eloquence and confidence,' which is exactly the failure mode Heyy's own docs seem to be designed around avoiding — the explicit warning against crawling live store data for prices, and the guidance to wire up a real-time API action instead, reads like a team that has already watched this go wrong somewhere. The trouble is Heyy can't yet prove its approach works better: there's no independent review data on its resolution accuracy at all, versus Chatbase's imperfect but real body of reviews you can actually read before buying. My honest take: if you're running WhatsApp-heavy or Instagram-heavy support and want a more deliberate, permission-scoped AI, Heyy's design is worth a Playground test now that its pricing is finally public. If your support starts on a website and you want broader integrations with a real (if imperfect) review trail behind them, Chatbase is the safer, better-documented choice today.",
+  "authorSlug": "maxwell-timothy",
+  "lastVerifiedAt": "2026-08-25"
+}

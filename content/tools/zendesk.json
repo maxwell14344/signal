@@ -8,7 +8,7 @@
     "Zendesk is a long-established omnichannel helpdesk and ticketing platform (email, chat, social, phone, messaging) now built around AI Agents, Intelligent Triage, and Copilot for human agents.",
     "Pricing is seat-based per agent per month: Support Team ($19/agent/mo, ticketing-only), Suite Team ($55/agent/mo, adds AI Agents and omnichannel), Suite Professional ($115/agent/mo, adds Admin Copilot and skills-based routing), and custom Suite Enterprise+Copilot, with AI resolutions billed separately beyond plan allowances.",
     "Founded in 2007 in San Francisco, went public in 2014, and was taken private in a ~$10.2B buyout led by Hellman & Friedman and Permira in November 2022; the company now employs over 7,300 people.",
-    "Review scores are consistently strong across G2, Capterra, and TrustRadius, with praise for omnichannel consolidation and ticket organization, but per-resolution AI billing and a steep learning curve are the most repeated complaints.",
+    "Review scores are consistently strong across every major review platform, with praise for omnichannel consolidation and ticket organization, but per-resolution AI billing and a steep learning curve are the most repeated complaints.",
     "Positioned as the enterprise-grade choice against more startup-oriented competitors like Intercom, Crisp, or Tidio — deeper compliance and routing controls, at a correspondingly higher and more complex price."
   ],
   "categories": { "primary": "helpdesk-ticketing-automation", "secondary": ["agent-assist-copilot"] },
@@ -27,7 +27,7 @@
   "faq": [
     {
       "question": "How does Zendesk's AI resolution billing work?",
-      "answer": "AI Agents are included starting at the Suite Team plan, but resolutions beyond the plan's included allowance are billed separately on a per-resolution basis. Reddit and G2 reviewers frequently flag this as the hardest part of the platform to budget for, since costs scale with both agent seats and AI usage."
+      "answer": "AI Agents are included starting at the Suite Team plan, but resolutions beyond the plan's included allowance are billed separately on a per-resolution basis. Reddit and other independent reviewers frequently flag this as the hardest part of the platform to budget for, since costs scale with both agent seats and AI usage."
     },
     {
       "question": "What's the difference between Support Team and Suite Team?",
@@ -35,7 +35,7 @@
     },
     {
       "question": "Is Zendesk hard to set up?",
-      "answer": "Independent G2 data shows Ease of Setup as the platform's lowest-scoring core metric, and 'learning curve' appears as a documented con in a large number of reviews — this is a platform built for depth and configurability, not a five-minute widget install."
+      "answer": "Independent review data shows Ease of Setup as the platform's lowest-scoring core metric, and 'learning curve' appears as a documented con in a large number of reviews — this is a platform built for depth and configurability, not a five-minute widget install."
     },
     {
       "question": "How does Zendesk compare to Intercom?",
@@ -74,11 +74,11 @@
     { "key": "api-webhook-extensibility", "score": 5, "note": "Full public REST API, a dedicated Webhooks API with API-key/basic/bearer auth options, and the open Sunshine platform (APIs/SDKs for custom apps and data connections) mean teams are not locked into Zendesk's own workflow builder (developer.zendesk.com/api-reference/webhooks/introduction/)." }
   ],
   "scorecard": [
-    { "dimension": "Ease of Setup", "score": 3, "note": "G2 data specifically flags Ease of Setup as the platform's weakest core metric, with a documented learning curve in a large share of reviews." },
+    { "dimension": "Ease of Setup", "score": 3, "note": "Independent review data specifically flags Ease of Setup as the platform's weakest core metric, with a documented learning curve in a large share of reviews." },
     { "dimension": "AI Quality", "score": 4, "note": "Independently tracked data shows solid AI response accuracy, though some reviewers call the base AI tier underpowered relative to price." },
     { "dimension": "Omnichannel Support", "score": 5, "note": "Consistently the most-praised aspect across reviews — email, chat, social, phone, and messaging genuinely consolidate into one interface." },
     { "dimension": "Pricing Value", "score": 3, "note": "Per-agent seat cost stacks with per-resolution AI billing and paid add-ons (Copilot, Workforce Engagement, Contact Center), making total cost of ownership high and hard to predict at scale." },
-    { "dimension": "Vendor Support Quality", "score": 4, "note": "Strong aggregate scores across thousands of reviews on G2, Capterra, and TrustRadius reflect a mature, well-supported enterprise product." }
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "Strong aggregate scores across thousands of reviews on every major review platform reflect a mature, well-supported enterprise product." }
   ],
   "pricing": {
     "model": "Per-seat tiered SaaS plus per-resolution AI billing beyond plan allowances",
@@ -135,7 +135,7 @@
     "Organizations that can forecast AI resolution volume closely enough to budget per-resolution costs confidently",
     "Companies wanting mature agent-assist tooling (Copilot, Writing Tools) alongside customer-facing AI"
   ],
-  "verdict": "Zendesk is the platform enterprises pick once they've outgrown the lighter competitors on this list, and the omnichannel consolidation is genuinely the best-reviewed part of the product — a large, consistent volume of reviews across platforms is not a small sample you can wave away as survivorship bias. But be clear-eyed about what you're signing up for: this is not a five-minute setup like Chatbase or Tidio, and G2 specifically calls out Ease of Setup as Zendesk's weakest metric for a reason — it's a platform built for depth and configurability, not a plug-and-play widget, and the learning curve shows up as a documented complaint across a large share of reviews, not just a handful of grumbling outliers. The same per-resolution AI billing complaint that dogs Intercom shows up here too, compounded by the fact that AI Agents don't even exist until you're past the $19/agent Support Team tier and into Suite Team at $55/agent/mo — a 10-agent team that actually wants AI is looking at $550/mo in seats alone before a single resolution fee lands, real money next to Crisp's flat $295/mo Plus plan for a comparable-or-larger team. Where this genuinely earns its price: a 50-agent support team drowning in tickets across five channels that needs skills-based routing and Admin Copilot at real scale. Where it's overkill: a 3-person startup that just needs a chat widget and would rather not pay enterprise software prices to get one.",
+  "verdict": "Zendesk is the platform enterprises pick once they've outgrown the lighter competitors on this list, and the omnichannel consolidation is genuinely the best-reviewed part of the product — a large, consistent volume of reviews across platforms is not a small sample you can wave away as survivorship bias. But be clear-eyed about what you're signing up for: this is not a five-minute setup like Chatbase or Tidio, and independent review data specifically calls out Ease of Setup as Zendesk's weakest metric for a reason — it's a platform built for depth and configurability, not a plug-and-play widget, and the learning curve shows up as a documented complaint across a large share of reviews, not just a handful of grumbling outliers. The same per-resolution AI billing complaint that dogs Intercom shows up here too, compounded by the fact that AI Agents don't even exist until you're past the $19/agent Support Team tier and into Suite Team at $55/agent/mo — a 10-agent team that actually wants AI is looking at $550/mo in seats alone before a single resolution fee lands, real money next to Crisp's flat $295/mo Plus plan for a comparable-or-larger team. Where this genuinely earns its price: a 50-agent support team drowning in tickets across five channels that needs skills-based routing and Admin Copilot at real scale. Where it's overkill: a 3-person startup that just needs a chat widget and would rather not pay enterprise software prices to get one.",
   "rating": 4.2,
   "trending": true,
   "authorSlug": "maxwell-timothy",

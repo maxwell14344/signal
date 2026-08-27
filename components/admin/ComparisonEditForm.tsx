@@ -7,6 +7,7 @@ interface ComparisonForForm {
   id: number;
   slug: string;
   tldr: string[] | null;
+  quickVerdict: string | null;
   featureMatrix: unknown;
   verdict: string | null;
 }
@@ -25,6 +26,18 @@ export function ComparisonEditForm({ comparison }: { comparison: ComparisonForFo
           rows={6}
           defaultValue={JSON.stringify(comparison.tldr ?? [], null, 2)}
           className="w-full rounded-lg border border-border bg-background px-3 py-2 font-mono text-xs text-foreground focus:border-accent/50 focus:outline-none"
+        />
+      </div>
+      <div>
+        <label htmlFor="quickVerdict" className="mb-1.5 block text-sm text-muted">
+          Quick verdict <span className="text-xs">(short, AI-quotable answer shown at the top of the page — "which one should I use," in 4-5 sentences)</span>
+        </label>
+        <textarea
+          id="quickVerdict"
+          name="quickVerdict"
+          rows={4}
+          defaultValue={comparison.quickVerdict ?? ""}
+          className="w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:border-accent/50 focus:outline-none"
         />
       </div>
       <div>

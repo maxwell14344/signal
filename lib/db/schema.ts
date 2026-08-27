@@ -151,6 +151,7 @@ export const comparisons = pgTable(
       .notNull()
       .references(() => tools.id),
     tldr: jsonb("tldr").$type<string[]>().default([]),
+    quickVerdict: text("quick_verdict"),
     featureMatrix: jsonb("feature_matrix").$type<FeatureMatrixRow[]>().default([]),
     verdict: text("verdict"),
     status: statusEnum("status").notNull().default("published"),

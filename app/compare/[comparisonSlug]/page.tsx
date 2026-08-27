@@ -12,6 +12,7 @@ import { TldrBlock } from "@/components/TldrBlock";
 import { FeatureMatrixTable } from "@/components/FeatureMatrixTable";
 import { VerdictBlock } from "@/components/VerdictBlock";
 import { AuthorByline } from "@/components/AuthorByline";
+import { QuickVerdict } from "@/components/QuickVerdict";
 
 export async function generateStaticParams() {
   const comparisons = await getAllComparisons();
@@ -30,7 +31,8 @@ export async function generateMetadata({
   if (!comparison) return {};
   const title = `${comparison.toolA.name} vs ${comparison.toolB.name}: Which One Should You Choose?`;
   const description = truncateDescription(
-    comparison.tldr?.join(" ") ??
+    comparison.quickVerdict ||
+      comparison.tldr?.join(" ") ||
       `An in-depth, practitioner comparison of ${comparison.toolA.name} and ${comparison.toolB.name} — pricing, features, and which one actually fits your team.`
   );
   return {
@@ -92,6 +94,8 @@ export default async function ComparisonPage({
         <div className="mt-2">
           <AuthorByline author={comparison.author} lastVerifiedAt={comparison.lastVerifiedAt} />
         </div>
+
+        <QuickVerdict text={comparison.quickVerdict} />
 
         <div className="mt-10 space-y-12">
           <TldrBlock tldr={comparison.tldr ?? []} />

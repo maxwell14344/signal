@@ -70,6 +70,7 @@ export async function updateComparisonAction(
   try {
     const values = {
       tldr: parseJsonField(formData, "tldr", []),
+      quickVerdict: String(formData.get("quickVerdict") ?? "") || null,
       featureMatrix: parseJsonField(formData, "featureMatrix", []),
       verdict: String(formData.get("verdict") ?? "") || null,
       updatedAt: new Date(),

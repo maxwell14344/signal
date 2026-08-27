@@ -186,6 +186,7 @@ async function importComparisons() {
       toolAId: toolA.id,
       toolBId: toolB.id,
       tldr: raw.tldr ?? [],
+      quickVerdict: raw.quickVerdict ?? null,
       featureMatrix: raw.featureMatrix ?? [],
       verdict: raw.verdict ?? null,
       authorId: authorBySlug.get(raw.authorSlug) ?? null,

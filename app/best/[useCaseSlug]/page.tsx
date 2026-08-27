@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import type { Metadata } from "next";
 import { getAllUseCasePages, getUseCasePageBySlug } from "@/lib/db/queries";
+import { truncateDescription } from "@/lib/seo";
 import { ToolLogo } from "@/components/ToolLogo";
 import { RatingStars } from "@/components/RatingStars";
 import { PriceBadge } from "@/components/PriceBadge";
@@ -24,9 +25,15 @@ export async function generateMetadata({
   const { useCaseSlug } = await params;
   const page = await getUseCasePageBySlug(useCaseSlug);
   if (!page) return {};
+  const description = truncateDescription(
+    page.intro || `${page.title} — reviewed and scored, with real pricing and honest verdicts.`
+  );
   return {
     title: page.title,
-    description: page.intro ?? undefined,
+    description,
+    alternates: { canonical: `/best/${page.slug}` },
+    openGraph: { title: page.title, description, type: "article", url: `/best/${page.slug}` },
+    twitter: { card: "summary_large_image", title: page.title, description },
   };
 }
 

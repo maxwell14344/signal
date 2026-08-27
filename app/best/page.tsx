@@ -5,7 +5,9 @@ import { getAllUseCasePages } from "@/lib/db/queries";
 
 export const metadata: Metadata = {
   title: "All Use Cases",
-  description: "Every use-case guide on NorthStark.",
+  description: "The best AI customer support tools for your specific business type — SaaS, ecommerce, WhatsApp-first, and more, matched by use case.",
+  alternates: { canonical: "/best" },
+  openGraph: { title: "All Use Cases", type: "website", url: "/best" },
 };
 
 export default async function UseCasesIndexPage() {

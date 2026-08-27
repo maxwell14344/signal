@@ -5,6 +5,8 @@ export const metadata: Metadata = {
   title: "AI Customer Support Categories",
   description:
     "Browse AI customer support tools by category — chatbots, AI support agents, helpdesk automation, WhatsApp AI, and more.",
+  alternates: { canonical: "/categories" },
+  openGraph: { title: "AI Customer Support Categories", type: "website", url: "/categories" },
 };
 
 export default function CategoriesIndexPage() {

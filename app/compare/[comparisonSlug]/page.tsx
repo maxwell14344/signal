@@ -1,4 +1,4 @@
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import {
@@ -6,6 +6,7 @@ import {
   getComparisonBySlug,
   findComparisonByToolPair,
 } from "@/lib/db/queries";
+import { truncateDescription } from "@/lib/seo";
 import { ToolLogo } from "@/components/ToolLogo";
 import { TldrBlock } from "@/components/TldrBlock";
 import { FeatureMatrixTable } from "@/components/FeatureMatrixTable";
@@ -27,9 +28,17 @@ export async function generateMetadata({
   const { comparisonSlug } = await params;
   const comparison = await getComparisonBySlug(comparisonSlug);
   if (!comparison) return {};
+  const title = `${comparison.toolA.name} vs ${comparison.toolB.name}: Which One Should You Choose?`;
+  const description = truncateDescription(
+    comparison.tldr?.join(" ") ??
+      `An in-depth, practitioner comparison of ${comparison.toolA.name} and ${comparison.toolB.name} — pricing, features, and which one actually fits your team.`
+  );
   return {
-    title: `${comparison.toolA.name} vs ${comparison.toolB.name}`,
-    description: comparison.tldr?.join(" "),
+    title,
+    description,
+    alternates: { canonical: `/compare/${comparison.slug}` },
+    openGraph: { title, description, type: "article", url: `/compare/${comparison.slug}` },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 
@@ -47,7 +56,7 @@ export default async function ComparisonPage({
     if (parts.length === 2) {
       const reversedMatch = await findComparisonByToolPair(parts[1], parts[0]);
       if (reversedMatch) {
-        redirect(`/compare/${reversedMatch.slug}`);
+        permanentRedirect(`/compare/${reversedMatch.slug}`);
       }
     }
     notFound();
@@ -65,7 +74,7 @@ export default async function ComparisonPage({
         </div>
 
         <h1 className="text-2xl tracking-tight sm:text-3xl">
-          {toolA.name} vs {toolB.name}
+          {toolA.name} vs {toolB.name}: Which One Should You Choose?
         </h1>
 
         <div className="mt-4 flex items-center gap-6">

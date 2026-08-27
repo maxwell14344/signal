@@ -7,6 +7,8 @@ import { ToolPickerForm } from "@/components/ToolPickerForm";
 export const metadata: Metadata = {
   title: "Compare Tools",
   description: "Pick any two or three AI customer support tools and compare them side by side.",
+  alternates: { canonical: "/compare/matrix" },
+  robots: { index: false, follow: true },
 };
 
 export default async function CompareMatrixPage({

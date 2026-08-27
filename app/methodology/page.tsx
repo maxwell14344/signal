@@ -4,7 +4,8 @@ import { SCORING_GROUPS, SCORING_CRITERIA } from "@/lib/scoringCriteria";
 
 export const metadata: Metadata = {
   title: "Methodology",
-  description: "How NorthStark scores AI customer support tools and sources sentiment.",
+  description: "How NorthStark scores AI customer support tools against a 25-criteria rubric, and where every fact comes from.",
+  alternates: { canonical: "/methodology" },
 };
 
 const LEGACY_DIMENSIONS = [

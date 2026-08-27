@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import type { Metadata } from "next";
 import { getAllAlternativePages, getAlternativePageBySlug } from "@/lib/db/queries";
+import { truncateDescription } from "@/lib/seo";
 import { ToolLogo } from "@/components/ToolLogo";
 import { RatingStars } from "@/components/RatingStars";
 import { PriceBadge } from "@/components/PriceBadge";
@@ -24,9 +25,15 @@ export async function generateMetadata({
   const { toolSlug } = await params;
   const page = await getAlternativePageBySlug(toolSlug);
   if (!page) return {};
+  const description = truncateDescription(
+    page.intro || `${page.title} — reviewed and compared, with real pricing and honest scorecards.`
+  );
   return {
     title: page.title,
-    description: page.intro ?? undefined,
+    description,
+    alternates: { canonical: `/alternatives/${page.slug}` },
+    openGraph: { title: page.title, description, type: "article", url: `/alternatives/${page.slug}` },
+    twitter: { card: "summary_large_image", title: page.title, description },
   };
 }
 

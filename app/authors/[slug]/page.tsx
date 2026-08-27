@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getAuthorBySlug, getAllTools } from "@/lib/db/queries";
+import { truncateDescription } from "@/lib/seo";
 import { ToolCard } from "@/components/ToolCard";
 
 export async function generateMetadata({
@@ -12,9 +13,13 @@ export async function generateMetadata({
   const { slug } = await params;
   const author = await getAuthorBySlug(slug);
   if (!author) return {};
+  const description = truncateDescription(author.bio);
   return {
     title: author.name,
-    description: author.bio,
+    description,
+    alternates: { canonical: `/authors/${author.slug}` },
+    openGraph: { title: author.name, description, type: "profile", url: `/authors/${author.slug}` },
+    twitter: { card: "summary", title: author.name, description },
   };
 }
 

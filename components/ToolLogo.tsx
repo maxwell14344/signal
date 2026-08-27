@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function faviconUrl(website: string, size: number): string | null {
   try {
     const { hostname } = new URL(website);
@@ -12,24 +14,39 @@ export function ToolLogo({
   logo,
   website,
   size = 40,
+  priority = false,
 }: {
   name: string;
   logo?: string | null;
   website?: string | null;
   size?: number;
+  priority?: boolean;
 }) {
   const src = logo || (website ? faviconUrl(website, size) : null);
 
   if (src) {
-    // eslint-disable-next-line @next/next/no-img-element
+    const className = "rounded-lg border border-border object-contain bg-white p-1.5";
+    const style = { width: size, height: size };
+
+    // Admin-provided logo URLs can point to any arbitrary domain, which
+    // next/image can't optimize without a matching remote pattern — fall
+    // back to a plain img tag for those. Favicon URLs are always our own
+    // Google favicon proxy, so those get full next/image optimization.
+    if (logo) {
+      // eslint-disable-next-line @next/next/no-img-element
+      return <img src={src} alt={`${name} logo`} width={size} height={size} className={className} style={style} loading={priority ? "eager" : "lazy"} />;
+    }
+
     return (
-      <img
+      <Image
         src={src}
         alt={`${name} logo`}
         width={size}
         height={size}
-        className="rounded-lg border border-border object-contain bg-white p-1.5"
-        style={{ width: size, height: size }}
+        priority={priority}
+        loading={priority ? undefined : "lazy"}
+        className={className}
+        style={style}
       />
     );
   }

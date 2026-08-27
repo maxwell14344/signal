@@ -5,7 +5,9 @@ import { getAllAlternativePages } from "@/lib/db/queries";
 
 export const metadata: Metadata = {
   title: "All Alternatives",
-  description: "Every alternatives guide on NorthStark.",
+  description: "Looking for an alternative to a popular customer support tool? Every alternatives guide on NorthStark, reviewed and scored.",
+  alternates: { canonical: "/alternatives" },
+  openGraph: { title: "All Alternatives", type: "website", url: "/alternatives" },
 };
 
 export default async function AlternativesIndexPage() {

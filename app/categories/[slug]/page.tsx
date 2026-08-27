@@ -6,6 +6,7 @@ import {
   getCategoryBySlug,
   getToolsByCategory,
 } from "@/lib/db/queries";
+import { truncateDescription } from "@/lib/seo";
 import { CategoryIcon } from "@/components/CategoryIcon";
 import { ToolCard } from "@/components/ToolCard";
 
@@ -22,9 +23,14 @@ export async function generateMetadata({
   const { slug } = await params;
   const category = await getCategoryBySlug(slug);
   if (!category) return {};
+  const title = `Best ${category.name} — Reviewed & Scored`;
+  const description = truncateDescription(category.description);
   return {
-    title: `Best ${category.name} — Reviewed & Scored`,
-    description: category.description,
+    title,
+    description,
+    alternates: { canonical: `/categories/${category.slug}` },
+    openGraph: { title, description, type: "website", url: `/categories/${category.slug}` },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 

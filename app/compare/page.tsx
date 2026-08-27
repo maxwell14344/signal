@@ -6,7 +6,9 @@ import { ToolPickerForm } from "@/components/ToolPickerForm";
 
 export const metadata: Metadata = {
   title: "All Comparisons",
-  description: "Every tool-vs-tool comparison on NorthStark.",
+  description: "Head-to-head comparisons of AI customer support tools — pricing, features, and which one actually fits your team, scored against the same 25-criteria rubric.",
+  alternates: { canonical: "/compare" },
+  openGraph: { title: "All Comparisons", type: "website", url: "/compare" },
 };
 
 export default async function CompareIndexPage() {

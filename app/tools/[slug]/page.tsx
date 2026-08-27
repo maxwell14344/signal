@@ -4,6 +4,7 @@ import { ExternalLink } from "lucide-react";
 import type { Metadata } from "next";
 import { getAllTools, getRelatedTools, getToolBySlug } from "@/lib/db/queries";
 import { toolJsonLd } from "@/lib/jsonld";
+import { truncateDescription } from "@/lib/seo";
 import { ToolLogo } from "@/components/ToolLogo";
 import { RatingStars } from "@/components/RatingStars";
 import { PriceBadge } from "@/components/PriceBadge";
@@ -38,9 +39,14 @@ export async function generateMetadata({
   const { slug } = await params;
   const tool = await getToolBySlug(slug);
   if (!tool) return {};
+  const title = `${tool.name} Review — Pricing, Features & Scorecard`;
+  const description = truncateDescription(tool.tldr.join(" "));
   return {
-    title: `${tool.name} Review — Pricing, Features & Scorecard`,
-    description: tool.tldr.join(" "),
+    title,
+    description,
+    alternates: { canonical: `/tools/${tool.slug}` },
+    openGraph: { title, description, type: "article", url: `/tools/${tool.slug}` },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 

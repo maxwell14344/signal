@@ -3,10 +3,22 @@ import type { Metadata } from "next";
 import { getAllTools, getSiteSettings } from "@/lib/db/queries";
 import { ToolCard } from "@/components/ToolCard";
 
-export const metadata: Metadata = {
-  title: "All Tools",
-  description: "Every AI customer support tool reviewed on NorthStark.",
-};
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string; q?: string }>;
+}): Promise<Metadata> {
+  const { page, q } = await searchParams;
+  const isFiltered = !!q?.trim();
+  const pageNum = Number(page) || 1;
+  return {
+    title: pageNum > 1 ? `All Tools — Page ${pageNum}` : "All Tools",
+    description: "Every AI customer support tool reviewed on NorthStark — real pricing, honest scorecards, and a written verdict on each one.",
+    // Each page of results is self-canonical (real, distinct listings); search-query results are thin/duplicate views and stay unindexed.
+    alternates: { canonical: pageNum > 1 ? `/tools?page=${pageNum}` : "/tools" },
+    robots: isFiltered ? { index: false, follow: true } : { index: true, follow: true },
+  };
+}
 
 export default async function ToolsIndexPage({
   searchParams,

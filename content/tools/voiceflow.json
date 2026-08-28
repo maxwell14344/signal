@@ -1,0 +1,151 @@
+{
+  "slug": "voiceflow",
+  "name": "Voiceflow",
+  "logoUrl": "",
+  "website": "https://voiceflow.com",
+  "tagline": "The Alexa-era conversational-design platform turned enterprise agentic-AI builder — genuinely best-in-class flow-building and API extensibility, undercut by opaque pricing, a real multi-language limitation, and inconsistent support.",
+  "tldr": [
+    "Voiceflow was founded in 2019 (originally under the name Storyflow) by Braden Ream and co-founders; sources conflict on HQ (Toronto is most commonly cited, with a real secondary San Francisco office) and on total funding raised ($35M per TechCrunch's 2023 coverage of a $15M OpenView-led round, versus $38.5M-$39.8M cited by other sources) — we're flagging this as an open discrepancy rather than picking a number.",
+    "The platform's clearest, most consistently praised strength — since its Alexa/Google Assistant-skill-building origins — is its visual, drag-and-drop conversation-design canvas, now paired with a full Functions/Code Editor, API Tool, and dev/staging/production environments for genuinely developer-grade automation.",
+    "Native, first-party integrations are confirmed for Shopify (order lookup, update, and cancellation, though explicitly not refunds or payment data), Salesforce, HubSpot, and Zendesk, alongside Zapier; WooCommerce, WordPress, Webflow, and Wix support exist but mostly through community connectors or manual embed code rather than deep native integrations, and Squarespace support is unconfirmed.",
+    "A meaningful, honestly-documented limitation: a single Voiceflow agent currently supports only one language at a time for default entity handling, with separate flows or duplicate agent copies as the documented workaround — a real gap against multilingual-first competitors that Voiceflow's own docs describe as still on their roadmap.",
+    "Pricing is genuinely difficult to pin down — Voiceflow's own pricing page shows only qualitative 'usage-based billing' copy rather than published numbers, third-party sources give conflicting dollar figures, and a April 2025 shift to a hybrid seat-plus-usage-credit model is repeatedly cited by reviewers as a source of unpredictable cost at scale.",
+    "Independent sentiment is genuinely split: verified Trustpilot reviews (4.1/5, though only 15 reviews) praise a responsive, fast-shipping team, but the same source also documents a real, repeated pattern of inconsistent support — not fraud or lockouts, but customers reporting difficulty getting help during critical moments like an agent launch."
+  ],
+  "categories": { "primary": "ai-chatbots", "secondary": ["ai-support-agents"] },
+  "channels": ["Web Widget", "WhatsApp", "SMS", "Voice/IVR", "Mobile Apps", "Alexa", "Google Assistant", "Facebook Messenger", "Instagram", "Telegram", "Slack", "Discord"],
+  "keyFeatures": [
+    "A visual, drag-and-drop conversation-design canvas — Voiceflow's original and still most-praised differentiator",
+    "A Functions/Code Editor and API Tool for calling any external REST API or webhook mid-conversation",
+    "Dev, staging, and production environment separation for safely testing agent changes before release",
+    "Multi-user, real-time collaborative workspace editing, plus multi-client workspace management for agencies",
+    "Human handoff that passes a full transcript, customer record, and an AI-generated summary of prior context to the live agent",
+    "Automatic document/URL-based knowledge ingestion with built-in chunking and embedding — no separate vector database required",
+    "A native Analytics and Transcripts dashboard filterable by date, platform, user ID, environment, credits consumed, and duration",
+    "Model Context Protocol (MCP) support and a full REST API covering the entire agent lifecycle"
+  ],
+  "companyInfo": {
+    "founded": "2019 (originally operated under the name 'Storyflow'), by Braden Ream (CEO) and co-founders Andrew Lawrence, Tyler Han, and Michael Hood",
+    "hq": "Sources conflict — Toronto, Canada is the most commonly cited primary HQ, with a real secondary office at 535 Mission St, San Francisco, CA; at least one source labels it a San Francisco company",
+    "funding": "Sources conflict — TechCrunch reported a $15M round led by OpenView Venture Partners in August 2023 bringing total raised to $35M at a $105M post-money valuation, while other sources cite total funding of $38.5M-$39.8M across five rounds; a separate valuation estimate of ~$29.7M from a different methodology also conflicts sharply with the $105M figure",
+    "employees": "Approximately 88-90, per third-party estimate aggregators (not company-disclosed)"
+  },
+  "faq": [
+    {
+      "question": "Is Voiceflow still a voice-assistant (Alexa/Google Assistant) tool?",
+      "answer": "That's its origin, but it has clearly repositioned. Voiceflow now markets itself as an enterprise 'agentic AI' platform for customer experience teams, spanning web, WhatsApp, SMS, voice, and mobile channels, though Alexa and Google Assistant support remains available for teams still building on those platforms."
+    },
+    {
+      "question": "How much does Voiceflow cost?",
+      "answer": "This is genuinely hard to answer with confidence. Voiceflow's own pricing page shows qualitative 'usage-based billing' language rather than published numbers. Third-party sources describe a Pro tier starting around $60/month and a Business tier around $150/month (raised from $125 in an April 2025 pricing restructure), both scaling with usage credits, plus a $50/editor/month seat add-on — but none of these figures could be verified directly against Voiceflow's own page, so treat them as directional rather than confirmed and get a current quote before budgeting."
+    },
+    {
+      "question": "Does Voiceflow support multiple languages?",
+      "answer": "With a real, documented limitation: a single Voiceflow agent currently supports only one language at a time for default entity handling. The workaround is building separate flows or duplicate agent copies per language. Voiceflow's marketing discusses broader multilingual capability, but their own technical documentation suggests deeper native multilingual handling within a single agent is still on their roadmap rather than fully shipped."
+    },
+    {
+      "question": "Can Voiceflow process refunds or access payment data?",
+      "answer": "No — its Shopify integration is scoped to order lookup, updates, and cancellations, explicitly not refunds or payment data. This is a real capability ceiling worth knowing before assuming Voiceflow can fully resolve an ecommerce support ticket end-to-end."
+    },
+    {
+      "question": "Does Voiceflow have canned responses?",
+      "answer": "Not as a native feature, as far as we could confirm. The only documented mention of canned responses is in the context of a third-party WhatsApp team-inbox connector (hitlchat) built on top of Voiceflow's API — that's a partner product, not something Voiceflow itself ships natively."
+    },
+    {
+      "question": "What do independent reviews say about Voiceflow's support?",
+      "answer": "Genuinely mixed, and worth being direct about. Verified Trustpilot reviews include real praise for a responsive team that ships frequent updates, but the same source also documents specific complaints — including one reviewer describing 'terrible support when launching the agent' and another saying the team 'made it difficult to contact them.' This reads as a real pattern of inconsistent support rather than any evidence of fraud or account lockouts, but it's inconsistent enough to flag clearly."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "The visual, drag-and-drop conversation-design canvas is Voiceflow's most consistently praised strength across independent sources, going back to its original Alexa-skill-building roots." },
+    { "dimension": "AI Quality", "score": 3, "note": "Genuinely deep automation architecture (Functions, API Tool, dev/staging/production environments, MCP support) offset by a real, documented single-language-per-agent limitation and no independently audited resolution-accuracy figure." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "Core channels (web, WhatsApp, SMS, voice, mobile) are natively documented, but broader channel reach (Alexa, Messenger, Slack, Discord) often runs through third-party connectors or custom API integration rather than one-click native support." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Voiceflow's own pricing page shows no published numbers, third-party sources conflict on actual dollar figures, and a 2025 shift to a hybrid seat-plus-credit model is repeatedly cited by reviewers as a source of unpredictable cost at scale." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Verified Trustpilot reviews show a genuine split — real praise for a responsive, fast-shipping team alongside specific, credible complaints about difficulty getting help during critical moments." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Web widget, WhatsApp, SMS, voice, and mobile apps are confirmed as core native channels; broader channels (Alexa, Google Assistant, Messenger, Instagram, Telegram, Slack, Discord) are real but mostly reached through third-party connectors or Voiceflow's own API rather than a one-click native integrations grid." },
+    { "key": "omnichannel-unification", "score": 2, "note": "Voiceflow is architected primarily as an agent-building and deployment platform; no documented unified human-agent inbox spanning channels was found." },
+    { "key": "ai-availability", "score": 5, "note": "Genuinely deep, developer-grade agentic architecture: a Functions/Code Editor, API Tool for calling any external REST API mid-conversation, dev/staging/production environments, and Model Context Protocol support." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "One third-party (non-Voiceflow) benchmark cited an 85% answer-accuracy figure in a specific test, but this is not an independently audited claim we could verify or generalize, and no vendor-published resolution-rate figure exists." },
+    { "key": "ai-training-method", "score": 4, "note": "Document upload, URL crawling, and pasted text are confirmed ingestion methods, with automatic chunking and embedding handled behind the scenes — a genuinely streamlined, well-documented pipeline." },
+    { "key": "hallucination-controls", "score": 3, "note": "Documented mechanisms include grounding responses in uploaded content, adjustable temperature and system prompts, and citation display — real, specific controls, though not independently benchmarked for effectiveness at scale." },
+    { "key": "automation-depth", "score": 5, "note": "This is Voiceflow's clearest, most historically consistent strength: a visual canvas paired with a full code editor, API tool, and environment separation for production-grade automation." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "The marketing site references 'LLM-powered evaluations' for conversation quality, but no specific, independently verifiable sentiment or intent-detection feature was confirmed beyond this general description." },
+    { "key": "unified-inbox", "score": 2, "note": "No native shared-inbox feature was found; the platform is positioned as an agent-building and deployment layer rather than a human-agent workspace." },
+    { "key": "ai-human-handoff", "score": 4, "note": "A well-documented handoff mechanism passes a full transcript, customer record, and an AI-generated summary of prior context to the live agent — a concrete, specific capability." },
+    { "key": "internal-collaboration", "score": 4, "note": "Multi-user, real-time collaborative workspace editing and multi-client workspace management for agencies are confirmed, long-standing differentiators for the platform." },
+    { "key": "canned-responses", "score": 1, "note": "Not confirmed as a native feature; the only documented mention is attached to a third-party WhatsApp connector (hitlchat) built on Voiceflow's API, not Voiceflow itself." },
+    { "key": "integration-shopify", "score": 4, "note": "A real, native, well-documented integration confirmed for order lookup, updates, cancellations, and catalog-based product questions, though explicitly not refunds or payment data." },
+    { "key": "integration-woocommerce", "score": 2, "note": "Supported through a third-party/community connector rather than a first-party Voiceflow-built integration." },
+    { "key": "integration-wordpress", "score": 2, "note": "Supported mainly via the same WooCommerce connector path or generic embed code, not a dedicated native WordPress integration." },
+    { "key": "integration-wix", "score": 3, "note": "A documented Wix template exists (clone project, add knowledge sources, publish) — real but template-based rather than a one-click marketplace app." },
+    { "key": "integration-squarespace", "score": 1, "note": "No specific Squarespace integration was documented; would presumably require generic embed code only." },
+    { "key": "integration-webflow", "score": 2, "note": "Supported only via manually embedding the published agent's code snippet into Webflow's Custom Code footer — a widget embed, not a deeper data integration." },
+    { "key": "integration-automation-platforms", "score": 3, "note": "Zapier is a real, native-style integration with a dedicated app page and specific triggers/actions; Make (Integromat) support is documented but appears to be a lighter-weight, more generic API-connection pathway." },
+    { "key": "integration-crm", "score": 4, "note": "Salesforce, HubSpot, and Zendesk are all confirmed native integrations with specific documented actions (lead/case creation, contact/ticket creation, ticket updates and user lookup)." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Order lookup, updates, and cancellations are confirmed via Shopify, but refund processing and payment data access are explicitly absent from the documented integration scope." },
+    { "key": "multi-language-support", "score": 2, "note": "A real, documented limitation: a single agent supports only one language at a time for default entity handling, with separate flows or duplicate agents as the workaround — broader native multilingual support is described as still on Voiceflow's roadmap." },
+    { "key": "analytics-depth", "score": 3, "note": "A native Analytics and Transcripts dashboard is confirmed, filterable by multiple dimensions, though the existence of third-party add-ons for white-labeled reporting suggests native depth may fall short for agency/reseller use cases." },
+    { "key": "pricing-transparency", "score": 1, "note": "Voiceflow's own pricing page shows only qualitative 'usage-based billing' language with no published numbers; third-party sources give conflicting dollar figures, and a 2025 shift to a hybrid seat-plus-credit model is repeatedly cited by reviewers as a source of unpredictable cost." },
+    { "key": "api-webhook-extensibility", "score": 5, "note": "A full REST API covering the entire agent lifecycle, an in-canvas API Tool for calling external services mid-conversation, and Model Context Protocol support make this a genuinely robust, developer-first extensibility layer." }
+  ],
+  "pricing": {
+    "model": "Hybrid plan-fee + per-editor-seat + usage-based credit billing (restructured around April 2025); exact figures unverified against Voiceflow's own pricing page, which shows only qualitative billing language",
+    "startingPrice": "Free trial available; Pro tier reportedly starts around $60/month per third-party sources (unverified)",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "Trial-oriented; feature scope not independently confirmed." },
+      { "name": "Pro", "price": "~$60-120/mo (unverified)", "billing": "Monthly, credit-tiered", "notes": "Reportedly up to 20 agents, ~3,000 knowledge sources, access to all LLM models; price scales with credit allotment per third-party sources." },
+      { "name": "Business", "price": "~$150/mo+ (unverified)", "billing": "Monthly, credit-tiered", "notes": "Reportedly raised from $125 to $150/month around April 2025; unlimited agents, credit tiers scaling with usage." },
+      { "name": "Enterprise", "price": "Custom", "billing": "Custom", "notes": "Sales-quoted; one unverified third-party estimate cites a median contract value around $217,500/year." }
+    ]
+  },
+  "pricingBreakdown": "This is one of the harder pricing pictures we've encountered in this category, and it's worth being direct about why. Voiceflow's own pricing page does not publish numbers — it uses qualitative language like 'transparent, usage-based billing' without dollar figures, which made independent verification impossible through normal means. Third-party review and comparison sites repeat figures in the range of $60-120/month for Pro and $150/month-plus for Business, with a separate $50/editor/month seat add-on that appears more consistently across sources and so carries somewhat more confidence, but none of this should be treated as confirmed until checked directly against Voiceflow's current page. Compounding the opacity, multiple sources describe an April 2025 restructuring toward a hybrid model that combines a base plan fee, per-editor seats, and usage-based credits — and that credit-based component is specifically and repeatedly cited by independent reviewers as a source of unpredictable cost at scale, since credit consumption scales with usage in ways that can be hard to forecast in advance. If pricing predictability matters to your team, budget extra time to get a detailed, current quote and ask specifically how credit consumption is measured and capped before committing.",
+  "capabilities": [
+    { "area": "Conversation-Design Canvas and Developer Extensibility", "note": "This remains Voiceflow's clearest, most consistently praised strength across every source we reviewed — a visual builder approachable enough for non-developers, paired with a Functions/Code Editor, API Tool, and full REST API that make it genuinely credible for technical teams building complex, production-grade agents." },
+    { "area": "The Shopify Integration's Real Boundary", "note": "Worth stating plainly: order lookup, updates, and cancellations are real and well-documented, but refunds and payment data access are explicitly outside the integration's scope. A business expecting the agent to fully resolve financial disputes end-to-end will hit this ceiling." },
+    { "area": "The Multi-Language Limitation", "note": "A genuinely honest gap to flag: a single agent supports only one language at a time for default entity handling, per Voiceflow's own documentation. Businesses serving multiple language markets from one agent should expect to build and maintain separate flows or duplicate agents rather than relying on native multilingual handling." },
+    { "area": "Pricing Opacity and Volatility", "note": "The combination of a pricing page with no published numbers, conflicting third-party dollar figures, and a 2025 shift toward a usage-credit model that reviewers specifically call out as unpredictable is a real, compounding friction point — not a minor footnote — for budget-conscious buyers." },
+    { "area": "Support Consistency", "note": "Verified Trustpilot reviews show both genuine praise for a responsive team and specific, credible complaints about difficulty getting help at critical moments, like launching an agent. This reads as inconsistency rather than a systemic failure, but it's a real enough pattern that a buyer should ask directly about support SLAs before relying on Voiceflow for a launch-critical deployment." }
+  ],
+  "pros": [
+    "A genuinely best-in-class visual conversation-design canvas, Voiceflow's most consistently praised strength since its Alexa-era origins",
+    "Deep developer extensibility: a full REST API, in-canvas API Tool, Functions/Code Editor, and MCP support for connecting to a broader tool ecosystem",
+    "Real, native CRM integrations (Salesforce, HubSpot, Zendesk) and a well-documented Shopify order-lookup and management integration",
+    "Multi-user, real-time collaborative workspace editing — a long-standing differentiator for teams and agencies building agents together",
+    "A well-documented human-handoff mechanism that passes full transcript and context history to live agents"
+  ],
+  "cons": [
+    "Genuinely opaque pricing — no published numbers on Voiceflow's own pricing page, conflicting third-party figures, and a 2025 shift to a usage-credit model reviewers describe as unpredictable at scale",
+    "A real, documented single-language-per-agent limitation that requires separate flows or duplicate agents to serve multiple language markets",
+    "No native canned-response feature; the only reference found is attached to a third-party connector, not Voiceflow itself",
+    "The Shopify integration explicitly does not extend to refunds or payment data, limiting end-to-end ecommerce resolution",
+    "A real, repeated pattern of inconsistent support responsiveness documented in verified reviews, including a launch-critical incident"
+  ],
+  "sentiment": [
+    {
+      "quote": "Nothing comes close to Voiceflow... The team actually listens, the updates come often.",
+      "source": "Trustpilot (Abdullah Yahya, Oct 28, 2025)",
+      "url": "https://www.trustpilot.com/review/www.voiceflow.com",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Terrible support when launching the Agent.",
+      "source": "Trustpilot (Alfredo, Apr 7, 2026)",
+      "url": "https://www.trustpilot.com/review/www.voiceflow.com",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Technical teams wanting genuine developer-grade extensibility (API Tool, Functions, MCP) alongside a visual builder",
+    "Agencies and teams needing real-time collaborative agent design across multiple client workspaces",
+    "Shopify merchants needing order lookup, status, and cancellation automation (not financial/refund handling)",
+    "Businesses that can tolerate pricing uncertainty in exchange for best-in-class flow-building flexibility"
+  ],
+  "verdict": "Voiceflow's roots as a visual conversation-design tool for Alexa and Google Assistant skills still show up as its clearest strength today: independent sources consistently and repeatedly single out the drag-and-drop canvas as the platform's best feature, and that strength has genuinely scaled into a real developer platform, with a full REST API, an in-canvas Functions/API Tool, dev/staging/production environment separation, and Model Context Protocol support that together make Voiceflow credible for technical teams building genuinely complex, production-grade agents — not just a simple chat widget. The native Shopify, Salesforce, HubSpot, and Zendesk integrations back this up with real, specific documented actions rather than vague claims. But there are honest gaps worth taking seriously rather than glossing over. Voiceflow's own documentation acknowledges that a single agent supports only one language at a time for default entity handling — a real limitation for any business serving multiple language markets from one deployment. The Shopify integration stops at order lookup and cancellation, explicitly excluding refunds and payment data. And pricing is genuinely harder to pin down here than almost anywhere else in this category: Voiceflow's own pricing page shows no published numbers, third-party sources disagree on actual dollar figures, and a 2025 shift toward a hybrid seat-plus-usage-credit model is specifically and repeatedly cited by reviewers as a source of unpredictable cost at scale. Layer on a real, documented pattern of inconsistent support — genuine praise for a responsive team sitting alongside a credible complaint about being left without help during an agent launch — and the overall picture is one of a genuinely powerful builder platform that asks buyers to do real diligence on cost and support before committing, rather than a polished, fully self-service product ready to trust blind.",
+  "rating": 3.7,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

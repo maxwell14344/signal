@@ -62,6 +62,7 @@ no longer applies going forward.
 - [x] Chatfuel (flagged dismissive support and billing-opacity/cancellation-lockout complaints in reviews)
 - [x] Landbot
 - [x] Botpress (open-source heritage; flagged sharply split ease-of-use vs. steep-learning-curve sentiment)
+- [x] YourGPT (flagged conflicting pricing figures between vendor site and G2 listing, plus confusing credit-metering)
 
 ## Attempted, failed, not yet retried
 
@@ -73,8 +74,8 @@ Live Chat & Helpdesk: (all done — see "Added so far" below)
 
 WhatsApp / Omnichannel Messaging: (all done — see "Added so far" below)
 
-Chatbot / Automation Builders: YourGPT, Voiceflow, MobileMonkey, Drift,
-Ada, Ultimate.ai, Cognigy, Kore.ai, Zowie, Forethought, Decagon, Sierra
+Chatbot / Automation Builders: Voiceflow, MobileMonkey, Drift, Ada,
+Ultimate.ai, Cognigy, Kore.ai, Zowie, Forethought, Decagon, Sierra
 
 AI Agentic Platforms: Crescendo, Aidbase, eesel AI, Siena AI
 

@@ -1,0 +1,151 @@
+{
+  "slug": "yourgpt",
+  "name": "YourGPT",
+  "logoUrl": "",
+  "website": "https://yourgpt.ai",
+  "tagline": "A genuinely broad, no-code AI agent platform from Delta4 Infotech with strong G2 sentiment (4.7/5) and deep automation depth — undercut by a confusing credit-metered pricing model and a real discrepancy between its own pricing page and its G2 listing.",
+  "tldr": [
+    "YourGPT is the flagship product of Delta4 Infotech Pvt. Ltd., an Indian company headquartered in Mohali, Punjab, founded by Rohit Joshi (CEO) and Sahil Kumar (Co-Founder & COO) — sources conflict on the founding year (2022 per one source, 2023 per another), and funding/employee count could not be independently verified beyond low-confidence estimates.",
+    "The platform supports a genuinely broad set of native channels — website widget, WhatsApp, Instagram, Facebook Messenger, Slack, Discord, Telegram, Line, Email, and Twilio SMS/Voice — alongside a visual 'AI Studio' for building multi-step conversational flows with API calling and code execution.",
+    "Ecommerce and CMS integrations are confirmed and unusually complete: Shopify, WooCommerce, WordPress, Wix, Squarespace, Webflow, and BigCommerce are all documented, with the Shopify integration specifically able to check live order status and initiate returns via the Shopify order API.",
+    "CRM integration is narrower than the ecommerce side — only Salesforce is a native integration; HubSpot and Zendesk are not natively supported and would need to be bridged through Zapier, Make, or Pabbly Connect, all three of which are confirmed native integrations.",
+    "There is a genuine, confirmed pricing discrepancy between YourGPT's own live pricing page (Essential $39-59/mo, Professional $79-129/mo, Advanced $349-499/mo) and its G2 listing (Essential $49, Professional $99, Advanced $399, no annual/monthly split) — and pricing is credit-metered by AI model, which at least one reviewer found genuinely confusing to track.",
+    "Independent review sentiment is strong where it's statistically meaningful (G2: 4.7/5 across 26 reviews, with the founder personally responding to support requests) and no serious complaint pattern — billing fraud, account lockouts, hostile support — was found in available public sources, unlike several other tools in this category."
+  ],
+  "categories": { "primary": "ai-chatbots", "secondary": ["ai-support-agents"] },
+  "channels": ["Website Widget", "WhatsApp", "Instagram", "Facebook Messenger", "Slack", "Discord", "Telegram", "Line", "Email", "Twilio SMS", "Twilio Voice"],
+  "keyFeatures": [
+    "A visual 'AI Studio' for building multi-step conversational flows with branching, API calling, code execution, forms, buttons, cards, and carousels",
+    "Broad knowledge-base ingestion: website URL/sitemap crawling, plain text, FAQs, documents (Word/PDF/TXT/CSV/JSONL/PPT), Google Docs/Sheets, YouTube videos, Dropbox, Notion, and Confluence",
+    "Named human-handoff feature with department-based routing",
+    "Internal team collaboration tools: internal notes, team chat, AI-generated chat summaries, in-conversation 'Ask AI' assistance, and department filtering",
+    "A named canned-response feature for quick access to pre-written replies",
+    "A dashboard tracking conversation volume, resolution rates, top user intents, sentiment analysis, and CSAT, with 'Advanced Analytics' gated to higher tiers",
+    "Native Salesforce integration alongside Zapier, Make, and Pabbly Connect for bridging to other CRMs and tools",
+    "A dedicated API, webhook support, and in-flow code execution, gated to the Professional tier and above"
+  ],
+  "companyInfo": {
+    "founded": "Sources conflict — one source states June 2022, another states 2023; company is Delta4 Infotech Pvt. Ltd., founded by Rohit Joshi (CEO) and Sahil Kumar (Co-Founder & COO)",
+    "hq": "F126, Phase 7, Industrial Area, Sector 73, S.A.S. Nagar (Mohali), Punjab, India (confirmed directly via the parent company's site); a Trustpilot business listing separately shows a US contact-country field, which appears to be a generic listing artifact rather than a genuine second HQ",
+    "funding": "Search-derived data suggests no disclosed funding raised (unfunded), but this could not be independently verified against a primary source",
+    "employees": "Approximately 11–50, per a low-confidence, unverified estimate — not independently confirmed"
+  },
+  "faq": [
+    {
+      "question": "Who makes YourGPT?",
+      "answer": "YourGPT is the flagship product of Delta4 Infotech Pvt. Ltd., an Indian company headquartered in Mohali, Punjab, founded by Rohit Joshi (CEO) and Sahil Kumar (Co-Founder & COO). Sources conflict on the exact founding year — one places it in June 2022, another in 2023 — and this hasn't been independently resolved."
+    },
+    {
+      "question": "How much does YourGPT actually cost?",
+      "answer": "This is genuinely unclear across sources. YourGPT's own live pricing page lists Essential at $39-59/month, Professional at $79-129/month, and Advanced at $349-499/month depending on annual vs. monthly billing. Its G2 listing, however, shows flat figures of $49, $99, and $399 with no annual/monthly distinction. We could not determine which figure is currently authoritative, so treat the vendor's own pricing page as the more likely up-to-date source and confirm directly with YourGPT before committing."
+    },
+    {
+      "question": "How does YourGPT's credit-based pricing work?",
+      "answer": "Instead of billing per message, YourGPT meters usage in 'AI Credits' that consume at different rates depending on the underlying AI model — for example, GPT-3.5 uses credits at a 1x multiplier while GPT-4 uses a 20x multiplier. At least one independent reviewer described this system as confusing to track in practice, specifically flagging difficulty understanding how credits were being consumed relative to their actual sales volume."
+    },
+    {
+      "question": "Does YourGPT integrate with Shopify and other ecommerce platforms?",
+      "answer": "Yes, and unusually completely — Shopify, WooCommerce, WordPress, Wix, Squarespace, Webflow, and BigCommerce are all confirmed, documented integrations. The Shopify integration specifically is described by YourGPT as able to check live order and fulfillment status via the Shopify order API and initiate returns under configured policy rules, though this capability is self-reported by the vendor and we found no independent, production-verified example confirming it works end-to-end."
+    },
+    {
+      "question": "Does YourGPT connect to Salesforce, HubSpot, or Zendesk?",
+      "answer": "Salesforce is a confirmed native integration. HubSpot and Zendesk are not natively supported — in fact, Zendesk appears on YourGPT's site only as a competitor-comparison page, not a partner integration. Connecting to either would require bridging through Zapier, Make, or Pabbly Connect, all three of which are confirmed native integrations."
+    },
+    {
+      "question": "What do independent reviews say about YourGPT?",
+      "answer": "Where the sample size is statistically meaningful, sentiment is strong: G2 shows 4.7/5 across 26 reviews, with reviewers repeatedly praising ease of setup and highlighting that the founder, Rohit Joshi, personally responds to support requests. The most-repeated negative themes are ordinary feature-gap complaints — pricing being steep for small businesses at lower tiers, confusing AI-credit consumption, and documentation gaps — rather than any serious pattern of billing fraud, account lockouts, or hostile support, which we did not find evidence of in available public sources."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Independent G2 reviews repeatedly praise fast, easy no-code setup, with one reviewer citing same-day deployment of a working support bot." },
+    { "dimension": "AI Quality", "score": 3, "note": "A genuinely broad set of AI Studio flow-building and knowledge-ingestion features, though hallucination controls rely on a self-authored methodology blog post rather than a named, independently verified guardrail feature." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "An unusually broad native channel list (website, WhatsApp, Instagram, Messenger, Slack, Discord, Telegram, Line, Email, Twilio SMS/Voice) confirmed directly on the vendor's integrations page." },
+    { "dimension": "Pricing Value", "score": 2, "note": "A genuine, confirmed discrepancy exists between YourGPT's own pricing page and its G2 listing, compounded by a credit-metered billing model that at least one reviewer found difficult to track." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "G2 reviewers repeatedly cite responsive, personal support, including the founder responding to inquiries directly — a genuinely strong, repeated signal for a company this size." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Confirmed directly on the vendor's integrations page: website widget, WhatsApp, Instagram, Facebook Messenger, Slack, Discord, Telegram, Line, Email, and Twilio SMS/Voice — a genuinely broad list." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Internal notes, team chat, AI-generated chat summaries, and department filtering suggest a real, unified conversation view across channels, though not independently verified in production." },
+    { "key": "ai-availability", "score": 5, "note": "The 'AI Studio' supports multi-step flows, API calling, and code execution — a genuinely deep, developer-capable agentic architecture confirmed on the vendor's own features page." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found." },
+    { "key": "ai-training-method", "score": 4, "note": "An unusually broad set of confirmed ingestion sources — website/sitemap crawling, documents, Google Docs/Sheets, YouTube, Dropbox, Notion, and Confluence — though retraining is manual by default per the vendor's own pricing FAQ." },
+    { "key": "hallucination-controls", "score": 2, "note": "No named, independently verified guardrail feature was found; the vendor's own blog post describes a general methodology (data grounding, model selection, human review) rather than a specific, benchmarked control." },
+    { "key": "automation-depth", "score": 5, "note": "Genuinely deep: branching flows, API calling, code execution, forms, buttons, cards, and carousels are all confirmed, developer-capable automation features." },
+    { "key": "sentiment-intent-detection", "score": 4, "note": "The vendor's dashboard is documented to track top user intents, sentiment analysis, and CSAT as named, specific features, though not independently benchmarked for accuracy." },
+    { "key": "unified-inbox", "score": 4, "note": "Internal notes, team chat, department filtering, and AI-generated chat summaries are confirmed, named collaboration features suggesting a real shared-inbox experience." },
+    { "key": "ai-human-handoff", "score": 4, "note": "A named, specific human-handoff feature with department-based routing is confirmed on the vendor's features page." },
+    { "key": "internal-collaboration", "score": 4, "note": "Internal notes, team chat, in-conversation 'Ask AI' assistance, and department filtering are all confirmed, named features." },
+    { "key": "canned-responses", "score": 4, "note": "A named 'Canned Reply' feature for quick access to pre-written responses is confirmed on the vendor's features page." },
+    { "key": "integration-shopify", "score": 4, "note": "Confirmed with real technical specificity — the vendor documents using the Shopify order API to check status and initiate returns, though this is self-reported and not independently production-verified." },
+    { "key": "integration-woocommerce", "score": 3, "note": "Confirmed as a listed integration on the vendor's integrations page, without the deeper technical detail available for Shopify." },
+    { "key": "integration-wordpress", "score": 3, "note": "Confirmed as a listed integration." },
+    { "key": "integration-wix", "score": 3, "note": "Confirmed as a listed integration." },
+    { "key": "integration-squarespace", "score": 3, "note": "Confirmed as a listed integration." },
+    { "key": "integration-webflow", "score": 3, "note": "Confirmed as a listed integration." },
+    { "key": "integration-automation-platforms", "score": 4, "note": "Zapier, Make, and Pabbly Connect are all confirmed native integrations, providing real bridging capability to CRMs and tools not natively supported." },
+    { "key": "integration-crm", "score": 3, "note": "Only Salesforce is a confirmed native CRM integration; HubSpot and Zendesk are notably absent as native integrations and would require bridging through an automation platform." },
+    { "key": "order-payment-data-access", "score": 3, "note": "The vendor documents Shopify order-API access and refund initiation under configured policy rules, but this is entirely self-reported with no independent, production-verified example found." },
+    { "key": "multi-language-support", "score": 3, "note": "The vendor claims support for over 100 languages, though G2's own listing names only about 27 specific languages — a real discrepancy that keeps this from a higher score." },
+    { "key": "analytics-depth", "score": 4, "note": "A documented dashboard tracking conversation volume, resolution rates, top intents, sentiment, and CSAT, with an 'Advanced Analytics' tier gated to higher-priced plans — genuinely substantive, though vendor-sourced and not independently benchmarked." },
+    { "key": "pricing-transparency", "score": 2, "note": "A genuine, confirmed discrepancy exists between the vendor's own live pricing page and its G2 listing, and the credit-metered billing model was independently flagged by a reviewer as confusing to track." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "A dedicated API, webhook support, and in-flow code execution are confirmed, though gated to the Professional tier and above, and no public API reference or rate-limit documentation was independently reviewed." }
+  ],
+  "pricing": {
+    "model": "Credit-metered SaaS tiers (rates vary by underlying AI model), with a confirmed discrepancy between the vendor's own pricing page and its G2 listing",
+    "startingPrice": "$39/mo (Essential, annual billing, per vendor's own pricing page)",
+    "plans": [
+      { "name": "Essential", "price": "$39-59/mo", "billing": "Annual/Monthly", "notes": "2 chatbots, 200 webpages, 20 documents, 10M AI Credits, 3 members. G2 lists this plan at a flat $49 with no annual/monthly split — a confirmed discrepancy." },
+      { "name": "Professional", "price": "$79-129/mo", "billing": "Annual/Monthly", "notes": "5 chatbots, 500 webpages, 100 documents, 30M AI Credits, 5 members, AI Studio, API/Webhook access, GPT-4 access. G2 lists this plan at a flat $99." },
+      { "name": "Advanced", "price": "$349-499/mo", "billing": "Annual/Monthly", "notes": "10 chatbots, 2,000 webpages, 500 documents, 100M AI Credits, 20 members, advanced analytics, custom branding/domain. G2 lists this plan at a flat $399." },
+      { "name": "Enterprise", "price": "Custom", "billing": "Annual contract", "notes": "Dedicated support, custom SLA and SSO." }
+    ]
+  },
+  "pricingBreakdown": "YourGPT's pricing is genuinely harder to pin down than most competitors in this category, and that's worth taking seriously rather than glossing over. The vendor's own live pricing page shows annual-vs-monthly figures ($39-59, $79-129, $349-499 across the three self-serve tiers), while its G2 listing shows different, flat figures ($49, $99, $399) with no billing-frequency distinction at all — a real, confirmed conflict between two vendor-controlled sources, not a case of a third party misreporting. On top of that, billing is metered in 'AI Credits' that consume at different multipliers depending on which underlying AI model a conversation uses (GPT-3.5 at 1x versus GPT-4 at 20x, for example), and at least one independent reviewer described genuine difficulty understanding how their credits were being consumed relative to their actual usage. None of this points to deceptive pricing or billing fraud — no such pattern was found in available reviews — but it does mean a prospective buyer should get a direct, current quote from YourGPT rather than relying on either published price list, and should ask specifically how credit consumption is tracked and alerted before committing to a plan.",
+  "capabilities": [
+    { "area": "Channel and Automation Breadth", "note": "This is YourGPT's clearest strength: a genuinely broad native channel list (including Discord, Line, and Twilio Voice, which many competitors skip) combined with a visual AI Studio that supports API calling and code execution — real depth for a no-code-branded tool." },
+    { "area": "Ecommerce and CMS Integration Completeness", "note": "All six major ecommerce/CMS platforms in our standard checklist (Shopify, WooCommerce, WordPress, Wix, Squarespace, Webflow) are confirmed, plus BigCommerce — an unusually complete list, with the Shopify integration specifically documented to reach real order data via the Shopify order API." },
+    { "area": "CRM Gap", "note": "Worth flagging clearly: only Salesforce is a native CRM integration. A business standardized on HubSpot or Zendesk will need to bridge through Zapier, Make, or Pabbly Connect rather than getting a first-party connection." },
+    { "area": "Pricing Confusion", "note": "The confirmed discrepancy between YourGPT's own pricing page and its G2 listing, combined with a credit-metering system independently described as confusing by at least one reviewer, is a real friction point that a prospective buyer should resolve directly with the vendor before committing." },
+    { "area": "Founder-Level Support Responsiveness", "note": "Multiple independent G2 reviews, spanning different months, describe the founder (Rohit Joshi) personally responding to support requests — a genuinely strong, repeated signal of hands-on vendor engagement for a company of this size." }
+  ],
+  "pros": [
+    "An unusually broad native channel list, including Discord, Line, and Twilio Voice alongside the expected WhatsApp, Messenger, and Slack",
+    "A genuinely deep AI Studio with API calling and code execution, plus an unusually complete ecommerce/CMS integration list covering all six major platforms",
+    "Named, specific human-handoff, internal-collaboration, and canned-response features rather than vague claims",
+    "Strong, statistically meaningful independent sentiment where available (G2: 4.7/5 across 26 reviews), with repeated praise for founder-level support responsiveness",
+    "No evidence of serious complaint patterns — billing fraud, account lockouts, or hostile support — found in available public sources"
+  ],
+  "cons": [
+    "A genuine, confirmed pricing discrepancy between the vendor's own pricing page and its G2 listing that we could not resolve",
+    "A credit-metered billing model that at least one independent reviewer found confusing to track relative to actual usage",
+    "Only Salesforce is a native CRM integration — HubSpot and Zendesk require bridging through an automation platform",
+    "No independently audited AI resolution-accuracy figure, and refund/order-processing claims are entirely vendor-self-reported",
+    "Company facts (founding year, funding status, employee count) could not be fully resolved or independently verified — sources conflict or are low-confidence"
+  ],
+  "sentiment": [
+    {
+      "quote": "Rohit responds at night to give us quick answers... An easy-to-use control panel, great contact with support.",
+      "source": "G2 (Artur R., 5/7/2024)",
+      "url": "https://www.g2.com/products/yourgpt/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "We cannot quite understand ... how the credits are being used. We need a lot of credits, even though we have very little sales.",
+      "source": "G2 (Marruu E., 2/27/2026)",
+      "url": "https://www.g2.com/products/yourgpt/reviews",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Businesses wanting one platform to cover an unusually broad set of channels, including Discord and Twilio Voice",
+    "Ecommerce teams on Shopify, WooCommerce, or another major CMS/storefront platform wanting a genuinely complete native integration",
+    "Technical teams wanting API calling and code execution inside the flow builder rather than a purely visual, no-code-only tool",
+    "Small teams that value direct, founder-level support responsiveness during onboarding"
+  ],
+  "verdict": "YourGPT's feature list is genuinely more complete than its market profile might suggest — a broad native channel list that includes Discord, Line, and Twilio Voice alongside the expected WhatsApp and Messenger, an AI Studio with real API calling and code execution, and an ecommerce/CMS integration list that covers all six major platforms in our checklist plus BigCommerce, with the Shopify integration specifically reaching real order data through Shopify's own order API. Independent sentiment backs this up where the sample size is meaningful: a 4.7/5 across 26 G2 reviews, with reviewers repeatedly praising fast setup and calling out that the founder, Rohit Joshi, personally responds to support requests — a genuinely strong signal for a company this size, and notably, we found no evidence of the serious complaint patterns (billing fraud, account lockouts, hostile support) that dragged down several other tools in this category. What keeps this from a stronger overall rating is pricing, and it's worth being direct about why: we found a real, confirmed conflict between YourGPT's own live pricing page and its G2 listing that we could not resolve, and on top of that, the credit-metered billing model — where different AI models consume credits at wildly different multipliers — was independently described by at least one reviewer as genuinely hard to track relative to actual usage. Neither issue rises to the level of deception, but together they mean a prospective buyer should get a direct, current quote and a clear explanation of credit consumption before committing, rather than trusting either published price list at face value. If your priority is channel and automation breadth with a genuinely capable ecommerce integration, YourGPT is a strong, underrated option; just budget time to sort out pricing clarity directly with the vendor, and know that CRM integration beyond Salesforce will mean routing through Zapier or Make.",
+  "rating": 4.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

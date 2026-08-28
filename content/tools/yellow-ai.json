@@ -1,0 +1,157 @@
+{
+  "slug": "yellow-ai",
+  "name": "Yellow.ai",
+  "logoUrl": "",
+  "website": "https://yellow.ai",
+  "tagline": "A $500M-valuation enterprise conversational AI platform spanning 35+ channels and 135+ languages, serving Sony and Volkswagen — with real, specific complaints about pricing opacity and WhatsApp number lock-in.",
+  "tldr": [
+    "Yellow.ai (formerly Yellow Messenger) was founded in 2016 in Bangalore by Raghu Ravinutala, Jaya Kishore Reddy Gollareddy, and Rashid Khan, has raised $356.6M+ across five rounds reaching a $500M valuation in 2021, and now serves 1,300+ enterprises including Sony, Domino's, Hyundai, Volkswagen, and Papa Johns across 85+ countries.",
+    "Scale is the clearest differentiator: 35+ voice and text channels and 135+ languages, both figures well beyond any other tool reviewed in this category — this is closer to a full enterprise conversational-AI platform than a WhatsApp-focused tool.",
+    "Pricing is entirely opaque and sales-quoted — AWS Marketplace listings reference $10,000/year for a Basic contract and $25,000/year for Standard, with typical custom Enterprise deals starting around $50,000+/year, plus per-resolution fees and professional-services costs for implementation.",
+    "Real, specific, and serious complaints recur across independent reviews: pricing opacity and cost escalation as more channels get added, poor support communication with reported high staff turnover, difficulty modifying a live automation workflow once built, and — most concerning — at least one review describing the company as making it 'very cumbersome to migrate' away because it holds the customer's WhatsApp number.",
+    "A documented NLP weakness shows up specifically in reviews: the bot is described as losing context and not always doing a good job at intent matching, which can create more work for human agents rather than less.",
+    "Best for large enterprises with genuine multi-channel, multi-language conversational AI needs and the internal resources to manage a complex, sales-negotiated vendor relationship — not for small-to-mid businesses, or anyone wanting transparent, predictable pricing."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["WhatsApp", "Voice", "SMS", "Web Chat", "Email", "35+ channels total"],
+  "keyFeatures": [
+    "Dynamic AI Agents delivering conversational automation across 35+ voice and text channels and 135+ languages",
+    "One-click Salesforce CRM integration that pushes leads and information collected by chatbots and voice bots directly into Salesforce",
+    "Salesforce state-change event listening, triggering real-time notifications to business stakeholders on channels like WhatsApp and SMS",
+    "Shopify storefront connection for AI agents, documented as a few-click setup",
+    "AI-first voice automation connecting with contact center solutions and IVR systems",
+    "Enterprise-grade workflow builder for constructing multi-step conversational journeys across channels",
+    "HubSpot and other CRM/business-system integrations alongside the deeper Salesforce implementation",
+    "A sales-negotiated Enterprise tier with professional services support for large-scale, multi-channel deployments"
+  ],
+  "companyInfo": {
+    "founded": "2016, Bangalore, India, by Raghu Ravinutala, Jaya Kishore Reddy Gollareddy, and Rashid Khan (originally as Yellow Messenger)",
+    "hq": "San Mateo, California, USA",
+    "funding": "$356.6M+ raised across 5 rounds; reached a $500M valuation in its 2021 Series C ($78.1M, led by WestBridge Capital with Sapphire Ventures, Salesforce Ventures, and Lightspeed India participating)",
+    "employees": "Not publicly disclosed; reports 1,300+ enterprise customers across 85+ countries"
+  },
+  "faq": [
+    {
+      "question": "How does Yellow.ai's pricing actually work?",
+      "answer": "It's entirely custom and sales-quoted — no public pricing page exists. AWS Marketplace listings reference $10,000/year for a Basic contract and $25,000/year for Standard, and typical custom Enterprise deals are reported starting around $50,000+/year, with per-resolution fees and professional-services implementation costs on top. Independent reviews specifically describe cost escalating past the original contract scope as more channels get added — budget for growth, not just the initial quote."
+    },
+    {
+      "question": "Is it hard to leave Yellow.ai once you've signed up?",
+      "answer": "At least one independent reviewer specifically raises this as a serious concern, stating the company 'holds your WhatsApp number and make[s] it very cumbersome to migrate to anyone else.' If WhatsApp is a core channel for your business, understand exactly how number portability and account ownership work in your contract before signing, not after you're already dependent on the platform."
+    },
+    {
+      "question": "How many channels and languages does Yellow.ai actually support?",
+      "answer": "35+ voice and text channels and 135+ languages, both figures substantially larger than any other tool in this comparison category. This scale is the platform's clearest strength and the reason it's positioned as an enterprise conversational-AI platform rather than a channel-specific tool like most WhatsApp-focused competitors."
+    },
+    {
+      "question": "How reliable is Yellow.ai's AI at understanding customer intent?",
+      "answer": "Independent reviewers specifically describe the bot losing context and not always doing a good job at intent matching, which can create more work for human agents rather than less — a genuine, documented weakness rather than a vague quality complaint. Test this directly against your own real customer conversations before assuming enterprise-grade NLP performance out of the box."
+    },
+    {
+      "question": "What's the most common complaint about Yellow.ai's support?",
+      "answer": "Poor support communication is one of the most frequently repeated complaints in independent reviews, with users specifically describing 'horrible communication' and citing high staff turnover as a contributing factor. Given the platform's enterprise scale and sales-negotiated contracts, this is worth probing directly with current customer references before signing a multi-year agreement."
+    },
+    {
+      "question": "Can I easily update a live automation workflow after building it?",
+      "answer": "Not easily, according to independent reviews — building a new conversational journey is described as straightforward, but modifying one that's already live reads as an engineering task rather than a simple edit. Factor this into your evaluation if your use case requires frequent iteration on live customer-facing flows."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Building a new conversational journey is described as straightforward, but independent reviewers specifically note that modifying a live workflow is a much harder, engineering-level task." },
+    { "dimension": "AI Quality", "score": 3, "note": "Enterprise-grade Dynamic AI Agents across 35+ channels and 135+ languages represent real scale, but independent reviewers specifically document the bot losing context and struggling with intent matching in practice." },
+    { "dimension": "Omnichannel Support", "score": 5, "note": "35+ voice and text channels is a genuinely exceptional breadth, well beyond any other tool reviewed in this category." },
+    { "dimension": "Pricing Value", "score": 1, "note": "Entirely opaque, sales-quoted pricing combined with specific, repeated independent-review complaints about cost escalation past the original contract scope as more channels are added." },
+    { "dimension": "Vendor Support Quality", "score": 2, "note": "Poor support communication and high staff turnover are among the most frequently repeated complaints in independent reviews, alongside a specific, serious complaint about WhatsApp number lock-in making migration difficult." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Documented support for 35+ voice and text channels — the broadest channel coverage found among any tool reviewed in this category, positioning Yellow.ai as a full enterprise conversational-AI platform rather than a channel-specific tool." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Dynamic AI Agents are documented as delivering consistent interactions across the full channel list, though the platform's documentation is more AI-agent-centric than shared-inbox-centric relative to some competitors." },
+    { "key": "ai-availability", "score": 5, "note": "Dynamic AI Agents represent genuine, enterprise-grade conversational AI deployed across voice and text at real scale — a meaningfully more sophisticated implementation than a single-channel chatbot." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure specific to Yellow.ai was found, and no vendor-cited headline percentage was found either — genuinely unverifiable in either direction." },
+    { "key": "ai-training-method", "score": 2, "note": "No Yellow.ai-specific documentation of the AI's training or knowledge-ingestion method (RAG implementation, source types) was found in the materials reviewed, despite the platform's overall scale." },
+    { "key": "hallucination-controls", "score": 2, "note": "No Yellow.ai-specific documentation of hallucination-prevention mechanisms was found, and the documented intent-matching and context-loss issues suggest this may be a real, unresolved weakness rather than just an absence of public documentation." },
+    { "key": "automation-depth", "score": 4, "note": "An enterprise-grade workflow builder supports complex, multi-step conversational journeys across channels, though independent reviewers specifically note that modifying a live workflow is a much harder, engineering-level task than building a new one." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "Independent reviewers specifically and directly document the bot losing context and not always doing a good job at intent matching — a real, confirmed weakness on precisely this criterion, not an absence of evidence." },
+    { "key": "unified-inbox", "score": 3, "note": "The platform is documented more as an AI-agent deployment platform across channels than a human-agent-facing shared inbox in the way some competitors are built, though real-time notification routing to stakeholders is documented." },
+    { "key": "ai-human-handoff", "score": 3, "note": "Handoff to human agents is implied by the documented complaint that poor intent matching 'can create more work for human agents,' indicating the mechanism exists but with real friction in practice." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes, @mentions, or team-collaboration tooling was found in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 4, "note": "AI agents can connect to a Shopify storefront in a documented few-click setup — real, though without the deeper order-lookup or cart-recovery detail some ecommerce-first competitors publish." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found; Yellow.ai is built as an enterprise conversational-AI platform rather than a website-widget product." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "No specific Zapier, Make, or n8n integration was confirmed in the materials reviewed, despite the platform's overall integration maturity." },
+    { "key": "integration-crm", "score": 4, "note": "A genuinely deep, one-click Salesforce integration pushes chatbot- and voicebot-collected leads directly into Salesforce and listens for Salesforce state-change events to trigger real-time notifications — real, sophisticated CRM integration, plus a documented HubSpot connection." },
+    { "key": "order-payment-data-access", "score": 3, "note": "A Shopify storefront connection exists for AI agents, but no specific, documented order-lookup, refund, or live payment-data capability was confirmed beyond the general storefront connection." },
+    { "key": "multi-language-support", "score": 5, "note": "135+ languages is a genuinely exceptional figure, the strongest documented multi-language capability found among any tool reviewed in this category." },
+    { "key": "analytics-depth", "score": 2, "note": "No detailed documentation of reporting or analytics depth (CSAT, deflection rate, agent performance dashboards) was found in the materials reviewed, despite the platform's enterprise scale." },
+    { "key": "pricing-transparency", "score": 1, "note": "Pricing is entirely opaque and sales-quoted with no public pricing page, compounded by specific, repeated independent-review complaints about cost escalation past the original contract scope as more channels are added — a genuine transparency and predictability problem, not just an absence of a published price list." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "The platform is marketed with a dedicated 'Integration Platform' capability and documented CRM event-listening (Salesforce state changes triggering real-time notifications), indicating real API/webhook infrastructure, though without independently confirmed developer-documentation depth." }
+  ],
+  "pricing": {
+    "model": "Entirely custom, sales-quoted enterprise pricing with per-resolution fees and professional-services costs",
+    "startingPrice": "Not published; AWS Marketplace references $10,000/year (Basic) and $25,000/year (Standard)",
+    "plans": [
+      { "name": "Basic (AWS Marketplace reference)", "price": "$10,000/12 months", "billing": "Annual contract", "notes": "A reference price point found on AWS Marketplace; direct sales pricing may differ." },
+      { "name": "Standard (AWS Marketplace reference)", "price": "$25,000/12 months", "billing": "Annual contract", "notes": "A reference price point found on AWS Marketplace; direct sales pricing may differ." },
+      { "name": "Enterprise", "price": "Typically $50,000+/year (market estimate)", "billing": "Custom, multi-year contracts common", "notes": "Sales-negotiated; typically includes professional-services implementation costs and conversation-based fees that scale with usage and additional channels." },
+      { "name": "Free tier / self-serve resolutions", "price": "500 free sessions, then $0.99/resolution (reported)", "billing": "Usage-based", "notes": "A lighter-weight entry point reported separately from the enterprise sales motion; confirm current terms directly." }
+    ]
+  },
+  "pricingBreakdown": "Yellow.ai's pricing sits at the opaque, enterprise-sales-negotiated end of this entire comparison set — there is no public pricing page, and the closest thing to a reference point is a pair of AWS Marketplace listings ($10,000/year Basic, $25,000/year Standard) alongside market estimates that a genuine custom Enterprise deal typically starts around $50,000/year and climbs from there with professional-services implementation costs. What makes this more than a typical 'contact sales' inconvenience is the specific, repeated independent-review pattern describing cost escalation: a scoped project growing meaningfully in price once additional channels get added after the initial contract. Combined with the documented WhatsApp-number lock-in complaint, this is a vendor relationship where getting exact multi-year cost projections, channel-addition pricing, and account-portability terms in writing before signing matters more than with almost any other tool in this category.",
+  "capabilities": [
+    { "area": "Channel & Language Scale", "note": "This is Yellow.ai's clearest, most genuinely exceptional strength: 35+ voice and text channels and 135+ languages dwarf every other tool reviewed in this category. For a true global, multi-channel enterprise deployment, this breadth is a real differentiator that smaller, more focused competitors simply can't match." },
+    { "area": "CRM Integration", "note": "A genuinely sophisticated Salesforce implementation — one-click setup, lead/data push from bots, and real-time event-listening that triggers stakeholder notifications on channels like WhatsApp — represents deeper enterprise CRM integration than most competitors in this comparison document." },
+    { "area": "AI Reliability in Practice", "note": "The gap between marketed scale and documented real-world performance is worth taking seriously. Independent reviewers specifically describe the bot losing context and struggling with intent matching, which can shift more work onto human agents rather than less — test this directly against your own conversations rather than assuming enterprise scale implies enterprise-grade accuracy." },
+    { "area": "Vendor Relationship Risk", "note": "Three specific, documented concerns compound into a real pattern worth weighing heavily: pricing opacity with reported cost escalation as channels are added, poor support communication with high reported staff turnover, and a serious complaint that the company holds a customer's WhatsApp number in a way that makes migration 'very cumbersome.' None of these are typical vendor grumbling — they're specific, credible operational risks." },
+    { "area": "Workflow Maintainability", "note": "Building a new conversational journey is documented as straightforward, but independent reviewers specifically note that modifying a live workflow reads as an engineering task rather than a simple edit — a real operational cost for any business that needs to iterate on customer-facing flows regularly." }
+  ],
+  "pros": [
+    "Genuinely exceptional channel (35+) and language (135+) coverage, the broadest found among any tool reviewed in this category",
+    "A sophisticated, one-click Salesforce CRM integration with real-time event-listening, deeper than most competitors' CRM connections",
+    "Enterprise-proven at real scale, serving 1,300+ customers including Sony, Domino's, Hyundai, and Volkswagen across 85+ countries",
+    "Well-capitalized ($356.6M+ raised) with a $500M valuation, suggesting genuine staying power as a long-term vendor",
+    "A real Shopify storefront connection and enterprise-grade workflow builder for complex, multi-channel conversational journeys"
+  ],
+  "cons": [
+    "Entirely opaque, sales-quoted pricing with specific, repeated independent-review complaints about cost escalation past the original contract scope as channels are added",
+    "A serious, specific complaint that the company holds customers' WhatsApp numbers in a way that makes migrating to another platform 'very cumbersome'",
+    "Poor support communication and high staff turnover are among the most frequently repeated independent-review complaints",
+    "Documented, specific NLP weaknesses — the bot losing context and struggling with intent matching — that can increase rather than decrease human-agent workload",
+    "Modifying a live automation workflow is described as an engineering-level task rather than a simple edit, a real operational cost for iterative deployments"
+  ],
+  "sentiment": [
+    {
+      "quote": "They hold your WhatsApp number and make it very cumbersome to migrate to anyone else.",
+      "source": "Capterra review",
+      "url": "https://www.capterra.com/p/194013/Yellow-Messenger/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "The bot loses context and doesn't always do a good job at intent matching, which can create more work for human agents.",
+      "source": "Aggregated independent review sentiment (G2/Capterra)",
+      "url": "https://www.capterra.com/p/194013/Yellow-Messenger/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Building a new journey is straightforward, but changing a live one reads as an engineering task.",
+      "source": "Aggregated independent review sentiment (G2/Capterra)",
+      "url": "https://www.capterra.com/p/194013/Yellow-Messenger/reviews/",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Large, global enterprises with genuine multi-channel, multi-language conversational AI needs at real scale",
+    "Businesses already committed to Salesforce that want deep, real-time bot-to-CRM data flow",
+    "Organizations with internal resources and legal support to negotiate and monitor a complex, multi-year enterprise contract",
+    "Teams that will demand explicit WhatsApp-number portability and cost-escalation terms in writing before signing"
+  ],
+  "verdict": "Yellow.ai's scale is genuinely exceptional and not marketing exaggeration — 35+ channels and 135+ languages is a real, substantial technical achievement that no other tool in this comparison category comes close to matching, and the customer roster (Sony, Domino's, Hyundai, Volkswagen) confirms this works at real enterprise scale. The Salesforce integration is similarly sophisticated: one-click setup with real-time event-listening that pushes bot-collected data into the CRM and routes notifications back out, deeper than most competitors' CRM connections. But the honest, necessary counterweight to that scale is a specific, credible, and repeated pattern of operational risk in independent reviews that goes well beyond typical vendor grumbling. Pricing is entirely opaque and sales-negotiated, with documented cost escalation as more channels get added after the initial contract. Support communication is repeatedly described as poor, with high staff turnover cited as a contributing factor. And most seriously, at least one reviewer describes the company holding a customer's WhatsApp number in a way that makes leaving 'very cumbersome' — a genuine lock-in risk, not a hypothetical one. Layer on documented, specific complaints about the AI losing context and struggling with intent matching, and the picture is a platform whose raw capability ceiling is genuinely high but whose real-world execution carries real, specific risks that a large enterprise buyer needs to negotiate around explicitly, not discover after signing. My honest read: if you're a large enterprise with genuine need for Yellow.ai's channel and language breadth, this is worth evaluating seriously — but insist on explicit written terms for cost escalation, WhatsApp number portability, and support SLAs before committing, and pilot the AI against your own real conversations to test the documented intent-matching concerns directly.",
+  "rating": 3.5,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

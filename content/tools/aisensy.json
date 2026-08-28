@@ -1,0 +1,156 @@
+{
+  "slug": "aisensy",
+  "name": "AiSensy",
+  "logoUrl": "",
+  "website": "https://aisensy.com",
+  "tagline": "A budget WhatsApp Business API platform claiming 150,000+ businesses on essentially bootstrapped funding — genuinely affordable, genuinely narrower than its omnichannel competitors.",
+  "tldr": [
+    "AiSensy was founded in 2020 in Gurugram, India by Gautam Shelley, Mohit Dua, and Ajay Rathore, reporting total funding of only around $100K despite claiming 150,000+ businesses across 60+ countries and growing from ~7 employees in 2021 to 173 by 2026 — an unusually capital-efficient growth story if the figures hold up.",
+    "Pricing is genuinely low: Basic ₹1,500/month (~$18 USD) with unlimited users, Pro ₹3,200/month (~$38 USD) adding broadcast scheduling and campaign budgets — with WhatsApp's own per-conversation fees charged separately on top of either plan.",
+    "This is a WhatsApp-only platform, not a broader omnichannel tool — multi-agent live chat lets a team work from one shared WhatsApp number, but there's no native Instagram, Messenger, or other channel support documented.",
+    "The AI Chatbot is described in general terms (understanding customer needs, responding intelligently) without the specific technical detail — knowledge-base training method, resolution benchmarks — that some competitors document more precisely, and hands off to a human agent when it can't resolve a query.",
+    "Independent reviews are solid but a notch below direct competitors (4.3/5 on G2 versus roughly 4.6/5 for Wati and Gallabox), with specific, repeated complaints about basic campaign analytics, missing click-tracking, and pricing that one reviewer specifically calls unsuitable for startup businesses.",
+    "Best for small-to-mid Indian businesses wanting an affordable, no-frills WhatsApp Business API tool for support and broadcast marketing — not for teams needing broader channel coverage, deep analytics, or sophisticated AI resolution capability."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["WhatsApp"],
+  "keyFeatures": [
+    "Multi-agent Live Chat allowing a whole team to work from one shared WhatsApp Business number, with Live Chat Agent and Manager roles",
+    "A no-code AI Chatbot builder that responds to customer questions and notifies the team to take over when it can't resolve a query",
+    "Quick replies, saved responses, and internal notes for team coordination and faster responses",
+    "Scheduleable broadcast campaigns with smart audience segmentation for WhatsApp marketing",
+    "CTA-enabled notifications and click-through analytics for campaign performance tracking",
+    "Native integrations with Shopify, WooCommerce, and HubSpot, available from the Basic plan",
+    "A separately-priced chatbot builder add-on (₹2,500/month) for teams wanting deeper conversational automation",
+    "AI Ads Manager and template generator tools bundled with higher-tier plans"
+  ],
+  "companyInfo": {
+    "founded": "2020, Gurugram, India, by Gautam Shelley, Mohit Dua, and Ajay Rathore",
+    "hq": "Gurugram, Haryana, India",
+    "funding": "Reported total funding of roughly $100K — notably minimal relative to its reported scale (150,000+ businesses, 173 employees by 2026), suggesting a largely bootstrapped growth trajectory if the figures are accurate",
+    "employees": "Reported growth from ~7 employees (Dec 2021) to 69 (Jul 2024) to 173 (Aug 2026)"
+  },
+  "faq": [
+    {
+      "question": "Does AiSensy support channels beyond WhatsApp?",
+      "answer": "No — this is a WhatsApp-only platform, unlike broader omnichannel competitors (Respond.io, Trengo, Wati) that also cover Instagram, Messenger, SMS, or voice. If your support and marketing volume is genuinely concentrated on WhatsApp specifically, that focus isn't a problem; if you need broader channel coverage, AiSensy isn't built for it."
+    },
+    {
+      "question": "How much does AiSensy actually cost?",
+      "answer": "The published platform fee is genuinely low — ₹1,500/month (about $18 USD) for Basic with unlimited users, or ₹3,200/month (about $38 USD) for Pro. WhatsApp's own per-conversation fees are charged separately on top of either plan, and a chatbot builder add-on runs an additional ₹2,500/month if you want deeper conversational automation beyond the base plan."
+    },
+    {
+      "question": "How sophisticated is AiSensy's AI chatbot?",
+      "answer": "It's described in fairly general marketing terms — using AI and machine learning to understand customer needs and respond intelligently — without the specific technical detail some competitors publish, such as a named knowledge-base training method or an independently-referenced resolution benchmark. It does document a real, functional handoff: when the chatbot can't resolve a query, it notifies the team so a human agent can take over."
+    },
+    {
+      "question": "What's the most common complaint about AiSensy?",
+      "answer": "Analytics depth. Independent reviewers specifically describe campaign analytics as fairly basic, flag a lack of click-tracking in WhatsApp marketing campaigns as a real drawback, and generally note limitations in advanced analytics capabilities relative to competitors. One reviewer also specifically states the pricing isn't suitable for startup businesses, despite the relatively low headline platform fee."
+    },
+    {
+      "question": "Does AiSensy integrate with Shopify?",
+      "answer": "Yes, and it's available starting from the Basic plan rather than gated to a higher tier — a genuinely accessible inclusion. WooCommerce and HubSpot integrations are also documented, though with less independently-confirmed depth of detail than the deeper, purpose-built Shopify-AI implementations some competitors (Wati, Interakt) offer."
+    },
+    {
+      "question": "How does AiSensy compare to Wati or Gallabox?",
+      "answer": "AiSensy sits a notch below both on independent review scores (4.3/5 on G2 versus roughly 4.6/5 for Wati and Gallabox) and offers a narrower feature set — no independently confirmed deep AI-commerce integration comparable to Wati's Shopify cart-recovery app, and real reviewer complaints about analytics depth. Its clearest advantage is price: the published platform fees are meaningfully lower than most WhatsApp-focused competitors."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "The dashboard is described by some reviewers as user-friendly and by others as cluttered, with specific confusion noted around button placement and icon positioning." },
+    { "dimension": "AI Quality", "score": 2, "note": "The AI Chatbot is documented in general terms without the specific technical detail (training method, resolution benchmark) that more mature competitors publish, and no independent audit of its accuracy exists." },
+    { "dimension": "Omnichannel Support", "score": 1, "note": "This is a WhatsApp-only platform with no documented support for Instagram, Messenger, SMS, or other channels — a meaningfully narrower scope than most competitors reviewed in this category." },
+    { "dimension": "Pricing Value", "score": 3, "note": "The published platform fee is genuinely low relative to the category, but at least one reviewer specifically describes the real total pricing (once WhatsApp conversation fees are included) as unsuitable for startup businesses." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "A solid but not category-leading review base (4.3/5 on G2), a notch below direct competitors Wati and Gallabox, with specific complaints about analytics depth and template-approval/delivery issues." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 2, "note": "AiSensy is documented as a WhatsApp Business API platform specifically, with no confirmed native support for Instagram, Messenger, SMS, or other channels — a meaningfully narrower channel scope than most competitors in this category." },
+    { "key": "omnichannel-unification", "score": 2, "note": "Multi-agent live chat unifies a team's access to one WhatsApp number, but with no other channels to unify, this is single-channel team collaboration rather than true cross-channel unification." },
+    { "key": "ai-availability", "score": 3, "note": "A real, no-code AI chatbot builder exists and is documented as using AI/ML to understand and respond to customer questions, though described in general marketing terms without the specific technical depth (RAG, named training method) some competitors publish." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found, and no specific vendor-cited percentage claim was found either — genuinely unverifiable in either direction." },
+    { "key": "ai-training-method", "score": 2, "note": "No specific, named training mechanism (comparable to Wati's KnowBot or SleekFlow's self-healing knowledge base) was found documented for AiSensy's AI chatbot." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for the AI chatbot." },
+    { "key": "automation-depth", "score": 3, "note": "A no-code chatbot builder, scheduleable broadcasts, and smart audience segmentation represent real automation capability, though without the multi-step agentic action detail more AI-forward competitors document." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection during an active conversation was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 3, "note": "Multi-agent Live Chat lets a whole team work from one shared WhatsApp number, which is real team-inbox functionality within the platform's single-channel scope." },
+    { "key": "ai-human-handoff", "score": 3, "note": "Documented as notifying the team to take over when the AI chatbot can't resolve a query or the customer explicitly requests a human — a real, if simply-described, handoff mechanism." },
+    { "key": "internal-collaboration", "score": 3, "note": "Internal notes and role-based access (Live Chat Agent vs. Manager) are documented, established features for basic team coordination." },
+    { "key": "canned-responses", "score": 4, "note": "Quick replies and saved responses are documented, established features used alongside internal notes for faster team responses." },
+    { "key": "integration-shopify", "score": 4, "note": "A native Shopify integration is documented as accessible starting from the Basic plan — a genuinely accessible inclusion, though without the deeper, purpose-built AI-commerce capability (cart recovery, order-lookup agent) some competitors document specifically." },
+    { "key": "integration-woocommerce", "score": 3, "note": "A native WooCommerce integration is documented alongside Shopify and HubSpot, with less independently-confirmed depth of detail specifically for WooCommerce." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress plugin was found in the materials reviewed." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "No specific Zapier, Make, or n8n integration was confirmed in the materials reviewed." },
+    { "key": "integration-crm", "score": 3, "note": "A native HubSpot integration is documented, though without independently confirmed detail on Salesforce or Pipedrive support." },
+    { "key": "order-payment-data-access", "score": 2, "note": "Payment-portal and ecommerce-platform integrations are documented generically, but no specific, dedicated order-lookup or cart-recovery AI capability comparable to Wati's or Interakt's Shopify apps was found for AiSensy." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "Independent reviewers specifically and repeatedly describe campaign analytics as fairly basic, flag a lack of click-tracking as a real drawback, and note limited advanced analytics capabilities — a documented, real gap rather than an absence of evidence." },
+    { "key": "pricing-transparency", "score": 3, "note": "Published tier prices are clear and genuinely low, but WhatsApp's own per-conversation fees apply separately on top, and at least one reviewer specifically describes the real total cost as unsuitable for startup businesses despite the low headline fee." },
+    { "key": "api-webhook-extensibility", "score": 2, "note": "No detailed public API or webhook-event documentation was confirmed in the materials reviewed." }
+  ],
+  "pricing": {
+    "model": "Per-account tiered SaaS with unlimited users, plus separate WhatsApp per-conversation fees and add-ons",
+    "startingPrice": "₹1,500/mo (~$18 USD), Basic, unlimited users",
+    "plans": [
+      { "name": "Basic", "price": "₹1,500/mo (~$18 USD)", "billing": "Monthly", "notes": "Unlimited users, multi-agent live chat, no-code chatbot builder, quick replies, Shopify/WooCommerce/HubSpot integrations." },
+      { "name": "Pro", "price": "₹3,200/mo (~$38 USD)", "billing": "Monthly", "notes": "Everything in Basic plus broadcast scheduler, campaign budget controls, up to 100 tags and 20 attributes." },
+      { "name": "Chatbot Builder (add-on)", "price": "₹2,500/mo (~$30 USD)", "billing": "Monthly, add-on", "notes": "Deeper conversational automation beyond the base plan's included chatbot capability." }
+    ]
+  },
+  "pricingBreakdown": "AiSensy's headline platform fees are genuinely among the lowest in this comparison set — roughly $18/month for Basic and $38/month for Pro, both with unlimited users, which undercuts most competitors by a wide margin on the base subscription alone. The catch, consistent with every WhatsApp Business API platform in this category, is that WhatsApp's own per-conversation fees apply separately and aren't included in either number, and the chatbot builder add-on (₹2,500/month, roughly $30) is a further cost if you want deeper automation than the base plan includes. That said, at least one independent reviewer specifically describes the real total pricing as unsuitable for startup businesses — worth taking seriously even though it seems to contradict the low headline fee, since it likely reflects the combined weight of conversation fees and add-ons at real usage volume. Model your expected conversation volume against WhatsApp's own per-message rates before assuming the low platform fee represents your total monthly cost.",
+  "capabilities": [
+    { "area": "WhatsApp-Only Focus", "note": "AiSensy does one thing — WhatsApp Business API management — without trying to be a broader omnichannel platform. For a business whose support and marketing genuinely live entirely on WhatsApp, that focus keeps the product simple and the price low. For anyone needing Instagram, Messenger, or other channel coverage, this isn't the right tool at all." },
+    { "area": "AI Chatbot", "note": "Real and functional, but documented in general terms rather than with the specific technical depth (named training methods, resolution benchmarks) more mature AI-focused competitors publish. The human-handoff mechanism is genuine and straightforward: when the bot can't help, the team gets notified to step in." },
+    { "area": "Team Collaboration", "note": "Multi-agent live chat, role-based access, quick replies, and internal notes cover the fundamentals of running a small support team on one WhatsApp number reasonably well, without the deeper routing or escalation sophistication some competitors document." },
+    { "area": "Analytics", "note": "The clearest, most consistently documented gap in this profile. Independent reviewers specifically and repeatedly flag basic campaign analytics and a lack of click-tracking as real limitations — worth testing directly if reporting depth matters to your evaluation." },
+    { "area": "Ecommerce Integration", "note": "Shopify, WooCommerce, and HubSpot integrations are real and accessible from the entry-level plan, which is a genuine value point, but they don't appear to include the deeper, purpose-built AI-commerce capability (cart-recovery agents, conversational order lookups) that dedicated competitors like Wati and Interakt document specifically." }
+  ],
+  "pros": [
+    "Genuinely low platform fees (roughly $18-38/month) with unlimited users included at every tier",
+    "Real, accessible Shopify, WooCommerce, and HubSpot integrations available from the entry-level Basic plan",
+    "A capital-efficient growth story — reportedly scaling to 150,000+ businesses and 173 employees on roughly $100K in total funding",
+    "Straightforward multi-agent live chat and quick-reply functionality that reviewers describe as easy to use day to day",
+    "A real, functional AI-to-human handoff mechanism when the chatbot can't resolve a query"
+  ],
+  "cons": [
+    "WhatsApp-only — no native Instagram, Messenger, SMS, or other channel support, a meaningfully narrower scope than most competitors in this category",
+    "Independent reviewers specifically and repeatedly describe campaign analytics as basic and flag a lack of click-tracking as a real drawback",
+    "The AI chatbot is documented in general terms without the specific technical depth (training method, resolution benchmark) more mature competitors publish",
+    "At least one reviewer describes real total pricing as unsuitable for startup businesses, despite the low headline platform fee",
+    "No dedicated Zapier/Make integration, no website-builder integrations beyond the core ecommerce platforms, and review scores sit a notch below direct competitors Wati and Gallabox"
+  ],
+  "sentiment": [
+    {
+      "quote": "Overall, AiSensy has provided a reliable way for us to engage with our users on WhatsApp and this has helped us get our campaigns running quickly.",
+      "source": "G2 review",
+      "url": "https://www.g2.com/products/aisensy/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Aisensy pricing is not suitable for startup business.",
+      "source": "G2 review",
+      "url": "https://www.g2.com/products/aisensy/reviews",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Lacks click tracking in WhatsApp marketing campaigns is a major drawback.",
+      "source": "G2 review",
+      "url": "https://www.g2.com/products/aisensy/reviews",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Small-to-mid Indian businesses wanting an affordable, no-frills WhatsApp Business API tool for support and broadcast marketing",
+    "Teams whose customer engagement is genuinely concentrated entirely on WhatsApp rather than spread across multiple channels",
+    "Shopify or WooCommerce merchants wanting a basic, low-cost ecommerce integration without needing deep AI-commerce sophistication",
+    "Budget-conscious buyers prioritizing low platform fees over advanced analytics or broader channel coverage"
+  ],
+  "verdict": "AiSensy's growth story is genuinely notable on its own terms — reportedly scaling to 150,000+ businesses and 173 employees on roughly $100K in total funding is an unusually capital-efficient trajectory if the figures hold up, and it tracks with a product built to be simple and cheap rather than feature-maximal. The pricing reflects that philosophy directly: genuinely low platform fees with unlimited users, real Shopify and WooCommerce integration available from the entry tier, and straightforward multi-agent live chat that reviewers describe as easy to pick up. Where this product is honestly outmatched by its closest competitors is depth. It's WhatsApp-only, with no other channel to unify into a broader omnichannel view the way Respond.io, Trengo, or even Wati document. The AI chatbot is real but described in general terms without the specific technical grounding — named training methods, resolution benchmarks — that more AI-forward competitors publish, and independent reviewers consistently and specifically flag analytics depth and click-tracking as real gaps rather than a vague 'could be better' complaint. My honest read: if your business genuinely lives on WhatsApp alone, doesn't need sophisticated AI resolution or deep reporting, and wants the lowest realistic platform fee in this category, AiSensy does that specific job well. If you need broader channel coverage, deeper AI capability, or more mature analytics, look at Wati, Trengo, or Respond.io instead — all reviewed elsewhere on this site — even though they cost meaningfully more.",
+  "rating": 3.2,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

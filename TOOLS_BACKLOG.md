@@ -46,6 +46,8 @@ no longer applies going forward.
 - [x] Trengo
 - [x] Interakt (shares founder with Haptik, AI powered by Haptik's platform, noted in profile)
 - [x] Wati (flagged serious repeated billing/cancellation complaints in reviews)
+- [x] AiSensy
+- [x] Yellow.ai (flagged pricing opacity, WhatsApp number lock-in, and intent-matching complaints)
 
 ## Attempted, failed, not yet retried
 
@@ -55,7 +57,7 @@ no longer applies going forward.
 
 Live Chat & Helpdesk: (all done — see "Added so far" below)
 
-WhatsApp / Omnichannel Messaging: AiSensy, Yellow.ai, Twilio Flex,
+WhatsApp / Omnichannel Messaging: Twilio Flex,
 MessageBird (Bird), Zoko, DelightChat, Charles, Gallabox, Verloop,
 Haptik, Kommo, 360dialog, Rasayel
 

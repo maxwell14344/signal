@@ -1,0 +1,148 @@
+{
+  "slug": "ada",
+  "name": "Ada",
+  "logoUrl": "",
+  "website": "https://ada.cx",
+  "tagline": "A Toronto-built, enterprise-grade 'Agentic Customer Experience' platform with genuinely excellent independent reviews (G2: 4.6/5, 173 reviews) and deep CRM/analytics depth — built for large enterprises with Salesforce or Zendesk, not SMB ecommerce storefronts.",
+  "tldr": [
+    "Ada was founded in Toronto in 2016 by Mike Murchison and David Hariri, has raised more than $200M in total funding, and reached unicorn status with a $1.2B valuation in its May 2021 Series C ($130M, led by Spark Capital) — we found no evidence of a new equity round or valuation update since then, so treat the $1.2B figure as historical, not current.",
+    "The platform, which Ada now markets as an 'Agentic Customer Experience' (ACX) system, is built around four components: a Reasoning Engine for cross-channel logic, a Conversation Hub spanning voice/messaging/email in 60+ languages, a Performance Center with a genuinely well-regarded 'Playbooks' workflow builder, and a Developer Toolkit with APIs, SDKs, and an MCP Server.",
+    "Ada's deepest, most confirmed integrations are Salesforce and Zendesk — both support full knowledge ingestion and human handoff with context — while HubSpot, Zapier, and Make could not be confirmed as native integrations, and no dedicated integration was found for WooCommerce, WordPress, Wix, Squarespace, or Webflow.",
+    "Shopify integration is real (order lookup, customer lookup by email, shipment tracking) but notably absent from Ada's current flagship integrations page, suggesting it's a secondary-tier connector relative to Ada's enterprise CRM focus; for travel/airline clients, Ada has dedicated GDS integrations with Amadeus, Sabre, and Galileo.",
+    "Ada does not publish pricing — its pricing page redirects directly to a demo-booking form — and third-party estimates (unverified) suggest enterprise deployments commonly run $70,000-$300,000+ per year; pricing opacity is the single most repeated criticism across verified reviews.",
+    "Independent sentiment is genuinely excellent and consistent across platforms (G2: 4.6/5 across 173 reviews, Capterra: 4.7/5 across 15), with support responsiveness repeatedly cited as a strength — no serious complaint pattern (billing fraud, lockouts, hostile support) was found, though one reviewer documented a real incident of the AI offering to perform actions it couldn't actually complete."
+  ],
+  "categories": { "primary": "ai-support-agents", "secondary": ["ai-chatbots"] },
+  "channels": ["Website Widget", "Email", "Voice", "SMS", "In-App Messaging", "WhatsApp (via Zendesk Sunshine Conversations)", "Facebook Messenger (via Zendesk Sunshine Conversations)", "Instagram (via Zendesk Sunshine Conversations)"],
+  "keyFeatures": [
+    "A 'Reasoning Engine' providing unified AI logic and safety controls across every channel",
+    "A 'Conversation Hub' deploying across voice, messaging, email, and custom channels in 60+ languages",
+    "'Playbooks' — a plain-language, SOP-to-workflow automation builder for multi-step processes like refunds, rebookings, and identity authentication",
+    "'Coaching' and 'Simulations' tools for testing and refining AI agent behavior before and after deployment",
+    "A Developer Toolkit with a full REST API, webhooks with delivery retries and replay, SDKs, and (as of August 2026) an MCP Server for surfacing Ada's analytics inside external AI tools like Claude or ChatGPT",
+    "Deep knowledge ingestion from Zendesk Guide, Salesforce Knowledge, Contentful, GitHub, Docusaurus, and several dedicated helpdesk knowledge bases",
+    "Enterprise-grade analytics: automated resolution rate, CSAT, average handle time, escalation frequency, cost per resolution, and containment rate, broken out by channel, language, region, and topic",
+    "SOC 2 Type II, GDPR, HIPAA, and PCI DSS compliance, plus AIUC-1, an AI-safety standard for customer-service agents Ada says it helped author"
+  ],
+  "companyInfo": {
+    "founded": "2016, Toronto, Canada, by Mike Murchison (CEO) and David Hariri",
+    "hq": "Toronto, Ontario, Canada",
+    "funding": "More than $200M raised total, per Ada's own site. Confirmed rounds: $130M Series C (May 2021, led by Spark Capital with Tiger Global, $1.2B valuation) and $44M Series B (March 2020). Series A amount and lead investor conflict across sources ($19M led by Bessemer vs. $14.2M led by FirstMark) and could not be resolved. No new equity round or valuation update was found since the 2021 Series C.",
+    "employees": "Conflicting third-party estimates only, ranging roughly 653-775 within the same year — not an Ada-disclosed figure"
+  },
+  "faq": [
+    {
+      "question": "Is Ada a chatbot or something more?",
+      "answer": "Ada explicitly positions itself beyond a simple chatbot, using the term 'Agentic Customer Experience' (ACX) to describe a platform built around a shared reasoning layer, multi-step workflow automation ('Playbooks'), and deep handoff integration with enterprise systems like Salesforce, Zendesk, and airline GDS platforms — the positioning and underlying architecture both support treating it as an enterprise AI-agent platform rather than a basic bot builder."
+    },
+    {
+      "question": "How much does Ada cost?",
+      "answer": "Ada doesn't publish pricing — navigating to its pricing page redirects directly to a demo-booking form, confirming an enterprise, quote-based sales model. Third-party estimates (unverified against any Ada-published figure) suggest deployments commonly range from around $30,000/year at the low end to $150,000-$300,000+/year for larger enterprise implementations. Pricing opacity is, in fact, the single most repeated criticism in independent reviews."
+    },
+    {
+      "question": "Does Ada integrate with Shopify or other ecommerce platforms?",
+      "answer": "Shopify integration is real and documented — order lookup, customer lookup by email, and shipment tracking are all confirmed — but it's notably absent from Ada's current flagship integrations directory, suggesting it's a secondary connector relative to Ada's primary enterprise CRM focus. No dedicated integration was found for WooCommerce, WordPress, Wix, Squarespace, or Webflow, so businesses on those platforms should not assume deep native support."
+    },
+    {
+      "question": "How many languages does Ada support?",
+      "answer": "Ada's own site confirms support for 60 languages across chat, email, and SMS, with G2's verified product listing naming roughly 53 specific languages. One caveat worth flagging directly with Ada during a sales process: voice support reportedly covers only a subset of that full language list, and we couldn't confirm an exact voice-specific count."
+    },
+    {
+      "question": "Has Ada had any accuracy or reliability issues?",
+      "answer": "Independent reviews are overwhelmingly positive on reliability, but at least one verified reviewer documented a real, specific incident where Ada's AI offered to perform an action — canceling an order — that it wasn't actually configured to complete. The reviewer described this as since corrected through coaching rather than an ongoing pattern, but it's a genuine data point worth weighing on the accuracy/hallucination side of any evaluation."
+    },
+    {
+      "question": "What do independent reviews say about Ada's support and reliability?",
+      "answer": "Genuinely strong and consistent across platforms. G2 shows 4.6/5 across 173 reviews and Capterra shows 4.7/5 across 15, with support responsiveness and hands-on onboarding repeatedly cited as a top strength — one reviewer specifically noted zero noticeable downtime over two years of use. We found no evidence of billing fraud, account lockouts, or hostile support in any source we could independently verify."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Independent reviews repeatedly praise the no-code Playbooks builder and a hands-on, responsive onboarding team, with average implementation time around two months per G2's buyer-survey data." },
+    { "dimension": "AI Quality", "score": 4, "note": "A genuinely enterprise-grade agentic architecture (Reasoning Engine, Playbooks, Developer Toolkit) with real compliance certifications, offset by at least one verified reviewer account of the AI offering to perform an action it couldn't complete." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "Native voice, SMS, email, and website-widget support confirmed directly; social/messaging channels like WhatsApp reportedly route through Zendesk Sunshine Conversations middleware rather than being fully native." },
+    { "dimension": "Pricing Value", "score": 2, "note": "No published pricing exists at all — the pricing page redirects straight to a demo-booking form — and pricing opacity is the single most repeated criticism across verified reviews." },
+    { "dimension": "Vendor Support Quality", "score": 5, "note": "Support responsiveness and onboarding quality are consistently and repeatedly the top-praised theme across both G2 and Capterra, with no serious complaint pattern found in any independently verified source." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Website widget, email, voice, SMS, and in-app messaging are confirmed native channels; WhatsApp, Facebook Messenger, and Instagram are supported but reportedly via Zendesk Sunshine Conversations middleware rather than fully native Ada channels." },
+    { "key": "omnichannel-unification", "score": 4, "note": "The 'Conversation Hub' and shared 'Reasoning Engine' provide a real, documented unified logic layer across channels, confirmed directly on Ada's own platform pages." },
+    { "key": "ai-availability", "score": 5, "note": "A genuinely enterprise-grade agentic architecture — Reasoning Engine, Playbooks workflow automation, Developer Toolkit, and a recently added MCP Server — confirmed across Ada's own documentation and independent reviews." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure exists, and at least one verified reviewer documented a specific incident of the AI offering to perform an action (canceling an order) it wasn't actually able to complete." },
+    { "key": "ai-training-method", "score": 4, "note": "An extensive, confirmed list of ingestion sources (Zendesk Guide, Salesforce Knowledge, Contentful, GitHub, Docusaurus, and several dedicated helpdesk knowledge bases), though notably missing Confluence, Notion, SharePoint, and Google Docs — a real gap independently corroborated by reviewer complaints." },
+    { "key": "hallucination-controls", "score": 3, "note": "Ada states responses are grounded in approved sources and verified for compliance, tone, and accuracy before reaching customers, backed by real compliance certifications (SOC 2, GDPR, HIPAA, PCI DSS, AIUC-1), though at least one verified reviewer documented a real accuracy lapse." },
+    { "key": "automation-depth", "score": 4, "note": "'Playbooks' is a genuinely well-regarded, repeatedly praised plain-language workflow builder for multi-step processes, confirmed across independent reviews." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No specific, independently confirmed sentiment or intent-detection feature was found beyond Ada's general analytics suite." },
+    { "key": "unified-inbox", "score": 3, "note": "The Conversation Hub unifies AI-agent conversations across channels, though this is architected as an AI-orchestration layer rather than a traditional human-agent shared inbox." },
+    { "key": "ai-human-handoff", "score": 5, "note": "A confirmed, well-documented handoff mechanism passes full conversation context to Zendesk, Salesforce, Genesys, NICE CXone, Twilio Flex, Amazon Connect, and ServiceNow across chat, email, and voice — genuinely comprehensive." },
+    { "key": "internal-collaboration", "score": 1, "note": "No internal-notes, team-chat, or human-agent-collaboration feature was confirmed against any primary Ada source — consistent with Ada's positioning as an AI-agent-first platform rather than a human-agent-seat tool." },
+    { "key": "canned-responses", "score": 1, "note": "Not confirmed as a feature of the current product; this capability is more characteristic of human-agent-seat tools, which isn't Ada's primary focus." },
+    { "key": "integration-shopify", "score": 3, "note": "Real and documented — order lookup, customer lookup by email, and shipment tracking are confirmed — but notably absent from Ada's current flagship integrations directory, suggesting secondary-tier status relative to its enterprise CRM integrations." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No evidence of a dedicated integration was found." },
+    { "key": "integration-wordpress", "score": 1, "note": "No evidence of a dedicated integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No evidence of a dedicated integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No evidence of a dedicated integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No evidence of a dedicated integration was found." },
+    { "key": "integration-automation-platforms", "score": 1, "note": "No native Zapier or Make connector was found on Ada's official integrations page or developer docs; any such connection would have to be custom-built via Ada's open API." },
+    { "key": "integration-crm", "score": 4, "note": "Salesforce and Zendesk both have deep, confirmed native integrations supporting knowledge ingestion and full-context human handoff; HubSpot could not be confirmed as a native integration despite one secondary-source claim." },
+    { "key": "order-payment-data-access", "score": 4, "note": "Genuinely strong: confirmed order tracking, returns, and exchanges via Shopify, plus dedicated GDS integrations (Amadeus, Sabre, Galileo) for travel clients enabling live booking changes and cancellations — Ada functions as an orchestration layer calling into the client's own backend systems." },
+    { "key": "multi-language-support", "score": 5, "note": "Confirmed support for 60 languages across chat, email, and SMS, with roughly 53 specific languages named on Ada's verified G2 listing — genuinely comprehensive, though voice-specific language coverage is narrower and not precisely quantified." },
+    { "key": "analytics-depth", "score": 4, "note": "Confirmed, genuinely enterprise-grade reporting — resolution rate, CSAT, average handle time, escalation frequency, cost per resolution, and containment rate, broken out by channel, language, region, and topic — though reviewers note custom/ad-hoc reporting is more limited than desired." },
+    { "key": "pricing-transparency", "score": 2, "note": "No pricing is published anywhere — the pricing page redirects directly to a demo-booking form — and pricing opacity is the single most repeated criticism across verified independent reviews." },
+    { "key": "api-webhook-extensibility", "score": 5, "note": "A genuinely robust developer platform: a full REST API, webhooks with retry and replay, SDKs, and a recently added MCP Server for surfacing analytics inside external AI tools." }
+  ],
+  "pricing": {
+    "model": "Enterprise sales-quote only; no published pricing page exists",
+    "startingPrice": "Not publicly disclosed",
+    "plans": [
+      { "name": "Enterprise (only tier)", "price": "Custom quote", "billing": "Custom/Annual", "notes": "Third-party estimates (unverified) suggest deployments commonly range from roughly $30,000/year at the low end to $150,000-$300,000+/year for larger implementations." }
+    ]
+  },
+  "pricingBreakdown": "Ada does not publish pricing in any form — visiting its pricing page redirects directly to a demo-booking form, confirming a fully enterprise, quote-based sales model. This is a known and disclosed characteristic of the enterprise AI-agent segment Ada competes in, not a bait-and-switch pattern, but it's still worth being direct about: pricing opacity is the single most repeated criticism across every independently verified review we found. Third-party estimates, none confirmed against an Ada-published figure, suggest a wide range from around $30,000/year at the low end to $150,000-$300,000+/year for larger enterprise deployments, with G2's buyer-survey data separately indicating an average discount around 16% off initial quotes and an average payback period of roughly 13 months. If pricing predictability matters to your evaluation process, budget significant time for a negotiated enterprise sales cycle rather than expecting a self-serve, published rate card.",
+  "capabilities": [
+    { "area": "Enterprise Architecture and CRM Depth", "note": "This is Ada's clearest, most consistently validated strength: a genuinely deep Salesforce and Zendesk integration with full-context human handoff, backed by real compliance certifications (SOC 2, HIPAA, PCI DSS, AIUC-1) that matter for large, regulated enterprise buyers." },
+    { "area": "The SMB/Ecommerce Integration Gap", "note": "Worth being direct about: Ada is not built for the SMB ecommerce-platform checklist. Shopify support is real but secondary-tier, and there's no evidence of WooCommerce, WordPress, Wix, Squarespace, or Webflow integration. A business on one of those platforms looking for deep native ecommerce automation should look elsewhere; Ada's strength is enterprise CRM and travel-industry GDS integration instead." },
+    { "area": "Playbooks as a Genuine Differentiator", "note": "Independent reviewers repeatedly single out Playbooks — the plain-language, SOP-to-workflow automation builder — as a standout feature, distinct from simpler no-code flow builders in how it translates operational documentation directly into automated processes." },
+    { "area": "Pricing Opacity as the Central Friction Point", "note": "With no published pricing anywhere and third-party estimates ranging as widely as $30,000 to $300,000+ per year, this is the most consistent, repeated point of buyer friction found across every review source — treat it as a first-class consideration in any evaluation, not a minor footnote." },
+    { "area": "A Real, Specific Accuracy Incident Worth Weighing", "note": "One verified reviewer documented the AI offering to perform an action (canceling an order) it wasn't actually configured to complete — described as since corrected through coaching, but a genuine, specific data point on the hallucination/accuracy side that shouldn't be glossed over given Ada's enterprise positioning and marketing claims around grounded, verified responses." }
+  ],
+  "pros": [
+    "Genuinely excellent, consistent independent review sentiment across platforms (G2: 4.6/5 across 173 reviews; Capterra: 4.7/5 across 15), with support responsiveness repeatedly cited as a top strength",
+    "Deep, confirmed Salesforce and Zendesk integrations with full-context human handoff across chat, email, and voice",
+    "A genuinely well-regarded, plain-language workflow automation builder (Playbooks) that independent reviewers repeatedly single out",
+    "Comprehensive multi-language support (60 languages) and a robust, developer-friendly API/webhook/MCP extensibility layer",
+    "Real compliance certifications (SOC 2 Type II, GDPR, HIPAA, PCI DSS, AIUC-1) suited to regulated enterprise buyers"
+  ],
+  "cons": [
+    "No published pricing anywhere — the pricing page redirects directly to a demo-booking form, and pricing opacity is the single most repeated review criticism",
+    "No confirmed native integration with WooCommerce, WordPress, Wix, Squarespace, Webflow, HubSpot, Zapier, or Make",
+    "Shopify integration is real but notably secondary-tier relative to Ada's core enterprise CRM focus",
+    "At least one verified, specific incident of the AI offering to perform an action it couldn't actually complete",
+    "No confirmed internal team-collaboration or canned-response features, reflecting its AI-agent-first rather than human-agent-seat positioning"
+  ],
+  "sentiment": [
+    {
+      "quote": "My favourite feature is the playbooks... The Ada system has never failed us, and in the two years I've been using it, we've never had any noticeable downtime.",
+      "source": "G2 (Danielle G., Director Customer Support, 5/29/2026)",
+      "url": "https://www.g2.com/products/ada-support-inc-ada/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Pricing is a big one... For things like Playbooks, I've found that once a user is engaged in a playbook process they're sometimes 'stuck' in it.",
+      "source": "G2 (Victor W., Enterprise, >1000 employees, 2/19/2026)",
+      "url": "https://www.g2.com/products/ada-support-inc-ada/reviews",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Large enterprises already standardized on Salesforce or Zendesk wanting deep, context-preserving AI-to-human handoff",
+    "Regulated industries needing SOC 2, HIPAA, or PCI DSS-compliant AI customer service",
+    "Travel and airline businesses needing live GDS integration (Amadeus, Sabre, Galileo) for booking changes and cancellations",
+    "Global businesses needing genuinely comprehensive multi-language support across chat, email, and SMS"
+  ],
+  "verdict": "Ada is a genuinely strong platform for the specific buyer it's built for — a large enterprise, likely already running Salesforce or Zendesk, that needs an AI agent capable of real multi-step workflow automation with full-context human handoff and enterprise-grade compliance. The independent review record backs this up convincingly: 4.6/5 across 173 G2 reviews and 4.7/5 across 15 Capterra reviews, with support responsiveness and the Playbooks automation builder repeatedly singled out as genuine strengths, and no evidence anywhere we could verify of the serious complaint patterns — billing fraud, account lockouts, hostile support — that dragged down several other tools in this category. Where Ada's rubric scores drop sharply, it's worth being clear this reflects who the product isn't built for rather than a quality failure: there's no confirmed native integration with WooCommerce, WordPress, Wix, Squarespace, or Webflow, Shopify support is real but clearly secondary to Ada's enterprise CRM focus, and features like canned responses or internal team collaboration simply aren't part of an AI-agent-first platform's scope. The two things we'd flag most seriously for any buyer are pricing and accuracy. Pricing opacity is real and consistently the top complaint across every review source we checked — Ada publishes nothing, and third-party estimates span an enormous range from $30,000 to $300,000+ per year, so budget real time for a negotiated enterprise sales cycle. And while Ada's marketing emphasizes grounded, verified responses, at least one verified reviewer documented a specific incident where the AI offered to perform an action it wasn't actually configured to complete — a useful reminder that even well-architected AI agents warrant ongoing monitoring, not blind trust. For the right buyer — an enterprise with the CRM stack and budget to match — Ada is one of the more credible, well-reviewed options in this category.",
+  "rating": 4.1,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

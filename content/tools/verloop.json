@@ -1,0 +1,150 @@
+{
+  "slug": "verloop",
+  "name": "Verloop.io",
+  "logoUrl": "",
+  "website": "https://www.verloop.io",
+  "tagline": "An 80-language, voice-and-chat AI automation platform just acquired by Nurix AI in July 2026 — genuinely strong reviews, real integration gaps, and a fresh corporate transition still unfolding.",
+  "tldr": [
+    "Verloop.io was founded in 2015 in Bengaluru by Gaurav Singh, raised $15.3M across 6 rounds (led by investors including Alpha Wave Global and Parampara Capital), and was acquired by Nurix AI — a company founded just in 2024 by Mukesh Bansal and Abhishek Asawa — in July 2026.",
+    "The acquisition is very recent and strategically significant: Nurix is combining its own NuPlay voice-AI platform with Verloop's chat-automation expertise and enterprise customer base (banking, fintech, retail, telecom) into one unified conversational platform, targeting 20 million+ automated customer interactions per month — Gaurav Singh is joining Nurix's leadership team rather than departing.",
+    "Multi-language support is a genuine standout: 80+ languages across voice and chat, positioning Verloop among the strongest tools in this category on this specific dimension, alongside claimed 90%+ query deflection across 5,000+ businesses and 100 million users served.",
+    "Reviews are consistently strong — 4.7/5 on both G2 and Capterra, with a reported 9.4/10 support-quality score on G2 that independent analysis describes as exceeding every competitor evaluated — though the Capterra sample (10 reviews) is far smaller than G2's (230).",
+    "Pricing has reportedly shifted from a published price list to a sales-quote-only model, and independent reviewers specifically flag limited third-party integrations and a desire for more customizable canned responses as real, documented gaps.",
+    "Best for enterprises in banking, fintech, retail, or telecom needing genuinely multilingual voice-and-chat automation at scale — but confirm current product direction, pricing, and roadmap continuity directly given the very recent Nurix acquisition before committing to a long-term contract."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["Web", "Mobile Apps", "Facebook Messenger", "Instagram", "WhatsApp", "Voice"],
+  "keyFeatures": [
+    "AI-driven self-service combining Machine Learning, Automated Speech Recognition (ASR), and Natural Language Processing across both voice and chat",
+    "Multilingual support spanning 80+ languages for both voice and text automation",
+    "Real-time agent support tools alongside the autonomous AI layer for human-assisted conversations",
+    "Actionable quality-assurance insights derived from automated conversation analysis",
+    "Availability across web, mobile apps, Messenger, Instagram, and WhatsApp from one platform",
+    "Enterprise-focused deployment history across banking, fintech, retail, and telecommunications",
+    "Post-acquisition integration with Nurix AI's NuPlay voice-AI platform, combining voice and chat automation into one unified system",
+    "A claimed 90%+ query deflection rate across a reported 5,000+ business customer base"
+  ],
+  "companyInfo": {
+    "founded": "2015, Bengaluru, India, by Gaurav Singh; acquired by Nurix AI in July 2026",
+    "hq": "Bengaluru, India (under Nurix AI following the 2026 acquisition)",
+    "funding": "$15.3M raised across 6 rounds prior to acquisition, including a $5M Series A (2020); acquired by Nurix AI (founded 2024 by Mukesh Bansal and Abhishek Asawa) in July 2026 for undisclosed terms",
+    "employees": "Not publicly disclosed; reports 5,000+ business customers and 100 million users served"
+  },
+  "faq": [
+    {
+      "question": "Is Verloop.io still an independent company?",
+      "answer": "No — Nurix AI acquired Verloop.io in July 2026, a very recent transaction at the time of this review. Nurix is combining its own NuPlay voice-AI platform with Verloop's chat-automation technology into a unified conversational AI system, and Verloop's founder Gaurav Singh has joined Nurix's leadership team to oversee product strategy and AI agent development rather than departing the company."
+    },
+    {
+      "question": "What does the Nurix acquisition mean for existing Verloop customers?",
+      "answer": "The stated strategic goal is combining voice and chat automation into one unified platform capable of handling over 20 million customer interactions per month — a genuine expansion of capability on paper. However, given how recent this acquisition is, existing and prospective customers should confirm directly with Nurix/Verloop how the product roadmap, pricing, and support structure are actually changing in practice, rather than assuming continuity based on pre-acquisition marketing."
+    },
+    {
+      "question": "How many languages does Verloop.io actually support?",
+      "answer": "80+ languages across both voice and chat, a genuinely exceptional figure that puts Verloop among the strongest multilingual conversational AI platforms in this entire category, comparable to enterprise players like Yellow.ai."
+    },
+    {
+      "question": "How does Verloop.io's pricing work now?",
+      "answer": "This has reportedly changed recently — older sources describe a published price list (a free Starter tier, a roughly $49/month Business tier, and Enterprise from $699/month), but more current information indicates Verloop has shifted to a sales-quote-only model with pricing no longer publicly displayed. Confirm current rates directly, especially given the ownership transition to Nurix AI."
+    },
+    {
+      "question": "What do independent reviewers say Verloop.io is missing?",
+      "answer": "Two specific, documented gaps stand out: limited integrations with third-party applications, and a desire for more customizable canned responses (suggesting the current implementation is functional but inflexible). Some reviewers also note occasional platform lag and that advanced chatbot flow configuration takes real effort to set up well."
+    },
+    {
+      "question": "How good are Verloop.io's reviews?",
+      "answer": "Genuinely strong — 4.7/5 consistently across both G2 and Capterra, with a reported 9.4/10 support-quality score on G2 that one independent analysis describes as exceeding every competitor it evaluated. The Capterra sample is much smaller (10 reviews) than G2's (230), so weight the G2 figure more heavily as the larger, more statistically meaningful sample."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Basic use is described as accessible, but reviewers specifically note that advanced chatbot flow configuration requires real effort." },
+    { "dimension": "AI Quality", "score": 4, "note": "Genuine ML/ASR/NLP-powered automation across both voice and chat, with a claimed 90%+ query deflection rate, though no independent audit of that figure was found." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "Real coverage across web, mobile apps, Messenger, Instagram, WhatsApp, and voice, though not as broad as the widest omnichannel competitors in this category." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Pricing has reportedly shifted from a published price list to a sales-quote-only model, a real transparency regression, compounded by reviewer concerns about pricing structure." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "A strong, independently reported 9.4/10 G2 support-quality score, though this needs re-verification given the very recent Nurix acquisition and any resulting support-team changes." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Documented native support for web, mobile apps, Facebook Messenger, Instagram, WhatsApp, and voice — solid breadth, though narrower than the category's widest omnichannel competitors." },
+    { "key": "omnichannel-unification", "score": 4, "note": "The platform is built around unifying AI-driven self-service across all supported channels, consistent with its enterprise customer-service-automation positioning." },
+    { "key": "ai-availability", "score": 4, "note": "Genuine ML, ASR, and NLP-powered automation spanning both voice and chat — a meaningfully more technically substantial AI implementation than a single-channel chatbot." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "The vendor claims 90%+ query deflection across its customer base, but no independent audit of this figure was found — treat it with the same skepticism applied to any unaudited vendor performance claim." },
+    { "key": "ai-training-method", "score": 2, "note": "No specific, named training or knowledge-ingestion method was found documented for Verloop's AI beyond the general ML/NLP description." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for Verloop's AI." },
+    { "key": "automation-depth", "score": 3, "note": "Real automation depth exists, but independent reviewers specifically note that advanced chatbot flow configuration requires meaningful setup effort — functional, not effortless." },
+    { "key": "sentiment-intent-detection", "score": 3, "note": "NLP-based analysis feeding 'actionable insights for quality assurance' suggests real conversation-analysis capability, though not independently detailed with the specificity some competitors document." },
+    { "key": "unified-inbox", "score": 3, "note": "Real-time agent support tools are documented alongside the AI layer, implying a functional agent-facing view, though without the detailed shared-inbox documentation some competitors provide." },
+    { "key": "ai-human-handoff", "score": 3, "note": "Real-time agent support is documented as complementing the autonomous AI layer, implying a functional handoff mechanism, though without explicit confidence-threshold detail." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes, @mentions, or team-collaboration tooling was found in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "Independent reviewers specifically note that more customizable canned responses would be an improvement, implying the current implementation exists but is functionally limited." },
+    { "key": "integration-shopify", "score": 1, "note": "No dedicated Shopify integration was found in the materials reviewed." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 1, "note": "No specific Zapier, Make, or n8n integration was confirmed, consistent with independent reviewers' specific complaint about limited third-party integrations." },
+    { "key": "integration-crm", "score": 2, "note": "No native Salesforce, HubSpot, or Pipedrive integration was confirmed in the materials reviewed, consistent with the documented limited-integrations complaint." },
+    { "key": "order-payment-data-access", "score": 1, "note": "No documentation of order or payment data access was found — Verloop's enterprise focus (banking, fintech, retail, telecom) doesn't appear to include specific ecommerce order-lookup capability." },
+    { "key": "multi-language-support", "score": 5, "note": "A genuinely exceptional 80+ languages across both voice and chat — among the strongest documented multi-language capabilities in this entire category." },
+    { "key": "analytics-depth", "score": 3, "note": "Actionable quality-assurance insights derived from conversation analysis are documented, real capability, though without the granular, named-metric detail (deflection rate, bot containment rate) some competitors publish." },
+    { "key": "pricing-transparency", "score": 2, "note": "Pricing has reportedly shifted from a published price list to a sales-quote-only model — a real transparency regression from what was previously available, compounded by independent reviewer concerns about the pricing structure itself." },
+    { "key": "api-webhook-extensibility", "score": 2, "note": "No detailed public API or webhook-event documentation was confirmed, consistent with reviewers' specific complaint about limited third-party integration capability." }
+  ],
+  "pricing": {
+    "model": "Reportedly shifted from published tiers to sales-quote-only pricing",
+    "startingPrice": "Not currently published; older sources cite a free Starter tier (max 500 chats)",
+    "plans": [
+      { "name": "Starter (legacy)", "price": "$0 (max 500 chats)", "billing": "Free", "notes": "Referenced in older sources; confirm current availability directly." },
+      { "name": "Business (legacy)", "price": "~$49/mo", "billing": "Monthly, unlimited agents referenced in older sources", "notes": "Confirm current availability and terms directly." },
+      { "name": "Enterprise", "price": "Custom, previously ~$699/mo+ referenced", "billing": "Sales-quoted", "notes": "Current pricing model is reportedly sales-quote-only; get a confirmed, current quote rather than relying on any published historical figure." }
+    ]
+  },
+  "pricingBreakdown": "Verloop.io's pricing history is genuinely difficult to pin down with confidence at the time of this review. Older sources describe a conventional tiered structure — a free Starter plan, a roughly $49/month Business tier, and Enterprise from around $699/month — but more recent information indicates the company has moved to a sales-quote-only model with no public pricing page, a transparency regression worth noting directly. This shift coincides with the very recent Nurix AI acquisition (July 2026), and it's reasonable to expect pricing structure and packaging may continue to evolve as the two companies integrate their platforms. WhatsApp's own per-message costs (roughly $0.0456 for utility messages, $0.0250-$0.1131 for marketing messages under Meta's current model) apply separately on top of whatever Verloop itself charges. Get a fully current, written quote directly from the post-acquisition sales team rather than budgeting from any historical figure, including the ones cited here.",
+  "capabilities": [
+    { "area": "Multi-Language Voice & Chat AI", "note": "Genuinely exceptional — 80+ languages spanning both voice (via ASR) and text automation is among the strongest documented multi-language capability in this entire category, and it's a real technical achievement rather than a marketing round number, backed by claimed deployment across 5,000+ businesses and 100 million users." },
+    { "area": "Nurix Acquisition & Transition", "note": "The single most important context for evaluating Verloop.io right now: this is a company mid-transition, having been acquired by a two-year-old AI company (Nurix, founded 2024) in July 2026 with the explicit goal of merging voice and chat AI into one unified platform. The founder staying on in a leadership role at the acquirer is a positive signal for continuity, but any buyer should confirm current roadmap, pricing, and support commitments directly rather than assuming pre-acquisition marketing still applies unchanged." },
+    { "area": "Enterprise Review Record", "note": "A genuinely strong, consistent review record — 4.7/5 across both G2 and Capterra, with a reported 9.4/10 support-quality score on G2 that independent analysis describes as exceeding every competitor evaluated. Weight the G2 figure (230 reviews) more heavily than Capterra's much smaller sample (10 reviews)." },
+    { "area": "Integration Breadth", "note": "A real, documented weak point: independent reviewers specifically flag limited third-party integrations as a gap, and no dedicated Shopify, CRM, or automation-platform (Zapier/Make) integration was confirmed in the materials reviewed. For an enterprise voice/chat AI specialist, this narrower integration footprint is a real tradeoff against broader platforms." },
+    { "area": "Canned Responses & Flexibility", "note": "Independent reviewers specifically ask for more customizable canned responses, implying the current implementation exists but doesn't offer the flexibility some competitors provide — a smaller but real, specifically-documented usability gap." }
+  ],
+  "pros": [
+    "Genuinely exceptional multi-language support (80+ languages) across both voice and chat automation",
+    "A strong, consistent independent review record (4.7/5 on both G2 and Capterra) with support quality specifically and independently rated above competitors",
+    "Real, technically substantial AI combining ML, ASR, and NLP rather than a single-channel chatbot wrapper",
+    "Enterprise deployment history across banking, fintech, retail, and telecom, with a claimed 90%+ query deflection rate at real scale",
+    "The founder joining the acquiring company's leadership team is a positive continuity signal following the July 2026 Nurix acquisition"
+  ],
+  "cons": [
+    "A very recent (July 2026) acquisition by a company founded just two years earlier introduces real, unresolved uncertainty about product roadmap and pricing continuity",
+    "Pricing has reportedly shifted from a published price list to a sales-quote-only model, a real transparency regression",
+    "Independent reviewers specifically flag limited third-party integrations as a documented gap, with no confirmed Shopify, CRM, or Zapier/Make integration",
+    "No independently audited AI resolution-rate figure exists to verify the vendor's claimed 90%+ deflection rate",
+    "Canned responses are documented as functional but not sufficiently customizable per independent reviewer feedback"
+  ],
+  "sentiment": [
+    {
+      "quote": "Verloop.io lags sometimes which delays work.",
+      "source": "Aggregated G2 review sentiment",
+      "url": "https://www.g2.com/products/verloop-io/reviews",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Customizable canned responses would be great, and an option to remove feedback from blank chats were mentioned as desired improvements.",
+      "source": "Aggregated G2 review sentiment",
+      "url": "https://www.g2.com/products/verloop-io/reviews",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Enterprises in banking, fintech, retail, or telecom needing genuinely multilingual voice-and-chat automation at scale",
+    "Organizations that specifically need voice AI alongside chat, given the post-acquisition NuPlay integration",
+    "Buyers comfortable navigating a recent corporate transition and confirming current terms directly rather than relying on historical pricing or marketing",
+    "Teams that don't require deep third-party integrations (Shopify, Salesforce, Zapier) as part of their core requirement"
+  ],
+  "verdict": "Verloop.io built something genuinely strong before its recent acquisition: 80+ languages across both voice and chat automation is an exceptional technical achievement, backed by a consistently high independent review record (4.7/5 across both G2 and Capterra) and a reported support-quality score that independent analysis places above every competitor it evaluated. That's a real foundation, not marketing language. The complicating factor an evaluator absolutely needs to weigh right now is timing: Nurix AI, a company founded just in 2024, acquired Verloop in July 2026 — very recent at the time of this review — with the stated goal of merging its own voice-AI platform with Verloop's chat automation into one unified system. Founder Gaurav Singh staying on in a leadership role at Nurix is a genuinely positive continuity signal, but any buyer should treat pre-acquisition marketing, and even the pricing information available at review time, as provisional rather than settled. Compounding that uncertainty, pricing itself has reportedly moved from a published price list to a sales-quote-only model, and independent reviewers specifically and consistently flag limited third-party integrations as a real gap — no confirmed Shopify, CRM, or automation-platform connection exists in the materials I could verify. My honest read: if you specifically need best-in-class multilingual voice-and-chat automation and can accept some real uncertainty during an active corporate transition, Verloop's underlying technology and review record justify serious evaluation — but get current pricing, integration capability, and roadmap commitments confirmed directly and in writing before signing anything, given how recent and unsettled this acquisition still is.",
+  "rating": 3.6,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

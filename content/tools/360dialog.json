@@ -1,0 +1,150 @@
+{
+  "slug": "360dialog",
+  "name": "360dialog",
+  "logoUrl": "",
+  "website": "https://www.360dialog.com",
+  "tagline": "A Berlin-based, official WhatsApp Business API provider that deliberately ships zero inbox, zero AI, and zero CRM — pure messaging infrastructure for teams that build their own layer on top.",
+  "tldr": [
+    "360dialog is headquartered in Berlin and was founded by Roland Siebert, with founding-year sources conflicting between 2012 and 2018 — the later date likely reflects when the company pivoted specifically to WhatsApp Business API access rather than its original founding.",
+    "This is important to understand before anything else: 360dialog explicitly does not include an inbox, an AI agent, or a CRM. It's a Meta-accredited Business Solution Provider (BSP) selling raw, official WhatsApp Business API access — you're expected to build or buy your own inbox, automation, and support layer on top of it.",
+    "Pricing is genuinely transparent for what it is: €49/month (Regular), €99/month (Premium), €249/month (High Throughput) platform fees, explicitly marketed as zero-markup on top of Meta's own per-message fees — the first 1,000 service conversations per month are free, and replies to customer-initiated messages within 24 hours are always free.",
+    "Because this is infrastructure rather than an application, almost none of the customer-support-tool criteria this site otherwise evaluates (AI resolution, unified inbox, canned responses, sentiment detection) apply — 360dialog isn't trying to be those things, and shouldn't be scored as if it failed to be them.",
+    "A real, serious complaint exists independent of the infrastructure-vs-application framing: at least one reviewer reports 360dialog automatically deducting funds from their credit card without permission over multiple months, with a refund reportedly refused unless all registered phone numbers were closed.",
+    "Best for development teams that specifically want official, zero-markup WhatsApp API access and plan to build (or already have) their own inbox, AI, and CRM layer — not for any business looking for an out-of-the-box customer support tool, since that functionality simply isn't part of the product."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": [] },
+  "channels": ["WhatsApp"],
+  "keyFeatures": [
+    "Official, Meta-accredited WhatsApp Business API access as a Business Solution Provider (BSP)",
+    "A Messaging API for developers to build custom inbox, automation, and CRM layers on top",
+    "An Integration platform connecting to third-party CRM and automation tools including HubSpot and Zapier",
+    "A basic Conversational Inbox option for teams that don't want to build their own, though this is not the platform's core focus",
+    "On-premise deployment options for businesses with specific data-residency or infrastructure requirements",
+    "Explicit zero-markup pricing on top of Meta's own per-message conversation fees",
+    "The first 1,000 service conversations per month included free on every account",
+    "Facebook Business Manager integration documented as straightforward by independent reviewers"
+  ],
+  "companyInfo": {
+    "founded": "Reported as either 2012 or 2018 across sources, by Roland Siebert — the later date likely reflects the company's pivot specifically to WhatsApp Business API provision",
+    "hq": "Berlin, Germany",
+    "funding": "Raised across 2 rounds; exact amount undisclosed",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "Does 360dialog include a shared inbox, AI chatbot, or CRM?",
+      "answer": "No, and this is the single most important thing to understand before evaluating it. 360dialog explicitly does not include an inbox, an AI agent, or a CRM as its core offering — it's WhatsApp Business API infrastructure. A basic Conversational Inbox option exists, but the platform's actual purpose is to be the messaging layer that a development team builds their own support, sales, or automation tools on top of."
+    },
+    {
+      "question": "How does 360dialog's pricing actually work?",
+      "answer": "There are three platform tiers — €49/month (Regular), €99/month (Premium), €249/month (High Throughput) — explicitly marketed with zero markup on Meta's own per-message fees, which are billed separately and vary by country and message category. The first 1,000 service conversations per month are free on every account, and replies to a customer-initiated conversation within 24 hours are always free regardless of volume."
+    },
+    {
+      "question": "What is the most serious complaint about 360dialog?",
+      "answer": "A specific, credible billing complaint: at least one reviewer reports the company automatically deducting funds from their credit card without permission over multiple months, and reports the refund being refused unless all registered WhatsApp phone numbers were closed. This is a genuine trust concern that applies regardless of how you're using the platform, and worth confirming explicit billing and cancellation terms in writing before connecting a payment method."
+    },
+    {
+      "question": "Who should actually consider 360dialog?",
+      "answer": "Teams with real engineering resources who specifically want official, transparent, zero-markup WhatsApp API access and plan to build (or already have) their own inbox, automation, and CRM layer on top. If you want an out-of-the-box customer support tool with AI, a shared inbox, and reporting built in, this isn't that product — look at an all-in-one competitor like Wati, Respond.io, or Trengo instead."
+    },
+    {
+      "question": "Does 360dialog integrate with CRM or automation tools?",
+      "answer": "Yes — HubSpot and Zapier integrations are documented, providing a path to connect the raw WhatsApp API access to a broader marketing and automation stack without building every connection from scratch. This is one of the more genuinely useful bridges the platform provides beyond pure API access."
+    },
+    {
+      "question": "Is 360dialog an official WhatsApp partner?",
+      "answer": "Yes — it's an accredited Meta Business Solution Provider (BSP), one of a small number of European partners WhatsApp selected to expand API access between 2019 and 2021, alongside larger providers like Twilio and MessageBird."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Reviewers describe integration into existing chatbot marketing systems and Facebook Business Manager as straightforward, consistent with a developer-oriented API product." },
+    { "dimension": "AI Quality", "score": 1, "note": "No AI agent is included at all — this is explicitly outside the product's scope, not a quality shortfall relative to a stated capability." },
+    { "dimension": "Omnichannel Support", "score": 1, "note": "WhatsApp-only by design; this is a single-channel API provider, not an omnichannel platform." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Genuinely transparent, zero-markup platform pricing is a real strength, though undermined by a specific, serious independent complaint about unauthorized recurring charges." },
+    { "dimension": "Vendor Support Quality", "score": 2, "note": "Independent reviewers note support response times are not always quick, compounding the seriousness of the documented unauthorized-billing complaint." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 2, "note": "WhatsApp only — this is a single-channel, official WhatsApp Business API provider by design, not a multi-channel messaging platform." },
+    { "key": "omnichannel-unification", "score": 1, "note": "Not applicable in the way this criterion is typically scored — 360dialog explicitly doesn't include an inbox to unify channels into, since building or buying that layer is left to the customer." },
+    { "key": "ai-availability", "score": 1, "note": "Explicitly no AI agent is included in the core product — this is a deliberate scope decision, not a capability gap relative to a marketed feature." },
+    { "key": "ai-resolution-accuracy", "score": 1, "note": "Not applicable — there is no built-in AI to measure a resolution rate for." },
+    { "key": "ai-training-method", "score": 1, "note": "Not applicable for the same reason — no built-in AI exists to train." },
+    { "key": "hallucination-controls", "score": 1, "note": "Not applicable — no generative AI is part of the core product." },
+    { "key": "automation-depth", "score": 1, "note": "No built-in automation exists; a customer building on 360dialog's API would need to construct this themselves or bring their own automation tool." },
+    { "key": "sentiment-intent-detection", "score": 1, "note": "Not applicable — no conversation-analysis layer is included in the core product." },
+    { "key": "unified-inbox", "score": 1, "note": "Explicitly not included as a core feature — a basic Conversational Inbox option exists, but the product's design assumes most customers will bring or build their own." },
+    { "key": "ai-human-handoff", "score": 1, "note": "Not applicable — with no built-in AI agent, there's no AI-to-human handoff to evaluate." },
+    { "key": "internal-collaboration", "score": 1, "note": "No internal collaboration tooling is part of the core API product." },
+    { "key": "canned-responses", "score": 1, "note": "Not applicable — canned responses would be a feature of an inbox layer, which isn't part of the core product." },
+    { "key": "integration-shopify", "score": 1, "note": "No dedicated Shopify integration was found; 360dialog's integration focus is on CRM/automation platforms rather than ecommerce specifically." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 3, "note": "A documented Zapier integration provides real no-code connectivity to the broader automation ecosystem, a genuine bridge from raw API access to practical business use." },
+    { "key": "integration-crm", "score": 3, "note": "A documented HubSpot integration provides real CRM connectivity, though no equivalent detail was found for Salesforce or Pipedrive." },
+    { "key": "order-payment-data-access", "score": 1, "note": "Not applicable — no commerce-context or order-data layer is part of the core messaging-API product." },
+    { "key": "multi-language-support", "score": 1, "note": "No documentation of native multi-language or auto-translation capability was found; this would be a feature of a customer's own built layer rather than the API itself." },
+    { "key": "analytics-depth", "score": 1, "note": "No built-in reporting or analytics layer is documented as part of the core product." },
+    { "key": "pricing-transparency", "score": 3, "note": "Genuinely transparent, explicit zero-markup platform pricing with clear published tiers is a real strength, though seriously undermined by a specific independent complaint describing unauthorized recurring charges and a refund refused without closing all registered numbers." },
+    { "key": "api-webhook-extensibility", "score": 5, "note": "This is the entire reason the product exists: official, direct WhatsApp Business API access is the core value proposition, and it's genuinely excellent for exactly that purpose — full programmable control for a development team building their own layer on top." }
+  ],
+  "pricing": {
+    "model": "Tiered platform fee with explicit zero markup on Meta's own per-message fees, billed separately",
+    "startingPrice": "€49/mo (Regular)",
+    "plans": [
+      { "name": "Regular", "price": "€49/mo", "billing": "Monthly", "notes": "Platform access fee; Meta's per-message fees apply separately with no 360dialog markup." },
+      { "name": "Premium", "price": "€99/mo", "billing": "Monthly", "notes": "Higher throughput and feature tier." },
+      { "name": "High Throughput", "price": "€249/mo", "billing": "Monthly", "notes": "For high-volume messaging deployments." }
+    ]
+  },
+  "pricingBreakdown": "360dialog's platform-fee pricing (€49/€99/€249 per month) is genuinely transparent, and the explicit zero-markup positioning on Meta's own per-message fees is a real, credible differentiator against competitors that build a margin into WhatsApp messaging costs. The first 1,000 service conversations are free on every account, and replies within a customer-initiated 24-hour window are always free, which meaningfully reduces cost for support-heavy (rather than marketing-heavy) use cases. The genuine risk in this pricing relationship isn't complexity — it's the specific, credible independent complaint describing unauthorized recurring charges deducted without permission over multiple months, with a refund reportedly refused unless every registered phone number was closed. Confirm explicit billing and cancellation terms in writing, and monitor your first several billing cycles closely, before treating the published zero-markup positioning as the full story of what you'll actually be charged.",
+  "capabilities": [
+    { "area": "Official WhatsApp API Access", "note": "This is genuinely what 360dialog does well: accredited Meta BSP status, transparent zero-markup pricing on top of Meta's own fees, and direct, full-control API access for a development team that wants to build exactly the inbox, AI, and automation layer their business needs rather than accepting a vendor's pre-built version of all three." },
+    { "area": "What's Deliberately Missing", "note": "Worth stating plainly rather than treating as a flaw: no inbox, no AI agent, and no CRM are included in the core product. This isn't 360dialog failing to be a customer support tool — it's 360dialog choosing not to be one, leaving that entirely to the customer or a third-party layer built on top of its API." },
+    { "area": "CRM & Automation Bridges", "note": "Documented HubSpot and Zapier integrations provide real, practical bridges from raw API access to a broader business stack, which is a genuine convenience for teams that don't want to build every connection from scratch even while handling the core messaging logic themselves." },
+    { "area": "Billing Trust", "note": "The one serious concern that applies regardless of how you use the platform: a specific, credible complaint describes unauthorized recurring charges deducted without permission, with a refund reportedly refused unless all phone numbers were closed. This deserves the same weight as any billing-integrity concern found elsewhere in this comparison set, independent of the infrastructure-vs-application framing." },
+    { "area": "Fit for This Site's Comparisons", "note": "Worth being direct about: because 360dialog is infrastructure rather than a customer-support application, it scores very low against most of the criteria this site uses to evaluate full AI customer-support tools — not because it's a poor product, but because it isn't attempting to be that kind of product at all. Evaluate it specifically as WhatsApp API infrastructure, not as a competitor to an all-in-one platform like Wati or Respond.io." }
+  ],
+  "pros": [
+    "Genuine, accredited Meta Business Solution Provider status with official, direct WhatsApp Business API access",
+    "Explicit, credible zero-markup pricing positioning on top of Meta's own per-message fees",
+    "The first 1,000 service conversations free monthly, plus always-free replies within a customer-initiated 24-hour window",
+    "Real HubSpot and Zapier integrations providing practical bridges to a broader business stack",
+    "Full programmable control for development teams that want to build exactly the layer their business needs rather than accepting a vendor's pre-built inbox and AI"
+  ],
+  "cons": [
+    "No inbox, AI agent, or CRM included at all — a team must build or buy all of this separately",
+    "A specific, serious independent complaint describes unauthorized recurring charges deducted without permission over multiple months",
+    "Reviewers report a refund being refused unless all registered phone numbers were closed",
+    "Support response times are reported as not always quick",
+    "This product is fundamentally unsuited to anyone looking for an out-of-the-box customer support tool rather than raw messaging infrastructure"
+  ],
+  "sentiment": [
+    {
+      "quote": "360dialog automatically deducted funds from their credit card without permission and kept charging for months, and when they requested a refund, the company refused unless they closed all phone numbers registered with them.",
+      "source": "Aggregated Capterra review sentiment",
+      "url": "https://www.capterra.com/p/174965/360dialog/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Reviewers appreciated the simplicity of integrating 360dialog into chatbot marketing systems and Facebook Business Manager.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.g2.com/products/360dialog/reviews",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "Development teams that specifically want official, transparent, zero-markup WhatsApp API access",
+    "Businesses that already have (or plan to build) their own inbox, AI, and CRM layer and just need the underlying messaging infrastructure",
+    "Teams prioritizing direct, full control over their WhatsApp integration over a pre-built, all-in-one platform",
+    "Buyers who will get explicit billing and cancellation terms confirmed in writing before connecting a payment method, given the documented complaint"
+  ],
+  "verdict": "360dialog is genuinely good at the one specific thing it's built to do — accredited, official WhatsApp Business API access with transparent, credible zero-markup pricing on top of Meta's own fees — and it's important not to score it as a failed customer-support tool, because it was never trying to be one. No inbox, no AI agent, no CRM are included in the core product, and that's a deliberate scope decision for a developer-first audience, not a gap. For a team with real engineering resources that wants full control over exactly what inbox, automation, and AI layer they build on top of WhatsApp's official API, that scoping is a genuine strength, not a limitation, and the documented HubSpot and Zapier integrations provide practical bridges to the rest of a business's stack without forcing a full rebuild. What I have to weigh seriously, independent of that framing, is a specific and credible billing complaint: unauthorized recurring charges deducted without permission over multiple months, with a refund reportedly refused unless every registered phone number was closed. That's a real trust concern that applies to any use case, infrastructure or otherwise, and it deserves the same seriousness I'd apply to a similar complaint about any full-featured competitor in this comparison set. My honest read: if you specifically need official, zero-markup WhatsApp API access and have the engineering resources to build your own layer on top, 360dialog is a reasonable, transparent choice for that narrow purpose — but confirm explicit billing terms in writing before connecting a payment method, and don't consider this a substitute for an all-in-one platform if what you actually need is a ready-made inbox, AI agent, and CRM.",
+  "rating": 2.8,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

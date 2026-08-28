@@ -54,6 +54,11 @@ no longer applies going forward.
 - [x] DelightChat
 - [x] Charles
 - [x] Gallabox (flagged contradictory support-quality reviews)
+- [x] Verloop.io (very recent Nurix AI acquisition, July 2026 - noted in profile)
+- [x] Haptik
+- [x] Kommo / amoCRM (flagged unauthorized-billing and Shopify-reliability complaints)
+- [x] 360dialog (pure WhatsApp API/BSP infrastructure, not a full support tool - noted clearly)
+- [x] Rasayel
 
 ## Attempted, failed, not yet retried
 
@@ -63,8 +68,7 @@ no longer applies going forward.
 
 Live Chat & Helpdesk: (all done — see "Added so far" below)
 
-WhatsApp / Omnichannel Messaging: Verloop, Haptik, Kommo, 360dialog,
-Rasayel
+WhatsApp / Omnichannel Messaging: (all done — see "Added so far" below)
 
 Chatbot / Automation Builders: Chatfuel, Landbot, Botpress, YourGPT,
 Voiceflow, MobileMonkey, Drift, Ada, Ultimate.ai, Cognigy, Kore.ai,

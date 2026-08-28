@@ -1,0 +1,157 @@
+{
+  "slug": "kommo",
+  "name": "Kommo",
+  "logoUrl": "",
+  "website": "https://www.kommo.com",
+  "tagline": "The 15-year-old, self-funded CRM (formerly amoCRM) that rebuilt itself around WhatsApp and Instagram messaging — genuinely differentiated as a CRM, with real documented billing and integration-reliability complaints.",
+  "tldr": [
+    "Kommo has operated since 2009 under the name amoCRM before rebranding to Kommo in October 2022, is published by QSOFT LLC, and — unusually for this category — has raised no outside funding at all, operating independently with thousands of customers across 100+ countries.",
+    "This is fundamentally a sales CRM with messaging layered natively on top, not a messaging tool with CRM features bolted on — reviewers specifically describe it as 'the only CRM found that integrated with Social Media messaging' as a genuine differentiator.",
+    "Pricing is per-seat and published clearly: Base $15/user/mo, Advanced $25/user/mo (adds the Salesbot no-code chatbot builder), Pro $45/user/mo, Enterprise custom — with a minimum 6-month subscription commitment and a 14-day free trial requiring no credit card.",
+    "The Salesbot AI builder handles lead qualification and follow-up well for scripted, structured conversations, and a separate GPT-4o/GPT-4o mini-powered widget transcribes and analyzes calls — but independent analysis specifically notes Salesbot weakens when handling unstructured, open-ended dialogue.",
+    "Real, serious complaints exist beyond typical software gripes: at least one reviewer reports being automatically charged $400 without requesting renewal with no resolution from the company, and the Shopify integration is specifically described as failing weekly with support taking days to resolve issues.",
+    "Best for sales-driven teams that want messaging-native lead management inside a genuine CRM pipeline — not for teams whose priority is a fully reliable, deeply-integrated ecommerce or open-ended AI conversation experience, given the documented integration and billing concerns."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["live-chat-shared-inbox"] },
+  "channels": ["WhatsApp", "Instagram", "Email", "Voice"],
+  "keyFeatures": [
+    "A visual sales pipeline for tracking deals, native to the CRM rather than bolted on afterward",
+    "Salesbot — a no-code chatbot builder (Advanced tier and up) for automating lead qualification and follow-up conversations",
+    "A GPT-4o and GPT-4o mini-powered AI widget for transcribing and analyzing sales calls",
+    "Native centralization of WhatsApp, Instagram, email, and call conversations directly inside CRM contact records",
+    "Workflow automation for routing, tagging, and follow-up sequencing without requiring advanced technical knowledge",
+    "Mobile app access for managing leads and conversations on the go",
+    "API integrations for email, telephony, and website connectivity",
+    "A documented Shopify integration, though independent reports describe real reliability issues with it"
+  ],
+  "companyInfo": {
+    "founded": "2009 (as amoCRM); rebranded to Kommo in October 2022",
+    "hq": "Registered as QSOFT LLC, California, USA",
+    "funding": "No outside funding raised — operates independently, self-funded since founding",
+    "employees": "Not publicly disclosed; reports thousands of business customers across 100+ countries"
+  },
+  "faq": [
+    {
+      "question": "Is Kommo the same product as amoCRM?",
+      "answer": "Yes — Kommo is amoCRM rebranded in October 2022. The name change reflects the product's evolution from a traditional sales CRM into a messaging-native platform, with 'Kommo' evoking 'communicate' and the Spanish/Portuguese/French word for 'how.' There's no separate legacy product; it's a direct continuation under a new name."
+    },
+    {
+      "question": "How is Kommo different from a typical WhatsApp business tool?",
+      "answer": "Kommo starts from CRM fundamentals — a visual sales pipeline, deal tracking, and contact management — and layers WhatsApp and Instagram messaging natively on top, rather than the reverse. Reviewers specifically describe this as a genuine differentiator: it's positioned as one of the few CRMs with truly native social-messaging integration, rather than a messaging tool with a thin CRM veneer."
+    },
+    {
+      "question": "How good is Kommo's Salesbot AI?",
+      "answer": "It handles scripted, structured conversations — lead qualification, follow-up sequencing — well, and a separate GPT-4o-powered widget transcribes and analyzes sales calls competently. Independent analysis specifically notes, though, that Salesbot's performance weakens when handling unstructured, open-ended dialogue, so it's better suited to well-defined conversation flows than free-form customer support."
+    },
+    {
+      "question": "What's the most serious complaint about Kommo?",
+      "answer": "Two specific, credible issues stand out beyond typical software complaints. First, at least one reviewer reports being automatically charged $400 without requesting a renewal, with the company reportedly taking no responsibility when the charge was disputed. Second, the Shopify integration is specifically described as failing on a weekly basis, with support taking days to resolve each incident — a real reliability concern for any ecommerce-dependent workflow."
+    },
+    {
+      "question": "How much does Kommo actually cost?",
+      "answer": "Base is $15/user/month, Advanced (which adds the Salesbot builder) is $25/user/month, Pro is $45/user/month, and Enterprise is custom-priced — all billed per seat with a minimum 6-month commitment required. A 14-day free trial with no credit card required lets you test the platform before committing to that minimum term."
+    },
+    {
+      "question": "Is Kommo good for ecommerce businesses on Shopify?",
+      "answer": "Approach with caution specifically here. While a Shopify integration exists, independent reports describe it failing on a weekly basis with slow support resolution — a real, documented reliability problem rather than a hypothetical concern. If Shopify integration is central to your use case, test this specific integration thoroughly during the trial period before committing to the 6-month minimum term."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Reviewers describe the core platform as easy to use, but note that advanced automations and integrations can become confusing for users without technical experience." },
+    { "dimension": "AI Quality", "score": 3, "note": "Salesbot handles scripted, structured conversations well and the GPT-4o call-analysis widget is a real capability, but independent analysis specifically notes weaker performance on unstructured, open-ended dialogue." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "WhatsApp, Instagram, email, and voice are natively centralized in the CRM — real, though narrower than the broadest omnichannel competitors in this category." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Published per-seat pricing is clear on its face, but a specific, serious reviewer complaint describes an unauthorized $400 auto-charge with no resolution from the company — a real trust concern beyond the pricing structure itself." },
+    { "dimension": "Vendor Support Quality", "score": 2, "note": "Specific, credible complaints describe slow support (over two hours to delete an account) and a Shopify integration failing weekly with multi-day resolution times." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "WhatsApp, Instagram, email, and voice calls are documented as natively centralized within the CRM — solid coverage for a CRM-first product, though narrower than dedicated omnichannel messaging platforms." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Conversations from all connected channels land directly inside CRM contact records, a genuine architectural strength for a sales-pipeline-centric product." },
+    { "key": "ai-availability", "score": 3, "note": "Salesbot (no-code chatbot builder) and a GPT-4o-powered call-analysis widget are both real, documented AI capabilities, though Salesbot is specifically noted as weaker on unstructured conversations than scripted ones." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found, and independent analysis specifically documents a real weakness handling unstructured, open-ended queries." },
+    { "key": "ai-training-method", "score": 2, "note": "No specific, named training or knowledge-ingestion method was found documented for Salesbot beyond its no-code, rule-based-leaning builder interface." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for Kommo's AI features." },
+    { "key": "automation-depth", "score": 3, "note": "Salesbot workflow automation and pipeline-based routing represent real automation depth, though reviewers specifically note that advanced automations can become confusing for less technical users." },
+    { "key": "sentiment-intent-detection", "score": 3, "note": "GPT-4o-powered call transcription and analysis represents real conversation-analysis capability, though not independently detailed with sentiment-specific metrics." },
+    { "key": "unified-inbox", "score": 4, "note": "Centralizing conversations from multiple channels directly into CRM contact records is a genuine, well-executed core feature, consistent with reviewer praise for the platform's messaging-CRM integration." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes, @mentions, or team-collaboration tooling beyond standard CRM assignment was found in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 2, "note": "A Shopify integration is documented as existing, but independent reports specifically describe it failing on a weekly basis with support taking days to resolve issues — a real, documented reliability problem rather than a feature gap." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "Generic API integrations for email, telephony, and websites are documented, but no specific Zapier, Make, or n8n integration was confirmed in the materials reviewed." },
+    { "key": "integration-crm", "score": 3, "note": "Kommo is itself a native CRM rather than a tool integrating with an external one, which provides the same underlying contact/pipeline value without requiring a separate CRM sync — scored as a functional equivalent rather than a traditional integration." },
+    { "key": "order-payment-data-access", "score": 1, "note": "No documentation of reliable order or payment data access was found; the one confirmed ecommerce integration (Shopify) is specifically documented as failing on a weekly basis." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 3, "note": "The visual pipeline is documented as 'practical for tracking deals,' representing real CRM-native analytics, though without the deflection-rate or bot-performance-specific reporting some AI-focused competitors publish." },
+    { "key": "pricing-transparency", "score": 2, "note": "Per-seat tier pricing is clearly published, but a specific, serious reviewer complaint describes an unauthorized $400 renewal charge with no resolution offered by the company — a real trust concern beyond simple pricing clarity." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "Documented API integrations for email, telephony, and websites provide real extensibility, though without detailed webhook-event documentation confirmed and against a backdrop of reported integration reliability issues." }
+  ],
+  "pricing": {
+    "model": "Per-seat tiered SaaS with a minimum 6-month subscription commitment",
+    "startingPrice": "$15/user/mo (Base)",
+    "plans": [
+      { "name": "Base", "price": "$15/user/mo", "billing": "Per seat, 6-month minimum", "notes": "Essential CRM functionality suitable for small sales teams." },
+      { "name": "Advanced", "price": "$25/user/mo", "billing": "Per seat, 6-month minimum", "notes": "Adds sales automation and the Salesbot no-code chatbot builder." },
+      { "name": "Pro", "price": "$45/user/mo", "billing": "Per seat, 6-month minimum", "notes": "Top published tier for growing teams needing deeper automation." },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "Custom terms for larger organizations." }
+    ]
+  },
+  "pricingBreakdown": "Kommo's per-seat pricing ($15-45/user/month) is straightforward and competitive against comparable CRM-plus-messaging tools, and the minimum 6-month commitment is at least stated upfront rather than hidden. What deserves real scrutiny, though, is a specific, credible independent report of an unauthorized $400 charge applied without a renewal request, with no resolution offered when disputed. This is a different, more serious category of concern than typical pricing complexity — it's a billing-integrity question, and worth raising directly with Kommo's sales team (and getting written confirmation of cancellation and auto-renewal terms) before committing to the required minimum term. Beyond the base subscription, factor in that basic WhatsApp functionality has been reported as locked behind paywalls in some configurations, so confirm exactly what messaging capability your chosen tier actually includes rather than assuming full WhatsApp access at every price point.",
+  "capabilities": [
+    { "area": "CRM-Native Messaging", "note": "This is Kommo's genuine differentiator and the reason to consider it over a messaging-first competitor: WhatsApp, Instagram, email, and call conversations land directly inside CRM contact records against a real sales pipeline, rather than a chat tool with a thin CRM layer bolted on. Reviewers specifically and repeatedly credit this as a rare combination in the category." },
+    { "area": "Salesbot AI", "note": "Genuinely useful for its intended purpose — scripted lead qualification and follow-up sequencing — but independent analysis is specific and consistent that it weakens on unstructured, open-ended conversations. Pair it with the GPT-4o call-analysis widget for a fuller picture of its actual AI capability, and don't expect it to replace a dedicated open-ended support AI." },
+    { "area": "Integration Reliability", "note": "A real, documented concern rather than a hypothetical one: the Shopify integration is specifically reported as failing on a weekly basis, with support taking days to resolve each incident. Given how central reliable ecommerce integration is to many buyers' use case, this is worth stress-testing directly during the 14-day trial before committing to the required 6-month minimum term." },
+    { "area": "Billing Trust", "note": "Worth flagging directly given the specificity of the complaint on record: at least one reviewer describes an unauthorized $400 charge applied without a renewal request, disputed with no resolution from the company. Get explicit, written cancellation and auto-renewal terms before signing, and monitor your first billing cycle closely." },
+    { "area": "Independence & Longevity", "note": "A genuine, if quiet, strength: fifteen years of continuous operation (since 2009 as amoCRM) with no outside funding raised is a real signal of sustainable, profitable operation rather than growth funded by investor capital that could run out or force a strategic pivot." }
+  ],
+  "pros": [
+    "A genuinely differentiated CRM-native messaging architecture — WhatsApp and Instagram conversations live directly in the sales pipeline, not bolted on afterward",
+    "Fifteen years of continuous, self-funded operation is a real signal of sustainable, independent business health",
+    "Clear, published per-seat pricing with a genuine no-credit-card 14-day trial",
+    "Salesbot handles structured, scripted lead-qualification conversations effectively, paired with real GPT-4o-powered call analysis",
+    "A large, established customer base (thousands of businesses across 100+ countries) reflecting genuine long-term market traction"
+  ],
+  "cons": [
+    "A specific, credible complaint describes an unauthorized $400 auto-charge with no resolution offered by the company — a real billing-trust concern",
+    "The Shopify integration is specifically documented as failing on a weekly basis, with support taking days to resolve issues",
+    "Salesbot's AI performance weakens noticeably on unstructured, open-ended conversations compared to scripted flows",
+    "Basic WhatsApp functionality has been reported as locked behind paywalls in some plan configurations",
+    "A required 6-month minimum subscription commitment limits flexibility to change course quickly if the platform doesn't work out"
+  ],
+  "sentiment": [
+    {
+      "quote": "Kommo is the only CRM found that integrated with Social Media messaging, which is the preferred communication medium for many customers.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.g2.com/products/kommo/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Automatically charged $400 without requesting service renewal, with complaints filed but no responsibility taken by the company.",
+      "source": "Aggregated Capterra/G2/Trustpilot review sentiment",
+      "url": "https://www.trustpilot.com/review/kommo.com",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Shopify integration failing weekly, with support taking days to resolve issues.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.g2.com/products/kommo/reviews",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Sales-driven teams that want messaging-native lead management inside a real CRM pipeline",
+    "Businesses whose lead qualification and follow-up conversations are genuinely scripted and structured rather than open-ended",
+    "Teams that value a long-established, self-funded, independent vendor over a venture-backed competitor",
+    "Buyers who will get explicit written billing and cancellation terms confirmed before committing to the required 6-month minimum"
+  ],
+  "verdict": "Kommo's core differentiator is real and worth taking seriously: this is one of the few products in this category that genuinely started as a CRM and built messaging natively into the pipeline, rather than the far more common pattern of a messaging tool adding a thin CRM layer afterward. Fifteen years of continuous, self-funded operation under the amoCRM name before its 2022 rebrand is a genuine signal of sustainable business health that most venture-backed competitors in this comparison set can't claim, and reviewers consistently credit the native social-messaging integration as a rare, real strength. Salesbot extends that CRM-first philosophy sensibly into AI — it's genuinely effective for scripted, structured lead-qualification flows, backed by a real GPT-4o-powered call-analysis capability, even though independent analysis is specific that it weakens on unstructured, open-ended conversations. Where I have to be direct and weigh things down meaningfully is two specific, credible complaint patterns that go beyond typical software friction: a documented account of an unauthorized $400 charge with no resolution offered, and a Shopify integration specifically reported as failing on a weekly basis with multi-day support-resolution times. Neither of these is a vague dissatisfaction — they're concrete, specific problems that should factor directly into any decision to commit to the required 6-month minimum subscription term. My honest read: if Kommo's CRM-native messaging architecture is genuinely what you need, and your lead-qualification workflow is scripted rather than open-ended, this is a differentiated, credible option — but get explicit, written billing terms confirmed, and stress-test any Shopify integration you plan to rely on before committing past the free trial.",
+  "rating": 3.3,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "rasayel",
+  "name": "Rasayel",
+  "logoUrl": "",
+  "website": "https://rasayel.io",
+  "tagline": "A small, 27-person WhatsApp sales-and-support platform with a genuinely excellent Shopify integration — real order creation and refunds directly over WhatsApp — held back by weak reporting.",
+  "tldr": [
+    "Rasayel was founded by a team spanning Ireland and Egypt, with sources conflicting on the exact year (2020 vs 2022), is headquartered in Alberta, Canada while operating remotely, and has a lean team of 27 employees.",
+    "Pricing runs Start $30/user/mo, Grow $40/user/mo (some sources cite minimum seat requirements of 5-10 users, meaning a realistic minimum monthly spend of $150-360), with Enterprise starting at $2,000/month billed annually.",
+    "The Shopify integration is a genuine standout, among the deepest found in this entire comparison set: merchants can sync orders, create new orders, view order history, and issue refunds directly over WhatsApp, not just look up order status.",
+    "Integration breadth extends well beyond Shopify — native HubSpot and Pipedrive CRM integrations, plus Zapier connectivity to 5,000+ other apps, giving Rasayel genuinely broad reach for a company this size.",
+    "Review sentiment is strong (4.7/5 on Capterra, 4.5/5 on G2), with the shared team inbox and lead-qualification automation specifically praised, but real, repeated complaints describe weak reporting (making it hard to measure customer satisfaction), a cluttered interface, and occasional bugs opening individual chats.",
+    "Best for small-to-mid B2B sales teams and Shopify merchants wanting genuinely deep WhatsApp commerce capability and CRM connectivity — not for teams that need robust built-in reporting or a highly polished, uncluttered interface out of the box."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["live-chat-shared-inbox"] },
+  "channels": ["WhatsApp", "Telegram", "Facebook Messenger", "Viber", "SMS"],
+  "keyFeatures": [
+    "A collaborative shared team inbox with two-way messaging across WhatsApp, Telegram, Facebook, Viber, and SMS",
+    "A no-code WhatsApp chatbot builder, with an AI chatbot assisting instant responses to common queries",
+    "Deep Shopify integration: sync orders, create new orders, view order history, and issue refunds directly over WhatsApp",
+    "Native HubSpot and Pipedrive CRM integrations for syncing contact and deal data",
+    "Zapier connectivity reaching 5,000+ other apps for broad no-code automation",
+    "WhatsApp broadcasts and bulk messaging for outbound campaigns",
+    "Automated lead qualification and campaign management workflows",
+    "Open APIs and webhooks for developer-built custom integrations and workflows"
+  ],
+  "companyInfo": {
+    "founded": "Reported as either 2020 or 2022 across sources, by a founding team spanning Ireland and Egypt",
+    "hq": "Alberta, Canada, operating as a remote company",
+    "funding": "Not publicly disclosed in detail; complete investor history requires premium access to funding databases",
+    "employees": "27 total employees"
+  },
+  "faq": [
+    {
+      "question": "How deep is Rasayel's Shopify integration?",
+      "answer": "Genuinely deep, among the strongest in this entire comparison set: merchants can sync existing orders, create new orders, view full order history, and issue refunds — all directly over WhatsApp, without switching to the Shopify admin. This is real write-access commerce capability, not just an order-status lookup, comparable in depth to dedicated ecommerce specialists like Gorgias or Re:amaze."
+    },
+    {
+      "question": "How much does Rasayel actually cost?",
+      "answer": "Start is $30/user/month and Grow is $40/user/month, though some sources describe minimum seat requirements (5-10 users depending on the source), meaning a realistic minimum monthly cost of $150-360 rather than a single-seat entry price. Enterprise starts at $2,000/month billed annually for larger deployments. Confirm the current minimum seat requirement directly, since sources disagree on the exact figure."
+    },
+    {
+      "question": "What's the most common complaint about Rasayel?",
+      "answer": "Reporting and analytics, specifically. Independent reviewers describe a lack of a good reporting tool as making it genuinely hard to measure customer satisfaction, alongside separate complaints about a cluttered, not-very-user-friendly interface and occasional bugs preventing a chat from opening with a specific contact."
+    },
+    {
+      "question": "Does Rasayel integrate with CRM tools beyond Shopify?",
+      "answer": "Yes — native HubSpot and Pipedrive integrations are documented, and a Zapier connection reaches 5,000+ additional apps for broader no-code automation. This is genuinely wide integration coverage for a company with only 27 employees."
+    },
+    {
+      "question": "Does Rasayel support channels beyond WhatsApp?",
+      "answer": "Yes — Telegram, Facebook Messenger, Viber, and SMS are all documented native channels alongside WhatsApp, unified in one shared team inbox, which is broader coverage than several other WhatsApp-focused competitors of similar size."
+    },
+    {
+      "question": "How sophisticated is Rasayel's AI chatbot?",
+      "answer": "Real but modestly documented — a no-code chatbot builder with an AI-assisted instant-response capability, praised by some reviewers, but without the technical specificity (named training methods, resolution benchmarks) that more AI-forward competitors publish. No independently audited resolution-rate figure exists."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "The shared inbox and core messaging setup are usable, but independent reviewers specifically describe the interface as cluttered and not very user-friendly." },
+    { "dimension": "AI Quality", "score": 3, "note": "A real no-code chatbot builder with AI-assisted instant responses is praised by reviewers, but documented with less technical specificity than some competitors and without an independent resolution-rate audit." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "Genuine coverage across WhatsApp, Telegram, Facebook, Viber, and SMS unified in one shared inbox — solid breadth for a 27-person company." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Published per-user pricing is reasonably clear, though minimum seat requirements mean the real entry cost is higher than the headline per-user figure suggests." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "Strong, consistent reviews (4.7/5 Capterra, 4.5/5 G2) with the shared inbox and lead-qualification automation specifically praised, offset by real complaints about reporting and interface polish." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Documented native support for WhatsApp, Telegram, Facebook Messenger, Viber, and SMS — solid breadth for a company of this size, unified in one shared inbox." },
+    { "key": "omnichannel-unification", "score": 4, "note": "A collaborative shared team inbox unifies all connected channels, with two-way messaging and reviewer-praised notification handling for quick responses." },
+    { "key": "ai-availability", "score": 3, "note": "A no-code chatbot builder with an AI-assisted instant-response capability is documented and praised by some reviewers, though without the technical depth some AI-forward competitors publish." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Rasayel's AI chatbot." },
+    { "key": "ai-training-method", "score": 2, "note": "No specific, named training or knowledge-ingestion method was found documented for Rasayel's AI chatbot beyond the general no-code builder description." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for Rasayel's AI features." },
+    { "key": "automation-depth", "score": 4, "note": "Automated lead qualification and campaign management are documented and specifically praised by reviewers for significantly reducing manual workload — real, confirmed automation depth." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection during an active conversation was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 4, "note": "A collaborative shared team inbox with two-way messaging is a core, well-reviewed feature, with reviewers specifically praising notification quality for fast response times." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 3, "note": "The shared team inbox with roles and permissions supports basic team coordination, though specific internal-notes or @mentions functionality wasn't independently detailed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 5, "note": "A genuinely deep, best-in-class integration: merchants can sync orders, create new orders, view order history, and issue refunds directly over WhatsApp — real write-access commerce capability comparable to dedicated ecommerce specialists." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 5, "note": "A documented Zapier integration reaching 5,000+ other apps provides genuinely broad no-code automation reach, among the strongest documented in this category." },
+    { "key": "integration-crm", "score": 4, "note": "Native HubSpot and Pipedrive integrations are both documented, real, confirmed CRM depth beyond a single-platform connection." },
+    { "key": "order-payment-data-access", "score": 5, "note": "Genuinely excellent: real order creation, order history, and refund processing directly over WhatsApp via the Shopify integration — top-tier commerce-transaction capability, not just order-status lookups." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "Independent reviewers specifically and directly describe a lack of a good reporting tool that makes it hard to measure customer satisfaction — a real, documented gap rather than an absence of evidence." },
+    { "key": "pricing-transparency", "score": 3, "note": "Per-user pricing is published, but sources disagree on minimum seat requirements (5 vs 10 users), meaning the real entry cost requires direct confirmation rather than trusting the headline per-user figure alone." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "Open APIs and webhooks are explicitly documented as developer-friendly features, providing real build-on-top capability beyond the core product." }
+  ],
+  "pricing": {
+    "model": "Per-user tiered SaaS with reported minimum seat requirements, plus custom Enterprise",
+    "startingPrice": "$30/user/mo (Start), though minimum seat counts may apply",
+    "plans": [
+      { "name": "Start", "price": "$30/user/mo", "billing": "Per user, monthly; some sources cite a 5-user minimum", "notes": "Core shared inbox, messaging, and chatbot builder." },
+      { "name": "Grow", "price": "$40/user/mo", "billing": "Per user, monthly; some sources cite a 10-seat minimum ($360/mo minimum)", "notes": "Expanded automation and integration capability." },
+      { "name": "Enterprise", "price": "From $2,000/mo", "billing": "Annual", "notes": "For larger deployments with custom requirements." }
+    ]
+  },
+  "pricingBreakdown": "Rasayel's per-user pricing ($30-40/user/month) looks competitive at first glance, but the real entry cost depends heavily on minimum seat requirements that different sources describe inconsistently — one citing a 5-user minimum, another a 10-seat minimum working out to $360/month. That's a meaningful gap for a small team trying to budget precisely, and worth confirming directly rather than assuming the lowest published per-user rate applies to a 1-2 person team. The jump to Enterprise at $2,000/month billed annually is a steep cliff from the per-user tiers, suggesting Rasayel's mid-market pricing is genuinely aimed at small-to-mid teams rather than solo operators or the largest enterprises. Given the platform's genuine strength in Shopify commerce integration, a merchant doing real order volume through WhatsApp may find the per-user cost justified by the depth of what the Shopify integration alone delivers.",
+  "capabilities": [
+    { "area": "Shopify Commerce Integration", "note": "This is Rasayel's clearest, most impressive capability, and it's genuinely best-in-class: real order creation, order history, and refund processing directly inside WhatsApp conversations, not just a read-only order-status lookup. For a Shopify merchant running real commerce volume through WhatsApp, this depth is hard to match." },
+    { "area": "Integration Breadth", "note": "Genuinely wide for a 27-person company: native HubSpot and Pipedrive CRM integrations plus Zapier reaching 5,000+ apps give Rasayel a broader integration footprint than many larger, better-funded competitors in this category." },
+    { "area": "Shared Inbox & Automation", "note": "A well-reviewed collaborative team inbox with strong notification handling, paired with automated lead qualification and campaign management that reviewers specifically credit for reducing manual workload. This is a real, functioning B2B sales workflow, not just a support tool." },
+    { "area": "Reporting Gap", "note": "The clearest, most consistently documented weakness in this profile: independent reviewers specifically describe a lack of good reporting tools making it hard to measure customer satisfaction. For a team that needs to demonstrate ROI or track CSAT rigorously, this is a real limitation worth testing directly." },
+    { "area": "Interface Polish", "note": "Reviewers describe the interface as cluttered and not especially user-friendly, alongside occasional bugs preventing individual chats from opening — real, specific usability friction rather than a vague complaint, worth testing during a trial before committing to a paid plan." }
+  ],
+  "pros": [
+    "A genuinely best-in-class Shopify integration with real order creation, history, and refund processing directly over WhatsApp",
+    "Broad integration reach for a small company — native HubSpot and Pipedrive CRM connections plus Zapier's 5,000+ apps",
+    "Strong, consistent independent review record (4.7/5 Capterra, 4.5/5 G2) with automation specifically praised for reducing manual workload",
+    "Genuine multi-channel coverage (WhatsApp, Telegram, Facebook, Viber, SMS) unified in one collaborative shared inbox",
+    "Open APIs and webhooks provide real developer extensibility beyond the core product"
+  ],
+  "cons": [
+    "Independent reviewers specifically describe weak reporting tools that make it hard to measure customer satisfaction",
+    "The interface is described by reviewers as cluttered and not especially user-friendly",
+    "Occasional bugs preventing individual chats from opening are reported",
+    "Sources disagree on minimum seat requirements, making the real entry cost harder to pin down than the headline per-user price suggests",
+    "No independently audited AI resolution-rate figure exists, and no documented multi-language or canned-response feature was found"
+  ],
+  "sentiment": [
+    {
+      "quote": "A shared team inbox for team communication, excellent notifications for quick responses, and an AI chatbot that assists with instant responses.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.g2.com/products/rasayel/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Lack of a good reporting tool which makes it hard to measure customer satisfaction level; the interface is not user-friendly and feels cluttered.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://capterra.com/p/267153/Rasayel/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Shopify merchants wanting genuinely deep WhatsApp commerce capability, including real order creation and refunds",
+    "Small-to-mid B2B sales teams needing broad CRM connectivity (HubSpot, Pipedrive) alongside WhatsApp messaging",
+    "Teams that don't have strict reporting or CSAT-measurement requirements as a top priority",
+    "Businesses comfortable with a smaller, 27-person vendor rather than a larger, more institutionally-backed competitor"
+  ],
+  "verdict": "Rasayel's Shopify integration is the reason to seriously consider this product, and it's genuinely one of the deepest I've found across this entire comparison set: real order creation, order history, and refund processing happen directly inside WhatsApp conversations, not just a status lookup bolted onto a chat widget. That commerce depth is backed by real integration breadth beyond Shopify too — native HubSpot and Pipedrive connections plus Zapier's reach into 5,000+ other apps give a 27-person company more integration surface area than several larger, better-funded competitors in this category. The shared team inbox and automated lead-qualification workflows are similarly well-reviewed, with reviewers specifically crediting the automation for real reductions in manual workload rather than vague productivity claims. Where Rasayel genuinely falls short, and independent reviewers are specific and consistent about this, is reporting: a documented lack of good reporting tools makes it hard to measure customer satisfaction, and the interface itself is described as cluttered rather than polished, with occasional bugs preventing individual chats from opening. Pricing also requires more diligence than the headline per-user rate suggests, since sources disagree on minimum seat requirements. My honest read: if Rasayel's Shopify commerce depth and broad CRM integration match your actual workflow, and you don't have a hard requirement for robust built-in reporting, this is a genuinely capable, well-reviewed small-team product worth serious evaluation. If measuring CSAT and having a polished interface matter as much as the underlying capability, test both directly during a trial before committing.",
+  "rating": 4.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

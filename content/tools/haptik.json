@@ -1,0 +1,149 @@
+{
+  "slug": "haptik",
+  "name": "Haptik",
+  "logoUrl": "",
+  "website": "https://www.haptik.ai",
+  "tagline": "The 2013 personal-assistant chatbot that Reliance Jio bought for ~$100M in 2019 and turned into a six-agent enterprise AI platform growing from $500K to $35M ARR — pricing entirely opaque, capability genuinely enterprise-grade.",
+  "tldr": [
+    "Haptik was founded in 2013 in Mumbai by Aakrit Vaish and Swapan Rajdev as a consumer-facing personal-assistant chat app, before Reliance Industries (via Reliance Jio Digital Services) acquired an 87% stake for approximately $100M in April 2019, giving it distribution across Reliance's massive enterprise customer base.",
+    "That acquisition paid off at scale: Haptik's ARR reportedly grew from roughly $500K to approximately $35M over the following five years under Jio ownership.",
+    "Pricing is entirely custom-quoted with no public pricing page — third-party estimates suggest entry deals starting around $5,000/year, mid-range enterprise deals of $15,000-50,000/year, and large full-suite deployments exceeding $100,000+/year, with real total contract value typically landing 2-3x the headline subscription once voice AI, premium LLMs, and implementation are included.",
+    "The agentic AI architecture is genuinely sophisticated: six distinct autonomous agent types (Voice, Support, Sales, Booking, Lead Qualification, and Insights) built on a multi-model LLM foundation supporting GPT, Llama, and Claude, deployed across WhatsApp, Instagram Direct, RCS, Facebook Messenger, and SMS.",
+    "Notably, Haptik does not publish a platform-average autonomous resolution rate — a more honest position than several competitors that cite unaudited headline percentages, though a Salesforce-integration-specific claim of resolving 80%+ of queries does appear in some marketing materials.",
+    "Best for large enterprises (especially those in Reliance's ecosystem or needing genuinely sophisticated multi-agent, multi-language AI at scale) with real six-figure budgets — not for small-to-mid businesses needing transparent pricing or broad third-party integrations beyond Salesforce."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["WhatsApp", "Instagram Direct", "RCS", "Facebook Messenger", "SMS", "Voice"],
+  "keyFeatures": [
+    "Six distinct autonomous AI agent types — Voice, Support, Sales, Booking, Lead Qualification, and Insights — each purpose-built for a specific business function",
+    "A multi-model LLM architecture supporting GPT, Llama, and Claude, with real-time web data integration and advanced caching",
+    "An AI Agent Builder enabling minimal-coding deployment of dedicated bots for sales, support, and lead qualification",
+    "Natural language understanding (NLU) combined with generative AI for processing complex, unstructured customer queries",
+    "Zero-coding Salesforce Service Cloud integration with friction-free live-agent handoff when the AI can't resolve a query",
+    "Support for 50+ languages across the platform's autonomous agents",
+    "Deployment across WhatsApp, Instagram Direct, RCS, Facebook Messenger, SMS, and voice channels from one platform",
+    "A dedicated Insights agent providing analytics as one of the platform's six core autonomous agent types rather than a bolted-on reporting layer"
+  ],
+  "companyInfo": {
+    "founded": "2013, Mumbai, India, by Aakrit Vaish and Swapan Rajdev",
+    "hq": "Mumbai, India (as Jio Haptik Technologies Ltd, a subsidiary of Reliance Jio)",
+    "funding": "$12.2M raised independently before acquisition; Reliance Jio acquired an 87% stake for approximately $100M (INR 700 Cr total transaction) in April 2019; ARR reportedly grew from ~$500K to ~$35M over the following five years under Jio ownership",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "Is Haptik still an independent company?",
+      "answer": "No — Reliance Industries, via Reliance Jio Digital Services, acquired an 87% stake in Haptik for approximately $100M in April 2019, and the company now operates as Jio Haptik Technologies. This is the same Haptik that co-founder Aakrit Vaish also connects to Interakt, a separate WhatsApp commerce company he founded whose AI Agents run on Haptik's enterprise AI platform."
+    },
+    {
+      "question": "How much does Haptik actually cost?",
+      "answer": "There's no public pricing page — every deal is custom-quoted. Third-party estimates suggest entry-level deals starting around $5,000/year, with mid-range enterprise deployments landing $15,000-50,000/year and large, full-suite implementations exceeding $100,000+/year. Real total contract value typically runs 2-3x the headline subscription figure once voice AI, premium LLM usage, and implementation costs are included — budget accordingly and get a detailed, itemized quote."
+    },
+    {
+      "question": "What makes Haptik's AI architecture distinctive?",
+      "answer": "Rather than one generalist chatbot, Haptik deploys six separate autonomous agent types — Voice, Support, Sales, Booking, Lead Qualification, and Insights — each purpose-built for a specific business function, running on a multi-model foundation that supports GPT, Llama, and Claude simultaneously. This is a meaningfully more sophisticated architecture than a single-model, single-purpose chatbot competitor."
+    },
+    {
+      "question": "Does Haptik publish an AI resolution accuracy figure?",
+      "answer": "Notably, no — Haptik does not publish a platform-average autonomous resolution rate, which is actually more honest than several competitors that cite unaudited headline percentages without independent verification. A specific claim of resolving 80%+ of queries does appear in some marketing tied to the Salesforce integration specifically, but this isn't presented as a platform-wide guarantee."
+    },
+    {
+      "question": "How deep is Haptik's Salesforce integration?",
+      "answer": "Genuinely deep — a documented zero-coding integration with Salesforce Service Cloud enables automated support with friction-free live-agent handoff when the AI can't resolve a query. This is one of the platform's clearest, most concretely documented integration strengths." },
+    {
+      "question": "What do independent reviewers say is missing from Haptik?",
+      "answer": "Pricing and integration breadth are the two most common specific concerns — reviewers note that pricing could be lowered and that integration options could be expanded beyond what's currently offered, alongside some noted challenges in customization despite the platform's overall strong integration support."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "The AI Agent Builder is documented as enabling minimal-coding deployment, but reviewers note some challenges in customization despite the platform's overall integration strength." },
+    { "dimension": "AI Quality", "score": 4, "note": "A genuinely sophisticated six-agent architecture on a multi-model LLM foundation (GPT, Llama, Claude), with reviewers specifically praising 'phenomenal' accuracy in user intent recognition." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "Real deployment across WhatsApp, Instagram Direct, RCS, Facebook Messenger, SMS, and voice — solid breadth, particularly the less-common RCS support." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Entirely custom-quoted with no public pricing page, and independent reviewers specifically note that pricing could be lowered — a real, repeated concern rather than a generic complaint." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "Strong, consistent reviews (4.4/5 Capterra, 4.5/5 G2) with reviewers specifically praising the team's dedication to customer success and platform reliability." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Documented native deployment across WhatsApp, Instagram Direct, RCS, Facebook Messenger, SMS, and voice — genuinely broad coverage, particularly the less commonly supported RCS channel." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Agents are deployed consistently across all supported channels from one platform, consistent with the product's enterprise-grade positioning." },
+    { "key": "ai-availability", "score": 5, "note": "A genuinely sophisticated architecture of six distinct autonomous agent types (Voice, Support, Sales, Booking, Lead Qualification, Insights) rather than one generalist bot — among the most agentically sophisticated implementations found in this category." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "Haptik notably does not publish a platform-average autonomous resolution rate, a more honest position than competitors citing unaudited figures — but this also means there's no verifiable accuracy benchmark to evaluate, beyond a narrower, Salesforce-integration-specific 80%+ claim." },
+    { "key": "ai-training-method", "score": 4, "note": "A multi-model LLM foundation (GPT, Llama, Claude) combined with real-time web data integration and advanced caching represents a genuinely sophisticated, documented technical approach to grounding and response generation." },
+    { "key": "hallucination-controls", "score": 2, "note": "General claims of 'high precision' in processing complex queries exist, but no specific, detailed hallucination-prevention mechanism (citation, confidence thresholds) was found documented." },
+    { "key": "automation-depth", "score": 4, "note": "The AI Agent Builder and six distinct autonomous agent types represent genuine, sophisticated automation depth — sales, support, booking, and lead qualification each purpose-built rather than generically scripted." },
+    { "key": "sentiment-intent-detection", "score": 4, "note": "Independent reviewers specifically praise 'phenomenal' accuracy in user intent recognition — a real, confirmed strength on precisely this criterion, not just a general capability claim." },
+    { "key": "unified-inbox", "score": 3, "note": "The platform is positioned more as a multi-agent AI deployment system than a human-agent-facing shared inbox, though live-agent handoff functionality is documented." },
+    { "key": "ai-human-handoff", "score": 4, "note": "Documented specifically and concretely via the Salesforce integration: 'friction-free Live Agent hand-off' when the AI can't resolve a query — a real, named mechanism rather than a generic claim." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes, @mentions, or team-collaboration tooling was found in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 2, "note": "No specific, confirmed Shopify integration was found documented, despite the platform's broader enterprise integration ecosystem." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "No specific Zapier, Make, or n8n integration was confirmed in the materials reviewed, consistent with reviewer feedback that integration options could be expanded." },
+    { "key": "integration-crm", "score": 4, "note": "A genuinely deep, documented zero-coding Salesforce Service Cloud integration with friction-free live-agent handoff — real, confirmed CRM depth, though no equivalent detail was found for HubSpot or Pipedrive." },
+    { "key": "order-payment-data-access", "score": 2, "note": "No documentation of order or payment data access was found; Haptik's enterprise focus spans banking, telecom, and broad customer service rather than specific ecommerce order-lookup capability." },
+    { "key": "multi-language-support", "score": 4, "note": "50+ languages are documented across the platform's autonomous agents — strong, though narrower than the category's very highest figures (Yellow.ai's 135+, Verloop's 80+)." },
+    { "key": "analytics-depth", "score": 4, "note": "A dedicated Insights agent is one of the platform's six core autonomous agent types, a genuinely distinctive architectural choice that treats analytics as a first-class agentic function rather than a bolted-on reporting dashboard." },
+    { "key": "pricing-transparency", "score": 1, "note": "Entirely custom-quoted with no public pricing page, and independent reviewers specifically and repeatedly note that pricing could be lowered — a real, documented concern on top of the general opacity." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "The multi-model LLM architecture with real-time web data integration and advanced caching implies genuine technical infrastructure depth, though without detailed public API or webhook documentation independently confirmed." }
+  ],
+  "pricing": {
+    "model": "Entirely custom-quoted enterprise pricing, structured around conversation volume, deployed channels, and LLM model choice",
+    "startingPrice": "Not published; third-party estimates suggest entry deals from ~$5,000/year",
+    "plans": [
+      { "name": "Entry Enterprise", "price": "~$5,000/year (estimate)", "billing": "Annual contract", "notes": "Lower-volume deployments; exact terms not publicly confirmed." },
+      { "name": "Mid-Range Enterprise", "price": "$15,000-$50,000/year (estimate)", "billing": "Annual contract", "notes": "Moderate conversation volume; India-specific deals reported at ₹15L-₹2.5Cr/year (~$18K-$300K USD)." },
+      { "name": "Full-Suite Enterprise", "price": "$100,000+/year (estimate)", "billing": "Annual contract", "notes": "Full deployment across all six agent types and multiple channels; real total contract value often lands 2-3x the headline subscription once voice AI, premium LLMs, and implementation are included." }
+    ]
+  },
+  "pricingBreakdown": "Haptik's pricing is entirely opaque publicly, structured around three variables that materially change the real cost: conversation volume, which channels you deploy across, and which underlying LLM you choose (GPT-4 and Claude cost more than lighter-weight alternatives). Third-party estimates place entry deals around $5,000/year, with mid-range enterprise deployments at $15,000-50,000/year and full-suite implementations exceeding $100,000+/year — but the more important number to model is that real total contract value typically lands 2-3x the headline subscription figure once voice AI, premium LLM usage, and implementation costs are added. Independent reviewers specifically and repeatedly note that pricing could be lowered, which is worth raising directly in any sales conversation rather than accepting an initial quote at face value. Given the Reliance Jio ownership and the platform's genuine enterprise sophistication, expect this to be priced and negotiated like enterprise software throughout, not a self-service SaaS signup.",
+  "capabilities": [
+    { "area": "Multi-Agent AI Architecture", "note": "Genuinely one of the more sophisticated agentic designs in this entire category: six distinct autonomous agent types (Voice, Support, Sales, Booking, Lead Qualification, Insights), each purpose-built rather than a single generalist bot trying to do everything. Combined with a multi-model LLM foundation supporting GPT, Llama, and Claude, this is real technical depth, not marketing language." },
+    { "area": "Salesforce Integration", "note": "A concretely documented, zero-coding Salesforce Service Cloud integration with friction-free live-agent handoff is one of the platform's clearest, most specific strengths — a real, named mechanism rather than a generic 'we integrate with your CRM' claim." },
+    { "area": "Honest AI Accuracy Positioning", "note": "Worth crediting directly: Haptik does not publish a platform-average autonomous resolution rate, which is a more restrained, honest position than several competitors that cite unaudited headline percentages as if they were verified facts. The tradeoff is that there's correspondingly less for a prospective buyer to independently verify either way." },
+    { "area": "Reliance Jio Backing", "note": "The 2019 acquisition gave Haptik real distribution and scale — reported ARR growth from ~$500K to ~$35M over five years under Jio ownership is a genuine business validation, and the ownership structure suggests real staying power as a long-term enterprise vendor, particularly for businesses already inside the Reliance/Jio ecosystem." },
+    { "area": "Pricing & Integration Accessibility", "note": "The clearest limitation in this profile: fully opaque, custom-quoted pricing that reviewers specifically say could be lower, combined with no confirmed integrations beyond Salesforce (no Shopify, no website builders, no Zapier/Make). This is enterprise software built for a narrower, well-resourced buyer, not a broadly accessible platform." }
+  ],
+  "pros": [
+    "A genuinely sophisticated six-agent AI architecture (Voice, Support, Sales, Booking, Lead Qualification, Insights) on a multi-model LLM foundation",
+    "A concretely documented, zero-coding Salesforce Service Cloud integration with real live-agent handoff",
+    "Strong, consistent independent reviews (4.4/5 Capterra, 4.5/5 G2) with intent-recognition accuracy specifically praised as 'phenomenal'",
+    "Real institutional backing and validated scale under Reliance Jio ownership, with ARR growth from ~$500K to ~$35M over five years",
+    "An honest approach to AI accuracy claims — no unaudited platform-wide resolution-rate figure is marketed as fact"
+  ],
+  "cons": [
+    "Entirely opaque, custom-quoted pricing with no public pricing page, and independent reviewers specifically say pricing could be lowered",
+    "No confirmed integrations beyond Salesforce — no Shopify, no website-builder integrations, no Zapier/Make/n8n connectivity",
+    "Real total contract value typically runs 2-3x the headline subscription once voice AI, premium LLMs, and implementation are included",
+    "No documented internal collaboration tooling (notes, @mentions) or dedicated canned-response feature",
+    "Reviewers note some challenges in customization despite the platform's overall integration strength"
+  ],
+  "sentiment": [
+    {
+      "quote": "The technology is reliable and effective, and the team has proven their dedication to customer success.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.g2.com/products/haptik/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Pricing could be lowered and integration options could be expanded.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.capterra.com/p/186856/Chatbots/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Large enterprises with genuine six-figure budgets needing sophisticated, multi-agent AI across voice, support, sales, and lead qualification",
+    "Salesforce Service Cloud users wanting a concretely documented, zero-coding AI integration with real live-agent handoff",
+    "Organizations already inside or adjacent to the Reliance/Jio ecosystem in India",
+    "Buyers who value an honest, non-inflated approach to AI accuracy claims over aggressive unaudited marketing figures"
+  ],
+  "verdict": "Haptik's journey from a 2013 consumer chatbot to a Reliance Jio-owned enterprise AI platform growing ARR from roughly $500K to $35M over five years is a genuine business validation story, and the product underneath that growth is architecturally more sophisticated than most competitors in this category: six distinct autonomous agent types — Voice, Support, Sales, Booking, Lead Qualification, and a dedicated Insights agent for analytics — running on a multi-model LLM foundation that supports GPT, Llama, and Claude simultaneously. That's real technical depth, and independent reviewers back it up with specific praise for 'phenomenal' intent-recognition accuracy rather than vague satisfaction. I'd also credit Haptik directly for something many competitors don't do: it doesn't publish an unaudited platform-wide resolution-rate figure as if it were verified fact, which is a more honest position than the marketing language common elsewhere in this category, even though it leaves less for a buyer to independently verify. The Salesforce integration is similarly a genuine, concretely documented strength — zero-coding setup with real live-agent handoff, not a generic integration claim. Where Haptik asks the most of a buyer is accessibility: pricing is entirely opaque and custom-quoted, reviewers specifically and repeatedly say it could be lower, and no confirmed integration exists beyond Salesforce — no Shopify, no website builders, no Zapier bridge. This is enterprise software built for a well-resourced, sophisticated buyer, not a broadly accessible platform. My honest read: if you're a large enterprise, particularly one with Salesforce at the center of your CX stack or already inside the Reliance/Jio ecosystem, and you have the six-figure-plus budget this platform assumes, Haptik's agentic sophistication is genuinely among the strongest in this category. If you need broader integration flexibility or transparent, accessible pricing, this isn't built for that buyer.",
+  "rating": 4.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

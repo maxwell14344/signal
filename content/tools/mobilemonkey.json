@@ -1,0 +1,146 @@
+{
+  "slug": "mobilemonkey",
+  "name": "MobileMonkey (now Customers.ai)",
+  "logoUrl": "",
+  "website": "https://mobilemonkey.com",
+  "tagline": "A frozen-development, keyword-based chatbot builder whose founder has pivoted the company entirely into website-visitor identification — not recommendable as an active customer-support choice today.",
+  "tldr": [
+    "MobileMonkey was not acquired — its own founder, Larry Kim, internally rebranded and pivoted the same company into 'Customers.ai' around 2022-2023, after Meta's Messenger policy changes gutted its original Facebook Messenger chatbot business.",
+    "Customers.ai today is a website-visitor-identification and B2C sales-outreach/remarketing platform built around a de-anonymizing tracking pixel — a fundamentally different product category, not a customer-support tool, and it falls outside what this site reviews.",
+    "The legacy MobileMonkey chatbot product is still nominally purchasable at mobilemonkey.com, but is explicitly frozen: a company marketing director told an independent reviewer no new features would ship after the end of 2025.",
+    "The legacy chatbot itself is keyword/dialogue-based with no AI logic, no visual flow builder, and no native Shopify, WooCommerce, WordPress, Wix, Squarespace, or Webflow integrations — it relies almost entirely on Zapier as its integration layer.",
+    "Independent review volume has collapsed — Trustpilot shows only one review in the past 12 months (1.6/5 across 63 total reviews), and Capterra's listing has no visible reviews since April 2023 — corroborating that this is not an actively used or growing product.",
+    "A real, repeated complaint pattern spans multiple years on Trustpilot: customers reporting unauthorized charges despite disabled auto-renewal, and the company refusing refunds — a serious pattern distinct from ordinary feature-gap criticism."
+  ],
+  "categories": { "primary": "ai-chatbots", "secondary": [] },
+  "channels": ["Website Chat Widget", "Facebook Messenger", "Instagram", "SMS (US/Canada only)"],
+  "keyFeatures": [
+    "A keyword/dialogue-based chatbot builder with no AI logic and no visual flow-diagram canvas",
+    "'Chat Blasters' broadcast messaging and drip campaigns with user segmentation and custom fields",
+    "A built-in live-chat inbox for handing off bot conversations to a human agent",
+    "Keyword-triggered canned Q&A-style responses",
+    "Zapier as the primary (and largely only) integration layer, since no native CRM or ecommerce/CMS integrations are documented for the legacy chatbot product"
+  ],
+  "companyInfo": {
+    "founded": "Sources conflict — informal launch around June 2017, formal incorporation listed as 2018 by the successor company's current corporate materials",
+    "hq": "Cambridge, Massachusetts (16 Sacramento Street), under the Customers.ai corporate entity",
+    "funding": "Sources conflict on pre-pivot MobileMonkey funding (one aggregator cites ~$3.5M, another describes the company as bootstrapped); the successor company, Customers.ai, closed a $4.99M Series A in April 2023 led by ScOp Venture Capital with Beyond Angels and New York Angels participating — this figure is the most consistently and specifically sourced",
+    "employees": "Approximately 29, per aggregator data of uncertain recency"
+  },
+  "faq": [
+    {
+      "question": "Is MobileMonkey still a real, actively developed product?",
+      "answer": "No, not in any meaningful sense. Founder Larry Kim pivoted the same company into 'Customers.ai' around 2022-2023 after Meta's Messenger policy changes damaged the original chatbot business. A company marketing director confirmed to an independent reviewer that no new features would ship after the end of 2025 — this is a frozen, legacy product, not an active platform under development."
+    },
+    {
+      "question": "What is Customers.ai, and is it a customer-support tool?",
+      "answer": "No — Customers.ai is a website-visitor-identification and B2C sales-outreach/remarketing platform built around a de-anonymizing tracking pixel that identifies site visitors for email and ad retargeting. It's a fundamentally different product category from customer support or chat-based service, which is why we're not scoring it as a support tool despite it being the same company's current focus."
+    },
+    {
+      "question": "Can I still buy the old MobileMonkey chatbot product?",
+      "answer": "Yes, mobilemonkey.com and its login pages are still live, and the legacy chatbot builder is nominally purchasable at prices ranging from roughly $9.95/month (Instagram-only) up to $119/month or more for multi-channel plans. But given the confirmed frozen-development status and the thin, mostly negative recent review activity, we can't recommend it as a serious, actively supported choice today."
+    },
+    {
+      "question": "What integrations does the legacy MobileMonkey chatbot support?",
+      "answer": "None natively for major ecommerce or CMS platforms — no documented native Shopify, WooCommerce, WordPress, Wix, Squarespace, or Webflow integration was found. It relies almost entirely on Zapier to bridge to other tools, which is a meaningfully thinner integration story than nearly every actively developed competitor in this category."
+    },
+    {
+      "question": "What's the most serious complaint pattern in reviews?",
+      "answer": "A real, repeated pattern spanning multiple years on Trustpilot: customers reporting being charged despite having disabled auto-renewal, and the company refusing to issue refunds. This surfaces from multiple named reviewers across different years (2024 and 2026 specifically), which is a more serious pattern than an ordinary feature complaint and materially affects our rating."
+    },
+    {
+      "question": "Should I choose MobileMonkey or Customers.ai for customer support?",
+      "answer": "We'd steer you elsewhere. MobileMonkey's chatbot product is frozen and increasingly dated, and its corporate successor, Customers.ai, isn't a support tool at all — it's built for a completely different job (identifying anonymous website visitors for sales outreach). If you need an actively developed chat-support or chatbot platform, look at a tool still meaningfully investing in that specific category."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 2, "note": "A dated, keyword-based builder with no visual flow canvas; independent reviews describe it as functional but increasingly behind actively developed competitors." },
+    { "dimension": "AI Quality", "score": 1, "note": "The legacy chatbot has no AI logic — it is explicitly keyword/dialogue-based, and the company has confirmed no new features are being built." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "Limited to website chat, Facebook Messenger, Instagram, and US/Canada-only SMS — no WhatsApp or Telegram, and no expansion planned given frozen development." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Nominally affordable ($9.95-$119+/month), but a real, repeated pattern of unauthorized-charge and refund-refusal complaints undermines trust in the billing relationship." },
+    { "dimension": "Vendor Support Quality", "score": 1, "note": "Independent reviews describe support as unresponsive to billing disputes, and the company's own public statements confirm it has shifted focus and resources entirely to a different product." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 2, "note": "Limited to website chat, Facebook Messenger, Instagram, and SMS restricted to the US and Canada — no WhatsApp or Telegram, and no expansion likely given confirmed frozen development." },
+    { "key": "omnichannel-unification", "score": 2, "note": "A built-in live-chat inbox exists for basic handoff, but no broader unification features are documented." },
+    { "key": "ai-availability", "score": 1, "note": "The legacy chatbot builder is explicitly keyword/dialogue-based with no AI logic in its conversation handling, per an independent 2026 hands-on review." },
+    { "key": "ai-resolution-accuracy", "score": 1, "note": "Not applicable in any meaningful sense — the product does not use AI-driven resolution." },
+    { "key": "ai-training-method", "score": 1, "note": "No knowledge-base ingestion or AI training mechanism exists; the bot is built from manually configured keyword triggers." },
+    { "key": "hallucination-controls", "score": 1, "note": "Not applicable — there is no generative AI component to control." },
+    { "key": "automation-depth", "score": 2, "note": "Broadcast messaging ('Chat Blasters'), drip campaigns, and segmentation exist, but there is no visual flow-builder or conditional-logic depth comparable to actively developed competitors." },
+    { "key": "sentiment-intent-detection", "score": 1, "note": "No sentiment or intent-detection capability was documented for the legacy chatbot product." },
+    { "key": "unified-inbox", "score": 3, "note": "A built-in live-chat inbox is confirmed for managing and handing off bot conversations to a human agent." },
+    { "key": "ai-human-handoff", "score": 2, "note": "A basic handoff-to-human mechanism exists via the built-in inbox, though it is not AI-driven given the underlying bot has no AI logic." },
+    { "key": "internal-collaboration", "score": 1, "note": "No internal-notes, team-chat, or department-routing features were documented beyond the basic shared inbox." },
+    { "key": "canned-responses", "score": 3, "note": "Keyword-triggered, Q&A-style canned responses are a real, confirmed feature of the legacy builder." },
+    { "key": "integration-shopify", "score": 1, "note": "No native Shopify integration was documented for the legacy MobileMonkey chatbot product; only Zapier bridging is available." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No native integration documented." },
+    { "key": "integration-wordpress", "score": 1, "note": "No native integration documented for the legacy chatbot product." },
+    { "key": "integration-wix", "score": 1, "note": "No native integration documented." },
+    { "key": "integration-squarespace", "score": 1, "note": "No native integration documented." },
+    { "key": "integration-webflow", "score": 1, "note": "No native integration documented." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "Zapier is confirmed as essentially the sole integration bridge for the legacy chatbot product — real, but a meaningfully thin single-platform dependency." },
+    { "key": "integration-crm", "score": 1, "note": "No direct native CRM integration is documented for the legacy chatbot; any CRM connection would have to route through Zapier." },
+    { "key": "order-payment-data-access", "score": 1, "note": "No order or payment data access capability is documented for the legacy chatbot product." },
+    { "key": "multi-language-support", "score": 1, "note": "No multi-language capability was documented." },
+    { "key": "analytics-depth", "score": 1, "note": "No specific, documented analytics or reporting depth was found for the legacy chatbot product." },
+    { "key": "pricing-transparency", "score": 2, "note": "Published price points exist ($9.95-$119+/month), but a real, repeated pattern of unauthorized-charge and refund-refusal complaints across multiple years undermines actual billing trustworthiness." },
+    { "key": "api-webhook-extensibility", "score": 1, "note": "No dedicated API or webhook documentation was found for the legacy chatbot product; Zapier is the only confirmed extensibility path." }
+  ],
+  "pricing": {
+    "model": "Legacy tiered SaaS pricing (frozen, no active development)",
+    "startingPrice": "$9.95/mo (Instagram-only tier)",
+    "plans": [
+      { "name": "Instagram-only", "price": "$9.95/mo", "billing": "Monthly", "notes": "Limited to Instagram channel automation only." },
+      { "name": "Multi-channel", "price": "Up to $119+/mo (annual)", "billing": "Annual", "notes": "Covers website chat, Facebook Messenger, Instagram, and US/Canada SMS." },
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "A limited free tier exists, per independent review." }
+    ]
+  },
+  "pricingBreakdown": "The legacy MobileMonkey chatbot's published pricing ($9.95/month up to $119+/month annually) looks affordable on paper, but a real and repeated complaint pattern on Trustpilot — spanning 2024 through 2026 — describes customers being charged despite disabling auto-renewal, and the company refusing to issue refunds when disputed. That's a meaningfully more serious concern than a confusing price tier, and it should weigh heavily in any decision to purchase, especially given the product's confirmed frozen-development status means ongoing value is unlikely to improve. We'd recommend against entering a billing relationship with this product without extremely careful attention to renewal settings and a clear understanding that refund disputes have not been reliably resolved for other customers.",
+  "capabilities": [
+    { "area": "The Pivot Is the Real Story", "note": "The single most important thing to understand about MobileMonkey today is that its own founder pivoted the company entirely into a different business — Customers.ai, a website-visitor-identification and sales-prospecting platform — rather than continuing to invest in the chatbot product. This isn't an acquisition or shutdown in the traditional sense, but the practical effect for a support-tool buyer is the same: no meaningful ongoing investment." },
+    { "area": "Confirmed Frozen Development", "note": "An independent 2026 review reports the company's own marketing director confirmed no new features would ship after the end of 2025 — this is about as clear a signal as exists that the legacy chatbot product is being maintained, not actively improved." },
+    { "area": "Thin Integration Story", "note": "With no native integrations documented for any major CRM or ecommerce/CMS platform, and Zapier serving as essentially the sole bridge, this product asks significantly more manual integration work of a buyer than almost any actively developed competitor in this category." },
+    { "area": "Real Billing Trust Concerns", "note": "The recurring, multi-year pattern of unauthorized-charge and refund-refusal complaints on Trustpilot is a serious finding, distinct from the ordinary feature-gap criticism found for most tools in this category, and should be weighed accordingly." },
+    { "area": "Collapsed Independent Review Activity", "note": "Trustpilot shows only one review in the past 12 months, and Capterra's listing has no visible reviews since April 2023 — this thin, stale review activity independently corroborates that the product is not being actively adopted or used at meaningful scale today." }
+  ],
+  "pros": [
+    "Still technically purchasable at low entry price points for basic Facebook Messenger/Instagram automation",
+    "A built-in live-chat inbox provides a basic, functional path for human handoff",
+    "Keyword-triggered canned responses are simple and reliable for narrow, well-defined use cases",
+    "Zapier bridging provides some path to broader tool connectivity despite the lack of native integrations",
+    "Larry Kim's public, candid account of the pivot (via the Founderpath case study) is unusually transparent about why the product changed direction"
+  ],
+  "cons": [
+    "Confirmed frozen development — no new features have shipped or are planned as of the company's own public statements",
+    "No AI capability whatsoever in the chatbot logic — purely keyword/dialogue-based",
+    "No native integration with any major CRM or ecommerce/CMS platform; Zapier is essentially the only bridge available",
+    "A real, repeated, multi-year pattern of unauthorized-charge and refund-refusal complaints in independent reviews",
+    "The company's actual current focus and investment (Customers.ai) is an entirely different, non-support product category"
+  ],
+  "sentiment": [
+    {
+      "quote": "Taken money from my account without permission [despite disabling auto-upgrade]... they don't do refunds.",
+      "source": "Trustpilot (Steven Fludder, Jun 2024)",
+      "url": "https://www.trustpilot.com/review/mobilemonkey.com",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Charged twice and said we still owed twice. Refused to fix it.",
+      "source": "Trustpilot (Clayton Johnson, May 2026)",
+      "url": "https://www.trustpilot.com/review/mobilemonkey.com",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Nobody we'd actively recommend it to for new customer-support deployments",
+    "A business already deep in the legacy MobileMonkey chatbot with narrow, stable Instagram/Messenger automation needs and no plans to expand",
+    "Teams researching the product's history or considering Customers.ai specifically for its actual current purpose — website-visitor identification, not support"
+  ],
+  "verdict": "We're including MobileMonkey in this backlog for completeness, but we want to be direct about what we found: this is not a live, actively developed customer-support product, and we can't in good conscience recommend it as one. Founder Larry Kim's own account of what happened is refreshingly candid — Meta's Messenger policy changes gutted the original chatbot business, and rather than continuing to invest there, he pivoted the same company into Customers.ai, a website-visitor-identification and sales-prospecting platform for ecommerce that has nothing to do with customer support. The legacy MobileMonkey chatbot is still nominally purchasable, but a company marketing director has confirmed no new features are planned, and that shows: it's a keyword-based builder with no AI logic, no visual flow canvas, and no native integration with any major CRM or ecommerce platform beyond Zapier. Independent review activity has collapsed to almost nothing in the past two years, which corroborates that this isn't a product anyone is meaningfully choosing today. What tips this from 'dated but harmless' to something we'd actively steer people away from is a real, repeated pattern of Trustpilot complaints — spanning 2024 through 2026 — describing unauthorized charges despite disabled auto-renewal and flat refusals to issue refunds. If you need an actively developed chatbot or chat-support platform, look elsewhere in this category; if you're specifically interested in website-visitor identification for sales outreach, evaluate Customers.ai on its own terms as that different kind of product, not as a customer-support tool.",
+  "rating": 1.8,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

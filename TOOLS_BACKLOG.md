@@ -72,6 +72,7 @@ no longer applies going forward.
 - [x] Kore.ai (genuinely sophisticated multi-agent orchestration and deep CRM/CCaaS integration; excellent reviews across three independent platforms; no native SMB-ecommerce integrations and fully opaque enterprise pricing)
 - [x] Zowie (repositioned from ecommerce specialist to general enterprise platform; genuine hallucination-prevention architecture and deep Shopify integration; flagged a real review-sentiment reliability caveat — heavily vendor-solicited G2 reviews, unresolved Capterra review-count discrepancy)
 - [x] Forethought (acquired by Zendesk in March 2026, clean transition; flagged no documented hallucination controls and a self-admitted weak reporting UX in its own "Discover" analytics product; distinguished genuine business-buyer sentiment from a separate end-consumer Trustpilot complaint pattern)
+- [x] Decagon ($4.5B valuation, Jan 2026 Series D; genuinely comprehensive multi-layered guardrail stack; flagged a real Shopify documentation inconsistency, thin independent review volume, and a multi-language marketing-vs-verified-deployment gap)
 
 ## Attempted, failed, not yet retried
 
@@ -83,7 +84,7 @@ Live Chat & Helpdesk: (all done — see "Added so far" below)
 
 WhatsApp / Omnichannel Messaging: (all done — see "Added so far" below)
 
-Chatbot / Automation Builders: Decagon, Sierra
+Chatbot / Automation Builders: Sierra
 
 AI Agentic Platforms: Crescendo, Aidbase, eesel AI, Siena AI
 

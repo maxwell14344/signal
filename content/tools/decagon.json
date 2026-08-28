@@ -1,0 +1,148 @@
+{
+  "slug": "decagon",
+  "name": "Decagon",
+  "logoUrl": "",
+  "website": "https://decagon.ai",
+  "tagline": "A San Francisco AI customer service platform that raised $250M at a $4.5B valuation in early 2026 — a genuinely sophisticated, multi-layered hallucination-control stack and enthusiastic early reviews, tempered by thin review volume and real reviewer-reported transparency concerns.",
+  "tldr": [
+    "Decagon was founded in San Francisco in August 2023 by Jesse Zhang (CEO, previously founded Lowkey, acquired by Niantic) and Ashwin Sreenivas (CTO, previously founded Helia, acquired by Scale AI), and has raised an extraordinary ~$480M+ across five rounds in under three years, most recently a $250M Series D in January 2026 led by Coatue Management and Index Ventures that tripled its valuation to $4.5B.",
+    "Its signature differentiator is 'Agent Operating Procedures' (AOPs) — natural-language instructions written by CX teams (not engineers) that compile into structured, executable automation logic, letting non-technical staff build and modify workflows without an engineering sprint.",
+    "Its hallucination-control architecture is genuinely multi-layered and well-documented: a 'Supervisor' model checks response grounding before sending, 'Watchtower' provides always-on real-time QA reviewing every conversation against custom policy criteria, dedicated bad-actor detection catches adversarial manipulation attempts, and 'Trace View' gives per-conversation observability into exactly which model, workflow, and knowledge article was used.",
+    "Confirmed, primary-source-verified integrations are concentrated on enterprise CRM/helpdesk tools — Salesforce, Zendesk (plus Sunshine), Intercom, Kustomer, Confluence, Contentful, Amazon Connect, and RingCentral — while Shopify appears inconsistently (referenced in ecommerce marketing content and a Stripe case study, but absent from the official integrations page), and no WooCommerce, WordPress, Wix, Squarespace, or Webflow integration was found anywhere.",
+    "Pricing follows a genuinely interesting philosophy — usage-based, charged per conversation or per resolution rather than per seat, with Decagon's own materials stating 'you don't pay if the AI fails and the case is passed to a human' — though no public pricing page exists, and reviewers report real difficulty forecasting costs and ambiguity in what counts as a billable 'resolution.'",
+    "Independent reviews are enthusiastic where they exist — G2 shows roughly 4.9/5 with named executives at real companies (Faire, Motion, Bilt) praising the partnership — but the sample is thin (18 G2 reviews, 0 on Capterra, no Trustpilot presence), and reviewer complaints center on 'black box' decision transparency and performance degradation during ticket-volume spikes, both worth weighing against the small sample size."
+  ],
+  "categories": { "primary": "ai-support-agents", "secondary": [] },
+  "channels": ["Website Chat", "Email", "Voice", "SMS"],
+  "keyFeatures": [
+    "'Agent Operating Procedures' (AOPs) — natural-language instructions from CX teams that compile into structured, executable automation logic without requiring engineering sprints",
+    "'Supervisor' — a model that checks response grounding against source content before sending",
+    "'Watchtower' — always-on, real-time QA reviewing every conversation against custom policy criteria",
+    "Dedicated bad-actor detection for adversarial or manipulation attempts",
+    "'Trace View' — per-conversation observability showing exactly which model, workflow, and knowledge article was used to generate a response",
+    "AI-native knowledge-base ingestion syncing with Confluence, Contentful, and Kustomer, with automatic flagging of outdated or underperforming articles",
+    "'Ask AI' — open-ended, natural-language querying of conversation data (e.g., 'why are customers requesting refunds?'), plus 'Voice of the Customer' analytics and A/B testing and simulations",
+    "Just-in-time, scoped API tokens for real-time access to customer systems, backed by PCI DSS compliance"
+  ],
+  "companyInfo": {
+    "founded": "August 2023, San Francisco, California, by Jesse Zhang (CEO) and Ashwin Sreenivas (CTO)",
+    "hq": "San Francisco, California, with additional offices in New York City and London",
+    "funding": "Approximately $480M+ raised across five rounds: a ~$5M seed (a16z), a $30M Series A (June 2024, Accel), a $65M Series B (October 2024, Bain Capital Ventures), a $131M Series C (June 2025, $1.5B valuation), and a $250M Series D (January 2026, led by Coatue Management and Index Ventures with ChemistryVC, Definition Capital, Starwood Capital, and existing investors participating) that tripled its valuation to $4.5B. A first employee tender offer at the same $4.5B valuation closed in March 2026.",
+    "employees": "Sources conflict — estimates range roughly 400-500 (Reveliolabs cites ~405 as of March 2026, PitchBook cites 500, Tracxn cites 434 as of May 2026)"
+  },
+  "faq": [
+    {
+      "question": "How is Decagon funded and valued?",
+      "answer": "Extraordinarily well for a company founded in August 2023 — it has raised roughly $480M+ across five rounds in under three years, most recently a $250M Series D in January 2026 led by Coatue Management and Index Ventures that tripled its valuation to $4.5B. This is one of the more aggressively funded companies in this entire product category."
+    },
+    {
+      "question": "What makes Decagon's automation approach different?",
+      "answer": "Its 'Agent Operating Procedures' (AOPs) let CX teams — not engineers — write natural-language instructions that compile into structured, executable automation logic. This is Decagon's signature differentiator per multiple independent sources, aiming to remove the engineering-sprint bottleneck that many competing platforms still require for workflow changes."
+    },
+    {
+      "question": "How does Decagon prevent AI hallucinations?",
+      "answer": "Through a genuinely multi-layered, well-documented stack: a 'Supervisor' model checks that responses are grounded in source content before sending, 'Watchtower' provides always-on real-time QA reviewing every single conversation against custom policy criteria, dedicated bad-actor detection catches adversarial attempts, and 'Trace View' gives per-conversation observability into exactly which model, workflow, and knowledge article produced a given response. This is one of the more comprehensive guardrail architectures we've documented in this category."
+    },
+    {
+      "question": "Does Decagon integrate with Shopify or other ecommerce platforms?",
+      "answer": "This is genuinely unclear and worth flagging directly. Decagon's official integrations page does not list Shopify, but separate ecommerce marketing content and a Stripe customer case study reference order lookup and Shopify use cases — a real inconsistency across the company's own materials. No WooCommerce, WordPress, Wix, Squarespace, or Webflow integration was found anywhere, so businesses on those platforms shouldn't expect native support."
+    },
+    {
+      "question": "How does Decagon's pricing work?",
+      "answer": "Decagon prices on a usage basis — per conversation or per resolution — rather than per seat, and its own materials state you don't pay if the AI fails and the case gets passed to a human. This is a genuinely interesting, aligned-incentive pricing philosophy, but no public pricing page exists, and reviewers report real difficulty forecasting costs, along with ambiguity in exactly what counts as a billable 'resolution.'"
+    },
+    {
+      "question": "What do independent reviews say about Decagon?",
+      "answer": "Enthusiastic where they exist — G2 shows roughly 4.9/5 with named executives at real, recognizable companies (Faire, Motion, Bilt) praising the partnership and implementation experience. But the sample is thin: only 18 G2 reviews, zero on Capterra, and no Trustpilot presence at all. Reviewer complaints, drawn from a small sample, center on 'black box' decision transparency and performance degradation during ticket-volume spikes — real concerns, but based on limited public review volume so far."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "AOPs are marketed as enabling non-engineers to build workflows, but reviewers note that even 'low-code' implementations commonly take 4-12 weeks and require dedicated engineering resources in practice." },
+    { "dimension": "AI Quality", "score": 4, "note": "A genuinely multi-layered, well-documented hallucination-control architecture (Supervisor, Watchtower, bad-actor detection, Trace View), though reviewers report performance degradation during ticket-volume spikes and real transparency concerns about agent decisions." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "Chat, email, voice, and SMS are confirmed channels; an in-app channel is referenced by third parties but not independently confirmed on a primary Decagon page." },
+    { "dimension": "Pricing Value", "score": 2, "note": "A genuinely interesting, aligned-incentive pricing philosophy (usage/resolution-based, no charge if the AI fails), but no public pricing page exists and reviewers report real cost-forecasting difficulty." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "Named executives at real, recognizable companies (Faire, Motion, Bilt) give genuinely enthusiastic, specific praise for the partnership and implementation team, though the review sample size remains small." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Chat, email, voice, and SMS are confirmed native channels via Decagon's own site and Wikipedia; an in-app channel is referenced by third parties but wasn't independently confirmed on a primary Decagon page." },
+    { "key": "omnichannel-unification", "score": 2, "note": "No specific, documented unified-conversation-view feature spanning channels was found beyond the general platform description." },
+    { "key": "ai-availability", "score": 5, "note": "'Agent Operating Procedures' (natural-language business logic compiled into executable automation) plus MCP support and custom API/tool integrations represent a genuinely sophisticated agentic architecture." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure exists, and reviewers specifically note performance degradation during ticket-volume spikes and real concerns about the transparency of agent decisions." },
+    { "key": "ai-training-method", "score": 4, "note": "AI-native knowledge-base ingestion confirmed to sync with Confluence, Contentful, and Kustomer, with automatic flagging of outdated or underperforming articles — a real, substantive pipeline." },
+    { "key": "hallucination-controls", "score": 5, "note": "A genuinely multi-layered, well-documented architecture: a Supervisor model checking grounding before sending, always-on 'Watchtower' QA reviewing every conversation, dedicated bad-actor detection, and 'Trace View' per-conversation observability — one of the more comprehensive guardrail stacks documented in this category." },
+    { "key": "automation-depth", "score": 5, "note": "AOPs are repeatedly cited across independent sources as Decagon's signature differentiator, letting CX teams build and modify workflows without an engineering sprint." },
+    { "key": "sentiment-intent-detection", "score": 3, "note": "'Voice of the Customer' analytics is confirmed as a real feature, though not detailed with the specificity of a dedicated per-message sentiment score found in some competitors." },
+    { "key": "unified-inbox", "score": 2, "note": "No dedicated shared-inbox feature was found in available documentation." },
+    { "key": "ai-human-handoff", "score": 3, "note": "A confirmed 'warm handoff to a human agent with a summary' exists, though the depth of context passed on transfer wasn't as explicitly detailed as some competitors' documented mechanisms." },
+    { "key": "internal-collaboration", "score": 2, "note": "Responsibility is split between CX teams (writing business logic via AOPs) and engineers (managing integrations), but reviewers specifically flag basic user roles/permissions and shallow audit logs as a real gap." },
+    { "key": "canned-responses", "score": 1, "note": "Not confirmed as a named feature; the closest documented capability is 'customizable brand voice' (tone, vocabulary, length controls), which is functionally different." },
+    { "key": "integration-shopify", "score": 2, "note": "Genuinely inconsistent across Decagon's own materials — absent from the official integrations page, but referenced in separate ecommerce marketing content and a Stripe customer case study." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No evidence of an integration was found anywhere, including on third-party comparison sites that specifically checked." },
+    { "key": "integration-wordpress", "score": 1, "note": "No evidence of an integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No evidence of an integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No evidence of an integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No evidence of an integration was found." },
+    { "key": "integration-automation-platforms", "score": 1, "note": "No native Zapier or Make integration was found; a third-party source explicitly states Decagon has no marketplace listings on the Zendesk Marketplace, Intercom App Store, or Salesforce AppExchange, with all integrations built as direct API connections instead." },
+    { "key": "integration-crm", "score": 5, "note": "Comprehensive and confirmed directly on Decagon's own integrations page: Salesforce, Zendesk (plus Sunshine), Intercom, Kustomer, Confluence, Contentful, Amazon Connect, and RingCentral. HubSpot could not be confirmed." },
+    { "key": "order-payment-data-access", "score": 3, "note": "PCI DSS compliance and just-in-time scoped API tokens are confirmed, and marketing content describes order-status lookup and refund processing through a payment processor (Stripe named in a case study), though this is described generally rather than with the specific technical documentation some competitors publish." },
+    { "key": "multi-language-support", "score": 2, "note": "Marketing claims range widely (70+, 80+, or 'any language natively'), but only one case study confirms an actual deployment supporting 15 languages in practice — a real, notable gap between marketing claims and verified real-world usage." },
+    { "key": "analytics-depth", "score": 5, "note": "A dedicated 'Insights and Reporting' product with 'Ask AI' open-ended natural-language querying of conversation data, 'Voice of the Customer' analytics, and A/B testing and simulations — genuinely sophisticated and confirmed via a primary source." },
+    { "key": "pricing-transparency", "score": 2, "note": "No public pricing page exists, but the underlying pricing philosophy itself (usage/resolution-based, no charge for AI failures) is genuinely and transparently explained in Decagon's own materials, even though dollar figures remain unpublished and reviewers report real cost-forecasting difficulty." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "Developer documentation exists at docs.decagon.ai and MCP support is confirmed, but the docs are gated behind customer-issued access codes rather than offered as a public, self-serve developer reference." }
+  ],
+  "pricing": {
+    "model": "Usage-based, charged per conversation or per resolution rather than per seat; enterprise sales-quote only with no public pricing page",
+    "startingPrice": "Not publicly disclosed",
+    "plans": [
+      { "name": "Enterprise (only tier)", "price": "Custom quote", "billing": "Usage-based (per conversation or per resolution)", "notes": "Decagon's own materials state customers don't pay if the AI fails and the case is passed to a human. Third-party estimates (unverified) suggest a roughly $50K/year platform fee plus $0.99/conversation or $0.50/resolution, with small pilots around $74K-$95K/year and large deployments reportedly exceeding $600K/year." }
+    ]
+  },
+  "pricingBreakdown": "Decagon's pricing philosophy is genuinely more interesting than most enterprise AI vendors in this category — it charges on a usage basis, per conversation or per resolution, rather than a flat per-seat fee, and its own materials explicitly state you don't pay if the AI fails and the case gets escalated to a human. That's a real, aligned-incentive structure worth appreciating. That said, no public pricing page exists (decagon.ai/pricing returns a 404), and third-party estimates — none confirmed by Decagon itself — suggest a roughly $50,000/year platform fee plus per-conversation or per-resolution charges, with small pilots in the $74,000-$95,000/year range and large deployments reportedly exceeding $600,000/year. Independent reviewers report a real, practical downside to this model: cost forecasting is genuinely difficult, especially during ticket-volume spikes, and there's reported ambiguity in exactly what counts as a billable 'resolution.' If you're evaluating Decagon, push for clear, contractual definitions of billable events before committing.",
+  "capabilities": [
+    { "area": "A Best-in-Class Guardrail Architecture", "note": "Decagon's combination of a grounding-check Supervisor model, always-on Watchtower QA reviewing every conversation, dedicated bad-actor detection, and per-conversation Trace View observability is genuinely one of the more comprehensive, well-documented hallucination-control stacks we've found in this entire research project — a real technical differentiator." },
+    { "area": "AOPs as a Genuine Automation Differentiator", "note": "Letting CX teams write natural-language instructions that compile into executable automation logic — without an engineering sprint for every workflow change — is repeatedly cited across independent sources as Decagon's signature capability, and it's a real, structurally different approach from a purely visual flow-builder." },
+    { "area": "Extraordinary, Rapid Funding Velocity", "note": "Raising roughly $480M+ across five rounds in under three years, culminating in a $4.5B valuation backed by Coatue, Index Ventures, and a16z, is a genuine signal of strong investor conviction and suggests substantial resources for continued product investment — a meaningfully different financial position than several other tools covered in this category." },
+    { "area": "A Real Shopify Inconsistency Worth Flagging", "note": "Decagon's own materials contradict each other: the official integrations page omits Shopify entirely, while separate ecommerce marketing content and a Stripe case study reference it directly. This kind of internal inconsistency is worth noting as a real documentation gap rather than resolving it in either direction." },
+    { "area": "Thin Review Volume Deserves a Caveat", "note": "The enthusiasm in Decagon's available reviews is genuine and comes from named, verifiable executives at real companies — but with only 18 G2 reviews, zero on Capterra, and no Trustpilot presence, the sample is small enough that broader patterns (both positive and negative) may not yet be fully visible in the public record." }
+  ],
+  "pros": [
+    "A genuinely comprehensive, multi-layered hallucination-control architecture (Supervisor, Watchtower, bad-actor detection, Trace View)",
+    "A real automation differentiator (AOPs) letting CX teams build workflows in natural language without engineering sprints",
+    "Extraordinary funding velocity and a $4.5B valuation backed by top-tier investors, suggesting strong resources for continued investment",
+    "Genuinely sophisticated analytics, including open-ended natural-language querying of conversation data",
+    "Enthusiastic, specific praise from named executives at real, recognizable companies (Faire, Motion, Bilt)"
+  ],
+  "cons": [
+    "No WooCommerce, WordPress, Wix, Squarespace, or Webflow integration found, and a genuine internal inconsistency around whether Shopify is actually supported",
+    "No native Zapier or Make integration, and no marketplace app listings on major helpdesk/CRM platforms — all integrations are direct API connections",
+    "Developer API documentation is gated behind customer-issued access codes rather than publicly available",
+    "A real gap between marketing claims of 70-80+ languages and the one confirmed real-world deployment supporting 15",
+    "Thin independent review volume (18 G2 reviews, 0 on Capterra, no Trustpilot) limits confidence in broader sentiment patterns, and reviewers report real 'black box' transparency concerns and performance degradation during volume spikes"
+  ],
+  "sentiment": [
+    {
+      "quote": "Working with Decagon has been nothing short of phenomenal. The team has taken our extremely complicated data and created a tool.",
+      "source": "G2 (Thatcher Foster, VP Client Solutions, Bilt)",
+      "url": "https://www.g2.com/products/decagon/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Limited transparency — you can't always see why it decided something, and you can't tune behavior as granularly as you might want.",
+      "source": "Aggregated secondhand discussion (r/customerexperience, exact attribution unverified)",
+      "url": "https://www.reddit.com/r/customerexperience/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Well-funded enterprises wanting a technically sophisticated, well-guardrailed AI agent platform",
+    "Organizations already standardized on Salesforce, Zendesk, Intercom, or Kustomer wanting deep native integration",
+    "CX teams wanting to build and modify automation workflows in natural language without engineering bottlenecks",
+    "Buyers comfortable with usage-based, resolution-tied pricing rather than a flat per-seat model"
+  ],
+  "verdict": "Decagon's trajectory — from an August 2023 founding to a $4.5B valuation in under three years — reflects genuine, substantial investor conviction, and the product itself backs that up with real technical sophistication. Its hallucination-control stack is one of the more comprehensive we've documented in this category: a grounding-check Supervisor model, always-on Watchtower QA reviewing every single conversation, dedicated bad-actor detection, and per-conversation Trace View observability together represent a genuinely serious approach to a problem many competitors address with vaguer guardrail language. Its 'Agent Operating Procedures' feature is a real, structurally different automation approach, letting CX teams write natural-language instructions that compile into executable logic without waiting on an engineering sprint. Available reviews back this up with genuine enthusiasm from named executives at recognizable companies like Faire, Motion, and Bilt. That said, we want to be direct about two things that temper this picture. First, Decagon's own materials contain a real inconsistency: Shopify is referenced in ecommerce marketing content and a Stripe case study but is absent from the official integrations page, and no WooCommerce, WordPress, Wix, Squarespace, or Webflow integration exists anywhere — this is squarely an enterprise CRM-focused platform, not an ecommerce-integration specialist. Second, the independent review record is still thin — only 18 G2 reviews, zero on Capterra, no Trustpilot presence — and within that small sample, reviewers report real concerns about decision transparency ('black box' behavior) and performance degradation during ticket-volume spikes. None of this points to anything resembling fraud or hostile support, but it does mean broader sentiment patterns simply haven't had time to fully surface yet. For a large enterprise already invested in Salesforce, Zendesk, or Intercom and willing to move fast with a well-funded, technically ambitious vendor, Decagon is a genuinely credible option — just go in with realistic expectations about implementation timelines and cost forecasting under its resolution-based pricing model.",
+  "rating": 3.9,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

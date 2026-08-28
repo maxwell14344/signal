@@ -1,0 +1,163 @@
+{
+  "slug": "respond-io",
+  "name": "Respond.io",
+  "logoUrl": "",
+  "website": "https://respond.io",
+  "tagline": "The Malaysia-based omnichannel messaging platform that pivoted from a chatbot startup into a 12-channel AI conversation hub, backed by $62.5M and genuine RAG-based hallucination controls.",
+  "tldr": [
+    "Respond.io started in 2017 as Rocketbots, a Hong Kong chatbot-automation startup, relocated to Kuala Lumpur and rebranded in 2019 to focus on omnichannel customer conversations, and now serves 10,000+ businesses across 180 countries with $35M ARR and 169% year-on-year growth.",
+    "Pricing is per-workspace-plus-users: Starter $79/mo (5 users, 5,000 AI credits), Growth $159/mo (10 users, 10,000 AI credits, adds AI agents and workflow automation), Advanced $279/mo (20,000 AI credits, custom channels, SSO), and custom Enterprise — all with a 20% annual discount and AI included in every tier's credit allowance.",
+    "The channel list is genuinely exceptional: 12+ native channels including WhatsApp (with official Business Calling API support), Instagram, Facebook Messenger, Telegram, Viber, WeChat, LINE, SMS, TikTok, email, web chat, and VoIP calls unified in one inbox.",
+    "The AI Agent is built on retrieval-augmented generation (RAG), grounding replies in approved knowledge sources with an explicit, user-controlled toggle for whether it can fall back to general knowledge when nothing relevant is found — a genuinely more transparent hallucination-control design than most competitors document.",
+    "Independent reviews are strongly positive (4.6/5 on Capterra) with structure and scale specifically praised, but a real, recurring complaint is that pricing is steep for small businesses, and at least one reviewer reports a denied refund request over downtime.",
+    "Best for mid-market to enterprise B2C teams running high-volume conversations across many messaging channels, especially WhatsApp — not for small teams on a tight budget, or anyone needing deep native ecommerce or website-builder integrations."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["WhatsApp", "WhatsApp Voice Calling", "Instagram", "Facebook Messenger", "Telegram", "Viber", "WeChat", "LINE", "SMS", "TikTok", "Web Chat", "Email"],
+  "keyFeatures": [
+    "An AI Agent that understands intent, learns from company knowledge sources, qualifies leads, updates CRM lifecycle stages, triggers workflows, and routes conversations by intent",
+    "Retrieval-augmented generation (RAG) grounding, with a user-toggleable setting controlling whether the AI can answer from general knowledge when nothing relevant exists in uploaded sources",
+    "Official WhatsApp Business Calling API support, including in-call transfers between agents without dropping the connection or losing context",
+    "Workflow automation (Growth tier and up) for routing, lifecycle updates, and multi-step conversation logic",
+    "Internal comments visible only to team members, attachable with supporting files, plus automatic AI-generated conversation summaries and closing notes on handoff",
+    "Snippets — reusable knowledge content (PDFs, URLs, text) that both AI Agents and human-facing AI Assist draw on for context-aware responses",
+    "Analytics covering resolution rates, response times, team performance, and conversion events synced via Meta's Conversions API for ad-attribution reporting",
+    "Zapier and Make integrations connecting to HubSpot, Salesforce, Zoho, Pipedrive, and other CRMs, plus a developer API and webhooks on the Advanced tier"
+  ],
+  "companyInfo": {
+    "founded": "2017 in Hong Kong as Rocketbots (co-founded by Hassan Ahmed, Gerardo Salandra, and Iaroslav Kudritskiy); relocated to Kuala Lumpur and rebranded to Respond.io in 2019",
+    "hq": "Kuala Lumpur, Malaysia",
+    "funding": "Raised $62.5M (2026 round) to fund expansion and acquisitions in North America and Europe; reported $35M ARR with 169% year-on-year growth",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "How many channels does Respond.io actually support?",
+      "answer": "12 or more, natively: WhatsApp (including official Business Calling API voice support), Instagram, Facebook Messenger, Telegram, Viber, WeChat, LINE, SMS, TikTok, email, a web chat widget, and VoIP calling, all unified in one inbox — one of the broadest native channel lists in this category."
+    },
+    {
+      "question": "How does Respond.io prevent its AI Agent from hallucinating?",
+      "answer": "It uses retrieval-augmented generation (RAG) to ground replies in approved knowledge sources before answering, and — distinctively — gives you an explicit toggle to control whether the AI can fall back to general knowledge when it can't find an answer in your uploaded content, or must stay strictly within your sources. That's a more transparent, user-controllable approach to the hallucination tradeoff than most competitors document."
+    },
+    {
+      "question": "Can multiple languages work at once in Respond.io?",
+      "answer": "With real limitations. Each customer service agent can set a preferred language that incoming messages translate to, and Respond AI can translate incoming customer messages — but the platform is documented as supporting only one conversation language per agent, and a multilingual chatbot cannot handle several languages simultaneously. If your support volume genuinely spans many languages in parallel, test this limitation directly before committing."
+    },
+    {
+      "question": "Does Respond.io integrate with Shopify or a CRM?",
+      "answer": "Shopify connects only through Zapier, with no dedicated native app found. CRM connectivity is broader — HubSpot, Salesforce, Zoho, and Pipedrive are all mentioned as connectable, though largely through Zapier/Make automation templates rather than confirmed deep native bidirectional sync for each one. Confirm the specific depth you need directly rather than assuming full native parity across every listed CRM."
+    },
+    {
+      "question": "Is Respond.io affordable for a small business?",
+      "answer": "Not especially — this is a real, recurring theme in independent reviews. Starter is $79/month for 5 users, and pricing scales up through $159 and $279/month tiers before Enterprise, positioning this as a mid-market-to-enterprise tool. At least one reviewer specifically describes it as 'priced for larger organisations, not small businesses.'"
+    },
+    {
+      "question": "What is the most serious complaint on record about Respond.io?",
+      "answer": "Beyond general pricing concerns, one specific, documented complaint describes a customer requesting a full refund after the product was unusable during a downtime incident, which the company reportedly rejected. That's a concrete data point worth weighing alongside the otherwise strongly positive review base, particularly for any team considering an annual commitment."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Reviewers describe the platform as powerful but note a real learning curve, consistent with the depth of its 12+-channel, workflow-heavy feature set." },
+    { "dimension": "AI Quality", "score": 4, "note": "A genuinely agentic AI Agent with RAG-based grounding and a transparent, user-controlled hallucination-fallback toggle — one of the more sophisticated documented AI implementations in this category, though without an independently audited resolution rate." },
+    { "dimension": "Omnichannel Support", "score": 5, "note": "12+ native channels including WhatsApp Voice Calling, unified in one inbox — among the broadest channel coverage found in this category." },
+    { "dimension": "Pricing Value", "score": 3, "note": "AI is included in every tier's credit allowance rather than metered entirely separately, but base pricing is genuinely steep for small teams, a specific and recurring independent-review complaint." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "A strongly positive review base (4.6/5 on Capterra) with structure and scale specifically praised, offset by at least one documented, serious complaint about a denied refund during a downtime incident." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Documented native support for 12+ channels — WhatsApp (including Business Calling API), Instagram, Facebook Messenger, Telegram, Viber, WeChat, LINE, SMS, TikTok, email, web chat, and VoIP — among the broadest channel lists found in this category." },
+    { "key": "omnichannel-unification", "score": 5, "note": "All channels, including VoIP calls, are documented as unified in one inbox with shared conversation history and context, consistent with the product's core omnichannel positioning since its 2019 rebrand." },
+    { "key": "ai-availability", "score": 5, "note": "The AI Agent is genuinely agentic — understanding intent, qualifying leads, updating CRM lifecycle stages, triggering workflows, and routing by intent — a meaningfully higher capability bar than a standard FAQ-answering chatbot." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "Resolution rates are tracked in the platform's own analytics, but no independently audited resolution-rate figure was found to verify real-world accuracy against any vendor claim." },
+    { "key": "ai-training-method", "score": 4, "note": "The AI Agent and AI Assist both train on uploaded knowledge sources (PDFs, URLs, Snippets) using RAG — genuine automatic grounding rather than manual intent-building." },
+    { "key": "hallucination-controls", "score": 4, "note": "A documented, genuinely sophisticated implementation: RAG-based grounding in approved sources, plus an explicit, user-controlled toggle for whether the AI can answer from general knowledge or must stay strictly within uploaded content — more transparent than most competitors' documented approach to this tradeoff." },
+    { "key": "automation-depth", "score": 4, "note": "Workflow automation supports routing, lifecycle-stage updates, and multi-step conversation logic, with the AI Agent itself capable of triggering workflows and taking actions rather than only replying." },
+    { "key": "sentiment-intent-detection", "score": 3, "note": "The AI Agent is documented as understanding and routing by intent, which is real capability — though no separate, explicit frustration or urgency-sentiment-flagging feature distinct from intent classification was confirmed." },
+    { "key": "unified-inbox", "score": 5, "note": "A mature, well-reviewed unified inbox spanning all 12+ channels plus VoIP calling, consistently praised by independent reviewers for centralizing communication." },
+    { "key": "ai-human-handoff", "score": 4, "note": "Documented as routing to a human agent when needed, with automatic AI-generated conversation summaries and closing notes preserving context for the receiving agent — a genuinely well-specified handoff design." },
+    { "key": "internal-collaboration", "score": 4, "note": "Internal comments (invisible to contacts, attachable with files), conversation assignment to agents or AI agents, and Teams for organizing members are all documented, established features." },
+    { "key": "canned-responses", "score": 3, "note": "Snippets serve as reusable knowledge content that AI Agents and AI Assist draw on, but it's not entirely clear from available documentation whether human agents have an equally fast, standalone manual canned-response insertion tool distinct from the AI-oriented Snippets system." },
+    { "key": "integration-shopify", "score": 2, "note": "Shopify connects only through a Zapier integration; no dedicated native app or order-data integration was found." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found; Respond.io is built as a messaging-API and omnichannel-inbox platform rather than a website-widget product." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 4, "note": "Both Zapier and Make are explicitly documented as supported integration paths, with published templates for common CRM sync use cases — genuine, broad no-code reach." },
+    { "key": "integration-crm", "score": 3, "note": "HubSpot, Salesforce, Zoho, and Pipedrive are all documented as connectable, but largely via Zapier/Make automation templates rather than confirmed deep, independently verified native bidirectional sync for each platform." },
+    { "key": "order-payment-data-access", "score": 1, "note": "No documentation was found of live order or payment data being surfaced inside a conversation — commerce integration exists only at the generic Zapier-bridge level." },
+    { "key": "multi-language-support", "score": 3, "note": "Real, documented translation capability lets agents set a preferred language for incoming message translation, but the platform is explicitly documented as supporting only one conversation language per agent, and multilingual chatbot support cannot handle several languages simultaneously — a genuine, stated limitation." },
+    { "key": "analytics-depth", "score": 4, "note": "Reporting covers resolution rates, response times, and team performance, distinctively including conversion events synced via Meta's Conversions API — a genuinely useful capability for teams running paid social/WhatsApp ad campaigns tied to conversation outcomes." },
+    { "key": "pricing-transparency", "score": 4, "note": "All tiers, user-overage costs, AI credit allowances, and Monthly-Active-Contact overage rates are clearly published — genuinely transparent, though the overall pricing level is a specific and repeated independent-review complaint for smaller teams." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "A developer API and webhooks are documented on the Advanced tier and above, alongside custom-channel support for connecting proprietary messaging systems — real, mature extensibility." }
+  ],
+  "pricing": {
+    "model": "Per-workspace tiered SaaS with included user seats and AI credit allowances, plus contact and user overage fees",
+    "startingPrice": "$79/mo (Starter, 5 users, billed monthly; $948/yr with 20% annual discount)",
+    "plans": [
+      { "name": "Starter", "price": "$79/mo", "billing": "Monthly or annual (20% off)", "notes": "5 users (+$12/mo each), 1,000 Monthly Active Contacts (overages $12/100), 5,000 AI credits, team/custom inboxes, mobile app, basic reports, multi-channel support." },
+      { "name": "Growth", "price": "$159/mo", "billing": "Monthly or annual (20% off); 'Most Popular'", "notes": "10 users (+$20/mo each), unlimited Monthly Active Contacts, 10,000 AI credits, broadcasts, workflow automation, AI agents, advanced reports, Zapier/Make, developer API." },
+      { "name": "Advanced", "price": "$279/mo", "billing": "Monthly or annual (20% off)", "notes": "10 users (+$24/mo each), 20,000 AI credits, custom channels, multiple workspaces, SSO, phone/email masking, HTTP requests in workflows, webhooks; overages $15/100 additional contacts." },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "Unlimited users and workspaces, 40,000+ AI credits, higher API rate limits." }
+    ]
+  },
+  "pricingBreakdown": "Respond.io's pricing reflects its mid-market-to-enterprise positioning clearly: $79/month for Starter is already above several competitors' entry points, and the jump to Growth ($159/mo) — where workflow automation and AI agents actually unlock — pushes real cost higher fast, especially once you factor in per-user overage fees ($12-24/month per additional seat depending on tier). The AI-credit model is worth understanding precisely: 5,000 credits included on Starter scaling to 40,000+ on Enterprise, which is a genuinely different metering unit than the flat per-resolution fees ($0.75-$1.00) common elsewhere in this category — model your expected AI usage against credits, not conversations, before comparing costs directly to a per-resolution competitor. Independent reviewers specifically flag this pricing level as a barrier for small businesses and freelancers, which tracks with the product's genuine strength: this is built for teams running real conversation volume across many channels, not a single-agent side project.",
+  "capabilities": [
+    { "area": "Channel Breadth", "note": "This is Respond.io's clearest strength: 12+ native channels including a genuinely differentiated one — official WhatsApp Business Calling API support with in-call agent transfers — unified in a single inbox. Few competitors in this category match this breadth, particularly on the voice-over-WhatsApp capability." },
+    { "area": "AI Agent & Hallucination Controls", "note": "Genuinely more sophisticated than most competitors' documented approach: RAG-based grounding in your own knowledge sources, combined with an explicit, user-controlled toggle for whether the AI can fall back to general knowledge or must stay strictly within your uploaded content. That transparency about the accuracy-versus-coverage tradeoff is a real differentiator, even though there's no independently audited resolution rate to pair with it." },
+    { "area": "Reporting & Meta Integration", "note": "Beyond standard resolution and response-time metrics, syncing conversion events via Meta's Conversions API is a distinctive, genuinely useful capability for any team running WhatsApp or Messenger ad campaigns and wanting to tie ad spend to actual conversation outcomes." },
+    { "area": "Ecommerce & Website Integration", "note": "A real gap worth being direct about: Shopify connects only through Zapier with no dedicated native app, and there's no WordPress, Wix, Squarespace, or Webflow integration at all. If deep ecommerce order-data access or website-builder integration matters to your use case, this isn't where Respond.io is strong." },
+    { "area": "Cost & Accessibility", "note": "Structurally built for teams with real conversation volume and budget — Starter at $79/month with per-user overages puts this meaningfully above several competitors' entry pricing, and independent reviewers consistently describe it as steep for smaller organizations." }
+  ],
+  "pros": [
+    "Exceptionally broad native channel coverage (12+) including official WhatsApp Business Calling API with in-call agent transfers",
+    "A genuinely agentic AI Agent that qualifies leads, updates CRM lifecycle stages, and routes by intent, not just answering FAQs",
+    "One of the more transparent, sophisticated hallucination-control implementations in this category — RAG grounding plus a user-controlled knowledge-fallback toggle",
+    "Distinctive analytics tying conversation outcomes to ad conversion events via Meta's Conversions API",
+    "A well-funded ($62.5M raised), fast-growing (169% YoY) company with a strongly positive independent review base (4.6/5)"
+  ],
+  "cons": [
+    "Pricing is genuinely steep for small businesses, a specific and repeated independent-review complaint, with real per-user overage costs on top of the base tier",
+    "No independently audited AI resolution-rate figure exists to verify accuracy claims",
+    "Multi-language support has a documented, real limitation — one conversation language per agent, and multilingual chatbots can't handle several languages simultaneously",
+    "No dedicated ecommerce (Shopify, WooCommerce) or website-builder (WordPress, Wix, Squarespace, Webflow) integrations — CRM and Shopify connectivity relies largely on Zapier",
+    "At least one documented, serious complaint describes a denied refund request following a reported downtime incident"
+  ],
+  "sentiment": [
+    {
+      "quote": "Respond.io is a serious omnichannel platform for teams who care about structure and scale.",
+      "source": "Capterra (Ryan C., Founder, Computer Software, 5/5)",
+      "url": "https://capterra.com/p/179311/Rocketbots/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Extremely Expensive with Unfair Billing Practices. Respond.io is priced for larger organisations, not small businesses.",
+      "source": "Capterra (Johan W., Director, Retail, 1/5)",
+      "url": "https://capterra.com/p/179311/Rocketbots/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Fantastic industry leader that does it all. We've scaled our business with Respond.io as backbone.",
+      "source": "Capterra (Kim B., Head of Product, Health & Wellness, 5/5)",
+      "url": "https://capterra.com/p/179311/Rocketbots/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "We asked for full refund on downtime when product was unusable; Respond rejected the request.",
+      "source": "Capterra (Joel M., CEO, Real Estate, 2/5)",
+      "url": "https://capterra.com/p/179311/Rocketbots/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Mid-market to enterprise B2C teams running high-volume conversations across many messaging channels, especially WhatsApp",
+    "Teams running WhatsApp or Messenger ad campaigns who want conversation outcomes tied directly to Meta ad conversion data",
+    "Businesses that specifically need WhatsApp voice calling with in-call agent transfers, a capability few competitors offer",
+    "Teams comfortable bridging Shopify or deeper CRM sync through Zapier rather than needing fully native integrations"
+  ],
+  "verdict": "Respond.io's evolution from a 2017 Hong Kong chatbot startup into a $35M-ARR omnichannel messaging platform tracks the market it's built for: real, high-volume B2C conversation management across more channels than almost any competitor in this category, including a genuinely distinctive official WhatsApp Business Calling API implementation with in-call agent transfers. The AI Agent backs up that ambition with real sophistication — it qualifies leads, updates CRM lifecycle stages, and routes by intent, grounded in a RAG-based knowledge system with an unusually transparent, user-controlled toggle for the general-knowledge-fallback tradeoff most competitors don't let you configure explicitly. Where I'd push back is cost: this is priced for the mid-market-to-enterprise teams it's clearly built for, and independent reviewers are specific and consistent that it's steep for a small business or freelancer, with real per-user overage costs stacking on top of an already-elevated base tier. There's also a genuine, documented limitation worth knowing before you commit: the platform supports only one conversation language per agent, and a multilingual chatbot can't handle several languages at once — worth testing directly if your support volume genuinely spans many languages in parallel. And while there's no independently audited AI resolution rate, at least one reviewer's account of a denied refund during a downtime incident is a concrete data point worth weighing alongside the otherwise strong 4.6/5 review base. My honest read: if your team runs real conversation volume across many channels — especially WhatsApp, including voice — and has the budget this tier of tool assumes, Respond.io's channel breadth and AI sophistication are genuinely hard to match. If you're a small team or need deep ecommerce/website-builder integration, this isn't built for you specifically.",
+  "rating": 4.1,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

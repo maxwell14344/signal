@@ -41,6 +41,9 @@ no longer applies going forward.
 - [x] Chaport (flagged as not genuine AI — rule-based chatbot builder, not LLM-based)
 - [x] Userlike (rebranded to Lime Connect in Sept 2025, noted in profile)
 - [x] LiveAgent
+- [x] Respond.io
+- [x] SleekFlow (public pricing conflicting across sources, noted in profile)
+- [x] Trengo
 
 ## Attempted, failed, not yet retried
 
@@ -50,7 +53,7 @@ no longer applies going forward.
 
 Live Chat & Helpdesk: (all done — see "Added so far" below)
 
-WhatsApp / Omnichannel Messaging: Respond.io, SleekFlow, Trengo, Interakt,
+WhatsApp / Omnichannel Messaging: Interakt,
 Wati, AiSensy, Yellow.ai, Twilio Flex, MessageBird (Bird), Zoko,
 DelightChat, Charles, Gallabox, Verloop, Haptik, Kommo, 360dialog,
 Rasayel

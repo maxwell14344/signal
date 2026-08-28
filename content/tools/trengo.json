@@ -1,0 +1,162 @@
+{
+  "slug": "trengo",
+  "name": "Trengo",
+  "logoUrl": "",
+  "website": "https://trengo.com",
+  "tagline": "The Dutch omnichannel inbox that ran three years on zero outside capital before raising $39.9M — now automating what it calls 'the boring 84%' of repetitive support questions.",
+  "tldr": [
+    "Trengo was founded in 2017 in Utrecht, the Netherlands by Patrick Meutzner, Marcel van de Weerd, and Igo Trampe, bootstrapped to roughly 15 people before raising €1.75M in 2020 and a $36M Series A in 2021 led by Insight Partners and Peak Capital — $39.9M total, now serving 3,000+ customers globally.",
+    "Pricing is per-workspace with included user counts: Boost at €299/mo annual (€349 month-to-month) for 10 users, Pro at €499/mo annual (€599 month-to-month) for 20 users, and custom Enterprise — a conversation-allowance model rather than pure per-seat billing.",
+    "The AI positioning is distinctive: rather than claiming to handle everything, Trengo frames its AI Agents around automating 'the boring 84%' — the repetitive questions nobody wants to answer twice — with chatbots and agent-assist tools drawing from a connected knowledge base.",
+    "Genuinely deep native CRM integrations stand out: connecting Salesforce or HubSpot surfaces contact records, lead status, and sales data directly inside the Trengo inbox without switching tabs, alongside native Shopify, Magento, and WooCommerce integrations.",
+    "Analytics are comprehensive and specific — first response time, resolution rate, ticket deflection rate, CSAT, bot containment rate, and escalation frequency are all documented as tracked metrics.",
+    "The most serious, recurring independent-review complaint isn't a missing feature — it's pricing instability: multiple reviewers specifically describe prices doubling with sudden changes and critical features being phased out, a real trust concern worth weighing against the otherwise strong product."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["live-chat-shared-inbox"] },
+  "channels": ["WhatsApp", "Facebook Messenger", "SMS", "Web Chat", "Telegram", "Email", "Voice"],
+  "keyFeatures": [
+    "AI Agents positioned around automating repetitive, high-volume questions ('the boring 84%') rather than claiming universal resolution capability",
+    "Customizable, no-code chatbots and agent-assist tools that draw from a connected knowledge base for instant, relevant answers",
+    "Smart ticket routing and workflow automation across all connected channels",
+    "Deep native Salesforce and HubSpot integrations surfacing contact records, lead status, and sales data directly inside the Trengo inbox",
+    "Native Shopify, Magento, and WooCommerce integrations for ecommerce-context conversations",
+    "Quick replies (canned responses), internal notes, and @mentions for team coordination without exposing internal discussion to customers",
+    "Comprehensive analytics tracking first response time, resolution rate, ticket deflection rate, CSAT, bot containment rate, and escalation frequency",
+    "Shared dashboards and workload-balancing tools for distributing conversation volume across a team"
+  ],
+  "companyInfo": {
+    "founded": "2017, Utrecht, Netherlands, by Patrick Meutzner, Marcel van de Weerd, and Igo Trampe — ran roughly three years and grew to about 15 people on no outside capital before seeking external funding",
+    "hq": "Utrecht, Netherlands",
+    "funding": "$39.9M total raised across 3 rounds: €1.75M (Feb 2020), a $36M Series A (2021) led by Insight Partners and Peak Capital",
+    "employees": "Not publicly disclosed; the company reports 3,000+ customers globally"
+  },
+  "faq": [
+    {
+      "question": "What does Trengo mean by automating 'the boring 84%'?",
+      "answer": "It's the company's own framing for its AI positioning: rather than marketing its AI as capable of resolving everything, Trengo specifically targets the repetitive, low-complexity questions that make up the bulk of support volume but that agents don't want to keep answering by hand — leaving more complex or judgment-heavy conversations for humans. It's a more modest, arguably more honest framing than some competitors' universal-resolution marketing."
+    },
+    {
+      "question": "How much does Trengo actually cost?",
+      "answer": "Boost is €299/month billed annually (€349 month-to-month) for 10 users, and Pro is €499/month annually (€599 month-to-month) for 20 users, with custom Enterprise pricing above that. It's a per-workspace, conversation-allowance model rather than strict per-seat billing, so review the specific conversation cap on your tier rather than assuming unlimited volume."
+    },
+    {
+      "question": "What is the most serious complaint about Trengo?",
+      "answer": "Pricing stability, and it's specific rather than vague. Multiple independent reviewers describe prices doubling with what they characterize as sudden changes, and separately report critical features being phased out after a price increase. This is a different, more serious kind of concern than a typical 'it's expensive' complaint — it's about trust in the pricing relationship over time, and worth asking about directly before signing an annual contract."
+    },
+    {
+      "question": "How deep is Trengo's CRM integration?",
+      "answer": "Genuinely deep for both major CRMs it supports: connecting Salesforce or HubSpot pulls contact records, lead status, company details, and sales data directly into the Trengo inbox, so agents don't need to switch tabs to get context. This is a real strength relative to competitors whose CRM integrations only sync basic contact fields."
+    },
+    {
+      "question": "Does Trengo work well for ecommerce support?",
+      "answer": "There's real, native integration support for Shopify, Magento, and WooCommerce, which is broader ecommerce-platform coverage than several competitors offer. We didn't find the same level of documented detail on order-editing or refund actions that ecommerce-first specialists like Gorgias or Re:amaze publish, so test the specific depth you need directly."
+    },
+    {
+      "question": "What is Trengo's real AI resolution rate?",
+      "answer": "Some third-party sources cite figures around 80% resolution, but no independently audited benchmark was found to verify this. As with any vendor-adjacent AI performance claim in this category, treat it as an upper-bound estimate under favorable conditions rather than a typical guaranteed outcome."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Reviewers praise the pace of new feature and channel releases, but also report occasional glitches and bugs (including with calls) that suggest a real learning curve and some rough edges." },
+    { "dimension": "AI Quality", "score": 3, "note": "The 'boring 84%' framing is a genuinely more modest and credible AI positioning than universal-resolution marketing, but no independently audited resolution-rate figure exists to verify it." },
+    { "dimension": "Omnichannel Support", "score": 5, "note": "A genuinely broad, well-integrated channel list (WhatsApp, Facebook, SMS, web chat, Telegram, email, voice) unified into a single inbox, core to the product's positioning since founding." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Beyond the published tier prices, multiple independent reviewers describe real pricing instability — prices doubling with sudden changes and features being phased out — a more serious trust concern than a typical cost complaint." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Reviews are largely positive on the core product, but at least one reviewer specifically describes customer support as 'slow and inefficient' alongside the pricing-change complaint." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Documented native support for WhatsApp, Facebook Messenger, SMS, web chat, Telegram, email, and voice — a genuinely broad channel list, core to the product's 'one inbox for every channel' positioning." },
+    { "key": "omnichannel-unification", "score": 5, "note": "Unifying every connected channel into a single inbox is the company's founding product thesis, and independent reviewers consistently confirm it works well in practice." },
+    { "key": "ai-availability", "score": 4, "note": "AI Agents and no-code chatbots are genuine, documented capabilities, deliberately positioned around automating high-volume, repetitive questions rather than claiming universal resolution — a real, if more modest, AI implementation." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "Some third-party sources cite roughly 80% resolution, but no independently audited benchmark exists to verify this figure." },
+    { "key": "ai-training-method", "score": 4, "note": "Chatbots and agent-assist tools are documented as drawing from a connected knowledge base to generate relevant answers — genuine automatic grounding rather than manual scripting." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms (source citation, confidence thresholds) beyond the AI being scoped to knowledge-base content." },
+    { "key": "automation-depth", "score": 4, "note": "Smart ticket routing, no-code chatbot customization, and workflow automation across connected channels represent real depth beyond simple canned replies." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection during an active conversation was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 5, "note": "The single unified inbox across every connected channel is the product's core architecture and its most consistently praised feature in independent reviews." },
+    { "key": "ai-human-handoff", "score": 3, "note": "Escalation frequency is documented as a tracked analytics metric, implying real escalation logic exists, though without the explicit confidence-threshold or trigger detail some competitors publish." },
+    { "key": "internal-collaboration", "score": 4, "note": "Internal notes, @mentions/tagging, shared dashboards, and workload-balancing tools are all documented, established features for team coordination." },
+    { "key": "canned-responses", "score": 4, "note": "Quick replies are a documented, dedicated feature with their own help-center articles for setup and use — a mature, established capability." },
+    { "key": "integration-shopify", "score": 4, "note": "A native Shopify integration is documented alongside the CRM integrations' pattern of surfacing data directly in the inbox, though without the explicit order-editing detail some ecommerce-first competitors publish." },
+    { "key": "integration-woocommerce", "score": 3, "note": "A native WooCommerce integration is documented alongside Magento and Shopify, with less independently-confirmed depth of detail specifically for WooCommerce." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress plugin was found in the materials reviewed." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 3, "note": "A documented Zapier integration provides no-code automation workflows; no specific Make or n8n integration was confirmed." },
+    { "key": "integration-crm", "score": 4, "note": "Genuinely deep native integrations with both Salesforce and HubSpot surface contact records, lead status, and sales data directly inside the Trengo inbox without switching tabs — a real strength relative to competitors offering only basic contact sync." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Native Shopify, Magento, and WooCommerce integrations exist and follow the same 'data directly in the inbox' pattern documented for the CRM integrations, though without explicit confirmation of order-editing or refund-action capability specifically for ecommerce data." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 5, "note": "Genuinely comprehensive, specifically named metrics: first response time, resolution rate, ticket deflection rate, CSAT, bot containment rate, and escalation frequency — a notably detailed reporting suite relative to the category." },
+    { "key": "pricing-transparency", "score": 2, "note": "Published tier prices exist, but multiple independent reviewers report a real pattern of pricing instability — prices doubling with sudden changes and features being phased out after increases — a more serious transparency and trust concern than simply having a published price list." },
+    { "key": "api-webhook-extensibility", "score": 2, "note": "A Zapier integration provides some no-code extensibility, but no detailed public API or webhook-event documentation was confirmed in the materials reviewed." }
+  ],
+  "pricing": {
+    "model": "Per-workspace tiered SaaS with included user counts and a conversation allowance",
+    "startingPrice": "€299/mo (Boost, billed annually; €349/mo month-to-month), 10 users included",
+    "plans": [
+      { "name": "Boost", "price": "€299/mo annual (€349 monthly)", "billing": "Per workspace", "notes": "10 users included, a fixed conversation allowance, core omnichannel inbox and automation features." },
+      { "name": "Pro", "price": "€499/mo annual (€599 monthly)", "billing": "Per workspace", "notes": "20 users included, more feature-rich tier with expanded automation and reporting." },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "For larger organizations; custom conversation volume and feature set." }
+    ]
+  },
+  "pricingBreakdown": "Trengo's published pricing (€299/mo Boost, €499/mo Pro) is reasonably competitive for a 10-to-20-user team against comparable per-seat competitors, and the conversation-allowance model rather than strict per-seat billing can favor teams with more users but moderate individual conversation volume. What's genuinely concerning, and worth weighing more heavily than the sticker price itself, is the pattern independent reviewers describe: prices reportedly doubling with sudden changes, and critical features being phased out after an increase. That's a materially different risk than a competitor simply being expensive — it's a signal that the pricing relationship itself may not be stable over a multi-year commitment. Before signing an annual contract, ask directly about historical pricing changes and get any promised feature continuity in writing rather than assuming the current published tier structure will hold.",
+  "capabilities": [
+    { "area": "Unified Omnichannel Inbox", "note": "This is Trengo's founding thesis and its clearest strength: WhatsApp, Facebook, SMS, web chat, Telegram, email, and voice all land in one inbox, and independent reviewers consistently confirm this works well in daily use, with several specifically praising the pace of new channel additions." },
+    { "area": "AI Positioning ('The Boring 84%')", "note": "A genuinely more credible AI framing than many competitors': rather than claiming to resolve everything, Trengo explicitly targets the repetitive, high-volume questions that eat up agent time, leaving more nuanced conversations for humans. It's a modest claim, which also makes it a more trustworthy one — though still without independent verification of the underlying resolution rate." },
+    { "area": "CRM & Ecommerce Integration", "note": "Genuinely deep native Salesforce and HubSpot integrations pull contact and sales data directly into the inbox, a real strength versus competitors offering only shallow contact sync. Shopify, Magento, and WooCommerce integrations extend this to ecommerce, though with less documented depth on order-specific actions." },
+    { "area": "Analytics", "note": "One of the more comprehensive, specifically-named analytics suites found in this category — first response time, resolution rate, deflection rate, CSAT, bot containment rate, and escalation frequency are all documented as tracked metrics, giving a genuinely fuller picture than a basic volume-and-response-time dashboard." },
+    { "area": "Pricing Stability", "note": "The one area where I'd urge real caution independent of the product's actual capability. A specific, repeated reviewer complaint pattern — prices doubling, features phased out after increases — is a trust signal worth investigating directly with the vendor before committing to any multi-year plan, regardless of how competitive the currently published price looks." }
+  ],
+  "pros": [
+    "A genuinely broad, well-integrated omnichannel inbox spanning WhatsApp, Facebook, SMS, web chat, Telegram, email, and voice",
+    "Deep native Salesforce and HubSpot integrations surfacing real contact and sales data directly in the inbox, not just basic contact sync",
+    "One of the more comprehensive, specifically-detailed analytics suites in this category (deflection rate, bot containment rate, escalation frequency all tracked)",
+    "A more modest, arguably more honest AI framing ('the boring 84%') than competitors claiming universal AI resolution",
+    "Venture-backed with real scale (3,000+ customers, $39.9M raised) suggesting genuine market traction and staying power"
+  ],
+  "cons": [
+    "A specific, repeated independent-review complaint pattern describes pricing doubling with sudden changes and critical features being phased out after increases — a real trust concern beyond typical cost complaints",
+    "No independently audited AI resolution-rate figure exists to verify any vendor-adjacent accuracy claim",
+    "No documented native multi-language or auto-translation capability",
+    "No dedicated WordPress, Wix, Squarespace, or Webflow integration",
+    "Reviewers report occasional glitches and bugs, including issues with call functionality and difficulty viewing reopened-ticket history"
+  ],
+  "sentiment": [
+    {
+      "quote": "Useful messaging platform for all channels: Whatsapp, Facebook, SMS, Website chat, Telegram.",
+      "source": "Capterra (Frits P., Owner, Automotive, 5/5)",
+      "url": "https://www.capterra.com/p/177967/Trengo/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Pricing doubled with sudden changes; customer support is slow and inefficient overall.",
+      "source": "Capterra (Giacomo M., Web Developer, Telecommunications, 2/5)",
+      "url": "https://www.capterra.com/p/177967/Trengo/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Trengo saves us time, brings us closer to our customer and shortens response times.",
+      "source": "Capterra (Tim S., Owner, Automotive, 5/5)",
+      "url": "https://www.capterra.com/p/177967/Trengo/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Prices increased and critical features phased out; data export process feels complicated.",
+      "source": "Capterra (Jeffrey D., Managing Director, Marketing, 3/5)",
+      "url": "https://www.capterra.com/p/177967/Trengo/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Teams that want a genuinely broad, well-built omnichannel inbox with deep native Salesforce or HubSpot integration",
+    "Support operations wanting comprehensive, specific analytics (bot containment, escalation frequency) beyond basic volume metrics",
+    "Businesses comfortable with a conversation-allowance pricing model rather than strict per-seat billing",
+    "Buyers willing to negotiate explicit pricing-stability terms before signing an annual contract, given the documented complaint pattern"
+  ],
+  "verdict": "Trengo built something genuinely solid on its own terms before ever taking outside money — three years bootstrapped to fifteen people, then real institutional backing ($39.9M from Insight Partners and Peak Capital) to scale a product whose core idea, one inbox for every channel, still holds up well according to independent reviewers. The CRM integrations are a real, specific strength: connecting Salesforce or HubSpot pulls contact and sales data directly into the inbox rather than a shallow contact-sync, and the analytics suite is genuinely more detailed than most competitors', tracking bot containment rate and escalation frequency alongside the standard response-time metrics. The AI framing — automating 'the boring 84%' rather than claiming to resolve everything — is a more modest, more credible position than some competitors' universal-resolution marketing, even though there's no independent audit to verify the underlying accuracy either way. What genuinely gives me pause, and what I'd weigh more heavily than the sticker price itself, is a specific and repeated complaint pattern in independent reviews: prices reportedly doubling with sudden changes, and critical features being phased out after an increase. That's not the usual 'it's a bit pricey' grumble — it's a signal about whether the pricing relationship holds steady over time, and it's serious enough that I'd want it addressed directly, in writing, before committing to an annual contract. My honest read: the product itself is genuinely strong, particularly on CRM depth and analytics, and the AI positioning is refreshingly honest about its scope. But go into any Trengo negotiation with the pricing-stability question already on the table, not as an afterthought once you're locked in.",
+  "rating": 3.9,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

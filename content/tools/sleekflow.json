@@ -1,0 +1,163 @@
+{
+  "slug": "sleekflow",
+  "name": "SleekFlow",
+  "logoUrl": "",
+  "website": "https://sleekflow.io",
+  "tagline": "The Hong Kong conversational-commerce platform with a self-healing knowledge base that finds its own gaps — backed by Alibaba and Tiger Global, with pricing that's genuinely hard to pin down.",
+  "tldr": [
+    "SleekFlow was founded in 2019 in Hong Kong by Henson Tsai, backed early by Alibaba's Hong Kong Entrepreneurs Fund and later by an $8M Series A led by Tiger Global in 2022, with total funding of roughly $15M and a reported $28.2M revenue on a 188-person team as of 2024.",
+    "Pricing is genuinely difficult to pin down from public sources — different sources cite Pro at either $149 or $199/month and Premium at either $349 or $399/month, with a Startup tier around $62/month (£49) — confirm current, region-specific pricing directly before budgeting.",
+    "AgentFlow, launched in 2026, is a genuinely distinctive AI system: multiple specialized AI agents can each handle a different role (one qualifies leads, another answers product questions) within the same conversation flow, rather than a single generalist bot.",
+    "The knowledge base is 'self-healing' — it observes conversational patterns, identifies its own data gaps, and surfaces one-click fixes for human approval, a genuinely distinctive continuous-improvement mechanism most competitors don't document.",
+    "Independent reviews are strong (4.6/5 across 205 G2 reviews) with responsive customer service and website-widget conversion gains praised, but pricing is a specific, repeated complaint ('expensive compared to competitors, without offering significant additional value'), alongside reviewer-noted AI training taking roughly a month to mature and analytics described as needing more depth.",
+    "Best for conversational-commerce and FMCG-style businesses running high chat volume across WhatsApp, Instagram, and Facebook who want a genuinely more sophisticated multi-agent AI system — not for budget-conscious teams or anyone who needs pricing certainty before committing."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["WhatsApp", "Instagram", "Facebook Messenger", "WeChat", "Web Chat", "Email"],
+  "keyFeatures": [
+    "AgentFlow — a multi-agent AI system where different specialized AI agents handle different roles (lead qualification, product questions, support) within one platform",
+    "A self-healing knowledge base that observes real conversation patterns, automatically identifies data gaps, and surfaces one-click fixes for human review and approval",
+    "AI Copilot — real-time reply suggestions and message translation to assist human agents mid-conversation",
+    "A guided, non-technical setup flow for connecting CRM and ecommerce platforms, handling authentication and permissions in a few clicks",
+    "Internal notes, @mentions, and full-access conversation collaborators for team coordination without exposing internal discussion to the customer",
+    "A no-code flow builder for automation and broadcast campaigns across connected channels",
+    "Native integrations with Shopify, WooCommerce, HubSpot, and Salesforce for ecommerce and CRM context",
+    "GPT-powered AI with context awareness, first integrated in 2023 as one of the earlier GPT-4 implementations among WhatsApp-focused platforms"
+  ],
+  "companyInfo": {
+    "founded": "2019, Hong Kong, by Henson Tsai",
+    "hq": "Hong Kong",
+    "funding": "Roughly $15M raised total — pre-Series A backed by Alibaba's Hong Kong Entrepreneurs Fund (2021), followed by an $8M Series A led by Tiger Global (2022) with AEF Greater Bay Area Fund and Transcend Capital Partners participating",
+    "employees": "Reported ~188-person team as of 2024, with reported revenue of roughly $28.2M that year"
+  },
+  "faq": [
+    {
+      "question": "How much does SleekFlow actually cost?",
+      "answer": "This is genuinely unclear from public sources at the time of this review — different third-party sources cite the Pro tier at either $149 or $199/month, and Premium at either $349 or $399/month, with a lower Startup tier around $62/month (£49). This inconsistency is itself worth noting rather than glossing over: confirm exact, current, region-specific pricing directly with SleekFlow before budgeting, since the publicly available figures don't agree with each other."
+    },
+    {
+      "question": "What is AgentFlow, and how is it different from a normal AI chatbot?",
+      "answer": "AgentFlow, launched in 2026, runs multiple specialized AI agents within the same platform rather than one generalist bot — for example, one agent qualifies leads while a separate agent handles product questions. That division of labor is a genuinely different architecture from most competitors' single-agent chatbot implementations, though it also means more configuration to set up multiple agents correctly."
+    },
+    {
+      "question": "What does a 'self-healing knowledge base' actually mean?",
+      "answer": "SleekFlow's knowledge base is documented as observing real conversational patterns and automatically identifying gaps in its own content, then surfacing one-click fixes for a human to approve — rather than requiring someone to manually audit the knowledge base for missing information. It's a genuinely distinctive continuous-improvement mechanism, though it still requires human approval, so it's not a fully autonomous self-correction system."
+    },
+    {
+      "question": "How long does SleekFlow's AI take to become reliable?",
+      "answer": "At least one independent reviewer specifically describes it taking about a month of gradual training before the AI becomes mature enough to answer customer questions properly, and notes it can't automatically capture newly-published promotions from a website — those still need to be keyed in manually. Budget for a real ramp-up period rather than expecting day-one accuracy."
+    },
+    {
+      "question": "Does SleekFlow integrate with Shopify or a CRM?",
+      "answer": "Yes — native integrations with Shopify, WooCommerce, HubSpot, and Salesforce are documented, with a guided setup flow designed for non-technical users that handles authentication and permissions in a few clicks. This is more built-in depth than several competitors that rely purely on Zapier for the same connections."
+    },
+    {
+      "question": "What's the most common complaint about SleekFlow?",
+      "answer": "Pricing, specifically and repeatedly. Independent reviewers describe it as 'expensive compared to competitors, without offering significant additional value,' and separately flag Broadcast messaging costs as pricey relative to the return. Analytics depth and the WhatsApp 24-hour conversation-window limitation (which cuts off free-form follow-up messaging) are the next most common specific complaints."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "A guided, non-technical setup flow for CRM/ecommerce connections is a genuine strength, offset by reviewer accounts of the AI needing roughly a month of gradual training before answering reliably." },
+    { "dimension": "AI Quality", "score": 4, "note": "AgentFlow's multi-agent architecture and the self-healing knowledge base's gap-detection are genuinely distinctive design choices, though no independently audited resolution rate exists and at least one reviewer notes real training-maturity lag." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "Real coverage of WhatsApp, Instagram, Facebook, and WeChat in one inbox, though the confirmed channel list is narrower than the category's broadest competitors." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Pricing is both a repeated independent-review complaint ('expensive... without significant additional value') and genuinely difficult to confirm precisely from public sources, which compounds the value concern with an accessibility one." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "A strongly positive review base (4.6/5 across 205 G2 reviews) with responsive customer service specifically praised." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Documented native support for WhatsApp, Instagram, Facebook Messenger, WeChat, web chat, and email — solid, real coverage, though the confirmed list is narrower than the broadest competitors in this category (Respond.io's 12+ channels, for comparison)." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Channels are documented as centralized into one inbox, consistent with the product's conversational-commerce positioning." },
+    { "key": "ai-availability", "score": 5, "note": "AgentFlow's multi-agent architecture — separate specialized AI agents for lead qualification, product questions, and support within one platform — is a genuinely more sophisticated design than a single generalist chatbot, one of the more distinctive AI implementations found in this category." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "The vendor states AI agents 'resolve issues instantly' and help 'maintain high resolution rates,' but no independently audited resolution-rate figure was found, and at least one reviewer specifically notes the AI takes about a month to mature before answering reliably." },
+    { "key": "ai-training-method", "score": 5, "note": "The self-healing knowledge base is a genuinely distinctive, documented mechanism: it observes real conversational patterns, automatically identifies its own data gaps, and surfaces one-click fixes for human approval, rather than requiring a manual audit process." },
+    { "key": "hallucination-controls", "score": 3, "note": "The self-healing knowledge base functions as a continuous-improvement and gap-detection loop rather than a real-time, per-answer hallucination guardrail (like source citation or a confidence threshold) — a genuine and useful quality mechanism, but a different kind of control than this criterion primarily measures." },
+    { "key": "automation-depth", "score": 4, "note": "A no-code flow builder supports automation and broadcast campaigns, and AgentFlow's multi-agent role division represents real automation depth beyond simple if/then rules." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection during an active conversation was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 4, "note": "A single inbox unifies connected channels with shared conversation history, consistent with reviewer praise for the platform's website-widget and conversion-tracking capability." },
+    { "key": "ai-human-handoff", "score": 3, "note": "Documented as routing only high-priority cases to human agents while AI resolves the rest — real, priority-based handoff logic, though without the explicit confidence-threshold detail some competitors publish." },
+    { "key": "internal-collaboration", "score": 4, "note": "Internal notes, @mentions for quick teammate input, and full-access conversation collaborators are all documented, mature features for team coordination." },
+    { "key": "canned-responses", "score": 4, "note": "Saved responses combined with AI-suggested replies (via AI Copilot) are documented, established features for fast, consistent agent responses." },
+    { "key": "integration-shopify", "score": 4, "note": "A native Shopify integration is documented with a guided, non-technical setup flow handling authentication and permissions — real depth beyond a generic Zapier bridge." },
+    { "key": "integration-woocommerce", "score": 3, "note": "A native WooCommerce integration is documented alongside Shopify, though with less independently-confirmed detail on the exact data or actions it exposes." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress plugin was found in the materials reviewed." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found, despite the naming similarity between the two companies." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "No specific Zapier, Make, or n8n integration was confirmed in the materials reviewed; the guided setup flow for connecting apps appears focused on direct native integrations rather than broad no-code platform bridging." },
+    { "key": "integration-crm", "score": 4, "note": "Native HubSpot and Salesforce integrations are documented with the same guided, non-technical setup process as the ecommerce integrations — real, confirmed CRM depth." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Ecommerce platform connections (Shopify, WooCommerce) are documented as feeding AI agent context, though without the explicit order-editing or refund-action detail some ecommerce-first competitors publish." },
+    { "key": "multi-language-support", "score": 3, "note": "AI Copilot provides message translation for agents, and multilingual availability is documented for larger plans specifically — real capability, but tier-gated rather than universally available." },
+    { "key": "analytics-depth", "score": 2, "note": "Independent reviewers specifically note that 'analytics capabilities could be improved for more in-depth insights,' a real and repeated limitation rather than a documentation gap on my end." },
+    { "key": "pricing-transparency", "score": 2, "note": "Multiple third-party sources cite meaningfully different figures for the same tiers (Pro at $149 vs. $199/month, Premium at $349 vs. $399/month) — a genuine transparency problem, not just a documentation gap, since prospective buyers can't easily find one authoritative current price." },
+    { "key": "api-webhook-extensibility", "score": 2, "note": "No detailed public API or webhook-event documentation was confirmed in the materials reviewed, despite the platform's real integration depth with specific named partners." }
+  ],
+  "pricing": {
+    "model": "Tiered SaaS, exact figures inconsistent across public sources",
+    "startingPrice": "Reportedly ~$62/mo (Startup, ~£49) up to a free trial-oriented plan capped at 50 contacts",
+    "plans": [
+      { "name": "Free/Trial", "price": "$0", "billing": "Free, functions primarily as a testing environment", "notes": "Capped at 50 contacts, positioned to push users toward a paid upgrade quickly." },
+      { "name": "Startup", "price": "~$62/mo (~£49)", "billing": "Monthly (exact current terms not independently confirmed)", "notes": "Entry paid tier." },
+      { "name": "Pro (AI)", "price": "$149-$199/mo (sources disagree)", "billing": "Monthly (exact current figure not independently confirmed)", "notes": "Includes AI features per some sources; confirm current price and inclusions directly." },
+      { "name": "Premium (AI)", "price": "$349-$399/mo (sources disagree)", "billing": "Monthly (exact current figure not independently confirmed)", "notes": "Top published tier with multilingual availability and deeper AI capability." }
+    ]
+  },
+  "pricingBreakdown": "SleekFlow's pricing is the least confidently verifiable in this comparison set — reputable third-party sources disagree on the same tier's price by $50/month at both the Pro level ($149 vs. $199) and the Premium level ($349 vs. $399), which is a real problem for anyone trying to budget from public information alone. That inconsistency compounds an already-present independent-review complaint: reviewers specifically describe the pricing as 'expensive compared to competitors, without offering significant additional value,' and separately flag Broadcast messaging costs as pricey relative to the return generated. The free tier is explicitly testing-only, capped at 50 contacts, which won't support a real evaluation of the AI features that differentiate this product. Given the uncertainty in publicly available figures, treat any number here as a starting point for a sales conversation rather than a confirmed budget line, and specifically ask about Broadcast messaging costs given how often reviewers flag that line item.",
+  "capabilities": [
+    { "area": "AgentFlow (Multi-Agent AI)", "note": "Genuinely distinctive: rather than one generalist bot handling every conversation, AgentFlow runs multiple specialized AI agents, each responsible for a different role — lead qualification, product questions, support — within the same platform. This is a meaningfully different architecture than most competitors' single-agent approach, though it also means more setup and configuration work to define each agent's scope correctly." },
+    { "area": "Self-Healing Knowledge Base", "note": "A real, documented mechanism most competitors don't offer: the knowledge base observes actual conversation patterns, identifies where its own content has gaps, and surfaces one-click fixes for a human to approve. It's not fully autonomous — a person still approves the fix — but it meaningfully reduces the manual burden of noticing and closing knowledge gaps over time." },
+    { "area": "Ecommerce & CRM Integration", "note": "Native, guided-setup integrations with Shopify, WooCommerce, HubSpot, and Salesforce are a real strength, particularly the non-technical setup flow that handles authentication and permissions without requiring a developer. This is deeper, more accessible integration than several competitors that rely purely on Zapier for the same connections." },
+    { "area": "Pricing & Transparency", "note": "The single biggest practical friction point in this whole profile. Beyond the repeated 'expensive for the value' independent-review complaint, publicly available pricing figures genuinely disagree with each other by tens of dollars per tier — a level of inconsistency not found in most other tools reviewed on this site. Confirm exact numbers directly rather than relying on any third-party pricing summary, including this one." },
+    { "area": "Analytics & Reporting", "note": "A real, specific gap flagged by independent reviewers rather than an assumption — analytics is described as needing more depth for in-depth insights. Combined with the documented 24-hour WhatsApp conversation window limiting follow-up messaging, teams evaluating this for long-cycle sales or support workflows should test both limitations directly." }
+  ],
+  "pros": [
+    "AgentFlow's multi-agent AI architecture is a genuinely distinctive design, dividing lead qualification, product questions, and support across specialized agents",
+    "The self-healing knowledge base's automatic gap-detection is a real, documented feature most competitors don't offer",
+    "Native, non-technical-setup integrations with Shopify, WooCommerce, HubSpot, and Salesforce",
+    "A strongly positive independent review base (4.6/5 across 205 G2 reviews) with responsive customer service specifically praised",
+    "Backed by credible investors (Alibaba, Tiger Global) with real reported revenue growth, suggesting genuine product-market fit and staying power"
+  ],
+  "cons": [
+    "Pricing is both a repeated independent-review complaint and genuinely difficult to confirm — public sources disagree on the same tier's price by tens of dollars per month",
+    "At least one reviewer reports the AI takes roughly a month of gradual training before answering customer questions reliably, and can't automatically capture new website promotions",
+    "Independent reviewers specifically describe analytics as needing more depth for meaningful insights",
+    "The WhatsApp 24-hour conversation window is documented as closing down conversations in a way that limits desired follow-up",
+    "No dedicated WordPress, Wix, Squarespace, or Webflow integration, and no confirmed Zapier/Make integration for broader no-code automation"
+  ],
+  "sentiment": [
+    {
+      "quote": "The pricing is a notable downside. SleekFlow is expensive compared to competitors, without offering significant additional value.",
+      "source": "G2 review",
+      "url": "https://www.g2.com/products/sleekflow/reviews",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "If you're serious about growing your business through conversational commerce, SleekFlow is a must-have. Highly recommended!",
+      "source": "G2 review",
+      "url": "https://www.g2.com/products/sleekflow/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "I would recommend SleekFlow to companies which produce fast-moving consumer goods (FMCG) as they face a lot of customers every day.",
+      "source": "G2 review",
+      "url": "https://www.g2.com/products/sleekflow/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Apart from the pricing, it's very good for our company.",
+      "source": "G2 review",
+      "url": "https://www.g2.com/products/sleekflow/reviews",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Conversational-commerce and FMCG-style businesses running high chat volume across WhatsApp, Instagram, and Facebook",
+    "Teams that want a genuinely more sophisticated multi-agent AI architecture rather than a single generalist chatbot",
+    "Businesses already using Shopify, WooCommerce, HubSpot, or Salesforce that want a guided, non-technical integration setup",
+    "Buyers willing to get a direct, confirmed quote rather than relying on publicly available pricing information"
+  ],
+  "verdict": "SleekFlow's most genuinely interesting ideas are architectural, not just marketing language: AgentFlow's multi-agent system, where separate specialized AI agents each own a distinct role rather than one bot trying to do everything, and a self-healing knowledge base that finds its own content gaps and asks a human to approve the fix, are both real, documented design choices that most competitors in this category don't offer. Paired with guided, non-technical integrations into Shopify, WooCommerce, HubSpot, and Salesforce, this is a genuinely capable platform for conversational commerce, and the review record backs that up — 4.6/5 across 205 G2 reviews, with responsive support specifically praised. Where I have to be unusually direct is pricing: I could not find one confirmed, consistent set of numbers across public sources — Pro tier estimates range from $149 to $199/month, Premium from $349 to $399/month — and that inconsistency compounds a real, repeated independent-review complaint that the product is 'expensive... without offering significant additional value.' Layer on a specific reviewer account of the AI needing roughly a month to mature, analytics described as needing more depth, and the WhatsApp 24-hour window limiting follow-up, and the honest picture is a genuinely innovative product with real friction in exactly the areas (cost clarity, analytics, ramp-up time) that matter most once you're actually running it day to day. My honest read: if AgentFlow's multi-agent architecture or the self-healing knowledge base solves a problem you're specifically running into with a simpler competitor, this is worth a serious evaluation — but get a written, confirmed quote before assuming any publicly cited price, and budget real time for the AI to reach its stated maturity.",
+  "rating": 3.8,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

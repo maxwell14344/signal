@@ -65,6 +65,7 @@ no longer applies going forward.
 - [x] YourGPT (flagged conflicting pricing figures between vendor site and G2 listing, plus confusing credit-metering)
 - [x] Voiceflow (flagged opaque pricing, single-language-per-agent limitation, and inconsistent support pattern)
 - [x] MobileMonkey (founder pivoted the company into Customers.ai, a non-support product; legacy chatbot is frozen and has a serious unauthorized-billing/refund-refusal complaint pattern — rated low, not recommended)
+- [x] Drift (confirmed being actively sunset as of March 2026 in favor of successor 1mind; flagged the severe 2025 Salesloft/Drift OAuth supply-chain breach affecting 700+ orgs — rated low, not recommended)
 
 ## Attempted, failed, not yet retried
 
@@ -76,8 +77,8 @@ Live Chat & Helpdesk: (all done — see "Added so far" below)
 
 WhatsApp / Omnichannel Messaging: (all done — see "Added so far" below)
 
-Chatbot / Automation Builders: Drift, Ada, Ultimate.ai, Cognigy,
-Kore.ai, Zowie, Forethought, Decagon, Sierra
+Chatbot / Automation Builders: Ada, Ultimate.ai, Cognigy, Kore.ai,
+Zowie, Forethought, Decagon, Sierra
 
 AI Agentic Platforms: Crescendo, Aidbase, eesel AI, Siena AI
 

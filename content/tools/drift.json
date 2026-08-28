@@ -1,0 +1,149 @@
+{
+  "slug": "drift",
+  "name": "Drift (being sunset — successor: 1mind)",
+  "logoUrl": "",
+  "website": "https://drift.com",
+  "tagline": "A once-billion-dollar conversational marketing pioneer now being actively wound down by its third owner in five years, compounded by a severe, well-documented 2025 supply-chain security breach affecting 700+ organizations.",
+  "tldr": [
+    "Drift, founded in 2014 by David Cancel and Elias Torres, reached a $1B+ valuation via a 2021 Vista Equity Partners growth investment, was acquired by Salesloft in February 2024, and — following Salesloft's December 2025 merger with Clari — was announced as being actively sunset on March 6, 2026, with existing customers being referred to a different company, 1mind, as its successor.",
+    "This is the single most important fact for any prospective buyer: as of this writing, no new Drift contracts are being issued and the product is in a confirmed, gradual wind-down with no hard end-of-life date set — this is not a healthy, actively invested-in product.",
+    "In August 2025, a threat actor (tracked as UNC6395) exploited a months-long compromise of Salesloft's own GitHub environment to steal OAuth tokens from the Drift-Salesforce integration, using them to access data at over 700 organizations, including named victims Cloudflare, Google, PagerDuty, Palo Alto Networks, Proofpoint, and Zscaler — Drift itself reportedly went offline following the incident.",
+    "Even before the sunset announcement, Drift was a website-chat-centric conversational marketing/sales tool with no native WhatsApp, SMS, Instagram, or Facebook Messenger support, no native ecommerce or CMS integrations (Shopify, WooCommerce, WordPress, Wix, Squarespace, and Webflow all appear absent as native integrations), and a historically sales-quote-only, non-transparent pricing model that remained unpublished even post-acquisition.",
+    "Its real, longstanding strength was a deep native Salesforce integration with revenue-attribution reporting and a conditional-logic 'Playbooks' automation builder — genuinely differentiated capability that made it a strong pipeline-generation tool, just never a dedicated customer-support helpdesk.",
+    "Independent reviews (Capterra: 4.5/5 across 200 reviews) were solid before the acquisition turmoil, but multiple independent sources report a rising, credible theme of slower support response and reduced dedicated account-management availability following the Salesloft acquisition — separate from, and now overshadowed by, the security breach and active sunset."
+  ],
+  "categories": { "primary": "ai-chatbots", "secondary": [] },
+  "channels": ["Website Chat Widget", "Email"],
+  "keyFeatures": [
+    "'Playbooks' — a conditional-logic conversation builder for greetings, lead routing, and qualification flows based on visitor attributes",
+    "'FastLane' lead routing that prioritizes high-intent visitors for immediate human handoff",
+    "A unified team inbox for shared conversations (without formal case/ticket tracking or SLA monitoring)",
+    "Deep, native Salesforce integration with account-level conversation tracking, opportunity attribution, and a revenue-attribution dashboard",
+    "A native HubSpot connector plus Marketo and Pardot integration for nurture/lead-scoring triggers",
+    "A legitimate developer portal (devdocs.drift.com) with webhook event subscriptions and app-credential verification",
+    "GPT-based AI chatbot capability, integrated since February 2023 and marketed generically as 'Drift AI'",
+    "Claimed support for 50+ languages via response-time translation, though independently described as requiring manual, per-language flow duplication rather than true single-flow multilingual handling"
+  ],
+  "companyInfo": {
+    "founded": "2014, by David Cancel (CEO) and Elias Torres",
+    "hq": "Boston, Massachusetts, with a Tampa, FL office added around 2019",
+    "funding": "Approximately $107M raised historically; reached a $1B+ valuation via a September 2021 Vista Equity Partners growth investment. Salesloft's February 2024 acquisition price was not officially disclosed — a widely repeated '~$500M' figure is unconfirmed industry chatter, and at least one source cites '$100M+' instead; treat neither as confirmed.",
+    "employees": "Approximately 274-276, per third-party estimates as of March 2026 (not company-disclosed); Drift had confirmed layoffs in February and September 2023"
+  },
+  "faq": [
+    {
+      "question": "Is Drift still being actively sold and developed?",
+      "answer": "No. On March 6, 2026, Clari + Salesloft (Drift's parent company following a December 2025 merger) announced Drift is being actively sunset, naming a different company, 1mind, as its exclusive successor and referring existing customers there. No new Drift contracts are being issued, and while there's no confirmed hard end-of-life date, this is a confirmed, gradual wind-down — not a healthy, actively invested-in product."
+    },
+    {
+      "question": "Who owns Drift, and what happened with Salesloft?",
+      "answer": "Vista Equity Partners took a majority growth stake in Drift in September 2021, valuing it above $1B. Salesloft (also backed by Vista) acquired Drift in February 2024. In December 2025, Salesloft merged with Clari, another Vista portfolio company, forming 'Clari + Salesloft' — and that combined entity announced Drift's sunset three months later, in March 2026."
+    },
+    {
+      "question": "What happened with the Drift security breach?",
+      "answer": "In August 2025, a threat actor tracked as UNC6395 exploited a months-long compromise of Salesloft's own GitHub environment to steal OAuth tokens from the Drift-Salesforce integration, then used those tokens to access data at over 700 organizations — including named victims Cloudflare, Google, PagerDuty, Palo Alto Networks, Proofpoint, and Zscaler. Drift reportedly went offline following the incident. This is a well-documented, multi-source-corroborated supply-chain security failure, not an isolated or minor incident."
+    },
+    {
+      "question": "Does Drift support WhatsApp, SMS, or social messaging channels?",
+      "answer": "No — Drift has always been website-chat-centric, with no native WhatsApp, SMS, Facebook Messenger, or Instagram support. Any connection to those channels would require third-party middleware like Zapier, and even that is a bridge rather than a native integration."
+    },
+    {
+      "question": "Does Drift integrate with Shopify or other ecommerce platforms?",
+      "answer": "No native integration was found for Shopify, WooCommerce, WordPress, Wix, Squarespace, or Webflow. Drift can be embedded as a generic chat-widget script on any of these platforms, but that's not the same as a deep, data-aware integration that can look up orders or product data."
+    },
+    {
+      "question": "Should I buy Drift today?",
+      "answer": "No, we wouldn't recommend it. Between the confirmed active sunset, the severe and well-documented 2025 security breach affecting hundreds of organizations, and reports of declining support quality following the Salesloft acquisition, this is not a product to build new infrastructure on. If you need this category of tool, evaluate its named successor, 1mind, or another actively developed platform on its own merits instead."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Historically praised for intuitive Playbook creation and quick initial setup, per independent Capterra reviews predating the acquisition turmoil." },
+    { "dimension": "AI Quality", "score": 2, "note": "GPT-based chatbot capability was integrated in 2023, but reviewers describe it struggling with nuanced questions before routing to a human, and no independent resolution-accuracy audit exists." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "Website-chat-centric with no native WhatsApp, SMS, Messenger, or Instagram support — a longstanding limitation, now moot given the confirmed sunset." },
+    { "dimension": "Pricing Value", "score": 1, "note": "Historically sales-quote-only with no published pricing, a limitation that persisted even post-acquisition; now further complicated by the fact no new contracts are being issued at all." },
+    { "dimension": "Vendor Support Quality", "score": 1, "note": "Multiple independent sources report a credible, rising pattern of slower support response and reduced account-management availability following the Salesloft acquisition, compounded by the confirmed active product sunset." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 2, "note": "Confirmed website-chat-centric with no native WhatsApp, SMS, Facebook Messenger, or Instagram support — a longstanding, well-documented limitation." },
+    { "key": "omnichannel-unification", "score": 2, "note": "A unified team inbox exists, but it spans a single primary channel (website chat) rather than true omnichannel unification." },
+    { "key": "ai-availability", "score": 3, "note": "GPT-based AI chatbot capability was integrated in 2023, and the 'Playbooks' conditional-logic builder provides real automation, though the product's active sunset makes any further AI investment moot." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure exists, and reviewers specifically describe the AI chatbot struggling with nuanced questions before routing to a human." },
+    { "key": "ai-training-method", "score": 2, "note": "No detailed, independently confirmed knowledge-base ingestion mechanism was found beyond general GPT integration." },
+    { "key": "hallucination-controls", "score": 1, "note": "No specific, documented hallucination-control mechanism was found." },
+    { "key": "automation-depth", "score": 4, "note": "The 'Playbooks' conditional-logic builder for greetings, lead routing, and visitor-attribute-based qualification is a genuine, well-established strength, confirmed across independent reviews." },
+    { "key": "sentiment-intent-detection", "score": 3, "note": "'FastLane' lead routing prioritizes high-intent visitors for immediate handoff — a real, confirmed intent-signal mechanism, though scoped to lead qualification rather than support-ticket sentiment analysis." },
+    { "key": "unified-inbox", "score": 3, "note": "A confirmed unified team inbox for shared conversations exists, though reviewers note the absence of formal case/ticket tracking or SLA monitoring." },
+    { "key": "ai-human-handoff", "score": 3, "note": "Sales reps can join a bot conversation live mid-chat, and FastLane routing supports prioritized handoff for high-intent visitors — a real, functional mechanism." },
+    { "key": "internal-collaboration", "score": 2, "note": "A shared team inbox exists, but without the formal case/ticket tracking or SLA monitoring found in dedicated helpdesk platforms." },
+    { "key": "canned-responses", "score": 2, "note": "A basic canned-response capability is present, but nothing suggesting a deep macro/snippet library comparable to dedicated support platforms." },
+    { "key": "integration-shopify", "score": 1, "note": "No native Shopify integration or app-store listing was found; only generic script-tag embedding is possible." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No native integration was found." },
+    { "key": "integration-wordpress", "score": 1, "note": "No native integration was found beyond generic widget embedding." },
+    { "key": "integration-wix", "score": 1, "note": "No native integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No native integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No native integration was found." },
+    { "key": "integration-automation-platforms", "score": 4, "note": "Zapier (with roughly 8,000 connected apps) and Make (Integromat) both have confirmed, published Drift integrations." },
+    { "key": "integration-crm", "score": 4, "note": "A deep, historically signature native Salesforce integration (account-level tracking, opportunity attribution, revenue dashboards) plus a native two-way HubSpot connector — genuinely strong, though this same integration was the vector for the 2025 security breach." },
+    { "key": "order-payment-data-access", "score": 1, "note": "No native order or payment data access was found; any such capability would require indirect third-party bridging." },
+    { "key": "multi-language-support", "score": 2, "note": "Claimed support for 50+ languages via response-time translation, but independently described as requiring manual, per-language flow duplication rather than a genuinely unified multilingual experience." },
+    { "key": "analytics-depth", "score": 3, "note": "A native, Salesforce-powered revenue-attribution dashboard was historically a real differentiator, though independent reviewers specifically flag current analytics and ABM data as 'not as deep as competitors.'" },
+    { "key": "pricing-transparency", "score": 1, "note": "Historically and consistently sales-quote-only with no published pricing, a limitation that persisted even post-acquisition and is now further complicated by the confirmed halt on new contracts." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "A legitimate, reasonably well-documented developer portal (devdocs.drift.com) with webhook event subscriptions and app-credential verification confirms real, functioning developer infrastructure." }
+  ],
+  "pricing": {
+    "model": "Sales-quote-only (never publicly published); now moot given the confirmed active product sunset and halt on new contracts",
+    "startingPrice": "Not publicly disclosed",
+    "plans": [
+      { "name": "Premium", "price": "~$2,500/mo (third-party estimate, unverified)", "billing": "Custom/Annual", "notes": "Entry-level tier per third-party aggregator estimates; not confirmed against a primary source." },
+      { "name": "Advanced", "price": "~$4,500-6,000/mo (third-party estimate, unverified)", "billing": "Custom/Annual", "notes": "Mid-tier per third-party estimates." },
+      { "name": "Enterprise", "price": "~$8,000-15,000+/mo (third-party estimate, unverified)", "billing": "Custom", "notes": "Fully custom-quoted; additional per-seat charges reported around $80/user/month per third-party sources." }
+    ]
+  },
+  "pricingBreakdown": "Drift has never published transparent pricing, relying instead on a sales-quote-only model throughout its history — including after the Salesloft acquisition. Third-party aggregator estimates (unverified against any primary source) suggest an entry tier around $2,500/month scaling to $8,000-15,000+/month at the enterprise level, with realistic all-in costs for larger deployments reportedly reaching $240,000-$293,000 per year once staffing and implementation are factored in. Given the confirmed active sunset and the reported halt on new contracts as of March 2026, none of this should be treated as actionable pricing information for a new purchase — if you're evaluating this category of tool today, get current pricing directly from 1mind or another actively developed platform instead.",
+  "capabilities": [
+    { "area": "The Sunset Is the Central Fact", "note": "Nothing else in this profile matters as much as this: Drift is under its third owner in five years and is now being actively wound down, with existing customers referred to a different company (1mind) as the named successor. Any evaluation of Drift today has to start here, not treat it as a footnote to feature research." },
+    { "area": "The 2025 Security Breach", "note": "This is a well-documented, multi-source-corroborated supply-chain security failure — not an ordinary support complaint. A threat actor exploited a months-long compromise of Salesloft's own infrastructure to steal OAuth tokens from the Drift-Salesforce integration and access data at over 700 organizations, including named enterprise victims like Cloudflare and Google. This deserves to be weighted as seriously as any finding in this entire review category." },
+    { "area": "Genuine Historical Strength: Salesforce Integration and Revenue Attribution", "note": "Before the ownership churn and breach, Drift's deep native Salesforce integration and revenue-attribution reporting were genuinely differentiated capabilities that made it a strong pipeline-generation tool for B2B sales and marketing teams — worth acknowledging even as we can't recommend the product today." },
+    { "area": "Never a Support Helpdesk", "note": "Even at its best, Drift was built for pipeline generation and lead qualification, not customer-support ticketing — no formal case tracking or SLA monitoring exists, and its channel coverage (website-chat-only, no WhatsApp/SMS/social) reflects that positioning." },
+    { "area": "Post-Acquisition Support Decline", "note": "Independent sources, while not agreeing on precise statistics, converge on a real, credible theme: support responsiveness and dedicated account-management availability appear to have declined following the Salesloft acquisition, a pattern separate from and now overshadowed by the security breach and sunset." }
+  ],
+  "pros": [
+    "A genuinely deep, historically differentiated native Salesforce integration with real revenue-attribution reporting",
+    "A well-regarded conditional-logic automation builder ('Playbooks') for lead routing and qualification",
+    "A legitimate, functioning developer platform with documented webhooks and API access",
+    "Strong historical independent review scores (Capterra: 4.5/5 across 200 reviews) predating the acquisition turmoil",
+    "Real, native Zapier and Make integrations providing broad tool connectivity"
+  ],
+  "cons": [
+    "Confirmed to be under active sunset as of March 2026, with no new contracts being issued and customers referred to a different successor company",
+    "A severe, well-documented 2025 supply-chain security breach affecting over 700 organizations, including named enterprise victims",
+    "No native WhatsApp, SMS, Instagram, or Facebook Messenger support, and no native ecommerce or CMS integrations of any kind",
+    "Historically and consistently opaque, sales-quote-only pricing with no published numbers",
+    "A credible, independently corroborated pattern of declining support quality following the Salesloft acquisition"
+  ],
+  "sentiment": [
+    {
+      "quote": "Real-time lead capture and qualification at the moment of highest visitor interest, with intuitive playbook creation.",
+      "source": "Capterra (aggregated review theme, 4.5/5 across 200 reviews)",
+      "url": "https://www.capterra.com/p/drift/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Analytics and ABM data not as deep as competitors; pricing seen as expensive for smaller companies.",
+      "source": "Capterra (aggregated review theme)",
+      "url": "https://www.capterra.com/p/drift/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Nobody we'd recommend building new infrastructure on, given the confirmed active sunset",
+    "Existing Drift customers evaluating their referred migration path to 1mind or another alternative",
+    "Researchers or buyers studying the deal history of a once-billion-dollar conversational marketing category leader"
+  ],
+  "verdict": "We're profiling Drift for completeness given its historical significance in this category, but we want to be unambiguous: this is not a product to choose today. The single most important fact is that Clari + Salesloft — Drift's current owner after a chain of ownership changes spanning Vista Equity Partners' 2021 growth investment, Salesloft's 2024 acquisition, and a December 2025 merger with Clari — announced on March 6, 2026 that Drift is being actively sunset, with existing customers referred to a separate company, 1mind, as its successor. No new contracts are being issued. Layered on top of that, Drift suffered a severe, well-documented supply-chain security breach in August 2025: a threat actor exploited a months-long compromise of Salesloft's own infrastructure to steal OAuth tokens from the Drift-Salesforce integration and access data at over 700 organizations, including named enterprise victims like Cloudflare, Google, and Zscaler — this is a serious security failure, not an ordinary service complaint, and it should weigh as heavily in any assessment as it would for any other tool in this category. It's worth acknowledging, in fairness, what Drift got genuinely right during its decade of independent operation: a deep, differentiated native Salesforce integration with real revenue-attribution reporting, and a well-regarded conditional-logic automation builder that made it a legitimately strong pipeline-generation tool for B2B sales and marketing teams — it was simply never a dedicated customer-support helpdesk, with no formal ticketing, no native social/messaging channels, and consistently opaque, quote-only pricing even at its healthiest. Given the confirmed active wind-down and the severity of the 2025 breach, our honest recommendation is to evaluate 1mind or another actively developed platform on its own merits rather than invest further in Drift.",
+  "rating": 2.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "gorgias",
+  "name": "Gorgias",
+  "logoUrl": "",
+  "website": "https://www.gorgias.com",
+  "tagline": "The Shopify-native helpdesk born from a Chrome extension, priced by ticket volume instead of seats, with an AI agent that can actually issue refunds.",
+  "tldr": [
+    "Gorgias is an ecommerce-focused helpdesk that started as a Chrome extension for email templates and pivoted hard into Shopify support after its founders noticed 70% of early users were store support agents — Shopify's Premier Partner for CX status and 40% of Shopify's top 1,500 merchants using it reflect how deep that focus goes.",
+    "Pricing is ticket-based, not seat-based: Starter $10/mo (50 tickets), Basic $60/mo (300 tickets), Pro $360/mo (2,000 tickets), Advanced $900/mo (5,000 tickets), each roughly 15-17% cheaper billed annually, with unlimited agents on every plan and per-ticket overage fees beyond the included volume.",
+    "AI Agent is billed separately per resolution ($1.00 monthly billing, $0.90 annual) on top of the ticket-tier price, and is explicitly documented as Shopify-only — Gorgias's own docs state AI Agent is not supported on BigCommerce, Magento, or WooCommerce stores.",
+    "The Shopify integration is the real differentiator: full order history, shipping status, and lifetime value in the ticket sidebar, with one-click refunds, cancellations, and shipping edits — a materially deeper commerce integration than most helpdesks in this category ship natively.",
+    "Reviews split sharply by platform in a way worth taking seriously: strong 4.6/5 averages on both G2 and Capterra, against a starkly lower Trustpilot rating driven substantially by billing disputes — including one documented case of roughly $14,000 in unexpected AI automation fees on top of an existing annual contract.",
+    "Best for Shopify-native ecommerce brands with real order-support volume who want deep commerce data inside the ticket — not for WooCommerce/Magento/BigCommerce stores wanting AI parity with Shopify, or teams that need tight, predictable monthly costs."
+  ],
+  "categories": { "primary": "helpdesk-ticketing-automation", "secondary": ["ai-support-agents"] },
+  "channels": ["Email", "Live Chat", "SMS", "Phone", "Instagram", "Facebook", "TikTok"],
+  "keyFeatures": [
+    "AI Agent — an autonomous, action-taking agent that resolves tickets and can issue refunds, cancel orders, and edit shipping details directly, not just draft replies",
+    "Native Shopify integration surfacing order history, shipping status, and customer lifetime value directly in the ticket, with one-click refund/cancel/edit actions",
+    "BigCommerce integration with comparable order-management actions (refunds, duplicates); WooCommerce and Magento integrations are read-only with no AI Agent support",
+    "Macros — reusable response templates that can be chained with rules to auto-tag, auto-assign, or trigger a CSAT survey on ticket close",
+    "Revenue statistics that attribute sales to support interactions — sales per day, sales per agent, and tickets converted, filterable by store, channel, and timeframe",
+    "Unified ticket inbox across email, live chat, SMS, phone, Instagram, Facebook, and TikTok with collision detection to prevent duplicate agent replies",
+    "A dedicated Statistics API for building custom dashboards and BI integrations beyond the built-in reporting suite",
+    "Native, one-way HubSpot integration (pulls CRM data into Gorgias) plus Klaviyo and Loop Returns integrations built specifically for ecommerce workflows"
+  ],
+  "companyInfo": {
+    "founded": "2015 in Paris by Romain Lapeyre and Alex Plugaru, originally a Chrome extension for templated email responses before pivoting to ecommerce helpdesk after discovering 70% of early users were store support agents",
+    "hq": "San Francisco, California, USA, with additional offices in New York, Charlotte, Toronto, Buenos Aires, Paris, Lisbon, and Sydney",
+    "funding": "$100M+ raised to date; valued at $530M in a May 2024 Series C round",
+    "employees": "250+"
+  },
+  "faq": [
+    {
+      "question": "Does Gorgias charge per agent seat?",
+      "answer": "No — unlike most competitors in this category, Gorgias prices by monthly ticket volume, not by the number of agents. Every plan (Starter through Advanced) includes unlimited users; you're buying ticket capacity, and going over your plan's included ticket count triggers a per-ticket overage fee ($0.40 on Starter/Basic, $0.36 on Pro/Advanced) rather than a hard cutoff."
+    },
+    {
+      "question": "How is Gorgias's AI Agent priced, and does it work on every ecommerce platform?",
+      "answer": "AI Agent is billed per resolution — $1.00 on monthly billing, $0.90 if billed annually — stacked on top of your ticket-tier plan price. Critically, it's Shopify-only: Gorgias's own documentation states AI Agent is not supported on BigCommerce, Magento, or WooCommerce stores, so non-Shopify merchants get the helpdesk but not the flagship AI capability."
+    },
+    {
+      "question": "What is Gorgias's real AI resolution rate?",
+      "answer": "Gorgias markets up to 60-80% automation, but independently reported real-world deployments vary widely — from around 26% at some brands to 56%+ at others, depending heavily on setup quality and how much a merchant invests in tuning macros and knowledge sources. Treat the higher published figures as a ceiling under strong conditions, not a typical result, since no independent audit of the vendor's number was found."
+    },
+    {
+      "question": "Can Gorgias's AI actually process a refund, or does it just draft a reply?",
+      "answer": "On Shopify specifically, it can act: documented capabilities include issuing refunds, canceling orders, and editing shipping details directly, not just suggesting a response for a human to send. Gorgias's own documentation on how AI Agent works describes a second-model confidence check — a generated reply must clear a confidence threshold and be grounded in your knowledge sources or it doesn't get sent, with the conversation instead handed to a human agent."
+    },
+    {
+      "question": "Why do Gorgias's review scores look so different across platforms?",
+      "answer": "G2 and Capterra both show strong averages around 4.6/5, largely driven by ease-of-use and Shopify-integration praise. Trustpilot's average sits considerably lower, and the negative reviews there skew heavily toward billing disputes — unexpected charges, trial-period confusion, and refund refusals — rather than product-capability complaints. That's a meaningful split worth reading both sides of before signing an annual contract."
+    },
+    {
+      "question": "Is Gorgias good for WooCommerce or Magento stores, not just Shopify?",
+      "answer": "It integrates with both, but at a materially lower tier of functionality. WooCommerce and Magento integrations are documented as read-only — agents can see order context but must go into the platform's own admin panel to process refunds, cancellations, or edits — and AI Agent isn't supported on either at all. If you're not on Shopify or BigCommerce, budget for a meaningfully more manual workflow."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Reviewers consistently praise the interface and Shopify installation experience, though the rules/automation builder is flagged as getting complicated fast at scale." },
+    { "dimension": "AI Quality", "score": 3, "note": "AI Agent is genuinely agentic on Shopify with real guardrails (grounding plus a confidence-threshold check), but real-world resolution rates vary widely by merchant and the capability doesn't exist at all on BigCommerce, Magento, or WooCommerce." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "A genuinely broad native channel list (email, chat, SMS, phone, Instagram, Facebook, TikTok) unified into one ticket inbox." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Ticket-based, seat-unlimited pricing is a real advantage for larger teams, but reviewers report genuine unpredictability — a documented case of roughly $14,000 in unexpected AI fees on top of an existing contract is a serious, specific red flag." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "G2 and Capterra both average 4.6/5, but Trustpilot sits considerably lower with billing-dispute complaints dominating the negative reviews — a split worth taking seriously rather than averaging away." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Documented native support for email, live chat, SMS, phone, Instagram, Facebook, and TikTok — a genuinely broad channel list, including social-commerce-relevant TikTok support that few competitors in this category offer natively." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Channels feed into one unified ticket inbox with collision detection to prevent duplicate agent replies and full conversation history per customer — real unification, not separate per-channel views." },
+    { "key": "ai-availability", "score": 5, "note": "AI Agent is genuinely agentic on Shopify — it doesn't just draft replies, it issues refunds, cancels orders, and edits shipping details directly, which is a materially higher bar than most competitors' 'AI agent' claims." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "Gorgias markets up to 60-80% automation, but independently reported real deployments range from roughly 26% to 56%+ depending heavily on setup quality, with no independent audit of the higher vendor-cited figures found." },
+    { "key": "ai-training-method", "score": 4, "note": "Documented as grounding in knowledge base articles, macros, style guidelines, and sample resolutions you provide — described in Gorgias's own materials as 'the same inputs you'd give a new hire.' This requires curated input rather than a fully automatic crawl, but the method itself is genuine and documented." },
+    { "key": "hallucination-controls", "score": 4, "note": "A documented two-stage safeguard: a generated reply must be grounded in your knowledge sources and clear a second AI model's confidence threshold before being sent — if it can't find a grounded, confident answer, it hands off to a human instead of guessing. Genuinely stronger documentation than most competitors provide on this specific point." },
+    { "key": "automation-depth", "score": 4, "note": "Macros chained with rules can auto-tag, auto-assign, and trigger CSAT surveys on ticket close, and AI Agent itself performs multi-step actions (verify order, process refund, update customer) rather than single-step replies — genuine agentic depth on the Shopify side." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "We found CSAT and satisfaction-survey reporting (a post-resolution metric) but no documentation of real-time sentiment or urgency detection during an active conversation — scored on that absence rather than a confirmed weaker feature." },
+    { "key": "unified-inbox", "score": 5, "note": "A single ticket inbox spans every connected channel with full customer history, collision detection, and shared views — this is the core product and it's mature." },
+    { "key": "ai-human-handoff", "score": 4, "note": "Documented explicitly: when a generated AI response doesn't clear the confidence threshold, the conversation hands off to a human agent rather than sending an uncertain reply — a clean, stated escalation path." },
+    { "key": "internal-collaboration", "score": 4, "note": "Internal notes (customer-invisible), automated and manual ticket assignment, collision detection, tagging, and role-based permissions are all documented, established features." },
+    { "key": "canned-responses", "score": 5, "note": "Macros are a first-class, deeply integrated feature — reusable across rules and automations, chainable with CSAT survey triggers, and repeatedly named by reviewers as a genuine time-saver." },
+    { "key": "integration-shopify", "score": 5, "note": "The flagship integration and the reason the company exists: full order history, shipping status, and customer lifetime value in the ticket sidebar, with one-click refunds, cancellations, and shipping edits — genuinely deeper than most category competitors' commerce integrations." },
+    { "key": "integration-woocommerce", "score": 2, "note": "Documented as read-only — agents can see order context but cannot create, edit, cancel, or refund WooCommerce orders from inside Gorgias, and AI Agent is explicitly not supported on WooCommerce stores at all." },
+    { "key": "integration-wordpress", "score": 1, "note": "Gorgias is built as an ecommerce helpdesk, not a general website-widget product; no dedicated WordPress integration was found beyond what a store's ecommerce platform itself provides." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found; Gorgias's integration catalog is built around ecommerce platforms (Shopify, BigCommerce) rather than general website builders." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found, consistent with Gorgias's ecommerce-platform focus rather than general website-builder support." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found for the same reason — Gorgias's integration depth is concentrated on ecommerce platforms, not website builders." },
+    { "key": "integration-automation-platforms", "score": 3, "note": "Zapier and Make integrations are documented for chaining Gorgias into broader workflows, positioned by Gorgias's own guidance as suited to 'light actions' rather than mission-critical automation; no dedicated n8n listing was confirmed." },
+    { "key": "integration-crm", "score": 2, "note": "A native HubSpot integration exists but is explicitly one-directional — it pulls HubSpot data into Gorgias without pushing tickets back — and no native Salesforce or Pipedrive integration was found; deeper CRM sync would require Zapier or a dedicated middleware tool." },
+    { "key": "order-payment-data-access", "score": 4, "note": "Genuinely strong on Shopify and BigCommerce, where order history, shipping, payment status, and lifetime value are visible with real write actions (refunds, cancellations, edits) — but this drops sharply on WooCommerce and Magento, where the same data is view-only and no write actions are supported." },
+    { "key": "multi-language-support", "score": 2, "note": "Multilingual capability is documented through a third-party integration (Lingpad) rather than a native auto-detect-and-translate engine built into Gorgias itself." },
+    { "key": "analytics-depth", "score": 4, "note": "A genuinely strong reporting suite: CSAT, agent productivity, channel mix, resolution and first-response time, human-response-time-after-AI-handoff, and — distinctively — revenue statistics attributing sales to support interactions by store, channel, and agent, exportable to CSV." },
+    { "key": "pricing-transparency", "score": 3, "note": "Ticket-tier pricing and per-resolution AI cost are both publicly published, which is genuinely clear on paper — but real-world billing unpredictability is a recurring, specific complaint, including one documented case of roughly $14,000 in unexpected AI automation fees stacking on top of an existing annual contract." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "A dedicated Statistics API supports custom dashboards and BI tooling, and webhooks are documented for event-driven automation — though user feedback specifically flags webhook flexibility as more limited than desired for complex automation needs." }
+  ],
+  "pricing": {
+    "model": "Ticket-volume tiered SaaS with unlimited agents on every plan, plus a separate per-resolution AI Agent fee",
+    "startingPrice": "$10/mo (Starter, 50 tickets)",
+    "plans": [
+      { "name": "Starter", "price": "$10/mo", "billing": "Monthly", "notes": "Up to 50 tickets/month, unlimited agents, core helpdesk features." },
+      { "name": "Basic", "price": "$60/mo ($50/mo annual)", "billing": "Monthly or annual", "notes": "Up to 300 tickets/month, unlimited agents." },
+      { "name": "Pro", "price": "$360/mo ($300/mo annual)", "billing": "Monthly or annual", "notes": "Up to 2,000 tickets/month, unlimited agents, revenue statistics on Shopify." },
+      { "name": "Advanced", "price": "$900/mo ($750/mo annual)", "billing": "Monthly or annual", "notes": "Up to 5,000 tickets/month, unlimited agents, deeper reporting and automation." },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "Custom ticket volume, lowest per-overage-ticket rate ($0.32)." },
+      { "name": "AI Agent (add-on)", "price": "$1.00/resolution ($0.90 annual)", "billing": "Per resolved conversation, billed on top of the plan price", "notes": "Shopify-only — not supported on BigCommerce, Magento, or WooCommerce stores." }
+    ]
+  },
+  "pricingBreakdown": "Gorgias's ticket-based, seat-unlimited pricing is a genuine structural advantage for larger support teams — a 15-agent team pays the same $360/mo on Pro as a 3-agent team handling the same ticket volume, where per-seat competitors like Zendesk or LiveChat would charge multiples more as headcount grows. The tradeoff is that your bill now tracks volume instead of headcount, which reviewers describe as fine at a steady state and stressful during a spike: a busy sales month can push you well past your ticket allowance at $0.36-$0.40 per overage ticket, and AI Agent's $1.00-per-resolution fee (a fully automated resolution counts as both a ticket and a resolution) stacks on top of that. The most serious documented example of this risk is a brand on the Advanced plan reporting roughly $14,000 in AI automation fees in addition to an existing ~$13,500/year contract after turning AI Agent on — a genuinely large, specific number that should make any merchant model their expected resolution volume carefully before enabling it at scale. Against Help Scout's $0.75/resolution or Intercom's $0.99/resolution, Gorgias's $1.00 (or $0.90 annual) sits at the higher end of per-resolution AI pricing in this category, and it's worth noting that non-Shopify merchants pay for a ticket-tier plan but can't access AI Agent at all, since it's explicitly unsupported on BigCommerce, Magento, and WooCommerce.",
+  "capabilities": [
+    { "area": "Shopify-Native Support", "note": "This is the actual product, and it's genuinely deep: full order history, shipping status, and customer lifetime value directly in the ticket, with one-click refunds, cancellations, and shipping edits. It's a materially more capable commerce integration than the Shopify apps offered by general-purpose helpdesks in this category, and it's the reason 40% of Shopify's top 1,500 merchants reportedly use Gorgias." },
+    { "area": "AI Agent", "note": "Genuinely agentic — it can act on an order, not just describe one — with a documented two-stage hallucination guard (grounding plus a confidence-threshold check) that hands off to a human rather than guessing. The hard boundary to know before buying: this capability is Shopify-only. BigCommerce, Magento, and WooCommerce merchants get the helpdesk but not this flagship feature." },
+    { "area": "Revenue Attribution", "note": "A distinctive, genuinely uncommon feature in this category: Gorgias tracks sales attributable to support interactions — sales per day, sales per agent, tickets converted — filterable by store and channel. For a commerce-focused team trying to justify a support budget as a revenue driver rather than a cost center, this is a real differentiator most helpdesks don't offer natively." },
+    { "area": "Non-Shopify Ecommerce Support", "note": "Meaningfully weaker than the marketing suggests. WooCommerce and Magento integrations are read-only — agents see order context but must switch to the platform's own admin to actually do anything about it — and neither supports AI Agent at all. If you're not on Shopify or BigCommerce, budget for a materially more manual workflow than Gorgias's Shopify-focused case studies imply." },
+    { "area": "Billing Predictability", "note": "Worth treating as its own capability area given how often it comes up in reviews. Ticket-based, seat-unlimited pricing is genuinely good value for larger teams at steady volume, but the combination of per-ticket overage charges and per-resolution AI fees means a busy month or an AI rollout can produce a real billing surprise — including one documented case of roughly $14,000 in unexpected AI fees on top of an existing contract." }
+  ],
+  "pros": [
+    "Ticket-based, unlimited-agent pricing is a genuine structural advantage over per-seat competitors for larger support teams",
+    "The Shopify integration is materially deeper than most category competitors — real order data plus write actions (refunds, cancellations, shipping edits), not just a read-only sidebar",
+    "AI Agent is genuinely agentic with documented, real hallucination safeguards (grounding plus a confidence-threshold check before sending any reply)",
+    "Revenue-attribution reporting is a distinctive feature most helpdesks in this category don't offer, useful for justifying support spend as a revenue driver",
+    "Broad native channel coverage including TikTok, unusual in this category, unified into one unified ticket inbox with collision detection"
+  ],
+  "cons": [
+    "AI Agent is explicitly Shopify-only — BigCommerce, Magento, and WooCommerce merchants can't access it at all, per Gorgias's own documentation",
+    "Real, documented billing unpredictability: ticket overages and per-resolution AI fees can stack into large unexpected charges, including one reported case of roughly $14,000 in additional AI fees on top of an existing contract",
+    "WooCommerce and Magento integrations are read-only — no refunds, cancellations, or edits without leaving Gorgias for the platform's own admin",
+    "Review scores split sharply by platform: strong G2/Capterra averages against a considerably lower Trustpilot rating driven heavily by billing-dispute complaints",
+    "No native Salesforce or Pipedrive integration, and the HubSpot integration is one-directional (pulls data in, doesn't push tickets back)"
+  ],
+  "sentiment": [
+    {
+      "quote": "All customer communication in one place...makes it easy to see a customer's full conversation history.",
+      "source": "Capterra (Kiara C., Customer Support Specialist, Retail, 5/5)",
+      "url": "https://www.capterra.com/p/155357/Gorgias/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Billed us on the day they told we are still on the trial period...now they are refusing to refund.",
+      "source": "Capterra (Ozgur Y., E-commerce Manager, Retail, 1/5)",
+      "url": "https://www.capterra.com/p/155357/Gorgias/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "The rules builder can get complicated fast if you're running a lot of automations.",
+      "source": "Capterra (Darren Y., Sr Manager Digital Marketing, Marketing & Advertising)",
+      "url": "https://www.capterra.com/p/155357/Gorgias/reviews/",
+      "sentiment": "mixed"
+    },
+    {
+      "quote": "The pricing model fits a collaborative business environment, charging per ticket instead of per user.",
+      "source": "Capterra (Frank A., Head of Digital, Business Supplies & Equipment, 5/5)",
+      "url": "https://www.capterra.com/p/155357/Gorgias/reviews/",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "Shopify-native ecommerce brands with real order-related support volume that want deep commerce data and write actions inside the ticket",
+    "Larger support teams that benefit from unlimited-agent, ticket-based pricing rather than paying per seat",
+    "Merchants who want to measure support as a revenue driver via native sales-attribution reporting",
+    "Teams disciplined enough to model expected AI resolution volume carefully before enabling AI Agent at scale"
+  ],
+  "verdict": "Gorgias's origin story explains its strength and its limitation in the same breath: it started as a Chrome extension, found its real market in Shopify support agents, and has spent a decade building the deepest Shopify-native helpdesk integration in this category — genuine order data, real refund and cancellation actions, and revenue-attribution reporting that most competitors simply don't offer. The AI Agent extends that same depth: it's genuinely agentic on Shopify, with a documented two-stage hallucination guard that would rather hand off to a human than send an ungrounded reply. The catch, and it's a hard one, is that all of that AI capability stops at Shopify's edge — BigCommerce, Magento, and WooCommerce merchants get a materially less capable, mostly read-only version of the same product, with no AI Agent at all. Pricing follows an unusual and genuinely good structural idea — unlimited agents, pay for ticket volume instead of seats — but the real-world execution of that idea has produced specific, well-documented billing shocks, most strikingly a merchant reporting roughly $14,000 in unexpected AI fees stacked on an existing annual contract. That's not a vague 'pricing could be clearer' complaint; it's a concrete number that should make anyone turning on AI Agent at scale model their expected resolution volume first. The review record itself tells this story in miniature: strong 4.6/5 averages on G2 and Capterra sit against a noticeably rougher Trustpilot record dominated by billing disputes rather than product complaints. My honest read: if you're a Shopify brand with real support volume and you're disciplined about monitoring AI usage against your contract, Gorgias's commerce depth is hard to match. If you're on WooCommerce or Magento, or you need predictable, capped monthly costs more than commerce-specific depth, look elsewhere first.",
+  "rating": 4.0,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

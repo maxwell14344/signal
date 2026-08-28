@@ -1,0 +1,155 @@
+{
+  "slug": "groove",
+  "name": "Groove (now Helply)",
+  "logoUrl": "",
+  "website": "https://helply.com",
+  "tagline": "The small-team shared inbox that rebranded into a B2B AI-native support platform in 2026 — the old product survives as 'Groove Classic,' but the company's future is Helply.",
+  "tldr": [
+    "Groove rebranded to Helply in mid-2026, repositioning from an affordable per-seat shared inbox for small teams into an AI-native support platform built specifically for B2B SaaS companies — the original product continues to exist as 'Groove Classic' for roughly 2,000 existing customers, but is no longer the company's forward focus.",
+    "Pricing changed fundamentally with the rebrand: Groove Classic charged per seat starting around $29/user/month; Helply charges $1 per resolved ticket with a 250-ticket monthly minimum and a $3,000/year floor regardless of team size — no per-seat plans at all.",
+    "Helply's AI agent reads connected tickets, CRM records, Stripe billing data, and Gong call transcripts to answer with full account context — a materially deeper, more B2B-specific data foundation than a typical support chatbot.",
+    "Channel coverage is broad but skewed toward B2B tooling rather than consumer social: Slack Connect, Microsoft Teams, Discord, email, in-app chat, SMS, WhatsApp, and a customer portal, with no documented Instagram, Messenger, or ecommerce-platform integrations.",
+    "Independent reviews of the original Groove product are strong (4.7/5 across 146+ Capterra reviews) with praise for ease of use and collaboration, but there's a documented history of pricing-model complaints — including a widely-cited account of a 'Free Forever' plan later converted to $22/user/month without warning — that the 2026 rebrand's much steeper pricing floor echoes rather than resolves.",
+    "Best for existing Groove Classic customers who aren't being pushed to migrate, and for B2B SaaS companies specifically wanting an AI agent with native CRM/billing/call context — not for ecommerce brands, small teams on a tight budget, or anyone needing website-builder or social-DM integrations."
+  ],
+  "categories": { "primary": "ai-support-agents", "secondary": ["helpdesk-ticketing-automation"] },
+  "channels": ["Email", "In-App Chat", "Slack Connect", "Microsoft Teams", "Discord", "SMS", "WhatsApp", "Customer Portal"],
+  "keyFeatures": [
+    "An AI agent that reads connected tickets, CRM records (Salesforce), Stripe billing data, and Gong call transcripts to answer support questions with full account context",
+    "AI triage, replies, and actions — the agent is documented as taking real actions, not just drafting suggested responses for a human to approve",
+    "Profit Center dashboard — ties AI-handled outcomes to a dollar figure (churn prevented, expansion opportunities surfaced, competitor mentions routed to sales) rather than just counting tickets closed",
+    "Support Intelligence — a natural-language query tool for asking questions across tickets, accounts, billing, and product data",
+    "Automatic AI translation of both messages and help-center articles into a customer's native language",
+    "Groove Classic (the legacy product, still operating for existing customers) retains its original shared inbox: collision detection, private internal notes, @mentions, and categorized Instant Replies (canned responses)",
+    "Outcome-based pricing philosophy — Helply markets 'if AI delivers nothing in a given month, you pay nothing,' billing per resolved ticket rather than per seat",
+    "A public API connecting the same context layer (tickets, CRM, billing, calls) that powers the AI agent's account-aware replies"
+  ],
+  "companyInfo": {
+    "founded": "Founded as Groove; rebranded to Helply in mid-2026 under CEO Alex Turnbull, described as merging Groove with the company's separately-acquired InstantDocs product into one AI-native platform",
+    "hq": "Not publicly disclosed in company materials reviewed",
+    "funding": "Reported approximately $1M raised across two rounds as of a 2024 seed round, prior to the 2026 rebrand",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "Is Groove still a product, or has it been replaced by Helply?",
+      "answer": "Both are technically true. In mid-2026, the company rebranded its master brand to Helply and repositioned around a new, AI-native B2B support platform with outcome-based pricing. The original Groove product continues to run as 'Groove Classic' for its existing customer base (reportedly around 2,000 accounts) with a dedicated team and no forced migration — but new marketing, the pricing page, and the company's stated future are all built around Helply, not Groove Classic."
+    },
+    {
+      "question": "Can I still sign up for the old, cheap per-seat Groove plan?",
+      "answer": "This isn't clearly published. Groove's own marketing site and pricing page now redirect to Helply, and Helply's pricing (a flat $1/ticket with a 250-ticket/month minimum) has fully replaced what's publicly advertised. If you specifically want the original per-seat shared inbox rather than Helply's outcome-based B2B platform, contact the company directly to ask whether new Groove Classic signups are still possible — don't assume based on old marketing material."
+    },
+    {
+      "question": "How does Helply's pricing actually work?",
+      "answer": "Helply charges $1 per resolved ticket, billed annually, with a 250-ticket-per-month minimum commitment and a roughly $3,000/year contract floor — regardless of how many people are on your team. This is a significant structural change from Groove Classic's per-seat model (which started around $29/user/month), and it means a very small team with low ticket volume could end up paying more under Helply than they would have on a modest Groove Classic seat count, depending on volume."
+    },
+    {
+      "question": "Does Helply work for ecommerce or consumer-facing support, or is it B2B-only?",
+      "answer": "It's explicitly built for B2B SaaS companies — the product's own positioning centers on reading CRM records, Stripe billing, and Gong sales calls to support named accounts with ARR and renewal context, not consumer order-and-shipping questions. We found no documented Shopify, WooCommerce, or ecommerce-platform integration, and no Instagram or Messenger channel support — if your support volume is consumer ecommerce rather than B2B account management, this isn't built for you."
+    },
+    {
+      "question": "Why did the rebrand from Groove to Helply happen?",
+      "answer": "The company's own materials describe Helply as merging Groove with InstantDocs (an AI-powered knowledge base creator it acquired) into a single AI-native support platform, moving from a general small-team shared inbox toward a narrower, more monetizable B2B SaaS focus with outcome-based pricing. This kind of strategic pivot is common when a company sees more growth potential in a higher-value niche than in its original broad market — but it does mean 'Groove' as most reviews describe it no longer represents the company's primary product."
+    },
+    {
+      "question": "Does Groove/Helply have a history of pricing changes customers weren't happy about?",
+      "answer": "Yes, and it predates this rebrand. A frequently cited complaint describes Groove having advertised a 'Free Forever' plan that was later converted to a $22/user/month charge without advance warning. The 2026 shift to a $1/ticket, $3,000/year-minimum model for Helply is a much larger structural change than that earlier incident, and existing customers or prospective buyers should treat pricing stability as a real, recurring risk with this company rather than a one-time historical footnote."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Groove Classic was consistently praised for a clean, simple shared-inbox setup; Helply's more complex CRM/Stripe/Gong context integration is a materially heavier setup lift by design, though not independently reviewed in detail yet." },
+    { "dimension": "AI Quality", "score": 3, "note": "Helply's account-aware AI (CRM, billing, call context) is a genuinely more sophisticated foundation than a typical knowledge-base chatbot, but there's no independent, audited resolution-rate data available yet to verify real-world accuracy." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "Broad channel list (Slack, Teams, Discord, email, chat, SMS, WhatsApp) but skewed toward B2B internal tooling rather than consumer-facing social channels, and no ecommerce-platform presence at all." },
+    { "dimension": "Pricing Value", "score": 2, "note": "The $1/ticket, 250-ticket/$3,000-year-minimum model prices out small teams that Groove Classic used to serve well, layered on top of a company history that includes a documented unannounced pricing-model change." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Groove Classic's review base is strongly positive (4.7/5), but the company's pricing-change history and the disruption of a full company rebrand are real, relevant risk factors for anyone evaluating vendor stability." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Helply's pricing and product pages document Slack Connect, Microsoft Teams, Discord, email, in-app chat, SMS, and WhatsApp — a broad list, though weighted toward B2B collaboration tools rather than consumer social channels like Instagram or Messenger, neither of which we found documented." },
+    { "key": "omnichannel-unification", "score": 4, "note": "All connected channels are documented as feeding 'the same context layer' alongside CRM, billing, and call data — genuine unification, and arguably deeper than a typical channel-only inbox since it includes non-conversation data sources too." },
+    { "key": "ai-availability", "score": 4, "note": "Helply's AI agent is documented as taking real actions (AI triage, replies, and actions) grounded in account context from CRM, Stripe, and Gong — genuinely more sophisticated than Groove Classic's assistive-only AI Suite (Summarize, Sentiment, Writing Assist), which explicitly does not resolve tickets autonomously." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found. Helply's 'if AI delivers nothing in a given month, you pay nothing' framing is a billing philosophy, not a verified accuracy claim, and outcome-based pricing alone doesn't tell you how often the AI is actually right." },
+    { "key": "ai-training-method", "score": 4, "note": "Documented as automatically ingesting tickets, CRM records, Stripe billing data, and Gong call transcripts to build account context — genuine automatic learning from multiple real business-data sources, not manual intent-building." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing source citation, confidence thresholds, or explicit guardrails against ungrounded answers for Helply's AI agent — scored on the absence of evidence for these specific controls, not a confirmed failure." },
+    { "key": "automation-depth", "score": 3, "note": "Workflow automation and 'smart escalations' are documented on Helply's pricing page alongside AI-driven triage and actions — real automation, though without the level of documented multi-step-chaining detail some competitors publish." },
+    { "key": "sentiment-intent-detection", "score": 4, "note": "Groove's AI Suite includes a documented AI Sentiment feature specifically described as detecting whether 'a customer is frustrated before you even open the ticket' — genuine proactive detection, not a post-resolution satisfaction score." },
+    { "key": "unified-inbox", "score": 4, "note": "A shared inbox is core to both Groove Classic and Helply, and Helply's version explicitly unifies conversations with CRM, billing, and call context in one place — a deeper unification than a typical multi-channel-only inbox." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation was found describing how or when Helply's AI agent hands off to a human agent, unlike competitors that publish explicit escalation logic or confidence-threshold handoff triggers." },
+    { "key": "internal-collaboration", "score": 4, "note": "Groove Classic is documented with collision detection, private internal notes, and @mentions for team coordination — mature, established shared-inbox collaboration features that a support-focused product like this is built around." },
+    { "key": "canned-responses", "score": 5, "note": "Groove Classic's categorized 'Instant Replies' are a well-documented, mature feature, and Helply's own feature list separately confirms 'macros, saved replies' are included in its all-inclusive pricing." },
+    { "key": "integration-shopify", "score": 1, "note": "No Shopify integration was found in any Helply or Groove materials reviewed — the product is explicitly positioned for B2B SaaS account management, not ecommerce." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No WooCommerce integration was found, consistent with the product's B2B SaaS focus rather than ecommerce." },
+    { "key": "integration-wordpress", "score": 1, "note": "No WordPress integration or widget was found; Helply is not built as a website-embeddable chat product." },
+    { "key": "integration-wix", "score": 1, "note": "No Wix integration was found, consistent with the product's B2B account-management focus rather than general website support." },
+    { "key": "integration-squarespace", "score": 1, "note": "No Squarespace integration was found for the same reason." },
+    { "key": "integration-webflow", "score": 1, "note": "No Webflow integration was found for the same reason." },
+    { "key": "integration-automation-platforms", "score": 1, "note": "No Zapier, Make, or n8n integration was documented in the materials reviewed for either Groove Classic or Helply, a notable gap versus most competitors in this category." },
+    { "key": "integration-crm", "score": 4, "note": "Salesforce is explicitly documented as a natively-loaded context source for Helply's AI agent — genuine, deep integration for account-aware replies, though no HubSpot or Pipedrive integration was confirmed." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Stripe billing data is documented as natively loaded into the AI's context — real payment/billing visibility, but framed around B2B subscription billing and renewal context rather than ecommerce order status or shipping tracking, which this product doesn't address at all." },
+    { "key": "multi-language-support", "score": 5, "note": "Documented as automatically translating both live messages and help-center articles into a customer's native language — genuine automatic, bidirectional translation rather than a manual or partial implementation." },
+    { "key": "analytics-depth", "score": 5, "note": "Beyond standard ticket volume, response time, and resolution-rate reporting, the Profit Center dashboard attributes dollar values to AI outcomes (churn prevented, expansion surfaced, competitor mentions routed to sales), and Support Intelligence allows natural-language queries across tickets, accounts, billing, and product data — a genuinely distinctive reporting depth in this category." },
+    { "key": "pricing-transparency", "score": 3, "note": "The $1/ticket rate itself is published clearly, but the 250-ticket monthly minimum and roughly $3,000/year floor aren't obvious from the headline price, and the company's marketing site no longer publishes Groove Classic's per-seat pricing at all — existing searchers can't easily find what they're actually being offered." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "A public API is documented as part of Helply's included feature set, connecting to the same ticket/CRM/billing/call context layer — real, though without the level of webhook-event or developer-platform detail more established competitors publish." }
+  ],
+  "pricing": {
+    "model": "Outcome-based: a flat per-resolved-ticket rate with a required monthly minimum, replacing the legacy per-seat model",
+    "startingPrice": "$1/ticket (Helply), with a 250-ticket/month minimum and ~$3,000/year contract floor; Groove Classic historically started around $29/user/month",
+    "plans": [
+      { "name": "Helply", "price": "$1/ticket", "billing": "Annual contract; 250-ticket/month minimum, ~$3,000/year floor", "notes": "All features included at one rate — unlimited seats, unlimited AI usage, shared inbox, email/chat/messaging channels, AI triage/replies/actions, workflow automation, knowledge base, analytics, API access, and premium support. Volume discounts available for larger teams." },
+      { "name": "Groove Classic (legacy)", "price": "Historically from ~$29/user/mo", "billing": "Per seat, monthly or annual", "notes": "The original shared-inbox product; still operating for existing customers, but current public pricing is not published — the marketing site now redirects to Helply." }
+    ]
+  },
+  "pricingBreakdown": "This is one of the more disruptive pricing transitions in this category: Groove Classic's roughly $29/user/month model was genuinely competitive for small teams, comparable to Help Scout's $25/user or Freshdesk's $19/user entry tiers. Helply's replacement — $1 per resolved ticket, with a 250-ticket/month minimum and an approximately $3,000/year contract floor — is a fundamentally different shape aimed at a fundamentally different buyer. A small team handling 100 tickets a month would have paid a fraction of that on a two- or three-seat Groove Classic plan; under Helply's minimum, they'd be paying for 250 tickets' worth of capacity whether they use it or not. This only makes sense for the B2B SaaS accounts Helply is explicitly built for — teams with enough ticket volume, and enough per-account value (renewal risk, expansion opportunity) that the Profit Center dashboard's revenue-attribution framing actually matters. If you're the kind of small team Groove Classic used to serve well, this pricing change likely prices you out entirely, and it's worth remembering this isn't the company's first unannounced pricing shift — a widely-cited complaint describes an earlier 'Free Forever' plan being converted to $22/user/month without warning. Budget accordingly and get any commitment terms in writing before signing.",
+  "capabilities": [
+    { "area": "Groove Classic (legacy)", "note": "The original product — a clean, well-reviewed shared inbox with collision detection, categorized Instant Replies, private notes, and an assistive-only AI Suite (Summarize, Sentiment, Writing Assist, Tag Suggest). It's still running for existing customers, with the company stating there's no forced migration, but it's explicitly not where the company is investing its forward roadmap." },
+    { "area": "Helply's AI Agent", "note": "A genuinely more sophisticated foundation than a typical support chatbot: it reads CRM records, Stripe billing, and Gong sales-call transcripts to answer with real account context — the kind of information a human support rep would need to dig for across multiple tabs. The tradeoff is scope: this is built for B2B SaaS account management, not general customer support, and there's no documented hallucination-control or human-handoff logic to weigh against that sophistication." },
+    { "area": "Profit Center & Support Intelligence", "note": "Genuinely distinctive reporting: instead of just counting tickets and response times, Helply attributes dollar values to AI-handled outcomes (churn prevented, expansion surfaced, competitor mentions routed to sales), and Support Intelligence lets you query across tickets, accounts, billing, and product data in natural language. For a B2B team trying to justify support as a revenue function, this is a real differentiator." },
+    { "area": "Channel Coverage", "note": "Slack Connect, Microsoft Teams, Discord, email, in-app chat, SMS, and WhatsApp cover a lot of B2B-relevant ground, but there's a hard boundary: no Instagram, no Messenger, no ecommerce-platform integration of any kind. If your support volume includes consumer social channels or online-store order questions, this product isn't built to handle it." },
+    { "area": "Company Stability & Pricing History", "note": "Worth treating as its own consideration given the facts on record: a full company rebrand mid-2026, a legacy product maintained but de-prioritized, and a documented history of at least one prior unannounced pricing-model change (a 'Free Forever' plan converted to $22/user/month). None of this is disqualifying on its own, but it's a real pattern worth factoring into any long-term commitment decision, especially given Helply's required annual minimum." }
+  ],
+  "pros": [
+    "Helply's AI agent draws on genuinely richer context (CRM, billing, sales-call data) than a typical support-chatbot, built specifically for B2B account management",
+    "Distinctive revenue-attribution reporting (Profit Center) and natural-language data querying (Support Intelligence) go well beyond standard ticket-volume analytics",
+    "Groove Classic's underlying shared inbox is well-reviewed (4.7/5 across 146+ Capterra reviews) for ease of use and team collaboration",
+    "Automatic bidirectional translation of both messages and help-center content is a genuinely strong, fully-automated multi-language implementation",
+    "Outcome-based pricing means you're not paying for idle seats if your AI usage genuinely drops — a real advantage for the right kind of B2B team"
+  ],
+  "cons": [
+    "A full company rebrand mid-2026 has left the original Groove product's pricing and future unclear, with the marketing site now redirecting entirely to the new Helply positioning",
+    "Helply's $1/ticket pricing with a 250-ticket/month minimum and ~$3,000/year floor structurally prices out the small teams Groove Classic used to serve well",
+    "No documented ecommerce-platform, website-builder, or consumer social-channel (Instagram, Messenger) integrations — this is a B2B SaaS-only product",
+    "No documented hallucination-control mechanism or explicit AI-to-human handoff logic, a real documentation gap next to competitors that publish both",
+    "A documented history of unannounced pricing-model changes (a 'Free Forever' plan converted to $22/user/month) predates and echoes the disruption of the 2026 rebrand"
+  ],
+  "sentiment": [
+    {
+      "quote": "GrooveHQ simplifies our customer experience and consolidates our capabilities.",
+      "source": "Capterra (Brady B., CEO, Health, Wellness & Fitness, 5/5)",
+      "url": "https://www.capterra.com/p/143005/Groove/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Sleek UI, and the fact that Groove has a knowledge base.",
+      "source": "Capterra (Josh S., IT Coordinator, Legal Services, 4/5)",
+      "url": "https://www.capterra.com/p/143005/Groove/reviews/",
+      "sentiment": "mixed"
+    },
+    {
+      "quote": "Search functionality [is] slow and clunky, with limited reporting capabilities.",
+      "source": "Capterra (Lo M., Customer Happiness, 4/5)",
+      "url": "https://www.capterra.com/p/143005/Groove/reviews/",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "B2B SaaS companies with real ticket volume who want an AI agent grounded in Salesforce, Stripe, and Gong context for account-aware support",
+    "Existing Groove Classic customers who are being maintained on the legacy product without forced migration",
+    "Teams that would genuinely benefit from revenue-attribution reporting (Profit Center) tying support outcomes to churn and expansion",
+    "Buyers comfortable committing to Helply's required annual minimum and confirming exact contract terms before signing"
+  ],
+  "verdict": "This listing has to do something most tool reviews don't: describe two different products under one name. Groove was, and for roughly 2,000 remaining customers still is, an affordable, well-reviewed shared inbox for small teams — 4.7/5 across a large review base, praised for ease of use and clean collaboration tooling. In mid-2026 the company rebranded to Helply and pointed its entire forward strategy at a narrower, more ambitious target: B2B SaaS companies who want an AI agent that reads CRM records, Stripe billing, and Gong call transcripts to answer support questions with real account context, and a Profit Center dashboard that puts a dollar figure on what that AI actually delivers. That's a genuinely more sophisticated foundation than a typical knowledge-base chatbot, and the automatic bidirectional translation and natural-language Support Intelligence querying are real, distinctive capabilities. But the pricing shift that came with it is severe: Helply's $1-per-ticket rate carries a 250-ticket monthly minimum and roughly a $3,000 annual floor, regardless of team size — a structural change that prices out exactly the kind of small team Groove Classic used to serve well, and it's not this company's first unannounced pricing shift, either; a 'Free Forever' plan quietly becoming $22/user/month is a documented part of its history. There's also a hard category boundary worth being clear-eyed about: no ecommerce integration, no website-builder support, no consumer social channels — this is a B2B account-management tool now, not a general customer-support platform. My honest read: if you're a B2B SaaS company with real support volume and the budget to clear Helply's minimum, the AI's account-context depth is worth evaluating seriously. If you're the small team Groove used to be built for, or you need ecommerce and social-channel coverage, look elsewhere — and if you're an existing Groove Classic customer, get direct written confirmation of your product's roadmap and pricing stability before assuming continuity.",
+  "rating": 3.5,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

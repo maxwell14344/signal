@@ -1,0 +1,165 @@
+{
+  "slug": "tawkto",
+  "name": "tawk.to",
+  "logoUrl": "",
+  "website": "https://www.tawk.to",
+  "tagline": "The live chat tool that's been genuinely free since 2013, monetized entirely through opt-in add-ons instead of a paywalled core product.",
+  "tldr": [
+    "tawk.to is a free-forever live chat, ticketing, and knowledge base platform — unlimited agents, unlimited chat history, and no seat fees, monetized instead through a la carte add-ons layered on top.",
+    "The add-on menu is unusually specific: removing 'Powered by tawk.to' branding is $29/mo, AI Assist (the chatbot) starts at $29/mo with a limited free tier, hiring a human chat agent from tawk.to's own staff is $1/hour, and virtual assistants start at $7/hour.",
+    "Launched in 2013 by CTO Shankar Karuppiah, bootstrapped with no venture funding, reportedly reaching 1 million users by 2017 and now claiming over a third of all websites running live chat software — reported 2024 revenue around $17.6M ARR.",
+    "AI Assist (branded Apollo) trains automatically by crawling up to 2,000 pages of your site plus your knowledge base and Shortcut FAQs, and can extend to WhatsApp, Messenger, Telegram, and email — genuine agentic capability, but usage-metered even on paid tiers.",
+    "Independent reviews are strong on volume and average (4.6/5 across 343+ Capterra reviews), but a specific, recurring complaint theme is data-safety and security handling, including one detailed account of a phishing-scam warning the company reportedly declined to address.",
+    "Best for budget-constrained teams and small sites that want a genuinely capable, no-seat-fee live chat setup — not for teams needing deep native CRM sync, live order/payment data access, or real-time sentiment detection out of the box."
+  ],
+  "categories": { "primary": "live-chat-shared-inbox", "secondary": ["ai-chatbots"] },
+  "channels": ["Web Chat", "Knowledge Base", "Ticketing", "WhatsApp (AI Assist)", "Facebook Messenger (AI Assist)", "Telegram (AI Assist)", "Email"],
+  "keyFeatures": [
+    "Free-forever core plan: unlimited agents, unlimited chat history, live visitor monitoring, and a customizable chat widget with 27-language support",
+    "AI Assist (Apollo) — an AI agent that crawls up to 2,000 site pages plus your knowledge base and Shortcut FAQs to answer chats autonomously, extendable to WhatsApp, Messenger, Telegram, and email",
+    "Shortcuts — canned responses inserted via a '/' command, configurable as public (team-wide) or personal, usable in both live chat and ticket replies",
+    "Built-in ticketing and a hosted, SEO-indexable knowledge base where every article doubles as AI training data and public documentation",
+    "Departments, tags, whispers, and internal notes for routing and team collaboration without exposing internal discussion to the visitor",
+    "Reporting dashboard covering chat/ticket volume, missed chats, resolution time, and thumbs-up/down user satisfaction, filterable by agent and tag with CSV export",
+    "Hire Chat Agents ($1/hour) — tawk.to's own trained human agents answer chats on your behalf 24/7 as a fully outsourced live-chat option",
+    "JavaScript API, webhooks, and a Zapier integration connecting to 1,500+ external apps for no-code automation"
+  ],
+  "companyInfo": {
+    "founded": "2013 — launched by co-founder/CTO Shankar Karuppiah, reaching 1 million users by 2017",
+    "hq": "Not publicly disclosed on tawk.to's own site; commonly reported as US-based",
+    "funding": "Bootstrapped, no venture capital reported — third-party revenue trackers estimate roughly $17.6M ARR as of 2024",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "Is tawk.to actually free, or is there a catch?",
+      "answer": "The core live chat, ticketing, and knowledge base product is genuinely free with no seat limits or chat-history caps. The company's own stated model is monetizing 'only at the junction where our customers derive value' — meaning you pay for specific add-ons (branding removal, AI Assist, hired human agents) rather than for the base product itself. There's no hidden agent cap that forces an upgrade the way many 'free tier' competitors are structured."
+    },
+    {
+      "question": "How much does tawk.to's AI chatbot cost?",
+      "answer": "AI Assist starts at $29/month, with a limited free tier offering around 100 AI message credits per month covering either agent-facing suggestions or direct customer replies. Beyond that allowance, cost scales with usage, so a busy site will need to budget well above the $29 entry point to keep the AI answering every conversation."
+    },
+    {
+      "question": "Can I hire tawk.to's own staff to answer chats for me?",
+      "answer": "Yes — this is one of tawk.to's more unusual offerings. 'Hire Chat Agents' lets you pay $1/hour for tawk.to's own trained, native-speaking staff to answer chats on your behalf around the clock, effectively outsourcing live chat entirely rather than staffing it yourself. Virtual Assistants for broader admin, design, HR, or data-entry work start separately at $7/hour."
+    },
+    {
+      "question": "Does tawk.to integrate with Shopify or WooCommerce?",
+      "answer": "There's a first-party tawk.to app in the Shopify App Store for installing the chat widget on a Shopify storefront, but it's positioned as a chat-widget installer rather than a documented order-lookup or refund-management integration — we found no evidence it surfaces live order or payment data inside a conversation the way some helpdesk-native Shopify apps do. WooCommerce connectivity exists only through Zapier, not a first-party app."
+    },
+    {
+      "question": "What do people complain about most with tawk.to?",
+      "answer": "Given how positive the aggregate rating is (4.6/5 across a large review base), the recurring theme worth taking seriously is data-safety and security handling — multiple reviewers describe specific incidents (a phishing-scam warning appearing on their site, concerns about how the company handled a security report) rather than vague dissatisfaction. That's a different, more concrete complaint than typical missing-feature gripes, and worth weighing directly against the free price point."
+    },
+    {
+      "question": "Is tawk.to good for ecommerce or CRM-heavy support?",
+      "answer": "Not natively. There's no first-party CRM integration (HubSpot, Salesforce, and Pipedrive connectivity would have to go through Zapier), and we found no documentation of the AI or the widget accessing live order or payment data directly. It's built primarily as a capable, free live-chat-and-ticketing layer, not a commerce-integrated support platform."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 5, "note": "Consistently praised as fast and simple to install, with first-party WordPress and Shopify apps alongside the universal embed script." },
+    { "dimension": "AI Quality", "score": 3, "note": "AI Assist is a real, knowledge-base-trained agent with genuine reach into messaging channels, but usage-metered even on paid tiers and with no independent resolution-rate data available." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "Web chat and ticketing are the core; WhatsApp, Messenger, Telegram, and email exist specifically as AI Assist-connected channels rather than a unified human-agent omnichannel inbox." },
+    { "dimension": "Pricing Value", "score": 5, "note": "A genuinely free, unlimited-agent core product with transparent, itemized add-on pricing is a rare and real value proposition in this category." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Aggregate reviews are strongly positive, but a specific, recurring complaint theme around data-safety and security response is a real concern that shows up repeatedly rather than as an isolated incident." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 3, "note": "Web chat, ticketing, and a knowledge base are the core, free product. WhatsApp, Messenger, Telegram, and email are documented as channels AI Assist (Apollo) can connect to, but it's not clear these are available as human-agent channels independent of the paid AI add-on." },
+    { "key": "omnichannel-unification", "score": 2, "note": "No documentation found of connected channels landing in one unified thread per customer the way a dedicated omnichannel inbox does; the core product is built around web chat and tickets, with messaging-channel reach positioned as an AI Assist capability rather than a unified human inbox feature." },
+    { "key": "ai-availability", "score": 4, "note": "AI Assist (Apollo) is a genuine AI agent — it crawls site content, trains on the knowledge base and Shortcut FAQs, and is described as including 'AI agents with API tool calls,' not just canned replies. The caveat is that it's a metered paid add-on beyond a limited free credit allowance, not a free-tier-included feature." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently verified resolution-rate figure was found anywhere. tawk.to's own marketing doesn't appear to publish a headline deflection percentage the way some competitors do, and there's no independent benchmark to check any implicit claim against." },
+    { "key": "ai-training-method", "score": 4, "note": "AI Assist automatically crawls up to 2,000 pages of a site plus the knowledge base and Shortcut FAQs to build its training data — genuine automatic learning, with every knowledge base article documented as doing 'triple duty' answering visitors, training the AI, and powering the public help center." },
+    { "key": "hallucination-controls", "score": 2, "note": "AI Assist is scoped to the crawled site content, knowledge base, and Shortcut FAQs, which is a real restriction on what it can draw from — but no documentation was found of per-answer source citation shown to the customer or a tunable confidence threshold, so this is scored on absence of evidence for stronger controls." },
+    { "key": "automation-depth", "score": 3, "note": "Advanced triggers can automatically tag a chat or transfer it to another agent or department, and AI Assist documentation references API tool calls — real automation beyond simple canned replies, though not documented as a full multi-step, chainable workflow builder comparable to dedicated automation platforms." },
+    { "key": "sentiment-intent-detection", "score": 1, "note": "tawk.to's own reporting documentation describes 'Positive Sentiment' as being 'based on the rating a chat is given' — i.e. a post-chat thumbs-up/down satisfaction score, not real-time detection of frustration or urgency during a live conversation. Scored low because this is a retrospective satisfaction metric, not the proactive detection this criterion measures." },
+    { "key": "unified-inbox", "score": 3, "note": "Live chat and ticketing share one dashboard with departments, tags, and assignment, which is real unification for what the core product covers — but it falls short of a true all-channel inbox given the ambiguity around whether messaging channels land in the same customer thread." },
+    { "key": "ai-human-handoff", "score": 3, "note": "Chats and tickets can be transferred to another agent or department via triggers and manual assignment, which is functional handoff — but no tawk.to-specific documentation was found describing a deliberate AI-to-human escalation design comparable to what more AI-forward competitors publish." },
+    { "key": "internal-collaboration", "score": 4, "note": "Internal notes (visible only to agents, never the visitor), whispers, tags, and department-based assignment are all documented, established features — solid, if not groundbreaking, team-collaboration tooling." },
+    { "key": "canned-responses", "score": 5, "note": "Shortcuts are a well-documented, first-class feature — triggered with a '/' command, configurable as public (team-wide) or personal, and usable in both live chats and ticket replies." },
+    { "key": "integration-shopify", "score": 2, "note": "A first-party tawk.to app exists in the Shopify App Store, but its own listing description ('Monitor and chat with site visitors in real time') positions it as a widget installer rather than a documented order-lookup or refund-management integration — real app, shallow data access as far as we could verify." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No first-party WooCommerce app was found; connectivity is documented only through Zapier (e.g., triggering a WooCommerce coupon creation from a tawk.to chat event), which is third-party workflow glue rather than a native integration." },
+    { "key": "integration-wordpress", "score": 4, "note": "A real, first-party WordPress plugin is listed in the WordPress directory with a documented install-activate-login flow — a genuine native integration, not just the universal embed script." },
+    { "key": "integration-wix", "score": 2, "note": "Installation guidance for Wix exists (including a dedicated video walkthrough), but it appears to be the universal embed script added through Wix's custom-code capability rather than a listed Wix App Market app." },
+    { "key": "integration-squarespace", "score": 2, "note": "tawk.to's own documentation groups Squarespace alongside WordPress, Magento, and Shopify as platforms with an installable 'app or plugin,' but we could not independently confirm a dedicated Squarespace-specific app comparable to the verified WordPress plugin." },
+    { "key": "integration-webflow", "score": 1, "note": "No first-party or well-documented Webflow-specific integration was found; installation would fall back to the universal embed script." },
+    { "key": "integration-automation-platforms", "score": 3, "note": "A well-documented, broad Zapier integration connects tawk.to to 1,500+ apps with real triggers (chat ended, ticket created) and actions — solid no-code coverage, though no first-party Make or n8n integration was confirmed." },
+    { "key": "integration-crm", "score": 1, "note": "No first-party CRM integration (HubSpot, Salesforce, Pipedrive) was found; connecting to any of them would require routing through Zapier rather than a native sync." },
+    { "key": "order-payment-data-access", "score": 1, "note": "No documentation was found of the AI or a human agent viewing live order status or payment data directly inside a tawk.to conversation — the Shopify app appears limited to widget installation rather than commerce-data lookup, a meaningful gap versus helpdesk-native competitors." },
+    { "key": "multi-language-support", "score": 4, "note": "The chat widget documents support for 27 languages, a real and specific figure rather than a vague 'multilingual' claim, though we found no separate confirmation of automatic customer-language detection for AI Assist replies specifically." },
+    { "key": "analytics-depth", "score": 3, "note": "The reporting dashboard covers chat and ticket volume, missed chats, resolution time, agent activity, and thumbs-up/down user satisfaction, filterable by agent and tag with CSV export — solid fundamentals, though no deflection-rate-specific AI report or CSAT-survey mechanic beyond the binary satisfaction rating was found." },
+    { "key": "pricing-transparency", "score": 4, "note": "Unusually transparent for the category: the core product is verifiably free with no seat cap, and every add-on (branding removal $29/mo, AI Assist from $29/mo, human agents $1/hr, virtual assistants from $7/hr) is individually priced and published rather than bundled into an opaque tier ladder." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "A documented JavaScript API (developer.tawk.to) and real-time webhooks that POST event data to an external URL, combined with the broad Zapier integration, add up to genuine build-on-top capability rather than a closed workflow builder." }
+  ],
+  "pricing": {
+    "model": "Free core product monetized through itemized, opt-in add-ons rather than seat-based tiers",
+    "startingPrice": "$0 (unlimited agents and chat history on the core plan)",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free, no seat cap", "notes": "Live chat, ticketing, knowledge base, 27-language widget support, all core features including a limited AI Assist allowance — carries 'Powered by tawk.to' branding." },
+      { "name": "Remove Branding", "price": "$29/mo", "billing": "Per month, add-on", "notes": "Removes the 'Powered by tawk.to' widget branding." },
+      { "name": "AI Assist", "price": "From $29/mo", "billing": "Per month, usage-scaling add-on", "notes": "AI chatbot (Apollo) trained on your knowledge base and site content; a limited free tier (~100 AI credits/mo) exists below the paid tier." },
+      { "name": "Hire Chat Agents", "price": "$1/hour", "billing": "Hourly, add-on", "notes": "tawk.to's own trained, native-speaking staff answer chats on your behalf 24/7/365." },
+      { "name": "Virtual Assistants", "price": "From $7/hour", "billing": "Hourly, add-on", "notes": "Dedicated resources for design, admin, HR, bookkeeping, and data entry — not support-specific." },
+      { "name": "In-Chat Payments / Phone & SMS", "price": "Not yet published", "billing": "Alpha/Beta", "notes": "In-chat payments is in Alpha and phone/SMS is in Beta as of this writing; pricing not yet public." }
+    ]
+  },
+  "pricingBreakdown": "tawk.to inverts the category's usual pricing logic: instead of a seat-gated free tier that pushes you toward a paid plan as you grow, the core product — unlimited agents, unlimited chat history, ticketing, and a knowledge base — stays free indefinitely, and every dollar the company makes comes from opt-in add-ons layered on top. That structure is genuinely rare; Olark's free tier caps at 20 chats a month and one agent, Freshdesk's free tier caps at 2 agents, and both push toward a $19-29/agent/mo plan quickly — tawk.to doesn't have that lever at all. The add-ons are also priced unusually specifically: $29/mo to remove branding, AI Assist starting at $29/mo with a small free credit allowance, and — genuinely unusual in this category — the option to pay $1/hour for tawk.to's own staff to answer chats on your behalf, which is a real alternative to hiring and training your own agents. The honest caveat is that 'free' doesn't mean 'complete': AI Assist's usage metering means a busy site doing real AI-driven support volume will spend well above $29/month, and the lack of a native CRM or commerce-data integration means teams with real ecommerce or CRM-sync needs will end up paying for Zapier-based workarounds that a purpose-built helpdesk like Help Scout or Freshdesk gives you natively. tawk.to's pricing is best understood as genuinely excellent for a small team's core chat-and-ticketing needs, and a patchwork you'll need to build yourself once your needs get more sophisticated than that.",
+  "capabilities": [
+    { "area": "Live Chat & Ticketing", "note": "The core product, and it's a real, complete one: unlimited agents and history, a customizable widget, built-in ticketing, and a hosted knowledge base that pulls double duty as public documentation and AI training data. For a team that just needs a dependable free chat-and-ticket setup, this is a genuinely strong starting point, and the review volume (343+ reviews averaging 4.6/5) backs that up." },
+    { "area": "AI Assist (Apollo)", "note": "A real AI agent that crawls your site and knowledge base automatically and can extend into WhatsApp, Messenger, Telegram, and email — more capability than a typical 'free chat tool's chatbot add-on.' The catch is the free tier's credit allowance is small, and real usage at volume pushes cost up quickly beyond the $29/mo entry point, with no independent data on how accurately it actually resolves conversations." },
+    { "area": "Team Collaboration", "note": "Shortcuts (canned responses), internal notes, whispers, tags, and department-based routing cover the fundamentals of running a small support team well, and none of it requires a paid tier to access." },
+    { "area": "Integrations", "note": "First-party apps exist for WordPress and Shopify, and a broad Zapier integration reaches 1,500+ other services — but there's no native CRM sync, and the Shopify app itself reads as a widget installer rather than a documented order-data integration. If deep commerce or CRM data access is a requirement, this is the part of the product to test carefully before committing." },
+    { "area": "Trust & Safety", "note": "This is the one area where the review record diverges sharply from the aggregate score. Alongside overwhelmingly positive reviews sits a specific, recurring complaint theme about data-safety handling, including a detailed account of a phishing-scam warning the company reportedly declined to take responsibility for. That's a concrete, checkable complaint pattern rather than vague dissatisfaction, and worth weighing directly if you're handling any sensitive customer data through the widget." }
+  ],
+  "pros": [
+    "A genuinely free, unlimited-agent core product with no seat cap or forced-upgrade ceiling — rare in this category",
+    "AI Assist is a real, knowledge-base-trained agent with reach into WhatsApp, Messenger, and Telegram, not just a website widget bolt-on",
+    "The option to pay $1/hour for tawk.to's own staff to answer chats is a genuinely unusual and potentially useful alternative to hiring your own agents",
+    "A large, strongly positive independent review base (4.6/5 across 343+ reviews) with ease of use and reliability as consistent themes",
+    "Unusually transparent, itemized add-on pricing rather than an opaque seat-tier ladder"
+  ],
+  "cons": [
+    "A specific, recurring complaint theme around data-safety and security handling shows up repeatedly in independent reviews, including one detailed account involving a phishing-scam warning",
+    "No native CRM integration and no documented live order/payment data access — ecommerce and CRM-heavy teams will need to build Zapier-based workarounds",
+    "Sentiment detection is limited to a post-chat thumbs-up/down satisfaction rating rather than real-time frustration or urgency detection",
+    "AI Assist's usage metering means real costs scale well above the $29/mo entry point for any team doing meaningful AI-driven conversation volume",
+    "Several 'integrations' (Wix, Squarespace, Webflow) are documented as embed-script installs rather than dedicated marketplace apps"
+  ],
+  "sentiment": [
+    {
+      "quote": "Outstanding value for a free platform with reliable live chat, chatbot, and ticketing capabilities.",
+      "source": "Capterra (Andrea L., Innovation Manager, Translation and Localization, 5/5)",
+      "url": "https://www.capterra.com/p/167792/tawk-to/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Easy setup and decent pricing, but data safety concerns and lack of security commitment negate usability.",
+      "source": "Capterra (Ami H., Web, Entertainment, 1/5)",
+      "url": "https://www.capterra.com/p/167792/tawk-to/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Extremely reliable—can't recall downtime. Integrates well with websites and the free option is unbeatable.",
+      "source": "Capterra (Oscar S., Operations Manager, Consumer Goods, 5/5)",
+      "url": "https://www.capterra.com/p/167792/tawk-to/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Did the job adequately, but integrations fell short compared to alternatives and UI felt outdated.",
+      "source": "Capterra (Harry S., Head of CSM, Accounting, 3/5)",
+      "url": "https://www.capterra.com/p/167792/tawk-to/reviews/",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Budget-constrained small businesses and solo operators who want a genuinely capable, unlimited-agent live chat setup at zero base cost",
+    "Teams open to outsourcing chat coverage entirely via tawk.to's own $1/hour hired agents rather than staffing it themselves",
+    "Sites with straightforward FAQ-style support needs that AI Assist's site-crawl-plus-knowledge-base training can handle well",
+    "Teams that don't need deep native CRM sync or live commerce-data lookups inside the chat widget"
+  ],
+  "verdict": "tawk.to's core pitch has held up for over a decade: unlimited agents, unlimited chat history, and a real ticketing system and knowledge base, all genuinely free, monetized instead through a menu of specific, individually-priced add-ons. That structure alone makes it worth a serious look for any budget-constrained team, and the review record backs the core product up — 4.6/5 across a review base in the hundreds, with reliability and ease of use as the consistent praise. AI Assist is a more real AI agent than the 'free tool's chatbot' label might suggest: it crawls your actual site content, trains on your knowledge base, and can reach into WhatsApp, Messenger, and Telegram, not just answer from a static FAQ page. Where the honest caveats start piling up is in exactly the areas that matter for a growing or ecommerce-heavy support operation: there's no native CRM sync, no documented live order or payment data access inside a conversation, and sentiment detection here means a post-chat thumbs-up or thumbs-down, not real-time frustration flagging. And the one complaint pattern I'd take most seriously isn't a missing feature at all — it's a specific, recurring theme in independent reviews about how the company has handled data-safety concerns, including one detailed account of a phishing-scam warning the company reportedly declined to take responsibility for. That's a different, more concrete kind of red flag than a typical feature gap, and worth weighing directly against how much sensitive customer data will actually flow through the widget. My honest read: for a small team that wants a real, free live-chat-and-ticketing setup and can live within tawk.to's integration limits, this is genuinely hard to beat on price. For a team with real commerce or CRM integration needs, or handling data sensitive enough that the security complaint pattern gives you pause, it's worth pricing out a paid alternative before committing.",
+  "rating": 3.5,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

@@ -27,17 +27,18 @@ no longer applies going forward.
 
 - [x] Freshchat
 - [x] Freshdesk (retried solo, one at a time — succeeded)
+- [x] Gorgias (retried solo — succeeded)
+- [x] Groove (retried solo — succeeded; company rebranded to Helply mid-2026, documented in the profile)
 - [x] Help Scout
 - [x] HubSpot Service Hub
 - [x] Kayako
 - [x] LiveChat
 - [x] Olark
+- [x] Tawk.to (retried solo — succeeded)
 
 ## Attempted, failed, not yet retried
 
-- [ ] Tawk.to — two agent attempts crashed; second left an unusable stub (0 criteria scored), discarded
-- [ ] Gorgias — agent attempt stalled (600s no progress)
-- [ ] Groove — two agent attempts stalled
+(none remaining — all four retried solo, one at a time, and succeeded)
 
 ## Remaining candidates (not yet started)
 

@@ -1,0 +1,153 @@
+{
+  "slug": "chatfuel",
+  "name": "Chatfuel",
+  "logoUrl": "",
+  "website": "https://chatfuel.com",
+  "tagline": "A decade-old, Y Combinator-backed Messenger and Instagram chatbot builder with broad integration reach — and real, credible complaints about dismissive support and billing opacity.",
+  "tldr": [
+    "Chatfuel was founded in 2015 in San Francisco by Dmitrii Dumik and Artem Ptashnik, went through Y Combinator's Winter 2016 batch, and has raised a remarkably modest $1.62M total across 6 rounds (including a $1.5M seed as recently as October 2025) while reaching $3.8M in 2024 revenue with 47 employees — a genuinely capital-efficient decade of operation.",
+    "Pricing is confusingly structured across sources: contact-based 'Fuely' AI plans start around $39-59/month, a publicly marketed $69/month tier covers 500 contacts, WhatsApp-specific Business plans start at $34.49/month for 1,000 conversations, and Enterprise begins around $400/month — confirm exact current terms directly rather than trusting any single cited figure.",
+    "Native channel focus is Facebook Messenger, Instagram, and WhatsApp, with AI-powered (NLP-based) virtual assistant capability branded as 'Fuely,' bundled into the AI-specific plan tiers.",
+    "Integration breadth is genuinely strong for a chatbot builder: 19 documented integrations including Shopify, HubSpot, Stripe, Zendesk, Intercom, and Twilio, plus connectivity through five separate automation platforms (Zapier, Make, Pabbly Connect, Integrately, Albato).",
+    "Aggregate reviews are solid (4.4/5 G2, 4.3/5 Capterra), but a harsher Trustpilot pattern (3.2/5) surfaces specific, serious complaints: support described as dismissive (one customer reportedly told they 'might be delusional'), billing opacity, and at least one account of the platform going down with zero support channels available to cancel a premium subscription.",
+    "Best for small businesses wanting an established, integration-rich Messenger/Instagram/WhatsApp chatbot builder at a moderate price — not for anyone who has zero tolerance for support-quality risk, given the specific, credible negative pattern documented independently."
+  ],
+  "categories": { "primary": "ai-chatbots", "secondary": ["whatsapp-social-messaging-ai"] },
+  "channels": ["Facebook Messenger", "Instagram", "WhatsApp"],
+  "keyFeatures": [
+    "Fuely — Chatfuel's branded AI capability, using NLP to power more natural, intelligent virtual assistant responses",
+    "A no-code visual flow builder for designing chatbot conversations across Messenger, Instagram, and WhatsApp",
+    "19 documented native integrations including Shopify, HubSpot, Stripe, Zendesk, Intercom, Twilio, Slack, and Google Analytics",
+    "Connectivity through five separate no-code automation platforms: Zapier, Make, Pabbly Connect, Integrately, and Albato",
+    "Contact-based and conversation-based pricing tiers depending on the specific plan and channel",
+    "Mobile access for managing bots and conversations away from a desktop",
+    "Real-time consumer-facing chat capability, specifically named by users as a valued feature",
+    "A 7-day free trial and a limited free plan for testing before committing to a paid tier"
+  ],
+  "companyInfo": {
+    "founded": "2015, San Francisco, by Dmitrii Dumik and Artem Ptashnik; part of Y Combinator's Winter 2016 batch",
+    "hq": "San Francisco, California, USA",
+    "funding": "$1.62M raised total across 6 rounds, including a $1.5M seed round as recently as October 2025 — a notably modest total for a decade-old, revenue-generating company",
+    "employees": "~47 (2026); reported $3.8M revenue in 2024"
+  },
+  "faq": [
+    {
+      "question": "How much does Chatfuel actually cost?",
+      "answer": "This is genuinely confusing across sources at the time of this review. Contact-based AI ('Fuely') plans are cited starting around $39-59/month, a publicly marketed $69/month tier covers 500 contacts, WhatsApp-specific pricing starts separately at $34.49/month for 1,000 conversations, and volume tiers run up through $359/month for 10,000 chats before Enterprise (from roughly $400/month). Confirm exact current terms directly with Chatfuel rather than relying on any single third-party figure, since the structure itself appears to vary by channel and plan type."
+    },
+    {
+      "question": "Is Chatfuel's customer support actually reliable?",
+      "answer": "This is a real, specific concern worth taking seriously rather than dismissing as typical software grumbling. Independent reviews describe support as dismissive in at least one documented case (a customer reportedly told they 'might be delusional'), and Trustpilot's harsher review pattern (3.2/5) concentrates complaints around billing opacity and unhelpful support interactions. At least one account describes the platform going down with zero support channels available to even cancel a premium subscription. Test support responsiveness directly during the free trial before committing to a paid plan."
+    },
+    {
+      "question": "How good is Chatfuel's AI capability?",
+      "answer": "Fuely, Chatfuel's branded AI layer, uses NLP to power more natural virtual-assistant responses, and users do cite it as a valued feature. However, no independently audited resolution-rate figure exists, and given the broader support-quality concerns documented in reviews, it's worth testing the AI directly against your own use case rather than assuming marketing claims translate to consistent real-world performance."
+    },
+    {
+      "question": "Does Chatfuel integrate with Shopify or a CRM?",
+      "answer": "Yes — Shopify, HubSpot, Stripe, Zendesk, and Intercom are all among Chatfuel's 19 documented integrations, and Zapier, Make, Pabbly Connect, Integrately, and Albato all provide additional no-code automation paths. This is genuinely broad integration reach for a chatbot builder at this price point, though most of the ecommerce/CRM connections rely on Zapier-style bridges rather than a deep, purpose-built native app."
+    },
+    {
+      "question": "What channels does Chatfuel support?",
+      "answer": "Facebook Messenger, Instagram, and WhatsApp are the three native channels — a narrower, more focused list than broader omnichannel platforms in this category, consistent with Chatfuel's origin as a Messenger-bot builder before expanding to Instagram and WhatsApp."
+    },
+    {
+      "question": "Is Chatfuel a good choice given its funding history?",
+      "answer": "Chatfuel's funding is notably modest for a decade-old company — $1.62M total across 6 rounds — but it has reached $3.8M in 2024 revenue with 47 employees, suggesting a genuinely capital-efficient, likely profitable-or-near-profitable operation rather than one burning investor cash. That's a reasonable signal of sustainability, though it doesn't offset the specific support-quality concerns documented independently."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 2, "note": "Users specifically describe the platform as confusing, with 'so many features without intuitive thought on how to make it easy' cited as a real usability concern." },
+    { "dimension": "AI Quality", "score": 3, "note": "Fuely's NLP-powered responses are a real, valued feature cited by users, but no independently audited resolution-rate figure exists to verify performance claims." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "Facebook Messenger, Instagram, and WhatsApp are solid, established channels, but this is a narrower list than the category's broader omnichannel competitors." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Pricing structure is genuinely confusing across sources, with contact-based and conversation-based tiers cited inconsistently, compounded by a specific independent complaint about billing opacity." },
+    { "dimension": "Vendor Support Quality", "score": 2, "note": "A specific, serious complaint pattern exists — dismissive support responses, a documented account of being locked out during downtime with zero support channels to cancel — that goes beyond typical software friction." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 3, "note": "Facebook Messenger, Instagram, and WhatsApp are all documented native channels — solid, established coverage, though narrower than the category's broadest omnichannel platforms." },
+    { "key": "omnichannel-unification", "score": 2, "note": "Chatfuel is built primarily as a chatbot flow-builder across its three channels rather than a unified human-agent shared inbox, so cross-channel unification in the sense this criterion measures wasn't confirmed in the materials reviewed." },
+    { "key": "ai-availability", "score": 3, "note": "Fuely, Chatfuel's branded AI capability, uses NLP for more natural virtual-assistant responses — a real, user-valued feature, documented alongside the no-code flow builder rather than replacing it." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Fuely's AI capability." },
+    { "key": "ai-training-method", "score": 2, "note": "No specific, named training or knowledge-ingestion method was found documented for Fuely beyond the general NLP description." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for Chatfuel's AI features." },
+    { "key": "automation-depth", "score": 3, "note": "The no-code visual flow builder is the core product and represents real automation capability, though the platform's own users describe it as feature-rich but not always intuitively organized." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "General NLP capability is documented, but no specific, dedicated sentiment or urgency-detection feature was confirmed in the materials reviewed." },
+    { "key": "unified-inbox", "score": 2, "note": "No dedicated, documented shared-inbox feature was found; Chatfuel is positioned primarily as a bot-building platform rather than a human-agent-facing unified inbox." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes, @mentions, or team-collaboration tooling was found in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 2, "note": "A documented Shopify connection exists via Zapier rather than a confirmed deep, purpose-built native app with order-lookup or refund capability." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 5, "note": "Genuinely exceptional breadth: documented connectivity through five separate no-code automation platforms (Zapier, Make, Pabbly Connect, Integrately, Albato) — among the widest no-code reach found in this category." },
+    { "key": "integration-crm", "score": 3, "note": "HubSpot, Intercom, and Zendesk are all documented integrations, providing real CRM/helpdesk connectivity, though largely through Zapier-style bridges rather than confirmed deep native bidirectional sync." },
+    { "key": "order-payment-data-access", "score": 2, "note": "Shopify and Stripe integrations are documented, but without confirmed detail on live order-lookup or payment-data access inside a conversation." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "A Google Analytics integration is documented, but no dedicated, native deep-reporting layer (CSAT, deflection rate, agent performance) was confirmed." },
+    { "key": "pricing-transparency", "score": 1, "note": "Pricing structure is genuinely inconsistent across sources — contact-based and conversation-based tiers cited differently by different references — compounded by a specific, independent Trustpilot-documented complaint about billing opacity." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "19 documented integrations plus five separate automation-platform connections represent real extensibility, though this reflects breadth of pre-built connectors more than deep, independently confirmed public API or webhook documentation." }
+  ],
+  "pricing": {
+    "model": "Mixed contact-based and conversation-based tiers depending on channel and plan, inconsistently documented across sources",
+    "startingPrice": "~$39/mo (Fuely Super, ~150 contacts) or ~$34.49/mo (WhatsApp Business, 1,000 conversations)",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free, limited", "notes": "Basic testing tier before committing to a paid plan." },
+      { "name": "Fuely Super (AI)", "price": "~$39/mo", "billing": "Monthly, contact-based (~150 contacts)", "notes": "Entry AI-bundled tier; exact current terms should be confirmed directly." },
+      { "name": "Standard", "price": "$69/mo", "billing": "Monthly (500 contacts)", "notes": "The most commonly publicly marketed tier." },
+      { "name": "Higher volume tiers", "price": "$149-$359/mo", "billing": "Monthly, scaling by chat volume (3,000-10,000 chats)", "notes": "Scales with conversation/contact volume." },
+      { "name": "WhatsApp Business", "price": "~$34.49/mo", "billing": "Monthly (1,000 conversations)", "notes": "Priced separately from the core contact-based plans; Meta's own per-conversation fees ($0.02-0.08 for marketing conversations) apply on top." },
+      { "name": "Enterprise", "price": "~$400+/mo", "billing": "Custom", "notes": "Includes a dedicated account manager and custom limits." }
+    ]
+  },
+  "pricingBreakdown": "Chatfuel's pricing is genuinely harder to pin down precisely than most tools in this comparison set, with different sources citing different structures for what appears to be the same or similar tiers — a $39/month AI-bundled entry point in some sources, a $69/month standard tier in others, and separately-priced WhatsApp plans starting at $34.49/month for 1,000 conversations before Meta's own per-conversation fees apply on top. This inconsistency itself is worth noting as a minor red flag, and it's compounded by an independent Trustpilot-documented complaint specifically describing billing as opaque. Given the documented pattern of support-quality concerns alongside this pricing ambiguity, get an exact, written quote confirming your specific plan's contact/conversation limits and any additional per-message fees before committing, rather than assuming any single cited figure applies to your situation.",
+  "capabilities": [
+    { "area": "No-Code Bot Building", "note": "The core product, and it's genuinely feature-rich — a decade of iteration on Messenger, Instagram, and WhatsApp bot-building has produced real depth. The tradeoff, per user feedback, is that this depth comes without always-intuitive organization, making the platform feel more complex than it needs to for common use cases." },
+    { "area": "Integration Breadth", "note": "A genuine strength: 19 documented native-ish integrations (Shopify, HubSpot, Stripe, Zendesk, Intercom, Twilio) plus connectivity through five separate no-code automation platforms is among the broadest reach found in this category for a chatbot-specific tool." },
+    { "area": "Fuely AI", "note": "Real and user-valued, using NLP to power more natural virtual-assistant conversations, but documented in general terms without the technical specificity (named training methods, resolution benchmarks) some AI-forward competitors publish." },
+    { "area": "Support & Billing Trust", "note": "The most serious concern in this profile, and specific enough to weigh heavily rather than dismiss as generic complaint noise. Independent reviews describe dismissive support responses, billing opacity, and at least one account of being locked out during a platform outage with zero support channels available to even cancel a subscription. This pattern is credible and worth testing directly before committing." },
+    { "area": "Company Sustainability", "note": "A quiet strength worth crediting: reaching $3.8M in 2024 revenue on just $1.62M total raised across a decade suggests a genuinely capital-efficient, likely sustainable business rather than one dependent on continued investor funding to survive — a different kind of stability signal than venture scale, but a real one." }
+  ],
+  "pros": [
+    "A decade of iteration on Messenger, Instagram, and WhatsApp bot-building, with genuinely broad feature depth",
+    "Among the widest integration reach in this category — 19 native-ish connections plus five separate no-code automation platforms",
+    "A capital-efficient business history ($3.8M revenue on $1.62M total raised) suggesting sustainable, likely profitable operation",
+    "Real, user-valued AI capability (Fuely) using NLP for more natural conversation handling",
+    "Solid aggregate review scores (4.4/5 G2, 4.3/5 Capterra) reflecting broadly positive day-to-day experience for most users"
+  ],
+  "cons": [
+    "A specific, credible complaint pattern describes dismissive customer support, including one account of a customer being told they 'might be delusional'",
+    "Independent reviews document billing opacity as a specific concern, reflected in a notably harsher Trustpilot pattern (3.2/5) than the broader aggregate scores",
+    "At least one account describes the platform going down with zero support channels available to even cancel a subscription",
+    "Pricing structure is genuinely inconsistent across sources, making it harder than most competitors to confirm real costs upfront",
+    "Users describe the platform as feature-rich but not always intuitively organized, creating a real learning curve"
+  ],
+  "sentiment": [
+    {
+      "quote": "Users have found the platform confusing to use, noting it has so many features without intuitive thought on how to make it easy.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.capterra.com/p/181770/Chatfuel/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Customers have reported that when contacting support with problems, they were treated dismissively and told they 'might be delusional,' with support doing little to help resolve issues.",
+      "source": "Aggregated Trustpilot review sentiment",
+      "url": "https://www.trustpilot.com/review/chatfuel.com",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Small businesses wanting an established, integration-rich Messenger, Instagram, and WhatsApp chatbot builder",
+    "Teams that need broad no-code automation-platform connectivity (Zapier, Make, and beyond) more than a purpose-built native integration",
+    "Buyers comfortable testing support responsiveness directly during the free trial before committing to a paid plan",
+    "Businesses prioritizing a capital-efficient, likely sustainable vendor over a heavily venture-funded competitor"
+  ],
+  "verdict": "Chatfuel has genuine staying power that its modest funding history somewhat obscures — a decade of operation, $3.8M in 2024 revenue on just $1.62M total raised, and broad integration reach spanning 19 native-ish connections plus five separate no-code automation platforms are all real, credible signals of a sustainable business that's found product-market fit without needing to burn investor capital to survive. The core bot-building product reflects that maturity: genuinely feature-rich across Messenger, Instagram, and WhatsApp, with Fuely's NLP-powered AI layer a real, user-valued capability rather than a bolted-on afterthought. Where I have to weigh things down meaningfully is a specific, credible pattern of support and billing complaints that goes beyond typical software friction. Independent reviews describe dismissive support interactions — including a customer reportedly told they 'might be delusional' — billing opacity serious enough to drag Trustpilot's rating to 3.2/5 well below the broader aggregate scores, and at least one account of being locked out during a platform outage with zero support channels available to even cancel a subscription. That's the kind of specific, documented risk that deserves real weight in any evaluation, not a footnote. My honest read: if Chatfuel's integration breadth and channel focus match your needs, and you're comfortable testing support responsiveness directly during the free trial before committing real budget, this is a mature, capable product. If reliable, responsive support matters as much as the core feature set, the documented pattern here is serious enough to test very carefully first.",
+  "rating": 3.1,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

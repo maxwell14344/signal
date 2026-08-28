@@ -1,0 +1,151 @@
+{
+  "slug": "botpress",
+  "name": "Botpress",
+  "logoUrl": "",
+  "website": "https://botpress.com",
+  "tagline": "The open-source-born, developer-first AI agent platform that raised $25M at a $120M valuation in 2025 — genuinely excellent reviews, offset by the category's most consistently reported steep learning curve.",
+  "tldr": [
+    "Botpress was founded in 2017 in Quebec City by Sylvain Perron and Justin Watson, open-sourced under an MIT license from the start, and grew a substantial developer community — 14,686+ GitHub stars as of 2026 — before pivoting toward an 'LLM-native' architecture positioning it as infrastructure for agentic AI rather than a simple chat widget.",
+    "The company has raised roughly $40M total, including a $25M Series B in June 2025 at a $120M post-money valuation, led by FRAMEWORK with Inovia Capital, Deloitte Ventures, HubSpot Ventures, and Decibel participating.",
+    "Pricing follows a recently updated (May 2026) structure: a free pay-as-you-go tier (500 messages/mo, $5 monthly AI credit), Plus at $89/mo plus AI spend, Team at $495/mo plus usage, and Enterprise from $2,000+/mo — with unlimited bots and bundled AI-spend quotas now standard across every paid tier.",
+    "The platform is genuinely developer-oriented: a drag-and-drop visual canvas for building multi-step conversational flows with branching logic, conditional paths, and loop handling, where any node can send messages, call external APIs, run custom JavaScript, query a knowledge base, or hand off to a human agent.",
+    "Reviews are excellent and unusually voluminous — 4.5/5 across 493 G2 reviews (the most-reviewed platform in G2's AI-agent category) and 4.5/5 on Capterra with a striking 97% positive sentiment breakdown — but the single most consistently repeated complaint, by a wide margin, is a steep learning curve.",
+    "Best for technical teams and developers who want genuine, code-level control over agentic conversation logic across a broad channel list (including WhatsApp, Slack, and Microsoft Teams) — not for non-technical teams wanting a simple, quick-to-learn drag-and-drop bot builder."
+  ],
+  "categories": { "primary": "ai-chatbots", "secondary": ["ai-support-agents"] },
+  "channels": ["Web Chat", "Facebook Messenger", "WhatsApp", "Telegram", "Slack", "Microsoft Teams"],
+  "keyFeatures": [
+    "A drag-and-drop visual canvas for building multi-step conversational flows with branching logic, conditional paths, variable management, and loop handling",
+    "Node-level actions including sending messages, calling external APIs, executing custom JavaScript, querying a knowledge base, or handing off to a human agent",
+    "AI conversation insights, including sentiment analysis, available from the Plus tier",
+    "A deep Zendesk integration automating ticket creation and updates, with human-agent handoff that passes full conversation context",
+    "Native connectivity to Shopify, Google Sheets, and internal APIs, alongside Zapier and Make for broader no-code automation",
+    "Open-source heritage (MIT license) that has built a large, active developer community over nearly a decade",
+    "Vector database storage for knowledge-base content (1GB included from the Plus tier)",
+    "The option to remove 'Powered by Botpress' branding from the Plus tier onward"
+  ],
+  "companyInfo": {
+    "founded": "2017, Quebec City, Canada, by Sylvain Perron (CEO) and Justin Watson; open-sourced under MIT license from launch",
+    "hq": "Quebec City, Canada, with engineering teams in Montreal and a US presence in Delaware",
+    "funding": "~$40M raised across 5 rounds, including a $15M Series A (2021, $50M post-money) and a $25M Series B (June 2025, $120M post-money) led by FRAMEWORK with Inovia Capital, Deloitte Ventures, HubSpot Ventures, and Decibel participating",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "Is Botpress still open source?",
+      "answer": "Its origins are genuinely open source — launched under an MIT license in 2017 and growing to over 14,686 GitHub stars by 2026 — but the company has since pivoted toward a commercial, LLM-native platform positioned as infrastructure for agentic AI. Current pricing and packaging reflect a standard commercial SaaS model rather than a purely open-source offering, though the developer-first design philosophy from its open-source roots still shows in the product."
+    },
+    {
+      "question": "How much does Botpress actually cost?",
+      "answer": "Following a May 2026 pricing update: a free tier includes 500 messages/month and a $5 monthly AI credit, Plus is $89/month plus AI spend, Team is $495/month plus usage-based LLM and message-volume costs, and Enterprise starts at $2,000+/month. Bots are now unlimited on every tier, and AI-spend quotas are bundled proportionally into each plan rather than billed entirely separately."
+    },
+    {
+      "question": "What is the biggest complaint about Botpress?",
+      "answer": "By a wide margin, it's the learning curve. Independent review analysis specifically identifies 'Learning Curve' and 'Steep Learning Curve' as the most-mentioned negative themes on G2, even though 'Ease of Use' is simultaneously the single most-mentioned positive theme — reflecting a real split where users who invest the time to learn the platform tend to love it, but the initial ramp-up is genuinely steeper than a simpler, less powerful competitor."
+    },
+    {
+      "question": "How deep is Botpress's Zendesk integration?",
+      "answer": "Genuinely deep — the integration automates ticket creation and updates, provides instant in-chat help, and supports human-agent handoff that passes full conversation context into Zendesk so an agent doesn't have to ask the customer to repeat themselves. This is a real, documented, well-built integration rather than a generic connector."
+    },
+    {
+      "question": "Does Botpress support WhatsApp, Slack, and Microsoft Teams?",
+      "answer": "Yes — Botpress documents native connectivity to web chat, Facebook Messenger, WhatsApp Business, Telegram, Slack, and Microsoft Teams, a genuinely broad channel list that notably includes internal enterprise tools (Slack, Teams) alongside the more common external messaging channels most competitors focus on exclusively."
+    },
+    {
+      "question": "Who is the right buyer for Botpress?",
+      "answer": "Technical teams and developers who want genuine, code-level control over conversation logic — the ability to run custom JavaScript, call arbitrary APIs, and build complex branching flows — rather than a simplified, drag-and-drop-only experience. If your team doesn't have development resources or wants the fastest possible time-to-first-bot, the documented learning curve is a real factor to weigh."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "A genuine split in reviewer sentiment: 'Ease of Use' is the single most-mentioned positive theme on G2, while 'Learning Curve' and 'Steep Learning Curve' combined are the most-mentioned negative themes — the platform rewards investment but has a real initial ramp-up." },
+    { "dimension": "AI Quality", "score": 4, "note": "Genuinely agentic, LLM-native architecture with real node-level actions (custom code execution, API calls, knowledge-base querying, human handoff), though without an independently audited resolution-rate figure." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "A genuinely broad channel list including WhatsApp, Slack, and Microsoft Teams — notable for including internal enterprise tools alongside external messaging channels." },
+    { "dimension": "Pricing Value", "score": 4, "note": "A recently updated (May 2026), clearly published pricing structure with unlimited bots and bundled AI-spend quotas on every paid tier — genuinely transparent for a developer-first platform." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "An unusually large, strongly positive review base (4.5/5 across 493 G2 reviews, the most-reviewed platform in its category) with 97% positive sentiment on Capterra." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Documented native connectivity to web chat, Facebook Messenger, WhatsApp Business, Telegram, Slack, and Microsoft Teams — genuinely broad coverage, distinctively including internal enterprise collaboration tools alongside external messaging channels." },
+    { "key": "omnichannel-unification", "score": 3, "note": "Botpress is architected primarily as a developer platform for building and deploying agentic bots across channels rather than a documented unified human-agent inbox spanning them." },
+    { "key": "ai-availability", "score": 5, "note": "Genuinely agentic capability: any node in a conversation flow can call external APIs, execute custom JavaScript, query a knowledge base, or hand off to a human — a materially more flexible, code-level agentic architecture than most no-code competitors offer." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Botpress's AI agents." },
+    { "key": "ai-training-method", "score": 3, "note": "Knowledge-base querying is a documented, real node action with dedicated vector database storage (1GB included from Plus tier), though specific ingestion-source detail (file types, URL scraping) wasn't independently confirmed to the depth some competitors publish." },
+    { "key": "hallucination-controls", "score": 2, "note": "No specific, detailed documentation of hallucination-prevention mechanisms (confidence thresholds, citation) was found beyond the general knowledge-base-querying capability." },
+    { "key": "automation-depth", "score": 5, "note": "Genuinely deep, developer-grade automation: branching logic, conditional paths, variable management, loop handling, and custom JavaScript execution at the node level — among the most flexible automation architectures found in this category." },
+    { "key": "sentiment-intent-detection", "score": 4, "note": "AI conversation insights, including sentiment analysis, are a documented, real feature available from the Plus tier — a confirmed capability rather than a general claim." },
+    { "key": "unified-inbox", "score": 2, "note": "No dedicated, documented shared-inbox feature spanning channels was found; the platform is positioned as a bot-building and deployment infrastructure layer." },
+    { "key": "ai-human-handoff", "score": 4, "note": "A real, node-level handoff action exists, and the Zendesk integration specifically documents passing full conversation context to a human agent during handoff — a concrete, well-specified mechanism rather than a generic claim." },
+    { "key": "internal-collaboration", "score": 2, "note": "Collaborator seats are mentioned as part of the pricing structure, but no specific internal-notes or @mentions functionality was independently confirmed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 3, "note": "A documented Shopify integration exists, with Stripe and Shopify actions specifically mentioned in the context of resolving support tickets, though without detailed order-lookup specifics confirmed." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 3, "note": "A documented Webflow integration tutorial exists, a distinctive inclusion given how few competitors in this category confirm Webflow support specifically." },
+    { "key": "integration-automation-platforms", "score": 4, "note": "Both Zapier and Make are documented as directly supported integrations, providing real no-code connectivity to a broad app ecosystem." },
+    { "key": "integration-crm", "score": 4, "note": "A genuinely deep Zendesk integration automates ticket creation, updates, and human-agent handoff with full conversation context — real, confirmed depth, though no equivalent detail was found for Salesforce or HubSpot specifically." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Shopify and Stripe actions are documented in the context of resolving support tickets (order and payment-related), though without the explicit refund or write-action depth some ecommerce-first competitors publish." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 3, "note": "AI conversation insights, including sentiment analysis, are documented as a real, dedicated feature from the Plus tier, though without the broader deflection-rate or agent-performance reporting depth some competitors publish." },
+    { "key": "pricing-transparency", "score": 4, "note": "A recently updated (May 2026), clearly published pricing structure with unlimited bots and proportionally bundled AI-spend quotas on every paid tier — genuinely transparent for a usage-metered, developer-first platform." },
+    { "key": "api-webhook-extensibility", "score": 5, "note": "Genuinely exceptional, rooted in the platform's open-source heritage: full custom JavaScript execution, arbitrary API calls at the node level, and a developer-first architecture built for exactly this kind of extensibility." }
+  ],
+  "pricing": {
+    "model": "Tiered SaaS with bundled, proportional AI-spend quotas per tier (updated May 2026)",
+    "startingPrice": "$0 (Pay-as-you-go, 500 messages/mo, $5 monthly AI credit)",
+    "plans": [
+      { "name": "Pay-as-you-go (Free)", "price": "$0", "billing": "Free", "notes": "500 incoming messages/month, 1 collaborator seat, $5 monthly AI credit." },
+      { "name": "Plus", "price": "$89/mo + AI spend", "billing": "Monthly", "notes": "1GB Vector DB storage, human handoff, AI conversation insights (sentiment analysis), branding removal option." },
+      { "name": "Team", "price": "$495/mo + usage", "billing": "Monthly", "notes": "Plus LLM usage costs and message-volume overages." },
+      { "name": "Enterprise", "price": "$2,000+/mo", "billing": "Custom", "notes": "For large-scale deployments; unlimited bots and proportional AI-spend quotas standard as of the May 2026 update." }
+    ]
+  },
+  "pricingBreakdown": "Botpress's pricing became meaningfully more transparent after the May 2026 update, which bundled AI-spend quotas proportionally into every tier and made bots unlimited across the board — a real improvement over a purely usage-metered model where LLM costs could be unpredictable. The free tier (500 messages/month, $5 AI credit) is a genuine, no-cost way to evaluate the platform's core bot-building capability before committing. The jump from Plus ($89/month) to Team ($495/month) is steep, but it reflects the shift from a small-team tool to one with real production message volume and LLM usage behind it. Given the platform's genuinely developer-oriented design, expect actual monthly cost to track your real conversation volume and choice of underlying LLM more closely than a flat per-seat competitor would, and budget for the learning-curve investment (in engineering time) as a real, if unbilled, cost alongside the subscription itself.",
+  "capabilities": [
+    { "area": "Developer-Grade Agentic Architecture", "note": "This is Botpress's clearest, most genuine strength, rooted directly in its open-source origins: any node in a conversation flow can call an external API, run custom JavaScript, query a knowledge base, or hand off to a human, giving developers a level of code-level control that no-code-only competitors simply can't match. This is a real, structural advantage for a technical team." },
+    { "area": "Channel Breadth Including Enterprise Tools", "note": "A genuinely distinctive channel list that includes Slack and Microsoft Teams alongside the expected WhatsApp, Messenger, and Telegram — useful for a business that wants the same bot platform serving both external customers and internal enterprise workflows." },
+    { "area": "Zendesk Integration", "note": "A concretely documented, well-built integration: real ticket automation plus a human-handoff mechanism that passes full conversation context, avoiding the common frustration of a customer having to repeat themselves after escalation." },
+    { "area": "The Learning Curve Tradeoff", "note": "Worth treating as a defining characteristic rather than a minor caveat. Independent review analysis is unusually specific here: 'Learning Curve' and 'Steep Learning Curve' are the two most-mentioned negative themes on G2, even as 'Ease of Use' remains the single most-mentioned positive theme. This split suggests the platform genuinely rewards the investment of learning it well, but that investment is real and shouldn't be underestimated for a non-technical team." },
+    { "area": "Institutional Backing", "note": "A $25M Series B at a $120M valuation in 2025, with HubSpot Ventures among the participating investors, is a real signal of continued investment and product development, and suggests genuine staying power as a long-term platform choice." }
+  ],
+  "pros": [
+    "Genuinely developer-grade agentic architecture with node-level custom code execution and API calls, unmatched by most no-code-only competitors",
+    "A broad, distinctive channel list including WhatsApp, Slack, and Microsoft Teams for both external and internal use cases",
+    "A deep, well-documented Zendesk integration with real ticket automation and context-preserving human handoff",
+    "An unusually large, strongly positive review base (4.5/5 across 493 G2 reviews, 97% positive on Capterra)",
+    "Substantial institutional backing ($40M raised, $120M valuation) with HubSpot Ventures among recent investors, suggesting real staying power"
+  ],
+  "cons": [
+    "A genuinely steep learning curve, the single most consistently repeated complaint in independent reviews by a wide margin",
+    "No independently audited AI resolution-rate figure exists to verify accuracy claims",
+    "No dedicated shared-inbox, canned-response, or documented internal-collaboration feature comparable to what dedicated helpdesk competitors offer",
+    "No native Shopify order-lookup depth, WordPress, Wix, or Squarespace integration confirmed",
+    "The jump from Plus ($89/month) to Team ($495/month) is a steep price cliff for a growing team"
+  ],
+  "sentiment": [
+    {
+      "quote": "Ease of Use is the single most-mentioned positive theme on G2 (137 mentions).",
+      "source": "Aggregated G2 review analysis",
+      "url": "https://www.g2.com/products/botpress/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "'Learning Curve' and 'Steep Learning Curve' combined are the most-mentioned negative themes (60 + 31 mentions).",
+      "source": "Aggregated G2 review analysis",
+      "url": "https://www.g2.com/products/botpress/reviews",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Technical teams and developers wanting genuine, code-level control over agentic conversation logic",
+    "Businesses needing bot deployment across both external channels (WhatsApp, Messenger, Telegram) and internal tools (Slack, Microsoft Teams)",
+    "Zendesk users wanting a deep, well-built ticket-automation and human-handoff integration",
+    "Teams willing to invest real ramp-up time in exchange for a more flexible, powerful platform than a simpler no-code competitor"
+  ],
+  "verdict": "Botpress's open-source origins show up directly in what makes it genuinely strong: real, code-level control over agentic conversation logic — custom JavaScript execution, arbitrary API calls, and knowledge-base querying all available at the node level — that gives a technical team flexibility most no-code-only competitors in this category simply can't match. That capability is backed by a channel list distinctive enough to include Slack and Microsoft Teams alongside the expected WhatsApp and Messenger, and a Zendesk integration concrete enough to preserve full conversation context through a human handoff, not just a generic 'connects to your helpdesk' claim. The review record is genuinely excellent and unusually large — 4.5/5 across 493 G2 reviews, the most-reviewed platform in its category, with 97% positive sentiment on Capterra — and a $25M Series B at a $120M valuation with HubSpot Ventures participating in 2025 suggests real continued investment. The one thing I'd flag as seriously as any feature in this profile is the learning curve, because independent review analysis is unusually specific about it: 'Learning Curve' and 'Steep Learning Curve' are the two most-mentioned negative themes by a wide margin, even as 'Ease of Use' remains the single most-praised positive. That split tells an honest story — Botpress rewards the investment of learning it well, but that investment is real, not a minor footnote, and a non-technical team should weigh it seriously before committing. My honest read: if you have development resources and want genuine flexibility over agentic bot logic across a broad channel list, Botpress is one of the more capable, well-backed platforms in this entire category. If you need the fastest possible time-to-first-bot without engineering involvement, budget real ramp-up time or consider a simpler competitor first.",
+  "rating": 4.3,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

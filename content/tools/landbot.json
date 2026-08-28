@@ -1,0 +1,154 @@
+{
+  "slug": "landbot",
+  "name": "Landbot",
+  "logoUrl": "",
+  "website": "https://landbot.io",
+  "tagline": "A Barcelona no-code chatbot builder with a genuinely thoughtful hybrid AI architecture designed specifically against hallucination — undercut by slow, 'ping-pong' customer support.",
+  "tldr": [
+    "Landbot was founded in 2017 in Barcelona by Antoni Espinosa Polo, Cristobal Villar Garcia, Fran Conejos Mengo, and Fernando Guirao De Gregorio, raising $10.2M total including a €6.5M Series A in 2021 led by Swanlaab with Spain's CDTI innovation agency participating.",
+    "Pricing is unusually transparent for this category: Sandbox free (100 chats/mo), Starter €40/mo (500 chats, 100 AI chats), Pro €100/mo (2,500 chats, 300 AI chats), Business from €400/mo, with separate WhatsApp tiers (€80/mo Starter, €200/mo Pro) — and itemized overage rates published clearly (€0.05/extra chat, €0.10/extra AI chat, €25/mo per extra seat).",
+    "The AI architecture is genuinely more thoughtfully engineered than most competitors': AI Agents run on GPT with native Gemini and DeepSeek connectors, grounded in a real knowledge base (up to 200,000 characters of text, file uploads, or auto-refreshing scraped URLs), combined in an explicit 'hybrid' design meant to address both hallucination and the tendency of purely AI-driven bots to fail at capturing structured marketing data.",
+    "Integration breadth is strong — roughly 16 native integrations including Shopify, HubSpot, Stripe, and Slack, plus documented connectivity through Zapier, Make, AND n8n specifically, a combination few competitors in this category confirm all three of.",
+    "Reviews are strong on G2 (4.7/5 across 333 reviews) and solid on Capterra (4.4/5, 70 reviews), but a specific, recurring complaint describes 'ping-pong emails' with technical support — slow, multi-round back-and-forth rather than first-contact resolution — and a much smaller, harsher Trustpilot sample (2.1/5, 10 reviews) skews toward frustrated support tickets specifically.",
+    "Best for marketing and lead-generation teams wanting a genuinely well-engineered hybrid rule-plus-AI chatbot builder — not for teams that need fast, responsive support or robust built-in analytics, given the documented gaps in both."
+  ],
+  "categories": { "primary": "ai-chatbots", "secondary": ["whatsapp-social-messaging-ai"] },
+  "channels": ["Web Chat", "WhatsApp"],
+  "keyFeatures": [
+    "AI Agents powered by GPT models with native Gemini and DeepSeek connectors, understanding natural language and user intent",
+    "A knowledge base supporting up to 200,000 characters of text, file uploads (PDF, DOCX, TXT, MD, RTF), or URL-based web scraping with auto-refresh scheduling (daily, weekly, or monthly)",
+    "A deliberate hybrid AI architecture combining rule-based flows with AI-driven conversation, specifically designed to address both hallucination risk and the tendency of pure-AI bots to fail at structured data capture for marketing automation",
+    "A no-code visual flow builder for designing conversation logic across web chat and WhatsApp",
+    "Roughly 16 native integrations including Shopify, HubSpot, Airtable, Google Sheets, Stripe, Calendly, Slack, Mailchimp, and n8n",
+    "Documented connectivity through Zapier, Make, and n8n — a combination few competitors in this category confirm across all three",
+    "Separate, dedicated WhatsApp pricing tiers distinct from the core web-chat plans",
+    "A 14-day free trial on all paid tiers, including WhatsApp plans, with no credit card required to sign up"
+  ],
+  "companyInfo": {
+    "founded": "2017, Barcelona, Spain, by Antoni Espinosa Polo (CTO), Cristobal Villar Garcia (COO), Fran Conejos Mengo (CMO), and Fernando Guirao De Gregorio (Product Manager)",
+    "hq": "Barcelona, Spain",
+    "funding": "$10.2M raised total, including a $2.2M seed (2018, led by Nauta Capital) and a €6.5M Series A (2021, led by Swanlaab Venture Factory with Spain's CDTI innovation agency participating)",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "What makes Landbot's AI architecture different from a typical chatbot?",
+      "answer": "Landbot explicitly describes a 'hybrid' AI architecture that combines structured, rule-based flows with GPT-powered (plus Gemini and DeepSeek-connected) AI conversation — a deliberate design choice meant to solve two problems at once: AI hallucination, and the tendency of purely AI-driven bots to fail at capturing the structured data (like a phone number or a qualified-lead field) that marketing automation actually needs. This is a more thoughtfully engineered approach than a lot of competitors document."
+    },
+    {
+      "question": "How does Landbot's knowledge base work?",
+      "answer": "You can add up to 200,000 characters of text directly, upload files (PDF, DOCX, TXT, MD, RTF), or point it at a URL for automatic web scraping — and URL-based sources can auto-refresh on a daily, weekly, or monthly schedule, so the bot's knowledge doesn't go stale the way a one-time crawl would."
+    },
+    {
+      "question": "How much does Landbot actually cost?",
+      "answer": "Pricing is unusually clear for this category: Starter is €40/month (500 chats, 100 AI chats), Pro is €100/month (2,500 chats, 300 AI chats), and Business starts at €400/month, with a separate free Sandbox tier (100 chats/month). WhatsApp is priced separately — €80/month Starter, €200/month Pro. Overages are itemized clearly: €0.05 per extra chat, €0.10 per extra AI chat, and €25/month per additional seat beyond your tier's allowance."
+    },
+    {
+      "question": "What's the most common complaint about Landbot?",
+      "answer": "Customer support responsiveness, specifically. Multiple Capterra reviewers describe 'ping-pong emails' with technical support — slow, multi-round back-and-forth rather than resolution on first contact — and a smaller, harsher Trustpilot sample (2.1/5 from just 10 reviews) reflects frustrated support tickets specifically rather than the broader, much more positive user base reflected in G2's 4.7/5 across 333 reviews."
+    },
+    {
+      "question": "Does Landbot integrate with Shopify and HubSpot?",
+      "answer": "Yes, both are among Landbot's roughly 16 native integrations — though HubSpot, along with Airtable and Calendly, is specifically gated to the Pro tier (€100/month) and above rather than available on Starter."
+    },
+    {
+      "question": "Is Landbot good for reporting and analytics?",
+      "answer": "This is a documented weak point — at least one independent review specifically titles its assessment around 'weak analytics' as Landbot's main limitation relative to its otherwise strong no-code bot-building capability. If detailed reporting is a priority, test this specifically during the trial rather than assuming it matches the platform's overall polish."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "The no-code visual flow builder is consistently well-reviewed, with a large, positive G2 sample (4.7/5, 333 reviews) reflecting broadly strong day-to-day usability." },
+    { "dimension": "AI Quality", "score": 4, "note": "A genuinely thoughtful, multi-model (GPT, Gemini, DeepSeek) hybrid architecture specifically engineered to address both hallucination and structured-data-capture failure — one of the more deliberately designed AI implementations found in this category." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "Web chat and WhatsApp are the confirmed native channels — a narrower list than the category's broader omnichannel platforms." },
+    { "dimension": "Pricing Value", "score": 4, "note": "Unusually transparent, clearly itemized pricing with published overage rates, though WhatsApp Pro specifically is described by reviewers as aggressively priced." },
+    { "dimension": "Vendor Support Quality", "score": 2, "note": "A specific, recurring complaint pattern describes slow, multi-round 'ping-pong' support interactions rather than first-contact resolution, reflected in a much harsher (if smaller-sample) Trustpilot rating." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 3, "note": "Web chat and WhatsApp are the confirmed native channels, with WhatsApp priced and packaged separately from the core web-chat tiers — solid but narrower coverage than the category's broadest omnichannel platforms." },
+    { "key": "omnichannel-unification", "score": 2, "note": "Landbot is built primarily as a bot-flow builder across its channels rather than a documented unified human-agent inbox spanning them." },
+    { "key": "ai-availability", "score": 4, "note": "AI Agents run on GPT with native Gemini and DeepSeek connectors — genuine multi-model capability, understanding natural language and user intent rather than only scripted flows." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Landbot's AI Agents." },
+    { "key": "ai-training-method", "score": 5, "note": "A genuinely thorough, documented knowledge-base system: up to 200,000 characters of direct text, file uploads (PDF, DOCX, TXT, MD, RTF), or URL-based scraping with configurable auto-refresh (daily, weekly, or monthly) — among the most specific, well-documented training methods found in this category." },
+    { "key": "hallucination-controls", "score": 4, "note": "A deliberate, explicitly-described hybrid architecture combining rule-based flows with AI conversation specifically to reduce hallucination risk — one of the more thoughtfully engineered, documented approaches to this problem found in this comparison set." },
+    { "key": "automation-depth", "score": 4, "note": "The no-code visual flow builder combined with AI Agents represents real hybrid automation depth, blending structured logic with AI-driven conversation rather than choosing one approach exclusively." },
+    { "key": "sentiment-intent-detection", "score": 3, "note": "AI Agents are documented as understanding user intent as part of their core natural-language processing, though without a separately named, dedicated sentiment-detection feature confirmed." },
+    { "key": "unified-inbox", "score": 2, "note": "No dedicated, documented shared-inbox feature spanning channels was found; Landbot is positioned primarily as a bot-building and automation platform." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes, @mentions, or team-collaboration tooling was found in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 3, "note": "A native Shopify integration is documented among Landbot's roughly 16 integrations, though without confirmed detail on order-lookup or refund-action depth." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 5, "note": "Genuinely distinctive: documented connectivity through Zapier, Make, AND n8n specifically — few competitors in this category confirm native support for all three, particularly n8n." },
+    { "key": "integration-crm", "score": 3, "note": "A native HubSpot integration is documented, though gated specifically to the Pro tier (€100/month) and above rather than available at the entry Starter price." },
+    { "key": "order-payment-data-access", "score": 2, "note": "Shopify and Stripe integrations are documented, but without confirmed detail on live order-lookup or payment-data access inside a conversation." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "Independent review specifically flags weak analytics as a real limitation relative to Landbot's otherwise strong bot-building capability, rather than this being an absence-of-evidence assumption." },
+    { "key": "pricing-transparency", "score": 4, "note": "Genuinely transparent, clearly published tier pricing with itemized overage rates (€0.05/extra chat, €0.10/extra AI chat, €25/mo per extra seat) — one of the more precisely documented pricing structures in this category, though WhatsApp Pro specifically is described by reviewers as aggressively priced." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "Documented API access extending to thousands of additional apps, combined with the Zapier/Make/n8n triple connectivity, represents genuine, broad extensibility." }
+  ],
+  "pricing": {
+    "model": "Tiered SaaS with a free Sandbox tier, itemized overage rates, and separately-priced WhatsApp plans",
+    "startingPrice": "€0 (Sandbox, 100 chats/mo) or €40/mo (Starter, paid)",
+    "plans": [
+      { "name": "Sandbox", "price": "€0", "billing": "Free", "notes": "100 chats/month, 1 seat, limited flow operations and integrations." },
+      { "name": "Starter", "price": "€40/mo (€32/mo annual)", "billing": "Monthly or annual", "notes": "500 chats/month, 100 AI chats/month." },
+      { "name": "Pro", "price": "€100/mo", "billing": "Monthly", "notes": "2,500 chats/month, 300 AI chats/month; unlocks HubSpot, Airtable, and Calendly integrations." },
+      { "name": "Business", "price": "From €400/mo", "billing": "Monthly", "notes": "Higher-volume tier for larger deployments." },
+      { "name": "WhatsApp Starter", "price": "€80/mo", "billing": "Monthly", "notes": "Separate tier specifically for WhatsApp deployment." },
+      { "name": "WhatsApp Pro", "price": "€200/mo", "billing": "Monthly", "notes": "Higher-volume WhatsApp tier; described by reviewers as aggressively priced." },
+      { "name": "Overages", "price": "€0.05/extra chat; €0.10/extra AI chat; €25/mo per extra seat", "billing": "Usage-based, beyond plan allowance", "notes": "Clearly itemized rather than opaque." }
+    ]
+  },
+  "pricingBreakdown": "Landbot's pricing is refreshingly precise for this category — every tier, every overage rate, and every seat add-on cost is published clearly rather than requiring a sales conversation to piece together, which is a genuine point in its favor relative to several competitors in this comparison set. The Starter tier at €40/month for 500 chats and 100 AI chats is reasonable for a small team testing the waters, and the jump to Pro at €100/month specifically unlocks HubSpot, Airtable, and Calendly — worth knowing upfront if any of those three integrations are essential to your workflow, since they're not available on Starter. WhatsApp is priced entirely separately from the core web-chat plans, and reviewers specifically flag WhatsApp Pro (€200/month) as aggressively priced relative to what it delivers — worth pricing out carefully against a WhatsApp-focused competitor if that's your primary channel rather than assuming Landbot's WhatsApp economics match its otherwise transparent web-chat pricing.",
+  "capabilities": [
+    { "area": "Hybrid AI Architecture", "note": "Genuinely the most distinctive thing about Landbot in this comparison set: a deliberate combination of rule-based flows and multi-model AI (GPT, Gemini, DeepSeek) specifically engineered to solve two real problems — hallucination risk, and the common failure of pure-AI bots to reliably capture the structured data marketing automation depends on. This is a more thoughtful design than most competitors document, and it shows real product-engineering maturity." },
+    { "area": "Knowledge Base", "note": "A genuinely well-built training system — 200,000 characters of direct text, multiple file formats, and auto-refreshing URL scraping on a configurable schedule. This level of specificity and freshness control is a real strength versus competitors that only document a vague 'upload your content' capability." },
+    { "area": "Integration Ecosystem", "note": "Sixteen native integrations plus confirmed Zapier, Make, and n8n connectivity is genuinely broad reach, and the n8n support specifically is distinctive — few competitors in this category confirm it. The tradeoff is that some of the most valuable integrations (HubSpot, Airtable, Calendly) are Pro-tier-gated." },
+    { "area": "Support Responsiveness", "note": "A real, specific, and recurring limitation: multiple independent reviewers describe slow, multi-round 'ping-pong' email exchanges with support rather than resolution on first contact. This pattern shows up distinctly enough, and in a small but notably harsher Trustpilot sample, that it's worth testing directly during the trial rather than assuming the strong G2 average tells the whole story." },
+    { "area": "Analytics", "note": "A documented, specific weakness relative to the platform's otherwise strong engineering — at least one independent review titles its entire assessment around 'weak analytics' as Landbot's primary limitation. Worth testing directly if reporting depth matters to your evaluation." }
+  ],
+  "pros": [
+    "A genuinely thoughtful, multi-model hybrid AI architecture specifically engineered against both hallucination and structured-data-capture failure",
+    "A well-built, specific knowledge-base system supporting large text volumes, multiple file formats, and auto-refreshing URL scraping",
+    "Unusually transparent, clearly itemized pricing with published overage rates rather than requiring a sales conversation",
+    "Broad integration ecosystem including distinctive n8n support alongside Zapier and Make",
+    "A large, strongly positive G2 review base (4.7/5 across 333 reviews) reflecting genuinely strong day-to-day usability for most users"
+  ],
+  "cons": [
+    "A specific, recurring independent-review complaint describes slow, multi-round 'ping-pong' support interactions rather than first-contact resolution",
+    "Analytics is specifically documented as a real weakness relative to the platform's otherwise strong bot-building capability",
+    "WhatsApp Pro pricing is described by reviewers as aggressive relative to what it delivers",
+    "Key integrations (HubSpot, Airtable, Calendly) are gated to the Pro tier and above rather than available at the entry price",
+    "No independently audited AI resolution-rate figure exists, and no documented internal collaboration or canned-response feature was found"
+  ],
+  "sentiment": [
+    {
+      "quote": "Recurring theme in lower-rated reviews is customer support, with multiple Capterra reviewers describing 'ping pong emails' with technical support — slow back-and-forth rather than resolution on the first contact.",
+      "source": "Aggregated Capterra/Trustpilot review sentiment",
+      "url": "https://www.capterra.com/p/153051/Landbot/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Top no-code bot, but weak analytics.",
+      "source": "Independent review headline sentiment",
+      "url": "https://www.authencio.com/blog/landbot-review-the-marketing-ops-guide-to-no-code-lead-qualification",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Marketing and lead-generation teams wanting a genuinely well-engineered hybrid rule-plus-AI chatbot builder",
+    "Teams that specifically value hallucination-resistant AI design and a real, configurable knowledge base",
+    "Businesses needing n8n connectivity alongside the more common Zapier and Make integrations",
+    "Buyers comfortable testing support responsiveness directly during the trial rather than assuming it matches the platform's strong average review score"
+  ],
+  "verdict": "Landbot's AI engineering is genuinely more thoughtful than most competitors' in this category, and it's worth saying so directly: a deliberate hybrid architecture combining structured, rule-based flows with multi-model AI (GPT, Gemini, DeepSeek) specifically designed to address both hallucination risk and the common failure of pure-AI bots to capture the structured data marketing automation actually needs is a real, documented product-engineering decision, not marketing language. That's backed by a genuinely well-built knowledge base — 200,000 characters of text, multiple file formats, auto-refreshing scraped URLs — and broad integration reach that distinctively includes n8n alongside the more common Zapier and Make. Pricing is also refreshingly transparent, with every tier and overage rate published clearly rather than requiring a sales call. Where I have to weigh things down is a real, specific, and recurring complaint pattern: independent reviewers describe slow, multi-round 'ping-pong' email exchanges with support rather than first-contact resolution, and a much harsher (if smaller-sample) Trustpilot rating reflects exactly that kind of frustration. Analytics is a separately documented weakness worth testing directly if reporting depth matters to you. My honest read: if Landbot's hybrid AI architecture and knowledge-base sophistication are what you need, and you're not relying heavily on fast support turnaround or deep built-in analytics, this is one of the more genuinely well-engineered chatbot builders in this category. If support responsiveness is a dealbreaker, test it directly during the 14-day trial before committing.",
+  "rating": 4.1,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

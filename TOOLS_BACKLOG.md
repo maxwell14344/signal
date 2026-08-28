@@ -59,6 +59,9 @@ no longer applies going forward.
 - [x] Kommo / amoCRM (flagged unauthorized-billing and Shopify-reliability complaints)
 - [x] 360dialog (pure WhatsApp API/BSP infrastructure, not a full support tool - noted clearly)
 - [x] Rasayel
+- [x] Chatfuel (flagged dismissive support and billing-opacity/cancellation-lockout complaints in reviews)
+- [x] Landbot
+- [x] Botpress (open-source heritage; flagged sharply split ease-of-use vs. steep-learning-curve sentiment)
 
 ## Attempted, failed, not yet retried
 
@@ -70,9 +73,8 @@ Live Chat & Helpdesk: (all done — see "Added so far" below)
 
 WhatsApp / Omnichannel Messaging: (all done — see "Added so far" below)
 
-Chatbot / Automation Builders: Chatfuel, Landbot, Botpress, YourGPT,
-Voiceflow, MobileMonkey, Drift, Ada, Ultimate.ai, Cognigy, Kore.ai,
-Zowie, Forethought, Decagon, Sierra
+Chatbot / Automation Builders: YourGPT, Voiceflow, MobileMonkey, Drift,
+Ada, Ultimate.ai, Cognigy, Kore.ai, Zowie, Forethought, Decagon, Sierra
 
 AI Agentic Platforms: Crescendo, Aidbase, eesel AI, Siena AI
 

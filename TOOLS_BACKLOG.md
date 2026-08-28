@@ -39,6 +39,8 @@ no longer applies going forward.
 - [x] Front
 - [x] Re:amaze (acquired by GoDaddy in 2021, noted in profile)
 - [x] Chaport (flagged as not genuine AI — rule-based chatbot builder, not LLM-based)
+- [x] Userlike (rebranded to Lime Connect in Sept 2025, noted in profile)
+- [x] LiveAgent
 
 ## Attempted, failed, not yet retried
 
@@ -46,7 +48,7 @@ no longer applies going forward.
 
 ## Remaining candidates (not yet started)
 
-Live Chat & Helpdesk: Userlike, LiveAgent
+Live Chat & Helpdesk: (all done — see "Added so far" below)
 
 WhatsApp / Omnichannel Messaging: Respond.io, SleekFlow, Trengo, Interakt,
 Wati, AiSensy, Yellow.ai, Twilio Flex, MessageBird (Bird), Zoko,

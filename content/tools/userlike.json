@@ -1,0 +1,163 @@
+{
+  "slug": "userlike",
+  "name": "Userlike (now Lime Connect)",
+  "logoUrl": "",
+  "website": "https://connect.lime-technologies.com",
+  "tagline": "The German live-chat veteran trusted by Allianz, Lufthansa, and BMW, fully rebranded to Lime Connect in 2025 after four years under Swedish CRM company Lime Technologies.",
+  "tldr": [
+    "Userlike, founded in 2011 in Cologne, Germany, was acquired by Swedish CRM company Lime Technologies in 2021 and fully rebranded to Lime Connect in September 2025 — existing accounts transitioned automatically, with no separate legacy product line left running under the old name.",
+    "Pricing starts with a genuine free plan, with paid tiers beginning around €90/month (roughly $87 USD); AI Agent is a separate add-on at roughly €99/month for 100 conversations, and AI Copilot (agent-assist) runs about €19/month per user.",
+    "Channel coverage is genuinely broad and includes a distinctive option most competitors lack: Threema, a European privacy-focused messaging app, alongside WhatsApp, Facebook, Instagram, Telegram, Email, and SMS, all unified in a central Message Center.",
+    "Multi-language support is a real standout — automatic translation into 30 languages for customer-facing conversations, with the agent dashboard itself available in 7 languages, well ahead of most competitors in this category on this specific dimension.",
+    "The company's review base is unusually large for this category (4.6/5 across 648 Capterra reviews) with enterprise customers including Allianz, Lufthansa, Porsche, and BMW — reflecting over a decade of market presence under the Userlike name before the rebrand.",
+    "Best for European or multilingual-support-heavy teams that want broad, privacy-conscious channel coverage and strong translation capability — not for teams specifically needing deep website-builder integrations beyond WordPress, or a verified, audited AI resolution rate."
+  ],
+  "categories": { "primary": "live-chat-shared-inbox", "secondary": ["whatsapp-social-messaging-ai"] },
+  "channels": ["Web Chat", "WhatsApp", "Facebook Messenger", "Instagram", "Telegram", "Threema", "Email", "SMS"],
+  "keyFeatures": [
+    "A central Message Center unifying website chat, WhatsApp, email, and other connected channels into one inbox",
+    "AI Agent — an autonomous agent that can update CRM records, trigger workflows, and route conversations, billed separately per conversation block",
+    "AI Copilot — real-time agent assistance, summarizing conversations and suggesting answers, billed per user per month",
+    "Automatic translation into 30 languages for customer-facing conversations, with the agent dashboard available in 7 languages",
+    "Chat Macros — canned responses that surface as suggestions while an agent types, or can be inserted with a single command",
+    "A drag-and-drop workflow builder for automation, paired with a central knowledge base that feeds the AI Agent",
+    "Native WhatsApp marketing tooling for sending targeted newsletters, offers, and updates, distinct from the support-focused messaging features",
+    "Integrations with 20+ third-party tools including HubSpot, Salesforce, Pipedrive, Shopify (via MCP and API), Jira, and GitHub"
+  ],
+  "companyInfo": {
+    "founded": "2011, Cologne, Germany",
+    "hq": "Cologne, Germany, as part of Lime Technologies (headquartered in Sweden)",
+    "funding": "Acquired by Lime Technologies (Sweden) in April 2021 for a reported €19.8 million; fully rebranded from Userlike to Lime Connect in September 2025",
+    "employees": "Not publicly disclosed separately from Lime Technologies"
+  },
+  "faq": [
+    {
+      "question": "Is Userlike still a product, or has it been renamed?",
+      "answer": "It's been fully renamed. As of September 2025, the company completed its rebrand to Lime Connect, four years after being acquired by Swedish CRM company Lime Technologies in 2021. Unlike some acquisitions that keep a legacy product line running under the old name, existing Userlike accounts transitioned automatically to Lime Connect — there's no separate 'Userlike Classic' still operating."
+    },
+    {
+      "question": "What is Threema, and why does it matter that Lime Connect supports it?",
+      "answer": "Threema is a European, privacy-focused messaging app popular in Germany and Switzerland, notable for not requiring a phone number to register. Native Threema support is unusual in this category — most competitors focus on WhatsApp, Messenger, and Instagram — and signals Lime Connect's continued focus on European, privacy-conscious buyers even after the rebrand."
+    },
+    {
+      "question": "How does Lime Connect's AI pricing work?",
+      "answer": "AI is billed separately from the core plan: the AI Agent costs roughly €99/month for a block of 100 conversations, and AI Copilot (real-time agent assistance) costs roughly €19/month per user. Neither figure is confirmed directly from a primary pricing page at the time of this review — treat these as third-party-sourced estimates and confirm exact current rates with sales."
+    },
+    {
+      "question": "Does Lime Connect integrate with Salesforce or HubSpot?",
+      "answer": "Yes, both are documented integrations — conversations can be converted into HubSpot deals, and sent to a connected Salesforce account, alongside a Pipedrive integration. This is a genuinely broader native CRM reach than several competitors in this category that support only one CRM natively."
+    },
+    {
+      "question": "What is Lime Connect's real AI resolution rate?",
+      "answer": "No independently audited resolution-rate figure was found for the AI Agent specifically. The company markets genuine agentic capability — updating CRM records, triggering workflows, routing conversations — but as with most vendors in this category, treat any accuracy claim with the same skepticism you'd apply to an unaudited figure until you've tested it against your own content."
+    },
+    {
+      "question": "Is Lime Connect (Userlike) good for a Shopify store?",
+      "answer": "There's a real connection — the platform documents linking to Shopify via MCP and flexible API interfaces — but the documentation is comparatively general, without the explicit order-editing or refund-processing detail that ecommerce-first competitors like Gorgias or Re:amaze publish for their own Shopify integrations. Test this specifically against your workflow before assuming feature parity with an ecommerce-native tool."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "A dedicated, actively maintained WordPress plugin exists (updated to reflect the Lime Connect rebrand), and the company's long market presence suggests a mature onboarding process, though not independently detailed in the materials reviewed." },
+    { "dimension": "AI Quality", "score": 3, "note": "AI Agent and Copilot are genuinely documented, agentic capabilities (updating CRM, triggering workflows), but no independently audited resolution-rate figure exists to verify real-world accuracy." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "A genuinely broad channel list including the distinctive Threema messaging app, unified in one central Message Center." },
+    { "dimension": "Pricing Value", "score": 3, "note": "A real free tier exists, but AI features are separately metered add-ons on top of a roughly €90/month base plan, and exact current pricing requires third-party sourcing rather than a single clear primary page at review time." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "An unusually large, strongly positive review base (4.6/5 across 648 Capterra reviews) with enterprise customers including Allianz, Lufthansa, Porsche, and BMW, reflecting over a decade of market presence." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Documented native support for website chat, WhatsApp, Facebook, Instagram, Telegram, Threema, email, and SMS — a genuinely broad list, distinctive for including Threema, a privacy-focused European messaging app rarely supported elsewhere in this category." },
+    { "key": "omnichannel-unification", "score": 4, "note": "All connected channels are documented as landing in one central Message Center, accessible via desktop and mobile — real unification, consistent with reviewer praise for centralized multi-channel management." },
+    { "key": "ai-availability", "score": 4, "note": "AI Agent is documented as genuinely agentic — updating CRM records, triggering workflows, and routing conversations — rather than just answering questions, with AI Copilot providing separate real-time agent assistance." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for the AI Agent specifically, and no vendor-published headline percentage was found either — genuinely unverifiable in either direction." },
+    { "key": "ai-training-method", "score": 3, "note": "A central knowledge base is documented as feeding the AI Agent, which is real automatic grounding, though without the level of detail on ingestion sources (URLs, documents, past conversations) that some competitors publish." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms (source citation, confidence thresholds) for the AI Agent." },
+    { "key": "automation-depth", "score": 3, "note": "A drag-and-drop workflow builder combined with the AI Agent's documented ability to trigger workflows represents real automation depth, though without the multi-step-chaining detail some competitors document explicitly." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation was found of real-time sentiment or urgency detection during an active conversation." },
+    { "key": "unified-inbox", "score": 4, "note": "The Message Center is documented as a genuine central inbox spanning chat, WhatsApp, email, and other channels — consistent with reviewer praise for centralized multi-channel interaction." },
+    { "key": "ai-human-handoff", "score": 3, "note": "The AI Agent is documented as able to 'route conversations,' which implies functional handoff logic, though without the explicit confidence-threshold or escalation-trigger detail some competitors publish." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes, @mentions, or team-collaboration tooling was found in the materials reviewed, despite this being a long-established product — scored on that absence of confirmed evidence." },
+    { "key": "canned-responses", "score": 4, "note": "Chat Macros are a documented, established feature — pre-written responses that surface as suggestions while typing or can be inserted with a single command." },
+    { "key": "integration-shopify", "score": 3, "note": "A documented connection to Shopify exists via MCP and flexible API interfaces, but without the explicit order-editing, refund, or write-action detail that ecommerce-first competitors publish for their own Shopify integrations." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 4, "note": "A real, actively maintained WordPress plugin is published and has been updated to reflect the Lime Connect rebrand — a genuine native integration." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "The company documents 20+ third-party integrations (Jira, GitHub, Mailchimp, Dropbox among them), but no specific Zapier, Make, or n8n integration was confirmed in the materials reviewed." },
+    { "key": "integration-crm", "score": 4, "note": "Genuinely broad native CRM reach: conversations can be converted into HubSpot deals, forwarded to Salesforce, and a Pipedrive integration is also documented — deeper multi-CRM coverage than several competitors that support only one CRM natively." },
+    { "key": "order-payment-data-access", "score": 2, "note": "A Shopify connection exists via API/MCP, but no documentation was found of specific order status, payment, or refund data being surfaced inside a conversation the way ecommerce-first competitors document." },
+    { "key": "multi-language-support", "score": 5, "note": "A genuine standout: automatic translation into 30 languages for customer-facing conversations, with the agent dashboard itself available in 7 languages and 24 default chat-window locale translations — among the strongest native multi-language implementations found in this category." },
+    { "key": "analytics-depth", "score": 2, "note": "No detailed documentation of reporting or analytics depth (CSAT, deflection rate, agent performance dashboards) was found in the materials reviewed, despite the product's long market maturity." },
+    { "key": "pricing-transparency", "score": 3, "note": "A free tier and a paid entry point (roughly €90/month) are documented, but exact current AI add-on pricing required third-party sourcing rather than a single, clearly confirmed primary pricing page at the time of this review." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "Flexible API interfaces and MCP support are documented, alongside 20+ third-party integrations — real extensibility, though without the depth of a fully documented public developer platform some competitors publish." }
+  ],
+  "pricing": {
+    "model": "Tiered SaaS with a genuine free plan, plus separately metered AI add-ons",
+    "startingPrice": "$0 (Free plan); paid tiers from roughly €90/mo (~$87 USD)",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "Basic website chat functionality; the default fallback after a 14-day trial of premium features ends." },
+      { "name": "Paid tiers (entry)", "price": "~€90/mo (~$87 USD)", "billing": "Monthly or annual (exact current tier structure not independently confirmed)", "notes": "Core Message Center, multi-channel support, and workflow automation." },
+      { "name": "AI Agent (add-on)", "price": "~€99/mo per 100 conversations", "billing": "Usage-based block, add-on", "notes": "Autonomous AI agent capable of updating CRM records, triggering workflows, and routing conversations." },
+      { "name": "AI Copilot (add-on)", "price": "~€19/mo per user", "billing": "Per user, add-on", "notes": "Real-time agent assistance — conversation summaries and suggested replies." }
+    ]
+  },
+  "pricingBreakdown": "Pricing information for Lime Connect required piecing together from third-party sources rather than a single clearly-confirmed primary page at the time of this review — worth flagging directly, since most competitors on this site publish pricing more straightforwardly. What's clear is the shape: a genuine free tier for basic website chat, a paid entry point around €90/month (roughly $87 USD), and AI capability metered separately — approximately €99/month for a 100-conversation AI Agent block, and €19/month per user for AI Copilot. That AI Agent rate works out to roughly $1.03 per conversation at current exchange rates, which sits close to Gorgias's $1.00/resolution and above Help Scout's $0.75/resolution — competitive but not the cheapest in the category. Given the imprecision in publicly available pricing details, get a confirmed, current quote directly before budgeting, particularly for the AI add-ons.",
+  "capabilities": [
+    { "area": "Channel Breadth & Privacy", "note": "A genuinely broad channel list, and the inclusion of Threema — a privacy-focused European messaging app — is a real differentiator that signals continued focus on privacy-conscious, European buyers even after the Lime Technologies rebrand. Few competitors on this site support Threema at all." },
+    { "area": "Multi-Language Support", "note": "The strongest capability in this profile relative to the rest of the category: automatic translation into 30 languages for customer conversations, plus a 7-language agent dashboard and 24 locale-translated chat widgets. For any team supporting genuinely international customers, this is a real, practical advantage over competitors that rely on third-party translation add-ons." },
+    { "area": "AI Agent & Copilot", "note": "Documented as genuinely agentic — updating CRM records and triggering workflows, not just answering FAQs — which is a meaningfully higher capability bar than many competitors' AI features. The gap is verifiability: no independently audited resolution rate exists, so test this against real conversations before trusting any accuracy claim." },
+    { "area": "CRM Reach", "note": "Native integration with HubSpot, Salesforce, and Pipedrive is broader multi-CRM coverage than several competitors that only support one CRM natively — a real strength for teams whose CRM choice might not match a more narrowly-integrated competitor." },
+    { "area": "Company Continuity", "note": "Worth being direct about: this product has changed names twice in its recent history (Userlike, then folded into Lime Technologies, now Lime Connect), and while the transition has reportedly been smooth with no forced migration, the pace of rebranding is itself a signal worth factoring into your confidence about long-term naming and roadmap stability." }
+  ],
+  "pros": [
+    "A genuinely broad, distinctive channel list including Threema, a privacy-focused messaging app rarely supported by competitors",
+    "Best-in-category native multi-language support: automatic translation into 30 languages plus a multi-language agent dashboard",
+    "Broader native CRM integration (HubSpot, Salesforce, Pipedrive) than several competitors that support only one CRM natively",
+    "An unusually large, strongly positive independent review base (4.6/5 across 648 Capterra reviews) reflecting over a decade of market presence with major enterprise customers",
+    "A genuinely agentic AI Agent that can update CRM records and trigger workflows, not just answer questions"
+  ],
+  "cons": [
+    "The company has rebranded twice in recent years (Userlike to Lime Technologies ownership to Lime Connect), and current pricing is harder to confirm from a single clear primary source than most competitors",
+    "No independently audited AI resolution-rate figure exists to verify accuracy claims",
+    "No documentation of internal collaboration features (notes, @mentions) or detailed analytics/reporting depth was found, despite the product's long market maturity",
+    "The Shopify integration is documented generally rather than with the explicit order-editing or refund detail ecommerce-first competitors provide",
+    "No dedicated Wix, Squarespace, or Webflow integration — only WordPress has a confirmed native plugin"
+  ],
+  "sentiment": [
+    {
+      "quote": "Being able to have a centralized inbox to interact with customers through different channels like website, WhatsApp and Facebook was just amazing.",
+      "source": "Capterra (Jose C., Internet, 4/5)",
+      "url": "https://www.capterra.com/p/131558/Userlike-Live-Chat/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "For the manager reading past chats is difficult or impossible.",
+      "source": "Capterra (Cedric F., E-commerce Manager, Business Supplies, 2/5)",
+      "url": "https://www.capterra.com/p/131558/Userlike-Live-Chat/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Unlike other SaaS apps, Userlike has a very generous user allotment and feature set for the price.",
+      "source": "Capterra (Kevin R., Franchise Marketing Manager, Construction, 4/5)",
+      "url": "https://www.capterra.com/p/131558/Userlike-Live-Chat/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "I would highly recommend this tool to any customer service team.",
+      "source": "Capterra (Mohamed Salah B., Project Manager, Management Consulting, 5/5)",
+      "url": "https://www.capterra.com/p/131558/Userlike-Live-Chat/reviews/",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "European or internationally-facing support teams that need genuine multi-language and privacy-conscious channel coverage (including Threema)",
+    "Teams already using HubSpot, Salesforce, or Pipedrive that want native conversation-to-CRM conversion without deep custom integration work",
+    "Enterprise buyers comfortable evaluating a product that has changed names twice recently but has a long, stable underlying market track record",
+    "Teams whose support volume genuinely spans many languages and who want automatic translation built in rather than bolted on"
+  ],
+  "verdict": "Lime Connect carries fourteen years of market credibility under a name most of its own customers didn't choose — Userlike built a genuinely strong reputation in Europe (Allianz, Lufthansa, Porsche, and BMW among its customers, backed by 4.6/5 across 648 Capterra reviews) before Lime Technologies acquired it in 2021 and completed a full rebrand in September 2025. The product underneath the new name still does the things that earned that reputation well: a genuinely broad channel list that uniquely includes Threema for privacy-conscious European buyers, native multi-CRM integration across HubSpot, Salesforce, and Pipedrive, and — the standout capability in this whole profile — automatic translation into 30 languages, which puts real distance between this and competitors that treat multi-language support as an afterthought or third-party add-on. The AI layer is genuinely more capable than many competitors' chatbot-only implementations, with the AI Agent documented as updating CRM records and triggering workflows rather than just answering FAQs. What I can't verify is how well any of that AI actually performs: there's no independently audited resolution rate, and — a real practical friction for anyone evaluating this today — current pricing required piecing together from third-party sources rather than one clear, confirmed primary page. My honest read: if your support operation is genuinely international or multilingual and you want broad, privacy-conscious channel coverage backed by a long, credible track record, Lime Connect deserves a serious look, name changes notwithstanding. If pricing certainty and deep ecommerce-specific integration matter most to you, get a confirmed, current quote before assuming anything from third-party pricing summaries, and test the AI Agent against your own content rather than any marketed capability claim.",
+  "rating": 3.9,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

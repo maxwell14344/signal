@@ -1,0 +1,164 @@
+{
+  "slug": "liveagent",
+  "name": "LiveAgent",
+  "logoUrl": "",
+  "website": "https://www.liveagent.com",
+  "tagline": "The self-funded Slovak help desk that's quietly served 150 million end users since 2006, now bundling a free AI Agent seat into every pricing tier.",
+  "tldr": [
+    "LiveAgent is an all-in-one help desk from Quality Unit, a self-funded (no outside capital) Slovak software company founded in 2004 by Viktor Zeman and Andrej Harsani, with the product itself launched commercially in 2006 — one of the earliest tools to blend live chat and ticketing.",
+    "Pricing is per-agent and genuinely tiered: Small Business $10-13/agent/mo, Medium Business $19-23/agent/mo, Large Business $33-40/agent/mo (adds social channels), Enterprise $46-57/agent/mo — all with a running 33% promotional discount and a 30-day free trial requiring no credit card.",
+    "Every tier includes a free AI Agent seat, with additional AI capability spanning an AI Answer Composer (drafts complete replies from your knowledge base) and 'AI Work' (automated, rule-triggered workflows) — the vendor claims 75% resolution across 100+ languages, a figure with no independent audit found.",
+    "The company claims over 40,000 companies and 150 million end users worldwide, backed by an unusually large and strongly positive independent review base — 4.7/5 across 1,787 Capterra reviews.",
+    "Real, dedicated integrations exist for WordPress, WooCommerce (order view plus payment creation), Shopify (order and customer data in tickets), and HubSpot — genuine ecommerce and CRM depth for a tool at this price point.",
+    "Best for budget-conscious teams that want a mature, feature-dense, self-funded (i.e., stable) all-in-one help desk — reviewers do flag a dated UI, a real learning curve on advanced features, and per-agent pricing complaints as the tradeoffs for that maturity and price."
+  ],
+  "categories": { "primary": "helpdesk-ticketing-automation", "secondary": ["live-chat-shared-inbox"] },
+  "channels": ["Email", "Live Chat", "Call Center", "Facebook Messenger", "Instagram", "X (Twitter)", "Viber", "Telegram", "WhatsApp"],
+  "keyFeatures": [
+    "An AI Agent seat included free on every pricing tier, giving the AI system a distinguished identity separate from human agents in the ticket view",
+    "AI Answer Composer — generates complete, one-click replies grounded in your knowledge base for consistency and accuracy",
+    "'AI Work' — reusable, AI-powered workflows automatically triggered on tickets through automation rules, without manually configuring HTTP calls for each one",
+    "Unlimited canned messages (macros) linkable to keywords for fast, consistent responses across tickets and chat",
+    "A call center module with IVR, available from the Medium Business tier up, unifying phone support alongside ticketing and chat",
+    "Automation Rules for department transfers, tagging, spam marking, and auto-resolution based on predefined conditions",
+    "Native integrations with WordPress (dedicated plugin), WooCommerce (order view and payment creation), Shopify (order/customer data in tickets), and HubSpot",
+    "SLA management, custom roles, SSO, and audit logs available progressively from the Medium Business tier through Enterprise"
+  ],
+  "companyInfo": {
+    "founded": "2004 (as Quality Unit, s.r.o.) by Viktor Zeman and Andrej Harsani; the LiveAgent product launched commercially in 2006",
+    "hq": "Bratislava, Slovakia",
+    "funding": "Self-funded — Quality Unit has not raised outside venture capital, notable for a company at this scale in a heavily VC-backed category",
+    "employees": "Not publicly disclosed; the company reports 40,000+ customer companies and 150 million end users served"
+  },
+  "faq": [
+    {
+      "question": "Is LiveAgent's AI Agent actually free, or is that marketing?",
+      "answer": "Every pricing tier, including the entry-level Small Business plan, includes an AI Agent seat at no extra charge — that part is genuinely included, not a teaser. What's less clear from public pricing is whether there's a usage cap on AI Answer Composer replies or 'AI Work' workflow executions before additional costs apply at scale; confirm current usage limits directly before assuming unlimited AI use at the entry tier."
+    },
+    {
+      "question": "What is LiveAgent's real AI resolution rate?",
+      "answer": "The company markets a 75% resolution rate across 100+ languages. No independent audit of this figure was found, and as with any vendor-cited AI performance number in this category, it should be treated as a ceiling under favorable conditions (a strong knowledge base, well-scoped use cases) rather than a typical guaranteed outcome."
+    },
+    {
+      "question": "How mature is LiveAgent's Shopify and WooCommerce integration?",
+      "answer": "Genuinely functional for both: the Shopify integration surfaces customer and order data directly in tickets for context, and the WooCommerce integration goes further, letting agents view orders in the ticketing interface and create new payments, with a click-through to full order details in WordPress. Neither is documented with the explicit refund/cancellation depth some ecommerce-first competitors (Gorgias, Re:amaze) provide, but both are real, working integrations rather than a generic embed."
+    },
+    {
+      "question": "Why is LiveAgent self-funded, and does that matter?",
+      "answer": "Quality Unit, LiveAgent's parent company, has built the product and its 40,000+ customer base entirely without outside venture capital since 2004 — unusual for a company competing against well-funded rivals like Front, Gladly, or Zendesk. Practically, this can mean more conservative, deliberate product decisions rather than growth-at-all-costs feature sprints, and less risk of the kind of investor-driven pivot or acquisition that has affected competitors like Groove (rebranded to Helply) or Userlike (rebranded to Lime Connect) in this same category."
+    },
+    {
+      "question": "What's the most common complaint about LiveAgent?",
+      "answer": "A dated user interface and a real learning curve on advanced features are the most consistent independent-review complaints, alongside occasional mentions of integration limitations and per-agent pricing frustration as a team scales. None of these are dealbreakers reflected in the aggregate rating (4.7/5), but they're worth testing directly in the 30-day trial rather than assuming based on the feature list alone."
+    },
+    {
+      "question": "Does LiveAgent support multiple languages?",
+      "answer": "Yes on two levels: the WordPress plugin itself supports translation into any language WordPress supports, and the AI Answer Composer is marketed as resolving inquiries in 100+ languages. The agent-facing interface's own language-support breadth wasn't independently confirmed beyond the plugin-level detail found."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Independent reviewers consistently note initial setup is time-consuming and advanced features carry a real learning curve, offset by an otherwise feature-rich and well-integrated product once configured." },
+    { "dimension": "AI Quality", "score": 3, "note": "A genuinely multi-part AI offering (Agent seat, Answer Composer, AI Work workflows) included free on every tier, but the vendor's 75% resolution claim across 100+ languages has no independent audit behind it." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "A broad channel list including call center/IVR and six social/messaging channels, though the full social channel set is gated to the Large Business tier and above." },
+    { "dimension": "Pricing Value", "score": 4, "note": "Genuinely affordable entry pricing ($10/agent/mo annual) with a free included AI Agent seat at every tier, offset by real reviewer complaints about per-agent cost scaling with team size." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "An unusually large and strongly positive independent review base (4.7/5 across 1,787 Capterra reviews), reflecting genuine long-term market credibility as a self-funded company since 2004." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Email, live chat, call center with IVR, and social/messaging channels (Facebook, Instagram, X, Viber, Telegram, WhatsApp) are all documented — a genuinely broad list, though the full social channel set is gated to the Large Business tier and above." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Reviewers specifically praise bringing 'all communication channels together in one place,' consistent with the product's long-standing all-in-one positioning." },
+    { "key": "ai-availability", "score": 4, "note": "A genuinely multi-part AI implementation — a distinguished AI Agent seat, an AI Answer Composer for drafting replies, and 'AI Work' for automated, rule-triggered ticket workflows — included free on every tier rather than gated to the top plan." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "The vendor markets a 75% resolution rate across 100+ languages, but no independent audit of this figure was found — treat it with the same skepticism applied to any unaudited vendor-cited AI performance claim." },
+    { "key": "ai-training-method", "score": 4, "note": "The AI Answer Composer is documented as learning from the connected knowledge base to generate accurate, consistent replies — genuine automatic grounding rather than manual intent-building." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms (source citation, confidence thresholds) beyond the AI being scoped to knowledge-base content." },
+    { "key": "automation-depth", "score": 3, "note": "Automation Rules (department transfer, tagging, spam marking, auto-resolution) combined with 'AI Work' automated workflows represent real depth beyond simple canned replies, without the explicit multi-step agentic-action detail some competitors document." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection during an active conversation was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 4, "note": "A shared inbox with ticket lifecycle controls (internal notes, status updates, workflow rules) is documented and consistent with reviewer praise for organized, unified communication management." },
+    { "key": "ai-human-handoff", "score": 2, "note": "The AI Agent's distinguished seat identity implies some separation between AI and human work, but no specific documentation of an explicit confidence-threshold escalation trigger was found." },
+    { "key": "internal-collaboration", "score": 4, "note": "Internal notes, tags, departments, priorities, statuses, and workflow rules are all documented, established features consistent with a mature, long-running help desk product." },
+    { "key": "canned-responses", "score": 5, "note": "Unlimited canned messages (macros) linkable to keywords for fast retrieval — a mature, well-documented, and unusually generous implementation (no cap on the number of canned messages) relative to competitors that limit this by tier." },
+    { "key": "integration-shopify", "score": 3, "note": "Documented as surfacing customer and order data directly in LiveAgent tickets for agent context — real and functional, though without the explicit refund or order-editing write-action detail some ecommerce-first competitors publish." },
+    { "key": "integration-woocommerce", "score": 3, "note": "A real, documented integration: agents can view WooCommerce orders directly in the ticketing interface and create new payments, with click-through to full order details in WordPress — genuine functionality beyond a read-only summary." },
+    { "key": "integration-wordpress", "score": 4, "note": "A dedicated, actively maintained WordPress plugin is published, supporting translation into any language WordPress supports — a mature, genuine native integration." },
+    { "key": "integration-wix", "score": 2, "note": "A documented Wix integration exists for adding live chat buttons, though described in comparatively basic terms relative to the WordPress plugin's depth." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found in the materials reviewed." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 3, "note": "A documented Zapier bridge exists (confirmed via the HubSpot integration path), consistent with LiveAgent's broader reputation for a large integration catalog, though no specific Make or n8n integration was independently confirmed." },
+    { "key": "integration-crm", "score": 3, "note": "A native HubSpot integration bridges CRM data with ticketing for centralized contact and customer management — real, though we found no equally detailed native Salesforce or Pipedrive integration documented directly for LiveAgent itself." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Real order and payment context is surfaced via both the Shopify (order/customer data in tickets) and WooCommerce (order view, payment creation) integrations — genuine, functional access, short of the deeper write-action depth ecommerce-first competitors document." },
+    { "key": "multi-language-support", "score": 4, "note": "The WordPress plugin translates into any WordPress-supported language, and the AI Answer Composer is marketed as resolving inquiries in 100+ languages — genuine, documented breadth on both the website and AI sides." },
+    { "key": "analytics-depth", "score": 3, "note": "Reports are documented as available from the Medium Business tier up, and reviewers specifically cite 'useful analytics' as a strength, though without the granular deflection-rate or AI-specific reporting depth some AI-native competitors publish." },
+    { "key": "pricing-transparency", "score": 4, "note": "All four tiers, add-on costs, and the current promotional discount are clearly published on the pricing page, with a genuinely no-credit-card-required 30-day trial as a further transparency signal." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "LiveAgent maintains a broad reputation for a large integration catalog and documented API access, though specific webhook-event or developer-platform detail comparable to the category's most extensible tools wasn't independently confirmed in the materials reviewed." }
+  ],
+  "pricing": {
+    "model": "Per-agent tiered SaaS with a free AI Agent seat included on every tier",
+    "startingPrice": "$10/agent/mo (Small Business, annual billing, promotional rate)",
+    "plans": [
+      { "name": "Small Business", "price": "$10/agent/mo annual ($13 monthly)", "billing": "Per agent", "notes": "Ticketing, live chat, knowledge base, automation rules, core integrations, free AI Agent seat." },
+      { "name": "Medium Business", "price": "$19/agent/mo annual ($23 monthly)", "billing": "Per agent", "notes": "Adds call center, IVR, time rules, reports, SLA, SSO, custom roles." },
+      { "name": "Large Business", "price": "$33/agent/mo annual ($40 monthly); 'Most Popular'", "billing": "Per agent", "notes": "Adds social media channels (Facebook, Instagram, X, Viber, Telegram, WhatsApp), time tracking, audit log." },
+      { "name": "Enterprise", "price": "$46/agent/mo annual ($57 monthly)", "billing": "Per agent", "notes": "Adds a dedicated account manager, priority support, assisted integrations, custom branding and billing." },
+      { "name": "Add-ons", "price": "$19/mo each", "billing": "Monthly, per add-on", "notes": "Time tracking and additional knowledge bases are each available as a separate $19/month add-on." }
+    ]
+  },
+  "pricingBreakdown": "LiveAgent's entry pricing is genuinely competitive: $10/agent/month annually (currently discounted 33% from a $15 list price) undercuts Help Scout's $25/user Standard tier and Front's $25/seat Starter tier for comparable core ticketing functionality, and it comes with a free AI Agent seat included rather than metered separately from day one. The catch is the same one that applies to any per-agent model: costs scale linearly with headcount, and reviewers specifically flag frustration with 'paying for extra users' as a real complaint at scale. The bigger tier jumps matter too — social media channels (Facebook, Instagram, X, Viber, Telegram, WhatsApp) don't arrive until the $33/agent Large Business tier, so a small team wanting the full channel list should budget for that tier rather than the advertised entry price. Against Re:amaze's comparable per-user pricing or Chaport's simpler free/low-cost tiers, LiveAgent sits in a reasonable middle ground: more capable and AI-equipped than a scripted chat tool, priced below most AI-native enterprise competitors, with the tradeoff being a real learning curve reviewers consistently mention when configuring the deeper automation and reporting features.",
+  "capabilities": [
+    { "area": "All-in-One Help Desk Core", "note": "This is LiveAgent's twenty-year foundation and it shows: ticketing, live chat, a knowledge base, unlimited canned messages, and mature automation rules are all well-documented and independently confirmed by a large, strongly positive review base. It's a feature-dense product for the price, which is also exactly why reviewers describe a real learning curve getting everything configured." },
+    { "area": "AI Suite", "note": "Genuinely more than a single chatbot feature: a distinguished AI Agent seat, an AI Answer Composer trained on your knowledge base, and 'AI Work' for rule-triggered automated workflows, all included free rather than gated behind the top tier. The 75%-resolution, 100+-language claim is a real marketing highlight, but with no independent audit behind it, treat it as an unverified ceiling rather than a guaranteed outcome." },
+    { "area": "Ecommerce & CRM Integration", "note": "Real, functional integrations with Shopify, WooCommerce (including payment creation, not just order viewing), and HubSpot — solid depth for a tool at this price point, though not as deep as ecommerce-first specialists like Gorgias or Re:amaze on refund and cancellation actions specifically." },
+    { "area": "Channel Breadth", "note": "A genuinely wide channel list including call center/IVR and six social/messaging platforms, but the full breadth is tier-gated — small teams on the entry tier get email, live chat, and core ticketing only, with social channels arriving at the $33/agent Large Business tier." },
+    { "area": "Company Stability", "note": "Worth crediting directly: Quality Unit has built LiveAgent into a 40,000-customer, 150-million-end-user product entirely self-funded since 2004, without the acquisition-driven rebrands (Groove to Helply, Userlike to Lime Connect) that have disrupted other tools in this category. That's a genuine, if less flashy, form of vendor stability worth weighing in a long-term buying decision." }
+  ],
+  "pros": [
+    "Genuinely affordable entry pricing with a free AI Agent seat included on every tier, not metered from day one",
+    "An unusually large, strongly positive independent review base (4.7/5 across 1,787 Capterra reviews) reflecting two decades of market presence",
+    "Real, functional Shopify, WooCommerce, and HubSpot integrations, plus a mature, dedicated WordPress plugin",
+    "Unlimited canned messages/macros and mature automation rules, unusually generous relative to tier-capped competitors",
+    "Self-funded, stable company history without the acquisition-driven rebrands that have disrupted other tools in this same category"
+  ],
+  "cons": [
+    "The vendor's 75% AI resolution rate across 100+ languages has no independent audit behind it",
+    "Independent reviewers consistently cite a dated UI and a real learning curve for advanced features and initial setup",
+    "Full social/messaging channel coverage (Facebook, Instagram, X, Viber, Telegram, WhatsApp) is gated to the $33/agent Large Business tier and above",
+    "Per-agent pricing draws specific reviewer complaints about cost scaling as a team grows",
+    "No dedicated Squarespace or Webflow integration, and the Wix integration is comparatively basic next to the WordPress plugin's depth"
+  ],
+  "sentiment": [
+    {
+      "quote": "An essential tool: it enables us to manage tickets, live chats, and client requests in a well-organised and professional manner.",
+      "source": "Capterra (Jacopo R., CEO, Information Technology and Services, 5/5)",
+      "url": "https://www.capterra.com/p/102188/LiveAgent/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "UI can feel outdated, initial setup is time-consuming, advanced features have a learning curve, and integrations are limited.",
+      "source": "Capterra (Praveen D., Customer Support Manager, Marketing & Advertising)",
+      "url": "https://www.capterra.com/p/102188/LiveAgent/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Brings all communication channels together in one place. The live chat widget is really fast and doesn't slow down websites.",
+      "source": "Capterra (Shivbhadrasinh G., Co-Founder, Computer Software, 5/5)",
+      "url": "https://www.capterra.com/p/102188/LiveAgent/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "You get what you pay for. It's buggy, and you can only have one window open at a time.",
+      "source": "Capterra (Alex F., President, Hospitality, 3/5)",
+      "url": "https://www.capterra.com/p/102188/LiveAgent/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Budget-conscious support teams wanting a mature, feature-dense all-in-one help desk without enterprise pricing",
+    "Ecommerce teams on Shopify or WooCommerce wanting order data in tickets without a specialist tool's price tag",
+    "Buyers who value vendor stability and a track record over the newest AI-native positioning",
+    "Teams willing to invest setup time upfront in exchange for a genuinely comprehensive, unlimited-canned-message, well-automated help desk"
+  ],
+  "verdict": "LiveAgent's twenty-year, self-funded history is unusual in a category dominated by venture-backed rivals, and it shows up in the product as genuine, unglamorous maturity rather than the newest AI-native positioning: unlimited canned messages, mature automation rules, real Shopify and WooCommerce integrations, and a channel list that spans email, chat, call center, and six social platforms once you're on the right tier. The review record backs this up more emphatically than almost any other tool I've evaluated in this category — 4.7/5 across 1,787 Capterra reviews is a genuinely large, genuinely positive sample. The AI suite is more substantial than a single bolted-on chatbot feature: a distinguished AI Agent seat, a knowledge-base-grounded Answer Composer, and rule-triggered 'AI Work' workflows, all included free rather than metered from day one — a real point in LiveAgent's favor against competitors that charge per-resolution from the start. What I can't verify is the vendor's headline 75%-resolution, 100+-language claim; there's no independent audit behind it, so treat it as an unaudited ceiling rather than a typical outcome. The honest friction points, straight from independent reviewers rather than my own speculation, are a dated interface and a real learning curve getting the deeper automation and reporting features configured — this isn't a five-minute setup the way a simpler tool like Chaport is, and it shouldn't be evaluated as one. My honest read: if you want a mature, stable, genuinely affordable all-in-one help desk with real ecommerce integration and are willing to spend real setup time to unlock its depth, LiveAgent is one of the stronger value picks in this category. If a fast, minimal-learning-curve setup matters more to you than depth, budget the time for onboarding before committing, and test the AI Agent against your own knowledge base rather than the marketed resolution figure.",
+  "rating": 4.1,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

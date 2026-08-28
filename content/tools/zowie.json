@@ -1,0 +1,148 @@
+{
+  "slug": "zowie",
+  "name": "Zowie",
+  "logoUrl": "",
+  "website": "https://getzowie.com",
+  "tagline": "A Warsaw-born ecommerce specialist that has repositioned into a general enterprise AI agent platform, with a genuinely clever hallucination-prevention architecture and deep Shopify integration — though its review sentiment carries a real reliability caveat worth knowing about.",
+  "tldr": [
+    "Zowie was founded in Warsaw, Poland in 2019 as 'Chatbotize,' rebranded to Zowie in 2021 by Maja Schaefer and Maciej Ciolek, and raised a $14M Series A in 2022 (led by Tiger Global, total funding roughly $20M) — no funding round since has been found, and current HQ location is genuinely unclear, with commercial operations reportedly in New York and R&D remaining in Warsaw and Kraków.",
+    "Zowie has visibly repositioned from a pure ecommerce chatbot tool toward a general 'AI Agent Platform for Enterprise Customer Service' spanning banking, insurance, telecom, and commerce — a dedicated Commerce vertical page still exists, but it's now one of several, not the whole company, which is worth knowing if you came looking for an ecommerce specialist.",
+    "Its clearest technical differentiator is a genuinely deliberate architecture split: a 'Reasoning Engine' (the LLM) handles language understanding only, while a separate, deterministic 'Decision Engine' executes actual business logic like refunds or eligibility checks — meaning the LLM structurally cannot itself trigger a real action, a real and specific hallucination-prevention design rather than a vague guardrail claim.",
+    "Ecommerce integration depth is genuinely strong and independently verified through technical documentation: dual-verification order lookup, time- and status-gated order cancellation, and automated returns are all confirmed for Shopify (plus Magento and BigCommerce) — but no WooCommerce, WordPress, Wix, Squarespace, or Webflow integration was found anywhere, a notable gap given the ecommerce-focused premise.",
+    "Independent review sentiment (G2: 4.7/5 across 73 reviews) is genuinely positive on substance, but carries a real reliability caveat worth flagging directly: nearly every G2 review is tagged as vendor-solicited ('Incentivized' / invited by the seller), Capterra's own review count shows a real discrepancy (0 reviews on direct load versus 80+ cited by some aggregators), and no Trustpilot or Reddit presence exists to independently cross-check sentiment.",
+    "Pricing is entirely unpublished — the pricing page redirects to the homepage — with the only quasi-concrete figure being an unverified third-party report of an AWS Marketplace listing around $34,500/year for 25,000 conversations."
+  ],
+  "categories": { "primary": "ai-support-agents", "secondary": ["ai-chatbots"] },
+  "channels": ["Website Chat", "Email", "Phone/Voice", "WhatsApp (legacy/unverified for current product)", "Facebook Messenger (legacy/unverified for current product)", "Instagram (legacy/unverified for current product)"],
+  "keyFeatures": [
+    "A deliberate two-domain architecture: a 'Reasoning Engine' (LLM) for language understanding, separated from a deterministic 'Decision Engine' that executes real business actions like refunds and eligibility checks",
+    "A managed 'Knowledge' RAG system where CX teams upload articles and policies for retrieval at query time",
+    "A documented 'Process Gallery' of ready-made ecommerce workflow templates: order cancellation, order tracking, and automated returns",
+    "'Supervisor' — a quality-monitoring layer claiming 100% conversation coverage (not sampling) scoring resolution, tone, policy adherence, empathy, and clarity, with live alerting on integration failures or sentiment shifts",
+    "'Traces' — full decision-reasoning audit logs for compliance and review",
+    "'Zowie Inbox' — a human-agent workspace with mailboxes, agent profiles, groups, queues, macros, templates, and Gmail/Outlook connections",
+    "'Agent Connect' — a multi-agent orchestration layer connecting in-house, vendor, or human agents via REST API, the A2A (Agent-to-Agent) protocol, or SDKs",
+    "A Zowie MCP (Model Context Protocol) Server, a genuinely current-generation extensibility feature"
+  ],
+  "companyInfo": {
+    "founded": "2019, Warsaw, Poland (originally as 'Chatbotize,' rebranded to Zowie in 2021), by Maja Schaefer and Maciej Ciolek",
+    "hq": "Genuinely unclear — founded in Warsaw; commercial HQ is reportedly now New York, US, with R&D offices remaining in Warsaw and Kraków, Poland; no company 'About' page was accessible to independently confirm",
+    "funding": "A €508K seed round (~2020) followed by a $14M Series A (May 2022, led by Tiger Global Management with Gradient Ventures, 10xFounders, Inovo Ventures, and angel Jack Altman participating), bringing total reported funding to roughly $20M. No funding round since 2022 was found.",
+    "employees": "Approximately 110-115, per third-party aggregator estimates (not a confirmed company disclosure)"
+  },
+  "faq": [
+    {
+      "question": "Is Zowie still focused specifically on ecommerce?",
+      "answer": "Not exclusively anymore. Zowie's own homepage now positions it as an 'AI Agent Platform for Enterprise Customer Service' spanning banking, insurance, telecom, and commerce. A dedicated Commerce vertical page still exists and ecommerce integration remains genuinely strong, but the company has clearly broadened beyond its original ecommerce-only positioning — worth knowing if you came looking for an ecommerce specialist specifically."
+    },
+    {
+      "question": "How does Zowie prevent AI hallucinations from causing real mistakes?",
+      "answer": "Through a genuinely specific architectural choice: Zowie separates a 'Reasoning Engine' (the LLM, which only handles language understanding) from a deterministic 'Decision Engine' that actually executes business logic like refunds or eligibility checks. The LLM structurally cannot itself trigger a real action — it can only recommend one within explicitly defined 'Flows.' This is a real, specific design decision, not just a guardrail marketing claim."
+    },
+    {
+      "question": "Does Zowie integrate with Shopify and other ecommerce platforms?",
+      "answer": "Yes, genuinely deeply for Shopify specifically — technical documentation confirms dual-verification order lookup, time- and status-gated order cancellation, and automated returns (via Loop Returns or Frate Returns). Magento and BigCommerce get the same templates. However, no WooCommerce, WordPress, Wix, Squarespace, or Webflow integration was found anywhere in Zowie's documentation — a notable gap given the company's ecommerce-focused history."
+    },
+    {
+      "question": "Can Zowie process refunds automatically?",
+      "answer": "Partially, and it's worth being precise here. Zowie's own blog claims AI agents can 'initiate refund processing directly' through a payment processor or order management system, with high-value cases flagged for human review — but this is a vendor marketing claim we could not independently verify, and no standalone, one-click 'Issue Refund' template exists in the documented Process Gallery. Refund handling appears to be bundled into the broader returns workflow rather than offered as its own discrete capability."
+    },
+    {
+      "question": "How much does Zowie cost?",
+      "answer": "Zowie doesn't publish pricing at all — its pricing page redirects to the homepage, and Capterra lists it as 'contact vendor for pricing' with no free trial or free tier. The only quasi-concrete figure we found was an unverified third-party report describing an AWS Marketplace listing around $34,500/year for 25,000 conversations; treat any other specific dollar figure circulating online as an unreliable, likely auto-generated estimate."
+    },
+    {
+      "question": "Can I trust Zowie's independent review scores?",
+      "answer": "With a real caveat worth knowing. Zowie shows a genuinely strong 4.7/5 across 73 G2 reviews, but nearly every one of those reviews is tagged as vendor-solicited (an 'Incentivized' review or a G2 invite sent on behalf of the seller) — meaning organic negative feedback may be underrepresented. Compounding this, Capterra's own listing showed 0 published reviews on direct load despite some aggregators citing 80+, and we found no Trustpilot or Reddit presence to independently cross-check sentiment. The substance of what reviewers say is genuinely positive, but the sample itself carries a real reliability limitation."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Reviewers repeatedly praise the ability to make live changes and see them reflected immediately in production without waiting on the vendor, a genuine and specific strength." },
+    { "dimension": "AI Quality", "score": 4, "note": "A genuinely deliberate, specific architectural approach — separating the language-understanding LLM from a deterministic business-logic engine — represents real, structural hallucination prevention rather than a vague guardrail claim." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "Website chat, email, and phone/voice are confirmed current channels; WhatsApp, Instagram, and Facebook Messenger appear to be legacy-product channels not clearly confirmed for the current, repositioned platform." },
+    { "dimension": "Pricing Value", "score": 1, "note": "No public pricing exists anywhere, and the only quasi-concrete third-party figure found could not be independently verified against a primary source." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Reviewers describe support and implementation speed positively, but the review sample itself carries a real reliability caveat given the heavy proportion of vendor-solicited reviews." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 3, "note": "Website chat, email, and phone/voice are confirmed current channels via technical documentation; WhatsApp, Instagram, and Facebook Messenger support appears to carry over from the legacy 'Chatbotize'-era product but wasn't independently confirmed for the current, repositioned platform." },
+    { "key": "omnichannel-unification", "score": 4, "note": "'Zowie Inbox' provides a confirmed, real unification layer with mailboxes, agent profiles, groups, and queues spanning channels." },
+    { "key": "ai-availability", "score": 5, "note": "A genuinely sophisticated architecture: the Reasoning Engine/Decision Engine split, plus 'Agent Connect' multi-agent orchestration via REST API, A2A protocol, and SDKs, and a Model Context Protocol server." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "Resolution-rate figures (e.g., a case study citing 65% resolution) are vendor-published case-study statistics, not independently audited." },
+    { "key": "ai-training-method", "score": 4, "note": "A managed RAG 'Knowledge' system confirmed via documentation, where CX teams upload articles and policies for retrieval at query time rather than relying on model training data." },
+    { "key": "hallucination-controls", "score": 5, "note": "A genuinely specific, structurally-enforced design: the LLM ('Reasoning Engine') is architecturally separated from the deterministic 'Decision Engine' that executes real business actions, meaning the AI cannot itself trigger an action like a refund — a real technical differentiator, not just guardrail marketing." },
+    { "key": "automation-depth", "score": 5, "note": "A documented 'Process Gallery' of specific, technical workflow templates (order cancellation, tracking, returns, subscription management) confirms genuine, granular automation depth beyond marketing claims." },
+    { "key": "sentiment-intent-detection", "score": 4, "note": "'Supervisor' is confirmed to evaluate conversations for tone, empathy, and sentiment shifts with live alerting — a real, specific, documented capability." },
+    { "key": "unified-inbox", "score": 4, "note": "'Zowie Inbox' is confirmed with mailboxes, agent profiles, groups, statuses, queues, and a live dashboard — a genuine, functional shared-inbox implementation." },
+    { "key": "ai-human-handoff", "score": 3, "note": "A documented Gorgias live-chat-transfer integration and a dedicated Handoffs/Transfers documentation section confirm real handoff capability, though the depth of context preserved on transfer wasn't as explicitly detailed as some competitors." },
+    { "key": "internal-collaboration", "score": 4, "note": "Zowie Inbox provides agent profiles, groups, statuses, and queues — a real, confirmed internal-collaboration feature set." },
+    { "key": "canned-responses", "score": 4, "note": "Macros and Templates are confirmed features within the Zowie Inbox documentation." },
+    { "key": "integration-shopify", "score": 5, "note": "Genuinely deep and independently verified via technical documentation: dual-verification order lookup, time- and status-gated cancellation, and automated returns via Loop Returns or Frate Returns." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No evidence of a WooCommerce integration was found anywhere in Zowie's documentation, despite thorough searching — a notable gap given the ecommerce-focused history." },
+    { "key": "integration-wordpress", "score": 1, "note": "No evidence of a WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No evidence of a Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No evidence of a Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No evidence of a Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 1, "note": "No Zapier or Make integration was found in Zowie's documentation; its stated extensibility model is REST API/SDK/A2A protocol rather than a Zapier app-store listing." },
+    { "key": "integration-crm", "score": 5, "note": "Comprehensive, confirmed via documentation: Zendesk, Zendesk Sunshine, Salesforce, Kustomer, Freshdesk, Gorgias (as an integration partner), NetSuite, Dixa, Aircall, and Klaviyo. HubSpot was not found and appears absent." },
+    { "key": "order-payment-data-access", "score": 4, "note": "Genuinely strong and specifically documented: order cancellation, tracking, returns, and subscription management (via Recharge or Skio) are all confirmed with real verification and policy logic; refund processing exists but appears bundled into the returns flow rather than a standalone capability, and the specific automation-rate statistic cited by Zowie is an unverified vendor claim." },
+    { "key": "multi-language-support", "score": 5, "note": "Confirmed via G2's structured product data and Zowie's own documentation: support for 48 languages plus a live-translation feature — a genuinely strong, independently verifiable capability." },
+    { "key": "analytics-depth", "score": 4, "note": "A genuinely substantial reporting suite is confirmed via documentation (Supervisor quality scoring, Inbox Analytics, Chatbot Performance, and BigQuery data export), though at least one reviewer specifically flagged the reporting module as underdeveloped for BI-tool integration and multi-brand/multi-market management." },
+    { "key": "pricing-transparency", "score": 1, "note": "No public pricing exists anywhere — the pricing page redirects to the homepage — and the only quasi-concrete third-party figure found could not be verified against a primary source." },
+    { "key": "api-webhook-extensibility", "score": 5, "note": "Genuinely excellent and current: a REST API, SDKs, the A2A (Agent-to-Agent) protocol for multi-agent orchestration, and a Model Context Protocol server — a notably cutting-edge extensibility layer." }
+  ],
+  "pricing": {
+    "model": "Fully unpublished; enterprise sales-quote only",
+    "startingPrice": "Not publicly disclosed",
+    "plans": [
+      { "name": "Enterprise (only tier)", "price": "Custom quote", "billing": "Custom/Annual", "notes": "The only quasi-concrete figure found — an unverified third-party report of an AWS Marketplace listing around $34,500/year for 25,000 conversations (~$1.38/conversation) — could not be confirmed against a primary source." }
+    ]
+  },
+  "pricingBreakdown": "Zowie publishes no pricing whatsoever — navigating directly to its pricing page redirects to the homepage, and Capterra lists it simply as 'contact vendor for pricing' with no free trial or free tier available. The only figure with any specificity is an unverified third-party report describing an AWS Marketplace listing around $34,500/year for 25,000 conversations, which we could not confirm by loading the listing directly. Numbers like '$29/month' or '$499/month' that circulate on SEO-content aggregator sites appear to be generic, auto-generated SaaS pricing placeholders rather than figures specific to Zowie's actual enterprise contracts, and should not be trusted. If pricing matters to your evaluation, budget for a full enterprise sales conversation rather than expecting any published rate card.",
+  "capabilities": [
+    { "area": "A Genuinely Specific Hallucination-Prevention Architecture", "note": "This is Zowie's clearest technical differentiator: separating the LLM ('Reasoning Engine') from a deterministic 'Decision Engine' that alone can execute real business actions is a specific, structural design choice — not a vague guardrail claim — and it directly addresses one of the most common failure modes in AI customer service (an AI promising or performing an action it shouldn't)." },
+    { "area": "Verified Shopify Depth vs. an Ecommerce-Integration Gap", "note": "Worth being precise about: Shopify integration is genuinely deep and independently confirmed through technical documentation, with Magento and BigCommerce getting the same treatment — but WooCommerce, WordPress, Wix, Squarespace, and Webflow are notably absent anywhere in Zowie's documentation, a real gap for a company with ecommerce roots." },
+    { "area": "A Repositioning Worth Knowing About", "note": "Zowie has visibly shifted from a pure ecommerce chatbot tool to a general enterprise AI agent platform spanning banking, insurance, and telecom. This isn't necessarily a negative, but a buyer specifically seeking an ecommerce specialist should know the company's focus and resources are now split across multiple verticals." },
+    { "area": "A Real Review-Sentiment Reliability Caveat", "note": "Zowie's G2 score (4.7/5) is genuinely positive in substance, but nearly every review is tagged as vendor-solicited, Capterra's review count shows a real, unresolved discrepancy, and there's no Trustpilot or Reddit presence to independently cross-check sentiment. This doesn't mean the positive feedback is false, but it does mean the sample is less independently representative than a typical organic review base, and should be weighed accordingly." },
+    { "area": "Cutting-Edge Developer Extensibility", "note": "A REST API, SDKs, the A2A (Agent-to-Agent) protocol for multi-agent orchestration, and a Model Context Protocol server together represent a genuinely current, developer-forward extensibility layer relative to much of this category." }
+  ],
+  "pros": [
+    "A genuinely specific, structural hallucination-prevention architecture separating language understanding from real business-logic execution",
+    "Independently verified, technically deep Shopify integration covering order lookup, cancellation, and automated returns",
+    "Comprehensive, documented CRM/helpdesk integrations (Zendesk, Salesforce, Kustomer, Freshdesk, Gorgias, NetSuite, Dixa, Aircall, Klaviyo)",
+    "Genuinely strong, independently verified multi-language support (48 languages) plus live translation",
+    "Cutting-edge developer extensibility including an A2A multi-agent protocol and a Model Context Protocol server"
+  ],
+  "cons": [
+    "No public pricing exists anywhere, and the only third-party figure found couldn't be independently verified",
+    "No WooCommerce, WordPress, Wix, Squarespace, or Webflow integration found, despite the company's ecommerce-focused history",
+    "A real repositioning away from pure ecommerce focus toward a general enterprise platform, worth knowing if you specifically want an ecommerce specialist",
+    "Review sentiment carries a genuine reliability caveat — nearly all G2 reviews are vendor-solicited, and Capterra's review count shows an unresolved discrepancy",
+    "No standalone, one-click refund-processing template exists; refund handling appears bundled into the broader returns workflow"
+  ],
+  "sentiment": [
+    {
+      "quote": "The best thing about the Zowie solution is that you can make live changes yourself at any time. Changes are visible immediately in the production system.",
+      "source": "G2 (Piotr P., Contact Center Process and Development Team Leader, Enterprise, 5/28/2024)",
+      "url": "https://www.g2.com/products/zowie/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "What should be more developed is the reporting module. I find it lacking in terms of integration with BI tools or advanced reporting for managing chatbots for multiple brands across various markets.",
+      "source": "G2 (Dawid T., Contact Center Director, Enterprise, 6/6/2024)",
+      "url": "https://www.g2.com/products/zowie/reviews",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Ecommerce businesses on Shopify, Magento, or BigCommerce wanting genuinely deep order/returns automation",
+    "Teams wanting a structural, architecture-level approach to hallucination prevention rather than prompt-level guardrails alone",
+    "Enterprises needing genuinely strong multi-language support and current-generation multi-agent orchestration (A2A, MCP)",
+    "Buyers willing to independently verify review sentiment given the heavily vendor-solicited G2 review base"
+  ],
+  "verdict": "Zowie's most genuinely compelling idea is architectural: separating the language-understanding 'Reasoning Engine' from a deterministic 'Decision Engine' that alone can execute real business actions means the AI structurally cannot hallucinate its way into issuing a refund or canceling an order it shouldn't — a specific, real design choice rather than a vague guardrail claim, and one of the more thoughtful approaches to this problem we've seen in this category. That architecture backs up genuinely deep, independently verified Shopify integration — dual-verification order lookup, policy-gated cancellation, automated returns — alongside comprehensive CRM connectivity and a notably current developer extensibility layer including an A2A multi-agent protocol and a Model Context Protocol server. Two things temper our enthusiasm and deserve equal weight in your evaluation. First, Zowie has clearly repositioned from a pure ecommerce specialist toward a general enterprise AI agent platform spanning banking, insurance, and telecom — not inherently bad, but worth knowing if you came specifically looking for an ecommerce-first tool, especially since WooCommerce, WordPress, Wix, Squarespace, and Webflow integrations are notably absent despite the company's ecommerce roots. Second, and more importantly, we want to be direct about a real review-sentiment reliability concern: Zowie's strong 4.7/5 G2 score comes from a review base where nearly every entry is tagged as vendor-solicited, Capterra's own review count shows an unresolved discrepancy, and there's no Trustpilot or Reddit presence to independently cross-check any of it. None of this means the positive feedback is false — the substance of what reviewers say is genuinely specific and credible — but it does mean you should treat the sentiment data as less independently representative than a typical organic review base, and weigh Zowie's genuine architectural and integration strengths against that caveat rather than the star rating alone.",
+  "rating": 3.9,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

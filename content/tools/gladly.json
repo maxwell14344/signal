@@ -1,0 +1,162 @@
+{
+  "slug": "gladly",
+  "name": "Gladly",
+  "logoUrl": "",
+  "website": "https://www.gladly.ai",
+  "tagline": "The helpdesk built around people instead of tickets — one lifelong conversation per customer across every channel, priced like an enterprise retail platform.",
+  "tldr": [
+    "Gladly is a customer-service platform built explicitly around eliminating tickets: every customer gets one continuous conversation thread spanning voice, chat, SMS, email, and social messaging, with full purchase history and lifetime value visible alongside it.",
+    "Pricing is entirely quote-based and not published — third-party research puts the Hero tier around $180/agent/month with a 10-agent minimum, and Superhero around $210/agent/month with a 45-agent minimum, plus Sidekick AI conversations billed separately at roughly $0.60 each.",
+    "Founded in 2014 by Joseph Ansanelli, Michael Wolfe, and Dirk Kessler, backed by Greylock, GGV, NEA, and others, and rebranded its AI push around 'Sidekick' after acquiring AI/automation company Thankful.",
+    "Sidekick Answers and Sidekick Actions form the AI layer — genuinely agentic, drawing on customer history to deliver personalized self-service, though we found no strong documentation of specific hallucination guardrails or an independently audited resolution rate.",
+    "Independent reviews are strongly positive on ease of use and the conversation-first model — reviewers specifically praise not having to hunt across separate tickets for one customer's history — but a recurring, specific complaint is that reporting feels too segmented, requiring multiple screens to get a full picture.",
+    "Best for mid-to-large retail and consumer brands with genuine budget for enterprise per-agent pricing and high agent-count minimums — not for small teams or budget-constrained buyers, given the 10+ agent minimum and opaque, sales-negotiated pricing."
+  ],
+  "categories": { "primary": "live-chat-shared-inbox", "secondary": ["ai-support-agents", "helpdesk-ticketing-automation"] },
+  "channels": ["Voice", "Email", "Live Chat", "SMS", "Social Messaging"],
+  "keyFeatures": [
+    "A single, continuous conversation thread per customer spanning every channel — no tickets, no case numbers, no re-explaining context when a channel changes",
+    "Sidekick Answers — an AI layer that draws on the company's knowledge base and each customer's own history to generate personalized, on-brand self-service responses",
+    "Sidekick Actions — documented as taking real actions on a customer's behalf rather than only drafting a reply for a human to send",
+    "Native Shopify integration pulling order data, purchase history, and customer lifetime value directly into the conversation view",
+    "Tasks — Gladly's replacement for internal tickets, used for assignment, follow-up, and cross-team collaboration without spawning a separate customer-facing case",
+    "Quick Reply buttons and macros for common responses, plus internal notes and @mentions for team coordination on a shared customer conversation",
+    "CSAT measurement through integrated third-party survey partners (Simplesat, Medallia Connect/Stella, Delighted) rather than a fully native survey builder",
+    "Webhooks that fire on conversation closures and task completions, enabling downstream automation like CRM updates, Slack alerts, or triggered CSAT surveys"
+  ],
+  "companyInfo": {
+    "founded": "2014, San Francisco, by Joseph Ansanelli, Michael Wolfe, and Dirk Kessler",
+    "hq": "San Francisco, California, USA",
+    "funding": "Privately backed by Greylock, GGV Capital, NEA, Glynn Capital, FutureFund, and JetBlue Ventures; expanded its AI capability by acquiring Thankful, an AI/automation customer-self-service company",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "Why doesn't Gladly use tickets?",
+      "answer": "It's the company's core product philosophy: rather than opening a new ticket or case every time a customer reaches out on a different channel, Gladly maintains one continuous conversation per customer across their entire relationship with a brand — including past purchases, prior interactions, lifetime value, and loyalty status. The pitch is that agents stop re-discovering context an existing ticket-based system would have fragmented across multiple cases."
+    },
+    {
+      "question": "How much does Gladly actually cost?",
+      "answer": "Gladly doesn't publish pricing publicly — every quote is sales-negotiated. Third-party research estimates the Hero tier around $180/agent/month with a 10-agent minimum, and Superhero around $210/agent/month with a 45-agent minimum, with Sidekick AI conversations billed separately at roughly $0.60 each on top. Treat these as informed estimates, not confirmed list prices, and get an exact quote before budgeting."
+    },
+    {
+      "question": "What is Sidekick, and how capable is it really?",
+      "answer": "Sidekick is Gladly's AI layer, built out significantly after the company acquired Thankful, an AI/automation self-service company. Sidekick Answers generates personalized responses grounded in both the company's knowledge base and the individual customer's own history, and Sidekick Actions is documented as taking real actions rather than only suggesting a reply. We found no independently audited resolution-rate figure or detailed public documentation of specific hallucination-prevention mechanisms, so treat any accuracy claims with the same skepticism you'd apply to any vendor-reported AI performance figure."
+    },
+    {
+      "question": "Does Gladly work well for Shopify-based ecommerce brands?",
+      "answer": "Yes — there's a genuine native Shopify integration that pulls order data, purchase history, and customer lifetime value directly into the conversation view, comparable in depth to what Gorgias offers for Shopify specifically. Other ecommerce platforms and most no-code website builders aren't natively supported; third-party integrations there generally require Zapier or a custom API connection."
+    },
+    {
+      "question": "What's the most common complaint about Gladly?",
+      "answer": "Reporting. Multiple independent reviewers, across different roles and companies, specifically describe the reporting structure as too segmented — needing to pull information from several different areas rather than getting one consolidated view. This is a consistent enough pattern across reviews that it's worth testing directly in a demo rather than assuming the marketing page's reporting claims will match your team's actual workflow."
+    },
+    {
+      "question": "Is Gladly a good fit for a small team?",
+      "answer": "Generally not. The Hero tier reportedly carries a 10-agent minimum and the Superhero tier a 45-agent minimum, positioning Gladly squarely as an enterprise or upper-mid-market retail platform rather than a small-team tool. If your support team is under ten people, the pricing structure alone likely rules this out regardless of how well the product itself might fit."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Reviewers consistently praise the day-to-day usability and conversation-based workflow, though as an enterprise platform with agent minimums, onboarding is a more involved sales-and-implementation process than a self-serve SMB tool." },
+    { "dimension": "AI Quality", "score": 3, "note": "Sidekick Answers and Actions are genuinely built on real customer-history context, but there's no independently audited resolution-rate figure and limited public documentation of specific hallucination safeguards." },
+    { "dimension": "Omnichannel Support", "score": 5, "note": "The single-conversation, no-tickets model across voice, chat, SMS, email, and social messaging is the product's defining strength and consistently the most-praised feature in independent reviews." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Fully opaque, quote-only pricing with high agent minimums (10 for Hero, 45 for Superhero per third-party estimates) positions this as an enterprise-only purchase with real budget commitment before you even see a number." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Reviews are broadly positive, but a recurring, specific complaint about segmented reporting and at least one review requesting more proactive account management suggests support quality may vary by account tier." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Documented native coverage across voice, email, live chat, SMS, and social messaging — a genuinely broad, enterprise-grade channel list consistent with Gladly's contact-center-replacement positioning." },
+    { "key": "omnichannel-unification", "score": 5, "note": "This is the product's core architectural decision, not a feature bolted on afterward: one continuous conversation thread per customer across every channel, with no ticket numbers or case-switching, repeatedly named by independent reviewers as the standout benefit versus prior ticket-based tools." },
+    { "key": "ai-availability", "score": 4, "note": "Sidekick Answers and Sidekick Actions are genuine AI capabilities built out substantially after acquiring Thankful (an AI/automation self-service company) — documented as generating personalized responses and taking real actions, not just canned replies." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Sidekick. Vendor materials describe it delivering 'instant, personalized resolutions,' but without a verifiable benchmark this should be treated with the same skepticism applied to any unaudited vendor claim." },
+    { "key": "ai-training-method", "score": 4, "note": "Sidekick Answers is documented as gathering information automatically from the company's public knowledge base and each customer's own history to generate responses — genuine automatic grounding rather than manual intent-building." },
+    { "key": "hallucination-controls", "score": 2, "note": "Vendor materials state Sidekick 'ensures responses are consistent with your company's approved messaging,' but we found no detailed public documentation of specific mechanisms — confidence thresholds, source citation, or explicit fallback logic — comparable to what some competitors publish." },
+    { "key": "automation-depth", "score": 3, "note": "Sidekick Actions is documented as taking real actions rather than single-step replies, and the Tasks system supports assignment and follow-up workflows — real automation, though without the level of multi-step-chaining detail some competitors document explicitly." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation was found describing real-time sentiment or urgency detection during an active conversation — scored on that absence of evidence rather than a confirmed weaker implementation." },
+    { "key": "unified-inbox", "score": 5, "note": "The single-conversation-per-customer model is, by design, the deepest form of unified inbox in this category — there is no separate per-channel view to reconcile in the first place." },
+    { "key": "ai-human-handoff", "score": 3, "note": "The unified-conversation architecture means handoff doesn't require context transfer the way a ticket-switch would, but we found no specific documentation of an explicit AI-to-human escalation trigger or confidence threshold comparable to what some competitors publish." },
+    { "key": "internal-collaboration", "score": 4, "note": "Notes, @mentions, and the Tasks system (Gladly's internal-action-item replacement for tickets) are all documented, established features supporting team coordination without exposing internal discussion to the customer." },
+    { "key": "canned-responses", "score": 4, "note": "Quick Reply buttons and macros are both documented, established features for fast, consistent agent responses." },
+    { "key": "integration-shopify", "score": 5, "note": "A genuine native integration pulls order data, purchase history, and customer lifetime value directly into the conversation view — comparable in depth to the category's strongest Shopify-specific integrations." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found; Gladly's ecommerce depth is concentrated on its native Shopify integration." },
+    { "key": "integration-wordpress", "score": 1, "note": "No WordPress integration or widget was found; Gladly is built as an enterprise contact-center replacement, not a website-embeddable chat widget product." },
+    { "key": "integration-wix", "score": 1, "note": "No Wix integration was found, consistent with Gladly's enterprise retail-platform focus rather than general website-builder support." },
+    { "key": "integration-squarespace", "score": 1, "note": "No Squarespace integration was found for the same reason." },
+    { "key": "integration-webflow", "score": 1, "note": "No Webflow integration was found for the same reason." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "Zapier connectivity and custom API access exist, but third-party sources specifically describe this as adding 'complexity and potential failure points' rather than a smooth native experience — no dedicated Make or n8n integration was confirmed." },
+    { "key": "integration-crm", "score": 3, "note": "Gladly documents the ability to connect to CRM systems including Salesforce for a '360-degree view' of the customer, but this is described generically rather than with the specific bidirectional-sync detail some competitors publish for their CRM integrations." },
+    { "key": "order-payment-data-access", "score": 4, "note": "Real, documented order and purchase-history access via the native Shopify integration, with lifetime value visible directly in the conversation — genuine commerce-data depth, concentrated on Shopify specifically." },
+    { "key": "multi-language-support", "score": 2, "note": "Gladly's own materials mention multilingual support only in passing, without the kind of specific language-count or auto-detection documentation more thoroughly verified competitors provide." },
+    { "key": "analytics-depth", "score": 3, "note": "CSAT is measured through integrated third-party survey partners (Simplesat, Medallia Connect, Delighted) rather than a fully native survey tool, and while one reviewer called reporting 'incredibly detailed,' the more consistent independent complaint across multiple reviewers is that the reporting structure feels too segmented to get a holistic view." },
+    { "key": "pricing-transparency", "score": 2, "note": "Pricing is entirely unpublished and quote-only, with third-party research the only source for approximate figures (roughly $180-210/agent/month plus per-conversation AI fees) — genuinely opaque even by enterprise-software standards, compounded by high stated agent minimums." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "Webhooks are documented for conversation-closure and task-completion events, enabling downstream automation (CRM updates, Slack alerts, triggered CSAT surveys) — real, though without the depth of a fully documented public API platform some competitors offer." }
+  ],
+  "pricing": {
+    "model": "Custom, quote-based enterprise pricing with per-agent minimums, plus a separate per-conversation AI fee",
+    "startingPrice": "Not published; third-party estimates put the entry tier around $180/agent/month with a 10-agent minimum",
+    "plans": [
+      { "name": "Hero", "price": "~$180/agent/mo (third-party estimate)", "billing": "Annual, sales-negotiated", "notes": "Reported 10-agent minimum; exact inclusions not publicly documented." },
+      { "name": "Superhero", "price": "~$210/agent/mo (third-party estimate)", "billing": "Annual, sales-negotiated", "notes": "Reported 45-agent minimum; positioned for larger enterprise deployments." },
+      { "name": "Sidekick AI (add-on)", "price": "~$0.60/conversation (third-party estimate)", "billing": "Usage-based, billed on top of the per-agent plan", "notes": "Not confirmed on Gladly's own site; get an exact figure from sales before budgeting." }
+    ]
+  },
+  "pricingBreakdown": "Gladly is one of the least transparent tools on this site when it comes to pricing, and that opacity is itself a meaningful data point: this is an enterprise sale from the first conversation, not a self-serve signup. Third-party research converges on roughly $180/agent/month for the Hero tier with a 10-agent minimum and $210/agent/month for Superhero with a 45-agent minimum — which puts even the entry point at a minimum annual commitment north of $20,000/year before a single Sidekick AI conversation is billed, and Superhero's minimum alone implies a six-figure annual floor. Layer the reported ~$0.60-per-conversation AI fee on top and the total cost of ownership is genuinely hard to model without a direct sales conversation — expect real negotiation room given the lack of a public list price, but budget conservatively based on the higher end of these estimates until you have a written quote. Against Gorgias's published ticket-based pricing (starting at $10/mo) or Gladly's closer enterprise peers like Kustomer or Salesforce Service Cloud, this sits firmly in the premium, considered-purchase tier rather than something a small or mid-sized team can casually trial.",
+  "capabilities": [
+    { "area": "Unified Customer Conversation", "note": "The defining feature and the reason to consider Gladly over a ticket-based competitor: every customer's entire history — purchases, prior interactions, loyalty status, lifetime value — lives in one continuous thread regardless of which channel they use next. Independent reviewers consistently name this as solving a real, specific pain point (re-explaining context across fragmented tickets) rather than a marketing abstraction." },
+    { "area": "Sidekick AI", "note": "Genuinely built on real customer context rather than a generic knowledge-base bot — Sidekick Answers personalizes using both company content and individual customer history, and Sidekick Actions is documented as taking real actions. The honest gap is verifiability: no independently audited resolution rate and limited public detail on specific hallucination-prevention mechanisms mean you should test this directly rather than take marketing claims at face value." },
+    { "area": "Shopify & Commerce Data", "note": "A genuine, deep native Shopify integration pulling order history, purchase data, and lifetime value directly into the conversation — this is Gladly's strongest integration by a clear margin, and it's built specifically for retail and ecommerce brands rather than general B2B support." },
+    { "area": "Reporting", "note": "The most consistent independent complaint about this product. While at least one reviewer called reporting 'incredibly detailed,' the more common pattern across reviews is a segmented structure that requires pulling data from multiple areas to get a full picture — worth stress-testing directly against your team's actual reporting needs before committing to an enterprise contract." },
+    { "area": "Pricing & Accessibility", "note": "Structurally built for mid-to-large retail and consumer brands, not small teams — reported 10- and 45-agent minimums plus fully unpublished, sales-negotiated pricing mean this isn't a tool you can casually evaluate against a published price list the way you can with most other tools on this site." }
+  ],
+  "pros": [
+    "The single-conversation, no-tickets model is a genuine architectural differentiator, not just marketing language, and is consistently the most-praised feature in independent reviews",
+    "Deep native Shopify integration surfaces real order, purchase, and lifetime-value data directly in the conversation view",
+    "Sidekick AI is built on genuine customer-history context rather than a generic FAQ bot, with documented action-taking capability, not just reply drafting",
+    "Strong day-to-day usability praise across a range of company sizes and industries in independent reviews",
+    "Tasks and internal notes provide real team-collaboration structure without fragmenting the customer-facing conversation"
+  ],
+  "cons": [
+    "Pricing is completely unpublished and quote-only, with reported agent minimums (10 for Hero, 45 for Superhero) that structurally exclude small teams",
+    "No independently audited AI resolution rate and limited public documentation of Sidekick's specific hallucination-prevention mechanisms",
+    "A recurring, specific independent-review complaint describes reporting as too segmented to get a consolidated view without pulling data from multiple screens",
+    "Integration depth outside of Shopify is thin — no WooCommerce, no website-builder integrations (WordPress, Wix, Squarespace, Webflow), and third-party automation-platform connections are described as adding complexity",
+    "CSAT relies on integrated third-party survey partners rather than a fully native survey tool"
+  ],
+  "sentiment": [
+    {
+      "quote": "Solves the Multi-Threaded Mess — unifies all customer interactions from every channel into a single conversation.",
+      "source": "Capterra (Jennifer R., Director of Ecommerce, Apparel & Fashion, 5/5)",
+      "url": "https://www.capterra.com/p/156723/Gladly/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Happy Gladly Customer — exceptional ease of use and conversation-based workflow, but the reporting structure feels too segmented.",
+      "source": "Capterra (Stephanie K., Senior Director of Customer Service, Consumer Goods, 4/5)",
+      "url": "https://www.capterra.com/p/156723/Gladly/reviews/",
+      "sentiment": "mixed"
+    },
+    {
+      "quote": "Truly one-of-a-kind CX platform — reporting is incredibly detailed and the Task feature is a game changer.",
+      "source": "Capterra (Ashley D., Customer Experience Manager, Apparel & Fashion, 5/5)",
+      "url": "https://www.capterra.com/p/156723/Gladly/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Great service but could be better — appreciated the sleek design but frustrated with reporting and wished for more proactive account management.",
+      "source": "Capterra (Joseph G., Customer Experience Manager, Retail, 4/5)",
+      "url": "https://www.capterra.com/p/156723/Gladly/reviews/",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Mid-to-large retail and consumer brands with real budget for enterprise per-agent pricing and 10+ agent teams",
+    "Shopify-native ecommerce companies wanting deep, native order and customer-history data inside every conversation",
+    "Teams frustrated with ticket-fragmentation in a prior helpdesk who specifically want one continuous customer conversation",
+    "Buyers who can commit to a sales-negotiated contract without needing an upfront published price list"
+  ],
+  "verdict": "Gladly's core idea is genuinely well-executed, not just well-marketed: eliminating tickets in favor of one continuous conversation per customer is the kind of structural decision that's hard to bolt onto a legacy ticketing system after the fact, and independent reviewers consistently confirm it solves a real, specific pain — no more hunting across fragmented cases to understand what a customer already told a different agent on a different channel. The native Shopify integration backs that up with real substance: order history, purchase data, and lifetime value sitting directly in the conversation, at a depth that rivals the category's strongest ecommerce-specific integrations. Sidekick AI extends the same philosophy — personalizing responses using a customer's own history, not just generic knowledge-base content — though I'd flag clearly that there's no independently audited resolution rate here, and the public documentation of specific hallucination safeguards is thinner than what some competitors publish, so test this directly before trusting any accuracy claim. The honest friction points are less about the product and more about how you access it: pricing is entirely unpublished, third-party estimates put entry-level costs around $180/agent/month with a reported 10-agent minimum, and reporting is the one feature area where independent reviewers keep landing on the same specific complaint — too segmented, too many screens for one picture. My honest read: if you're a mid-to-large retail brand with the budget and agent count Gladly is built for, and you're specifically tired of a ticket-based tool fragmenting your customer relationships, this is worth a serious enterprise evaluation. If you're a small team or need transparent, self-serve pricing, the agent minimums alone will likely rule this out before you get to evaluate the product itself.",
+  "rating": 3.8,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

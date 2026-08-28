@@ -1,0 +1,156 @@
+{
+  "slug": "chaport",
+  "name": "Chaport",
+  "logoUrl": "",
+  "website": "https://www.chaport.com",
+  "tagline": "A simple, affordable live chat widget with a scripted, rule-based chatbot builder — not a genuine AI agent, despite the category it gets compared in.",
+  "tldr": [
+    "Chaport is a live chat widget for small businesses with a visual flow-builder chatbot — but the chatbot is rule-based (decision-tree and keyword-triggered), not an LLM-powered AI agent that generates novel responses from a knowledge base.",
+    "Pricing is genuinely affordable: Free (2 operators), Pro at $29/mo (4 operators, billed annually — $39 month-to-month), Unlimited at $99/mo (unlimited operators, billed annually — $129 month-to-month), with a 25% annual discount and a 14-day free Unlimited trial.",
+    "Company history is unusually unclear: some sources place founding in 2014 in Alhambra, California; more recent and numerous sources describe a 2016 founding by Dmitry Birukov and Pavel Potapov, now headquartered in Yoshkar-Ola, Russia. Neither account is a primary company filing, so treat both as unreconciled.",
+    "The chatbot builder is a genuine, functional visual tool — conversation flows, triggers, and branching reply options — but it requires manually building every conversation path rather than training automatically on your content the way a modern AI agent does.",
+    "Independent reviews are strongly positive for what the product actually is: a simple, affordable, easy-to-set-up live chat widget, with reviewers specifically praising value against pricier competitors like Intercom — but the review base is small (21 on G2) and several reviews are several years old, a sign of a product that hasn't seen the same recent attention as AI-native competitors.",
+    "Best for small businesses and solo operators that want a straightforward, cheap live chat widget with a scripted FAQ bot — not for any team specifically shopping for genuine AI-driven customer support automation."
+  ],
+  "categories": { "primary": "live-chat-shared-inbox", "secondary": ["ai-chatbots"] },
+  "channels": ["Web Chat", "Email", "Facebook Messenger", "Viber", "Telegram"],
+  "keyFeatures": [
+    "A visual chatbot builder for designing rule-based conversation flows with triggers and branching reply options — not a generative AI agent",
+    "Saved replies (Pro tier) and shared team saved replies (Unlimited tier) for consistent, fast agent responses",
+    "A multilingual widget that automatically detects a visitor's language and switches the interface to match, without a paid add-on",
+    "Auto-invitations, pre-chat forms, and an autoresponder for proactive and after-hours engagement",
+    "A basic knowledge base with an FAQ bot on the Unlimited tier, built on the same rule-based logic as the chatbot rather than an LLM",
+    "Teams, assignment rules, and custom fields for basic internal routing and organization on the Unlimited tier",
+    "REST and JavaScript APIs (Pro tier and above) plus a Zapier integration (Unlimited tier only) for external connectivity",
+    "Native desktop, web, and mobile apps for agents, alongside a dedicated WordPress plugin for website installation"
+  ],
+  "companyInfo": {
+    "founded": "Unreconciled: some sources describe a 2014 founding in Alhambra, California; more numerous and recent sources describe a 2016 founding by Dmitry Birukov and Pavel Potapov",
+    "hq": "Reported as Yoshkar-Ola, Mari El Republic, Russia in more recent sources, run by CEO Alexander Shvalev and CTO Vasily Naumov",
+    "funding": "Not publicly disclosed; no venture funding reported in materials reviewed",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "Is Chaport's chatbot powered by AI?",
+      "answer": "Not in the modern, generative sense. Chaport's chatbot is built with a visual flow builder using conversation triggers and branching reply options — a rule-based, decision-tree or keyword-recognition system, not a large-language-model agent that generates novel answers from your content. If you're specifically shopping for AI-driven, self-learning customer support automation, this isn't that; it's a scripted bot you build by hand, similar in spirit to older-generation chatbot tools from before the LLM era."
+    },
+    {
+      "question": "How does Chaport's pricing compare to competitors?",
+      "answer": "It's genuinely affordable for what it does: Free for 2 operators, Pro at $29/month (annual) for 4 operators with saved replies and basic reporting, and Unlimited at $99/month (annual) for unlimited operators, chatbots, and a knowledge base. That undercuts most AI-native competitors substantially, but it's also not solving the same problem — you're paying less because you're getting a simpler, scripted product rather than a generative AI agent."
+    },
+    {
+      "question": "Does Chaport support multiple languages?",
+      "answer": "Yes, and this is a genuine strength — the widget automatically detects a visitor's language and switches the interface to match, without requiring a separate paid translation add-on. This is more capable, natively, than several AI-focused competitors that rely on third-party translation integrations."
+    },
+    {
+      "question": "Why is Chaport's company history unclear?",
+      "answer": "Sources conflict meaningfully: some describe a 2014 founding based in Alhambra, California, while more numerous and recent sources describe a 2016 founding by Dmitry Birukov and Pavel Potapov, now based in Yoshkar-Ola, Russia. Neither account traces to a primary company filing we could verify, so treat the company's origin story as unconfirmed rather than settled."
+    },
+    {
+      "question": "Does Chaport integrate with Shopify or a CRM?",
+      "answer": "No dedicated Shopify integration or native CRM (Salesforce, HubSpot) sync was found. Chaport is built as a general-purpose live chat widget for any website rather than an ecommerce- or CRM-integrated platform, and its Zapier integration (Unlimited tier only) would be the realistic path to bridge either gap."
+    },
+    {
+      "question": "Who is Chaport actually a good fit for?",
+      "answer": "Small businesses, solo operators, and simple websites that want an affordable, easy-to-set-up live chat widget with a basic FAQ bot, and don't have a specific need for AI-driven automation. If genuine AI resolution accuracy, automatic knowledge-base training, or agentic actions (order lookups, refunds) are what you're evaluating tools for, Chaport isn't built to compete on that axis at all."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 5, "note": "Consistently praised across independent reviews as very easy to set up, with a straightforward out-of-the-box experience." },
+    { "dimension": "AI Quality", "score": 1, "note": "Not applicable in the modern sense — the chatbot is a manually-built, rule-based decision-tree tool rather than a generative AI agent, so there's no AI quality to meaningfully assess against AI-native competitors." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "Covers web chat plus email, Facebook, Viber, and Telegram integration on paid tiers, but without the deeper unified-inbox or social-DM-native handling more modern competitors document." },
+    { "dimension": "Pricing Value", "score": 4, "note": "Genuinely affordable for what it delivers, with a real free tier and a meaningful discount for annual billing — good value specifically for a simple, non-AI live chat need." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "Independent reviews are strongly positive on support and ease of use, though the review base is small (21 on G2) and several reviews are multiple years old." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Web chat is the core, with email, Facebook Messenger, Viber, and Telegram integration confirmed on the Pro tier and above — a reasonable channel list for a tool at this price point, though narrower than category-leading omnichannel platforms." },
+    { "key": "omnichannel-unification", "score": 3, "note": "Connected channels are documented as reachable from one team panel, but without the depth of documentation around a true single-thread-per-customer experience that more modern competitors provide." },
+    { "key": "ai-availability", "score": 1, "note": "Confirmed rule-based: Chaport's own chatbot builder documentation describes designing conversation flows with triggers and branching reply options — a decision-tree/keyword-recognition system, not a generative AI agent that produces novel responses from trained content." },
+    { "key": "ai-resolution-accuracy", "score": 1, "note": "No resolution-rate claim exists to evaluate, because there's no generative AI resolving anything — the rule-based bot only follows pre-built conversation paths, so 'accuracy' in the sense this criterion measures doesn't meaningfully apply." },
+    { "key": "ai-training-method", "score": 1, "note": "There is no automatic training process at all — every conversation path in the chatbot builder must be manually constructed by the business, the direct opposite of the automatic knowledge-base learning this criterion rewards." },
+    { "key": "hallucination-controls", "score": 1, "note": "Not a meaningful strength here — the bot can't hallucinate because it isn't generating novel text in the first place, but that also means it has none of the flexible, grounded-answer capability this criterion is designed to measure in genuine AI products." },
+    { "key": "automation-depth", "score": 2, "note": "The visual flow builder supports real branching logic and triggers, which is more than a single canned reply — but it's simple if/then scripting, not the multi-step agentic automation (routing plus tagging plus resolution plus follow-up) this criterion rewards at the top of the scale." },
+    { "key": "sentiment-intent-detection", "score": 1, "note": "No sentiment or intent detection feature was found; the bot's logic is keyword- and button-based rather than any form of natural-language understanding." },
+    { "key": "unified-inbox", "score": 3, "note": "A single team panel handles the widget and connected channels on paid tiers, providing reasonable unification for a tool at this scale, without the deeper documented cross-channel customer-history view more mature helpdesks offer." },
+    { "key": "ai-human-handoff", "score": 2, "note": "The chatbot flow builder supports routing a conversation to a human agent as one branch of the script, which is functional handoff — but it's a scripted transfer point, not an AI-driven escalation decision based on confidence or context." },
+    { "key": "internal-collaboration", "score": 3, "note": "Teams and assignment rules are documented on the Unlimited tier, providing basic routing and organization — real but modest compared to competitors with dedicated internal notes and @mention systems." },
+    { "key": "canned-responses", "score": 4, "note": "Saved replies (Pro tier) and shared team saved replies (Unlimited tier) are documented, established features." },
+    { "key": "integration-shopify", "score": 1, "note": "No dedicated Shopify integration was found in the materials reviewed." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found." },
+    { "key": "integration-wordpress", "score": 4, "note": "A real, dedicated Chaport plugin is published on WordPress.org — a genuine native integration rather than a generic embed workaround." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found; installation would rely on a generic embed script." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "A Zapier integration is documented, but only on the Unlimited tier — no Make or n8n integration was confirmed, and the connectivity is gated behind the most expensive plan rather than broadly available." },
+    { "key": "integration-crm", "score": 1, "note": "No native CRM integration (Salesforce, HubSpot, Pipedrive) was found in the materials reviewed." },
+    { "key": "order-payment-data-access", "score": 1, "note": "No documentation of order or payment data access was found — Chaport isn't built with ecommerce-platform integration as a feature area." },
+    { "key": "multi-language-support", "score": 4, "note": "The widget automatically detects a visitor's language and switches to match it — a genuine, native, built-in capability rather than a third-party add-on, and a real strength relative to several AI-focused competitors that lack this natively." },
+    { "key": "analytics-depth", "score": 2, "note": "Detailed reports ship on Pro and advanced/on-demand reports on Unlimited, but independent reviewers specifically cite a 'lack of advanced reporting features' as a recurring complaint." },
+    { "key": "pricing-transparency", "score": 4, "note": "All three tiers, the annual-billing discount, and the free trial terms are clearly published on the pricing page, with no hidden usage-based fees to account for since there's no metered AI component." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "REST and JavaScript APIs are documented from the Pro tier up, providing real build-on-top capability, though without the depth of a fully documented webhook-event system or app marketplace some competitors offer." }
+  ],
+  "pricing": {
+    "model": "Per-operator tiered SaaS with a genuine free tier, no usage-based AI fees",
+    "startingPrice": "$0 (Free, 2 operators)",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free", "notes": "2 operators, unlimited chats and websites, 60-day chat history, basic widget customization, web/desktop/mobile apps." },
+      { "name": "Pro", "price": "$29/mo (annual); $39/mo month-to-month", "billing": "Per account, up to 4 operators", "notes": "Unlimited chat history, auto-invitations, Facebook/Viber/Telegram integration, advanced customization, saved replies, pre-chat forms, detailed reports, autoresponder, REST and JavaScript API." },
+      { "name": "Unlimited", "price": "$99/mo (annual); $129/mo month-to-month", "billing": "Per account, unlimited operators", "notes": "Adds chatbots, knowledge base with FAQ bot, teams, assignment rules, shared saved replies, custom fields, chat ratings, advanced/on-demand reports, Zapier integration." }
+    ]
+  },
+  "pricingBreakdown": "Chaport's pricing is straightforward and genuinely cheap relative to most tools on this site — a 4-operator team on Pro pays $29/month, and even the unlimited-operator Unlimited tier tops out at $99/month, both well under what a comparable seat count would cost on Help Scout, Front, or Intercom. The catch, and it's an important one, is that you're not buying the same category of product: there's no per-resolution AI fee anywhere in Chaport's pricing because there's no generative AI to meter. If you compare Chaport's $99/month Unlimited tier against Chatbase's $150/month Standard tier or Tidio's Lyro AI add-on, you're not actually comparing like-for-like capability — Chaport's price reflects a simpler, rule-based product, and the comparison only makes sense if a scripted FAQ bot genuinely meets your needs rather than a self-learning AI agent.",
+  "capabilities": [
+    { "area": "Live Chat Widget", "note": "The core product, and it does this job well and cheaply: a customizable widget, saved replies, pre-chat forms, and a genuinely useful native multi-language auto-detection feature that several pricier, AI-focused competitors don't build in natively. If your need is simply 'a chat box on my website,' this is a competent, affordable choice." },
+    { "area": "Chatbot Builder", "note": "Real and functional, but it's important to be precise about what kind of 'chatbot' this is: a visual flow builder for scripting conversation paths with triggers and branching reply options, not a generative AI agent trained automatically on your content. Every conversation path has to be built by hand. If you've been comparing this against Chatbase, Tidio's Lyro, or any other LLM-based competitor expecting similar capability, recalibrate your expectations before buying." },
+    { "area": "Multi-Language Support", "note": "A genuine standout given the product's simplicity and price: the widget auto-detects a visitor's language and switches without a paid add-on, which several more expensive, more AI-forward competitors in this category still don't offer natively." },
+    { "area": "Reporting & Integrations", "note": "Basic and tier-gated, with independent reviewers specifically flagging a lack of advanced reporting as a real limitation. Integration depth outside of WordPress and a top-tier-only Zapier connection is thin — no Shopify, no native CRM, no Wix or Squarespace app." },
+    { "area": "Company Transparency", "note": "Worth noting directly: basic facts like founding year and location are genuinely unreconciled across available sources, which is unusual even for a small company and worth factoring into your confidence about long-term vendor stability and support continuity." }
+  ],
+  "pros": [
+    "Genuinely affordable pricing with a real free tier and no metered AI fees to model",
+    "Native multi-language widget that auto-detects and switches to a visitor's language without a paid add-on",
+    "Consistently easy to set up according to independent reviews, with a straightforward out-of-the-box experience",
+    "A real, dedicated WordPress plugin rather than a generic embed workaround",
+    "Strongly positive independent review sentiment for what the product delivers, with support specifically praised"
+  ],
+  "cons": [
+    "The chatbot is rule-based (decision-tree, keyword-triggered), not a genuine generative AI agent — a meaningful mismatch if you're evaluating this against AI-native competitors",
+    "Every chatbot conversation path must be manually built rather than learned automatically from your content",
+    "No native ecommerce (Shopify, WooCommerce) or CRM (Salesforce, HubSpot) integration was found",
+    "Independent reviewers specifically cite a lack of advanced reporting features as a limitation",
+    "Basic company facts (founding year, location) are genuinely unreconciled across available sources, and the review base is comparatively small and dated"
+  ],
+  "sentiment": [
+    {
+      "quote": "Covers all needs at the best price — simple and affordable compared to competitors like Intercom.",
+      "source": "Capterra (Sergey B., Co-Founder, Design, 5/5)",
+      "url": "https://www.capterra.com/p/164545/Chaport-Live-Chat/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "The best out there! — a game-changer, highlighting ease of use and platform flexibility.",
+      "source": "Capterra (Nick C., Managing Director, Marketing and Advertising, 5/5)",
+      "url": "https://www.capterra.com/p/164545/Chaport-Live-Chat/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Very Easy To Use! — appreciated out-of-the-box functionality, though noted tech support can be slow.",
+      "source": "Capterra (Justin G., Owner, Sports, 5/5)",
+      "url": "https://www.capterra.com/p/164545/Chaport-Live-Chat/reviews/",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Small businesses and solo operators wanting a simple, affordable live chat widget without complex AI evaluation",
+    "Websites serving international, multilingual visitors that want native language auto-detection without a paid translation add-on",
+    "Budget-conscious buyers who genuinely just need scripted FAQ automation, not self-learning AI",
+    "WordPress sites wanting a straightforward, dedicated plugin install"
+  ],
+  "verdict": "Chaport is an honest, competent product at what it actually is — a simple, affordable live chat widget with a scripted chatbot builder — and the mismatch is entirely about expectations, not execution. Independent reviewers who bought it for exactly that are genuinely happy: easy setup, good value against pricier competitors, and a native multi-language widget that several more expensive, AI-forward tools in this category still don't build in themselves. But the central thing worth being direct about is that Chaport's 'chatbot' is not a generative AI agent in the sense every other AI-native tool on this site is measured against: it's a visual flow builder for scripting decision-tree conversations with triggers and branching options, built by hand, not trained automatically on your content. There's no resolution-rate claim to evaluate because there's no generative model resolving anything, and there's no hallucination risk because there's nothing being generated. If you've been comparing Chaport's $99/month Unlimited tier against Chatbase, Tidio's Lyro, or any LLM-based competitor's pricing, you're not comparing equivalent products — Chaport is cheaper because it's doing meaningfully less, not because it's a hidden bargain on the same capability. My honest read: if your actual need is a cheap, easy, well-reviewed live chat widget with basic scripted automation and you have no specific requirement for genuine AI, Chaport does that job well and affordably. If any part of your evaluation criteria involves AI resolution accuracy, automatic training, or agentic actions, look elsewhere on this site — this isn't competing on that axis at all.",
+  "rating": 2.9,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

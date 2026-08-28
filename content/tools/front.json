@@ -1,0 +1,164 @@
+{
+  "slug": "front",
+  "name": "Front",
+  "logoUrl": "",
+  "website": "https://front.com",
+  "tagline": "The collaborative shared-inbox pioneer that made email feel like a team sport, now layering an AI agent on top that can only see what lives inside Front itself.",
+  "tldr": [
+    "Front started in 2013 as a Y Combinator company solving a specific problem — shared addresses like support@ or sales@ turning into black holes nobody owned — and built a genuinely collaborative email/omnichannel inbox with internal comments, assignment, and workflow automation around it.",
+    "Pricing is per-seat and tiered: Starter $25/seat/mo (single channel, 10-seat cap), Professional $65/seat/mo (omnichannel, up to 50 seats), Enterprise $105/seat/mo (unlimited seats, most AI features included) — all billed annually, with monthly rates running roughly 24% higher.",
+    "AI is unbundled below Enterprise: Autopilot (an omnichannel AI agent) starts at $0.05/conversation, Copilot (real-time agent assist) is $20/seat/mo, and Smart QA plus Smart CSAT run $20 and $10/seat/mo respectively — all four are included only on the $105/seat Enterprise tier.",
+    "Autopilot's real limitation is its knowledge scope: it can only draw on Front's own knowledge base and past Front conversations, and explicitly cannot pull from Confluence, Google Docs, Notion, or Slack — a real gap for teams whose actual documentation lives in those tools, leading to more escalations than the vendor's cited 85% 'Topic accuracy' figure implies.",
+    "Independent reviews are strong (4.6/5 across 2,400+ G2 reviews) with collaborative-inbox functionality and integration depth as the most consistent praise, but per-seat pricing at scale and AI features described as 'pretty limited' relative to cost are the most repeated complaints.",
+    "Best for teams whose core support and sales communication is email-and-channel-heavy and who genuinely need internal collaboration (comments, assignment, shared context) around that communication — not for ecommerce-first brands or teams wanting deep native website-builder integrations."
+  ],
+  "categories": { "primary": "live-chat-shared-inbox", "secondary": ["helpdesk-ticketing-automation"] },
+  "channels": ["Email", "Front Chat (website widget)", "SMS", "Social Messaging"],
+  "keyFeatures": [
+    "A collaborative shared inbox where internal comments, @mentions, and assignment happen directly on the same message thread the customer sees — no separate ticket system needed",
+    "Autopilot — an AI agent for complex, multi-step workflows, billed per conversation and available as an add-on starting at $0.05/conversation",
+    "Copilot — a real-time AI assistant surfacing suggested replies and context for agents while they work, included at Enterprise or a $20/seat/mo add-on below it",
+    "Smart QA and Smart CSAT — AI-powered quality-assurance review and customer-satisfaction scoring, both bundled into Enterprise or available as $20 and $10/seat/mo add-ons respectively",
+    "Front Chat — a universal, embeddable website and in-app chat widget with iOS and Android SDKs, routing conversations into the same shared inbox as email",
+    "Bidirectional Salesforce and HubSpot sync — updates made in Front or the CRM stay aligned automatically, with contact and deal context visible directly in the conversation",
+    "Automation rules and macros that scale by tier (10 on Starter, 20 on Professional, unlimited plus 'Smart rules' on Enterprise) for routing, tagging, and escalation",
+    "160+ documented integrations plus a public API with purchasable rate-limit increases for teams building custom workflows on top"
+  ],
+  "companyInfo": {
+    "founded": "2013, San Francisco, by Mathilde Collin and Laurent Perrin (with early co-founders Elizabeth Welles and Aditya Vora), accepted into Y Combinator's 2014 batch",
+    "hq": "San Francisco, California, USA",
+    "funding": "Venture-backed; press has valued the company at roughly $1.7 billion. Collin led Front as CEO for over a decade and now serves as Executive Chair.",
+    "employees": "Not publicly disclosed in materials reviewed"
+  },
+  "faq": [
+    {
+      "question": "Is Front a helpdesk or an email client?",
+      "answer": "Both, blended deliberately. Front started by solving the specific problem of shared team email addresses (support@, sales@) becoming unowned black holes, and built internal collaboration — comments, @mentions, assignment — directly onto the same thread a customer sees, rather than spinning up a separate ticket. It's grown into a broader omnichannel inbox since, but the collaborative-email DNA is still the core of the product."
+    },
+    {
+      "question": "How much does Front's AI actually cost beyond the base seat price?",
+      "answer": "It's meaningfully unbundled below Enterprise. Autopilot (the AI agent) starts at $0.05/conversation, Copilot (agent-assist) is $20/seat/month, Smart QA is $20/seat/month, and Smart CSAT is $10/seat/month — each an add-on on Starter and Professional. Only the $105/seat/month Enterprise tier includes Copilot, Smart QA, and Smart CSAT by default (Autopilot is billed per-conversation regardless of tier)."
+    },
+    {
+      "question": "What are Autopilot's real limitations?",
+      "answer": "The most significant one is knowledge scope: Autopilot can only draw on Front's own knowledge base and past conversations within Front — it explicitly cannot pull from Confluence, Google Docs, Notion, or Slack. For any team whose actual product documentation or internal knowledge lives in those tools rather than Front's native knowledge base, this means incomplete answers and more escalations than the vendor's cited 85% 'Topic accuracy' figure would suggest, since that figure measures categorization accuracy, not a true end-to-end resolution rate."
+    },
+    {
+      "question": "Does Front integrate with Salesforce or HubSpot?",
+      "answer": "Yes, and it's a genuine bidirectional sync for both — updates made in Front or in the CRM stay aligned automatically, with contact and deal context visible directly inside the conversation. This is a real strength versus several competitors whose CRM integrations only pull data one direction."
+    },
+    {
+      "question": "Can Front be used as a live chat widget on my website?",
+      "answer": "Yes — Front Chat is a universal, embeddable widget installable on any website via a code snippet, with dedicated iOS and Android SDKs for mobile apps. It's not a dedicated WordPress plugin or Wix marketplace app, though — installation is the same generic embed snippet regardless of what your site is built on."
+    },
+    {
+      "question": "Is Front expensive for a large team?",
+      "answer": "It's a common, specific complaint in independent reviews. Because pricing is strictly per-seat, the cost scales linearly with headcount in a way flat-rate or ticket-based competitors don't — one reviewer specifically flagged this as 'a real problem' for larger workforces. Front's own $25/seat entry point is competitively priced against alternatives, but the total cost at 50+ seats, especially with AI add-ons layered on, is worth modeling carefully before committing."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Most integrations (HubSpot, Slack, Google Sheets) are reported to install in under 10 minutes with no dev work, and reviewers consistently praise the interface — though advanced workflow automation carries a steeper learning curve per multiple reviews." },
+    { "dimension": "AI Quality", "score": 3, "note": "Autopilot and Copilot are genuine, documented AI capabilities, but Autopilot's inability to draw on common external knowledge sources (Notion, Confluence, Google Docs, Slack) is a real, specific limitation independent analysis flags as producing more escalations than the vendor's cited accuracy figure implies." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "Real omnichannel coverage (email, chat, SMS, social) from the Professional tier up, though Starter is capped at a single channel type." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Genuinely transparent, published pricing is a real strength, but strict per-seat billing plus fully unbundled AI add-ons below Enterprise means the real cost for a larger team scales considerably beyond the $25/seat headline." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "A large, strongly positive review base (4.6/5 across 2,400+ G2 reviews) with integration depth and collaborative-inbox functionality as the most consistent praise." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Email, Front Chat (website widget), SMS, and social messaging are documented as native channels from the Professional tier up — but Starter is explicitly capped to a single channel type, so the full channel breadth isn't available at the entry price." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Front's core architecture is built around one shared, collaborative view of a conversation across channels, with internal comments and assignment happening on the same thread — genuine unification, consistent with the product's founding purpose." },
+    { "key": "ai-availability", "score": 4, "note": "Autopilot is a genuine, documented AI agent for complex workflows, and Copilot provides real-time agent assistance — both real capabilities, though structurally unbundled as paid add-ons below the Enterprise tier." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "Front's own cited 'Topic accuracy' figure of around 85% measures categorization, not a true resolution rate, and independent analysis specifically notes that Autopilot's restricted knowledge sources (no Confluence, Google Docs, Notion, or Slack) lead to more escalations and a lower real-world resolution rate than that headline figure implies." },
+    { "key": "ai-training-method", "score": 3, "note": "Autopilot learns automatically from Front's own knowledge base and past conversations within Front — genuine automatic learning, but explicitly restricted to Front-native sources, a real limitation for teams whose documentation lives elsewhere." },
+    { "key": "hallucination-controls", "score": 2, "note": "No detailed public documentation was found describing specific hallucination-prevention mechanisms (source citation, confidence thresholds) beyond the general observation that Autopilot's answers are constrained by, and limited to, its narrow knowledge sources." },
+    { "key": "automation-depth", "score": 4, "note": "Automation rules scale by tier (10 on Starter, 20 on Professional, unlimited plus 'Smart rules' on Enterprise) alongside Autopilot's documented handling of complex, multi-step workflows — genuine depth, with the most advanced tooling gated to the top tier." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "Smart CSAT measures post-interaction satisfaction rather than real-time sentiment, and AI Topics auto-categorizes conversation subject matter rather than detecting frustration or urgency — no documentation of proactive, in-conversation sentiment detection was found." },
+    { "key": "unified-inbox", "score": 5, "note": "This is the founding purpose of the product and its most mature capability — a single shared view of team communication with no separate ticketing system required, consistently the top-praised feature in independent reviews." },
+    { "key": "ai-human-handoff", "score": 3, "note": "Autopilot is documented as escalating to a human when it can't resolve a conversation from its available knowledge, which is functional handoff — but we found no detailed documentation of an explicit confidence-threshold trigger comparable to what some competitors publish." },
+    { "key": "internal-collaboration", "score": 5, "note": "Internal comments and assignment directly on the customer-facing thread are the product's original, defining feature from 2013 onward — mature, well-reviewed, and consistently named by users as the reason they chose Front over a traditional inbox." },
+    { "key": "canned-responses", "score": 4, "note": "Macros are a documented, tier-gated feature (available from Professional up alongside automation rules) for consistent, fast agent responses." },
+    { "key": "integration-shopify", "score": 3, "note": "A documented Shopify integration surfaces order information directly in the conversation ('where's my order? is a one-glance answer'), but this is described in comparatively general terms without the explicit refund, cancellation, or write-action detail more ecommerce-focused competitors document for their own Shopify integrations." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 2, "note": "Front Chat can be embedded on a WordPress site via the universal JavaScript snippet, but no dedicated first-party WordPress plugin was found — it's the same generic embed used on any website." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix app was found; installation would rely on the same generic embed snippet used elsewhere." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 3, "note": "Both Zapier and Make are documented as supported integration paths for less common, long-tail connections — solid no-code coverage, though positioned as the fallback for tools without a dedicated Front app rather than a deeply built-out native trigger/action set." },
+    { "key": "integration-crm", "score": 4, "note": "Both Salesforce and HubSpot integrations are documented as genuinely bidirectional — changes in either Front or the CRM stay synced automatically, with contact and deal context visible directly in the conversation. This is deeper than the one-directional CRM sync several competitors in this category offer." },
+    { "key": "order-payment-data-access", "score": 3, "note": "The Shopify integration surfaces order status directly in the conversation for a quick answer, but documentation is comparatively shallow versus competitors that explicitly detail refund or cancellation actions from inside the tool." },
+    { "key": "multi-language-support", "score": 2, "note": "A multi-language knowledge base is documented as an Enterprise-tier feature, but no automatic language detection or live-translation capability for conversations themselves was found documented at any tier." },
+    { "key": "analytics-depth", "score": 4, "note": "Basic analytics ship on Starter, advanced analytics arrive at Professional, and Enterprise adds AI-powered Smart QA (quality review) and Smart CSAT (satisfaction scoring) — genuine depth concentrated at the top tier." },
+    { "key": "pricing-transparency", "score": 5, "note": "Every tier and every AI add-on is individually, clearly published with exact per-seat and per-conversation pricing — genuinely one of the more transparent pricing pages in this category, even though the total cost at scale requires real modeling." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "160+ documented integrations plus a public API with purchasable rate-limit increases ($200 per additional 100 requests/minute/month) — a mature, genuinely extensible developer platform." }
+  ],
+  "pricing": {
+    "model": "Per-seat tiered SaaS, billed annually, with fully unbundled AI features below the top tier",
+    "startingPrice": "$25/seat/mo (Starter, billed annually)",
+    "plans": [
+      { "name": "Starter", "price": "$25/seat/mo", "billing": "Annual (24% savings vs monthly)", "notes": "Up to 10 seats, single channel type, shared inbox and ticketing, AI Topics, up to 10 automation rules, basic analytics and knowledge base." },
+      { "name": "Professional", "price": "$65/seat/mo", "billing": "Annual", "notes": "Up to 50 seats, omnichannel support (email, SMS, social), up to 20 automation rules plus macros, advanced analytics, up to 5 workspaces, SSO and SCIM." },
+      { "name": "Enterprise", "price": "$105/seat/mo", "billing": "Annual", "notes": "Unlimited seats, unlimited automation rules and macros, 'Smart rules,' multi-language knowledge base, custom roles/permissions, and Copilot, Smart QA, and Smart CSAT all included." },
+      { "name": "Autopilot (add-on)", "price": "From $0.05/conversation", "billing": "Usage-based, all tiers", "notes": "Omnichannel AI agent for complex workflows; not bundled into any tier's base price." },
+      { "name": "Copilot / Smart QA / Smart CSAT (add-ons)", "price": "$20 / $20 / $10 per seat/mo", "billing": "Per seat, add-on below Enterprise", "notes": "Included by default only on Enterprise; a Smart QA + Smart CSAT bundle is available at $25/seat/mo." }
+    ]
+  },
+  "pricingBreakdown": "Front's pricing is unusually transparent for this category — every tier and every AI add-on is published with an exact number, which is worth crediting directly. The catch is what that transparency reveals once you model a real team: a 20-person team on Professional at $65/seat is $1,300/month before any AI, and adding Copilot ($20/seat) plus the Smart QA/CSAT bundle ($25/seat) pushes that same 20-person team to $2,600/month — roughly double the base seat cost. Enterprise's $105/seat bundles those AI features in, which starts to look like better relative value once a team is large enough and AI-hungry enough to want all three, but at $105/seat for even a modest 10-person team that's $12,600/month before Autopilot's per-conversation fee. Against Help Scout's $25-75/user ladder or Gorgias's ticket-based (not seat-based) model, Front's strict per-seat pricing is the structural reason larger teams specifically flag cost as a concern in independent reviews — the product doesn't get relatively cheaper per person the way a ticket-based tool does as headcount grows.",
+  "capabilities": [
+    { "area": "Collaborative Shared Inbox", "note": "This is the reason Front exists and it's still the strongest part of the product: internal comments and assignment happen directly on the customer-facing thread rather than in a separate system, solving the exact 'who owns this email' problem the company was founded to fix in 2013. Independent reviewers consistently name this the standout reason they picked Front." },
+    { "area": "AI Suite (Autopilot & Copilot)", "note": "Genuinely real AI capability, not vaporware — Autopilot handles complex workflows and Copilot assists agents in real time. The honest limitation, confirmed by independent analysis rather than just a vendor caveat, is that Autopilot can only see Front's own knowledge base and past Front conversations, missing Confluence, Notion, Google Docs, and Slack entirely. For a team whose real documentation lives in those tools, that's a meaningful gap between the marketed 85% accuracy figure and real-world resolution." },
+    { "area": "CRM Integration", "note": "Genuinely deep, bidirectional sync with both Salesforce and HubSpot — a real strength versus the one-directional CRM integrations common elsewhere in this category. Contact and deal context sit directly in the conversation without a separate lookup." },
+    { "area": "Website & Ecommerce Reach", "note": "Front Chat works as a universal embeddable widget on any site, and a documented Shopify integration surfaces order status in-conversation — but neither goes as deep as dedicated ecommerce or website-builder tools: no first-party WordPress plugin, no Wix or Squarespace app, and the Shopify integration doesn't document refund or cancellation actions the way ecommerce-first competitors do." },
+    { "area": "Pricing Structure", "note": "Worth treating as its own capability area given how directly it shapes who should buy this. The per-seat model plus fully unbundled AI below Enterprise is transparent but not cheap at scale — real reviewer complaints specifically cite cost growing linearly with headcount in a way flat-rate or ticket-based tools don't." }
+  ],
+  "pros": [
+    "The collaborative shared-inbox model is genuinely well-executed and still the category benchmark for internal-comment-on-the-same-thread workflows",
+    "Bidirectional Salesforce and HubSpot sync is a real strength — deeper than the one-directional CRM integrations common among competitors",
+    "Fully transparent, published pricing for every tier and every AI add-on, unusual in a category where several competitors are quote-only",
+    "A large, strongly positive independent review base (4.6/5 across 2,400+ G2 reviews) with integration depth and ease of use as consistent themes",
+    "160+ documented integrations plus a real public API and purchasable rate-limit increases for teams building custom workflows"
+  ],
+  "cons": [
+    "Autopilot's AI can only draw on Front's own knowledge base and past conversations — no Confluence, Google Docs, Notion, or Slack — leading independent analysis to describe real-world resolution as lower than the vendor's cited 85% accuracy figure implies",
+    "Strict per-seat pricing means cost scales linearly with headcount, a specific, repeated complaint from reviewers at larger companies",
+    "AI features (Copilot, Smart QA, Smart CSAT) are fully unbundled below the $105/seat Enterprise tier, meaningfully raising real cost for smaller or mid-tier teams that want them",
+    "No dedicated WordPress plugin, Wix app, Squarespace, or Webflow integration — Front Chat relies on the same generic embed snippet everywhere",
+    "The Shopify integration is comparatively shallow, surfacing order status but with no documented refund or cancellation action"
+  ],
+  "sentiment": [
+    {
+      "quote": "Shared inbox functionality is a game-changer, with excellent integrations and support.",
+      "source": "Capterra (Jay M., Director, Real Estate, 5/5)",
+      "url": "https://www.capterra.com/p/132901/Front/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "The price is a real problem because it's charged per user, which tends to be quite expensive.",
+      "source": "Capterra (Céline J., Content Manager, Consumer Services, 4/5)",
+      "url": "https://www.capterra.com/p/132901/Front/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Collaborative inboxes, internal comments, automating assignments and workflows — though advanced workflows require a steeper learning curve.",
+      "source": "Capterra (Jenna O., Digital Marketing, Marketing and Advertising, 5/5)",
+      "url": "https://www.capterra.com/p/132901/Front/reviews/",
+      "sentiment": "mixed"
+    },
+    {
+      "quote": "AI powered customer service and an accessible interface for non-technical users, though premium features require additional payment.",
+      "source": "Capterra (Kinjal V., Carer, Health & Wellness, 4/5)",
+      "url": "https://www.capterra.com/p/132901/Front/reviews/",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Teams whose support and sales communication is genuinely email-and-channel-heavy and who need real internal collaboration around it",
+    "Companies already using Salesforce or HubSpot that want deep, bidirectional CRM context inside every conversation",
+    "Mid-to-large teams with the budget to absorb per-seat pricing at scale and willing to pay separately for the AI features they need",
+    "Technical teams that want to build custom workflows on top of a mature public API and large integration library"
+  ],
+  "verdict": "Front earned its category-defining reputation honestly: the 2013 insight that a shared team inbox needed genuine internal collaboration built into the same thread the customer sees — not a bolted-on ticket system — still holds up as the product's clearest strength, and independent reviewers consistently confirm it. The CRM integrations back that up with real substance: bidirectional Salesforce and HubSpot sync is a level deeper than most competitors offer. Where I'd push back is the AI story specifically. Autopilot and Copilot are genuinely real capabilities, not marketing vaporware, but Autopilot's knowledge sources are narrower than they should be for a modern AI agent — no Confluence, no Notion, no Google Docs, no Slack, just Front's own knowledge base and past conversations — and independent analysis specifically flags that this produces more escalations than the vendor's cited 85% accuracy figure would suggest, because that figure measures topic categorization, not true resolution. Pricing is refreshingly transparent — every tier and add-on has a published number, a real point in Front's favor — but the strict per-seat model plus fully unbundled AI below Enterprise means the real cost for a growing team climbs faster than a ticket-based or flat-rate competitor's would, and reviewers say so directly and repeatedly. My honest read: if your team's actual workflow is genuinely collaborative email-and-channel communication and you're already invested in Salesforce or HubSpot, Front's core strength is worth the premium. If you're chiefly evaluating this for its AI agent, or your documentation lives in Notion or Confluence rather than Front itself, test Autopilot against your real content before assuming the marketed accuracy figure will hold.",
+  "rating": 4.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

@@ -35,6 +35,10 @@ no longer applies going forward.
 - [x] LiveChat
 - [x] Olark
 - [x] Tawk.to (retried solo — succeeded)
+- [x] Gladly
+- [x] Front
+- [x] Re:amaze (acquired by GoDaddy in 2021, noted in profile)
+- [x] Chaport (flagged as not genuine AI — rule-based chatbot builder, not LLM-based)
 
 ## Attempted, failed, not yet retried
 
@@ -42,7 +46,7 @@ no longer applies going forward.
 
 ## Remaining candidates (not yet started)
 
-Live Chat & Helpdesk: Gladly, Front, Re:amaze, Chaport, Userlike, LiveAgent
+Live Chat & Helpdesk: Userlike, LiveAgent
 
 WhatsApp / Omnichannel Messaging: Respond.io, SleekFlow, Trengo, Interakt,
 Wati, AiSensy, Yellow.ai, Twilio Flex, MessageBird (Bird), Zoko,

@@ -1,0 +1,164 @@
+{
+  "slug": "reamaze",
+  "name": "Re:amaze",
+  "logoUrl": "",
+  "website": "https://www.reamaze.com",
+  "tagline": "The GoDaddy-owned ecommerce helpdesk that writes and edits Shopify orders directly inside the chat window, priced to undercut the category's bigger names.",
+  "tldr": [
+    "Re:amaze is a multichannel helpdesk built specifically around ecommerce — email, live chat, SMS/MMS, social media, and voice unified in one inbox, with native Shopify, BigCommerce, WooCommerce, and Magento integrations at its core.",
+    "Founded in 2012 by David Feng, Heng Woon Ong, and Lu Wang, and acquired by GoDaddy in April 2021, where it now operates as a wholly-owned subsidiary.",
+    "Pricing is per-user and genuinely affordable relative to category peers: Basic $29/mo, Pro $49/mo, Plus $69/mo (roughly 10% cheaper billed annually), plus a flat-rate $59/mo Starter plan for unlimited team members capped at 500 conversations/month.",
+    "The AI Agent is trained on FAQ articles, response templates, custom context, and — distinctively — live Shopify and WooCommerce product and order data, with 5-20 AI resolutions included per user depending on tier and $0.85 for each additional resolution.",
+    "The Shopify and WooCommerce integrations go further than most competitors: agents (and the documentation implies, potentially the AI) can create or edit orders directly inside the chat interface, not just view them.",
+    "Best for small-to-mid ecommerce brands on Shopify, WooCommerce, BigCommerce, or Magento who want deep native commerce data at a lower price point than Gorgias or Gladly — not for teams needing deep Salesforce/HubSpot CRM sync, native multi-language support, or non-WordPress website-builder integrations."
+  ],
+  "categories": { "primary": "helpdesk-ticketing-automation", "secondary": ["ai-support-agents", "live-chat-shared-inbox"] },
+  "channels": ["Email", "Live Chat", "SMS/MMS", "Social Messaging", "Voice"],
+  "keyFeatures": [
+    "A knowledge-oriented AI Agent that pulls from FAQ articles, response templates, custom AI context, and live Shopify/WooCommerce product and order data to respond instantly",
+    "Native Shopify, BigCommerce, WooCommerce, and Magento integrations letting agents create or edit orders directly inside the chat interface, not just view them",
+    "Pre-built chatbots for FAQs, order-status lookups, and common ecommerce questions, alongside the ability to build custom chatbot flows",
+    "A single unified inbox spanning email, live chat, SMS/MMS, social media profiles, and voice",
+    "Live visitor view and live screensharing (Peek) on higher tiers for real-time, in-context support",
+    "Multi-brand management, department routing, staff performance reporting, and shift/vacation tracking on the Plus tier",
+    "Team collaboration tools including staff notes and a built-in 'simple CRM' view of customer conversation history",
+    "Broad Zapier connectivity reaching roughly 9,000 other apps, alongside a documented WordPress plugin with a Lightbox Widget"
+  ],
+  "companyInfo": {
+    "founded": "2012, by David Feng, Heng Woon Ong, and Lu Wang",
+    "hq": "Not independently confirmed in materials reviewed; operates as a wholly-owned GoDaddy subsidiary",
+    "funding": "Acquired by GoDaddy (NYSE: GDDY) in April 2021; no longer independently funded or valued",
+    "employees": "Not publicly disclosed separately from GoDaddy"
+  },
+  "faq": [
+    {
+      "question": "Is Re:amaze still an independent company?",
+      "answer": "No — Re:amaze was acquired by GoDaddy in April 2021 and now operates as a wholly-owned subsidiary. It still runs and markets under its own brand and pricing, but its long-term product direction sits under GoDaddy's ownership rather than an independent founder-led roadmap."
+    },
+    {
+      "question": "How does Re:amaze's AI Agent pricing work?",
+      "answer": "AI resolutions are included per user per month depending on tier — 5 on Basic, 10 on Pro, 20 on Plus — with each additional resolution beyond that allowance billed at $0.85. This is a comparable per-resolution rate to several competitors (Help Scout's $0.75, Intercom's $0.99), but bundled with a monthly allowance rather than a fully separate metered product."
+    },
+    {
+      "question": "How deep is the Shopify integration, really?",
+      "answer": "Deeper than most competitors: agents can create or edit Shopify orders directly inside the chat interface, not just view order status in a read-only sidebar. The AI Agent is also documented as pulling from live Shopify (and WooCommerce) product and order data as part of its training context, which is a meaningfully more commerce-aware foundation than a chatbot trained only on static FAQ content."
+    },
+    {
+      "question": "Does Re:amaze integrate with Salesforce or HubSpot?",
+      "answer": "Not natively in any depth we could confirm. Re:amaze includes a built-in 'simple CRM' — customer profiles and conversation history across channels — but this is positioned as a lighter, conversation-centric alternative to a pipeline-first CRM rather than a Salesforce or HubSpot sync. Teams needing deep CRM integration would likely need to route through Zapier."
+    },
+    {
+      "question": "Does Re:amaze support multiple languages?",
+      "answer": "Not natively as a built-in feature. We found translation handled through a Zapier integration (Translate by Zapier) rather than an automatic, built-in multi-language or auto-detection capability inside Re:amaze itself — a real gap versus competitors with native translation features."
+    },
+    {
+      "question": "How does Re:amaze compare to Gorgias on price?",
+      "answer": "Re:amaze is meaningfully cheaper at the entry level — $29/user/month (Basic) or a flat $59/month Starter plan for unlimited team members capped at 500 conversations — against Gorgias's ticket-based pricing that starts at $10/month but scales differently by volume rather than seats. For a small team with several agents and modest ticket volume, Re:amaze's per-user model is often the more predictable and affordable option."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Reviewers describe setup as easy with strong onboarding, though at least one review specifically criticized the live chat's back-end interface as clunky." },
+    { "dimension": "AI Quality", "score": 3, "note": "The AI Agent's training sources (FAQ content, templates, live Shopify/WooCommerce data) are genuinely commerce-aware, but there's no independently audited resolution-rate figure to verify real-world accuracy." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "A real unified inbox across email, live chat, SMS/MMS, social, and voice, tier-gated for the fuller channel set." },
+    { "dimension": "Pricing Value", "score": 4, "note": "Meaningfully more affordable than several enterprise-tier competitors (Gladly, Gorgias's higher tiers) at a comparable feature depth for ecommerce-focused teams." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "A small but strongly positive review base (4.8/5 across 53 Capterra reviews) with customer service specifically praised, though the sample size is modest compared to category leaders." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Email, live chat, SMS/MMS, social media profiles, and voice are all documented native channels, with voice gated to the Pro tier and above — a genuinely broad list for a tool at this price point." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Documented as managing 'email, live chat, social, SMS, and calls from a single inbox' — real unification, consistent with reviewer praise for multi-channel communication as a standout feature." },
+    { "key": "ai-availability", "score": 4, "note": "A genuine AI Agent trained on FAQ articles, response templates, custom context, and live Shopify/WooCommerce data — real capability beyond canned replies, though scored one point below the category's most agentic implementations given the lack of documented multi-step action-taking beyond order edits." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Re:amaze's AI Agent, and no vendor-published headline percentage was found either — genuinely unverifiable in either direction, scored conservatively." },
+    { "key": "ai-training-method", "score": 4, "note": "Documented as pulling automatically from FAQ articles, response templates, custom AI context, and live Shopify/WooCommerce product and order data — genuine automatic learning from multiple real business-data sources." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms (source citation, confidence thresholds) beyond the AI being scoped to the knowledge sources it's trained on." },
+    { "key": "automation-depth", "score": 3, "note": "Workflow automation and both pre-built and custom chatbot flows are documented — real automation depth, though without the level of multi-step agentic action detail some competitors publish." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation was found of real-time sentiment or urgency detection during an active conversation." },
+    { "key": "unified-inbox", "score": 4, "note": "A single inbox spans all connected channels with shared customer context, consistent with reviewer praise for the multi-channel experience." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation was found describing an explicit AI-to-human escalation trigger or confidence threshold." },
+    { "key": "internal-collaboration", "score": 3, "note": "Team collaboration and staff notes are documented features, and department management and custom roles arrive on the Plus tier, but no specific @mentions feature was confirmed in the materials reviewed." },
+    { "key": "canned-responses", "score": 4, "note": "Response templates are a documented feature and, distinctively, also double as an AI training source, similar in spirit to how a knowledge base article can serve both a human and an AI reader." },
+    { "key": "integration-shopify", "score": 5, "note": "A genuinely deep integration: agents can create or edit Shopify orders directly inside the chat interface, and the AI Agent draws on live Shopify product and order data — a materially stronger write-access implementation than most competitors' read-only sidebars." },
+    { "key": "integration-woocommerce", "score": 4, "note": "Documented as a native integration with real order/product data access comparable in spirit to the Shopify integration, though slightly less explicitly detailed in available materials." },
+    { "key": "integration-wordpress", "score": 4, "note": "A documented, dedicated WordPress plugin deploys a standard Lightbox Widget on the site — a genuine native integration rather than a generic embed workaround." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found in the materials reviewed." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 4, "note": "A notably broad Zapier integration reaching roughly 9,000 other apps — genuinely strong no-code reach, though no dedicated Make or n8n integration was confirmed." },
+    { "key": "integration-crm", "score": 2, "note": "Re:amaze includes a built-in 'simple CRM' (customer profiles and cross-channel history) but no confirmed native Salesforce or HubSpot sync — deeper CRM connectivity would need to route through Zapier." },
+    { "key": "order-payment-data-access", "score": 4, "note": "Real, documented order-editing capability via the Shopify and WooCommerce integrations — agents can create or edit orders directly, a genuinely strong implementation, though not independently confirmed as extending to full payment/refund processing." },
+    { "key": "multi-language-support", "score": 2, "note": "No native, built-in multi-language or auto-translation feature was found; translation is handled through a third-party Zapier integration (Translate by Zapier) rather than a feature inside Re:amaze itself." },
+    { "key": "analytics-depth", "score": 3, "note": "Basic reporting ships on Basic, advanced reporting arrives at Pro, and staff performance reporting is added at Plus — real, tiered depth, though not independently benchmarked against category leaders' reporting suites." },
+    { "key": "pricing-transparency", "score": 4, "note": "All tiers, the flat-rate Starter plan, and the per-resolution AI overage rate ($0.85) are clearly published on the pricing page — genuinely transparent, with a no-credit-card 14-day trial as a further positive signal." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "Broad Zapier reach (9,000+ apps) provides substantial no-code extensibility, though no detailed native public API or webhook-event documentation was confirmed in the materials reviewed." }
+  ],
+  "pricing": {
+    "model": "Per-user tiered SaaS with a flat-rate entry option, plus a per-resolution AI overage fee",
+    "startingPrice": "$29/mo (Basic, per user) or $59/mo flat (Starter, unlimited team members, 500 conversations/mo cap)",
+    "plans": [
+      { "name": "Starter", "price": "$59/mo flat", "billing": "Monthly", "notes": "Basic-plan features for unlimited team members, capped at 500 responded conversations/month — positioned for early-stage businesses." },
+      { "name": "Basic", "price": "$29/mo/user ($26.10 annual)", "billing": "Per user, monthly or annual", "notes": "Unlimited email inboxes, live chat, social channels, FAQ, workflow automation, chatbots, basic reporting, AI Agent with 5 resolutions/user/mo included." },
+      { "name": "Pro", "price": "$49/mo/user ($44.10 annual)", "billing": "Per user, monthly or annual", "notes": "Adds multi-brand management, live visitor view, advanced reporting, SMS and voice channels, custom domain, 10 AI resolutions/user/mo included." },
+      { "name": "Plus", "price": "$69/mo/user ($62.10 annual)", "billing": "Per user, monthly or annual; 'most popular'", "notes": "Adds live screensharing (Peek), department management, staff performance reporting, shift tracking, custom roles, in-chat video, CSAT ratings, 20 AI resolutions/user/mo included." },
+      { "name": "AI resolutions (overage)", "price": "$0.85/resolution", "billing": "Usage-based, beyond the plan's included allowance", "notes": "Applies across all per-user tiers once the monthly included allowance is used." }
+    ]
+  },
+  "pricingBreakdown": "Re:amaze is priced to undercut its closest ecommerce-focused peers meaningfully. A 5-agent team on Basic pays $145/month ($130.50 annual) — well under Gladly's reported enterprise minimums and comparable to or cheaper than Gorgias's mid-tier ticket-based plans for similar volume. The flat-rate $59/month Starter plan is a genuinely distinctive option for a very early-stage business: unlimited team members for one flat price, with the tradeoff being a hard 500-conversation monthly cap rather than a per-seat structure. AI pricing follows the category-standard per-resolution overage model ($0.85, similar to Help Scout's $0.75 and cheaper than Intercom's $0.99), bundled with a modest included allowance that scales by tier (5 to 20 resolutions per user). The most important thing to model before committing is plan-to-plan feature jumps: several reviewers specifically flag noticeable capability gaps between tiers (voice and SMS gated to Pro, screensharing and CSAT gated to Plus), so price out the tier that actually has the features you need rather than assuming Basic covers what the marketing page's headline features imply.",
+  "capabilities": [
+    { "area": "Ecommerce Integration", "note": "This is Re:amaze's strongest, most distinctive capability: native Shopify, BigCommerce, WooCommerce, and Magento integrations that let agents create or edit orders directly inside the chat window, not just view them read-only. The AI Agent's training data includes live product and order information from these platforms, which is a genuinely more commerce-aware foundation than a chatbot trained only on static help-center content." },
+    { "area": "Unified Multichannel Inbox", "note": "Email, live chat, SMS/MMS, social media, and voice (Pro+) all land in one inbox, and reviewers consistently name multi-channel communication as a reason they picked Re:amaze. It's a real, working implementation rather than a marketing claim, though voice and some channels are tier-gated." },
+    { "area": "AI Agent & Chatbots", "note": "Trained on FAQ content, response templates, custom context, and live commerce data, with both pre-built and custom chatbot flows available. What's missing from public documentation is any independently verified resolution-rate figure or detailed hallucination-safeguard mechanism — treat vendor claims here with the same skepticism you'd apply to any unaudited AI performance figure." },
+    { "area": "CRM & Multi-Language", "note": "Two genuine gaps worth flagging directly. There's no confirmed native Salesforce or HubSpot integration — only a built-in 'simple CRM' view of conversation history — and no native multi-language or auto-translation capability; translation runs through a third-party Zapier integration rather than a built-in feature. Teams with either requirement should test these specifically before committing." },
+    { "area": "Pricing & Accessibility", "note": "Genuinely affordable and transparent relative to enterprise-tier competitors, with a distinctive flat-rate Starter plan for very small, early-stage teams. The tradeoff reviewers flag is real feature jumps between tiers — voice, SMS, screensharing, and CSAT ratings are all gated progressively, so the entry-level price doesn't buy the full feature set shown on the marketing page." }
+  ],
+  "pros": [
+    "Genuinely deep native ecommerce integrations (Shopify, BigCommerce, WooCommerce, Magento) with real order-editing capability, not just read-only order status",
+    "Meaningfully more affordable than several enterprise-tier competitors at comparable feature depth for ecommerce-focused teams",
+    "A distinctive flat-rate Starter plan for unlimited team members, well suited to very early-stage businesses with modest conversation volume",
+    "Broad Zapier connectivity (roughly 9,000 apps) plus a dedicated, real WordPress plugin",
+    "A strongly positive, if modestly sized, independent review base (4.8/5 across 53 Capterra reviews) with customer service specifically praised"
+  ],
+  "cons": [
+    "No confirmed native Salesforce or HubSpot integration — only a built-in 'simple CRM' rather than genuine pipeline-CRM sync",
+    "No native multi-language or auto-translation capability; translation relies on a third-party Zapier integration rather than a built-in feature",
+    "No independently audited AI resolution-rate figure exists to verify the AI Agent's real-world accuracy claims",
+    "Real feature gaps between pricing tiers (voice, SMS, screensharing, CSAT ratings all progressively gated) mean the entry-level price doesn't include the full feature set shown in marketing materials",
+    "No dedicated Wix, Squarespace, or Webflow integration — only WordPress has a confirmed native plugin"
+  ],
+  "sentiment": [
+    {
+      "quote": "A lot of features for a good price.",
+      "source": "Capterra (Ian M., Head of Product, Internet, 5/5)",
+      "url": "https://www.capterra.com/p/132952/Reamaze/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "The backed interface for the live chat is awful.",
+      "source": "Capterra (Matt M., Founder, Marketing, 3/5)",
+      "url": "https://www.capterra.com/p/132952/Reamaze/reviews",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Great product! Highlighted multi-channel communication and Shopify integration as standout features.",
+      "source": "Capterra (Christopher B., COO, Sporting Goods, 5/5)",
+      "url": "https://www.capterra.com/p/132952/Reamaze/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Easy to setup and very powerful, though noted pricing jumps between plans.",
+      "source": "Capterra (Rohin S., Digital Project Manager, Retail, 5/5)",
+      "url": "https://www.capterra.com/p/132952/Reamaze/reviews",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Small-to-mid ecommerce brands on Shopify, WooCommerce, BigCommerce, or Magento wanting real order-editing capability inside the chat window",
+    "Early-stage businesses that want the flat-rate Starter plan's unlimited-team-member structure at a fixed monthly cost",
+    "Budget-conscious teams that want ecommerce-focused helpdesk depth without Gorgias's or Gladly's enterprise pricing",
+    "Teams already comfortable using Zapier to bridge CRM or translation gaps rather than needing them natively built in"
+  ],
+  "verdict": "Re:amaze earns a genuinely strong recommendation for exactly the buyer it's built for: a small-to-mid ecommerce team on Shopify or WooCommerce that wants real commerce data — and real order-editing capability, not just a read-only sidebar — inside the same window agents are already answering messages from. That depth, combined with a unified inbox spanning email, chat, SMS, social, and voice, at a price meaningfully below Gorgias's or Gladly's higher tiers, is a genuinely compelling package, and the review record backs it up (4.8/5, though on a comparatively modest 53-review sample). The AI Agent follows the same commerce-aware pattern as the rest of the product, training on live Shopify and WooCommerce data alongside FAQ content — a real, sensible foundation, even though there's no independently audited resolution-rate figure to verify how well it performs against that foundation in practice. Where I'd flag real gaps: there's no confirmed native Salesforce or HubSpot integration, just a lighter built-in 'simple CRM,' and multi-language support isn't native at all — you're routing through Zapier's translation tool rather than getting auto-detection built in. GoDaddy's 2021 acquisition is also worth knowing about, less because it's changed anything specific in the product and more because it means Re:amaze's roadmap now sits inside a much larger company's priorities rather than an independent founder's. My honest read: if you're ecommerce-first, budget-conscious, and don't need deep CRM or multi-language support, Re:amaze is one of the stronger value picks in this category. If either of those gaps matters to your operation, price out a more CRM- or language-complete alternative before committing.",
+  "rating": 4.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

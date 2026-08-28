@@ -1,0 +1,148 @@
+{
+  "slug": "cognigy",
+  "name": "Cognigy (acquired by NICE — now NiCE Cognigy)",
+  "logoUrl": "",
+  "website": "https://www.cognigy.com",
+  "tagline": "A Düsseldorf-built, voice-first enterprise conversational AI platform acquired by NICE for ~$955M in 2025 — genuinely excellent reviews, best-in-class API extensibility, and real payment-processing capability, built for large contact centers rather than SMB storefronts.",
+  "tldr": [
+    "Cognigy was founded in 2016 in Düsseldorf, Germany by Philipp Heltewig, Sascha Poggemann, and Benjamin Mayr, raised approximately $165M across five rounds (including a $100M Series C in June 2024), and was acquired by contact-center giant NICE Ltd. for approximately $955M in a deal announced July 2025 — it now operates as 'NiCE Cognigy,' a healthy, well-funded strategic acquisition rather than a distressed sale.",
+    "The platform has genuine voice/IVR-first roots, with dedicated telephony extensions for Amazon Connect, Avaya, AudioCodes, Twilio, Vonage, Sipgate, and 8x8, alongside website chat, WhatsApp, and other social channels via Sunshine Conversations.",
+    "A direct code search of Cognigy's official, open-source extensions repository confirms comprehensive CRM/helpdesk integrations — Salesforce, Salesforce Service Cloud, Microsoft Dynamics, Zendesk, Freshdesk, Freshsales, HubSpot, ServiceNow, and SAP C4C — but confirms no native Shopify, WooCommerce, WordPress, Wix, Squarespace, or Webflow connector exists.",
+    "A genuinely substantive Stripe extension gives Cognigy-built agents real payment capability: looking up invoices and payment methods, creating payment intents, and processing refunds directly — a level of financial-transaction depth uncommon in this category.",
+    "Multi-language support is a real, well-documented differentiator: custom NLU models for 20+ languages plus a 'Universal Locale' feature using cross-lingual transfer to map intents across 100+ languages from training data in a single language.",
+    "Independent reviews are genuinely excellent (Capterra: 4.8/5 across 23 reviews; G2: approximately 4.6/5) with no serious complaint patterns found — criticism centers on ordinary enterprise-SaaS friction like a steep learning curve, documentation gaps, and pricing opacity rather than fraud, lockouts, or hostile support."
+  ],
+  "categories": { "primary": "ai-support-agents", "secondary": ["ai-chatbots"] },
+  "channels": ["Voice/IVR", "Website Chat", "WhatsApp", "Facebook Messenger", "Other Social (via Sunshine Conversations)"],
+  "keyFeatures": [
+    "Deep, historically-rooted voice/IVR capability with dedicated telephony extensions for Amazon Connect, Avaya, AudioCodes, Twilio, Vonage, Sipgate, and 8x8",
+    "'Flows' — a visual, node-based drag-and-drop workflow builder consistently praised in independent reviews as intuitive despite the platform's underlying depth",
+    "'Knowledge AI' — built-in Retrieval-Augmented Generation over uploaded documents and FAQs, with support for connecting third-party RAG systems",
+    "A published, documented hallucination-mitigation approach using relevance/distance scoring, source citations, and transparency metadata",
+    "A dedicated 'Handover to Human Agent' node that preserves conversation context, intent, and authentication status on transfer",
+    "'Cognigy Live Agent' — a full omnichannel human-agent workspace with skill/availability-based routing and canned replies",
+    "'Cognigy Insights' — real-time customizable dashboards, a 'Step Explorer' for conversation drop-off analysis, a business-metrics 'Goals Dashboard,' and an OData interface for external BI tools",
+    "A genuinely open, developer-first extensibility layer: a documented REST API, a webhook endpoint node, an official JavaScript/TypeScript REST client, and a full Extensions SDK for custom nodes"
+  ],
+  "companyInfo": {
+    "founded": "2016, Düsseldorf, Germany, by Philipp Heltewig (CEO), Sascha Poggemann, and Benjamin Mayr",
+    "hq": "Düsseldorf, Germany, with additional offices in London, San Francisco, Sydney, Seoul, Tokyo, Dubai, and Málaga",
+    "funding": "Approximately $165M raised across five rounds prior to acquisition, including a $44M Series B (May 2021, led by Insight Partners), a $15M Series B extension (Feb 2022), and a $100M Series C (June 2024, led by Eurazeo Growth). Acquired by NICE Ltd. for approximately $955M in a deal announced July 2025; a pre-acquisition valuation estimate of $400-500M circulated in some sources but could not be independently confirmed.",
+    "employees": "Sources conflict, likely due to differing collection dates — estimates range roughly 300-360 as of 2026, with older aggregator data showing lower, stale figures"
+  },
+  "faq": [
+    {
+      "question": "Is Cognigy still an independent company?",
+      "answer": "No — NICE Ltd., a major contact-center and CX software company, acquired Cognigy for approximately $955M in a deal announced July 2025, and it now operates as 'NiCE Cognigy.' Unlike some other acquisitions covered in this category, this reads as a healthy, well-funded strategic acquisition by an established industry player rather than a distressed sale, and NiCE's own recent release notes suggest continued, active investment in the product (including deeper native NICE integration)."
+    },
+    {
+      "question": "Is Cognigy good for voice and IVR use cases specifically?",
+      "answer": "Yes — this is Cognigy's historical strength and a genuine differentiator. It has dedicated telephony extensions for Amazon Connect, Avaya, AudioCodes, Twilio, Vonage, Sipgate, and 8x8, and markets itself around 'the complete spectrum of voice use cases, from conversational IVR, self-service, and outbound calling to agent assist and real-time translation on voice.'"
+    },
+    {
+      "question": "Does Cognigy integrate with Shopify or other ecommerce platforms?",
+      "answer": "No — a direct code search of Cognigy's official, open-source extensions repository confirms no native Shopify, WooCommerce, WordPress, Wix, Squarespace, or Webflow connector exists. It does support BigCommerce and commercetools natively. A business could theoretically build a custom connector via Cognigy's generic REST/webhook nodes, but there's no prebuilt, out-of-the-box integration for the major SMB ecommerce/CMS platforms."
+    },
+    {
+      "question": "Can Cognigy actually process payments or refunds?",
+      "answer": "Yes, genuinely — its official Stripe extension exposes real flow nodes for getting and creating customers, retrieving payment methods, getting and paying invoices, creating payment intents, retrieving products and charges, and creating refunds. This is a substantive, verified capability, uncommon in depth for this category."
+    },
+    {
+      "question": "How much does Cognigy cost?",
+      "answer": "Cognigy has never published pricing — it's a fully enterprise, sales-quote-only model. Third-party estimates (which we could not verify against any primary source) suggest typical annual contracts starting around $300,000, with one estimate citing an average around $115,000 and a maximum around $350,000. At least one reviewer directly described the pricing model as 'too expensive for SMBs,' consistent with its enterprise-only positioning."
+    },
+    {
+      "question": "What do independent reviews say about Cognigy?",
+      "answer": "Genuinely excellent — Capterra shows 4.8/5 across 23 verified reviews and G2 shows approximately 4.6/5. Reviewers repeatedly praise the intuitive Flows builder, powerful NLU, and strong support/training, while criticism centers on a steep learning curve for advanced JavaScript/API-level customization, documentation gaps, and a reporting dashboard some technical reviewers consider basic or outdated relative to competitors — ordinary enterprise-SaaS friction, not fraud, lockouts, or hostile support."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Independent reviewers consistently praise the intuitive, node-based Flows builder as approachable despite the platform's underlying enterprise depth, though advanced customization requires real JavaScript/API skills." },
+    { "dimension": "AI Quality", "score": 4, "note": "A genuinely deep agentic architecture (Knowledge AI RAG, a documented hallucination-mitigation methodology, and an open Extensions SDK) backed by strong, well-documented multilingual NLU." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "Genuine, historically-rooted voice/IVR strength with dedicated telephony extensions, plus website chat and social channels via Sunshine Conversations, though native SMS/email connectors weren't specifically confirmed." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Fully enterprise, sales-quote-only with no public pricing, and at least one reviewer directly described it as too expensive for SMBs — consistent with its enterprise-only positioning." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "Independent reviewers repeatedly praise training and support quality, with no evidence of the serious complaint patterns (billing fraud, lockouts, hostile support) found for other tools in this category." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Genuine, historically-rooted voice/IVR strength with dedicated telephony extensions (Amazon Connect, Avaya, AudioCodes, Twilio, Vonage, Sipgate, 8x8), plus website chat and social channels via Sunshine Conversations; native SMS/email connectors weren't specifically confirmed beyond general omnichannel messaging claims." },
+    { "key": "omnichannel-unification", "score": 3, "note": "The Cognigy Live Agent workspace provides real omnichannel routing, though at least one reviewer noted it 'lacks built-in human agent feature; requires external system integration' in some deployment configurations." },
+    { "key": "ai-availability", "score": 5, "note": "A genuinely deep agentic architecture combining the Flows visual builder, Knowledge AI (RAG), and a full open Extensions SDK — comprehensive and developer-capable." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure exists for Cognigy's AI agents." },
+    { "key": "ai-training-method", "score": 4, "note": "'Knowledge AI' provides confirmed, built-in RAG over uploaded documents and FAQs, with documented support for connecting third-party RAG systems — a real, substantive ingestion pipeline." },
+    { "key": "hallucination-controls", "score": 4, "note": "Cognigy publishes a specific, documented guardrail methodology — relevance/distance scoring, source citations, and transparency metadata — a genuine technical approach rather than vague marketing language." },
+    { "key": "automation-depth", "score": 5, "note": "The 'Flows' node-based visual builder is consistently and repeatedly praised across independent reviews as both powerful and approachable — a genuine strength." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No specific, independently confirmed sentiment or intent-detection reporting feature was found beyond the general analytics suite." },
+    { "key": "unified-inbox", "score": 3, "note": "The Cognigy Live Agent workspace provides skill and availability-based routing across channels, though at least one reviewer flagged gaps requiring external system integration in some setups." },
+    { "key": "ai-human-handoff", "score": 4, "note": "A dedicated, specifically documented 'Handover to Human Agent' node preserves conversation context, intent, and authentication status on transfer — a concrete, well-specified mechanism." },
+    { "key": "internal-collaboration", "score": 3, "note": "The Live Agent workspace supports skill/availability-based routing and canned replies, though at least one reviewer described built-in human-agent collaboration as requiring external system integration in some deployments." },
+    { "key": "canned-responses", "score": 3, "note": "Confirmed as a feature of the Cognigy Live Agent workspace." },
+    { "key": "integration-shopify", "score": 1, "note": "A direct code search of Cognigy's official, open-source extensions repository confirms no native Shopify connector exists." },
+    { "key": "integration-woocommerce", "score": 1, "note": "Confirmed absent via direct code search of the official extensions repository." },
+    { "key": "integration-wordpress", "score": 1, "note": "Confirmed absent via direct code search of the official extensions repository." },
+    { "key": "integration-wix", "score": 1, "note": "Confirmed absent via direct code search of the official extensions repository." },
+    { "key": "integration-squarespace", "score": 1, "note": "Confirmed absent via direct code search of the official extensions repository." },
+    { "key": "integration-webflow", "score": 1, "note": "Confirmed absent via direct code search of the official extensions repository." },
+    { "key": "integration-automation-platforms", "score": 1, "note": "No native Zapier or Make connector was found in Cognigy's official extensions repository; third-party claims of such integrations could not be verified against primary documentation." },
+    { "key": "integration-crm", "score": 5, "note": "A direct code search of Cognigy's official extensions repository confirms comprehensive, genuinely verified integrations: Salesforce, Salesforce Service Cloud, Microsoft Dynamics, Zendesk, Zendesk Sell, Freshdesk, Freshsales, HubSpot, ServiceNow, and SAP C4C." },
+    { "key": "order-payment-data-access", "score": 5, "note": "A genuinely substantive, verified Stripe extension provides real payment capability: customer and payment-method lookup, invoice retrieval and payment, payment-intent creation, charge retrieval, and refund creation — a level of financial-transaction depth uncommon in this category." },
+    { "key": "multi-language-support", "score": 5, "note": "Custom-built NLU models for 20+ languages with advanced intent/slot detection, plus a documented 'Universal Locale' feature using cross-lingual transfer to map intents across 100+ languages — a genuinely differentiated, well-documented capability." },
+    { "key": "analytics-depth", "score": 3, "note": "'Cognigy Insights' provides real-time dashboards, drop-off analysis, and an OData interface for BI tools, though multiple independent reviewers specifically describe the reporting dashboard as basic, outdated, or limited in customization relative to competitors." },
+    { "key": "pricing-transparency", "score": 1, "note": "Fully enterprise, sales-quote-only with no public pricing anywhere, and at least one reviewer directly described it as too expensive for SMBs." },
+    { "key": "api-webhook-extensibility", "score": 5, "note": "A genuinely excellent developer platform: a documented REST API, a webhook endpoint node, an official JavaScript/TypeScript REST client, and a full, openly inspectable Extensions SDK underlying the entire integration catalog." }
+  ],
+  "pricing": {
+    "model": "Enterprise sales-quote only; no public pricing exists",
+    "startingPrice": "Not publicly disclosed",
+    "plans": [
+      { "name": "Enterprise (only tier)", "price": "Custom quote", "billing": "Custom/Annual", "notes": "Third-party estimates (unverified) suggest typical annual contracts starting around $300,000, with one source citing an average around $115,000 and a maximum around $350,000." }
+    ]
+  },
+  "pricingBreakdown": "Cognigy has never published pricing and operates on a fully enterprise, sales-quote-only model — consistent across every source we checked. Third-party estimates, which we could not verify against any Cognigy-published figure, suggest typical annual contracts commonly starting around $300,000, with one source citing figures ranging from an average around $115,000 to a maximum around $350,000. At least one independent reviewer directly stated the pricing model is 'too expensive for SMBs,' which is consistent with — and arguably an honest reflection of — Cognigy's deliberate enterprise-only positioning rather than a deceptive pricing practice. If your organization is smaller than a large enterprise contact center, budget accordingly or expect this platform to be out of reach; if you fit the enterprise profile, expect a substantial negotiated sales cycle rather than a self-serve rate card.",
+  "capabilities": [
+    { "area": "Genuine Voice/IVR Depth", "note": "This is Cognigy's most historically rooted and consistently validated strength — dedicated telephony extensions spanning Amazon Connect, Avaya, AudioCodes, Twilio, Vonage, Sipgate, and 8x8 give it real credibility for contact-center voice automation that many chat-first competitors in this category simply don't have." },
+    { "area": "Verified Payment Capability", "note": "Worth highlighting specifically: a direct inspection of Cognigy's official Stripe extension confirms real, substantive payment-processing nodes — invoice lookup, payment-intent creation, and refund processing — a level of genuine financial-transaction depth that's rare in this category and goes well beyond a typical 'order status lookup' integration." },
+    { "area": "The SMB Ecommerce Gap", "note": "Directly confirmed via code search rather than inference: no native Shopify, WooCommerce, WordPress, Wix, Squarespace, or Webflow connector exists in Cognigy's official extension catalog. This reflects Cognigy's enterprise-contact-center focus rather than a quality gap — a business on one of these platforms should look elsewhere for native support, not assume Cognigy will fit." },
+    { "area": "A Healthy, Not Distressed, Acquisition", "note": "Worth contrasting explicitly with some other transitions covered in this category: NICE's ~$955M acquisition of Cognigy in 2025 reads as a well-funded strategic move by an established, major CX company, with recent release notes suggesting continued active investment (including deeper native NICE integration) rather than a wind-down or distressed sale." },
+    { "area": "Reporting Depth vs. Reviewer Expectations", "note": "Cognigy Insights is a real, documented analytics suite, but multiple independent, technically sophisticated reviewers specifically describe the reporting dashboard as basic or outdated relative to competitors — a genuine gap between the marketed feature set and day-to-day reporting experience worth flagging directly." }
+  ],
+  "pros": [
+    "Genuine, historically-rooted voice/IVR strength with dedicated telephony extensions across major CCaaS/PBX providers",
+    "A verified, substantive Stripe payment extension enabling real invoice lookup, payment-intent creation, and refund processing",
+    "Comprehensive, directly-verified CRM/helpdesk integrations (Salesforce, Dynamics, Zendesk, Freshdesk, HubSpot, ServiceNow, SAP C4C)",
+    "Genuinely differentiated multilingual NLU, including cross-lingual intent transfer across 100+ languages",
+    "Excellent, consistent independent review sentiment (Capterra: 4.8/5, G2: ~4.6/5) with no serious complaint patterns found, plus a healthy, well-funded acquisition by NICE rather than a distressed transition"
+  ],
+  "cons": [
+    "No native Shopify, WooCommerce, WordPress, Wix, Squarespace, or Webflow integration exists, confirmed via direct code inspection",
+    "No public pricing anywhere — a fully enterprise, sales-quote-only model reviewers describe as too expensive for SMBs",
+    "No native Zapier or Make integration confirmed in official documentation",
+    "Multiple independent, technically sophisticated reviewers describe the reporting dashboard as basic or outdated relative to competitors",
+    "A steep learning curve for advanced customization requiring real JavaScript/API-level skills"
+  ],
+  "sentiment": [
+    {
+      "quote": "Easy to get started... allows for both simple and efficient implementations.",
+      "source": "Capterra (Skyla F., Application Administrator, IT & Services)",
+      "url": "https://www.capterra.com/p/174318/Cognigy-AI/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Pricing model too expensive for SMBs.",
+      "source": "Capterra (Verified Reviewer, Product Manager, Computer Software)",
+      "url": "https://www.capterra.com/p/174318/Cognigy-AI/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Large enterprise contact centers needing genuine voice/IVR automation across major CCaaS and telephony providers",
+    "Organizations needing real payment-processing capability (invoice lookup, refunds) built directly into an AI agent",
+    "Global businesses needing genuinely strong, differentiated multilingual NLU across 100+ languages",
+    "Enterprises already standardized on Salesforce, Zendesk, Dynamics, or ServiceNow wanting deep native integration"
+  ],
+  "verdict": "Cognigy is a genuinely strong platform for the enterprise contact center it's built for, and its acquisition by NICE for roughly $955M in 2025 — now operating as NiCE Cognigy — reads as a healthy, well-funded strategic move rather than the kind of distressed transition we've flagged for other tools in this category. Its voice/IVR roots are real and well-documented, with dedicated telephony extensions spanning the major CCaaS and PBX providers, and its Stripe integration gives it a genuinely uncommon level of payment-processing depth — invoice lookup, payment-intent creation, and refund processing — verified directly by inspecting the extension's code rather than taking marketing claims at face value. Multi-language support is a real differentiator too, with cross-lingual intent transfer covering 100+ languages from single-language training data. Independent reviews back all of this up convincingly: 4.8/5 on Capterra and roughly 4.6/5 on G2, with no serious complaint patterns anywhere we could verify. Where the rubric scores drop sharply, it's worth being direct that this reflects who Cognigy isn't built for, not a quality failure: a direct code search of its official extensions repository confirms no native Shopify, WooCommerce, WordPress, Wix, Squarespace, or Webflow integration exists, and pricing is fully enterprise, sales-quote-only, with at least one reviewer explicitly calling it too expensive for SMBs. If you're a large enterprise contact center — especially one with real voice/IVR volume and an existing Salesforce, Zendesk, Dynamics, or ServiceNow deployment — Cognigy is one of the more technically credible, well-reviewed platforms in this category. If you're running an SMB ecommerce storefront, look elsewhere.",
+  "rating": 4.2,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

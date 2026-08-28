@@ -1,0 +1,150 @@
+{
+  "slug": "bird",
+  "name": "Bird (formerly MessageBird)",
+  "logoUrl": "",
+  "website": "https://bird.com",
+  "tagline": "A once-$800M-funded Dutch omnichannel giant that rebranded from MessageBird to Bird in 2024, cut prices to undercut Twilio, then cut 120 jobs a year later — with real, documented complaints about accounts being blocked without notice.",
+  "tldr": [
+    "MessageBird was founded in 2011 in Amsterdam, went through Y Combinator's 2016 batch, raised over $800M (including a 2021 round backing a $600M SparkPost acquisition), and rebranded to 'Bird' in February 2024 with aggressive price cuts specifically positioned to undercut Twilio.",
+    "The rebrand hasn't been friction-free: Bird reportedly cut 120 jobs in a February 2025 'strategic realignment,' and the product itself has repositioned multiple times — from SMS API tool, to omnichannel platform, to conversational AI, to CRM — which reviewers describe as genuinely overwhelming to navigate.",
+    "Pricing runs three tiers: Pay-as-you-go from $0 (per-message billing, e.g. ~$0.0033/outbound US SMS), a Bundle plan from 50,000 contacts, and custom Enterprise — with per-channel usage pricing across Email, SMS, WhatsApp, Push, RCS, and workflow ('Flow') invocations, and WhatsApp carrying both Bird's own processing fees and Meta's passthrough costs on top.",
+    "AI Agents are genuinely capable on paper — collecting details, qualifying leads, updating CRM lifecycle stages, filtering spam, and triggering actions in connected business systems — built on OpenAI integration with a no-code visual workflow builder.",
+    "The most serious documented concern is operational, not just financial: multiple independent reviewers report accounts being blocked with no prior notice or explanation, causing real business disruption, alongside separate complaints that prices are effectively hidden and real charges run higher than advertised.",
+    "Best for larger organizations that need genuinely broad omnichannel reach and can absorb real platform-stability risk — not for small businesses needing predictable pricing or dependable account continuity, given the documented complaint pattern."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["SMS", "Voice", "WhatsApp", "WeChat", "Facebook Messenger", "Instagram", "Email", "Push"],
+  "keyFeatures": [
+    "AI Agents built on OpenAI integration that collect customer details, qualify leads, update CRM lifecycle stages, filter spam, and trigger actions in connected business systems",
+    "A no-code visual workflow builder with pre-built templates for drag-and-drop chatbot and automation design across channels",
+    "Bird CRM — the company's own CRM layer for managing customer communication history alongside contact and lifecycle data",
+    "Shopify synchronization to coordinate messaging actions with store activity",
+    "Native support across SMS, voice, WhatsApp, WeChat, Messenger, Instagram, email, and push notifications from one platform",
+    "Per-channel usage-based pricing with granular metering across Email, SMS, WhatsApp, Push, RCS, and workflow ('Flow') invocations",
+    "Local-number messaging across many countries, inherited from MessageBird's original SMS-gateway heritage",
+    "Enterprise email deliverability infrastructure via the 2021 SparkPost acquisition, now integrated into the broader platform"
+  ],
+  "companyInfo": {
+    "founded": "2011, Amsterdam, Netherlands; participated in Y Combinator's Summer 2016 batch",
+    "hq": "Amsterdam, Netherlands",
+    "funding": "$800M+ raised total, including a 2021 round backing a $600M acquisition of email company SparkPost; rebranded from MessageBird to Bird in February 2024 alongside aggressive price cuts, then reportedly cut 120 jobs in a February 2025 restructuring",
+    "employees": "Not currently disclosed; reports 15,000+ customers across 170+ countries"
+  },
+  "faq": [
+    {
+      "question": "Why did MessageBird become Bird?",
+      "answer": "The company rebranded in February 2024, explicitly positioning the new pricing to undercut U.S. rival Twilio by cutting SMS costs by as much as 90% in some comparisons. The rebrand also reflected a broader repositioning — the product has moved from a pure SMS API tool toward a full omnichannel and, more recently, CRM platform, a shift reviewers describe as genuinely confusing to navigate given how much the product's scope has changed."
+    },
+    {
+      "question": "What is the most serious concern about using Bird?",
+      "answer": "Independent reviewers report a specific, serious operational risk: accounts being blocked with no prior notice or explanation, causing real business disruption when connected services suddenly stop working. This is a more severe class of complaint than a typical pricing or feature gripe, and worth investigating directly with current references before relying on Bird for business-critical communications."
+    },
+    {
+      "question": "Is Bird's pricing actually cheaper than Twilio?",
+      "answer": "The 2024 rebrand specifically marketed lower per-message rates, and the pay-as-you-go SMS pricing (roughly $0.0033/outbound US message) is genuinely competitive. However, independent reviewers separately report that prices are effectively hidden and that real charges run higher than what was advertised — so the headline rate cuts don't necessarily translate to a lower or more predictable real bill. Get exact terms in writing rather than assuming the rebrand's marketing claims apply to your specific usage pattern."
+    },
+    {
+      "question": "How stable is Bird as a company right now?",
+      "answer": "There are real signals of ongoing change worth factoring in: a full rebrand and pricing overhaul in 2024, followed by a reported 120-person layoff in a February 2025 'strategic realignment.' Combined with a product that has repositioned multiple times (SMS tool, then omnichannel, then conversational AI, then CRM), this suggests a company still actively finding its footing rather than a settled, mature platform."
+    },
+    {
+      "question": "What can Bird's AI Agents actually do?",
+      "answer": "Genuinely real capability on paper: built on OpenAI integration, they can collect customer details, qualify leads, update CRM lifecycle stages, filter spam, and trigger actions in connected business systems. No independently audited resolution-rate figure exists to verify how well this performs in practice, and given the account-stability and support-quality complaints on record, test this directly rather than relying on the feature list alone."
+    },
+    {
+      "question": "Does Bird integrate with Shopify?",
+      "answer": "Yes, a documented synchronization feature coordinates Bird's messaging actions with Shopify store activity, though the integration is described in fairly general terms without the explicit order-lookup or refund-action detail that ecommerce-first competitors like Gorgias or Wati publish for their own Shopify implementations."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 2, "note": "Reviewers specifically describe the product's repeated repositioning (SMS tool, omnichannel, conversational AI, CRM) as overwhelming to navigate, on top of the platform's inherent complexity at scale." },
+    { "dimension": "AI Quality", "score": 3, "note": "AI Agents built on OpenAI integration offer genuine, documented agentic capability, but there's no independently audited resolution rate, and the company's ongoing operational turbulence raises real questions about consistency." },
+    { "dimension": "Omnichannel Support", "score": 5, "note": "A genuinely exceptional channel list — SMS, voice, WhatsApp, WeChat, Messenger, Instagram, email, and push — reflecting the company's long heritage as a broad communications-API provider." },
+    { "dimension": "Pricing Value", "score": 1, "note": "A specific, serious independent-review complaint describes prices as effectively hidden with real charges running higher than advertised, compounding an already granular, multi-channel usage-based pricing structure." },
+    { "dimension": "Vendor Support Quality", "score": 1, "note": "The most serious documented issue in this profile: multiple reviewers report accounts being blocked with no prior notice or explanation, and at least one reviewer describes customer service as 'the worst I had ever try.'" }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "Documented native support for SMS, voice, WhatsApp, WeChat, Messenger, Instagram, email, and push — a genuinely exceptional channel list reflecting the company's origin as a broad communications-API provider." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Bird markets itself as 'the world's largest omnichannel communications platform,' with Bird CRM unifying communication history across channels — real, though the product's repeated repositioning makes the unification story harder to pin down precisely." },
+    { "key": "ai-availability", "score": 4, "note": "AI Agents built on OpenAI integration are documented as genuinely agentic — collecting details, qualifying leads, updating CRM lifecycle stages, and triggering actions in connected systems, not just answering FAQs." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Bird's AI Agents specifically." },
+    { "key": "ai-training-method", "score": 3, "note": "OpenAI integration combined with natural language processing is documented as the technical foundation, though the specific knowledge-ingestion method (documents, URLs, past conversations) wasn't independently detailed for Bird specifically." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for Bird's AI Agents." },
+    { "key": "automation-depth", "score": 4, "note": "A no-code visual workflow builder with pre-built templates and drag-and-drop design supports real automation depth, combined with AI Agents' documented ability to trigger actions in connected business systems." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "Spam filtering is documented, but no separate, explicit real-time sentiment or urgency-detection capability was confirmed in the materials reviewed." },
+    { "key": "unified-inbox", "score": 4, "note": "A unified inbox product (documented on Capterra as 'MessageBird Inbox') consolidates conversations, consistent with the platform's broader omnichannel positioning." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes, @mentions, or team-collaboration tooling was found in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 3, "note": "A documented synchronization feature coordinates messaging actions with Shopify store activity, but described in general terms without the explicit order-lookup or refund-action detail some ecommerce-first competitors publish." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "No specific Zapier, Make, or n8n integration was confirmed in the materials reviewed, despite the platform's overall scale." },
+    { "key": "integration-crm", "score": 3, "note": "Bird operates its own CRM layer, and AI Agents are documented as able to trigger actions in and update connected external CRM systems — real capability, though without independently confirmed depth of a specific named integration (Salesforce, HubSpot) comparable to competitors that document those explicitly." },
+    { "key": "order-payment-data-access", "score": 2, "note": "The Shopify synchronization coordinates messaging with store activity generically, but no specific, documented order-lookup or live payment-data capability was confirmed." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "No detailed documentation of reporting or analytics depth was found in the materials reviewed, despite the platform's scale." },
+    { "key": "pricing-transparency", "score": 1, "note": "Beyond a genuinely granular, multi-channel usage-based pricing structure (separate metering for Email, SMS, WhatsApp, Push, RCS, and workflow invocations, plus WhatsApp-specific Bird and Meta passthrough fees), independent reviewers specifically and separately report that prices are effectively hidden and real charges run higher than advertised — a serious, documented transparency failure." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "Bird's origin as an API-first SMS gateway company gives it real, mature developer infrastructure, consistent with its long heritage as a communications-API provider before its broader platform pivot." }
+  ],
+  "pricing": {
+    "model": "Tiered with granular, per-channel usage-based billing, plus separate processing and passthrough fees for some channels",
+    "startingPrice": "$0 (Pay-as-you-go, per-message billing, e.g. ~$0.0033/outbound US SMS)",
+    "plans": [
+      { "name": "Pay-as-you-go", "price": "$0 base, per-message billing", "billing": "Usage-based, no subscription fee", "notes": "SMS starts around $0.0033/outbound US message, $0.003/inbound; other channels billed similarly per unit." },
+      { "name": "Bundle", "price": "Four-to-five-figure monthly range (volume-dependent)", "billing": "From 50,000 contacts", "notes": "Vendr data shows a median annual contract of $38,146 across real deals; exact pricing scales with contact volume and channel mix." },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "For large-scale, multi-channel deployments." }
+    ]
+  },
+  "pricingBreakdown": "Bird's 2024 rebrand was explicitly built around undercutting Twilio's per-message rates, and the pay-as-you-go SMS pricing (roughly $0.0033/outbound US message) genuinely delivers on that positioning at face value. The pricing structure itself is granular — separate usage-based metering across Email, SMS, WhatsApp, Push, RCS, and workflow invocations, with WhatsApp specifically carrying both Bird's own processing fee and Meta's passthrough cost stacked together. Real median contract value (per Vendr data across 38 actual deals) lands around $38,146/year once volume moves into the Bundle tier, which is a useful anchor for budgeting a mid-market deployment. The more serious concern isn't the rate card itself, though — it's that independent reviewers specifically and separately report prices being effectively hidden and real charges running higher than what was advertised. That's a different, more troubling kind of pricing problem than simple complexity, and it means any Bird quote should be treated as a starting point for scrutiny rather than a number to budget against directly.",
+  "capabilities": [
+    { "area": "Channel Breadth", "note": "Genuinely exceptional — SMS, voice, WhatsApp, WeChat, Messenger, Instagram, email, and push all native, reflecting the company's long heritage as a broad communications-API provider dating back to its original MessageBird SMS-gateway business." },
+    { "area": "AI Agents", "note": "Built on real OpenAI integration with documented agentic capability — lead qualification, CRM updates, spam filtering, and triggering actions in connected systems. The capability list is genuinely competitive with other AI-forward tools in this category; what's missing is independent verification of how reliably it performs, especially given the company's broader operational turbulence." },
+    { "area": "Company Stability", "note": "Worth weighing as seriously as any feature in this profile. A full rebrand and pricing overhaul in 2024, a reported 120-person layoff in early 2025, and a product that reviewers describe as having repositioned confusingly multiple times (SMS tool, omnichannel, conversational AI, CRM) together paint a picture of a company still actively restructuring rather than a settled, mature platform." },
+    { "area": "Account & Pricing Trust", "note": "The single most serious concern in this entire profile. Independent reviewers report accounts being blocked with no prior notice or explanation — a genuine business-continuity risk — alongside separate, specific complaints that pricing is effectively hidden and real charges exceed what was advertised. These are trust-and-reliability concerns, not feature gaps, and should weigh heavily in any evaluation." },
+    { "area": "Ecommerce Integration", "note": "A documented Shopify synchronization exists, but in fairly general terms compared to the explicit order-lookup and refund-action depth that dedicated ecommerce-first competitors (Gorgias, Wati) document for their own Shopify implementations." }
+  ],
+  "pros": [
+    "Genuinely exceptional channel breadth — SMS, voice, WhatsApp, WeChat, Messenger, Instagram, email, and push all native from one platform",
+    "Real, OpenAI-integrated AI Agents with documented agentic capability (lead qualification, CRM updates, action-triggering), not just FAQ answering",
+    "Genuinely competitive pay-as-you-go SMS pricing following the 2024 rebrand, undercutting Twilio's rates directly",
+    "Mature developer infrastructure inherited from the company's long heritage as an API-first SMS gateway provider",
+    "Massive claimed scale (15,000+ customers, 170+ countries) suggesting the platform can handle real enterprise volume"
+  ],
+  "cons": [
+    "A serious, documented complaint pattern of accounts being blocked with no prior notice or explanation, causing real business disruption",
+    "Separate, specific independent-review complaints that pricing is effectively hidden and real charges run higher than advertised",
+    "Real signals of company instability: a 2024 rebrand and pricing overhaul followed by a reported 120-person layoff in early 2025",
+    "Reviewers describe the product's repeated repositioning (SMS tool, omnichannel, conversational AI, CRM) as genuinely confusing to navigate",
+    "No independently audited AI resolution-rate figure, no documented internal collaboration or canned-response features, and no website-builder integrations at all"
+  ],
+  "sentiment": [
+    {
+      "quote": "Accounts being blocked with no prior notice or explanation, resulting in loss of connected services and creating major problems.",
+      "source": "Aggregated independent review sentiment (Capterra)",
+      "url": "https://www.capterra.com/p/160795/Bird/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Prices are hidden, they charge more than advertised.",
+      "source": "Aggregated independent review sentiment (Capterra)",
+      "url": "https://www.capterra.com/p/160795/Bird/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Large organizations needing genuinely broad omnichannel reach across nearly every major messaging and communications channel",
+    "Businesses with existing exposure to Bird's original SMS-gateway infrastructure looking to expand into broader omnichannel use cases",
+    "Teams with the resources to closely monitor billing and account status given the documented complaint pattern",
+    "Buyers willing to get every pricing and account-continuity term confirmed in writing before committing to real volume"
+  ],
+  "verdict": "Bird's underlying technical capability is genuinely broad — few tools in this entire category match its channel list (SMS, voice, WhatsApp, WeChat, Messenger, Instagram, email, and push all native), and its AI Agents, built on real OpenAI integration, are documented as capable of genuine agentic work: qualifying leads, updating CRM lifecycle stages, and triggering actions in connected systems, not just answering questions. The 2024 rebrand from MessageBird to Bird also delivered on its stated goal of undercutting Twilio's per-message pricing, at least on paper. But I have to weigh that capability against a genuinely serious pattern of documented problems that go beyond typical vendor complaints. Reviewers report accounts being blocked with no prior notice or explanation — a real business-continuity risk, not a feature gap — alongside separate, specific complaints that pricing is effectively hidden and actual charges run higher than advertised. Layer on real signals of company instability (the 2024 rebrand and pricing overhaul, followed by a reported 120-person layoff in early 2025) and a product that reviewers describe as confusingly repositioned multiple times, and the honest picture is a platform with real capability wrapped in a level of operational and trust risk that's more serious than most other tools in this comparison. My honest read: if you need Bird's specific channel breadth and are prepared to actively monitor your account status and billing closely, with every term confirmed in writing, this is worth evaluating carefully. If account stability and pricing predictability matter more to you than raw channel count, the documented risk pattern here is serious enough to weigh heavily against a more stable, if narrower, competitor.",
+  "rating": 3.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

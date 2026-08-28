@@ -50,6 +50,10 @@ no longer applies going forward.
 - [x] Yellow.ai (flagged pricing opacity, WhatsApp number lock-in, and intent-matching complaints)
 - [x] Twilio Flex (developer-first platform, not self-service - noted clearly in profile)
 - [x] Bird / MessageBird (flagged serious account-blocking and hidden-pricing complaints)
+- [x] Zoko
+- [x] DelightChat
+- [x] Charles
+- [x] Gallabox (flagged contradictory support-quality reviews)
 
 ## Attempted, failed, not yet retried
 
@@ -59,8 +63,8 @@ no longer applies going forward.
 
 Live Chat & Helpdesk: (all done — see "Added so far" below)
 
-WhatsApp / Omnichannel Messaging: Zoko, DelightChat, Charles, Gallabox,
-Verloop, Haptik, Kommo, 360dialog, Rasayel
+WhatsApp / Omnichannel Messaging: Verloop, Haptik, Kommo, 360dialog,
+Rasayel
 
 Chatbot / Automation Builders: Chatfuel, Landbot, Botpress, YourGPT,
 Voiceflow, MobileMonkey, Drift, Ada, Ultimate.ai, Cognigy, Kore.ai,

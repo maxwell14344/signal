@@ -1,0 +1,148 @@
+{
+  "slug": "charles",
+  "name": "Charles",
+  "logoUrl": "",
+  "website": "https://www.hello-charles.com",
+  "tagline": "A Berlin conversational-commerce platform born from a sustainable fashion brand's own WhatsApp marketing software, now backed by Salesforce Ventures and priced for six-figure annual budgets.",
+  "tldr": [
+    "Charles was founded in Berlin (reported as either 2018 or 2019 across sources) by Artjem Weissbeck (a Kapten & Son co-founder) and Andreas Tussing (an ex-McKinsey ecommerce lead), who originally started Charles as a sustainable fashion brand and built the WhatsApp marketing software in-house before finding no existing tool met their needs — then pivoted to sell the software itself.",
+    "Funding is substantial: a $6.5M seed round in 2021, a $20M Series A in 2022 led by Salesforce Ventures with Accel and HV Capital participating, and $30.2M total raised across 4 rounds.",
+    "Pricing is entirely custom-quoted with no public pricing page — third-party estimates put entry costs around €349/month plus variable usage costs, but Charles is explicitly positioned for companies planning six-figure annual conversational-commerce budgets, with 'pricier side' being a specific, repeated independent-review complaint.",
+    "The AI layer is genuinely well-built for grounding: brands upload FAQs, product feeds, or other data as the agent's explicit knowledge source, and the AI is documented as treating that uploaded content as its source of truth rather than answering from general knowledge.",
+    "Integration depth is a real strength, unsurprising given Salesforce Ventures' investment — Shopify, Salesforce, Emarsys, Klaviyo, and Zendesk are all documented integrations enabling live data sync, campaign triggers, and unified analytics across a brand's existing marketing and CRM stack.",
+    "Best for established ecommerce and retail brands with real budget for enterprise conversational commerce and a Salesforce- or Klaviyo-centric marketing stack — not for small businesses or anyone needing transparent, self-service pricing."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["WhatsApp", "Instagram", "Facebook Messenger", "Web Chat"],
+  "keyFeatures": [
+    "AI agents trained on uploaded FAQs, product feeds, or other business data, treating that content as their source of truth rather than answering from general knowledge",
+    "Asynchronous two-way WhatsApp communication combined with bulk broadcast messaging for marketing campaigns",
+    "Deep native integrations with Shopify, Salesforce, Emarsys, and Klaviyo for live customer-data sync and campaign triggering",
+    "A Zendesk integration supporting omnichannel customer-service strategies alongside the core WhatsApp commerce flow",
+    "Workflow automation for tailored, trigger-based customer journeys across the connected marketing stack",
+    "Live, bidirectional data sharing between Charles and connected shop, CRM/CDP, and service tools, set up in a documented few-click process",
+    "Unified analytics spanning connected tools rather than siloed WhatsApp-only reporting",
+    "A dedicated success-management and onboarding function, specifically praised by independent reviewers for ongoing support quality"
+  ],
+  "companyInfo": {
+    "founded": "Reported as either 2018 or 2019 across sources; founded in Berlin by Artjem Weissbeck (Kapten & Son co-founder) and Andreas Tussing (ex-McKinsey ecommerce lead), originally as a sustainable fashion brand before pivoting to commercialize their internal WhatsApp marketing software",
+    "hq": "Berlin, Germany",
+    "funding": "$30.2M raised across 4 rounds, including a $6.5M seed (2021) and a $20M Series A (2022) led by Salesforce Ventures with Accel and HV Capital participating",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "Why does Charles have a fashion-brand origin story?",
+      "answer": "Charles's founders originally started the company as a sustainable fashion brand and wanted to use WhatsApp as their principal marketing channel — when no existing software met their needs, they built it themselves. Only after finding real success with that internal tool did they pivot the business to sell the software to other ecommerce and retail brands. It's a genuine 'built it for ourselves first' origin, similar in spirit to other founder-market-fit stories in this category."
+    },
+    {
+      "question": "How much does Charles actually cost?",
+      "answer": "There's no public pricing page — every quote is custom. Third-party estimates put entry costs around €349/month plus variable usage-based costs, but Charles is explicitly positioned for companies planning six-figure annual budgets for conversational commerce, and 'pricier side' is a specific, repeated complaint in independent reviews. This is enterprise pricing, not a self-service SaaS tier."
+    },
+    {
+      "question": "How does Charles's AI avoid making things up?",
+      "answer": "Brands upload FAQs, product feeds, or other business data as the agent's explicit knowledge source, and Charles documents the AI as treating that uploaded content as its source of truth — a real, deliberate grounding mechanism rather than letting the model answer from general knowledge. No independently audited resolution-rate figure exists to verify how well this performs in practice, but the design intent is sound."
+    },
+    {
+      "question": "Why did Salesforce invest in Charles?",
+      "answer": "Salesforce Ventures led Charles's $20M Series A in 2022, consistent with the platform's genuinely deep Salesforce integration — live customer-data sync, campaign triggers, and unified analytics across a brand's existing CRM. If your business runs on Salesforce, this is one of the more credible, strategically-backed WhatsApp commerce integrations in this category."
+    },
+    {
+      "question": "What's the most common complaint about Charles?",
+      "answer": "Beyond pricing, independent reviewers specifically flag that analytics for campaigns, customer insights, and flows 'still needs some development' — a real, specific limitation rather than a vague complaint. Separately, reviewers note WhatsApp's own 24-hour conversation-window policy as a cost consideration: a new paid conversation window opens once 24 hours pass without a response, which affects total cost regardless of which platform you use."
+    },
+    {
+      "question": "Does Charles work well for teams already using Klaviyo?",
+      "answer": "Yes — a documented Klaviyo integration lets brands connect WhatsApp marketing with email marketing for a coordinated multi-channel retention and acquisition strategy, specifically praised in independent reviews as an effective combination for brands already invested in Klaviyo's ecosystem."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Independent reviewers describe the tool as intuitive and well-suited to campaign planning, with a dedicated onboarding and success-management function specifically praised." },
+    { "dimension": "AI Quality", "score": 3, "note": "A genuinely deliberate knowledge-grounding design (uploaded FAQs/product feeds treated as source of truth) is a real strength, but there's no independently audited resolution rate to verify real-world performance." },
+    { "dimension": "Omnichannel Support", "score": 3, "note": "WhatsApp, Instagram, Messenger, and web chat are documented, though WhatsApp is clearly the platform's center of gravity rather than a fully balanced omnichannel product." },
+    { "dimension": "Pricing Value", "score": 2, "note": "Entirely custom-quoted with no public pricing page, explicitly positioned for six-figure annual budgets, and independent reviewers specifically describe the product as being on the pricier side." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "A strong review base (4.8/5 across 33 G2 reviews) with onboarding, success management, and ongoing support specifically and consistently praised." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Documented native support for WhatsApp, Instagram, Facebook Messenger, and web chat — real coverage, though WhatsApp is clearly the platform's primary focus rather than a fully balanced channel spread." },
+    { "key": "omnichannel-unification", "score": 4, "note": "Charles is built as an end-to-end conversational commerce platform unifying messaging with commerce and CRM data, consistent with its founding purpose as an internal marketing tool later commercialized." },
+    { "key": "ai-availability", "score": 4, "note": "AI agents are documented as genuine, trained on uploaded FAQs and product feeds as an explicit knowledge source, rather than canned scripted replies." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Charles's AI agents." },
+    { "key": "ai-training-method", "score": 4, "note": "A real, deliberate design: brands upload FAQs, product feeds, or other data as the agent's knowledge source, and the AI is documented as treating that content as its source of truth — genuine automatic grounding." },
+    { "key": "hallucination-controls", "score": 3, "note": "The 'source of truth' framing for uploaded knowledge represents a real, deliberate scoping constraint, though without the more granular detail (confidence thresholds, per-answer citation) some competitors publish." },
+    { "key": "automation-depth", "score": 3, "note": "Workflow automation, tailored campaigns, and trigger-based customer journeys across the connected marketing stack represent real automation depth beyond simple broadcast messaging." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection during an active conversation was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 4, "note": "Asynchronous two-way communication is documented as core to the platform, consolidating conversation history alongside connected commerce and CRM data." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes, @mentions, or team-collaboration tooling was found in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 4, "note": "A documented native Shopify integration enables live customer-data sync and campaign triggering, set up in a described few-click process — real depth, though without the explicit order-editing detail some ecommerce-first competitors publish." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "No specific Zapier, Make, or n8n integration was confirmed in the materials reviewed, though the platform's broader integration ecosystem is real." },
+    { "key": "integration-crm", "score": 4, "note": "A genuinely deep native Salesforce integration is documented, consistent with Salesforce Ventures leading the company's Series A, alongside Emarsys and Klaviyo integrations for coordinated multi-channel marketing." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Live customer and shop data sync with Shopify is documented, but without the explicit order-editing or refund-action detail some ecommerce-first competitors publish for their own commerce integrations." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "Independent reviewers specifically and directly state that analytics for campaigns, customer insights, and flows 'still needs some development' — a real, documented limitation rather than an absence of evidence." },
+    { "key": "pricing-transparency", "score": 1, "note": "Entirely custom-quoted with no public pricing page, explicitly positioned for six-figure annual budgets, compounded by a specific, repeated independent-review complaint that the product is on the pricier side." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "Live, bidirectional data sharing across connected shop, CRM/CDP, and service tools is documented as a real, few-click integration capability, though without detailed public API or webhook-event documentation confirmed." }
+  ],
+  "pricing": {
+    "model": "Entirely custom-quoted enterprise pricing, no public pricing page",
+    "startingPrice": "Not published; third-party estimates suggest ~€349/month plus variable usage costs as an entry point",
+    "plans": [
+      { "name": "Custom (all tiers)", "price": "Not published; six-figure annual budgets typical", "billing": "Contact sales", "notes": "Positioned for established ecommerce and retail brands with real conversational-commerce budgets, not a self-service SaaS tier structure." }
+    ]
+  },
+  "pricingBreakdown": "Charles doesn't publish pricing at all, and third-party estimates that place an entry point around €349/month plus variable costs likely understate what a real deployment costs, since the company's own positioning explicitly targets six-figure annual budgets. This is squarely enterprise software pricing, consistent with its Salesforce Ventures backing and its integration depth across Shopify, Salesforce, Emarsys, and Klaviyo. Independent reviewers specifically and repeatedly describe the product as being on the pricier side of the category, which tracks with this positioning rather than contradicting it. If you're evaluating Charles, expect a genuine enterprise sales process rather than a self-service signup, and factor in that WhatsApp's own 24-hour conversation-window billing policy — a new paid conversation window opens after 24 hours without a response — applies on top of whatever Charles itself charges, a cost dynamic independent reviewers specifically flag as worth understanding upfront.",
+  "capabilities": [
+    { "area": "AI Knowledge Grounding", "note": "A genuinely deliberate design choice: brands explicitly upload FAQs, product feeds, or other data as the agent's knowledge source, and the AI is documented as treating that content as its source of truth. This is a more considered approach to hallucination risk than many competitors document, even though there's no independent benchmark confirming how well it holds up in practice." },
+    { "area": "Salesforce & Commerce Stack Integration", "note": "A real strength backed by strategic investment — Salesforce Ventures led the Series A, and the product's Shopify, Salesforce, Emarsys, and Klaviyo integrations reflect genuine depth rather than surface-level connectors. For a brand already invested in that specific stack, this integration depth is hard to match with a more general-purpose competitor." },
+    { "area": "Analytics", "note": "A real, specifically documented gap rather than an assumption — independent reviewers directly state that analytics for campaigns, customer insights, and flows needs further development. Worth testing directly against your reporting requirements before committing to an enterprise contract." },
+    { "area": "Pricing Accessibility", "note": "Entirely closed off from public view, and explicitly positioned for six-figure annual budgets — this is not a tool a small or mid-sized business can evaluate on a self-service basis, and 'on the pricier side' is a specific, repeated independent complaint rather than a generic cost grumble." },
+    { "area": "Founder-Market Fit", "note": "Like several other tools in this category, Charles benefits from an authentic origin story — the founders built the software to solve their own real problem running a fashion brand's WhatsApp marketing before commercializing it. This tends to produce more practically-grounded product decisions than a generic pivot into the space." }
+  ],
+  "pros": [
+    "A deliberate, documented AI knowledge-grounding design — uploaded content treated explicitly as the agent's source of truth",
+    "Genuinely deep native integrations with Shopify, Salesforce, Emarsys, and Klaviyo, backed by strategic investment from Salesforce Ventures",
+    "A strong independent review base (4.8/5 across 33 G2 reviews) with onboarding and success management specifically praised",
+    "An authentic founder-market-fit origin story, built first to solve the founders' own WhatsApp marketing needs",
+    "Substantial institutional funding ($30.2M raised) suggesting real staying power as a long-term enterprise vendor"
+  ],
+  "cons": [
+    "Entirely custom-quoted pricing with no public pricing page, explicitly positioned for six-figure annual budgets",
+    "A specific, repeated independent-review complaint that the product is on the pricier side of the category",
+    "Independent reviewers specifically flag that analytics for campaigns, customer insights, and flows needs further development",
+    "No independently audited AI resolution-rate figure exists to verify real-world accuracy",
+    "No dedicated Wix, Squarespace, or Webflow integration, and no documented internal collaboration tooling or multi-language support"
+  ],
+  "sentiment": [
+    {
+      "quote": "The ease of use of the tool makes it particularly intuitive to use, and ideal for planning campaigns and aligning them with business objectives.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.capterra.com/p/229087/Charles/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Charles is on the pricier side and still needs some development in analytics for campaigns, customer insights and flows.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.capterra.com/p/229087/Charles/reviews/",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Established ecommerce and retail brands with real budget for enterprise conversational commerce",
+    "Businesses already invested in Salesforce, Klaviyo, or Emarsys wanting deep, native WhatsApp integration with that stack",
+    "Brands prioritizing a considered, grounded AI knowledge design over the most aggressive automation claims",
+    "Teams comfortable with an enterprise sales process rather than transparent, self-service pricing"
+  ],
+  "verdict": "Charles has one of the more genuinely credible founder-market-fit stories in this category: built first to solve its founders' own WhatsApp marketing needs at their sustainable fashion brand, only commercialized once that internal tool proved to work, and now backed by a Series A that Salesforce Ventures itself chose to lead. That strategic backing tracks directly with what the product actually does well — genuinely deep native integrations with Shopify, Salesforce, Emarsys, and Klaviyo that let a brand's existing marketing and CRM stack talk to WhatsApp in real time, not just a bolted-on messaging widget. The AI's knowledge-grounding design is similarly considered: brands explicitly upload FAQs and product feeds as a defined source of truth, a more deliberate approach to hallucination risk than many competitors document, even without an independent benchmark to confirm how well it performs. Where Charles asks the most of a buyer is price and access: there's no public pricing page at all, the company explicitly targets six-figure annual budgets, and independent reviewers specifically and repeatedly describe it as being on the pricier side — this is enterprise software, full stop, not a tool to casually trial. Analytics is the other honest gap, with reviewers directly stating campaign and customer-insight reporting needs further development. My honest read: if you're an established ecommerce or retail brand already invested in Salesforce or Klaviyo, with the budget this tier of tool assumes, Charles's integration depth and thoughtful AI design are genuinely worth an enterprise evaluation. If you need transparent, accessible pricing or deep analytics out of the box, this isn't built for that buyer.",
+  "rating": 3.7,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "gallabox",
+  "name": "Gallabox",
+  "logoUrl": "",
+  "website": "https://gallabox.com",
+  "tagline": "An affordable Indian WhatsApp commerce platform with genuinely broad ecommerce-and-payments integrations — and a real, unresolved question mark over customer support quality.",
+  "tldr": [
+    "Gallabox was founded by Karthik Jagannathan, Yogesh Narayanan, and Yathindhar Panchanathan around 2020-2021 (sources conflict on exact year and even city, variously citing Chennai and Bengaluru), and has raised $8.26M total across three rounds, most recently a 2025 seed extension led by FUSE with Prime Venture Partners and Neon Fund participating.",
+    "Pricing is genuinely affordable and tiered: Starter ~$23/mo (3 users, single WhatsApp number), Growth ₹1,999/mo, Scale ₹3,999/mo, Pro ₹6,999/mo (10 agents, ChatGPT integration, API access), with Enterprise custom-priced — WhatsApp's own per-message fees apply separately on all tiers.",
+    "Integration breadth is a genuine standout for a tool at this price point, and distinctively includes both Shopify and WooCommerce alongside India-specific business tools: Razorpay (payments), Shiprocket (shipping), Zoho Books (accounting), and Google Sheets.",
+    "AI capability includes an AI Copilot and chatbot tools, with ChatGPT integration specifically gated to the Pro tier and above — real but not deeply documented with the technical specificity some competitors publish.",
+    "Review sentiment is genuinely strong in aggregate (4.6/5 across 168 G2 reviews), but a specific, credible, and directly contradictory complaint pattern exists in individual reviews describing customer support as effectively nonexistent ('no one is there to help if you [are] facing any issue') — a real discrepancy worth investigating directly.",
+    "Best for budget-conscious Indian SMBs and ecommerce sellers wanting broad, locally-relevant integrations (Razorpay, Shiprocket) at an affordable price — not for teams that need guaranteed, verified support responsiveness given the mixed signal in independent reviews."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["WhatsApp", "Email", "Live Chat"],
+  "keyFeatures": [
+    "A collaborative shared dashboard unifying WhatsApp, email, and live chat conversations for team access",
+    "AI Copilot and chatbot tools for automated customer communication, with ChatGPT integration on Pro tier and above",
+    "500+ pre-built WhatsApp message templates for fast, compliant messaging",
+    "Automated responses, drip campaigns, and scheduled messaging for proactive customer engagement",
+    "Native integrations spanning Shopify, WooCommerce, Razorpay (payments), Shiprocket (shipping), Zoho Books, and Google Sheets — 30+ integrations total",
+    "CRM and contact-management features for storing and organizing customer records",
+    "API access for custom development, available from the Pro tier",
+    "Multiple support channels documented (email/help desk, FAQs/forum, knowledge base, chat), though independent reviews describe mixed real-world responsiveness"
+  ],
+  "companyInfo": {
+    "founded": "Reported as 2020 or 2021 across sources, by Karthik Jagannathan, Yogesh Narayanan, and Yathindhar Panchanathan",
+    "hq": "Reported variously as Chennai or Bengaluru, India, with additional offices in California and Dubai",
+    "funding": "$8.26M raised across 3 rounds, including a $1.2M seed (Prime Venture Partners, Nov 2022) and a 2025 seed extension led by FUSE with Prime Venture Partners and Neon Fund",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "How much does Gallabox actually cost?",
+      "answer": "It's genuinely affordable at entry: roughly $23/month (Starter, 3 users, single WhatsApp number), scaling through Growth (₹1,999/mo), Scale (₹3,999/mo), and Pro (₹6,999/mo, 10 agents with ChatGPT integration and API access), with custom Enterprise pricing above that. WhatsApp's own per-message fees apply separately on every tier, and additional users, extra WhatsApp numbers, and Shopify access can add meaningfully to the base plan cost."
+    },
+    {
+      "question": "Is Gallabox's customer support actually good or bad?",
+      "answer": "This is genuinely unclear from public review evidence, and worth being direct about the contradiction. The aggregate rating is strong (4.6/5 across 168 G2 reviews, with support specifically cited as a strength in some reviews), but other individual reviews describe support as effectively nonexistent, with one stating plainly that 'no one is there to help if you [are] facing any issue.' This kind of split suggests support quality may vary significantly by plan tier or account manager — ask for specific, current references before committing to a paid plan if support responsiveness matters to you."
+    },
+    {
+      "question": "Does Gallabox integrate with WooCommerce as well as Shopify?",
+      "answer": "Yes, and this is a genuine differentiator — many India-origin WhatsApp commerce tools in this category focus on Shopify alone, but Gallabox documents both Shopify and WooCommerce as native integrations, alongside India-specific business tools like Razorpay for payments and Shiprocket for shipping."
+    },
+    {
+      "question": "How sophisticated is Gallabox's AI?",
+      "answer": "Real but modestly documented — an AI Copilot and chatbot tools handle customer communication, with ChatGPT integration specifically available from the Pro tier up. There's less technical detail publicly available about training methods or hallucination safeguards than some competitors publish, and no independently audited resolution-rate figure exists."
+    },
+    {
+      "question": "Does Gallabox support channels beyond WhatsApp?",
+      "answer": "Email and live chat are documented alongside WhatsApp, but this remains a narrower channel scope than broader omnichannel competitors like Respond.io or Trengo that support 7-12+ channels including social DMs and voice."
+    },
+    {
+      "question": "Who is Gallabox actually a good fit for?",
+      "answer": "Budget-conscious Indian SMBs and ecommerce sellers who want broad, locally-relevant integrations — particularly Razorpay and Shiprocket, which few global competitors document — at an affordable entry price. It's a less obvious fit for teams that need guaranteed, verified support responsiveness, given the genuinely mixed signal in independent reviews on that specific point."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "The platform is described as effective for quick, functional messaging, though specific setup-experience detail beyond that wasn't independently confirmed." },
+    { "dimension": "AI Quality", "score": 3, "note": "AI Copilot and chatbot tools are real, with ChatGPT integration gated to Pro tier and above, but documentation is less technically detailed than some competitors and no independent resolution-rate audit exists." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "WhatsApp, email, and live chat are documented, a narrower channel scope than broader omnichannel competitors in this category." },
+    { "dimension": "Pricing Value", "score": 4, "note": "Genuinely affordable entry pricing (~$23/month) with a real, distinctive integration list for the price, including India-specific tools like Razorpay and Shiprocket." },
+    { "dimension": "Vendor Support Quality", "score": 2, "note": "A strong aggregate rating (4.6/5) sits in real tension with specific individual reviews describing support as effectively nonexistent — a genuine, unresolved discrepancy worth investigating directly rather than trusting either signal alone." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 3, "note": "WhatsApp, email, and live chat are documented native channels — real but narrower coverage than broader omnichannel competitors supporting 7-12+ channels." },
+    { "key": "omnichannel-unification", "score": 4, "note": "A collaborative shared dashboard unifies WhatsApp, email, and live chat conversations for team access, consistent with the platform's positioning." },
+    { "key": "ai-availability", "score": 3, "note": "AI Copilot and chatbot tools are documented, with ChatGPT integration specifically gated to Pro tier and above — real capability, modestly documented relative to some competitors' more detailed technical claims." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Gallabox's AI features." },
+    { "key": "ai-training-method", "score": 2, "note": "No specific, named training or knowledge-ingestion method was found documented beyond the general 'ChatGPT integration' description on Pro tier." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for Gallabox's AI features." },
+    { "key": "automation-depth", "score": 3, "note": "Automated responses, drip campaigns, and scheduled messaging represent real automation capability, though without the more sophisticated multi-step agentic action detail some competitors document." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection during an active conversation was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 4, "note": "A shared team inbox/collaborative dashboard is a documented, core feature, with reviewers specifically noting messaging happens 'quickly and is incredibly effective.'" },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 3, "note": "A collaborative dashboard for team members is documented as core to the product, though specific internal-notes or @mentions functionality wasn't independently detailed." },
+    { "key": "canned-responses", "score": 3, "note": "500+ pre-built WhatsApp message templates are documented, providing real, if template-focused rather than freeform, canned-response capability." },
+    { "key": "integration-shopify", "score": 3, "note": "A documented native Shopify integration exists, listed among Gallabox's 30+ third-party integrations, though without the deep, dedicated commerce-workflow detail some ecommerce-first competitors publish." },
+    { "key": "integration-woocommerce", "score": 3, "note": "A documented native WooCommerce integration is a genuine differentiator versus several India-origin competitors that focus on Shopify alone." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress plugin was found separate from the WooCommerce integration." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "A documented Google Sheets integration provides some no-code connectivity, but no specific Zapier, Make, or n8n integration was confirmed in the materials reviewed." },
+    { "key": "integration-crm", "score": 2, "note": "A Zoho Books integration is documented (accounting-adjacent), but no native Salesforce, HubSpot, or Pipedrive integration was confirmed." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Native Razorpay (payments) and Shiprocket (shipping) integrations are genuinely relevant, distinctive additions for Indian ecommerce order and payment workflows, though without documented in-chat order-lookup detail comparable to dedicated ecommerce-first competitors." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "No detailed documentation of reporting or analytics depth was found in the materials reviewed." },
+    { "key": "pricing-transparency", "score": 3, "note": "Tier prices are published and genuinely affordable, though WhatsApp's own per-message fees, additional users, extra WhatsApp numbers, and Shopify access all add to the base cost and require separate modeling." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "API access is documented as available from the Pro tier up, providing real build-on-top capability, though without detailed webhook-event documentation confirmed." }
+  ],
+  "pricing": {
+    "model": "Per-tier SaaS with separate WhatsApp per-message billing",
+    "startingPrice": "~$23/mo (Starter, 3 users, single WhatsApp number)",
+    "plans": [
+      { "name": "Starter", "price": "~$23/mo", "billing": "Monthly", "notes": "3 users, single WhatsApp number/channel, 30+ integrations, 500+ WhatsApp message templates, shared team inbox." },
+      { "name": "Growth", "price": "₹1,999/mo", "billing": "Monthly", "notes": "3 agents, basic chatbot, 2,000 contacts." },
+      { "name": "Scale", "price": "₹3,999/mo", "billing": "Monthly", "notes": "5 agents, advanced chatbot, 10,000 contacts." },
+      { "name": "Pro", "price": "₹6,999/mo", "billing": "Monthly", "notes": "10 agents, ChatGPT integration, API access." },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "Unlimited agents." }
+    ]
+  },
+  "pricingBreakdown": "Gallabox's entry pricing is genuinely affordable — roughly $23/month for a 3-user Starter plan with 30+ integrations and 500+ WhatsApp templates already included is competitive against most tools in this category. The tier structure scales sensibly through Growth, Scale, and Pro, with ChatGPT integration and API access reserved for the Pro tier specifically. As with every WhatsApp Business API platform in this comparison, plan fees are separate from WhatsApp's own per-message costs, which shifted to per-message billing based on message category and recipient country code — factor this in as a genuinely separate, usage-scaling cost layer. Additional users, extra WhatsApp numbers, and Shopify access can add meaningfully to the base plan cost, so model your real team size and integration needs before assuming the entry-tier price represents your total bill.",
+  "capabilities": [
+    { "area": "Integration Breadth", "note": "A genuine standout for a tool at this price point: Shopify and WooCommerce both natively supported, alongside India-specific tools (Razorpay for payments, Shiprocket for shipping, Zoho Books for accounting) that few global competitors document at all. For an Indian ecommerce SMB running on this specific stack, this breadth is a real, practical advantage." },
+    { "area": "AI & Automation", "note": "AI Copilot, chatbot tools, and ChatGPT integration on Pro tier represent real capability, though documented more generally than some competitors' more technically specific claims. Automated responses, drip campaigns, and scheduled messaging cover the fundamentals of proactive engagement well." },
+    { "area": "Support Quality Uncertainty", "note": "Worth treating as its own capability area given the genuinely contradictory evidence. A strong aggregate rating sits alongside specific, credible individual complaints describing support as effectively nonexistent. This kind of split often reflects real variance by plan tier or account — get specific, current customer references before committing if support responsiveness is a priority for your evaluation." },
+    { "area": "Channel Scope", "note": "WhatsApp, email, and live chat cover the essentials but fall short of the broader omnichannel coverage some competitors offer. For a business whose engagement is genuinely concentrated on WhatsApp with email and chat as secondary channels, this scope is adequate; for broader needs, look elsewhere." },
+    { "area": "Pricing Accessibility", "note": "Genuinely one of the more affordable entry points in this category, with a real, useful integration list already included at the Starter tier rather than gated to a much higher price point — a meaningful accessibility advantage for a budget-conscious small business." }
+  ],
+  "pros": [
+    "Genuinely affordable entry pricing (~$23/month) with a substantial integration list already included at the Starter tier",
+    "Distinctive integration breadth including both Shopify and WooCommerce, plus India-specific tools (Razorpay, Shiprocket, Zoho Books) few competitors document",
+    "A collaborative shared dashboard with real, positive reviewer feedback on messaging speed and effectiveness",
+    "500+ pre-built WhatsApp message templates included, reducing setup time for common use cases",
+    "Real institutional backing ($8.26M raised) with continued funding through 2025, suggesting ongoing product investment"
+  ],
+  "cons": [
+    "A genuine, unresolved contradiction in independent reviews: a strong aggregate support rating alongside specific complaints describing support as effectively nonexistent",
+    "Channel coverage (WhatsApp, email, live chat) is narrower than broader omnichannel competitors in this category",
+    "AI capability is real but less technically documented than some competitors, with no independently audited resolution-rate figure",
+    "No confirmed native Salesforce or HubSpot integration, and no documented multi-language or advanced analytics capability",
+    "Basic company facts (exact founding year, headquarters city) are genuinely unreconciled across available sources"
+  ],
+  "sentiment": [
+    {
+      "quote": "No Customer Support and Cost also too high.",
+      "source": "Aggregated Capterra review sentiment",
+      "url": "https://www.capterra.com/p/238870/Gallabox/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Platform is nice but customer service is worst, in fact there is no customer support.",
+      "source": "Aggregated Capterra review sentiment",
+      "url": "https://www.capterra.com/p/238870/Gallabox/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Messaging happens quickly and is incredibly effective.",
+      "source": "Aggregated Capterra/G2 review sentiment",
+      "url": "https://www.g2.com/products/gallabox/reviews",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "Budget-conscious Indian SMBs and ecommerce sellers wanting broad, locally-relevant integrations at an affordable price",
+    "Shopify or WooCommerce merchants also using Razorpay and Shiprocket who want all three connected to WhatsApp",
+    "Small teams whose engagement is genuinely concentrated on WhatsApp, email, and live chat rather than broader channel needs",
+    "Buyers willing to get current, specific support-responsiveness references before committing, given the mixed review signal"
+  ],
+  "verdict": "Gallabox earns real credit for something few competitors in this specific niche offer: genuine integration breadth for Indian ecommerce sellers specifically, with both Shopify and WooCommerce alongside Razorpay for payments and Shiprocket for shipping — tools that matter enormously to that exact buyer and that most global competitors don't bother supporting. Combined with genuinely affordable entry pricing (roughly $23/month) and a substantial template library included from the start, this is a well-thought-out product for its target market, and the aggregate review score (4.6/5 across 168 G2 reviews) backs that up in broad strokes. What I have to flag directly, though, is a real contradiction sitting underneath that aggregate number: specific individual reviews describe customer support as effectively nonexistent — 'no one is there to help if you [are] facing any issue' — which sits in genuine tension with the platform's own claim of a similarly-rated support experience. I can't resolve that contradiction from public review data alone, and neither should you; it's the kind of discrepancy that often reflects real variance by plan tier or account relationship, and it's worth getting current, specific references before committing serious volume to this platform. The AI capability itself is real but modestly documented, without the technical specificity or independent verification some competitors provide. My honest read: if Gallabox's specific integration list (Shopify/WooCommerce plus Razorpay/Shiprocket) matches your exact stack and the affordable price is a real draw, it's worth evaluating — but push directly on support responsiveness during your trial period rather than assuming the aggregate rating tells the whole story.",
+  "rating": 3.6,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

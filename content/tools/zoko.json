@@ -1,0 +1,152 @@
+{
+  "slug": "zoko",
+  "name": "Zoko",
+  "logoUrl": "",
+  "website": "https://www.zoko.io",
+  "tagline": "A Y Combinator-backed WhatsApp commerce platform built by founders who ran their own WhatsApp-only ecommerce business first — and one of the best-reviewed tools in this entire category.",
+  "tldr": [
+    "Zoko was founded in 2021 in Bengaluru by Arjun Paul and Aromal Sivadasan, who built the product after running their own successful ecommerce business entirely on WhatsApp — a genuinely authentic founder-market-fit story rather than a generic pivot into the space.",
+    "Company funding is a bit unclear from public sources: some describe Zoko as built with no outside investment, while others cite $1.4-1.56M raised from Y Combinator, Flipkart co-founder Binny Bansal's family office, and angel investors — likely reflecting a largely self-sufficient business that took some early seed capital rather than a fully bootstrapped one.",
+    "Pricing is unusually precise and transparent: Starter $49.99/mo (unlimited agents, $0.015/conversation), Plus $79.99/mo (5 agents, no per-conversation fee, 100K conversation fair-use cap), Elite $139.99/mo (10 agents, 1M cap), Max $499.99/mo (30 agents, 5M cap) — plus itemized add-ons like the $4.99/mo Shopify plugin and $9.99/mo Instagram channel.",
+    "The Shopify integration is genuinely exceptional: automatic catalog sync lets customers browse and place orders directly inside WhatsApp, with automated abandoned-cart recovery and order-update messaging built around real commerce workflows.",
+    "Review sentiment is outstanding and unusually consistent — 4.9/5 across 382 Shopify App Store reviews — with reviewers specifically praising the seamless Shopify integration, system stability, and a responsive support team that understands both technical and business requirements.",
+    "The AI chatbot capability is real but modestly scoped — ChatGPT-powered bots for FAQs and simple conversation flows — genuinely less sophisticated than some competitors' more agentic implementations, though the product doesn't need to oversell this since its commerce workflow depth carries the value proposition."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-chatbots"] },
+  "channels": ["WhatsApp", "Instagram"],
+  "keyFeatures": [
+    "Automatic Shopify product catalog sync, letting customers browse and place orders directly inside WhatsApp",
+    "WhatsApp-based abandoned-cart recovery with automated reminders and checkout completion inside the chat",
+    "ChatGPT-powered chatbots handling FAQs, order collection, and simple conversation flows",
+    "Automated order confirmations and shipping updates triggered by Shopify order events",
+    "A multi-agent shared inbox for teams managing WhatsApp and Instagram conversations together",
+    "Customer segmentation for targeted broadcast campaigns and marketing automation",
+    "Custom automation flows, billed per-flow ($5.99/month each) for businesses needing bespoke conversation logic",
+    "Shopify App Store presence with a large, verified, consistently positive review base"
+  ],
+  "companyInfo": {
+    "founded": "2021, Bengaluru, India, by Arjun Paul and Aromal Sivadasan — building on their own prior experience running an ecommerce business entirely on WhatsApp",
+    "hq": "Bengaluru, Karnataka, India",
+    "funding": "Reported figures conflict: some sources describe the company as built without outside investment, while others cite $1.4-1.56M raised from Y Combinator, Binny Bansal's family office, and angel investors — likely a largely self-sufficient business that took modest early seed capital",
+    "employees": "Not publicly disclosed; reports 3,000+ DTC brand customers across 70+ countries"
+  },
+  "faq": [
+    {
+      "question": "Is Zoko's founding story really from running their own WhatsApp store?",
+      "answer": "Yes — this is a genuinely distinctive origin story in this category. Co-founders Arjun Paul and Aromal Sivadasan built Zoko after first running their own successful ecommerce business entirely on WhatsApp, which means the product's commerce-first design (catalog sync, in-chat checkout, cart recovery) reflects lived operational experience rather than a generic feature checklist built to compete in a category."
+    },
+    {
+      "question": "How good is Zoko's Shopify integration specifically?",
+      "answer": "It's the clearest strength of the whole product. Product catalogs sync automatically so customers can browse and order directly inside WhatsApp, abandoned carts trigger automated recovery messages with in-chat checkout completion, and order confirmations and shipping updates fire automatically off Shopify events. Independent reviewers consistently and specifically name this integration, alongside system stability, as the reason they chose Zoko."
+    },
+    {
+      "question": "How sophisticated is Zoko's AI chatbot?",
+      "answer": "Genuinely more modest than some AI-forward competitors — it's described as basic ChatGPT-powered bots for FAQs and simple conversation flows, rather than a deeply agentic system with multi-step actions or CRM lifecycle management. This isn't necessarily a weakness for Zoko's target buyer, since the product's real value proposition is commerce-workflow depth rather than AI sophistication, but don't expect Interakt- or Wati-level dedicated commerce-AI agents specifically."
+    },
+    {
+      "question": "How much does Zoko actually cost?",
+      "answer": "Starting at $49.99/month for the Starter plan (unlimited agents, $0.015 per conversation), rising to $79.99, $139.99, and $499.99/month for higher tiers that trade the per-conversation fee for a flat monthly rate with a generous conversation cap. Add-ons are itemized clearly: the Shopify plugin is $4.99/month, Instagram is $9.99/month, and custom automation flows run $5.99/month each — genuinely one of the more transparently, precisely published pricing pages in this category."
+    },
+    {
+      "question": "Does Zoko support channels beyond WhatsApp?",
+      "answer": "Instagram is available as a documented add-on ($9.99/month), but this remains a narrower channel scope than broader omnichannel competitors like Respond.io or Trengo. If your business genuinely centers on WhatsApp commerce specifically, this focus works in Zoko's favor; if you need broader channel coverage, look elsewhere."
+    },
+    {
+      "question": "How does Zoko compare to Wati or Interakt?",
+      "answer": "All three are India-origin, Shopify-focused WhatsApp commerce tools, but Zoko's review sentiment is notably stronger and more consistent (4.9/5 across 382 reviews) than either, without the serious billing complaints documented for Wati or the dated review base found for Interakt. Zoko's AI chatbot is more modestly scoped than Wati's multi-layered AI stack, so the tradeoff is real commerce-workflow reliability and review consistency versus more ambitious (but less independently verified) AI capability."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Reviewers consistently describe the setup and Shopify integration as seamless, with real system stability noted specifically." },
+    { "dimension": "AI Quality", "score": 3, "note": "ChatGPT-powered chatbots handle FAQs and simple flows competently, but this is a genuinely more modest AI implementation than some competitors' dedicated commerce-AI agents." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "WhatsApp is the core product with Instagram as an add-on — a narrower channel scope than broader omnichannel competitors in this category." },
+    { "dimension": "Pricing Value", "score": 4, "note": "Unusually precise, itemized, and transparent pricing with a real tier ladder and clearly-priced add-ons, genuinely easier to model than several competitors' pricing pages." },
+    { "dimension": "Vendor Support Quality", "score": 5, "note": "An outstanding, large, and unusually consistent independent review base (4.9/5 across 382 reviews) with support responsiveness specifically and repeatedly praised." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 3, "note": "WhatsApp is the core channel, with Instagram available as a documented paid add-on — real but narrower coverage than broader omnichannel competitors that support 7-12+ channels." },
+    { "key": "omnichannel-unification", "score": 3, "note": "A multi-agent shared inbox unifies WhatsApp and Instagram conversations for a team, real within its narrower channel scope." },
+    { "key": "ai-availability", "score": 3, "note": "ChatGPT-powered chatbots are documented for FAQs, order collection, and simple conversation flows — real, functioning AI, but described in more modest terms than some competitors' dedicated, multi-step agentic implementations." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Zoko's AI chatbots." },
+    { "key": "ai-training-method", "score": 2, "note": "No specific, named training or knowledge-ingestion method was found documented for Zoko's ChatGPT-powered chatbots beyond the general 'ChatGPT-powered' description." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for Zoko's chatbots." },
+    { "key": "automation-depth", "score": 4, "note": "Workflow automation for order collection, abandoned-cart recovery, and customer segmentation is documented with real flexibility, and reviewers specifically praise the platform's capability for 'advanced use cases' beyond basic automation." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection during an active conversation was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 4, "note": "A multi-agent shared inbox for WhatsApp and Instagram conversations is a documented, established feature consistent with reviewer praise for the platform's team-usability." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 2, "note": "A multi-agent inbox is documented, but no specific internal-notes or @mentions feature was confirmed in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 5, "note": "A genuinely exceptional, deeply built integration: automatic catalog sync enabling in-WhatsApp browsing and ordering, automated abandoned-cart recovery with in-chat checkout, and order-event-triggered messaging — consistently and specifically praised by independent reviewers as the platform's standout feature." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed; Zoko's commerce depth is concentrated specifically on Shopify." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "No specific Zapier, Make, or n8n integration was confirmed in the materials reviewed." },
+    { "key": "integration-crm", "score": 2, "note": "Zoko is positioned as its own WhatsApp CRM rather than integrating deeply with external CRMs; no native Salesforce, HubSpot, or Pipedrive integration was confirmed." },
+    { "key": "order-payment-data-access", "score": 5, "note": "Genuinely excellent and specific: customers can browse the synced catalog and place orders directly inside WhatsApp, with abandoned-cart recovery completing checkout in-chat — this is real, live commerce-transaction capability, not just order-status lookups." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "No detailed documentation of reporting or analytics depth was found in the materials reviewed." },
+    { "key": "pricing-transparency", "score": 4, "note": "Unusually precise and itemized pricing — exact tier prices, exact per-conversation fees, and exact add-on costs (Shopify plugin $4.99/mo, Instagram $9.99/mo, custom flows $5.99/mo each) are all clearly published, genuinely easier to model than most competitors' pricing pages." },
+    { "key": "api-webhook-extensibility", "score": 2, "note": "No detailed public API or webhook-event documentation was confirmed in the materials reviewed." }
+  ],
+  "pricing": {
+    "model": "Per-tier subscription with a conversation fair-use cap, itemized paid add-ons, and per-conversation fees only on the entry tier",
+    "startingPrice": "$49.99/mo (Starter, unlimited agents, $0.015/conversation)",
+    "plans": [
+      { "name": "Starter", "price": "$49.99/mo", "billing": "Monthly", "notes": "Unlimited agents, $0.015 per-conversation platform fee on top." },
+      { "name": "Plus", "price": "$79.99/mo", "billing": "Monthly", "notes": "5 agents, zero per-conversation platform fee, 100K conversations/month fair-use cap." },
+      { "name": "Elite", "price": "$139.99/mo", "billing": "Monthly", "notes": "10 agents, zero per-conversation fee, 1M conversations/month fair-use cap." },
+      { "name": "Max", "price": "$499.99/mo", "billing": "Monthly", "notes": "30 agents, zero per-conversation fee, 5M conversations/month fair-use cap." },
+      { "name": "Add-ons", "price": "Shopify plugin $4.99/mo; Instagram $9.99/mo; custom flows $5.99/mo each", "billing": "Monthly, itemized", "notes": "Plus Meta's own per-message charges, which shifted to per-message billing (from per-24-hour-conversation) effective January 1, 2026." }
+    ]
+  },
+  "pricingBreakdown": "Zoko's pricing is unusually easy to model precisely compared to most competitors in this category — every tier price, every add-on cost, and the exact per-conversation fee structure are published clearly rather than requiring a sales conversation to piece together. The Starter tier's $0.015-per-conversation fee disappears entirely on Plus and above, replaced by a generous fair-use conversation cap (100K on Plus, scaling to 5M on Max) — a genuinely sensible structure that rewards committing to a higher tier once your volume justifies it. Itemized add-ons (Shopify plugin at $4.99/month, Instagram at $9.99/month, custom flows at $5.99/month each) keep the total cost calculable rather than opaque. The one variable genuinely outside Zoko's control is Meta's own WhatsApp messaging costs, which shifted from per-24-hour-conversation to per-message billing on January 1, 2026 — factor that platform-level change into your cost model regardless of which Zoko tier you choose.",
+  "capabilities": [
+    { "area": "WhatsApp Commerce", "note": "This is Zoko's entire reason for existing, built by founders who ran their own WhatsApp store first, and it shows in genuinely thoughtful execution: automatic catalog sync, in-chat ordering, and abandoned-cart recovery that completes checkout without leaving WhatsApp. Independent reviewers consistently and specifically name this as the reason they chose the platform, and the 4.9/5 review average across 382 reviews backs that up." },
+    { "area": "AI Chatbot", "note": "Real but appropriately modest — ChatGPT-powered bots handle FAQs and simple conversation flows well, without overpromising the kind of dedicated, multi-step agentic capability some competitors market more aggressively. For a Shopify-first business whose priority is reliable commerce automation rather than sophisticated AI, this scoping is honest rather than a limitation." },
+    { "area": "Channel Scope", "note": "Deliberately narrow: WhatsApp plus an Instagram add-on. This focus is a feature, not a bug, for the specific buyer Zoko targets — a Shopify DTC brand running its customer relationship primarily through WhatsApp — but it's a real constraint if your business needs broader channel coverage." },
+    { "area": "Review Consistency", "note": "One of the strongest, most consistent independent review records found in this entire category — 4.9/5 across 382 Shopify App Store reviews is a genuinely large, genuinely positive sample, with support responsiveness and system stability specifically and repeatedly named rather than generic praise." },
+    { "area": "Breadth Beyond Commerce", "note": "A real, honest gap worth noting: no confirmed native CRM integration beyond Zoko's own built-in system, no website-builder integrations, and no documented multi-language or advanced analytics capability. This is a focused tool, not a broad platform, and buyers should evaluate it on that basis rather than expecting enterprise-platform breadth." }
+  ],
+  "pros": [
+    "An authentic founder-market-fit story — built by people who ran their own WhatsApp ecommerce business before building the platform for others",
+    "Genuinely exceptional Shopify integration with real in-WhatsApp ordering and abandoned-cart recovery, not just a generic connector",
+    "One of the strongest, most consistent independent review records in this entire category (4.9/5 across 382 reviews)",
+    "Unusually precise, itemized, transparent pricing that's genuinely easy to model without a sales call",
+    "Real, responsive customer support specifically and repeatedly praised by independent reviewers"
+  ],
+  "cons": [
+    "A narrower channel scope than broader omnichannel competitors — WhatsApp plus an Instagram add-on, nothing more",
+    "The AI chatbot capability is genuinely more modest than some competitors' dedicated, multi-step agentic implementations",
+    "No confirmed native CRM integration beyond Zoko's own built-in system (no Salesforce, HubSpot, or Pipedrive)",
+    "No documented multi-language support, advanced analytics, or website-builder integrations beyond Shopify",
+    "Company funding history is unclear from public sources, with conflicting reports on whether it took outside investment at all"
+  ],
+  "sentiment": [
+    {
+      "quote": "Seamless Shopify integration and flexibility for advanced use cases like abandoned carts, order confirmations, follow-ups, and customer segmentation, along with system stability.",
+      "source": "Aggregated Shopify App Store review sentiment",
+      "url": "https://apps.shopify.com/whatsapp-button-chat",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Professional and responsive support team that understands technical and business requirements.",
+      "source": "Aggregated Shopify App Store review sentiment",
+      "url": "https://apps.shopify.com/whatsapp-button-chat",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "Shopify-first DTC brands wanting genuinely deep, reliable WhatsApp commerce automation",
+    "Small-to-mid ecommerce teams that value review-verified reliability and support over cutting-edge AI sophistication",
+    "Businesses whose customer relationship genuinely centers on WhatsApp (and optionally Instagram) rather than needing broad channel coverage",
+    "Budget-conscious buyers who want precisely itemized, easy-to-model pricing rather than a sales-quoted structure"
+  ],
+  "verdict": "Zoko is a genuinely well-executed example of a narrowly-scoped product done right, and its origin story is the reason why: founders who built and ran their own WhatsApp ecommerce business before building this platform for others tend to get the actual workflow details correct in a way a generic pivot into the space often doesn't. That shows up directly in the Shopify integration, which is the clear standout of the entire product — automatic catalog sync, in-chat ordering, and abandoned-cart recovery that completes checkout without ever leaving WhatsApp, backed by one of the strongest and most consistent independent review records in this whole category (4.9/5 across 382 reviews, with support responsiveness specifically and repeatedly praised rather than generically mentioned). The AI chatbot capability is honestly more modest than some competitors' — ChatGPT-powered bots for FAQs and simple flows, not a deeply agentic, multi-step system — but that's a reasonable scoping choice for a product whose real value is commerce-workflow reliability rather than AI sophistication, and it doesn't oversell what it offers. The pricing is refreshingly precise and easy to model, a genuine point in its favor against competitors that require a sales call to understand real costs. My honest read: if you're a Shopify-first DTC brand running your customer relationship through WhatsApp and want a reliable, well-reviewed, and transparently priced tool for it, Zoko is one of the stronger picks in this category. If you need broader channel coverage, deep CRM integration, or more ambitious AI capability, look at Respond.io, Trengo, or Wati instead — all reviewed elsewhere on this site — with the tradeoff that none of them match Zoko's review consistency on the specific job it's built for.",
+  "rating": 3.9,
+  "trending": true,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

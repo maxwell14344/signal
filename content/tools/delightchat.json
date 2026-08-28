@@ -1,0 +1,145 @@
+{
+  "slug": "delightchat",
+  "name": "DelightChat",
+  "logoUrl": "",
+  "website": "https://www.delightchat.io",
+  "tagline": "A bootstrapped-ish WhatsApp-and-social helpdesk from the founders of SuperLemon, honest enough to describe its own AI as assistive rather than autonomous.",
+  "tldr": [
+    "DelightChat was founded in 2020 by Preetam Nath and Sankalp Jonna, who first built SuperLemon — a WhatsApp button for Shopify stores that grew to 20,000+ installs — before creating DelightChat to solve the broader, disjointed support problem they saw through those customer interactions.",
+    "Funding is genuinely modest and somewhat unclear: reported figures range from roughly $99.5K in seed funding (Gemba Capital, First Cheque) to a claim of reaching $1.8M in revenue without any outside venture capital — likely reflecting a small seed round followed by largely self-sufficient growth.",
+    "Pricing runs Startup $29/mo, Scale $99/mo, Growth $299/mo (30% off annually), with a distinctively honest commitment: DelightChat charges WhatsApp's own per-message rates with no markup, and the first WhatsApp API number is free on every plan ($25/mo for each additional number).",
+    "Channel coverage is genuinely broad for a tool this size — WhatsApp, Instagram, Facebook, SMS, and web chat all unified in one shared inbox, wider than several other India-origin WhatsApp-commerce competitors.",
+    "The AI positioning is refreshingly honest: DelightChat's own materials describe its GPT-powered assistant as assistive rather than autonomous — it drafts and rewrites replies to speed up agents but doesn't resolve tickets on its own — while a separately-marketed AI Support Agent capability claims lead qualification and intent detection, a slightly inconsistent picture worth testing directly.",
+    "Best for global D2C brands whose customers live on WhatsApp and Instagram rather than email, wanting an affordable, transparently-priced shared inbox — not for teams needing sophisticated autonomous AI resolution or deep CRM/ecommerce-platform integration beyond Shopify Flow."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["live-chat-shared-inbox"] },
+  "channels": ["WhatsApp", "Instagram", "Facebook Messenger", "SMS", "Web Chat"],
+  "keyFeatures": [
+    "A unified shared inbox centralizing WhatsApp, Instagram, Facebook, SMS, and web chat conversations for team collaboration",
+    "A no-code chatbot builder for creating rule-based automated responses without technical knowledge",
+    "A GPT-powered assistive AI that drafts and rewrites agent replies to speed up response time, without resolving tickets autonomously",
+    "AI Support Agents marketed separately for lead qualification, customer-intent detection, and support-query resolution",
+    "Shopify Flow integration, triggering WhatsApp messages directly from Shopify workflow automations",
+    "Broadcast and campaign tools for targeted marketing messages and personalized bulk sends",
+    "Custom re-engagement notifications for reaching customers proactively",
+    "A pricing commitment to pass through WhatsApp's own per-message rates with no markup"
+  ],
+  "companyInfo": {
+    "founded": "2020, by Preetam Nath and Sankalp Jonna, building on their earlier 2019 product SuperLemon (a WhatsApp button for Shopify stores that grew to 20,000+ installs)",
+    "hq": "Bengaluru, India (inferred from founders' prior SuperLemon base)",
+    "funding": "Reported figures conflict: roughly $99.5K in seed funding from Gemba Capital and First Cheque is cited alongside a separate claim of $1.8M in revenue reached without outside venture capital — likely a small seed round followed by largely self-sufficient growth",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "What is DelightChat's relationship to SuperLemon?",
+      "answer": "DelightChat's founders, Preetam Nath and Sankalp Jonna, first built SuperLemon in 2019 — a simple WhatsApp button plugin for Shopify stores that grew to over 20,000 installs. Through their direct interactions with SuperLemon's customers, they identified a broader, unsolved need for an affordable, integrated support tool, which led them to build DelightChat as a more complete product."
+    },
+    {
+      "question": "Is DelightChat's AI autonomous, or does it need a human?",
+      "answer": "DelightChat is unusually direct about this in its own materials: the GPT-powered assistant is described as assistive, not autonomous — it drafts and rewrites replies to help agents respond faster, but doesn't resolve tickets on its own. A separately-marketed 'AI Support Agent' capability claims broader abilities (lead qualification, intent detection, query resolution), which is a somewhat inconsistent picture across the company's own materials — test the actual autonomous-resolution capability directly rather than assuming it matches the more ambitious marketing language."
+    },
+    {
+      "question": "How does DelightChat price WhatsApp messaging?",
+      "answer": "Distinctively transparently: the company states it charges WhatsApp's own per-message rates with no markup added on top, which is a genuinely honest commitment relative to competitors that build a margin into message costs. The platform fee itself runs $29-299/month depending on tier, with the first WhatsApp API number free and each additional number at $25/month."
+    },
+    {
+      "question": "Does DelightChat support channels beyond WhatsApp?",
+      "answer": "Yes — Instagram, Facebook Messenger, SMS, and web chat are all documented native channels alongside WhatsApp, unified in one shared inbox. This is genuinely broader coverage than some other India-origin WhatsApp-commerce tools that focus on WhatsApp alone or WhatsApp-plus-Instagram only."
+    },
+    {
+      "question": "How good is DelightChat's Shopify integration?",
+      "answer": "Real, but built around Shopify Flow rather than a dedicated in-chat commerce experience — DelightChat connects to Shopify Flow automations to trigger WhatsApp messages directly from store workflows. This is a different, somewhat less immersive approach than competitors (like Zoko) that build native in-WhatsApp catalog browsing and checkout directly into the product."
+    },
+    {
+      "question": "How does DelightChat compare to Wati or Zoko?",
+      "answer": "DelightChat's channel coverage is broader than Zoko's WhatsApp-plus-Instagram focus, and its pricing transparency (no markup on WhatsApp message costs) is a genuine differentiator versus competitors with less clear billing. Its AI capability is more explicitly modest than Wati's multi-layered AI stack, though DelightChat's honesty about that limitation is itself a point in its favor for buyers who value accurate expectations over ambitious marketing."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Independent reviewers on the Shopify App Store describe the platform as clean and easy to use, with automation features specifically praised for saving time." },
+    { "dimension": "AI Quality", "score": 3, "note": "The company's own materials honestly describe its core GPT assistant as assistive rather than autonomous, a refreshingly accurate self-assessment, though a separately-marketed 'AI Support Agent' capability claims broader autonomous resolution that wasn't independently verified." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "A genuinely broad channel list for a tool this size — WhatsApp, Instagram, Facebook, SMS, and web chat all unified in one inbox." },
+    { "dimension": "Pricing Value", "score": 4, "note": "A distinctively transparent, no-markup commitment on WhatsApp message costs, combined with clear, published platform tiers, makes real cost genuinely easy to estimate." },
+    { "dimension": "Vendor Support Quality", "score": 4, "note": "A strong Shopify App Store rating (4.8/5, 89% five-star) with responsive team support specifically praised by independent reviewers." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Documented native support for WhatsApp, Instagram, Facebook Messenger, SMS, and web chat — genuinely broad coverage for a tool at this scale and price point." },
+    { "key": "omnichannel-unification", "score": 4, "note": "All connected channels land in one unified shared inbox, consistent with reviewer praise for the platform's clean, centralized team-collaboration experience." },
+    { "key": "ai-availability", "score": 3, "note": "A real but somewhat inconsistently described AI capability: the company's own materials call the core GPT assistant 'assistive, not autonomous,' while separately marketing an 'AI Support Agent' claiming lead qualification and query resolution — worth testing directly given the mixed self-description." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found, and the company's own materials explicitly caveat that the core assistant does not resolve tickets autonomously." },
+    { "key": "ai-training-method", "score": 2, "note": "No specific, named training or knowledge-ingestion method was found documented for either DelightChat's assistive AI or its AI Support Agent capability." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for DelightChat's AI features." },
+    { "key": "automation-depth", "score": 3, "note": "A no-code chatbot builder, broadcast and campaign tools, and Shopify Flow-triggered messaging represent real, if rule-based rather than deeply agentic, automation depth." },
+    { "key": "sentiment-intent-detection", "score": 3, "note": "The AI Support Agent capability is documented as able to 'uncover customer intent,' a real, if not independently verified, capability on this specific criterion." },
+    { "key": "unified-inbox", "score": 4, "note": "A mature, well-reviewed shared inbox unifying all connected channels, consistent with independent praise for the platform's clean, centralized experience." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 2, "note": "The shared inbox is documented as supporting 'efficient team collaboration' generically, but no specific internal-notes or @mentions feature was confirmed in the materials reviewed." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed." },
+    { "key": "integration-shopify", "score": 3, "note": "A real, documented connection to Shopify Flow triggers WhatsApp messages directly from store workflow automations — functional, but a less immersive, in-chat-commerce approach than competitors that build native catalog browsing and checkout directly into the product." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No dedicated WooCommerce integration was found in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "No specific Zapier, Make, or n8n integration was confirmed in the materials reviewed, beyond the Shopify Flow connection." },
+    { "key": "integration-crm", "score": 2, "note": "No native Salesforce, HubSpot, or Pipedrive integration was confirmed in the materials reviewed." },
+    { "key": "order-payment-data-access", "score": 2, "note": "Shopify Flow can trigger WhatsApp messages off store events, but no documentation was found of live order or payment data being surfaced directly inside a conversation the way more commerce-immersive competitors document." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "No detailed documentation of reporting or analytics depth was found in the materials reviewed." },
+    { "key": "pricing-transparency", "score": 4, "note": "A distinctively honest pricing commitment — passing through WhatsApp's own per-message rates with no markup — combined with clearly published platform tiers ($29/$99/$299), makes real cost genuinely easy to estimate relative to most competitors in this category." },
+    { "key": "api-webhook-extensibility", "score": 2, "note": "The Shopify Flow integration implies some workflow-trigger connectivity, but no detailed public API or webhook-event documentation was confirmed in the materials reviewed." }
+  ],
+  "pricing": {
+    "model": "Per-tier SaaS subscription with a pass-through, no-markup commitment on WhatsApp's own per-message fees",
+    "startingPrice": "$29/mo (Startup)",
+    "plans": [
+      { "name": "Startup", "price": "$29/mo", "billing": "Monthly (30% off annually)", "notes": "First WhatsApp API number included free." },
+      { "name": "Scale", "price": "$99/mo", "billing": "Monthly (30% off annually)", "notes": "Expanded limits and features over Startup." },
+      { "name": "Growth", "price": "$299/mo", "billing": "Monthly (30% off annually)", "notes": "Top published tier for larger teams and volume." },
+      { "name": "Additional WhatsApp numbers", "price": "$25/mo each", "billing": "Monthly, add-on", "notes": "Beyond the one free number included on every plan." }
+    ]
+  },
+  "pricingBreakdown": "DelightChat's pricing structure is genuinely straightforward and, on the WhatsApp messaging side specifically, more honest than most competitors: the company explicitly states it passes through WhatsApp's own per-message rates with no markup, rather than building a margin into message costs the way some platforms do. The platform fee itself runs a clean $29/$99/$299 ladder with a 30% annual discount, and the first WhatsApp API number is included free on every tier, with additional numbers at a flat $25/month. This is meaningfully easier to model than platforms with multiple concurrent pricing structures or per-conversation fees layered on top of a base plan — a genuine point in DelightChat's favor for a budget-conscious D2C brand trying to project real monthly cost.",
+  "capabilities": [
+    { "area": "Unified Shared Inbox", "note": "A genuinely broad channel list — WhatsApp, Instagram, Facebook, SMS, and web chat — unified into one clean inbox, consistently praised by independent reviewers for ease of use and team collaboration. This is a real strength for a tool at this price point and scale." },
+    { "area": "AI Honesty", "note": "Worth crediting directly: DelightChat's own materials describe its core AI assistant as assistive rather than autonomous, an accurate and refreshingly modest self-assessment compared to competitors that market ambitious autonomous-resolution claims without independent verification. The separately-marketed AI Support Agent's broader claims (lead qualification, intent detection, resolution) sit in some tension with that honesty, so test the actual autonomous capability directly." },
+    { "area": "Shopify Integration", "note": "Real and functional via Shopify Flow, triggering WhatsApp messages off store workflow events — but this is a less immersive approach than competitors like Zoko that build native in-WhatsApp catalog browsing and checkout directly into the product. If deep in-chat commerce is your priority, compare this specifically against a more commerce-native competitor." },
+    { "area": "Pricing Transparency", "note": "A genuine differentiator: the explicit no-markup commitment on WhatsApp's own message costs is more honest than how several competitors handle this same cost layer, and the flat, clearly published platform tiers make total cost easy to estimate without a sales conversation." },
+    { "area": "Breadth Beyond Messaging", "note": "A real, honest limitation: no confirmed native CRM integration, no advanced analytics documentation, and no website-builder integrations beyond the Shopify Flow connection. This is a focused messaging-and-support tool, not a broad platform, and should be evaluated on that scope." }
+  ],
+  "pros": [
+    "An authentic founder-market-fit story, built on direct customer feedback from the founders' earlier SuperLemon product",
+    "Genuinely broad channel coverage (WhatsApp, Instagram, Facebook, SMS, web chat) for a tool at this price point",
+    "A distinctively honest, no-markup commitment on WhatsApp's own per-message costs",
+    "Clear, easy-to-model pricing tiers without requiring a sales conversation",
+    "A strong, consistent independent review record (4.8/5, 89% five-star on Shopify App Store) with support specifically praised"
+  ],
+  "cons": [
+    "The company's own materials describe its core AI as assistive rather than autonomous, while separate marketing claims broader autonomous capability — a genuinely inconsistent picture worth testing directly",
+    "The Shopify integration works through Flow-triggered messaging rather than the more immersive in-chat catalog and checkout experience some competitors build natively",
+    "No confirmed native CRM integration, advanced analytics, or website-builder integrations beyond Shopify",
+    "No independently audited AI resolution-rate figure exists",
+    "Company funding history is somewhat unclear, with conflicting reports on the extent of outside investment taken"
+  ],
+  "sentiment": [
+    {
+      "quote": "Clean and easy to use, with responsive team support and automation features that save time.",
+      "source": "Aggregated Shopify App Store review sentiment",
+      "url": "https://apps.shopify.com/reviews/2020904",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "Global D2C brands whose customers primarily message on WhatsApp and Instagram rather than email",
+    "Budget-conscious teams that value transparent, no-markup WhatsApp pricing and easy-to-model platform costs",
+    "Small-to-mid support teams wanting a genuinely broad, unified channel inbox without enterprise complexity",
+    "Buyers who prefer honest, accurately-scoped AI marketing over ambitious claims that outrun what's independently verifiable"
+  ],
+  "verdict": "DelightChat is a genuinely credible product built the way you'd hope a second product from experienced founders would be: Preetam Nath and Sankalp Jonna learned what D2C brands actually needed from running SuperLemon, a simple WhatsApp button that reached 20,000+ Shopify stores, and built DelightChat to solve the broader, disjointed support problem their customers kept describing. That practical grounding shows up in a genuinely broad, well-unified shared inbox — WhatsApp, Instagram, Facebook, SMS, and web chat all in one clean interface, backed by a strong, consistent independent review record. What I'd credit most specifically, though, is the company's honesty about its own AI: describing the core assistant as 'assistive, not autonomous' is an accurate, refreshingly modest characterization in a category where many competitors market resolution capability well ahead of what's independently verified. The separately-marketed AI Support Agent claims do sit in some tension with that honesty, so I'd test the actual autonomous-resolution capability directly rather than assuming it matches the more ambitious framing. The Shopify integration is real but built around Flow-triggered messaging rather than the deeper, more immersive in-chat commerce experience a competitor like Zoko builds natively — a meaningful difference if in-WhatsApp catalog browsing and checkout specifically is what you need. My honest read: if you're a global D2C brand whose support volume genuinely lives on WhatsApp and social channels, and you value transparent pricing and honest capability claims over the most ambitious AI marketing in the category, DelightChat is a solid, trustworthy choice. If you need deep in-chat commerce or more sophisticated autonomous AI resolution, compare it directly against Zoko or Wati before committing.",
+  "rating": 3.7,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "freshdesk",
+  "name": "Freshdesk",
+  "logoUrl": "",
+  "website": "https://www.freshworks.com/freshdesk/",
+  "tagline": "The ticketing system that started Freshworks in 2010 as a cheaper Zendesk — now an email-first helpdesk with AI billed by the session on top.",
+  "tldr": [
+    "Freshdesk is Freshworks' original product and core ticketing system — email, a customer portal, and a knowledge base, with WhatsApp, Messenger, Instagram, and LINE available as connected channels rather than the product's center of gravity.",
+    "Pricing is per-agent, billed annually: Growth $19/agent/mo, Pro $55/agent/mo, Enterprise $89/agent/mo, plus a limited perpetually-free plan capped at 2 agents. Freddy AI Agent ships with 500 free sessions, then $49 per 100 sessions on top of seat cost.",
+    "Founded in 2010 in Chennai by Girish Mathrubootham and Shan Krishnasamy — reportedly built in response to Zendesk's price increases — Freshdesk became the founding product of Freshworks Inc., now NASDAQ-listed (FRSH) with roughly 5,300 employees.",
+    "Freshdesk is a pure ticketing/email product; live chat, WhatsApp-as-a-widget, and voice live in sister Freshworks products (Freshchat, Freshcaller) that get bundled together into 'Freshdesk Omni' — buying just Freshdesk gets you email-centric support, not an omnichannel inbox out of the box.",
+    "Independent reviews are strong on balance (a large review base averaging 4.5/5) with 'easy to use' and 'good value versus Zendesk' as recurring praise, but recent complaints center on rising per-agent costs, features moved behind higher tiers, and AI capabilities described as underwhelming for the price.",
+    "Best for support teams whose volume is predominantly email/ticket-based and who want a mature, well-integrated helpdesk at a lower per-seat cost than Zendesk — not for teams that need a unified omnichannel inbox or live chat out of the box."
+  ],
+  "categories": { "primary": "helpdesk-ticketing-automation", "secondary": ["ai-support-agents"] },
+  "channels": ["Email", "Customer Portal", "WhatsApp", "Facebook Messenger", "Instagram", "LINE"],
+  "keyFeatures": [
+    "Ticketing core with a customer-facing portal, SLA policies, and a public/private knowledge base",
+    "Freddy AI Agent — an autonomous agent that reads, responds to, and can auto-close email tickets, billed per session beyond a 500-session allowance",
+    "Freddy AI Copilot — a per-agent add-on ($29/agent/mo) offering reply suggestions and other agent-assist tooling on Pro and Enterprise",
+    "Scenario automations and workflow automator for multi-action rules (tagging, assignment, status changes) triggered off ticket events",
+    "Canned responses with dynamic-field personalization, though not yet integrable directly into scenario automations",
+    "Native Shopify integration surfacing order status, payment, and shipping data in the ticket sidebar, with in-app cancel/refund actions",
+    "Native Salesforce and HubSpot integrations, plus Slack and Microsoft Teams for internal notifications",
+    "Freddy sentiment analysis that scores real-time ticket sentiment to help prioritize queues, and Freddy Self-Service bots supporting 54 languages with automatic language detection"
+  ],
+  "companyInfo": {
+    "founded": "2010, Chennai, India — founded by Girish Mathrubootham and Shan Krishnasamy as Freshworks' original product, reportedly built in response to customer frustration over a Zendesk price increase",
+    "hq": "San Mateo, California, USA (Freshworks Inc.)",
+    "funding": "Publicly traded — Freshworks Inc. trades on NASDAQ as FRSH, the first Indian-founded SaaS company to list there",
+    "employees": "~5,300 across Freshworks Inc. (2025 reporting); Freshdesk-specific headcount is not disclosed"
+  },
+  "faq": [
+    {
+      "question": "Is Freshdesk the same product as Freshchat or Freshdesk Omni?",
+      "answer": "No. Freshdesk is the original email/ticketing product, sold and priced standalone. Freshchat is Freshworks' separate messaging product (live chat, WhatsApp-as-widget, social DMs). Freshworks bundles both together with Freshcaller (voice) into a suite marketed as Freshdesk Omni. If you buy only Freshdesk, you get email-centric ticketing with WhatsApp/Messenger/Instagram/LINE as connected channels, not a live chat widget or phone support."
+    },
+    {
+      "question": "Does Freshdesk have a free plan?",
+      "answer": "Yes, but it's limited: a perpetually-free tier capped at 2 agents, positioned as a trial-adjacent tier rather than a real small-team plan. Freshworks has changed the free offering's terms over time (the legacy 'Sprout' plan differs from the current 'Free' plan), so verify current limits before assuming continuity with an older free account."
+    },
+    {
+      "question": "How does Freshdesk price its AI features?",
+      "answer": "Freddy AI Agent includes 500 free sessions across all plans (a session is a 72-hour resolution window), then costs $49 per 100 additional sessions. Freddy AI Copilot, the agent-assist layer, is a separate $29/agent/month add-on available on Pro and Enterprise. Neither is included at zero cost beyond the initial allowance, so budget for both if AI deflection is central to your plan."
+    },
+    {
+      "question": "What is Freddy AI Agent's real resolution rate?",
+      "answer": "Freshworks markets up to 80% resolution, but that figure is highly setup-dependent — independent analysis and user reports describe real-world deployments landing anywhere from roughly 23% to 75%+ depending almost entirely on knowledge base quality. Treat the 80% figure as a ceiling under ideal conditions, not a typical outcome, and no independent audit of the vendor's number was found."
+    },
+    {
+      "question": "Can Freshdesk's AI or agents see live order and payment information?",
+      "answer": "Human agents can, through the native Shopify app — it surfaces order status, payment status, and shipping info directly in the ticket sidebar, with the ability to cancel or refund orders from inside Freshdesk. Freddy AI Agent's documented capabilities include taking actions and auto-closing tickets, but we found no documentation confirming the AI itself queries the Shopify order data the human sidebar has access to."
+    },
+    {
+      "question": "How does Freshdesk compare to Zendesk on price?",
+      "answer": "Cheaper at the entry tier — Freshdesk's Growth plan is $19/agent/mo against Zendesk Suite Team's $55/agent/mo — but the gap narrows fast: Freshdesk Pro at $55/agent/mo lands exactly where Zendesk's entry tier does, and Freshdesk's own reviewers report the same pattern Zendesk gets criticized for, with features and reporting gated to higher tiers as teams grow."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Consistently praised in independent reviews for a clean interface and straightforward onboarding, though a few reviewers describe initial ticketing-system setup as taking a couple of attempts to get right." },
+    { "dimension": "AI Quality", "score": 3, "note": "Freddy AI Agent is a real, functioning agent, but the advertised 80% resolution figure is unaudited and highly setup-dependent, and multiple reviewers describe the AI as underwhelming relative to its added cost." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "Freshdesk itself is email/ticket-centric; live chat, a true unified widget, and voice all live in separate Freshworks products bundled only in the pricier Freshdesk Omni suite." },
+    { "dimension": "Pricing Value", "score": 3, "note": "Cheaper than Zendesk at entry, but reviewers cite rising costs, features moved to higher tiers over time, and AI billed separately on top of seats." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "A large, long-running review base backs a generally positive support reputation, but recent complaints include unannounced feature removals and support response quality varying by tier." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 3, "note": "Freshworks' own Freshdesk page lists Email, WhatsApp, Facebook Messenger, Instagram, and LINE as native channels, plus a customer portal — but there is no native live chat widget or voice channel in the standalone product; those require Freshchat or Freshcaller as separate purchases." },
+    { "key": "omnichannel-unification", "score": 3, "note": "Connected channels land in the same ticket queue with shared customer context, but Freshdesk's own product boundary — no native chat widget, no voice — means a genuinely omnichannel setup requires buying and stitching in sister Freshworks products rather than getting it in one purchase." },
+    { "key": "ai-availability", "score": 4, "note": "Freddy AI Agent is a genuine autonomous agent — it reads, responds to, and can auto-close tickets and take actions, not just suggest replies. The structural caveat is the same one that applies across Freshworks products: it's a metered add-on beyond 500 free sessions, not bundled into the seat price." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "Freshworks markets up to 80% resolution, but independent analysis describes real-world deployments ranging from roughly 23% to 75%+ depending almost entirely on knowledge base quality — a wide enough range, with no independent audit behind the headline number, that it should be treated skeptically rather than as a benchmark." },
+    { "key": "ai-training-method", "score": 4, "note": "Freddy AI Agent and the Self-Service bots learn from the connected knowledge base and support content rather than requiring manually built intent trees, consistent with how Freddy AI Agent works across other Freshworks products (Freshchat, Freshdesk Omni)." },
+    { "key": "hallucination-controls", "score": 3, "note": "Freddy is documented as grounding responses in the connected knowledge base, similar to Freshchat's Freddy implementation, but we found no Freshdesk-specific documentation of per-answer source citation shown to the end customer or a tunable confidence threshold." },
+    { "key": "automation-depth", "score": 3, "note": "Workflow Automator and scenario automations can perform multiple actions (tagging, assignment, status changes, notifications) off a single trigger, which is real multi-step automation — but canned responses are explicitly not yet integrable into scenario automations, a documented gap versus a fully chained agentic workflow." },
+    { "key": "sentiment-intent-detection", "score": 4, "note": "Freddy's sentiment analysis is a documented, real-time feature that scores customer sentiment on the latest message to help prioritize queues — a genuine out-of-the-box capability rather than something you'd have to build yourself." },
+    { "key": "unified-inbox", "score": 3, "note": "Tickets from connected channels land in one queue with shared customer history, which is real unification for what Freshdesk covers — but because live chat and voice sit in separate products, it's a unified ticket queue, not a unified cross-product inbox, unless you buy the wider Freshdesk Omni suite." },
+    { "key": "ai-human-handoff", "score": 3, "note": "Tickets the AI can't resolve become standard agent-assigned tickets in the same queue with full history intact — functional, but we found no Freshdesk-specific documentation of the more deliberate in-thread handoff language Freshworks uses for Freshchat's Freddy AI Agent." },
+    { "key": "internal-collaboration", "score": 4, "note": "Private notes, @mentions to loop in a teammate, and assignment/routing rules are standard, long-established Freshdesk features going back to its earliest ticketing-system design." },
+    { "key": "canned-responses", "score": 4, "note": "Canned responses with dynamic-field personalization are a mature, well-used feature — docked one point because the Freshworks community itself confirms canned responses can't currently be triggered directly inside scenario automations, a real workflow limitation." },
+    { "key": "integration-shopify", "score": 4, "note": "A first-party Shopify app surfaces order status, payment status, and shipping details directly in the ticket sidebar across multiple connected stores, with documented in-app order cancellation and refunds — real write access, not just a read-only summary." },
+    { "key": "integration-woocommerce", "score": 2, "note": "No first-party Freshworks WooCommerce app was found comparable to the Shopify integration; connecting the two realistically means going through a third-party automation platform like n8n or Zapier rather than a native app." },
+    { "key": "integration-wordpress", "score": 2, "note": "No dedicated first-party WordPress plugin or widget was found; WordPress connectivity is documented through third-party automation platforms (Zapier, n8n) rather than a native Freshdesk-built integration." },
+    { "key": "integration-wix", "score": 1, "note": "No first-party Wix app exists; the only documented path is a generic Zapier connection (e.g., creating a Freshdesk ticket from a Wix form submission), which is third-party workflow glue rather than a native integration." },
+    { "key": "integration-squarespace", "score": 1, "note": "No first-party or well-documented third-party Squarespace integration was found for Freshdesk specifically." },
+    { "key": "integration-webflow", "score": 1, "note": "No first-party or well-documented third-party Webflow integration was found for Freshdesk specifically." },
+    { "key": "integration-automation-platforms", "score": 4, "note": "Freshdesk has a mature presence across Zapier, Make, and n8n with real documented triggers and actions on all three — a genuinely broader no-code footprint than several competitors in this category that only cover one or two platforms." },
+    { "key": "integration-crm", "score": 3, "note": "Salesforce and HubSpot are both named, first-party integrations on Freshdesk's own feature page, though this is the same escalation/context-sync pattern common across the category rather than confirmed deep bidirectional pipeline sync; no Pipedrive integration was found." },
+    { "key": "order-payment-data-access", "score": 3, "note": "The Shopify app gives human agents real order status, payment, and shipping visibility plus cancel/refund actions directly in the ticket — genuine data access for the agent. Scored a point below Freshchat's equivalent because we found no documentation confirming Freddy AI Agent itself (versus the human agent) can query that same order data autonomously." },
+    { "key": "multi-language-support", "score": 4, "note": "Freddy Self-Service bots support 54 languages with automatic detection based on locale, website, or browser language, and Freddy Copilot's Live Translate covers 60+ languages for agent replies — real, documented breadth on both the self-service and agent-assist sides." },
+    { "key": "analytics-depth", "score": 3, "note": "Basic analytics ship on Growth, with custom dashboards arriving at Pro — the fundamentals (volume, resolution time, CSAT) are present, but deeper reporting is tier-gated in the same pattern independent reviewers criticize across the category, and one specific complaint on record describes CSV exporting being moved behind a pricier tier." },
+    { "key": "pricing-transparency", "score": 3, "note": "Per-agent tiers ($19/$55/$89) and the AI session pricing ($49/100 sessions, $29/agent/mo Copilot) are all published clearly — but reviewers specifically flag previously-included functionality (like CSV export) being moved to higher tiers over time, which undermines trust in what a given tier's price actually locks in long-term." },
+    { "key": "api-webhook-extensibility", "score": 4, "note": "Freshdesk exposes a documented REST API and webhooks, and sits on the same Freshworks developer platform and app marketplace used across the company's other products — genuine build-on-top capability rather than a closed workflow builder." }
+  ],
+  "pricing": {
+    "model": "Per-agent tiered SaaS, billed annually (monthly rates run higher), with usage-metered AI add-ons",
+    "startingPrice": "$0 (Free, capped at 2 agents); $19/agent/mo for the first paid tier",
+    "plans": [
+      { "name": "Free", "price": "$0", "billing": "Free, capped at 2 agents", "notes": "Core ticketing, customer portal, and knowledge base for very small teams; Freshworks has changed free-tier terms over time, so verify current limits before relying on it long-term." },
+      { "name": "Growth", "price": "$19/agent/mo", "billing": "Billed annually", "notes": "Ticketing, shared inbox, threads and tasks, customer portal, knowledge base, basic analytics, 500 free Freddy AI Agent sessions." },
+      { "name": "Pro", "price": "$55/agent/mo", "billing": "Billed annually; marked 'Most Popular'", "notes": "Adds multilingual helpdesk, custom dashboards, intelligent routing, multiple SLA policies, 5,000 external collaborators, Freddy AI Copilot available as a paid add-on." },
+      { "name": "Enterprise", "price": "$89/agent/mo", "billing": "Billed annually", "notes": "Adds Freddy AI Insights, skill-based routing, a sandbox environment, audit logs, and IP allowlisting." },
+      { "name": "Freddy AI Agent (add-on)", "price": "$49 per 100 sessions", "billing": "Usage-metered beyond 500 free sessions", "notes": "A session is defined as a 72-hour resolution window; available across all paid tiers." },
+      { "name": "Freddy AI Copilot (add-on)", "price": "$29/agent/mo", "billing": "Per agent, billed with the plan", "notes": "Available on Pro and Enterprise; not required for every agent seat." }
+    ]
+  },
+  "pricingBreakdown": "Freshdesk's headline $19/agent/mo Growth tier is a genuinely large discount against Zendesk's $55/agent Suite Team plan for equivalent ticketing basics — a five-agent team pays $95/month on Growth versus $275/month on Zendesk's entry tier. But that gap closes fast the moment you need what Pro actually gates: multilingual support, custom dashboards, and multiple SLA policies push you to $55/agent/mo, landing exactly at Zendesk's own entry price. The AI economics follow the same Freshworks pattern seen across Freshchat: 500 free Freddy AI Agent sessions sound generous until you do real volume, after which $49 per 100 sessions stacks on top of seats, and Freddy AI Copilot's agent-assist layer is another $29/agent/mo on top of that. A five-agent team on Pro with Copilot for everyone is already $275 (Pro) + $145 (Copilot) = $420/month before a single AI Agent session is billed. Reviewers specifically flag that previously-included functionality like CSV export has moved behind pricier tiers over time, which is worth pricing in as a trend, not a one-time fact. Compared to Help Scout's $25/user/mo Standard tier with a cleaner, single AI resolution rate ($0.75/resolution, one number, one definition), Freshdesk's total cost of ownership is genuinely harder to model from the pricing page alone once AI and Copilot enter the picture.",
+  "capabilities": [
+    { "area": "Ticketing & Knowledge Base", "note": "This is the actual product, and it's mature: SLA policies, a customer-facing portal, and a documented knowledge base that also feeds Freddy's self-service bots. Fourteen years of iteration on a genuinely simple idea — Girish Mathrubootham's own account is that Freshdesk was built as a direct, cheaper answer to a Zendesk price increase, and the core ticketing experience still reflects that origin story: solid, unglamorous, and priced to undercut the category leader." },
+    { "area": "AI & Automation", "note": "Freddy AI Agent genuinely takes actions — reading, responding to, and auto-closing tickets — rather than just drafting replies, and Freddy's sentiment analysis is a real, working feature that scores tickets for prioritization out of the box. The honest caveat is the same one across every Freshworks product: none of it is included in the seat price, and the advertised 80% resolution figure depends almost entirely on how good your knowledge base is, with real deployments reported anywhere from roughly 23% to 75%+." },
+    { "area": "Channel Coverage", "note": "Deliberately narrower than it first appears. Freshdesk connects WhatsApp, Messenger, Instagram, and LINE, but it has no native live chat widget or voice channel of its own — those are Freshchat and Freshcaller, separate Freshworks products. If you want a single-purchase omnichannel inbox, you're buying the Freshdesk Omni suite, not standalone Freshdesk." },
+    { "area": "Commerce Integration", "note": "The native Shopify app is a real, useful integration — order status, payment, and shipping data in the ticket sidebar, with documented in-app cancellation and refunds across multiple connected stores. It's built for the human agent, though; we found no documentation that Freddy AI Agent itself can query that same order data autonomously." },
+    { "area": "Reporting & Extensibility", "note": "The reporting fundamentals are present from Growth up, with custom dashboards arriving at Pro, and a real developer platform (REST API, webhooks, app marketplace) sits underneath. The pattern independent reviewers call out most is tier-gating creeping over time — features once included moving to a pricier plan — which is worth budgeting for as a trend rather than treating the current tier boundaries as fixed." }
+  ],
+  "pros": [
+    "Meaningfully cheaper than Zendesk at the entry tier for equivalent core ticketing functionality — $19/agent/mo versus $55/agent/mo",
+    "A large, long-running independent review base averaging 4.5/5, with ease of use and value-versus-Zendesk as the most consistent praise",
+    "Freddy AI Agent takes genuine actions (responding, auto-closing) rather than just suggesting replies, and ships with a real sentiment-analysis feature out of the box",
+    "Strong no-code automation-platform coverage across Zapier, Make, and n8n, plus a documented REST API and webhooks for custom builds",
+    "Native Shopify integration gives human agents real order, payment, and shipping visibility with in-app cancel/refund actions"
+  ],
+  "cons": [
+    "No native live chat widget or voice channel — genuinely omnichannel coverage requires buying separate Freshworks products (Freshchat, Freshcaller) rather than getting it in the base purchase",
+    "AI is entirely unbundled: 500 free Freddy AI Agent sessions sound generous but run out quickly at real volume, then cost $49/100 sessions, with Copilot as a further $29/agent/mo on top of seats",
+    "Reviewers specifically report previously-included functionality (like CSV export) being moved behind pricier tiers over time, and describe AI capabilities as underwhelming relative to their added cost",
+    "The advertised 80% AI resolution figure is unaudited and highly setup-dependent — real deployments are reported anywhere from roughly 23% to 75%+",
+    "Website-builder integrations are thin: no first-party WordPress, Wix, Squarespace, or Webflow app was found, only third-party automation-platform workarounds"
+  ],
+  "sentiment": [
+    {
+      "quote": "Its wide range of integrations allows it to fit seamlessly into existing workflows.",
+      "source": "Capterra (Riccardo D., Customer Support Manager, Automotive, 5/5)",
+      "url": "https://www.capterra.com/p/124981/Freshdesk/reviews/",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "We use 4 seats and pay for 19. That is an extremely poor value for money.",
+      "source": "Capterra (Fiodas W., CS Manager, Consumer Electronics, 1/5)",
+      "url": "https://www.capterra.com/p/124981/Freshdesk/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "While it handles standard ticketing needs adequately, the absence of modern AI features and the limited, clunky integration options make it challenging to build an efficient workflow.",
+      "source": "Capterra review, November 2025",
+      "url": "https://www.capterra.com/p/124981/Freshdesk/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Managing tickets from multiple channels within a single dashboard is incredibly convenient.",
+      "source": "Capterra (Mwale M., Customer Support Manager, Financial Services, 4/5)",
+      "url": "https://www.capterra.com/p/124981/Freshdesk/reviews/",
+      "sentiment": "positive"
+    }
+  ],
+  "bestFor": [
+    "Email-and-ticket-heavy support teams that want a mature, well-integrated helpdesk at a lower per-seat cost than Zendesk",
+    "Teams already inside the Freshworks ecosystem (Freshsales, Freshchat) who want ticketing that shares a platform and developer surface",
+    "Ecommerce support teams that want native Shopify order/payment visibility and in-app refund actions without a separate app",
+    "Budget-conscious buyers who can live with AI as a clearly-priced, opt-in add-on rather than a bundled feature"
+  ],
+  "verdict": "Freshdesk's origin story is also its clearest pitch: Girish Mathrubootham built it in 2010 specifically as a cheaper, better-supported answer to Zendesk after watching customers vent about a price hike, and fourteen years later the core comparison still holds — $19/agent/mo against Zendesk's $55, for a ticketing product with the same fundamentals (SLAs, customer portal, knowledge base) done well enough that a large independent review base averages 4.5/5. What's worth being clear-eyed about is the product boundary. Freshdesk is email and ticketing; it has no native live chat widget and no voice channel of its own, so 'omnichannel' here means WhatsApp, Messenger, Instagram, and LINE feeding into your ticket queue, not a unified inbox the way Freshchat or Crisp deliver one. If a live chat widget or phone support is core to how you work, you're actually shopping for the Freshdesk Omni suite, not standalone Freshdesk, and that changes the price comparison considerably. AI follows the same unbundled pattern as the rest of Freshworks' lineup: Freddy AI Agent is a real, action-taking agent, not just a reply-suggester, but it's metered beyond 500 free sessions, Copilot is a further $29/agent/mo, and the advertised 80% resolution figure is unaudited and reported to vary wildly (roughly 23% to 75%+) depending on knowledge base quality. The complaint I'd weigh most heavily from real reviewers isn't the AI, though — it's the pattern of previously-included functionality moving behind pricier tiers over time, which is the kind of thing that erodes trust in whatever tier you sign up for today. My honest read: if your support volume is genuinely email-and-ticket-shaped and you want the cheaper, well-reviewed alternative to Zendesk, Freshdesk earns the comparison. If you need real live chat or voice in the same purchase, price out Freshdesk Omni before assuming standalone Freshdesk covers you.",
+  "rating": 3.9,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

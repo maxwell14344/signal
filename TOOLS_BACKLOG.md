@@ -26,6 +26,7 @@ no longer applies going forward.
 ## Added so far (one-off + partial batch 1)
 
 - [x] Freshchat
+- [x] Freshdesk (retried solo, one at a time — succeeded)
 - [x] Help Scout
 - [x] HubSpot Service Hub
 - [x] Kayako
@@ -34,7 +35,6 @@ no longer applies going forward.
 
 ## Attempted, failed, not yet retried
 
-- [ ] Freshdesk — two agent attempts crashed mid-research; no usable file produced
 - [ ] Tawk.to — two agent attempts crashed; second left an unusable stub (0 criteria scored), discarded
 - [ ] Gorgias — agent attempt stalled (600s no progress)
 - [ ] Groove — two agent attempts stalled

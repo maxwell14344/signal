@@ -1,0 +1,149 @@
+{
+  "slug": "kore-ai",
+  "name": "Kore.ai",
+  "logoUrl": "",
+  "website": "https://kore.ai",
+  "tagline": "An Orlando-and-Hyderabad enterprise agentic AI platform with genuinely sophisticated multi-agent orchestration, deep CCaaS/CRM integration, and consistently strong reviews across three independent platforms — built for large regulated enterprises, not SMB storefronts.",
+  "tldr": [
+    "Kore.ai was founded by CEO Raj Koneru — sources conflict on the exact year (2013 vs. 2014) — and is headquartered in Orlando, Florida, with a major R&D and engineering hub in Hyderabad, India, and a newer strategic office in San Mateo, California opened in 2026.",
+    "Funding history includes a confirmed $150M growth round in January 2024 (led by FTV Capital with NVIDIA participating) and a further undisclosed-amount strategic growth investment in January 2026 — total lifetime funding is genuinely unclear, with third-party aggregator estimates ranging as widely as $223M to $620M, so we're not publishing a specific aggregate figure.",
+    "The platform (recently relaunched as the 'Kore.ai Agent Platform' under the 'Artemis' branding) supports genuinely sophisticated multi-agent orchestration with six named coordination patterns — supervisor, delegation, handoff, fan-out, escalation, and agent-to-agent federation — well beyond a simple single-bot architecture.",
+    "A documented 'Guardrails' framework includes groundedness detection that scores AI responses against source context and flags unsupported claims, plus a 'Govern' layer tracking accuracy scores and knowledge gaps over time.",
+    "CRM and contact-center integration is genuinely deep and comprehensive: confirmed native connections to Salesforce, Zendesk, Microsoft Dynamics 365 (backed by a May 2025 strategic partnership with Microsoft), Genesys, NICE, and Avaya — but a Shopify connection exists only as a custom-configured 'Shopify Action' integration requiring real engineering effort, not a one-click app, and no evidence was found of native WooCommerce, WordPress, Wix, Squarespace, or Webflow integrations.",
+    "Independent review sentiment is consistently strong across three separate platforms (G2: ~4.6/5, Capterra: 4.4/5, Gartner Peer Insights: 4.4/5) with no serious complaint patterns found — criticism centers on a steep learning curve, occasional bugs, and enterprise-tier pricing rather than fraud, lockouts, or hostile support."
+  ],
+  "categories": { "primary": "ai-support-agents", "secondary": ["ai-chatbots"] },
+  "channels": ["Voice/IVR", "Website Chat", "WhatsApp", "Microsoft Teams", "Slack", "SMS", "Email", "Social Messaging"],
+  "keyFeatures": [
+    "Multi-agent orchestration under the 'Artemis' architecture, with six named coordination patterns: supervisor, delegation, handoff, fan-out, escalation, and agent-to-agent federation",
+    "A 'Guardrails' framework with groundedness detection that scores AI responses against source context and flags unsupported claims, plus a 'Govern' layer tracking accuracy and knowledge-gap metrics",
+    "A visual, modular dialog-builder canvas ('Tool Flow') supporting both no-code and pro-code development",
+    "'Agent Transfer' — passes full conversation transcript, detected intent, sentiment score, and collected data to a live human agent on handoff",
+    "'Agent Assist' — one-click AI-suggested replies (requiring human approval before sending), next-best-action guidance, live transcription, and call summarization",
+    "A language-agnostic multilingual NLU model understanding 100+ languages, plus dedicated tuned models for 25+ 'popular' languages",
+    "A three-layer analytics stack: a Conversations Dashboard (containment/transfer rates, session trends), a Conversation Insights dashboard (intent detection gaps, unhandled utterances), and Conversation Intelligence (ASA, abandonment rate, CSAT by channel, agent performance)",
+    "A mature developer platform with a Service Node for REST/SOAP calls, a versioned WebHook Node (V1/V2), and a general 'Connect to API' flow node"
+  ],
+  "companyInfo": {
+    "founded": "Sources conflict — 2013 per some aggregators, 2014 per two independent editorial sources (TechCrunch and a CEO-interview profile) that cite the company directly",
+    "hq": "Orlando, Florida, with a major R&D/engineering hub in Hyderabad, India, and a newer strategic office in San Mateo, California opened in 2026",
+    "funding": "A confirmed $150M growth round (January 2024, led by FTV Capital with NVIDIA, Vistara Growth, Sweetwater PE, NextEquity, Nicola, and Beedie participating) and a further undisclosed-amount strategic growth investment (January 2026, led by AllianceBernstein Private Credit Investors). Total lifetime funding could not be confirmed with confidence — third-party aggregator estimates range from roughly $223M to $620M, a spread too wide to treat any single figure as reliable.",
+    "employees": "Roughly 1,000-1,300, per the best-supported estimates (TechCrunch reported 'nearly 1,000' as of January 2024), with a significant and growing India-based headcount concentration"
+  },
+  "faq": [
+    {
+      "question": "Who founded Kore.ai, and where is it based?",
+      "answer": "Kore.ai was founded by CEO Raj Koneru, a serial entrepreneur who previously founded Kony, Intelligroup, and other companies — no co-founders are named in available sources. It's headquartered in Orlando, Florida, but its major engineering and R&D hub is in Hyderabad, India, and it opened a newer strategic office in San Mateo, California in 2026."
+    },
+    {
+      "question": "How sophisticated is Kore.ai's AI agent architecture?",
+      "answer": "Genuinely sophisticated. Under its 'Artemis' relaunch, the platform supports six named multi-agent orchestration patterns — supervisor, delegation, handoff, fan-out, escalation, and agent-to-agent federation — going well beyond a simple single-bot conversation flow. It's paired with a documented 'Guardrails' framework that includes groundedness detection to flag unsupported AI claims against source context."
+    },
+    {
+      "question": "Does Kore.ai integrate with Shopify or other ecommerce platforms?",
+      "answer": "There's a real 'Shopify Action' integration that connects to a store's Customers, Products, and Orders APIs, and Kore.ai has published a pre-built 'Retail Assist' app built on it — but this is not a one-click, plug-and-play marketplace app. At least one third-party comparison source states building an equivalent experience 'requires dedicated engineering effort.' We found no evidence of native WooCommerce, WordPress, Wix, Squarespace, or Webflow integrations."
+    },
+    {
+      "question": "What CRM and contact-center systems does Kore.ai integrate with?",
+      "answer": "This is one of Kore.ai's clearest strengths. Confirmed integrations include Salesforce, Zendesk, and Microsoft Dynamics 365 — backed by a formal strategic partnership with Microsoft announced in May 2025 covering Azure hosting, Power Automate, and Copilot integration — plus deep contact-center connectivity with Genesys, NICE, and Avaya."
+    },
+    {
+      "question": "How much does Kore.ai cost?",
+      "answer": "Kore.ai does not publish self-serve pricing for its enterprise platform — it's a sales-quote-only model. Third-party estimates, which we could not verify against a primary source, suggest enterprise contracts commonly starting anywhere from roughly $50,000 to $300,000+ per year, with one public AWS Marketplace bundle listed around $90,000/year including support. Treat any specific figure as directional only."
+    },
+    {
+      "question": "What do independent reviews say about Kore.ai?",
+      "answer": "Consistently strong across three separate platforms: roughly 4.6/5 on G2, 4.4/5 on Capterra, and 4.4/5 on Gartner Peer Insights. The most-repeated praise is for the visual dialog-builder canvas and strong NLP accuracy; the most-repeated criticism is a steep learning curve for advanced features, occasional bugs, and pricing accessible mainly to large enterprises. No serious complaint pattern — billing fraud, account lockouts, hostile support — was found in available sources."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Independent reviewers consistently praise the visual dialog-builder canvas as approachable for non-engineers, but a steep learning curve for advanced features is the single most-repeated criticism found across review sources." },
+    { "dimension": "AI Quality", "score": 4, "note": "A genuinely sophisticated multi-agent orchestration architecture (six coordination patterns under 'Artemis') paired with a documented groundedness-detection guardrail framework." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "A broad, well-documented channel list spanning voice/IVR, website chat, WhatsApp, Microsoft Teams, Slack, SMS, and email, marketed as '30+ channels from a single configuration.'" },
+    { "dimension": "Pricing Value", "score": 2, "note": "No public self-serve pricing exists for the enterprise platform, and reviewer commentary describes it as accessible mainly to large enterprises." },
+    { "dimension": "Vendor Support Quality", "score": 3, "note": "Support is described as responsive during initial rollout but slower post-launch in available review summaries, with no public self-serve support portal and no evidence of the serious complaint patterns found for other tools in this category." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 5, "note": "A genuinely broad, well-documented channel list — voice/IVR, website chat, WhatsApp, Microsoft Teams, Slack, SMS, email, and social messaging — marketed as '30+ channels from a single configuration.'" },
+    { "key": "omnichannel-unification", "score": 2, "note": "No specific, independently confirmed unified-conversation-view feature spanning channels was found beyond the general channel-breadth marketing claim." },
+    { "key": "ai-availability", "score": 5, "note": "Genuinely sophisticated multi-agent orchestration under the 'Artemis' architecture, with six named coordination patterns (supervisor, delegation, handoff, fan-out, escalation, agent-to-agent federation) — well beyond a simple single-bot design." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure exists for Kore.ai's AI agents." },
+    { "key": "ai-training-method", "score": 4, "note": "A combination of intent/NLU training and a 'Knowledge AI' document/FAQ extraction layer provides a real, substantive ingestion pipeline." },
+    { "key": "hallucination-controls", "score": 4, "note": "A documented 'Guardrails' framework includes groundedness detection scoring AI responses against source context and flagging unsupported claims, plus a 'Govern' layer tracking accuracy and knowledge-gap metrics over time — a genuine, specific technical approach." },
+    { "key": "automation-depth", "score": 5, "note": "A visual, modular dialog-builder canvas supporting both no-code and pro-code development, combined with the six-pattern multi-agent orchestration architecture, represents genuine automation depth." },
+    { "key": "sentiment-intent-detection", "score": 4, "note": "The 'Agent Transfer' handoff feature confirms sentiment-score detection is passed to live agents alongside conversation context — a real, specific, confirmed capability." },
+    { "key": "unified-inbox", "score": 2, "note": "No specific, documented shared-inbox feature was found; the platform's human-facing tooling centers on 'Agent Assist' for individual live-agent support rather than a unified multi-channel inbox." },
+    { "key": "ai-human-handoff", "score": 5, "note": "The 'Agent Transfer' feature is genuinely comprehensive: full conversation transcript, detected intent, sentiment score, and collected data are all passed to the human agent on handoff, with integration into Genesys, Avaya, and NICE contact-center workspaces." },
+    { "key": "internal-collaboration", "score": 4, "note": "'Agent Assist' provides one-click suggested replies, next-best-action guidance, live transcription, call summarization, and the ability to consult teammates during a live interaction — a genuinely substantive feature set." },
+    { "key": "canned-responses", "score": 2, "note": "No feature explicitly named 'canned responses' was confirmed; the closest documented capability is the approve-before-send AI-suggested reply within Agent Assist, which is functionally similar but not confirmed to be the same thing." },
+    { "key": "integration-shopify", "score": 3, "note": "A real, documented 'Shopify Action' integration connects to Customers, Products, and Orders APIs, with a pre-built 'Retail Assist' app available — but this requires custom configuration and real engineering effort rather than a one-click marketplace install, per an independent comparison source." },
+    { "key": "integration-woocommerce", "score": 1, "note": "No evidence of an integration was found in available sources." },
+    { "key": "integration-wordpress", "score": 1, "note": "No evidence of an integration was found." },
+    { "key": "integration-wix", "score": 1, "note": "No evidence of an integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No evidence of an integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No evidence of an integration was found." },
+    { "key": "integration-automation-platforms", "score": 1, "note": "No confirmed native Zapier or Make integration was found; Kore.ai's own materials emphasize its proprietary connector framework and open REST/webhook APIs instead." },
+    { "key": "integration-crm", "score": 5, "note": "Genuinely comprehensive: confirmed native integrations with Salesforce, Zendesk, and Microsoft Dynamics 365 (backed by a formal May 2025 Microsoft strategic partnership), plus deep contact-center connectivity with Genesys, NICE, and Avaya." },
+    { "key": "order-payment-data-access", "score": 3, "note": "Order-status and order-data access is confirmed via the Shopify Action integration and generic API/webhook connectors; no specific, confirmed direct payment-transaction-processing capability was found." },
+    { "key": "multi-language-support", "score": 5, "note": "A language-agnostic multilingual NLU model understands 100+ languages without requiring translation, plus dedicated tuned models are available for 25+ 'popular' languages — a genuinely comprehensive, well-documented capability." },
+    { "key": "analytics-depth", "score": 5, "note": "A genuinely comprehensive three-layer analytics stack — a Conversations Dashboard, a Conversation Insights dashboard, and a Conversation Intelligence layer covering ASA, abandonment rate, and agent performance — plus dedicated guardrail-specific quality metrics." },
+    { "key": "pricing-transparency", "score": 1, "note": "No public self-serve pricing exists for the enterprise platform — a fully sales-quote-only model — and reviewer commentary describes it as an 'enterprise platform with an enterprise price.'" },
+    { "key": "api-webhook-extensibility", "score": 5, "note": "A mature, well-documented developer platform including a Service Node for REST/SOAP calls, a versioned WebHook Node (V1/V2), and a general 'Connect to API' flow node." }
+  ],
+  "pricing": {
+    "model": "Enterprise sales-quote only for the core platform; third-party sources reference a possible separate self-serve pay-per-conversation tier, unverified against a primary source",
+    "startingPrice": "Not publicly disclosed",
+    "plans": [
+      { "name": "Enterprise (primary tier)", "price": "Custom quote", "billing": "Custom/Annual", "notes": "Third-party estimates (unverified) suggest contracts commonly ranging from roughly $50,000 to $300,000+ per year; one public AWS Marketplace bundle was listed around $90,000/year including support." },
+      { "name": "Standard (reported, unconfirmed)", "price": "~$100 minimum (third-party estimate)", "billing": "Pay-per-conversation-session", "notes": "Referenced by third-party sources as a possible self-serve tier, but could not be verified against Kore.ai's own pricing page." }
+    ]
+  },
+  "pricingBreakdown": "Kore.ai does not publish self-serve pricing for its core enterprise platform — this remains, historically and currently, a sales-quote-only model. Third-party estimates, none of which we could verify against a primary source, suggest enterprise contracts commonly range from roughly $50,000 to $300,000+ per year, with one public AWS Marketplace bundle listed around $90,000/year including support. Some third-party sources reference a separate, lower-cost self-serve or pay-per-conversation-session tier, but we could not confirm this against Kore.ai's own site given persistent access issues during research. At least one reviewer summary describes the product plainly as 'an enterprise platform with an enterprise price' — treat that as an honest, if unverified-by-name, characterization, and budget for a full enterprise sales cycle rather than a self-serve signup.",
+  "capabilities": [
+    { "area": "Genuine Multi-Agent Sophistication", "note": "Kore.ai's 'Artemis' architecture, with six distinct named orchestration patterns (supervisor, delegation, handoff, fan-out, escalation, agent-to-agent federation), represents a genuinely more sophisticated agentic design than a typical single-bot conversational platform — a real differentiator for complex enterprise workflows." },
+    { "area": "Deep CCaaS and CRM Integration", "note": "This is one of Kore.ai's clearest strengths: confirmed native connections spanning Salesforce, Zendesk, Microsoft Dynamics 365 (backed by a formal Microsoft partnership), Genesys, NICE, and Avaya — a genuinely comprehensive enterprise contact-center integration story." },
+    { "area": "The Shopify Integration's Real Shape", "note": "Worth being precise about: Kore.ai's Shopify connectivity is real and functional, reaching Customer, Product, and Order data, but it's implemented as a configurable 'Action' requiring real engineering effort rather than a one-click app — a meaningfully different experience than a true native marketplace integration, and worth setting expectations accordingly." },
+    { "area": "The SMB Ecommerce/CMS Gap", "note": "No evidence was found of any integration — native or otherwise — with WooCommerce, WordPress, Wix, Squarespace, or Webflow. Combined with the Shopify integration's engineering requirements, this confirms Kore.ai is built for large enterprise deployments, not SMB storefronts." },
+    { "area": "Consistently Strong, Cross-Platform Review Sentiment", "note": "Worth highlighting specifically: independent review scores are strong and consistent across three separate platforms — G2, Capterra, and Gartner Peer Insights — rather than being strong on one platform and weak on another, which is a meaningfully more credible sentiment signal than a single-source rating." }
+  ],
+  "pros": [
+    "Genuinely sophisticated multi-agent orchestration architecture with six named coordination patterns, well beyond a simple single-bot design",
+    "Deep, comprehensive CRM and contact-center integration spanning Salesforce, Zendesk, Microsoft Dynamics 365, Genesys, NICE, and Avaya",
+    "A documented, specific hallucination-mitigation approach (groundedness detection, a 'Govern' quality-tracking layer) rather than vague guardrail marketing",
+    "Genuinely comprehensive multi-language support (100+ languages) and a deep three-layer analytics stack",
+    "Consistently strong independent review sentiment across three separate platforms (G2, Capterra, Gartner Peer Insights) with no serious complaint patterns found"
+  ],
+  "cons": [
+    "No public self-serve pricing exists — a fully sales-quote-only enterprise model with wide, unverified third-party cost estimates",
+    "No native, one-click Shopify integration — it requires real engineering configuration — and no evidence of any WooCommerce, WordPress, Wix, Squarespace, or Webflow integration",
+    "No confirmed native Zapier or Make integration",
+    "A steep learning curve for advanced features is the single most-repeated independent review criticism",
+    "Total lifetime funding and exact founding year could not be confirmed with confidence — sources conflict significantly"
+  ],
+  "sentiment": [
+    {
+      "quote": "Kore.ai is super robust, it has a high learning curve but has a multitude of possibilities that other providers simply lack.",
+      "source": "Gartner Peer Insights (aggregated review theme, exact reviewer attribution unconfirmed)",
+      "url": "https://www.gartner.com/reviews/market/enterprise-conversational-ai-platforms/vendor/kore-ai",
+      "sentiment": "mixed"
+    },
+    {
+      "quote": "An enterprise platform with an enterprise price.",
+      "source": "G2 (aggregated review theme, exact reviewer attribution unconfirmed)",
+      "url": "https://www.g2.com/products/kore-ai/reviews",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "Large regulated enterprises (banking, insurance) needing sophisticated multi-agent orchestration across many channels",
+    "Organizations already standardized on Salesforce, Dynamics 365, Genesys, or NICE wanting deep native integration",
+    "Global enterprises needing genuinely comprehensive multi-language NLU across 100+ languages",
+    "Technical teams willing to invest engineering effort into custom integrations (like Shopify) in exchange for platform depth"
+  ],
+  "verdict": "Kore.ai is a genuinely capable platform for the large enterprise it's built for, with a level of architectural sophistication — six distinct multi-agent orchestration patterns under its 'Artemis' relaunch — that goes well beyond a typical single-bot conversational AI tool. Its hallucination-mitigation approach is specific and documented rather than vague marketing, with groundedness detection scoring responses against source context and a 'Govern' layer tracking quality over time. Its CRM and contact-center integration story is genuinely comprehensive, spanning Salesforce, Zendesk, Microsoft Dynamics 365 (backed by a real Microsoft strategic partnership), Genesys, NICE, and Avaya, and its multi-language and analytics depth are both substantial and well-documented. The independent review record backs this up in a way we find particularly credible: consistently strong scores across three separate platforms — G2, Capterra, and Gartner Peer Insights — rather than a single glowing source, with no evidence anywhere we could check of the serious complaint patterns that dragged down other tools in this category. Where the rubric scores drop, it's worth being precise about why: Kore.ai's Shopify connectivity is real but requires genuine engineering configuration rather than a one-click install, and we found no evidence of any WooCommerce, WordPress, Wix, Squarespace, or Webflow integration at all — this is an enterprise platform, not an SMB ecommerce tool, and its complete lack of published pricing reflects that same positioning. If you're a large enterprise, especially one already invested in Salesforce, Dynamics, or a major CCaaS platform, Kore.ai is one of the more architecturally sophisticated, consistently well-reviewed options in this category — just budget for a genuine enterprise sales cycle and a real learning curve, which independent reviewers repeatedly and consistently flag as the platform's main friction point.",
+  "rating": 4.0,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

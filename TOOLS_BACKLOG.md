@@ -69,6 +69,7 @@ no longer applies going forward.
 - [x] Ada (excellent independent reviews and deep enterprise/CRM architecture; flagged pricing opacity and a real documented AI-accuracy lapse; scored honestly low on SMB-ecommerce/human-agent-seat criteria as a category-fit note, not a quality failure)
 - [x] Ultimate.ai (acquired by Zendesk in March 2024, now folded into Zendesk AI Agents; no standalone product remains — clean, well-regarded transition with no disruption complaints found)
 - [x] Cognigy (acquired by NICE for ~$955M in 2025, now NiCE Cognigy — healthy, well-funded transition; excellent reviews, genuine voice/IVR and payment-processing depth, no native SMB-ecommerce integrations)
+- [x] Kore.ai (genuinely sophisticated multi-agent orchestration and deep CRM/CCaaS integration; excellent reviews across three independent platforms; no native SMB-ecommerce integrations and fully opaque enterprise pricing)
 
 ## Attempted, failed, not yet retried
 
@@ -80,8 +81,7 @@ Live Chat & Helpdesk: (all done — see "Added so far" below)
 
 WhatsApp / Omnichannel Messaging: (all done — see "Added so far" below)
 
-Chatbot / Automation Builders: Kore.ai, Zowie, Forethought, Decagon,
-Sierra
+Chatbot / Automation Builders: Zowie, Forethought, Decagon, Sierra
 
 AI Agentic Platforms: Crescendo, Aidbase, eesel AI, Siena AI
 

@@ -1,0 +1,151 @@
+{
+  "slug": "interakt",
+  "name": "Interakt",
+  "logoUrl": "",
+  "website": "https://www.interakt.shop",
+  "tagline": "A WhatsApp-first commerce platform from Haptik's co-founder, with AI Agents powered by Haptik's enterprise AI and a genuinely deep Shopify order-lookup capability.",
+  "tldr": [
+    "Interakt was founded in 2020 in Mumbai by Aakrit Vaish, who is also co-founder and CEO of Haptik (the Reliance Jio-owned enterprise AI company) — Interakt is a separate company, not a Haptik subsidiary, but its AI Agents run on Haptik's enterprise AI platform, and the product is co-branded as 'Haptik-Interakt' on at least one major review site.",
+    "Pricing is India-market-oriented and denominated in rupees: Starter from ₹999/month (~$12 USD) up through Growth and Advanced tiers to custom Enterprise, on a subscription-plus-consumption model — a fixed platform fee plus separately metered WhatsApp conversation costs and Meta's own conversation fees on top.",
+    "The Shopify integration is a genuine standout: a no-code native app syncs your product catalog in real time (price and stock changes reflect on WhatsApp immediately), and the AI Agent can conversationally handle order lookups and return requests directly inside WhatsApp.",
+    "Integration breadth extends further than most WhatsApp-focused competitors, including Shopify, WooCommerce, Magento, HubSpot, Zoho, Google Sheets, Facebook Ads, and — distinctively — Webflow.",
+    "Independent reviews are solid but notably dated — most available feedback is from 2022-2023 with little recent activity — and real complaints include a complicated setup and automation process, weak support responsiveness, message delays, and limited analytics depth.",
+    "Best for India-based or India-focused Shopify/WooCommerce merchants wanting deep WhatsApp commerce automation at a low entry price — not for teams needing broad omnichannel coverage beyond WhatsApp and Instagram, or deep analytics and routing sophistication."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["WhatsApp", "Instagram"],
+  "keyFeatures": [
+    "AI Agents powered by Haptik's enterprise AI platform, handling open-ended, free-text conversations rather than only scripted flows",
+    "A Shopify AI Agent that conversationally handles post-purchase support — order lookups and return requests — directly inside WhatsApp",
+    "A no-code, native Shopify integration syncing product catalog, price, and stock changes to WhatsApp in real time",
+    "FlowHippo automation and no-code chat flows for building conversation logic without a developer",
+    "WhatsApp automations triggered by dynamic Shopify order attributes — order confirmations, shipping updates, abandoned cart recovery, payment reminders",
+    "A Shared Team Inbox supporting unlimited teammates on one WhatsApp Business number, each on their own device, with conversation assignment and reassignment",
+    "Click-to-WhatsApp ad integration with Facebook Ads for driving conversations directly from ad campaigns",
+    "Integrations spanning Shopify, WooCommerce, Magento, HubSpot, Zoho, Google Sheets, Facebook Ads, and Webflow"
+  ],
+  "companyInfo": {
+    "founded": "2020, Mumbai, India, by Aakrit Vaish (also co-founder and CEO of Haptik)",
+    "hq": "Mumbai, India",
+    "funding": "Privately funded; not independently confirmed as a Haptik/Jio subsidiary despite the shared founder and AI-platform partnership",
+    "employees": "Not publicly disclosed; reports over 100 fast-growing Indian companies as customers"
+  },
+  "faq": [
+    {
+      "question": "Is Interakt owned by Haptik or Reliance Jio?",
+      "answer": "Not as a confirmed corporate subsidiary — Interakt and Haptik share a founder (Aakrit Vaish, who is CEO of Haptik and also founded Interakt), and Interakt's AI Agents explicitly run on Haptik's enterprise AI platform. At least one major review site lists the product jointly as 'Haptik-Interakt,' suggesting a closer commercial partnership than a coincidence of founders, but we found no confirmed acquisition or ownership structure connecting the two as parent-subsidiary."
+    },
+    {
+      "question": "How does Interakt's pricing actually work?",
+      "answer": "It's a subscription-plus-consumption model, not a flat price. You pay a fixed monthly platform fee (Starter from roughly ₹999/month, or about $12 USD) based on your chosen tier, and separately pay for WhatsApp conversations through a prepaid wallet system — on top of that, Meta's own WhatsApp Business API conversation fees apply independently. Budget for all three layers, not just the headline platform fee, when estimating real monthly cost."
+    },
+    {
+      "question": "How good is Interakt's Shopify integration specifically?",
+      "answer": "Genuinely strong, and the clearest differentiator in the product. The native app is a no-code install from the Shopify App Store, product catalog and pricing sync to WhatsApp in real time, and the AI Agent can conversationally handle order lookups and return requests — a meaningfully more capable implementation than a generic 'connects to Shopify' integration many competitors offer."
+    },
+    {
+      "question": "Does Interakt support channels beyond WhatsApp?",
+      "answer": "Instagram is documented as a supported channel alongside WhatsApp, but this is a narrower channel list than broader omnichannel competitors like Respond.io or Trengo, which support 7-12+ channels including Messenger, Telegram, SMS, and voice. If your support volume spans channels beyond WhatsApp and Instagram, Interakt isn't built to cover that breadth."
+    },
+    {
+      "question": "How current is the independent review data on Interakt?",
+      "answer": "Worth flagging directly: most available independent review feedback dates from 2022-2023, with little recent activity found at the time of this review. That's older than the review base for most other tools on this site, so treat the sentiment here as a snapshot of an earlier product state rather than necessarily reflecting the current version."
+    },
+    {
+      "question": "What are the most common complaints about Interakt?",
+      "answer": "Independent reviewers describe a complicated setup and automation process, weak support responsiveness, occasional message delays, limited transparency on uptime, and analytics depth and advanced routing logic that fall short of more mature competitors. The shared inbox and basic automation are still praised as genuinely useful for small teams despite these gaps."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 3, "note": "Basic shared-inbox and automation setup is praised as accessible for small teams, but independent reviewers specifically describe more advanced automation configuration as complicated." },
+    { "dimension": "AI Quality", "score": 3, "note": "AI Agents powered by Haptik's enterprise platform are a genuine capability, particularly the Shopify-specific order-lookup and return-handling agent, but there's no independently audited resolution rate and the review base evaluating this is notably dated." },
+    { "dimension": "Omnichannel Support", "score": 2, "note": "Coverage is limited to WhatsApp and Instagram — real depth on WhatsApp specifically, but narrow breadth compared to competitors supporting 7-12+ channels." },
+    { "dimension": "Pricing Value", "score": 3, "note": "A low entry price (~$12/month) is attractive, but the subscription-plus-consumption-plus-Meta-fees structure means real monthly cost requires careful modeling beyond the headline tier price." },
+    { "dimension": "Vendor Support Quality", "score": 2, "note": "Independent reviewers specifically describe weak support responsiveness and limited transparency on uptime, alongside a review base that is notably dated (mostly 2022-2023)." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 3, "note": "Documented native support for WhatsApp and Instagram — real, but a narrower channel list than broader omnichannel competitors (Respond.io, Trengo) that support 7-12+ channels including Messenger, Telegram, SMS, and voice." },
+    { "key": "omnichannel-unification", "score": 3, "note": "A Shared Team Inbox unifies WhatsApp (and Instagram) conversations for a team, which is real unification within its narrower channel scope, but doesn't extend to the broader cross-channel unification some competitors document." },
+    { "key": "ai-availability", "score": 4, "note": "AI Agents run on Haptik's enterprise AI platform and handle open-ended, free-text conversations rather than only scripted flows, with a specifically documented Shopify AI Agent capable of order lookups and return handling — genuine, if narrowly-scoped, agentic capability." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "No independently audited resolution-rate figure was found for Interakt's AI Agents specifically." },
+    { "key": "ai-training-method", "score": 3, "note": "AI Agents are documented as running on Haptik's enterprise AI platform, implying real underlying training infrastructure, though the specific ingestion sources (documents, past conversations, live catalog data) weren't independently detailed for Interakt itself." },
+    { "key": "hallucination-controls", "score": 2, "note": "No documentation was found describing specific hallucination-prevention mechanisms for Interakt's AI Agents." },
+    { "key": "automation-depth", "score": 4, "note": "FlowHippo automation and no-code chat flows support real logic, and WhatsApp automations triggered by dynamic Shopify order attributes (confirmations, shipping updates, cart recovery, payment reminders) represent genuine, ecommerce-specific automation depth." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 4, "note": "The Shared Team Inbox is a mature, documented feature supporting unlimited teammates on one WhatsApp Business number, each with their own device access." },
+    { "key": "ai-human-handoff", "score": 2, "note": "No specific documentation of an explicit AI-to-human handoff trigger or confidence threshold was found in the materials reviewed." },
+    { "key": "internal-collaboration", "score": 3, "note": "Conversation assignment and reassignment among unlimited teammates is documented, though independent reviewers specifically note limitations in advanced routing logic relative to more mature competitors." },
+    { "key": "canned-responses", "score": 2, "note": "No specific documentation of a dedicated canned-response or macro feature was found in the materials reviewed, despite this being a common feature at this product tier." },
+    { "key": "integration-shopify", "score": 5, "note": "A genuinely strong, distinctive integration: a no-code native Shopify App Store listing syncs catalog/price/stock changes to WhatsApp in real time, and the dedicated Shopify AI Agent conversationally handles order lookups and return requests — a materially deeper implementation than a generic connector." },
+    { "key": "integration-woocommerce", "score": 3, "note": "WooCommerce is documented as a supported integration alongside Shopify and Magento, with less independently-confirmed depth of detail specifically for WooCommerce." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress plugin was found separate from the WooCommerce integration." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 3, "note": "A documented Webflow integration is confirmed — distinctive, since few competitors in this category support Webflow specifically — though without detailed documentation of exactly what data or actions it enables." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "Google Sheets and Facebook Ads integrations are documented, but no specific Zapier, Make, or n8n integration was confirmed in the materials reviewed." },
+    { "key": "integration-crm", "score": 3, "note": "HubSpot and Zoho integrations are documented, though without the deep bidirectional-sync detail some competitors publish for their CRM connections." },
+    { "key": "order-payment-data-access", "score": 4, "note": "Genuinely real and specific: the Shopify AI Agent conversationally handles order lookups and return requests directly in WhatsApp, backed by real-time catalog and order data sync — a meaningfully deeper implementation than many competitors' general commerce-context claims." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "Independent reviewers specifically flag limitations in analytics depth as a real gap versus more mature competitors, rather than this being an assumption based on absent documentation." },
+    { "key": "pricing-transparency", "score": 3, "note": "Tier prices are published, but the subscription-plus-consumption-plus-separate-Meta-fees structure means the real total cost requires piecing together three separate cost layers rather than reading one number." },
+    { "key": "api-webhook-extensibility", "score": 2, "note": "No detailed public API or webhook-event documentation was confirmed in the materials reviewed, despite the platform's real integration breadth with specific named partners." }
+  ],
+  "pricing": {
+    "model": "Subscription-plus-consumption: a fixed monthly platform fee plus metered WhatsApp conversation costs, with Meta's own WhatsApp Business API fees applying separately on top",
+    "startingPrice": "₹999/mo (~$12 USD), Starter tier, excluding 18% GST",
+    "plans": [
+      { "name": "Starter", "price": "₹999/mo (~$12 USD)", "billing": "Monthly, quarterly (8% off), or annual (20% off)", "notes": "Entry tier; excludes GST and WhatsApp conversation/Meta fees." },
+      { "name": "Growth", "price": "₹7,699/quarter (source-cited)", "billing": "Quarterly or annual", "notes": "Adds advanced automation, both WhatsApp and Instagram channels, bulk campaigns." },
+      { "name": "Advanced", "price": "Not independently confirmed", "billing": "Monthly, quarterly, or annual", "notes": "Positioned between Growth and Enterprise; exact current price not independently confirmed." },
+      { "name": "Enterprise", "price": "Custom", "billing": "Contact sales", "notes": "Unlimited features, no per-message markups, personalized support, for high-volume businesses." }
+    ]
+  },
+  "pricingBreakdown": "Interakt's headline platform fee is genuinely low — roughly $12/month at the entry tier is well below most competitors in this comparison set — but that number is only the first of three cost layers you need to model. On top of the platform fee, WhatsApp conversation costs are billed through a prepaid wallet system as you use them, and Meta's own WhatsApp Business API conversation fees apply independently of both. This subscription-plus-consumption structure is common among India-market-focused WhatsApp Business Solution Providers, but it means the advertised entry price understates real monthly cost for any business doing meaningful conversation volume. Budget for all three layers together, and specifically ask what a realistic monthly conversation volume would cost in total rather than anchoring on the platform-fee number alone.",
+  "capabilities": [
+    { "area": "Shopify Commerce", "note": "This is Interakt's clearest, most differentiated strength: a no-code native Shopify App Store integration keeps your catalog and pricing synced to WhatsApp in real time, and a dedicated AI Agent handles post-purchase questions — order lookups, return requests — conversationally, without a human needing to look anything up manually. Few competitors document this specific a level of Shopify-AI integration depth." },
+    { "area": "Haptik-Powered AI", "note": "Running on Haptik's enterprise AI platform gives Interakt's AI Agents real technical backing rather than a thin wrapper around a generic model — Haptik itself is a substantial, Jio-owned enterprise AI company. The tradeoff is that no independently audited resolution rate exists specifically for Interakt's implementation of that platform." },
+    { "area": "Channel Scope", "note": "Deliberately narrow: WhatsApp and Instagram only. If your support volume is genuinely concentrated on WhatsApp commerce, this focus works in the product's favor by keeping the experience tight. If you need broader channel coverage, this isn't the right tool — competitors like Respond.io or Trengo cover far more ground." },
+    { "area": "Team Collaboration & Analytics", "note": "The Shared Team Inbox handles the basics well — unlimited teammates, conversation assignment — but independent reviewers specifically and consistently flag limited analytics depth and less sophisticated routing logic than more mature competitors offer. Test both directly against your team's actual reporting needs before committing." },
+    { "area": "Data Currency", "note": "Worth being direct about: the independent review base evaluating this product is notably dated, concentrated in 2022-2023 with little recent activity found. Treat sentiment here as describing an earlier version of the product rather than necessarily its current state, and verify current functionality directly rather than relying heavily on older reviews." }
+  ],
+  "pros": [
+    "A genuinely deep, distinctive Shopify integration with real-time catalog sync and an AI Agent that handles order lookups and returns conversationally",
+    "AI Agents built on Haptik's enterprise AI platform, giving real technical backing from a substantial, Jio-owned AI company",
+    "A low entry platform fee (~$12/month) relative to most competitors in this category",
+    "Broader-than-expected integration list for a WhatsApp-focused tool, including the distinctive Webflow support alongside Shopify, WooCommerce, HubSpot, and Zoho",
+    "The Shared Team Inbox and basic automation are genuinely praised as useful and accessible for small teams"
+  ],
+  "cons": [
+    "Channel coverage is limited to WhatsApp and Instagram, meaningfully narrower than broader omnichannel competitors",
+    "Independent reviewers specifically flag weak support responsiveness, limited uptime transparency, and message delays",
+    "Analytics depth and advanced routing logic are documented as real limitations versus more mature competitors",
+    "The subscription-plus-consumption-plus-Meta-fees pricing structure requires modeling three separate cost layers to estimate real monthly spend",
+    "The available independent review base is notably dated (mostly 2022-2023), making current-state sentiment harder to verify"
+  ],
+  "sentiment": [
+    {
+      "quote": "The shared inbox and basic automation are commonly praised to be useful for small teams.",
+      "source": "Aggregated independent review sentiment (G2/Capterra)",
+      "url": "https://www.g2.com/products/haptik-interakt/reviews",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Users express concern over complicated platform and automation setups, weak support responsiveness, slowness or delayed messages and limited transparency on uptime.",
+      "source": "Aggregated independent review sentiment (G2/Capterra)",
+      "url": "https://www.capterra.com/p/241014/Interakt/reviews",
+      "sentiment": "negative"
+    }
+  ],
+  "bestFor": [
+    "India-based or India-focused Shopify or WooCommerce merchants wanting deep WhatsApp commerce automation",
+    "Small teams wanting a low-cost entry point into a shared WhatsApp inbox with basic automation",
+    "Businesses whose support volume is genuinely concentrated on WhatsApp and Instagram rather than spread across many channels",
+    "Buyers comfortable modeling a three-layer pricing structure (platform fee, conversation wallet, Meta fees) rather than a single flat number"
+  ],
+  "verdict": "Interakt's clearest strength is also its narrowest: a genuinely deep, well-built Shopify integration where real-time catalog sync and an AI Agent that conversationally handles order lookups and returns go meaningfully further than most competitors' generic ecommerce claims. That capability is backed by real technical substance — the AI Agents run on Haptik's enterprise AI platform, and while Interakt is a separate company from Haptik, the shared founder and explicit co-branding on at least one review site suggest a closer partnership than coincidence. Where the product is more limited is breadth: channel coverage stops at WhatsApp and Instagram, which is a real constraint if your support volume spans further, and independent reviewers consistently flag analytics depth and routing sophistication as gaps versus more mature competitors. The support-responsiveness and uptime-transparency complaints are worth taking seriously too, though I'd flag directly that the review base evaluating all of this is notably dated — mostly 2022-2023, with little recent activity found — so treat this as a snapshot of an earlier product state and verify current functionality directly before committing. My honest read: if you're a Shopify or WooCommerce merchant, especially one focused on the Indian market, and your support volume is genuinely WhatsApp-centric, Interakt's commerce-specific AI capability is a real, differentiated strength worth evaluating at its low entry price. If you need broader channel coverage or more mature analytics and routing, look at a more omnichannel-focused competitor instead.",
+  "rating": 3.4,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}

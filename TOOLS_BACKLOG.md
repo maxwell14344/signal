@@ -44,6 +44,8 @@ no longer applies going forward.
 - [x] Respond.io
 - [x] SleekFlow (public pricing conflicting across sources, noted in profile)
 - [x] Trengo
+- [x] Interakt (shares founder with Haptik, AI powered by Haptik's platform, noted in profile)
+- [x] Wati (flagged serious repeated billing/cancellation complaints in reviews)
 
 ## Attempted, failed, not yet retried
 
@@ -53,10 +55,9 @@ no longer applies going forward.
 
 Live Chat & Helpdesk: (all done — see "Added so far" below)
 
-WhatsApp / Omnichannel Messaging: Interakt,
-Wati, AiSensy, Yellow.ai, Twilio Flex, MessageBird (Bird), Zoko,
-DelightChat, Charles, Gallabox, Verloop, Haptik, Kommo, 360dialog,
-Rasayel
+WhatsApp / Omnichannel Messaging: AiSensy, Yellow.ai, Twilio Flex,
+MessageBird (Bird), Zoko, DelightChat, Charles, Gallabox, Verloop,
+Haptik, Kommo, 360dialog, Rasayel
 
 Chatbot / Automation Builders: Chatfuel, Landbot, Botpress, YourGPT,
 Voiceflow, MobileMonkey, Drift, Ada, Ultimate.ai, Cognigy, Kore.ai,

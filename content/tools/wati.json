@@ -1,0 +1,163 @@
+{
+  "slug": "wati",
+  "name": "Wati",
+  "logoUrl": "",
+  "website": "https://www.wati.io",
+  "tagline": "A well-funded, Shopify-backed WhatsApp AI platform with genuinely strong commerce capability — undermined by a serious, repeated pattern of billing and cancellation complaints.",
+  "tldr": [
+    "Wati grew out of Clare.AI, a 2016 Hong Kong enterprise chatbot maker whose clients included JPMorgan and Fidelity, launching as a dedicated WhatsApp platform in 2020 and raising $32.3M+ total, including a Series B specifically backed by Shopify itself alongside Tiger Global and Sequoia.",
+    "Pricing runs Growth $60/mo, Pro $120/mo ('Best Value'), Business $300/mo (all annual rates, roughly 15-17% higher billed monthly), plus a ₹999 pay-as-you-go single-user option — but per-message WhatsApp fees, per-user overages, and add-ons stack on top of every tier.",
+    "The AI stack is genuinely multi-layered: KnowBot trains on files or website URLs to answer from a knowledge base, a context-aware AI Support Agent claims to automate up to 80% of routine support, and Astra AI Agents is a separate, more advanced add-on tier.",
+    "Shopify integration is a real standout, unsurprising given Shopify's own investment — a dedicated 'AI Chat & Abandoned Cart' app on the Shopify App Store recovers carts and answers order questions directly in WhatsApp.",
+    "The single most serious issue on record is billing integrity: multiple independent reviewers describe being forced into annual payments despite being told billing was monthly, continued charges after cancellation requests, and real total costs reported at roughly five times the headline price once per-message and add-on fees are included.",
+    "Best for ecommerce brands wanting deep, Shopify-specific WhatsApp AI commerce capability — but budget conservatively, get every billing term in writing before committing, and be aware that customer support responsiveness is a widely repeated independent complaint."
+  ],
+  "categories": { "primary": "whatsapp-social-messaging-ai", "secondary": ["ai-support-agents"] },
+  "channels": ["WhatsApp", "Instagram", "RCS", "Voice", "Web Chat"],
+  "keyFeatures": [
+    "KnowBot — trains a chatbot on uploaded files or website URLs to answer customer questions automatically from that content",
+    "A context-aware AI Support Agent that resolves routine queries without human involvement and routes complex conversations via advanced routing rules",
+    "Astra AI Agents — a more advanced AI capability tier available as an add-on on Pro and above",
+    "Wati AI Copilot — real-time agent assistance, metered by monthly credits that scale with plan tier",
+    "A dedicated 'AI Chat & Abandoned Cart' Shopify app for cart recovery and order-related conversations directly in WhatsApp",
+    "Quick Replies (canned responses) supporting contact-variable personalization and media attachments",
+    "A shared Team Inbox for managing WhatsApp conversations across a team from one number",
+    "CTWA (Click-to-WhatsApp Ads) optimization and Instagram automation on Pro and above"
+  ],
+  "companyInfo": {
+    "founded": "Grew out of Clare.AI (founded 2016, Hong Kong, enterprise chatbot maker for clients including JPMorgan and Fidelity); launched as Wati in 2020",
+    "hq": "Hong Kong",
+    "funding": "$32.3M+ raised, including a Series A led by Sequoia India and a Series B led by Tiger Global with participation from DST Global and — notably — Shopify itself",
+    "employees": "Not publicly disclosed"
+  },
+  "faq": [
+    {
+      "question": "Is Wati a new company, or does it have a longer track record?",
+      "answer": "It has real history behind it: Wati grew out of Clare.AI, a Hong Kong enterprise chatbot company founded in 2016 whose clients included JPMorgan and Fidelity, before pivoting specifically to WhatsApp and launching as Wati in 2020. That's a more substantial technical pedigree than many WhatsApp-focused startups in this category."
+    },
+    {
+      "question": "Why did Shopify invest in Wati?",
+      "answer": "Shopify participated in Wati's Series B specifically as a strategic investment, consistent with Wati's genuinely strong, purpose-built ecommerce integration — a dedicated 'AI Chat & Abandoned Cart' app on the Shopify App Store handles cart recovery and order questions directly inside WhatsApp. If your business runs on Shopify, this is one of the more credible AI-commerce integrations in this category."
+    },
+    {
+      "question": "What is the most serious concern about Wati?",
+      "answer": "Billing integrity, and it's a specific, repeated pattern rather than an isolated complaint. Multiple independent reviewers describe being forced into annual payment despite being told billing was monthly, and separately report continued charges after submitting a cancellation request. Independent analysis has also documented cases where the real total bill — once per-message WhatsApp fees and add-ons are included — lands at roughly five times the advertised headline price. Get every billing and cancellation term confirmed in writing before signing, and don't rely on sales conversations alone."
+    },
+    {
+      "question": "How good is Wati's customer support, really?",
+      "answer": "This is the single most common complaint across independent review platforms (Trustpilot, G2, and Capterra alike). Response times on non-priority tickets are reported to run 1-3 business days, and multiple users describe getting stuck in automated support loops before reaching a human. If responsive support is a priority, factor this into your decision and test it directly during a trial before committing to an annual plan."
+    },
+    {
+      "question": "How does Wati's AI actually get trained on my content?",
+      "answer": "KnowBot lets you upload files or point it at website URLs, and it automatically answers customer questions based on that ingested content — a real, documented, automatic training method rather than manual scripting. The separate, more advanced Astra AI Agents tier is positioned as a further add-on beyond KnowBot's base capability."
+    },
+    {
+      "question": "What channels does Wati support beyond WhatsApp?",
+      "answer": "Instagram, RCS (Rich Communication Services), voice, and web chat are all documented — a genuinely broader and more distinctive channel list than several WhatsApp-first competitors, particularly the RCS and voice support, which few competitors in this category offer natively."
+    }
+  ],
+  "scorecard": [
+    { "dimension": "Ease of Setup", "score": 4, "note": "Independent reviewers consistently describe chatbot setup and workflow building as easy and accessible without coding, with only minor learning-curve complaints." },
+    { "dimension": "AI Quality", "score": 3, "note": "A genuinely multi-layered AI stack (KnowBot, AI Support Agent, Astra AI Agents) with a real Shopify-specific commerce implementation, but the vendor's 'up to 80%' automation claim has no independent audit behind it." },
+    { "dimension": "Omnichannel Support", "score": 4, "note": "A broader-than-typical channel list for a WhatsApp-first tool, including RCS and voice alongside WhatsApp, Instagram, and web chat." },
+    { "dimension": "Pricing Value", "score": 1, "note": "A specific, repeated pattern of serious billing complaints — forced annual payment despite monthly-billing claims, continued charges after cancellation, and real total costs reported at roughly five times the headline price — is a genuine trust concern, not just a cost complaint." },
+    { "dimension": "Vendor Support Quality", "score": 2, "note": "Customer support responsiveness is the single most common complaint across every major independent review platform, with reported response times of 1-3 business days on non-priority tickets and users describing automated support loops before reaching a human." }
+  ],
+  "criteriaScores": [
+    { "key": "native-channels", "score": 4, "note": "Documented native support for WhatsApp, Instagram, RCS, voice, and web chat — a genuinely broader channel list than several WhatsApp-first competitors, particularly given the less common RCS and voice support." },
+    { "key": "omnichannel-unification", "score": 4, "note": "AI agents and human teams are documented as unified across the supported channels in one platform, consistent with the product's positioning." },
+    { "key": "ai-availability", "score": 4, "note": "A genuinely multi-layered AI implementation: KnowBot for knowledge-base training, a context-aware AI Support Agent for autonomous resolution, and the separate, more advanced Astra AI Agents add-on tier." },
+    { "key": "ai-resolution-accuracy", "score": 2, "note": "The vendor markets automating 'up to 80%' of routine support, but no independent audit of this figure was found." },
+    { "key": "ai-training-method", "score": 4, "note": "KnowBot is documented as training automatically on uploaded files or website URLs — genuine automatic learning rather than manual scripting." },
+    { "key": "hallucination-controls", "score": 2, "note": "Answers are documented as 'grounded in your knowledge base,' but no specific mechanism (source citation, confidence threshold) was found documented beyond that general claim." },
+    { "key": "automation-depth", "score": 4, "note": "Advanced routing rules for directing complex conversations to the right human agent, combined with tiered automation-trigger allowances (1,000 to 5,000+/month), represent real automation depth." },
+    { "key": "sentiment-intent-detection", "score": 2, "note": "No documentation of real-time sentiment or urgency detection during an active conversation was found in the materials reviewed." },
+    { "key": "unified-inbox", "score": 4, "note": "A shared Team Inbox is documented and confirmed via the product's own Shopify App Store listing ('WhatsApp Team Inbox'), consistent with reviewer praise for ease of use." },
+    { "key": "ai-human-handoff", "score": 4, "note": "Documented as intelligently routing complex conversations to the right human agent via advanced routing rules — a real, specified handoff mechanism rather than a generic claim." },
+    { "key": "internal-collaboration", "score": 2, "note": "No specific documentation of internal notes or @mentions was found in the materials reviewed, despite the product's team-inbox positioning." },
+    { "key": "canned-responses", "score": 5, "note": "Quick Replies are a mature, well-documented feature supporting contact-variable personalization and media attachments — a genuinely complete implementation." },
+    { "key": "integration-shopify", "score": 5, "note": "A dedicated, purpose-built 'AI Chat & Abandoned Cart' app on the Shopify App Store handles cart recovery and order questions directly in WhatsApp — a genuinely deep integration, unsurprising given Shopify's own strategic investment in the company." },
+    { "key": "integration-woocommerce", "score": 2, "note": "The product catalog is described as covering 'ecommerce, CRM, automation, and messaging workflows' generally, but no specific WooCommerce integration was confirmed by name in the materials reviewed." },
+    { "key": "integration-wordpress", "score": 1, "note": "No dedicated WordPress plugin was found in the materials reviewed." },
+    { "key": "integration-wix", "score": 1, "note": "No dedicated Wix integration was found." },
+    { "key": "integration-squarespace", "score": 1, "note": "No dedicated Squarespace integration was found." },
+    { "key": "integration-webflow", "score": 1, "note": "No dedicated Webflow integration was found." },
+    { "key": "integration-automation-platforms", "score": 2, "note": "No specific Zapier, Make, or n8n integration was confirmed in the materials reviewed, despite the platform's overall integration maturity." },
+    { "key": "integration-crm", "score": 4, "note": "HubSpot is included from the Pro tier and Salesforce from the Business tier ('unlimited integrations including Salesforce') — real, tier-gated but confirmed native CRM integration." },
+    { "key": "order-payment-data-access", "score": 4, "note": "The dedicated Shopify cart-recovery and order-question app provides genuine, specific commerce-data access directly inside WhatsApp conversations." },
+    { "key": "multi-language-support", "score": 2, "note": "No documentation of native multi-language or auto-translation capability was found in the materials reviewed." },
+    { "key": "analytics-depth", "score": 2, "note": "No detailed documentation of reporting or analytics depth (CSAT, deflection rate, agent performance) was found in the materials reviewed." },
+    { "key": "pricing-transparency", "score": 1, "note": "Beyond published tier prices, a specific, repeated, and serious pattern of independent-review complaints describes forced annual billing despite monthly-billing claims, continued charges after cancellation, and real total costs reported at roughly five times the headline price once per-message and add-on fees are included — a genuine trust and transparency failure, not just an unclear pricing page." },
+    { "key": "api-webhook-extensibility", "score": 3, "note": "API call allowances are explicitly published and scale meaningfully by tier (10,000 to 20 million/month), indicating real, usable API access, though without detailed webhook-event documentation confirmed." }
+  ],
+  "pricing": {
+    "model": "Per-tier SaaS with per-user overages, metered add-ons, and separate per-message WhatsApp fees",
+    "startingPrice": "$60/mo (Growth, annual; $70/mo monthly) or ₹999 one-time pay-as-you-go",
+    "plans": [
+      { "name": "Single User (PAYG)", "price": "₹999 one-time", "billing": "No recurring subscription", "notes": "Includes ₹999 in message credits; no ongoing plan fee." },
+      { "name": "Growth", "price": "$60/mo annual ($70 monthly)", "billing": "Per account", "notes": "1 channel, 3 users, 15k broadcasts/mo, 1,000 automation triggers/mo, 2 integrations, 250 AI Co-pilot credits/mo." },
+      { "name": "Pro", "price": "$120/mo annual ($140 monthly); 'Best Value'", "billing": "Per account, +$24/user/mo beyond 5 included", "notes": "5 users, unlimited broadcasts, 2,000 automation triggers/mo, 5 integrations (incl. HubSpot), 500 AI Co-pilot credits/mo, advanced chatbots, Instagram automation, CTWA, Astra AI Agents add-on." },
+      { "name": "Business", "price": "$300/mo annual ($350 monthly); +$69/user/mo beyond 5 included", "billing": "Per account", "notes": "Unlimited integrations (incl. Salesforce), 5,000 automation triggers/mo, 20M API calls/mo, 1,500 AI Co-pilot credits/mo, multiple WhatsApp numbers, dedicated CSM." }
+    ]
+  },
+  "pricingBreakdown": "Wati's published tier prices ($60-$300/month) look competitive at face value against comparable WhatsApp-focused platforms, but the real cost story is more concerning than a typical 'watch the add-ons' caveat. Per-message WhatsApp fees vary by country code and template type and stack on top of every plan, per-user overages run $24-69/month beyond each tier's included seats, and Shopify integration itself carries an additional $4.99/month charge. Independent analysis has documented cases where the real total bill lands at roughly five times the advertised headline price once all of this is included — a genuinely large gap, not a minor rounding difference. Combined with multiple specific reviewer accounts of being forced into annual billing despite being told the plan was monthly, and reports of continued charges after a cancellation request, the honest advice here is to get every cost component and cancellation term confirmed in writing before signing anything, and to model your real expected message volume and per-user cost rather than budgeting from the headline tier price alone.",
+  "capabilities": [
+    { "area": "Shopify Commerce AI", "note": "Wati's clearest, most credible strength — a dedicated, purpose-built app for cart recovery and order questions directly in WhatsApp, backed by Shopify's own strategic investment in the company. For a Shopify-based ecommerce brand, this is one of the more genuinely deep AI-commerce integrations in this category." },
+    { "area": "Multi-Layered AI Stack", "note": "KnowBot, the AI Support Agent, and Astra AI Agents represent real, tiered AI sophistication — training on your own files and URLs, resolving routine queries autonomously, and routing complexity to humans via advanced rules. The vendor's 80% automation claim has no independent audit, so verify against your own content rather than the marketed figure." },
+    { "area": "Channel Breadth", "note": "A genuinely wider channel list than many WhatsApp-first competitors — RCS and voice support alongside WhatsApp, Instagram, and web chat are distinctive additions few competitors in this category document natively." },
+    { "area": "Billing Practices", "note": "This deserves to be treated as its own capability area given how seriously and repeatedly it comes up in independent reviews. Specific, concrete complaints — forced annual billing despite monthly-billing claims, continued charging after cancellation, real costs reported at roughly five times the headline price — go beyond typical pricing-complexity grumbling into genuine trust concerns. This is the single factor most likely to determine whether a Wati relationship goes well or badly." },
+    { "area": "Customer Support", "note": "The most consistently repeated complaint across every independent review platform reviewed (Trustpilot, G2, Capterra). Reported response times of 1-3 business days on non-priority tickets and accounts of automated support loops before reaching a human suggest this is a real operational limitation, not an isolated bad experience." }
+  ],
+  "pros": [
+    "A genuinely deep, purpose-built Shopify integration for cart recovery and order questions, backed by Shopify's own strategic investment in the company",
+    "A multi-layered, genuinely sophisticated AI stack (KnowBot, AI Support Agent, Astra AI Agents) rather than a single generic chatbot",
+    "Broader channel coverage than many WhatsApp-first competitors, including RCS and voice",
+    "Real institutional funding ($32.3M+) and technical pedigree tracing back to enterprise chatbot maker Clare.AI (2016)",
+    "Consistently praised ease of setup and no-code workflow building in independent reviews"
+  ],
+  "cons": [
+    "A specific, repeated, and serious pattern of billing complaints: forced annual payment despite monthly-billing claims, continued charges after cancellation requests, and real total costs reported at roughly five times the headline price",
+    "Customer support responsiveness is the single most common complaint across every major independent review platform, with 1-3 business day response times reported on non-priority tickets",
+    "No independently audited AI resolution-rate figure exists to verify the vendor's 80% automation claim",
+    "No documentation of internal collaboration tools (notes, @mentions), multi-language support, or detailed analytics/reporting depth",
+    "No dedicated WordPress, Wix, Squarespace, or Webflow integration, and no confirmed Zapier/Make integration"
+  ],
+  "sentiment": [
+    {
+      "quote": "Chatbot setup and implementation is very easy at WATI... its server issue, most of the time its shows timeout.",
+      "source": "Capterra (Yashraj J., IT Manager, Furniture, 5/5)",
+      "url": "https://www.capterra.com/p/204314/WATI/reviews/",
+      "sentiment": "mixed"
+    },
+    {
+      "quote": "Customer service is completely unreliable. They force annual payments despite claiming monthly billing.",
+      "source": "Capterra (Tarek Mohamad Al Haddad T., Manager, Arts & Crafts, 1/5)",
+      "url": "https://www.capterra.com/p/204314/WATI/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Impossible to contact, too complicated and no support. They keep charging despite cancellation requests.",
+      "source": "Capterra (Zaid A., Account Manager, Marketing & Advertising, 1/5)",
+      "url": "https://www.capterra.com/p/204314/WATI/reviews/",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Amazing platform; easily create automation and integrate internal tools... Android app is slow; takes time to open from notifications.",
+      "source": "Capterra (Manjunath K., Director, Telecommunications, 5/5)",
+      "url": "https://www.capterra.com/p/204314/WATI/reviews/",
+      "sentiment": "mixed"
+    }
+  ],
+  "bestFor": [
+    "Shopify-based ecommerce brands wanting deep, purpose-built AI cart-recovery and order-question capability in WhatsApp",
+    "Businesses needing RCS or voice channel support alongside WhatsApp, which few competitors offer natively",
+    "Teams comfortable getting every billing and cancellation term confirmed in writing before committing to a plan",
+    "Buyers who will actively model real per-message and per-user costs rather than budgeting from the headline tier price"
+  ],
+  "verdict": "Wati's technical foundation is more credible than most WhatsApp-focused competitors — it grew out of an enterprise chatbot maker with JPMorgan and Fidelity as clients, and Shopify's own strategic investment in the Series B lines up with a genuinely deep, purpose-built commerce integration: a dedicated app that recovers abandoned carts and answers order questions directly inside WhatsApp. The broader AI stack, KnowBot training on your own files and URLs plus a context-aware AI Support Agent and the more advanced Astra AI Agents tier, is real, tiered sophistication rather than a single generic chatbot bolted onto a messaging tool. Channel breadth is also genuinely wider than typical for this category, with RCS and voice support alongside the expected WhatsApp, Instagram, and web chat. All of that said, I have to be direct about what independent reviewers keep describing, because it's serious and specific rather than vague: multiple accounts of being forced into annual billing despite being told the plan was monthly, reports of continued charges after cancellation requests, and independently documented cases where the real total bill lands at roughly five times the advertised headline price once message fees and add-ons stack up. Layer on customer support being the single most repeated complaint across every major review platform, with multi-day response times and automated loops before reaching a human, and the honest picture is a genuinely capable product wrapped in a customer relationship that multiple independent, specific accounts describe as adversarial around billing. My honest read: if Wati's Shopify-specific AI commerce capability is genuinely what you need, it's real and worth evaluating — but go in with every cost component and cancellation term confirmed in writing, monitor your first few billing cycles closely, and don't assume a sales conversation's verbal terms will hold without documentation.",
+  "rating": 3.2,
+  "trending": false,
+  "authorSlug": "maxwell-timothy",
+  "dateAdded": "2026-08-28",
+  "lastVerifiedAt": "2026-08-28"
+}
